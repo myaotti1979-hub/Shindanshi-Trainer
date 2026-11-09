@@ -196,7 +196,25 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .grp{padding-block:10px;border-bottom:1px dashed var(--guide);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center}
 .grp-n{font-weight:700;font-size:14.5px}
 .grp-m{font-size:12px;color:var(--ink-2);grid-column:1}
-.grp .btn{grid-row:1 / span 2;grid-column:2}
+.grp-b{grid-row:1 / span 2;grid-column:2;display:flex;gap:6px}
+
+/* テキスト */
+#reader{z-index:25}
+.tx-sec{display:flex;flex-direction:column;gap:10px;padding-block:6px 20px;border-bottom:1px solid var(--guide)}
+.tx-sec h3{margin:0;font-size:17px;font-weight:900;line-height:1.45;text-wrap:balance}
+.tx-sec h4{margin:6px 0 0;font-size:15px;font-weight:700;color:var(--drop)}
+.tx-sec p{margin:0;font-size:15px;line-height:1.85;text-wrap:pretty}
+.tx-sec ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.75}
+.tx-case,.tx-point,.tx-trap{border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75;display:flex;flex-direction:column;gap:2px}
+.tx-case{background:var(--sheet);border:1px solid var(--guide)}
+.tx-point{background:var(--good-soft)}
+.tx-trap{background:var(--warn-soft)}
+.tx-case b,.tx-point b,.tx-trap b{font-size:12px;letter-spacing:.06em}
+.tx-case b{color:var(--drop)}
+.tx-point b{color:var(--good)}
+.tx-trap b{color:var(--warn)}
+.tx-hl h3{color:var(--drop)}
+.tx-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .grp details{grid-column:1 / -1;font-size:13px;color:var(--ink-2)}
 .grp summary{cursor:pointer;color:var(--drop);font-weight:700;font-size:12.5px}
 .grp ul{margin:6px 0 0;padding-left:1.2em}
@@ -286,7 +304,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
   <main class="gut" id="main"><div class="view" id="view"><p class="fine">読み込んでいます…</p></div></main>
   <nav class="tabs gut" aria-label="画面の切り替え">
     <button class="tab" type="button" data-act="tab" data-tab="today"><span class="tab-dot" aria-hidden="true"></span>今日</button>
-    <button class="tab" type="button" data-act="tab" data-tab="drill"><span class="tab-dot" aria-hidden="true"></span>演習</button>
+    <button class="tab" type="button" data-act="tab" data-tab="drill"><span class="tab-dot" aria-hidden="true"></span>学習</button>
     <button class="tab" type="button" data-act="tab" data-tab="past"><span class="tab-dot" aria-hidden="true"></span>過去問</button>
     <button class="tab" type="button" data-act="tab" data-tab="judge"><span class="tab-dot" aria-hidden="true"></span>判定</button>
     <button class="tab" type="button" data-act="tab" data-tab="log"><span class="tab-dot" aria-hidden="true"></span>記録</button>
@@ -294,13 +312,14 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 </div>
 <section class="panel" id="sess" aria-label="演習" hidden></section>
 <section class="panel" id="msheet" aria-label="過去問の採点" hidden></section>
+<section class="panel" id="reader" aria-label="テキスト" hidden></section>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 <input type="file" id="importFile" accept="application/json,.json" hidden>
 
 <script>
 (function(){
 'use strict';
-var APP_VER='v1';   // sw.js の VER と同じ値にする
+var APP_VER='v2';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -370,7 +389,52 @@ document.addEventListener('visibilitychange',function(){if(document.visibilitySt
 window.addEventListener('pagehide',saveNow);
 
 /* ---------- データ ---------- */
-var DATA={syl:null,past:null,q:{},qById:{},items:{},groups:{}};
+var DATA={syl:null,past:null,q:{},qById:{},items:{},groups:{},text:{}};
+var TEXT_SUBJ=['kigyo'];   // テキスト（data/t_<科目>.json）がある科目。追加したら sw.js の SHELL にも足す
+function loadTexts(){
+  return Promise.all(SUBJ.filter(function(s){return TEXT_SUBJ.indexOf(s.k)>=0;}).map(function(s){
+    return fetch('data/t_'+s.k+'.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}).then(function(j){
+      if(j&&j.chapters){var ix={};j.chapters.forEach(function(c){c.sections.forEach(function(x){ix[x.id]=c.id;});});DATA.text[s.k]={chapters:j.chapters,secCh:ix};}
+    });
+  }));
+}
+function hasText(s,itemId){var T=DATA.text[s];return !!(T&&T.secCh[itemId]);}
+function chapterHas(s,gid){var T=DATA.text[s];return !!(T&&T.chapters.some(function(c){return c.id===gid;}));}
+function renderContent(src){
+  var out=[],list=null;
+  function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');}
+  function closeList(){if(list){out.push('<ul>'+list.join('')+'</ul>');list=null;}}
+  String(src||'').split('\n').forEach(function(raw){
+    var l=raw.trim();
+    if(!l){closeList();return;}
+    if(/^\*\*[^*]+\*\*$/.test(l)){closeList();out.push('<h4>'+esc(l.slice(2,-2))+'</h4>');return;}
+    if(l.charAt(0)==='・'){(list=list||[]).push('<li>'+inline(l.slice(1))+'</li>');return;}
+    closeList();
+    if(l.indexOf('【事例】')===0){out.push('<div class="tx-case"><b>事例</b><span>'+inline(l.slice(4))+'</span></div>');return;}
+    if(l.indexOf('【試験のポイント】')===0){out.push('<div class="tx-point"><b>試験のポイント</b><span>'+inline(l.slice(9))+'</span></div>');return;}
+    if(l.indexOf('【ひっかけ注意】')===0){out.push('<div class="tx-trap"><b>ひっかけ注意</b><span>'+inline(l.slice(8))+'</span></div>');return;}
+    out.push('<p>'+inline(l)+'</p>');
+  });
+  closeList();return out.join('');
+}
+function openText(s,ch,sec,fromSess){
+  var T=DATA.text[s];if(!T)return;if(!ch&&sec)ch=T.secCh[sec];if(!ch)return;
+  UI.reader={s:s,ch:ch,sec:sec||null,fromSess:!!fromSess};$('#reader').hidden=false;renderReader();
+  var sc=$('#reader .p-scroll'),tg=sec?document.getElementById('sec-'+sec.replace(/\./g,'-')):null;
+  if(sc){sc.scrollTop=0;if(tg)sc.scrollTop=Math.max(0,tg.getBoundingClientRect().top-sc.getBoundingClientRect().top-8);}
+}
+function renderReader(){
+  var r=UI.reader,el=$('#reader');
+  if(!r){el.hidden=true;el.innerHTML='';return;}
+  var chs=DATA.text[r.s].chapters,i=-1;chs.forEach(function(c,j){if(c.id===r.ch)i=j;});var c=chs[i];
+  var nq=(DATA.q[r.s]||[]).filter(function(q){return groupOf(q.t)===c.id&&!ST.flags[q.id];}).length;
+  var h='<div class="p-top gut"><button class="icon" type="button" data-act="rd-close" aria-label="閉じる">×</button><span class="p-title">'+esc(c.title)+'<small>'+esc(SN[r.s].n+(c.part?'・'+c.part:''))+'</small></span></div><div class="p-scroll"><div class="p-body gut">';
+  h+=c.sections.map(function(x){return '<section class="tx-sec'+(r.sec===x.id?' tx-hl':'')+'" id="sec-'+x.id.replace(/\./g,'-')+'"><h3>'+esc(x.title)+'</h3>'+renderContent(x.content)+'</section>';}).join('');
+  h+='<div class="tx-nav">'+(i>0?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i-1].id+'">← '+esc(chs[i-1].title)+'</button>':'<span></span>')+(i<chs.length-1?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i+1].id+'">'+esc(chs[i+1].title)+' →</button>':'')+'</div>';
+  h+='<p class="fine">公式の出題範囲にそって書き下ろしたテキストです。誤りに気づいたら、Claudeに節の名前を伝えてください。</p></div></div>';
+  h+='<div class="p-foot gut">'+(r.fromSess?'<button class="btn primary wide" type="button" data-act="rd-close">演習に戻る</button>':(nq?'<button class="btn primary wide" type="button" data-act="rd-drill" data-g="'+c.id+'">この章の演習（'+nq+'問）</button>':'<button class="btn ghost wide" type="button" data-act="rd-close">閉じる</button>'))+'</div>';
+  el.innerHTML=h;
+}
 function loadData(){
   var files=['syllabus','past'].concat(SUBJ.map(function(s){return 'q_'+s.k;}));
   return Promise.all(files.map(function(f){return fetch('data/'+f+'.json').then(function(r){if(!r.ok)throw new Error(f);return r.json();});})).then(function(arr){
@@ -385,7 +449,7 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',drillSub:null,sess:null,sheet:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null};
+var UI={tab:'today',drillSub:null,sess:null,sheet:null,reader:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 
 /* ---------- 集計 ---------- */
@@ -409,10 +473,10 @@ function subjStats(k){
   return {tot:tot,lr:lr,due:due,acc:att?Math.round(cor/att*100):null};
 }
 function coverage(k){
-  var sub=DATA.syl.subjects.filter(function(x){return x.k===k;})[0];var items=0,withQ=0,groups=0,gWith=0;
+  var sub=DATA.syl.subjects.filter(function(x){return x.k===k;})[0];var items=0,withQ=0,withT=0,groups=0,gWith=0;
   var has={};(DATA.q[k]||[]).forEach(function(q){has[q.t]=(has[q.t]||0)+1;});
-  sub.parts.forEach(function(p){p.groups.forEach(function(g){groups++;var any=false;g.items.forEach(function(it){items++;if(has[it.id]){withQ++;any=true;}});if(any)gWith++;});});
-  return {items:items,withQ:withQ,groups:groups,gWith:gWith,has:has};
+  sub.parts.forEach(function(p){p.groups.forEach(function(g){groups++;var any=false;g.items.forEach(function(it){items++;if(has[it.id]){withQ++;any=true;}if(hasText(k,it.id))withT++;});if(any)gWith++;});});
+  return {items:items,withQ:withQ,withT:withT,groups:groups,gWith:gWith,has:has};
 }
 function weakTopics(n){
   var m={};
@@ -504,9 +568,9 @@ function weekBubbles(){
 
 function viewDrill(){
   if(UI.drillSub)return viewSyllabus(UI.drillSub);
-  var h='<section class="sec"><div class="sec-h"><span>科目と論点表</span></div><p class="fine">「学習中」の科目から、新しい問題が1日'+ST.settings.newPerDay+'問まで出ます。復習はすべての科目から出ます。科目名を押すと、公式の出題範囲にそった論点表を開きます。</p><div class="subjs">';
+  var h='<section class="sec"><div class="sec-h"><span>科目と論点表</span></div><p class="fine">科目名を押すと、公式の出題範囲にそった論点表を開きます。論点表から、テキストと演習に進めます。「学習中」の科目から、新しい問題が1日'+ST.settings.newPerDay+'問まで出ます。復習はすべての科目から出ます。</p><div class="subjs">';
   SUBJ.forEach(function(s){var x=subjStats(s.k),cv=coverage(s.k),on=ST.settings.active.indexOf(s.k)>=0;
-    h+='<div class="subj"><button class="subj-n" type="button" data-act="open-syl" data-s="'+s.k+'">'+esc(s.n)+'</button><div class="subj-m">'+x.tot+'問・論点'+cv.withQ+'/'+cv.items+'に問題あり・今日の復習'+x.due+'</div><div class="subj-a"><span class="acc" title="正答率">'+(x.acc==null?'—':x.acc+'%')+'</span><button class="toggle'+(on?' on':'')+'" type="button" data-act="toggle-active" data-s="'+s.k+'" aria-pressed="'+on+'">'+(on?'学習中':'休止中')+'</button></div></div>';});
+    h+='<div class="subj"><button class="subj-n" type="button" data-act="open-syl" data-s="'+s.k+'">'+esc(s.n)+'</button><div class="subj-m">テキスト'+cv.withT+'/'+cv.items+'細目・問題'+x.tot+'問（'+cv.withQ+'細目）・今日の復習'+x.due+'</div><div class="subj-a"><span class="acc" title="正答率">'+(x.acc==null?'—':x.acc+'%')+'</span><button class="toggle'+(on?' on':'')+'" type="button" data-act="toggle-active" data-s="'+s.k+'" aria-pressed="'+on+'">'+(on?'学習中':'休止中')+'</button></div></div>';});
   h+='</div></section>';
   var fl=Object.keys(ST.flags).filter(function(id){return DATA.qById[id];});
   if(fl.length)h+='<section class="sec"><div class="sec-h"><span>報告した問題</span></div><p class="fine">演習から外しています。Claudeに問題番号を伝えると、確認して直した版を出します。</p><ul class="list">'+fl.map(function(id){var q=DATA.qById[id];return '<li class="fl"><b>'+esc(id)+'</b><span>'+esc(q.q)+'</span><div class="row-act"><button class="linkbtn" type="button" data-act="unflag" data-id="'+esc(id)+'">演習に戻す</button></div></li>';}).join('')+'</ul></section>';
@@ -515,14 +579,15 @@ function viewDrill(){
 function viewSyllabus(k){
   var sub=DATA.syl.subjects.filter(function(x){return x.k===k;})[0],cv=coverage(k),acc=groupAcc(k);
   var h='<button class="btn small ghost back" type="button" data-act="close-syl">← 科目一覧</button><section class="sec"><h2 class="ttl">'+esc(sub.n)+'</h2>'
-   +'<div class="cov" aria-label="網羅率"><span class="meter"><i style="width:'+Math.round(cv.withQ/cv.items*100)+'%"></i></span><b>'+cv.withQ+' / '+cv.items+'</b></div>'
-   +'<p class="fine">公式の出題範囲の細目'+cv.items+'のうち、問題がある細目の数です。試験時間'+sub.min+'分・100点。</p>'
+   +'<div class="cov" aria-label="テキストの網羅率"><span class="fine" style="min-width:4.5em">テキスト</span><span class="meter"><i style="width:'+Math.round(cv.withT/cv.items*100)+'%"></i></span><b>'+cv.withT+' / '+cv.items+'</b></div>'
+   +'<div class="cov" aria-label="問題の網羅率"><span class="fine" style="min-width:4.5em">問題</span><span class="meter"><i style="width:'+Math.round(cv.withQ/cv.items*100)+'%"></i></span><b>'+cv.withQ+' / '+cv.items+'</b></div>'
+   +'<p class="fine">公式の出題範囲の細目'+cv.items+'のうち、テキストと問題がある細目の数です。試験時間'+sub.min+'分・100点。</p>'
    +((DATA.q[k]||[]).length?'<button class="btn primary" type="button" data-act="drill-subj" data-s="'+k+'">この科目を10問</button>':'')+'</section>';
   sub.parts.forEach(function(p){
     h+='<section class="sec">'+(p.n?'<div class="sec-h"><span>'+esc(p.n)+'</span></div>':'');
-    p.groups.forEach(function(g){var nq=0;g.items.forEach(function(it){nq+=cv.has[it.id]||0;});var a=acc[g.id];
-      h+='<div class="grp"><span class="grp-n">'+esc(g.n)+'</span><span class="grp-m">問題'+nq+'問'+(a?'・正答率'+a+'%':'')+'</span>'+(nq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g.id+'">演習</button>':'<span></span>')
-       +'<details><summary>細目'+g.items.length+'</summary><ul>'+g.items.map(function(it){return '<li'+(cv.has[it.id]?' class="has"':'')+'>'+esc(it.n)+(cv.has[it.id]?'（'+cv.has[it.id]+'問）':'')+'</li>';}).join('')+'</ul></details></div>';});
+    p.groups.forEach(function(g){var nq=0;g.items.forEach(function(it){nq+=cv.has[it.id]||0;});var a=acc[g.id],ht=chapterHas(k,g.id);
+      h+='<div class="grp"><span class="grp-n">'+esc(g.n)+'</span><span class="grp-m">'+(ht?'テキストあり・':'')+'問題'+nq+'問'+(a?'・正答率'+a+'%':'')+'</span><span class="grp-b">'+(ht?'<button class="btn small ghost" type="button" data-act="open-text" data-s="'+k+'" data-ch="'+g.id+'">テキスト</button>':'')+(nq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g.id+'">演習</button>':'')+'</span>'
+       +'<details><summary>細目'+g.items.length+'</summary><ul>'+g.items.map(function(it){var t=hasText(k,it.id);return '<li'+(cv.has[it.id]||t?' class="has"':'')+'>'+esc(it.n)+(t||cv.has[it.id]?'（'+[t?'テキスト':'',cv.has[it.id]?cv.has[it.id]+'問':''].filter(Boolean).join('・')+'）':'')+'</li>';}).join('')+'</ul></details></div>';});
     h+='</section>';
   });
   h+='<p class="fine">出典：'+esc(DATA.syl.source)+'</p>';
@@ -606,9 +671,10 @@ function viewLog(){
   h+='<section class="sec"><div class="sec-h"><span>学習記録のバックアップ</span></div><p class="fine">記録はこの端末のブラウザにだけ保存しています。機種変更やアプリの削除の前に、書き出してください。</p>'
    +'<div class="row-act"><button class="btn small" type="button" data-act="export">書き出す</button><button class="btn small ghost" type="button" data-act="import">読み込む</button></div>';
   if(UI.confirmImport)h+='<div class="confirm"><span>'+esc(UI.confirmImport.label)+'の記録で、今の記録を置き換えます。よろしいですか。</span><div class="row-act"><button class="btn small primary" type="button" data-act="import-ok">置き換える</button><button class="btn small ghost" type="button" data-act="import-cancel">やめる</button></div></div>';
-  h+='</section><section class="sec"><div class="sec-h"><span>このアプリ</span></div><p class="fine">版 '+APP_VER+'・問題 '+allQ().length+'問・論点表 '+Object.keys(DATA.items).length+'細目・過去問の正解 '+keyCount()+'科目年度分。出題範囲は令和8年度の試験案内、正解と配点は中小企業診断協会の公表資料によります。</p></section>';
+  h+='</section><section class="sec"><div class="sec-h"><span>このアプリ</span></div><p class="fine">版 '+APP_VER+'・テキスト '+textCount()+'節・問題 '+allQ().length+'問・論点表'+Object.keys(DATA.items).length+'細目・過去問の正解 '+keyCount()+'科目年度分。出題範囲は令和8年度の試験案内、正解と配点は中小企業診断協会の公表資料によります。</p></section>';
   return h;
 }
+function textCount(){var n=0;Object.keys(DATA.text).forEach(function(k){DATA.text[k].chapters.forEach(function(c){n+=c.sections.length;});});return n;}
 function keyCount(){var n=0;DATA.past.years.forEach(function(e){SUBJ.forEach(function(s){if(e.subjects[s.k].items)n++;});});return n;}
 function weekChart(weeks,tg){
   var VW=320,VH=150,L=8,R=8,T=20,B=24,max=Math.max(tg*1.25,60,Math.max.apply(null,weeks.map(function(w){return w.min;})));
@@ -680,7 +746,7 @@ function renderSession(){
   if(rev){
     var ansTxt=isTF(q)?(q.a?'○':'×'):LT[q.a];
     h+='<div class="res '+(ok?'ok':'ng')+'" aria-live="polite"><div class="res-h">'+(ok?'正解':'不正解')+'<span class="res-a">正しくは '+ansTxt+'</span></div><p>'+esc(q.e)+'</p>'+(q.ref?'<p class="ref">根拠：'+esc(q.ref)+'</p>':'')
-     +'<div class="row-act">'+(ST.flags[id]?'<span class="fine">報告済み（演習から外しました）</span>':'<button class="linkbtn" type="button" data-act="flag">誤りを報告</button>')+'<span class="fine">問題番号 '+esc(id)+'</span></div></div>';
+     +'<div class="row-act">'+(hasText(q.s,q.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+q.s+'" data-sec="'+esc(q.t)+'">テキストで確認</button>':'')+(ST.flags[id]?'<span class="fine">報告済み（演習から外しました）</span>':'<button class="linkbtn" type="button" data-act="flag">誤りを報告</button>')+'<span class="fine">問題番号 '+esc(id)+'</span></div></div>';
   }
   h+='</div></div><div class="p-foot gut">'+(rev?'<button class="btn primary wide" type="button" data-act="next">次へ</button>':'<p class="fine center">'+(s.phase==='answer'?(isTF(q)?'正しければ○、誤りなら×':'答えを1つ選ぶ'):'自信を選ぶと答え合わせ')+'</p>')+'</div>';
   el.innerHTML=h;
@@ -809,6 +875,10 @@ document.addEventListener('click',function(ev){
     case 'go':startSession(Number(b.dataset.n)||10);break;
     case 'ahead':startSession(10,null,true);break;
     case 'drill-group':{var g=b.dataset.g;if(UI.sheet){UI.sheet=null;renderSheet();}startSession(10,function(q){return groupOf(q.t)===g;});break;}
+    case 'open-text':openText(b.dataset.s,b.dataset.ch||null,b.dataset.sec||null,!!(UI.sess&&!$('#sess').hidden));break;
+    case 'rd-close':UI.reader=null;renderReader();break;
+    case 'rd-go':if(UI.reader){UI.reader.ch=b.dataset.ch;UI.reader.sec=null;renderReader();var rs=$('#reader .p-scroll');if(rs)rs.scrollTop=0;}break;
+    case 'rd-drill':{var rg=b.dataset.g;UI.reader=null;renderReader();if(UI.sheet){UI.sheet=null;renderSheet();}startSession(10,function(q){return groupOf(q.t)===rg;});break;}
     case 'drill-subj':{var sk=b.dataset.s;startSession(10,function(q){return q.s===sk;});break;}
     case 'open-syl':UI.drillSub=b.dataset.s;$('#main').scrollTop=0;render();break;
     case 'close-syl':UI.drillSub=null;render();break;
@@ -824,7 +894,7 @@ document.addEventListener('click',function(ev){
     case 's-continue':if(s){s.confirmEnd=false;renderSession();}break;
     case 's-done':UI.sess=null;renderSession();render();break;
     case 's-more':{UI.sess=null;renderSession();var c=counts();startSession(10,null,c.due+c.newToday===0);render();break;}
-    case 'flag':{if(!s)break;var fid=s.q[s.i];ST.flags[fid]={at:Date.now()};save();toast('報告しました。「演習」タブに残ります');renderSession();break;}
+    case 'flag':{if(!s)break;var fid=s.q[s.i];ST.flags[fid]={at:Date.now()};save();toast('報告しました。「学習」タブに残ります');renderSession();break;}
     case 'unflag':delete ST.flags[b.dataset.id];save();toast('演習に戻しました');render();break;
     case 'toggle-active':{var k=b.dataset.s,act=ST.settings.active;ST.settings.active=SUBJ.map(function(x){return x.k;}).filter(function(x){return x===k?act.indexOf(k)<0:act.indexOf(x)>=0;});save();render();break;}
     case 'open-sheet':openSheet(b.dataset.s,b.dataset.y);break;
@@ -852,7 +922,7 @@ document.addEventListener('submit',function(ev){
   if(k==='manual')addManual();else if(k==='settings')saveSettings();
 });
 document.addEventListener('keydown',function(ev){
-  var s=UI.sess;if(!s||$('#sess').hidden)return;if(ev.target.closest&&ev.target.closest('input,select,textarea'))return;
+  var s=UI.sess;if(!s||$('#sess').hidden||UI.reader)return;if(ev.target.closest&&ev.target.closest('input,select,textarea'))return;
   var k=ev.key.toLowerCase(),q=DATA.qById[s.q[s.i]];if(!q)return;
   if(s.phase==='answer'){if(isTF(q)){if(k==='o')pick(true);else if(k==='x')pick(false);}else{var i='12345'.indexOf(k);if(i>=0&&i<q.ch.length)pick(i);}}
   else if(s.phase==='conf'){if(k==='1')answerConf('sure');else if(k==='2')answerConf('unsure');else if(k==='3')answerConf('guess');}
@@ -867,7 +937,7 @@ setInterval(renderHeader,60000);
 /* ---------- 起動 ---------- */
 loadState();
 render();
-loadData().then(function(){render();}).catch(function(){
+loadData().then(function(){render();return loadTexts();}).then(function(){render();}).catch(function(){
   $('#view').innerHTML='<section class="sheet"><p class="lead">問題データを読み込めませんでした。</p><p class="fine">通信できる場所で一度開くと、その後はオフラインでも使えます。</p><button class="btn primary" type="button" onclick="location.reload()">もう一度読み込む</button></section>';
 });
 if('serviceWorker' in navigator){
