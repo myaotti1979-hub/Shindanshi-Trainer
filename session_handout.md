@@ -197,3 +197,12 @@
 - 修正案のない「未確認」4件（保証料上乗せで経営者保証を外す保証の開始2024年3月、中小会計指針2005年、診断士の登録の有効期間5年、中小企業憲章2010年）は、本文のまま残した（いずれも広く知られた事実で、誤りの指摘ではない）。
 - 演習 chusho-05・06（共済）の論点を chusho.2.1.3 に付け替えた（build_data.py の MAP）。
 - 確認：7科目すべてで画面の横はみ出しなし・未処理の記号なし（`node t_allch2.js 科目 x sec-x`）、t_pwa.js は正常。公開するファイルに簡体字などの日本語にない文字がないことを確かめた（記号の ┅ と — だけ）。
+
+## 11m. 本試験形式の演習（v16：経済学・経済政策の全45細目に100問）
+
+- 仕組み：qbank/q_<科目>_*.py に `Q=[dict(id, t, type('single'|'combo'), q, ch, a, ce, e, x, f, ref, keep)]` で書く。build_data.py が読み、qbank/verified.json にあるIDだけを出す（`DRAFT=1 ./rebuild_q.sh` で下書きも出して画面で確かめる）。単答は keep=True でなければ、選択肢を問題IDから決まる順に並べ替える（数値の選択肢は keep=True で小さい順）。
+- 図：問題の資料は text/fig_q_keizai.py の keizai.q.*、解説の図は keizai.qx.*（財務・会計は text/fig_qb_zaimu.py の zaimu.qd.*・zaimu.qx.*）。図の題は画面に出ないので、単位や読み方は問題文・表の見出し・【図】の説明に書く。
+- 検証の指摘から決めたこと：解説に添えるテキストの図が別の数値の例なら、問題と同じ数値の図を作って差し替える。残す場合は【図】に「テキストの例」と書く。
+- 確認：`node t_qb.js keizai-101..200 名前`（指定した問題だけの演習を開き、誤答を選んだ後の画面全体を shots/qb-名前-ID.png に撮る。はみ出しと図の数も出す）。検証の資料は `python3 mk_qpacket.py 科目 開始 終了 出力.md`、検証の結果の反映は `python3 apply_qfix.py review/qb_*.json [--dry] [--mark]`。集計は `python3 qstats.py`。
+- 検証（作成とは別の2人）：review/qb_keizai1.json（101〜156、ok52・fix4）、qb_keizai2.json（157〜195、ok37・fix2）、qb_keizai3.json（196〜200、ok5）。正答の誤り0件。fix は、別の数値のテキストの図（106・112・141、191）、図の目盛と軸名の重なり（187）、根拠の資料名（119：IMF「World Economic Outlook」）。
+- 財務・会計の91問（zaimu-101〜191）は作成済みで検証中（qb_zaimu_a.md → qb_zaimu1.json、qb_zaimu_b.md → qb_zaimu2.json）。次は企業経営理論、運営管理、経営法務、経営情報システム、中小企業経営・政策の順。
