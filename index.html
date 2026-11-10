@@ -215,7 +215,7 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .tx-trap{background:var(--warn-soft)}
 .tx-case b,.tx-point b,.tx-trap b{font-size:12px;letter-spacing:.06em}
 .tx-fig{margin:6px 0 0;overflow-x:auto}.tx-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;color:var(--ink)}.tx-figcap{font-size:12.5px;line-height:1.6;color:var(--ink-2);text-align:left;margin-top:2px}
-.tx-code{margin:6px 0 0;padding:8px 10px;background:var(--sheet);border:1px solid var(--guide);border-radius:8px;overflow-x:auto;white-space:pre;font-family:ui-monospace,Menlo,Consolas,'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic','Meiryo',monospace;font-size:13px;line-height:1.55;color:var(--ink)}
+.tx-code{margin:6px 0 0;padding:8px 10px;background:var(--sheet);border:1px solid var(--guide);border-radius:8px;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-family:ui-monospace,Menlo,Consolas,'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic','Meiryo',monospace;font-size:13px;line-height:1.55;color:var(--ink)}
 .tx-case b{color:var(--drop)}
 .tx-point b{color:var(--good)}
 .tx-trap b{color:var(--warn)}
@@ -325,7 +325,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v6';   // sw.js の VER と同じ値にする
+var APP_VER='v7';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
