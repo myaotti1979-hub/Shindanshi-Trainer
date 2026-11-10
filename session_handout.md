@@ -160,3 +160,21 @@
 - 点検用の資料は `mk_packet.py 出力.md 節ID[,節ID] [問題IDの接頭辞]` で作る（本文の図を、図のソースに置き換えて並べる）。
 - 経営法務の執筆を始めた（text/homu_p1a.py、fig_homu_a.py・fig_homu_b.py、関係図の部品 text/hkit.py の rel）。点検の前なので t_homu.json は公開しない（公開のときに作る）。
 
+
+## 11i. 経営法務の執筆（v14 予定）
+
+- 26節すべてを書いた（text/homu_p1a〜p1f.py、図表128点：fig_homu_a〜f.py、関係図の部品 text/hkit.py の rel）。演習9問の解説の図表は text/qx_homu.py。homu-08 の論点を営業秘密（homu.1.4.8）に付け替えた。
+- 根拠：過去問の調査 review/past_homu_a.json（平成27〜30年度95件）・past_homu_b.json（令和元〜4年度100件）・past_homu_c.json（令和5〜8年度100件）。細目ごとの論点は `python3 homu_pts.py 細目ID,…` で出す。法改正は review/law_homu_2027.json（homu_c が作成中）。
+- 点検（作成とは別の担当、各自が12年分の3つのJSONを参照）：homu_a＝1.1・1.2（review/packet_homu_a.md → text_homu_a.json）、homu_b＝1.3・1.4.1・1.4.2（packet_homu_b.md → text_homu_b.json）、homu_c＝1.4.3〜1.6と演習9問（packet_homu_c.md → text_homu_c.json）。反映は `apply_text_review.py review/text_homu_X.json text/homu_p1*.py`。
+- 確認用：pwa/_prev.html は TEXT_SUBJ に homu・chusho を加えた下見用のページ（公開しない。tar の除外に `--exclude=_prev.html` を足す）。`PAGE=_prev.html node t_allch2.js homu homu.1.4 sec-homu-1-4-2`、`PAGE=_prev.html node t_secshot2.js homu 章ID 節ID light 1`。
+- 公開の手順：点検の反映 → build_text.py homu → index.html の TEXT_SUBJ と sw.js の SHELL に homu を追加 → v14。点検の前に公開する場合は、pwa/data/t_homu.json を消してから。
+- 中小企業経営・政策：調査は past_chusho_a.json（平成27〜令和2年度）・past_chusho_b.json（令和3〜8年度、令和5年度の再試験を含む）が完了。白書（src_chusho_hakusho2026.json）と制度（src_chusho_seisaku2026.json）は作成中。2027年の試験は2026年版の白書が中心（令和8年度は2025年版から出題）。
+
+## 11j. 検証の記録（v14：経営法務のテキスト26節を公開）
+
+- 点検（作成とは別の3人）：review/text_homu_a.json（1.1・1.2、24件：誤り1・誤解5・不足18）、text_homu_b.json（1.3・1.4.1・1.4.2、17件：誤解3・不足14）、text_homu_c.json（1.4.3〜1.6と演習9問、24件：誤解5・不足19）。各担当は過去12年分（平成27年度〜令和8年度、令和5年度の再試験を含む）の出題を協会の正解表で確かめ、本文と図だけで正解の肢を判断できるかを見た。演習9問は、正解が一つに定まり、解説・図とも合っていた。
+- 誤りの1件：職務著作の「法人等」には個人の使用者も含まれる（マンガ家のアシスタントの絵は職務著作で、著作者はマンガ家）。
+- 反映：【置換前】【置換後】は `apply_text_review.py --only`、【追加】は位置の書き方が2通り（「X」の後に「Y」／Y（「X」の後））あったので `apply_add2.py レビュー.json 番号,…` で入れた。図の指摘（kk_llc、reorg_cmp、shohyo_types、ishou、shohyo_ng、jisshi、boshu、kachokin、keihyo、shokei、himitsu、igon、ryuubun、shasai、tse）は図のソースを直した。反映用に手を入れた指摘ファイルは review/text_homu_b_use.json（成年後見の見直しの注記を、確認できた範囲に短くした）・text_homu_c_use.json（遺言の注記から、施行が先の保管証書遺言を外した）。
+- 法改正（review/law_homu_2027.json の26件）から本文に加えたもの：早期事業再生法（2026年12月11日施行）、景品表示法の2024年10月の改正（確約手続・直罰・課徴金の加算）、フリーランス・事業者間取引適正化等法、相続登記の義務化、遺言の押印の任意化と成年後見制度の見直し（施行日が未定なので、施行までは現行の制度で考えると注記）。
+- 確認：6章26節で画面の横はみ出しなし・未処理の記号なし（`PAGE=_prev.html node t_allch2.js homu …`）。図は直したものを1枚ずつ目で確認した。
+- 次：中小企業経営・政策（1章は執筆済み：text/chusho_p1a.py・p1b.py、fig_chusho_a.py・fig_chusho_b.py。2章の政策は review/src_chusho_seisaku2026.json をもとに執筆）。公開まで t_chusho.json は出さない（tar の除外に `--exclude=data/t_chusho.json`）。
