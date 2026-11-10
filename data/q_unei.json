@@ -242,7 +242,7 @@
 "a": 0,
 "e": "JIS Z 8141では、生産管理を、所定の品質・原価・数量と納期で生産するため、需要予測、生産計画、生産の実施、生産統制を行う手続きとその活動とする。生産計画（手順計画、工数計画、日程計画）で何を・いつ・いくつ作るかを決め、生産統制で計画どおりに進める。",
 "st": "ok",
-"n": 1394,
+"n": 1523,
 "ch": [
 "余力管理は、職場や作業者の能力と負荷の差を調整する、生産統制の機能である。",
 "生産の要素の4Mとは、Man（人）、Machine（機械）、Material（材料）、Money（資金）である。",
@@ -262,21 +262,21 @@
 "type": "single",
 "t": "unei.1.1.2",
 "q": "ある製品は、3つの工程を順に通過する。各工程の直行率は、工程1が95％、工程2が90％、工程3が98％である。この製品の全工程を通した直行率として、最も適切なものはどれか。",
-"a": 0,
+"a": 3,
 "e": "直行率は、手直しなしに最終工程まで通過した数量を、工程に投入した数量で割った値。工程が続くときは、各工程の直行率を掛け合わせる。0.95×0.90×0.98＝0.8379で、約83.8％（100個を投入すると、手直しなしに最終工程まで通過するのは約84個）。",
 "st": "ok",
-"n": 1395,
+"n": 1524,
 "ch": [
-"約83.8％",
-"90.0％",
 "約94.3％",
-"98.0％"
+"90.0％",
+"98.0％",
+"約83.8％"
 ],
 "ce": [
-"○ 0.95×0.90×0.98≒0.838",
-"× 最も低い工程の直行率",
 "× 3つの工程の直行率の平均",
-"× 最も高い工程の直行率"
+"× 最も低い工程の直行率",
+"× 最も高い工程の直行率",
+"○ 0.95×0.90×0.98≒0.838"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"全工程を通した直行率（各工程の直行率の積）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"118.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"118.0\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"61.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">工程1と工程2</text><text x=\"127.0\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"134.0\" y=\"2\" width=\"64.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"166.3\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.95</text><text x=\"205.6\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"212.6\" y=\"2\" width=\"64.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"244.9\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.90</text><text x=\"284.3\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"291.3\" y=\"2\" width=\"66.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"291.3\" y=\"2\" width=\"66.7\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"324.6\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">0.855</text><rect x=\"2\" y=\"46\" width=\"111.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"111.7\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"57.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">工程1～工程3</text><text x=\"120.7\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"127.7\" y=\"46\" width=\"63.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"159.3\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.855</text><text x=\"197.9\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"204.9\" y=\"46\" width=\"61.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"235.6\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.98</text><text x=\"273.2\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"280.2\" y=\"46\" width=\"77.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"280.2\" y=\"46\" width=\"77.8\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"319.1\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">約0.838</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 196\" role=\"img\" aria-label=\"生産の管理指標（分子÷分母）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"47.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">指標</text><text x=\"162.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">分子</text><text x=\"295.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">分母</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">歩留り</text><text x=\"100\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">産出された品物の量</text><text x=\"236\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">投入した主原材料の量</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"66.3\" font-size=\"10.5\" style=\"fill:currentColor\">直行率</text><text x=\"100\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">手直しなしに最終工</text><text x=\"100\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">程まで通過した数量</text><text x=\"236\" y=\"66.3\" font-size=\"10.5\" style=\"fill:currentColor\">工程に投入した数量</text><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"102.3\" font-size=\"10.5\" style=\"fill:currentColor\">稼働率</text><text x=\"100\" y=\"102.3\" font-size=\"10.5\" style=\"fill:currentColor\">有効に稼働した時間</text><text x=\"236\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">就業時間</text><text x=\"236\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">（利用できる時間）</text><path d=\"M1 116.5L359 116.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.0\" font-size=\"10.5\" style=\"fill:currentColor\">操業度</text><text x=\"100\" y=\"131.0\" font-size=\"10.5\" style=\"fill:currentColor\">実際の生産量</text><text x=\"236\" y=\"131.0\" font-size=\"10.5\" style=\"fill:currentColor\">生産能力</text><path d=\"M1 138.0L359 138.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"152.5\" font-size=\"10.5\" style=\"fill:currentColor\">能率</text><text x=\"6\" y=\"167.0\" font-size=\"10.5\" style=\"fill:currentColor\">（作業能率）</text><text x=\"100\" y=\"159.8\" font-size=\"10.5\" style=\"fill:currentColor\">標準時間</text><text x=\"236\" y=\"159.8\" font-size=\"10.5\" style=\"fill:currentColor\">実際にかかった時間</text><path d=\"M1 174.0L359 174.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"188.5\" font-size=\"10.5\" style=\"fill:currentColor\">不適合品率</text><text x=\"100\" y=\"188.5\" font-size=\"10.5\" style=\"fill:currentColor\">不適合品の数</text><text x=\"236\" y=\"188.5\" font-size=\"10.5\" style=\"fill:currentColor\">検査した総数</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M94 0L94 194.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M230 0L230 194.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"194.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -288,7 +288,7 @@
 "a": 2,
 "e": "PQCDSMEは、生産性（P）、品質（Q）、原価（C）、納期・数量（D）、安全（S）、作業者の意欲（M）、環境（E）。歩留り、直行率、稼働率、操業度、能率などの指標は、分子と分母を逆にした選択肢がよく出る。",
 "st": "ok",
-"n": 1396,
+"n": 1525,
 "ch": [
 "稼働率は、就業時間（利用できる時間）を、有効に稼働した時間で割った値である。",
 "PQCDSMEのMは、Maintenance（保全）を表す。",
@@ -311,7 +311,7 @@
 "a": 0,
 "e": "度数率＝死傷者数÷延べ実労働時間数×1,000,000で、災害の起きる頻度を表す。強度率＝延べ労働損失日数÷延べ実労働時間数×1,000で、災害の重さを表す。どちらも、値が小さいほど安全である。",
 "st": "ok",
-"n": 1397,
+"n": 1526,
 "ch": [
 "度数率 2.5　強度率 0.15",
 "度数率 2.5　強度率 150",
@@ -334,7 +334,7 @@
 "a": 1,
 "e": "トヨタ生産方式は、ジャスト・イン・タイムと自働化を2本の柱とし、平準化を土台とする。平準化は、最終組立ラインで生産する量と品種の組み合わせを日々・時間ごとに均等にすること。",
 "st": "ok",
-"n": 1398,
+"n": 1527,
 "ch": [
 "段取り時間を短縮するには、外段取りを内段取りに移す。",
 "平準化は、かんばん方式を運用するための前提条件であり、かんばん方式を導入すれば平準化が実現するわけではない。",
@@ -354,29 +354,29 @@
 "type": "combo",
 "t": "unei.1.2.1",
 "q": "JITシステムに関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
-"a": 1,
+"a": 3,
 "e": "引取りかんばん（運搬指示かんばん）が、後工程が前工程から引き取る品目と数量を指示する。生産指示かんばん（仕掛けかんばん）は、前工程に何をいくつ作るかを指示する。平準化や1個流しでは品種を細かく切り替えるので、段取り替えの回数が増え、段取り時間の短縮が欠かせない。",
 "st": "ok",
-"n": 1399,
+"n": 1528,
+"stm": [
+"平準化や1個流しを進めると、段取り替えの回数は減る。",
+"かんばんの枚数を減らすと、工程間の在庫が減り、隠れていた問題が表に出る。",
+"生産指示かんばんは、後工程が前工程から引き取る品目と数量を指示する。",
+"自働化とは、異常が起きたら機械やラインが自動的に止まり、不良品を後工程に流さない仕組みである。"
+],
 "ch": [
 "aとb",
-"aとc",
+"aとd",
 "bとc",
 "bとd",
 "cとd"
 ],
 "ce": [
-"× bは誤り",
+"× aは誤り",
+"× aは誤り",
+"× cは誤り",
 "○",
-"× bは誤り",
-"× bとdは誤り",
-"× dは誤り"
-],
-"stm": [
-"自働化とは、異常が起きたら機械やラインが自動的に止まり、不良品を後工程に流さない仕組みである。",
-"生産指示かんばんは、後工程が前工程から引き取る品目と数量を指示する。",
-"かんばんの枚数を減らすと、工程間の在庫が減り、隠れていた問題が表に出る。",
-"平準化や1個流しを進めると、段取り替えの回数は減る。"
+"× cは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"トヨタ生産方式の2本の柱\" font-size=\"12\"><path d=\"M20 58L180 8L340 58Z\" style=\"fill:var(--warn);fill-opacity:0.18;stroke:var(--warn)\" stroke-width=\"1.4\"/><text x=\"180\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13\" style=\"fill:currentColor\">トヨタ生産方式</text><rect x=\"30\" y=\"64\" width=\"140\" height=\"82\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.3\"/><text x=\"100\" y=\"84\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ジャスト・イン・タイム</text><text x=\"100\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">必要なものを、必要なとき、</text><text x=\"100\" y=\"121\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">必要な量だけ</text><rect x=\"190\" y=\"64\" width=\"140\" height=\"82\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.3\"/><text x=\"260\" y=\"84\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">自働化</text><text x=\"260\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">異常で止まり、</text><text x=\"260\" y=\"121\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">不良を後工程に流さない</text><rect x=\"20\" y=\"150\" width=\"320\" height=\"34\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1.3\"/><text x=\"180\" y=\"172\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">土台：平準化（量と品種の組合せを均等にする）</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"かんばん方式\" font-size=\"12\"><rect x=\"4\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"50\" y=\"83.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前工程</text><rect x=\"134\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"180\" y=\"76.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ストア</text><text x=\"180\" y=\"90.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（部品置き場）</text><rect x=\"264\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"310\" y=\"83.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">後工程</text><path d=\"M98 72 L132 72\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M132 72L126.5 74.4L126.5 69.6Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M228 72 L262 72\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M262 72L256.5 74.4L256.5 69.6Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"180\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">部品の流れ →</text><path d=\"M262 92 L228 92\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\" stroke-linejoin=\"round\"/><path d=\"M228 92L233.5 89.6L233.5 94.4Z\" style=\"fill:var(--drop);stroke:none\"/><path d=\"M132 92 L98 92\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\" stroke-linejoin=\"round\"/><path d=\"M98 92L103.5 89.6L103.5 94.4Z\" style=\"fill:var(--drop);stroke:none\"/><text x=\"246\" y=\"124\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">引取りかんばん</text><text x=\"246\" y=\"138\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:var(--drop)\">（何をいくつ引き取るか）</text><text x=\"115\" y=\"124\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">生産指示かんばん</text><text x=\"115\" y=\"138\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:var(--drop)\">（何をいくつ作るか）</text><text x=\"4\" y=\"22\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">後工程が引き取った分だけ、前工程が作る（プル方式）</text><text x=\"4\" y=\"162\" font-size=\"10\" style=\"fill:currentColor\">かんばんは工程の間を繰り返し循環する。枚数を減らすと在庫が減る</text></svg>"
 },
@@ -388,7 +388,7 @@
 "a": 0,
 "e": "CAD（設計）、CAE（性能の評価）、CAM（加工データなど生産に必要な情報の作成）、CAPP（工程設計の支援）、ERP（基幹業務の統合）、SCM（供給の連鎖全体の最適化）、MES・POP（現場の実行と情報の収集）を、受け持つ範囲で区別する。",
 "st": "ok",
-"n": 1400,
+"n": 1529,
 "ch": [
 "マシニングセンタは、自動工具交換装置を備え、回転する工具を自動で交換しながら、フライス削り、穴あけ、ねじ立てなどを連続して行う数値制御工作機械である。",
 "MESは、販売、生産、購買、在庫、会計、人事などの基幹業務の情報を、1つのデータベースで統合して管理するシステムである。",
@@ -411,7 +411,7 @@
 "a": 3,
 "e": "主な加工には、鋳造（ダイカストを含む）、鍛造、プレス加工、粉体加工、切削（旋盤、フライス盤、ボール盤、ホブ盤）、研削、積層造形などがある。積層造形（3Dプリンタ）は、金型なしに複雑な形をつくれるが、同じ製品の大量生産には向かない。",
 "st": "ok",
-"n": 1401,
+"n": 1530,
 "ch": [
 "粉体加工（焼結）は、金属やセラミックスの粉末を、融点より高い温度で溶かして固める加工である。",
 "旋盤は、回転するフライス（刃物）で、平面、溝、段などを削る工作機械である。",
@@ -434,7 +434,7 @@
 "a": 0,
 "e": "LCAは、目的と調査範囲の設定→インベントリ分析→影響評価→解釈の4段階で進める（ISO14040）。MFCA（ISO14051）は、原材料の流れを物量と金額で追跡し、製品になった部分（正の製品）と失われた部分（負の製品）を分ける。",
 "st": "ok",
-"n": 1402,
+"n": 1531,
 "ch": [
 "マテリアルフローコスト会計（MFCA）では、マテリアルロス（負の製品）にも、材料費や加工費などのコストを配分する。",
 "循環型社会形成推進基本法では、処理の優先順位として、再生利用（リサイクル）が最も優先される。",
@@ -454,20 +454,20 @@
 "type": "single",
 "t": "unei.1.2.3",
 "q": "ある工程に材料200kgを投入し、材料費と加工費の合計は8,000円だった。製品になったのは160kgで、残りは端材として廃棄された。マテリアルフローコスト会計（MFCA）で、コストを物量の比率で配分するとき、負の製品（マテリアルロス）のコストとして、最も適切なものはどれか。",
-"a": 1,
+"a": 2,
 "e": "負の製品は200－160＝40kg。投入した量に占める割合は40÷200＝20％なので、8,000円×20％＝1,600円を配分する。正の製品には6,400円を配分する。ロスにもコストを配分することで、廃棄している材料と加工の損失が金額で見える。",
 "st": "ok",
-"n": 1403,
+"n": 1532,
 "ch": [
 "0円",
-"1,600円",
 "2,000円",
+"1,600円",
 "6,400円"
 ],
 "ce": [
 "× ロスのコストを製品の原価に含めて見えなくする、従来の考え方",
-"○ 8,000円×40kg÷200kg",
 "× ロスの量を、投入した量ではなく、製品の量（160kg）で割っている",
+"○ 8,000円×40kg÷200kg",
 "× それは正の製品のコスト"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"MFCAのコストの配分（物量の比率）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"93.9\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"93.9\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"48.9\" y=\"18.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">負の製品</text><text x=\"48.9\" y=\"32.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">（ロス40kg）</text><text x=\"102.9\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"109.9\" y=\"2\" width=\"64.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"142.0\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">8,000円</text><text x=\"181.2\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"188.2\" y=\"2\" width=\"91.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"233.9\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">40kg÷200kg</text><text x=\"286.6\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"293.6\" y=\"2\" width=\"64.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"293.6\" y=\"2\" width=\"64.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"325.8\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">1,600円</text><rect x=\"2\" y=\"52.2\" width=\"96.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"52.2\" width=\"96.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"50.2\" y=\"69.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">正の製品</text><text x=\"50.2\" y=\"83.1\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">（製品160kg）</text><text x=\"105.5\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"112.5\" y=\"52.2\" width=\"61.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"143.3\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">8,000円</text><text x=\"181.2\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"188.2\" y=\"52.2\" width=\"94.1\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"235.2\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">160kg÷200kg</text><text x=\"289.3\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"296.3\" y=\"52.2\" width=\"61.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"296.3\" y=\"52.2\" width=\"61.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"327.2\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">6,400円</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"正の製品と負の製品（材料費と加工費1,500を重さで配分）\" font-size=\"12\"><text x=\"180.0\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">MFCA（例）</text><rect x=\"1.0\" y=\"22\" width=\"178.0\" height=\"170.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"97.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">投入した材料</text><text x=\"90.0\" y=\"111.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">100kg</text><text x=\"90.0\" y=\"126.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,500</text><rect x=\"181.0\" y=\"22\" width=\"178.0\" height=\"119.0\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"71.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">正の製品</text><text x=\"270.0\" y=\"85.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">70kg</text><text x=\"270.0\" y=\"100.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,050</text><rect x=\"181.0\" y=\"141.0\" width=\"178.0\" height=\"51.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"156.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">負の製品</text><text x=\"270.0\" y=\"170.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">（ロス）30kg</text><text x=\"270.0\" y=\"185.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">450</text></svg>\n【図】テキストの例（この問題とは別の数値）"
@@ -480,7 +480,7 @@
 "a": 0,
 "e": "VEは、必要な機能を最も低いコストで実現するよう、組織的に改善する手法。価値を高める方法は、①機能を保ちコストを下げる、②機能を上げコストを保つ、③機能を上げコストを下げる、④コストを上げる以上に機能を大きく上げる、の4つ。機能定義→機能評価→代替案の作成の順に進める。",
 "st": "ok",
-"n": 1404,
+"n": 1533,
 "ch": [
 "設計の段階で行うVEを1st Look VE、製造の段階で既存の製品について行うVEを2nd Look VEという。",
 "VEでは、機能を下げて、それ以上にコストを下げることも、価値を高める方法として用いる。",
@@ -503,7 +503,7 @@
 "a": 3,
 "e": "デザインレビュー（DR）は、設計の各段階で関係部門の専門家が設計を審査する。品質機能展開は、顧客の要求する品質を設計の品質特性に変換し、部品や工程の管理項目まで展開する手法で、品質表を使う。",
 "st": "ok",
-"n": 1405,
+"n": 1534,
 "ch": [
 "フロントローディングとは、問題の発見と解決を、開発の後半の段階に先送りすることである。",
 "コンカレント・エンジニアリングは、設計、試作、生産準備を、順番に1つずつ確実に進めて、開発期間を短くする。",
@@ -526,7 +526,7 @@
 "a": 2,
 "e": "デカップリングポイントは、見込生産と受注生産の分かれ目（顧客の注文が引き当てられる位置）。ここから先の工程にかかる時間が、顧客の要求する納期より短くなる位置に置く。P-Q分析では、生産量の多い順に、製品別、グループ別、工程別のレイアウトが適する。",
 "st": "ok",
-"n": 1406,
+"n": 1535,
 "ch": [
 "グループテクノロジー（GT）は、多種類の部品を、類似性によらず1つずつ別々に加工する方法である。",
 "受注生産は、在庫から販売するのですぐに納入できるが、売れ残りのリスクがある。",
@@ -549,18 +549,18 @@
 "a": 1,
 "e": "必要なセルの数＝1日の必要生産数量×1個当たりの作業時間÷1日の稼働可能時間＝150×18÷420＝6.43…。端数は切り上げて7セルとする。",
 "st": "ok",
-"n": 1407,
+"n": 1536,
 "ch": [
-"6セル",
+"24セル",
 "7セル",
-"9セル",
-"24セル"
+"6セル",
+"9セル"
 ],
 "ce": [
-"× 150×18÷420＝6.43…の端数を切り捨てている。6セルでは1日に140個しか作れない",
+"× 1つのセルで1日に作れる個数（420÷18≒23.3）を切り上げた値で、セルの数ではない",
 "○ 150×18÷420＝6.43…を切り上げる",
-"× 必要な生産数量を1個当たりの作業時間で割り（150÷18≒8.3）、切り上げている",
-"× 1つのセルで1日に作れる個数（420÷18≒23.3）を切り上げた値で、セルの数ではない"
+"× 150×18÷420＝6.43…の端数を切り捨てている。6セルでは1日に140個しか作れない",
+"× 必要な生産数量を1個当たりの作業時間で割り（150÷18≒8.3）、切り上げている"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"1人生産方式のセルの数\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"106.9\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"106.9\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"55.5\" y=\"18.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">1日に必要な</text><text x=\"55.5\" y=\"32.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">作業時間</text><text x=\"115.9\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"122.9\" y=\"2\" width=\"63.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"154.7\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">150個</text><text x=\"193.4\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"200.4\" y=\"2\" width=\"63.3\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"232.0\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">18分</text><text x=\"270.6\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"277.6\" y=\"2\" width=\"80.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"277.6\" y=\"2\" width=\"80.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"317.8\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">2,700分</text><rect x=\"2\" y=\"52.2\" width=\"65.8\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"52.2\" width=\"65.8\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"34.9\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">セルの数</text><text x=\"74.8\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"81.8\" y=\"52.2\" width=\"107.2\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"135.4\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">2,700分÷420分</text><text x=\"196.0\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"203.0\" y=\"52.2\" width=\"51.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"228.7\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">6.43…</text><text x=\"261.4\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">→</text><rect x=\"268.4\" y=\"52.2\" width=\"89.6\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"268.4\" y=\"52.2\" width=\"89.6\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"313.2\" y=\"69.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">7セル</text><text x=\"313.2\" y=\"83.1\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">（切り上げ）</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 103\" role=\"img\" aria-label=\"セル生産の方式\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"65.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">セル生産の方式</text><text x=\"245.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">しくみ</text><text x=\"6\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">1人生産方式（1人屋台）</text><text x=\"136\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">1人の作業者が全工程を受け持つ。</text><text x=\"136\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">熟練した作業者が必要</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">分割方式</text><text x=\"136\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">複数の作業者で工程を分けて受け持つ</text><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">巡回方式</text><text x=\"136\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">各作業者が全工程を順に回って作業する</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M130 0L130 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"101.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -572,7 +572,7 @@
 "a": 0,
 "e": "製番管理方式は製品ごとに同一の製造番号を付けて管理し、仕様・納期の変更に対応しやすく、製品の履歴をたどりやすい。繰り返しの生産には追番管理方式が向く。製造ロット（加工ロット）と運搬ロット（移動ロット）は、別々に決められる。",
 "st": "ok",
-"n": 1408,
+"n": 1537,
 "ch": [
 "運搬ロットを製造ロットより小さくすると、生産リードタイムと仕掛品は減るが、運搬の回数は増える。",
 "ジョブショップ型の生産では、どの仕事も、同じ順序で工程を流れる。",
@@ -595,7 +595,7 @@
 "a": 2,
 "e": "サイクルタイム＝稼働時間÷生産量＝450÷180＝2.5分。最小工程数＝総作業時間÷サイクルタイム＝12÷2.5＝4.8で、切り上げて5工程。編成効率＝総作業時間÷（工程数×サイクルタイム）＝12÷（5×2.5）＝0.96。バランスロス率は1－0.96＝4％。",
 "st": "ok",
-"n": 1409,
+"n": 1538,
 "ch": [
 "サイクルタイム 2.5分　編成効率 4％",
 "サイクルタイム 0.4分　編成効率 96％",
@@ -618,7 +618,7 @@
 "a": 3,
 "e": "目標の生産量が与えられず、工程への割り振りが決まっているときは、最も作業時間の長い工程（ネック工程）の作業時間がサイクルタイムになる。サイクルタイム2.4分なので、1時間当たりの生産量は60÷2.4＝25個。編成効率＝作業時間の合計10.0分÷（5工程×2.4分）≒83.3％。",
 "st": "ok",
-"n": 1410,
+"n": 1539,
 "ch": [
 "1時間当たり30個　編成効率 100％",
 "1時間当たり40個　編成効率 約83.3％",
@@ -639,21 +639,21 @@
 "type": "single",
 "t": "unei.1.2.7",
 "q": "指数平滑法で需要を予測する。今期の予測値は200、今期の実績値は230、平滑化定数αは0.4である。次期の予測値として、最も適切なものはどれか。",
-"a": 1,
+"a": 0,
 "e": "次期の予測値＝α×今期の実績値＋（1－α）×今期の予測値＝0.4×230＋0.6×200＝92＋120＝212。今期の予測値＋α×（今期の実績値－今期の予測値）＝200＋0.4×30＝212と計算してもよい。",
 "st": "ok",
-"n": 1411,
+"n": 1540,
 "ch": [
-"200",
 "212",
 "218",
-"230"
+"230",
+"200"
 ],
 "ce": [
-"× 今期の予測値のまま",
 "○ 0.4×230＋0.6×200",
 "× αと（1－α）を逆にしている（0.6×230＋0.4×200）",
-"× 今期の実績値のまま（α＝1の場合）"
+"× 今期の実績値のまま（α＝1の場合）",
+"× 今期の予測値のまま"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"指数平滑法（α＝0.4）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"86.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"86.0\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"45.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">次期の予測値</text><text x=\"95.0\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"102.0\" y=\"2\" width=\"90.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"147.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.4×実績230</text><text x=\"199.0\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＋</text><rect x=\"206.0\" y=\"2\" width=\"90.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"251.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.6×予測200</text><text x=\"303.1\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"310.1\" y=\"2\" width=\"47.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"310.1\" y=\"2\" width=\"47.9\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"334.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">212</text><rect x=\"2\" y=\"46\" width=\"68.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"68.1\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">同じ計算</text><text x=\"77.1\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"84.1\" y=\"46\" width=\"64.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"116.1\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">予測200</text><text x=\"155.2\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＋</text><rect x=\"162.2\" y=\"46\" width=\"130.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"227.3\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.4×（230－200）</text><text x=\"299.4\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"306.4\" y=\"46\" width=\"51.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"306.4\" y=\"46\" width=\"51.6\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"332.2\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">212</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"指数平滑法の予測値（需要が100から140に変わった場合）\" font-size=\"12\"><path d=\"M40.0 180.0L40.0 10\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 180.0L350.0 180.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"45.0\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">需要</text><text x=\"348.0\" y=\"212.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">期</text><text x=\"55.4\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"86.2\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2</text><text x=\"117.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3</text><text x=\"147.8\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4</text><text x=\"178.6\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"209.4\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">6</text><text x=\"240.2\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">7</text><text x=\"271.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">8</text><text x=\"301.8\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">9</text><text x=\"332.6\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><text x=\"36.0\" y=\"156.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"36.0\" y=\"44.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">140</text><path d=\"M55.4 152.0 L86.2 152.0 L117.0 152.0 L147.8 152.0 L178.6 40.0 L209.4 40.0 L240.2 40.0 L271.0 40.0 L301.8 40.0 L332.6 40.0\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M55.4 152.0 L86.2 152.0 L117.0 152.0 L147.8 152.0 L178.6 152.0 L209.4 62.4 L240.2 44.5 L271.0 40.9 L301.8 40.2 L332.6 40.0\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M55.4 152.0 L86.2 152.0 L117.0 152.0 L147.8 152.0 L178.6 152.0 L209.4 129.6 L240.2 111.7 L271.0 97.3 L301.8 85.9 L332.6 76.7\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"341.8\" y=\"34.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--ink-3)\">実績</text><text x=\"160.1\" y=\"63.6\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">α＝0.8：すぐ追いつく</text><text x=\"341.8\" y=\"144.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">α＝0.2：ゆっくり追いつく</text></svg>\n【図】テキストの例（αの大きさによる反応の違い。この問題とは別の数値）"
 },
@@ -665,7 +665,7 @@
 "a": 0,
 "e": "時系列による予測には、単純移動平均法、加重移動平均法、指数平滑法がある。指数平滑法は、過去の実績にさかのぼるほど重みが指数関数的に小さくなる加重平均。時系列の変動は、傾向変動、循環変動、季節変動、不規則変動に分けて考える。",
 "st": "ok",
-"n": 1412,
+"n": 1541,
 "ch": [
 "デルファイ法は、複数の専門家に意見を聞き、その集計結果を示して再び意見を聞くことを繰り返し、意見を収束させる方法である。",
 "時系列の変動の要素のうち、1年の中で繰り返す波を、循環変動という。",
@@ -688,7 +688,7 @@
 "a": 1,
 "e": "総所要量＝80個×3＝240個。正味所要量＝総所要量－（手持ちの在庫＋入庫予定）＝240－（60＋50）＝130個。必要な6週目から、リードタイムの3週間さかのぼって、3週目に発注する。",
 "st": "ok",
-"n": 1413,
+"n": 1542,
 "ch": [
 "正味所要量 180個　3週目に発注",
 "正味所要量 130個　3週目に発注",
@@ -711,7 +711,7 @@
 "a": 3,
 "e": "MRPは、MPS（基準生産計画）、部品表（BOM）、在庫の情報から、必要な部品や材料の量と、発注・製造の時期を計算する。総所要量→正味所要量→ロットまとめ→リードタイムによる展開の順に進める。",
 "st": "ok",
-"n": 1414,
+"n": 1543,
 "ch": [
 "サマリー型の部品表は、親と子の階層の関係（どの部品がどの組立品に使われるか）を示す。",
 "MRPは、後工程の引取りに合わせて生産を指示するプル方式の仕組みである。",
@@ -734,7 +734,7 @@
 "a": 3,
 "e": "経路は、A→E（4＋5＝9日）、A→C→F（4＋3＋4＝11日）、B→D→F（2＋6＋4＝12日）の3つ。最も時間のかかるB→D→Fがクリティカル・パスで、所要日数は12日。作業Cは、最早開始時刻が4日、最遅完了時刻が8日なので、3日の作業に1日の余裕がある。2日遅れると、A→C→Fが4＋5＋4＝13日となり、新たなクリティカル・パスになる。",
 "st": "ok",
-"n": 1415,
+"n": 1544,
 "ch": [
 "12日　12日",
 "12日　14日",
@@ -758,7 +758,7 @@
 "a": 3,
 "e": "ジョンソン法は、2つの工程を同じ順序で通る仕事のメイクスパン（総所要時間）を最小にする順序を決める。CPMでは、短縮の結果ほかの経路もクリティカル・パスになったら、それらの経路を同時に短縮しなければ全体は短くならない。",
 "st": "ok",
-"n": 1416,
+"n": 1545,
 "ch": [
 "CPMで全体の期間を短縮するときは、クリティカル・パス上にない作業のうち、費用勾配の最も小さい作業から短縮する。",
 "ジョンソン法で、最も短い作業時間が第2工程のものなら、その仕事を最初に行う。",
@@ -778,21 +778,21 @@
 "type": "single",
 "t": "unei.1.2.9",
 "q": "4つの仕事K1～K4を、2つの工程（第1工程→第2工程）の順に処理する。各仕事の作業時間は表のとおりである。ジョンソン法で決めた順序で処理したときのメイクスパン（最初の仕事を始めてから最後の仕事が終わるまでの時間）として、最も適切なものはどれか。",
-"a": 1,
+"a": 2,
 "e": "すべての作業時間で最も短いのはK3の第1工程（2）なので、K3を最初にする。次に短いのはK2の第2工程（3）なので、K2を最後にする。残りのK1（4、7）とK4（5、6）では、K1の第1工程（4）が最も短いので、K1を2番目にする。順序はK3→K1→K4→K2で、第2工程は、その仕事の第1工程と、第2工程の前の仕事の両方が終わってから始められる。メイクスパンは23時間になる。",
 "st": "ok",
-"n": 1417,
+"n": 1546,
 "ch": [
 "21時間",
+"38時間",
 "23時間",
-"25時間",
-"38時間"
+"25時間"
 ],
 "ce": [
 "× 第2工程の作業時間の合計",
+"× すべての作業時間の合計",
 "○ 順序はK3→K1→K4→K2",
-"× 番号の順（K1→K2→K3→K4）に処理した場合",
-"× すべての作業時間の合計"
+"× 番号の順（K1→K2→K3→K4）に処理した場合"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 110\" role=\"img\" aria-label=\"ジョンソン法の順序の決め方（時間）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"25.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">仕事</text><text x=\"82.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">第1工程</text><text x=\"146.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">第2工程</text><text x=\"269.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">決め方</text><text x=\"25.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">K3</text><text x=\"82.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2</text><text x=\"146.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"184\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">最短2が第1工程 → 最初</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"25.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">K2</text><text x=\"82.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">6</text><text x=\"146.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3</text><text x=\"184\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">次に短い3が第2工程 → 最後</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"25.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">K1</text><text x=\"82.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4</text><text x=\"146.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">7</text><text x=\"184\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">次の4が第1工程 → 2番目</text><path d=\"M1 87.5L359 87.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"25.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">K4</text><text x=\"82.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"146.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">6</text><text x=\"184\" y=\"102.0\" font-size=\"10.5\" style=\"fill:currentColor\">残り → 3番目</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M50 0L50 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M114 0L114 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M178 0L178 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"108.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"順序K3→K1→K4→K2のガントチャート（メイクスパン23時間）\" font-size=\"12\"><text x=\"54\" y=\"24.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">第1工程</text><path d=\"M60 34L352 34\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"60.0\" y=\"10\" width=\"25.4\" height=\"20\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"72.7\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K3</text><rect x=\"85.4\" y=\"10\" width=\"50.8\" height=\"20\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"110.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K1</text><rect x=\"136.2\" y=\"10\" width=\"63.5\" height=\"20\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"167.9\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K4</text><rect x=\"199.7\" y=\"10\" width=\"76.2\" height=\"20\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"237.7\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K2</text><text x=\"54\" y=\"52.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">第2工程</text><path d=\"M60 62L352 62\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"85.4\" y=\"38\" width=\"63.5\" height=\"20\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"117.1\" y=\"52.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K3</text><rect x=\"148.9\" y=\"38\" width=\"88.9\" height=\"20\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"193.3\" y=\"52.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K1</text><rect x=\"237.7\" y=\"38\" width=\"76.2\" height=\"20\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"275.8\" y=\"52.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K4</text><rect x=\"313.9\" y=\"38\" width=\"38.1\" height=\"20\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"333.0\" y=\"52.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">K2</text><path d=\"M60 6L60 62\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M60 62L352 62\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M60.0 62L60.0 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"60.0\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">0</text><path d=\"M123.5 62L123.5 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"123.5\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">5</text><path d=\"M187.0 62L187.0 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"187.0\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">10</text><path d=\"M250.4 62L250.4 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"250.4\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">15</text><path d=\"M313.9 62L313.9 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"313.9\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">20</text><path d=\"M352.0 62L352.0 65\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"352.0\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">23</text><text x=\"352\" y=\"89\" text-anchor=\"end\" font-size=\"10\" style=\"fill:currentColor\">時間</text></svg>",
 "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 113\" role=\"img\" aria-label=\"各仕事の作業時間（時間）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">仕事</text><text x=\"180.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第1工程</text><text x=\"300.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第2工程</text><text x=\"60.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">K1</text><text x=\"180.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">4</text><text x=\"300.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">7</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"60.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">K2</text><text x=\"180.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">6</text><text x=\"300.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">3</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"60.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">K3</text><text x=\"180.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2</text><text x=\"300.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">5</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"60.0\" y=\"104.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">K4</text><text x=\"180.0\" y=\"104.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">5</text><text x=\"300.0\" y=\"104.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">6</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 111.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M240 0L240 111.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"111.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -805,7 +805,7 @@
 "a": 3,
 "e": "生産統制は、進捗管理（進度管理）、現品管理、余力管理（工数管理）の3つの機能からなる。余力＝能力－負荷。流動数曲線は、受入れの累積と払出しの累積を2本の曲線で描いた図で、計画と実績を比べて進み・遅れを把握することもできる。",
 "st": "ok",
-"n": 1418,
+"n": 1547,
 "ch": [
 "繰返し生産の進捗の把握には、主にカムアップシステムが使われる。",
 "流動数曲線で、受入れと払出しの累積曲線の横の差は、仕掛品の量を表す。",
@@ -828,7 +828,7 @@
 "a": 2,
 "e": "プッシュ方式は、生産計画（MRPなど）に基づいて各工程に生産を指示する。プル方式は、後工程が使った分だけを前工程から引き取る。DBR（ドラム・バッファ・ロープ）は、ボトルネック工程のペースに合わせて、最初の工程への資材の投入を調整する。",
 "st": "ok",
-"n": 1419,
+"n": 1548,
 "ch": [
 "プル方式は、需要が大きく変動する場合に、特に向いている。",
 "差立とは、作業が計画どおりに進んでいるかを確認することである。",
@@ -848,21 +848,21 @@
 "type": "single",
 "t": "unei.1.3.1",
 "q": "ある作業を観測したところ、観測時間の平均は2.0分で、作業者の速さを評価したレイティング係数は90％だった。余裕率を外掛け法で15％とするとき、この作業の標準時間として、最も適切なものはどれか。",
-"a": 0,
+"a": 3,
 "e": "正味時間＝観測時間の代表値×レイティング係数＝2.0×0.9＝1.8分。外掛け法では、標準時間＝正味時間×（1＋余裕率）＝1.8×1.15＝2.07分。外掛け法の余裕率は余裕時間÷正味時間、内掛け法の余裕率は余裕時間÷（正味時間＋余裕時間）で、分母が違う。",
 "st": "ok",
-"n": 1420,
+"n": 1549,
 "ch": [
-"2.07分",
-"約2.12分",
 "2.30分",
-"約2.56分"
+"約2.56分",
+"約2.12分",
+"2.07分"
 ],
 "ce": [
-"○ 2.0×0.9＝1.8分、1.8×（1＋0.15）",
-"× 内掛け法の式（÷（1－0.15））で計算している",
 "× レイティングを考えていない",
-"× 観測時間をレイティング係数で割っている。標準より遅い作業者（90％）なので、正味時間は観測時間より短くなる"
+"× 観測時間をレイティング係数で割っている。標準より遅い作業者（90％）なので、正味時間は観測時間より短くなる",
+"× 内掛け法の式（÷（1－0.15））で計算している",
+"○ 2.0×0.9＝1.8分、1.8×（1＋0.15）"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"標準時間（外掛け法）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"63.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"63.9\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">正味時間</text><text x=\"72.9\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"79.9\" y=\"2\" width=\"94.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"127.4\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">観測時間2.0分</text><text x=\"181.9\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"188.9\" y=\"2\" width=\"106.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"242.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">レイティング0.9</text><text x=\"302.4\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"309.4\" y=\"2\" width=\"48.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"309.4\" y=\"2\" width=\"48.6\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"333.7\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">1.8分</text><rect x=\"2\" y=\"46\" width=\"60.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"60.2\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"32.1\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">標準時間</text><text x=\"69.2\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"76.2\" y=\"46\" width=\"89.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"120.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">正味時間1.8分</text><text x=\"172.6\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"179.6\" y=\"46\" width=\"112.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"235.8\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1＋余裕率0.15）</text><text x=\"299.1\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"306.1\" y=\"46\" width=\"51.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"306.1\" y=\"46\" width=\"51.9\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"332.0\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">2.07分</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 146\" role=\"img\" aria-label=\"外掛け法と内掛け法（同じ標準時間になる）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"48.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\"></text><text x=\"162.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">外掛け法</text><text x=\"294.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">内掛け法</text><text x=\"6\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">余裕率の定義</text><text x=\"102\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">余裕時間÷正味時間</text><text x=\"234\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">余裕時間÷</text><text x=\"234\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">（正味時間＋余裕時間）</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.8\" font-size=\"10.5\" style=\"fill:currentColor\">標準時間</text><text x=\"102\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">正味時間×</text><text x=\"102\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">（1＋余裕率）</text><text x=\"234\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">正味時間÷</text><text x=\"234\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">（1－余裕率）</text><path d=\"M1 95.0L359 95.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"116.8\" font-size=\"10.5\" style=\"fill:currentColor\">例（正味100、</text><text x=\"6\" y=\"131.3\" font-size=\"10.5\" style=\"fill:currentColor\">余裕20）</text><text x=\"102\" y=\"116.8\" font-size=\"10.5\" style=\"fill:currentColor\">余裕率20％</text><text x=\"102\" y=\"131.3\" font-size=\"10.5\" style=\"fill:currentColor\">→ 100×1.2＝120</text><text x=\"234\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">余裕率20÷120≒16.7％</text><text x=\"234\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">→ 100÷</text><text x=\"234\" y=\"138.5\" font-size=\"10.5\" style=\"fill:currentColor\">（1－1/6）＝120</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M96 0L96 144.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M228 0L228 144.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"144.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】外掛け法と内掛け法の式（表の数値はテキストの例）"
 },
@@ -871,21 +871,21 @@
 "type": "single",
 "t": "unei.1.3.1",
 "q": "ある作業の観測時間の平均は60秒で、レイティング係数は120％だった。また、ワーク・サンプリングで400回観測したところ、余裕と判断された観測が48回だった。この余裕の比率を余裕率として、標準時間を求めるとき、最も適切なものはどれか。",
-"a": 3,
+"a": 1,
 "e": "正味時間＝60×1.2＝72秒。ワーク・サンプリングで観測した余裕の比率（48÷400＝0.12）は、全体の時間（正味時間＋余裕時間）に占める割合なので、内掛け法の余裕率として使う。標準時間＝正味時間÷（1－余裕率）＝72÷0.88≒81.8秒。",
 "st": "ok",
-"n": 1421,
+"n": 1550,
 "ch": [
 "約56.8秒",
-"約68.2秒",
+"約81.8秒",
 "約80.6秒",
-"約81.8秒"
+"約68.2秒"
 ],
 "ce": [
 "× 観測時間をレイティング係数で割っている。標準より速い作業者（120％）なので、正味時間は観測時間より長くなる",
-"× レイティングを考えていない",
+"○ 72÷（1－0.12）",
 "× ワーク・サンプリングの余裕の比率を、外掛け法の余裕率として使っている（72×1.12）",
-"○ 72÷（1－0.12）"
+"× レイティングを考えていない"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 132\" role=\"img\" aria-label=\"ワーク・サンプリングの余裕率を使う標準時間（内掛け法）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"65.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"65.3\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"34.6\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">正味時間</text><text x=\"74.3\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"81.3\" y=\"2\" width=\"90.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"126.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">観測時間60秒</text><text x=\"178.7\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"185.7\" y=\"2\" width=\"108.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"240.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">レイティング1.2</text><text x=\"301.5\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"308.5\" y=\"2\" width=\"49.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"308.5\" y=\"2\" width=\"49.5\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"333.2\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">72秒</text><rect x=\"2\" y=\"46\" width=\"90.8\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"90.8\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"47.4\" y=\"62.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">余裕率</text><text x=\"47.4\" y=\"76.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">（内掛け）</text><text x=\"99.8\" y=\"71.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"106.8\" y=\"46\" width=\"78.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"146.1\" y=\"69.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">余裕48回</text><text x=\"192.3\" y=\"71.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"199.3\" y=\"46\" width=\"86.3\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"242.5\" y=\"69.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">全体400回</text><text x=\"292.7\" y=\"71.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"299.7\" y=\"46\" width=\"58.3\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"299.7\" y=\"46\" width=\"58.3\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"328.8\" y=\"69.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">0.12</text><rect x=\"2\" y=\"96.2\" width=\"76.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"96.2\" width=\"76.1\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"40.0\" y=\"117.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">標準時間</text><text x=\"85.1\" y=\"118.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"92.1\" y=\"96.2\" width=\"57.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"120.9\" y=\"117.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">72秒</text><text x=\"156.8\" y=\"118.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"163.8\" y=\"96.2\" width=\"100.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"214.2\" y=\"117.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1－0.12）</text><text x=\"271.6\" y=\"118.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"278.6\" y=\"96.2\" width=\"79.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"278.6\" y=\"96.2\" width=\"79.4\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"318.3\" y=\"117.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">約81.8秒</text></svg>"
 },
@@ -897,7 +897,7 @@
 "a": 0,
 "e": "標準時間は、適性があり習熟した作業者が、所定の作業条件のもとで、必要な余裕を持ち、正常な作業のペースで仕事を遂行するのに必要な時間。余裕は、管理余裕（作業余裕、職場余裕）と人的余裕（用達余裕、疲労余裕）に分けられる。",
 "st": "ok",
-"n": 1422,
+"n": 1551,
 "ch": [
 "トヨタ生産方式では、標準作業の3要素として、タクトタイム、作業の順序、標準手持ちを挙げる。",
 "TWIのJR（Job Relations）は、仕事の教え方の訓練である。",
@@ -920,7 +920,7 @@
 "a": 3,
 "e": "製品工程分析は、材料や製品の流れを、加工、運搬、停滞（貯蔵、滞留）、検査（数量検査、品質検査）の記号で表す。サーブリッグ分析（ギルブレス）は、動作を基本動作に分け、仕事を遅らせる第2類と、仕事が進まない第3類をなくすことをめざす。",
 "st": "ok",
-"n": 1423,
+"n": 1552,
 "ch": [
 "作業者工程分析では、作業者の行動とともに、作業者が取り扱う物の流れも分析の対象にする。",
 "サーブリッグ分析で、「探す」「選ぶ」は、仕事に必要な第1類の動作である。",
@@ -943,7 +943,7 @@
 "a": 0,
 "e": "作業は、工程→単位作業→要素作業→動作要素の順に細かく分けられ、区分の大きさによって分析の方法が変わる。ストップウォッチ法はレイティングが必要。PTS法（MTM法、WF法など）は、作業の方法（標準作業）を決めてから適用し、公平な時間値を設定できる。",
 "st": "ok",
-"n": 1424,
+"n": 1553,
 "ch": [
 "PTS法は、人の動作の時間を求める方法なので、機械が加工する時間は求められない。",
 "PTS法では、作業者の速さを評価するレイティングが必要になる。",
@@ -963,20 +963,20 @@
 "type": "single",
 "t": "unei.1.3.2",
 "q": "ワーク・サンプリング法で、ある状態の出現率を約30％と見込み、信頼度95％、絶対誤差±3％で推定したい。必要な観測回数として、最も適切なものはどれか。ただし、信頼度95％の係数は1.96とする。",
-"a": 2,
+"a": 0,
 "e": "絶対誤差eで表す場合、必要な観測回数n＝1.96²×p×（1－p）÷e²＝3.8416×0.3×0.7÷0.0009≒896回。相対誤差aで表す場合の式は、n＝1.96²×（1－p）÷（a²×p）で、出現率に対する割合で誤差を表す。",
 "st": "ok",
-"n": 1425,
+"n": 1554,
 "ch": [
-"約27回",
-"約457回",
 "約896回",
+"約457回",
+"約27回",
 "約9,960回"
 ],
 "ce": [
-"× 誤差を2乗していない",
-"× 1.96を2乗していない",
 "○ 1.96²×0.3×0.7÷0.03²",
+"× 1.96を2乗していない",
+"× 誤差を2乗していない",
 "× 3％を相対誤差として計算している"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"ワーク・サンプリングの観測回数（絶対誤差）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"58.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"58.9\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"31.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">分子</text><text x=\"67.9\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"74.9\" y=\"2\" width=\"186.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"168.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">1.96²×0.3×（1－0.3）</text><text x=\"268.2\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"275.2\" y=\"2\" width=\"82.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"275.2\" y=\"2\" width=\"82.8\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"316.6\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">約0.8067</text><rect x=\"2\" y=\"46\" width=\"66.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"66.0\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"35.0\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">観測回数</text><text x=\"75.0\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"82.0\" y=\"46\" width=\"58.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"111.1\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.8067</text><text x=\"147.3\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"154.3\" y=\"46\" width=\"127.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"218.1\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.03²（＝0.0009）</text><text x=\"288.9\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"295.9\" y=\"46\" width=\"62.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"295.9\" y=\"46\" width=\"62.1\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"326.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">約896回</text></svg>"
@@ -989,7 +989,7 @@
 "a": 2,
 "e": "ECRSは、排除（Eliminate）、結合（Combine）、交換（Rearrange）、簡素化（Simplify）。動作経済の原則は、動作の数を減らす、同時に行う、距離を短くする、楽にするの4つの基本原則を、身体の使用、作業場の配置、工具と設備の設計に当てはめる。",
 "st": "ok",
-"n": 1426,
+"n": 1555,
 "ch": [
 "動作の等級は、肩→上腕→前腕→手首→指の順に、時間と疲労が増える。",
 "動作経済の原則では、両手は時間をずらして動き始め、同じ方向に動かすのがよいとされる。",
@@ -1012,7 +1012,7 @@
 "a": 1,
 "e": "TPM（全員参加の生産保全）は、設備の効率を最大にすることを目標に、全員が参加して設備の一生涯にわたる保全の仕組みをつくる活動。6大ロスは、故障、段取り・調整、チョコ停・空転、速度低下、不良・手直し、立上りのロス。",
 "st": "ok",
-"n": 1427,
+"n": 1556,
 "ch": [
 "TPMの自主保全は、保全部門の専門の要員が、設備の清掃、給油、増し締め、点検を行う活動である。",
 "自主保全は、清掃、給油、増し締めの基本条件を整えて、使い方や手入れの不備で起こる強制劣化を防ぐ。",
@@ -1035,7 +1035,7 @@
 "a": 2,
 "e": "予防保全と事後保全は設備の状態を維持する活動、改良保全と保全予防は設備を改善する活動。故障率は、初期故障期（減少型）→偶発故障期（一定型）→摩耗故障期（増加型）と変わる（バスタブ曲線）。",
 "st": "ok",
-"n": 1428,
+"n": 1557,
 "ch": [
 "FTA（故障の木解析）は、部品の故障の形（モード）から、上位のシステムへの影響を評価する手法である。",
 "状態基準保全（CBM）は、一定の期間ごとに部品を交換する保全である。",
@@ -1055,21 +1055,21 @@
 "type": "single",
 "t": "unei.1.4.2",
 "q": "装置A（信頼度0.9）に、装置Bと装置C（信頼度はどちらも0.8）を並列（どちらか1つが動けばよい）につないだものを、直列につないだシステムがある。このシステムの信頼度として、最も適切なものはどれか。ただし、各装置の故障は互いに独立とする。",
-"a": 2,
+"a": 1,
 "e": "並列の部分の信頼度＝1－（1－0.8）×（1－0.8）＝1－0.04＝0.96。直列の信頼度は各要素の積なので、システム全体は0.9×0.96＝0.864。並列（冗長）にすると、信頼度は1台のときより高くなる。",
 "st": "ok",
-"n": 1429,
+"n": 1558,
 "ch": [
-"0.576",
-"0.72",
+"0.996",
 "0.864",
-"0.996"
+"0.72",
+"0.576"
 ],
 "ce": [
-"× 3つの装置をすべて直列として計算している",
-"× 並列の部分を、装置1台の信頼度（0.8）としている",
+"× 3つの装置をすべて並列として計算している",
 "○ 0.9×｛1－（1－0.8）×（1－0.8）｝",
-"× 3つの装置をすべて並列として計算している"
+"× 並列の部分を、装置1台の信頼度（0.8）としている",
+"× 3つの装置をすべて直列として計算している"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"並列は1－（各装置が故障する確率の積）、直列は積\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"74.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"74.4\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"39.2\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">BとCの並列</text><text x=\"83.4\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"90.4\" y=\"2\" width=\"46.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"113.9\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"144.4\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">－</text><rect x=\"151.4\" y=\"2\" width=\"145.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"224.2\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1－0.8）×（1－0.8）</text><text x=\"304.1\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"311.1\" y=\"2\" width=\"46.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"311.1\" y=\"2\" width=\"46.9\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"334.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">0.96</text><rect x=\"2\" y=\"46\" width=\"72.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"72.5\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"38.2\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">システム</text><text x=\"81.5\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"88.5\" y=\"46\" width=\"83.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"129.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">装置A 0.9</text><text x=\"178.4\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"185.4\" y=\"46\" width=\"101.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"236.4\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">並列部分0.96</text><text x=\"294.3\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"301.3\" y=\"46\" width=\"56.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"301.3\" y=\"46\" width=\"56.7\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"329.6\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">0.864</text></svg>",
 "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 178\" role=\"img\" aria-label=\"システムの構成\" font-size=\"12\"><path d=\"M6 85L44 85\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><rect x=\"44\" y=\"65\" width=\"70\" height=\"40\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.4\"/><text x=\"79\" y=\"83\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">装置A</text><text x=\"79\" y=\"98\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">信頼度0.9</text><path d=\"M114 85L150 85\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M150 35L150 135\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M150 35L182 35\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><rect x=\"182\" y=\"15\" width=\"70\" height=\"40\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.4\"/><text x=\"217\" y=\"33\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">装置B</text><text x=\"217\" y=\"48\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">信頼度0.8</text><path d=\"M252 35L284 35\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M150 135L182 135\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><rect x=\"182\" y=\"115\" width=\"70\" height=\"40\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.4\"/><text x=\"217\" y=\"133\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">装置C</text><text x=\"217\" y=\"148\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">信頼度0.8</text><path d=\"M252 135L284 135\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M284 35L284 135\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M284 85L354 85\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"6\" y=\"172\" font-size=\"10\" style=\"fill:currentColor\">装置Aと、BとCの並列（どちらか1つが動けばよい）を直列につなぐ</text></svg>"
@@ -1082,7 +1082,7 @@
 "a": 0,
 "e": "MTBF（平均故障間隔）＝稼働時間の合計÷故障回数＝600÷4＝150時間で、長いほど信頼性が高い。MTTR（平均修復時間）＝修理時間の合計÷故障回数＝40÷4＝10時間で、短いほど保全性が高い。アベイラビリティ＝MTBF÷（MTBF＋MTTR）＝150÷160≒0.94。",
 "st": "ok",
-"n": 1430,
+"n": 1559,
 "ch": [
 "MTBF 150時間　アベイラビリティ 約0.94",
 "MTBF 600時間　アベイラビリティ 約0.94",
@@ -1102,21 +1102,21 @@
 "type": "single",
 "t": "unei.1.4.3",
 "q": "ある設備の1日の負荷時間は480分で、故障と段取りで60分停止した。基準サイクルタイムは0.5分／個で、この日の加工数量は756個、そのうち良品は720個だった。この日の設備総合効率として、最も適切なものはどれか。",
-"a": 0,
+"a": 2,
 "e": "時間稼働率＝（480－60）÷480＝0.875。性能稼働率＝基準サイクルタイム×加工数量÷稼働時間＝0.5×756÷420＝0.9。良品率＝720÷756。設備総合効率＝0.875×0.9×（720÷756）＝0.75。基準サイクルタイム×良品数÷負荷時間＝0.5×720÷480＝0.75とも計算できる。",
 "st": "ok",
-"n": 1431,
+"n": 1560,
 "ch": [
-"0.75",
-"約0.79",
 "約0.83",
-"約0.86"
+"約0.86",
+"0.75",
+"約0.79"
 ],
 "ce": [
-"○ 0.875×0.9×（720÷756）＝0.75",
-"× 良品率を掛けていない（0.875×0.9）",
 "× 性能稼働率を掛けていない（0.875×（720÷756））",
-"× 時間稼働率を掛けていない（0.9×（720÷756））"
+"× 時間稼働率を掛けていない（0.9×（720÷756））",
+"○ 0.875×0.9×（720÷756）＝0.75",
+"× 良品率を掛けていない（0.875×0.9）"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 110\" role=\"img\" aria-label=\"設備総合効率の計算\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">要素</text><text x=\"190.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">計算</text><text x=\"320.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">値</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">時間稼働率</text><text x=\"106\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">（480－60）÷480</text><text x=\"354\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0.875</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">性能稼働率</text><text x=\"106\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">0.5×756÷420</text><text x=\"354\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0.9</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">良品率</text><text x=\"106\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">720÷756</text><text x=\"354\" y=\"80.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">約0.952</text><path d=\"M1 87.5L359 87.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"102.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">設備総合効率</text><text x=\"106\" y=\"102.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.875×0.9×（720÷756）</text><text x=\"354\" y=\"102.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0.75</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M280 0L280 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"108.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 88\" role=\"img\" aria-label=\"設備のロスと設備総合効率の要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"115.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">ロス</text><text x=\"295.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">表れる指標</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">故障ロス、段取り・調整ロス、刃具交換ロス</text><text x=\"295.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">時間稼働率</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">チョコ停・空転ロス、速度低下ロス</text><text x=\"295.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">性能稼働率</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">不良・手直しロス</text><text x=\"295.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">良品率</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M230 0L230 86.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"86.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -1128,7 +1128,7 @@
 "a": 0,
 "e": "設備の劣化には、物理的な劣化（摩耗、故障の増加）と、機能的な劣化（新しい設備に比べて性能が劣る陳腐化）がある。",
 "st": "ok",
-"n": 1432,
+"n": 1561,
 "ch": [
 "経済的寿命とは、設備の年当たりの平均の費用（資本の費用と運転・保全の費用の合計）が最も小さくなる使用年数である。",
 "定率法は、毎年同じ額を償却する減価償却の方法である。",
@@ -1151,7 +1151,7 @@
 "a": 2,
 "e": "SLPは、P-Q分析→物の流れの分析→アクティビティの相互関係→相互関係ダイヤグラム→スペース→スペース相互関係ダイヤグラム→修正と制約の検討→レイアウト案の作成と評価の順に進める。近接性の評価はA・E・I・O・U・Xの記号で表す。",
 "st": "ok",
-"n": 1433,
+"n": 1562,
 "ch": [
 "DI分析では、距離が短く強度が小さい運搬が、最も問題が大きいとされる。",
 "工程別（機能別）レイアウトは、運搬の距離が短く、物の流れが単純で、進捗管理がしやすい。",
@@ -1174,7 +1174,7 @@
 "a": 2,
 "e": "寿命の異なる排反案は、正味年価（毎年の節減額－投資額×資本回収係数）で比べる。案X：260－400×0.5762≒29.5万円、案Y：340－1,000×0.3155＝24.5万円で、案Xが有利。案Xを4年間で2回繰り返すと、正味現価は51.2＋51.2÷1.21≒93.6万円となり、案Yの約77.8万円より大きく、正味年価の比較と同じ結論になる。",
 "st": "ok",
-"n": 1434,
+"n": 1563,
 "ch": [
 "節減額の合計から投資額を引いた額は、案Xが120万円、案Yが360万円なので、案Yを選ぶ。",
 "それぞれの寿命の期間の正味現価は、案Xが約51.2万円、案Yが約77.8万円なので、案Yを選ぶ。",
@@ -1198,7 +1198,7 @@
 "a": 3,
 "e": "2案の優劣分岐点＝固定費の差÷単位当たり変動費の差＝120,000÷200＝600個。総費用は、設備Pが200,000＋300x、設備Qが80,000＋500x。600個未満なら設備Q、600個を超えると設備Pが有利。",
 "st": "ok",
-"n": 1435,
+"n": 1564,
 "ch": [
 "150個で、生産量がこれを超えると設備Pが有利",
 "240個で、生産量がこれを超えると設備Pが有利",
@@ -1221,7 +1221,7 @@
 "a": 1,
 "e": "現価（P）、終価（F）、年価（A）を、終価係数、現価係数、資本回収係数、年金現価係数、減債基金係数、年金終価係数の6つで行き来する。意思決定では、案の間で違いが出る収入と費用（差額）だけを比べ、機会原価を考える。",
 "st": "ok",
-"n": 1436,
+"n": 1565,
 "ch": [
 "減債基金係数は、現在の金額を、n年間の毎年の均等な額に直す係数である。",
 "資本回収係数は、年金現価係数の逆数である。",
@@ -1244,7 +1244,7 @@
 "a": 1,
 "e": "資材管理は、必要な資材を、必要なときに、必要な品質のものを、必要な量だけ、適正な価格で調達し、保管して供給する活動。購買先は、品質、価格、納期、供給の安定性、技術力、経営の状態などで評価する。",
 "st": "ok",
-"n": 1437,
+"n": 1566,
 "ch": [
 "集中購買は、緊急の調達や地域の事情に対応しやすい。",
 "当用買いとは、必要なときに必要な量だけ買う方式である。",
@@ -1267,7 +1267,7 @@
 "a": 3,
 "e": "内外製の判断では、外注した場合に減る費用（ここでは変動費450円）と外注費（600円）を比べる。外注しても減らない固定費は、どちらを選んでも同じなので比較に含めない。内製の費用は700円、外注の費用は固定費を含めて850円で、内製が150円有利になる。",
 "st": "ok",
-"n": 1438,
+"n": 1567,
 "ch": [
 "内製が、1個当たり400円有利である。",
 "外注が、1個当たり100円有利である。",
@@ -1290,7 +1290,7 @@
 "a": 1,
 "e": "下請代金支払遅延等防止法（下請法）が改正されて取適法となり、親事業者は委託事業者、下請事業者は中小受託事業者と呼ばれる。発荷主が運送を委託する取引（特定運送委託）も対象に加わった。受領の拒否、代金の支払いの遅延・減額、買いたたきなどが禁止されている。",
 "st": "ok",
-"n": 1439,
+"n": 1568,
 "ch": [
 "支払期日は、物品などを受領した日から90日以内で定めればよい。",
 "中小受託事業者から価格の協議を求められたのに協議に応じず、一方的に代金を決めることが禁止された。",
@@ -1310,21 +1310,21 @@
 "type": "single",
 "t": "unei.1.5.3",
 "q": "ある部品の年間の需要量は2,400個、1回当たりの発注費用は3,000円、1個当たりの年間の保管費用は160円である。経済的発注量（EOQ）として、最も適切なものはどれか。",
-"a": 2,
+"a": 3,
 "e": "EOQ＝√（2×年間の需要量×1回当たりの発注費用÷1個当たりの年間の保管費用）＝√（2×2,400×3,000÷160）＝√90,000＝300個。このとき、年間の発注費用（8回×3,000円）と年間の保管費用（平均在庫150個×160円）は、どちらも24,000円で等しくなる。",
 "st": "ok",
-"n": 1440,
+"n": 1569,
 "ch": [
 "16個",
 "約212個",
-"300個",
-"90,000個"
+"90,000個",
+"300個"
 ],
 "ce": [
 "× 発注費用と保管費用を逆にしている",
 "× 根号の中で2を掛けていない",
-"○ √（2×2,400×3,000÷160）＝√90,000",
-"× 平方根をとっていない"
+"× 平方根をとっていない",
+"○ √（2×2,400×3,000÷160）＝√90,000"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 132\" role=\"img\" aria-label=\"経済的発注量（EOQ）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"71.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"71.4\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"37.7\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">根号の中</text><text x=\"80.4\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"87.4\" y=\"2\" width=\"125.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">2×2,400×3,000</text><text x=\"219.7\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"226.7\" y=\"2\" width=\"54.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"253.8\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">160</text><text x=\"287.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"294.8\" y=\"2\" width=\"63.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"294.8\" y=\"2\" width=\"63.2\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"326.4\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">90,000</text><rect x=\"2\" y=\"46\" width=\"99.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"99.3\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"51.7\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">EOQ</text><text x=\"108.3\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"115.3\" y=\"46\" width=\"129.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"179.8\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">√90,000</text><text x=\"251.4\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"258.4\" y=\"46\" width=\"99.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"258.4\" y=\"46\" width=\"99.6\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"308.2\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">300個</text><rect x=\"2\" y=\"90\" width=\"52.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"90\" width=\"52.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"28.3\" y=\"113.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">確かめ</text><rect x=\"54.7\" y=\"90\" width=\"91.8\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"100.6\" y=\"106.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">発注費用</text><text x=\"100.6\" y=\"120.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">8回×3,000円</text><text x=\"153.4\" y=\"115.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"160.4\" y=\"90\" width=\"115.1\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"218.0\" y=\"106.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">保管費用</text><text x=\"218.0\" y=\"120.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">平均150個×160円</text><text x=\"282.5\" y=\"115.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"289.5\" y=\"90\" width=\"68.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"289.5\" y=\"90\" width=\"68.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"323.8\" y=\"113.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">24,000円</text></svg>"
 },
@@ -1333,20 +1333,20 @@
 "type": "single",
 "t": "unei.1.5.3",
 "q": "定期発注方式で、発注間隔は5日、調達期間は3日、1日の予想需要量は40個である。現在の在庫量は150個、発注残は60個、安全在庫は30個である。今回の発注量として、最も適切なものはどれか。",
-"a": 2,
+"a": 0,
 "e": "発注量＝（発注間隔＋調達期間）の予想需要量－現在の在庫量－発注残＋安全在庫＝（5＋3）×40－150－60＋30＝140個。定期発注方式は、一定の発注間隔ごとに、需要の予測に基づいてその都度発注量を計算する。",
 "st": "ok",
-"n": 1441,
+"n": 1570,
 "ch": [
-"20個",
-"80個",
 "140個",
+"80個",
+"20個",
 "200個"
 ],
 "ce": [
-"× 予想需要量を、発注間隔の5日分だけで計算している",
-"× 安全在庫を加えずに引いている",
 "○ （5＋3）×40－150－60＋30",
+"× 安全在庫を加えずに引いている",
+"× 予想需要量を、発注間隔の5日分だけで計算している",
 "× 発注残を引いていない"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 82\" role=\"img\" aria-label=\"定期発注方式の発注量\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"67.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"67.0\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"35.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">予想需要量</text><text x=\"76.0\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"83.0\" y=\"2\" width=\"160.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"163.4\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（発注間隔5日＋調達期間3日）</text><text x=\"250.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"257.8\" y=\"2\" width=\"43.1\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"279.3\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">40個</text><text x=\"307.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"314.8\" y=\"2\" width=\"43.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"314.8\" y=\"2\" width=\"43.2\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"336.4\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">320個</text><rect x=\"2\" y=\"46\" width=\"53.3\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"53.3\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"28.6\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">発注量</text><text x=\"62.3\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"69.3\" y=\"46\" width=\"225.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"181.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">320－在庫150－発注残60＋安全在庫30</text><text x=\"301.5\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"308.5\" y=\"46\" width=\"49.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"308.5\" y=\"46\" width=\"49.5\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"333.2\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">140個</text></svg>"
@@ -1359,7 +1359,7 @@
 "a": 3,
 "e": "発注点＝調達期間中の平均の需要量＋安全在庫。安全在庫は、定量発注方式では安全係数×標準偏差×√調達期間、定期発注方式では安全係数×標準偏差×√（発注間隔＋調達期間）で求める。",
 "st": "ok",
-"n": 1442,
+"n": 1571,
 "ch": [
 "ブルウィップ効果とは、サプライチェーンの下流（川下）に行くほど、発注量の変動が大きくなる現象である。",
 "定量発注方式では、毎回の発注量を、需要の予測に基づいて計算し直す。",
@@ -1379,21 +1379,21 @@
 "type": "single",
 "t": "unei.1.5.3",
 "q": "1日だけ販売できる弁当を、1個100円で仕入れ、300円で販売する。売れ残った弁当は廃棄し、廃棄の費用はかからない。1日の需要量の確率が表のとおりのとき、期待される損失を最小にする仕入量として、最も適切なものはどれか。",
-"a": 2,
+"a": 1,
 "e": "売れ残り損失は1個100円（仕入値）、品切れ損失は1個200円（得られなかった利益300－100）。需要の累積の確率が、品切れ損失÷（品切れ損失＋売れ残り損失）＝200÷300≒0.67以上になる最小の仕入量が最適で、累積の確率は60個で55％、70個で80％なので70個になる。仕入量ごとの期待される損失も、70個の1,150円が最小になる。",
 "st": "ok",
-"n": 1443,
+"n": 1572,
 "ch": [
-"50個",
-"60個",
+"80個",
 "70個",
-"80個"
+"60個",
+"50個"
 ],
 "ce": [
-"× 品切れ損失（1個200円）が売れ残り損失（1個100円）より大きいので、少なすぎる",
-"× 最も確率の高い需要量を選んでいる。期待される損失は1,500円で、70個の1,150円より大きい",
+"× 売れ残りの損失が増え、期待される損失は1,550円になる",
 "○ 累積の確率が200÷（200＋100）≒0.67以上になる最小の仕入量",
-"× 売れ残りの損失が増え、期待される損失は1,550円になる"
+"× 最も確率の高い需要量を選んでいる。期待される損失は1,500円で、70個の1,150円より大きい",
+"× 品切れ損失（1個200円）が売れ残り損失（1個100円）より大きいので、少なすぎる"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 110\" role=\"img\" aria-label=\"仕入量ごとの期待される損失\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">仕入量</text><text x=\"155.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">累積の確率</text><text x=\"285.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">期待される損失</text><text x=\"50.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50個</text><text x=\"155.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20％</text><text x=\"354\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">2,900円</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"50.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">60個</text><text x=\"155.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">55％</text><text x=\"354\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,500円</text><rect x=\"1\" y=\"66.0\" width=\"358\" height=\"21.5\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"50.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">70個</text><text x=\"155.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">80％</text><text x=\"354\" y=\"80.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,150円（最小）</text><path d=\"M1 87.5L359 87.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"50.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">80個</text><text x=\"155.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100％</text><text x=\"354\" y=\"102.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,550円</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M210 0L210 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"108.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>",
 "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 113\" role=\"img\" aria-label=\"需要量の確率\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"90.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1日の需要量</text><text x=\"270.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">確率</text><text x=\"90.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">50個</text><text x=\"270.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">20％</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"90.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">60個</text><text x=\"270.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">35％</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"90.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">70個</text><text x=\"270.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">25％</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"90.0\" y=\"104.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">80個</text><text x=\"270.0\" y=\"104.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">20％</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M180 0L180 111.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"111.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -1406,7 +1406,7 @@
 "a": 1,
 "e": "活性示数は、物の置かれた状態がどれだけ運び出しやすいかを0～4で表す。運び出すには、まとめる、起こす、持ち上げる、持っていくの4つの手間がかかり、活性示数はすでに省かれている手間の数。運搬は価値を生まないので、回数と距離を減らし、空運搬を減らす。",
 "st": "ok",
-"n": 1444,
+"n": 1573,
 "ch": [
 "活性示数が0の状態は、物がコンベヤの上で動いている状態である。",
 "フリーロケーションは、空いている場所に置いて位置を記録する方式で、保管の場所を有効に使えるが、位置の情報の管理が欠かせない。",
@@ -1429,7 +1429,7 @@
 "a": 1,
 "e": "ヒストグラムの形から工程の異常の原因を推測できる。絶壁型は規格を外れたものを取り除いている場合、離れ小島型は一時的な異常や測定の誤りなどが考えられる。",
 "st": "ok",
-"n": 1445,
+"n": 1574,
 "ch": [
 "系統図法は、似た言葉（言語データ）をまとめる手法である。",
 "ヒストグラムが二山型になるのは、平均の異なる2つの分布が混ざっている場合などである。",
@@ -1452,7 +1452,7 @@
 "a": 2,
 "e": "Cp＝（規格の上限－規格の下限）÷（6×標準偏差）＝（50.6－49.4）÷（6×0.16）＝1.2÷0.96＝1.25。Cpが1.33以上なら工程能力は十分、1.00以上1.33未満ならまずまず、1.00未満なら不足と判断する。",
 "st": "ok",
-"n": 1446,
+"n": 1575,
 "ch": [
 "Cp 約0.63で、工程能力は不足している",
 "Cp 1.25で、工程能力は十分である",
@@ -1475,7 +1475,7 @@
 "a": 0,
 "e": "管理図は、中心線と管理限界線で工程が安定した状態にあるかを判断する。X̄－R管理図は計量値、p管理図は不適合品率、np管理図は不適合品数、c管理図は不適合数を扱う。抜取検査では、cを大きくすると合格しやすくなる。",
 "st": "ok",
-"n": 1447,
+"n": 1576,
 "ch": [
 "np管理図は、サンプルの大きさが一定のときに、不適合品の数を管理する管理図である。",
 "抜取検査で、合格判定個数cをそのままにしてサンプルの大きさnを大きくすると、ロットは合格しやすくなる。",
@@ -1498,7 +1498,7 @@
 "a": 0,
 "e": "TQMは、経営者から現場まで全員が参加し、全部門で品質の向上に取り組む。ISO9001は、品質マネジメントの7原則（顧客重視、リーダーシップ、人々の積極的参加、プロセスアプローチ、改善、客観的事実に基づく意思決定、関係性管理）を基礎とする。",
 "st": "ok",
-"n": 1448,
+"n": 1577,
 "ch": [
 "狩野モデルの魅力的品質は、満たされると満足するが、満たされなくても不満にはならない品質である。",
 "ISO9001は、第三者の認証機関による認証を受けることができない規格である。",
@@ -1521,7 +1521,7 @@
 "a": 1,
 "e": "帰無仮説は「変化はない」とおき、示したい内容を対立仮説とする。「大きくなった」「小さくなった」を示すときは片側、「変わった」を示すときは両側の検定にする。直交表では、2つの列に割り付けた因子の交互作用が決まった列に現れる。",
 "st": "ok",
-"n": 1449,
+"n": 1578,
 "ch": [
 "有意水準5％の片側検定（右側）では、分布の両方の端に2.5％ずつ棄却域を置く。",
 "2水準のL8直交表は、8回の実験で、7つの列に因子や交互作用を割り付けられる。",
@@ -1544,7 +1544,7 @@
 "a": 3,
 "e": "廃棄物処理法では、事業活動で生じた廃棄物は事業者が自らの責任で処理する（排出事業者責任）。産業廃棄物は、燃え殻、汚泥、廃油、廃プラスチック類など法令で定める20種類で、排出の量が少なくても法律は適用される。",
 "st": "ok",
-"n": 1450,
+"n": 1579,
 "ch": [
 "排出事業者が自ら産業廃棄物を運搬するときも、収集運搬業の許可が必要である。",
 "環境ラベルのタイプⅡは、第三者が認証するラベルである。",
@@ -1567,7 +1567,7 @@
 "a": 3,
 "e": "循環型社会形成推進基本法は、処理の優先順位を、発生抑制→再使用→再生利用→熱回収→適正処分と定める。拡大生産者責任は、生産者が製品の使用後の段階まで一定の責任を負う考え方。エコアクション21は、環境省が定めた、中小事業者も取り組みやすい環境経営の仕組み。",
 "st": "ok",
-"n": 1451,
+"n": 1580,
 "ch": [
 "エコアクション21では、環境会計の公表が義務づけられている。",
 "ISO14001は、国の環境政策の目標を達成することを目的とする仕組みである。",
@@ -1590,7 +1590,7 @@
 "a": 3,
 "e": "制約は、機械時間2X＋4Y≦40、材料3X＋2Y≦36。利益の最大は、実行可能領域の頂点のどこかで得られる。頂点の利益は、（0, 10）で6万円、（8, 6）で5×8＋6×6＝76千円、（12, 0）で6万円なので、X8個・Y6個で最大の7.6万円になる。",
 "st": "ok",
-"n": 1452,
+"n": 1581,
 "ch": [
 "製品X 12個、製品Y 0個で、利益は6万円",
 "製品X 10個、製品Y 5個で、利益は8万円",
@@ -1613,7 +1613,7 @@
 "a": 2,
 "e": "SHELLモデルは、事故の要因を、中心の本人（Liveware）と、手順・規則（Software）、機械・設備（Hardware）、環境（Environment）、周りの人（Liveware）との関係で分析する。",
 "st": "ok",
-"n": 1453,
+"n": 1582,
 "ch": [
 "意図的に規則を破る違反（バイオレーション）は、ヒューマンエラーのスリップに含まれる。",
 "リーズンの分類で、し忘れや記憶の誤りは、ミステイクに当たる。",
@@ -1636,7 +1636,7 @@
 "a": 0,
 "e": "設置者は、開店の前に都道府県（政令指定都市）に届け出る。市町村や地元の住民などは都道府県に意見を出せ、都道府県は届出から8か月以内に設置者に意見を述べる。対応が意見を適正に反映していない場合は勧告でき、正当な理由なく勧告に従わない場合は公表できる。",
 "st": "ok",
-"n": 1454,
+"n": 1583,
 "ch": [
 "大規模小売店舗の設置者は、届出から2か月以内に、地元で説明会を開かなければならない。",
 "大店立地法は、地域の中小小売業者を保護するため、大型店の店舗面積や営業時間を調整する法律である。",
@@ -1659,7 +1659,7 @@
 "a": 1,
 "e": "まちづくり三法は、都市計画法、大規模小売店舗立地法、中心市街地活性化法。2006年に都市計画法と中心市街地活性化法が改正され、郊外への大規模な集客施設の立地を抑え、中心市街地に都市の機能を集める方向に見直された。立地適正化計画（都市再生特別措置法）は、原則として、居住誘導区域の中に都市機能誘導区域を定める。",
 "st": "ok",
-"n": 1455,
+"n": 1584,
 "ch": [
 "市街化調整区域には、用途地域を必ず定める。",
 "中心市街地活性化法では、市町村が基本計画を作り、内閣総理大臣が認定する。",
@@ -1682,7 +1682,7 @@
 "a": 1,
 "e": "建ぺい率＝建築面積÷敷地面積、容積率＝延べ床面積（各階の床面積の合計）÷敷地面積。建築面積の上限は400×60％＝240㎡、延べ床面積の上限は400×200％＝800㎡。",
 "st": "ok",
-"n": 1456,
+"n": 1585,
 "ch": [
 "建築面積 160㎡　延べ床面積 800㎡",
 "建築面積 240㎡　延べ床面積 800㎡",
@@ -1705,7 +1705,7 @@
 "a": 2,
 "e": "消防法の特定防火対象物（店舗、百貨店、飲食店、ホテル、病院など）は、防火管理者の選任と点検の結果の報告の基準が、それ以外の防火対象物より厳しい。建築基準法では、用途を変えて床面積200㎡を超える店舗などにする場合にも建築確認が必要。",
 "st": "ok",
-"n": 1457,
+"n": 1586,
 "ch": [
 "景観計画区域は、都市計画区域の中にだけ定められる。",
 "高さが4mを超える広告塔や広告板を設ける場合でも、建築確認は不要である。",
@@ -1725,21 +1725,21 @@
 "type": "single",
 "t": "unei.2.1.2",
 "q": "人口25万人のA市と人口4万人のB市が、14km離れている。コンバースの式で求めた、B市から商圏分岐点までの距離として、最も適切なものはどれか。",
-"a": 1,
+"a": 3,
 "e": "コンバースの式：B市から商圏分岐点までの距離＝A・B間の距離÷（1＋√（Aの人口÷Bの人口））＝14÷（1＋√6.25）＝14÷3.5＝4km。A市からは10kmで、分岐点は人口の少ないB市の側に寄る。分岐点では、2つの都市の吸引量が等しくなる（ライリーの小売引力の法則）。",
 "st": "ok",
-"n": 1458,
+"n": 1587,
 "ch": [
-"約1.9km",
-"4km",
+"10km",
 "7km",
-"10km"
+"約1.9km",
+"4km"
 ],
 "ce": [
-"× 人口の比の平方根をとっていない（14÷（1＋25÷4））",
-"○ 14÷（1＋√（25÷4））＝14÷3.5",
+"× A市から商圏分岐点までの距離",
 "× 2つの市の中間点。人口の多い市の商圏ほど広く、分岐点は人口の少ない市の側に寄る",
-"× A市から商圏分岐点までの距離"
+"× 人口の比の平方根をとっていない（14÷（1＋25÷4））",
+"○ 14÷（1＋√（25÷4））＝14÷3.5"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"コンバースの商圏分岐点（A市から分岐点までは10km）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"99.6\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"99.6\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"51.8\" y=\"18.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">人口の比の</text><text x=\"51.8\" y=\"32.9\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">平方根</text><text x=\"108.6\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"115.6\" y=\"2\" width=\"164.4\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"197.8\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">√（25万人÷4万人）</text><text x=\"287.0\" y=\"27.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"294.0\" y=\"2\" width=\"64.0\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"294.0\" y=\"2\" width=\"64.0\" height=\"40.2\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"326.0\" y=\"25.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">2.5</text><rect x=\"2\" y=\"52.2\" width=\"94.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"52.2\" width=\"94.5\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"49.3\" y=\"69.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">B市から</text><text x=\"49.3\" y=\"83.1\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">分岐点まで</text><text x=\"103.5\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"110.5\" y=\"52.2\" width=\"60.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"140.9\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">14km</text><text x=\"178.3\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"185.3\" y=\"52.2\" width=\"98.0\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"234.3\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1＋2.5）</text><text x=\"290.3\" y=\"77.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"297.3\" y=\"52.2\" width=\"60.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"297.3\" y=\"52.2\" width=\"60.7\" height=\"40.2\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"327.6\" y=\"76.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">4km</text></svg>"
 },
@@ -1748,20 +1748,20 @@
 "type": "single",
 "t": "unei.2.1.2",
 "q": "ある地区の消費者が、3つの店舗A・B・Cのどれかで買物をする。各店舗の売場面積と、その地区からの距離は表のとおりである。抵抗係数λを2とするハフ・モデルで、この地区の消費者が店舗Bを選ぶ確率として、最も適切なものはどれか。",
-"a": 1,
+"a": 2,
 "e": "ハフ・モデルでは、店舗を選ぶ確率は、売場面積に比例し、距離のλ乗に反比例する。各店舗の売場面積÷距離²は、A＝2,000÷1²＝2,000、B＝9,000÷3²＝1,000、C＝4,000÷2²＝1,000。店舗Bを選ぶ確率は1,000÷4,000＝25％。",
 "st": "ok",
-"n": 1459,
+"n": 1588,
 "ch": [
 "約8.2％",
-"25％",
 "約42.9％",
+"25％",
 "60％"
 ],
 "ce": [
 "× 売場面積を考えず、距離の2乗だけで計算している",
-"○ 1,000÷（2,000＋1,000＋1,000）",
 "× 距離を2乗していない（λ＝1で計算している）",
+"○ 1,000÷（2,000＋1,000＋1,000）",
 "× 距離を考えず、売場面積の比だけで計算している"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 110\" role=\"img\" aria-label=\"ハフ・モデル（λ＝2）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">店舗</text><text x=\"155.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">売場面積÷距離の2乗</text><text x=\"300.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">選ばれる確率</text><text x=\"35.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">A</text><text x=\"76\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">2,000÷1²＝2,000</text><text x=\"354\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">50％</text><rect x=\"1\" y=\"44.5\" width=\"358\" height=\"21.5\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"35.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">B</text><text x=\"76\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">9,000÷3²＝1,000</text><text x=\"354\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">25％</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"35.0\" y=\"80.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">C</text><text x=\"76\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">4,000÷2²＝1,000</text><text x=\"354\" y=\"80.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">25％</text><path d=\"M1 87.5L359 87.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"35.0\" y=\"102.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">合計</text><text x=\"76\" y=\"102.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">4,000</text><text x=\"354\" y=\"102.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">100％</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M240 0L240 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"108.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>",
@@ -1775,7 +1775,7 @@
 "a": 3,
 "e": "商店街は、近隣型、地域型、広域型、超広域型に分けられる。地域商店街活性化法は、商店街が地域コミュニティの担い手として行う取組みを支援する。",
 "st": "ok",
-"n": 1460,
+"n": 1589,
 "ch": [
 "カテゴリーキラーは、商品の企画から販売までを一貫して行う業態である。",
 "業態とは、取り扱う商品の種類による小売業の分類である。",
@@ -1798,7 +1798,7 @@
 "a": 2,
 "e": "ワンウェイコントロールは、入口から主通路を一方向に回るように商品を配置し、動線を長くして商品との接点を増やす。パワーカテゴリー（牛乳、卵、パンなど）は店内に分散して置き、回遊を促す。演色性は、物の色をどれだけ自然光に近く見せるかを表す。",
 "st": "ok",
-"n": 1461,
+"n": 1590,
 "ch": [
 "照度は、光源からある方向に出る光の強さで、単位はカンデラである。",
 "作業動線は、長くするほど効率がよい。",
@@ -1821,7 +1821,7 @@
 "a": 3,
 "e": "相乗積＝売上構成比×粗利益率で、そのカテゴリーが店全体の粗利益率にどれだけ貢献しているかを示す。X＝30％×20％＝6％、Y＝50％×30％＝15％、Z＝20％×40％＝8％。各カテゴリーの相乗積の合計29％が、店全体の粗利益率になる。",
 "st": "ok",
-"n": 1462,
+"n": 1591,
 "ch": [
 "カテゴリーZ　29％",
 "カテゴリーZ　30％",
@@ -1845,7 +1845,7 @@
 "a": 1,
 "e": "変動費率＝560÷800＝0.7。損益分岐点売上高＝固定費÷（1－変動費率）＝180÷0.3＝600万円。粗利益高は800－560＝240万円なので、人時生産性＝粗利益高÷総労働時間＝240万円÷1,200人時＝2,000円。",
 "st": "ok",
-"n": 1463,
+"n": 1592,
 "ch": [
 "損益分岐点売上高 約257万円　人時生産性 約6,667円",
 "損益分岐点売上高 600万円　人時生産性 2,000円",
@@ -1868,7 +1868,7 @@
 "a": 1,
 "e": "品揃えの総合化はカテゴリーを増やして幅を広げ、専門化は特定のカテゴリーに絞って奥行きを深くする。カテゴリー・マネジメントは、カテゴリーごとに1つの事業単位として管理し、品揃え、価格、陳列、販促を最適化する。",
 "st": "ok",
-"n": 1464,
+"n": 1593,
 "ch": [
 "同じカテゴリーで多くのメーカーの商品をそろえることは、品揃えの総合化に当たる。",
 "ラインロビングとは、これまで扱っていなかった他の業種や業態のカテゴリーを、品揃えに取り込むことである。",
@@ -1891,7 +1891,7 @@
 "a": 1,
 "e": "保健機能食品には、特定保健用食品、機能性表示食品、栄養機能食品の3つがある。食品表示基準は、容器包装に入れた食品の表示に適用され、店頭のPOPなどには適用されない。",
 "st": "ok",
-"n": 1465,
+"n": 1594,
 "ch": [
 "機能性表示食品は、国が商品ごとに審査し、許可するものである。",
 "消費者に販売する商品の価格は、消費税を含めた総額を表示する必要があり、チラシや広告も対象になる。",
@@ -1914,7 +1914,7 @@
 "a": 1,
 "e": "買取仕入、委託仕入、消化仕入は、所有権がいつ小売業者に移るかと、売れ残りのリスクを誰が負うかが違う。大規模小売業者の取引では、独占禁止法の優越的地位の濫用（大規模小売業告示）により、不当な返品や値引きなどが禁止されている。",
 "st": "ok",
-"n": 1466,
+"n": 1595,
 "ch": [
 "消化仕入では、小売業者が商品を仕入れた時点で所有権を得て、在庫のリスクを負う。",
 "買取仕入では、仕入れた時点で所有権が小売業者に移り、売れ残りのリスクは原則として小売業者が負う。",
@@ -1937,7 +1937,7 @@
 "a": 3,
 "e": "VMDは、VP（店や季節のテーマの表現）、PP（売りたい商品とコーディネートの提案）、IP（分類・整理した陳列）の3つの要素で、商品の見せ方を通じて購買を促す。棚割りでは、売れ筋のフェイスを増やし、死に筋を外す。",
 "st": "ok",
-"n": 1467,
+"n": 1596,
 "ch": [
 "フェイス数を増やすと、1フェイス当たりの販売数量の増加は、フェイス数が多くなるほど大きくなる。",
 "縦割り陳列は、同じ商品グループを、同じ棚の段に横に並べる陳列である。",
@@ -1960,17 +1960,17 @@
 "a": 0,
 "e": "全体の値入率＝値入額の合計÷売価の合計。売価の合計は800×20＋400×30＝28,000円、原価の合計は600×20＋220×30＝18,600円、値入額の合計は9,400円で、9,400÷28,000≒33.6％。各商品の値入率を単純に平均しても求められない。",
 "st": "ok",
-"n": 1468,
+"n": 1597,
 "ch": [
 "約33.6％",
-"35.0％",
 "37.0％",
+"35.0％",
 "約50.5％"
 ],
 "ce": [
 "○ 値入額の合計9,400円÷売価の合計28,000円",
-"× 2つの値入率（Aの25％とBの45％）を単純に平均している",
 "× 値入率を数量で加重平均している。売価の金額で重みを付けなければならない",
+"× 2つの値入率（Aの25％とBの45％）を単純に平均している",
 "× 値入額の合計を原価の合計で割っている（原価値入率）"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 88\" role=\"img\" aria-label=\"全体の値入率＝9,400÷28,000≒33.6％（円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"28.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">商品</text><text x=\"114.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">売価×数量</text><text x=\"230.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">原価×数量</text><text x=\"324.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">値入額</text><text x=\"28.0\" y=\"37.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">A</text><text x=\"166\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">800×20＝16,000</text><text x=\"282\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">600×20＝12,000</text><text x=\"354\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">4,000</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"28.0\" y=\"59.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">B</text><text x=\"166\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">400×30＝12,000</text><text x=\"282\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">220×30＝6,600</text><text x=\"354\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">5,400</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"28.0\" y=\"80.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">合計</text><text x=\"166\" y=\"80.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">28,000</text><text x=\"282\" y=\"80.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">18,600</text><text x=\"354\" y=\"80.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">9,400</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M56 0L56 86.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M172 0L172 86.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M288 0L288 86.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"86.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -1980,21 +1980,21 @@
 "type": "single",
 "t": "unei.2.2.4",
 "q": "原価910円の商品に、売価値入率35％で売価をつけた。その後、売価の15％を値下げして販売した。値下げ後の粗利益率として、最も適切なものはどれか。",
-"a": 1,
+"a": 3,
 "e": "当初の売価＝原価÷（1－値入率）＝910÷0.65＝1,400円。15％値下げした売価は1,400×0.85＝1,190円。粗利益は1,190－910＝280円で、粗利益率は280÷1,190≒23.5％。値下げをすると、粗利益率は当初の値入率より下がる。",
 "st": "ok",
-"n": 1469,
+"n": 1598,
 "ch": [
-"20.0％",
-"約23.5％",
 "約29.8％",
-"約30.8％"
+"20.0％",
+"約30.8％",
+"約23.5％"
 ],
 "ce": [
-"× 値入率から値下げ率を引いている",
-"○ （1,190－910）÷1,190",
 "× 値入率に（1－値下げ率）を掛けている",
-"× 粗利益を原価で割っている"
+"× 値入率から値下げ率を引いている",
+"× 粗利益を原価で割っている",
+"○ （1,190－910）÷1,190"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 126\" role=\"img\" aria-label=\"値下げ後の粗利益率\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"72.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"72.2\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"38.1\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">当初の売価</text><text x=\"81.2\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"88.2\" y=\"2\" width=\"68.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"122.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">原価910円</text><text x=\"163.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"170.8\" y=\"2\" width=\"114.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"228.0\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1－値入率0.35）</text><text x=\"292.1\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"299.1\" y=\"2\" width=\"58.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"299.1\" y=\"2\" width=\"58.9\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"328.5\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">1,400円</text><rect x=\"2\" y=\"46\" width=\"87.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"87.8\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"45.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">値下げ後の売価</text><text x=\"96.8\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"103.8\" y=\"46\" width=\"54.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"131.2\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">1,400円</text><text x=\"165.6\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">×</text><rect x=\"172.6\" y=\"46\" width=\"116.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"230.9\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1－値下げ率0.15）</text><text x=\"296.2\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"303.2\" y=\"46\" width=\"54.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"303.2\" y=\"46\" width=\"54.8\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"330.6\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">1,190円</text><rect x=\"2\" y=\"90\" width=\"70.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"90\" width=\"70.5\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"37.2\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">粗利益率</text><text x=\"79.5\" y=\"112.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"86.5\" y=\"90\" width=\"114.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"143.9\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（1,190－910）</text><text x=\"208.3\" y=\"112.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">÷</text><rect x=\"215.3\" y=\"90\" width=\"55.2\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"242.9\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">1,190</text><text x=\"277.5\" y=\"112.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"284.5\" y=\"90\" width=\"73.5\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"284.5\" y=\"90\" width=\"73.5\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"321.2\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">約23.5％</text></svg>"
 },
@@ -2006,7 +2006,7 @@
 "a": 0,
 "e": "プライスゾーン（価格帯）、プライスライン（具体的な価格の段階）、プライスポイント（品目が最も多い価格）を区別する。ロス・リーダーは、利益がほとんど出ない価格などで売る目玉商品。EDLPを続けるには、ローコストの運営（EDLC）が必要。",
 "st": "ok",
-"n": 1470,
+"n": 1599,
 "ch": [
 "需要の先食いとは、特売で、本来は後で買われるはずの需要を前倒しで買わせることで、特売の後に通常の売上が落ち込む原因になる。",
 "特売には、価格弾力性の小さい商品が向く。",
@@ -2029,7 +2029,7 @@
 "a": 2,
 "e": "インストア・マーチャンダイジングは、スペース・マネジメント（売場の配置や棚割り）とインストア・プロモーション（価格主導型と非価格主導型）からなる。非計画購買は、想起購買、関連購買、条件購買、衝動購買に分けられる。",
 "st": "ok",
-"n": 1471,
+"n": 1600,
 "ch": [
 "価格によるプロモーションは、売れ筋の商品の利益率を上げる手段である。",
 "非計画購買のうち、店頭で見て、必要だったことを思い出して買うのは、衝動購買である。",
@@ -2052,7 +2052,7 @@
 "a": 3,
 "e": "商品回転率＝売上高÷平均在庫高（売価）＝2,000÷400＝5回。交差比率＝粗利益率×商品回転率＝25％×5＝125％（＝粗利益÷平均在庫高（売価））。GMROI＝粗利益÷平均在庫高（原価）＝500÷300≒166.7％。どちらも、在庫への投資がどれだけの粗利益を生んだかを示す。",
 "st": "ok",
-"n": 1472,
+"n": 1601,
 "ch": [
 "交差比率 約166.7％　GMROI 125％",
 "交差比率 125％　GMROI 125％",
@@ -2075,7 +2075,7 @@
 "a": 1,
 "e": "定量発注方式は発注量が一定で発注の間隔が変わり、定期発注方式は発注の間隔が一定で発注量が毎回変わる。発注量の計算や発注点との比較には、有効在庫（手持在庫＋発注残）を使う。",
 "st": "ok",
-"n": 1473,
+"n": 1602,
 "ch": [
 "定量発注方式では、販売量が減ると、発注の間隔は短くなる。",
 "ダブルビン方式は、同じ量の在庫を入れた2つの容器を使い、一方が空になったら1容器分を発注する方式で、定量発注方式の一種である。",
@@ -2098,7 +2098,7 @@
 "a": 0,
 "e": "ユニットロード・システムは、貨物をパレットやコンテナで一定の単位にまとめ、そのまま一貫して輸送・保管・荷役する仕組み。共同輸配送は、複数の企業の貨物を同じトラックにまとめて運び、積載率を上げる。",
 "st": "ok",
-"n": 1474,
+"n": 1603,
 "ch": [
 "日本の標準のパレットであるT11型は1,100mm×1,100mmで、550mm×366mmの包装モジュールの箱なら、1段に6個積める。",
 "モーダルシフトとは、鉄道や船舶による輸送を、トラックに切り替えることである。",
@@ -2118,21 +2118,21 @@
 "type": "single",
 "t": "unei.2.3.2",
 "q": "配送拠点Pから、店舗Aと店舗Bに配送する。PとAの距離は12km、PとBの距離は9km、AとBの距離は5kmである。AとBに別々に往復する場合と比べて、P→A→B→Pと1回で回る場合に節約できる走行距離として、最も適切なものはどれか。",
-"a": 1,
+"a": 0,
 "e": "別々に往復すると（12＋9）×2＝42km、P→A→B→Pと回ると12＋5＋9＝26kmで、節約量は42－26＝16km。節約量は、PA間の距離＋PB間の距離－AB間の距離で求められる。セービング法では、節約量の大きい組合せから、配送ルートにまとめていく。",
 "st": "ok",
-"n": 1475,
+"n": 1604,
 "ch": [
-"5km",
 "16km",
 "26km",
-"42km"
+"42km",
+"5km"
 ],
 "ce": [
-"× AとBの間の距離そのもの",
 "○ PA＋PB－AB＝12＋9－5",
 "× 1回で回る場合の走行距離",
-"× 別々に往復する場合の走行距離"
+"× 別々に往復する場合の走行距離",
+"× AとBの間の距離そのもの"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 126\" role=\"img\" aria-label=\"セービング法の節約量\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"115.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"2\" width=\"115.8\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"59.9\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">別々に往復</text><text x=\"124.8\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"131.8\" y=\"2\" width=\"137.8\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"200.7\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（12＋9）×2</text><text x=\"276.6\" y=\"24.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"283.6\" y=\"2\" width=\"74.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"283.6\" y=\"2\" width=\"74.4\" height=\"34\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"320.8\" y=\"22.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">42km</text><rect x=\"2\" y=\"46\" width=\"87.7\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"46\" width=\"87.7\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"45.8\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">1回で回る</text><text x=\"96.7\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"103.7\" y=\"46\" width=\"179.9\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"193.6\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">P→A 12＋A→B 5＋B→P 9</text><text x=\"290.6\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"297.6\" y=\"46\" width=\"60.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"297.6\" y=\"46\" width=\"60.4\" height=\"34\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"327.8\" y=\"66.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">26km</text><rect x=\"2\" y=\"90\" width=\"76.0\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"2\" y=\"90\" width=\"76.0\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"40.0\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">節約量</text><text x=\"85.0\" y=\"112.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"92.0\" y=\"90\" width=\"181.6\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"182.8\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">PA 12＋PB 9－AB 5</text><text x=\"280.6\" y=\"112.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13.5\" style=\"fill:currentColor\">＝</text><rect x=\"287.6\" y=\"90\" width=\"70.4\" height=\"34\" rx=\"6\" style=\"fill:var(--sheet);stroke:none\" stroke-width=\"1\"/><rect x=\"287.6\" y=\"90\" width=\"70.4\" height=\"34\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"322.8\" y=\"110.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">16km</text></svg>"
 },
@@ -2144,7 +2144,7 @@
 "a": 1,
 "e": "物流センターには、DC（在庫型）、TC（通過型）、PC（流通加工型）がある。摘み取り方式はDPS、種まき方式はDASを使う。固定ロケーションは場所を覚えやすく、フリーロケーションは保管の効率が高い。",
 "st": "ok",
-"n": 1476,
+"n": 1605,
 "ch": [
 "ASN（事前出荷明細）は、荷受側が、入荷の後に作る受領の明細である。",
 "多くの仕入先の商品を1つのセンターで店舗別にまとめて納品する一括物流は、在庫を持たない通過型のセンターでも行うことができる。",
@@ -2167,7 +2167,7 @@
 "a": 1,
 "e": "支持度＝AとBを両方含む取引÷全体の取引＝150÷2,000＝0.075。信頼度＝両方を含む取引÷Aを含む取引＝150÷500＝0.3。リフト値＝信頼度÷（Bを含む取引÷全体の取引）＝0.3÷0.2＝1.5。リフト値が1より大きいので、Aを買う客はBも買いやすい。",
 "st": "ok",
-"n": 1477,
+"n": 1606,
 "ch": [
 "信頼度 0.375　リフト値 1.5",
 "信頼度 0.3　リフト値 1.5",
@@ -2190,7 +2190,7 @@
 "a": 2,
 "e": "ID付きPOSデータで顧客ごとの購買を把握し、RFM分析（最終購買日、購買頻度、購買金額）などで顧客を分類して、FSPなどの販促に活かす。相関係数は、2つの変数の直線的な関係の強さを－1から1の範囲で表す。",
 "st": "ok",
-"n": 1478,
+"n": 1607,
 "ch": [
 "売れ筋・死に筋の把握は、POSシステムのハード・メリットである。",
 "相関係数が－0.7の2つの変数は、相関係数が0.5の2つの変数より、関係が弱い。",
@@ -2213,7 +2213,7 @@
 "a": 0,
 "e": "適合率＝「反応する」と予測して実際に反応した数÷「反応する」と予測した数＝30÷40＝75％。再現率＝「反応する」と予測して実際に反応した数÷実際に反応した数＝30÷50＝60％。正答率＝予測が当たった数÷全体＝（30＋140）÷200＝85％。",
 "st": "ok",
-"n": 1479,
+"n": 1608,
 "ch": [
 "適合率 75％　再現率 60％",
 "適合率 60％　再現率 75％",
@@ -2237,7 +2237,7 @@
 "a": 0,
 "e": "JANコード（GTIN-13）は、GS1事業者コード、商品アイテムコード、チェックデジットで構成される。ソースマーキングは製造業者などが製造や出荷の段階で印刷し、インストアマーキングは小売業者が店内でラベルを付ける。",
 "st": "ok",
-"n": 1480,
+"n": 1609,
 "ch": [
 "集合包装用商品コード（GTIN-14）は、元のGTIN-13の先頭にインジケータを付けたもので、最後のチェックデジットも計算し直す。",
 "JANコードの先頭の国コードは、その商品が製造された国を表す。",
@@ -2260,7 +2260,7 @@
 "a": 3,
 "e": "流通業界のインターネットを使う標準のEDIとして、流通BMSがある。アプリケーション識別子は、データの前に付けて、続くデータの種類と桁数を示すGS1の国際標準の番号で、GS1-128などで使う。",
 "st": "ok",
-"n": 1481,
+"n": 1610,
 "ch": [
 "アプリケーション識別子（AI）を使えば、漢字やかなのデータも表せる。",
 "販売する店舗によって、同じ商品に異なるGTINを設定する。",
@@ -2283,7 +2283,7 @@
 "a": 0,
 "e": "トレーサビリティは、生産、加工、流通の各段階の記録を残し、製品の履歴をたどれるようにすること。牛と米については、牛トレーサビリティ法と米トレーサビリティ法で義務づけられている。EPCは電子タグに書き込むGS1標準の識別コードの総称。",
 "st": "ok",
-"n": 1482,
+"n": 1611,
 "ch": [
 "SGTINは、GTINにシリアル番号を付けたコードで、同じ商品の1つ1つ（個体）を識別できる。",
 "パッシブ型の電子タグは、電池を内蔵して、自ら電波を出す。",
@@ -2306,7 +2306,7 @@
 "a": 2,
 "e": "食品衛生法の改正で、2021年6月から、原則としてすべての食品等事業者にHACCPに沿った衛生管理が義務づけられた。食品リサイクル法の取組みの優先順位は、発生の抑制→再生利用→熱回収→減量。",
 "st": "ok",
-"n": 1483,
+"n": 1612,
 "ch": [
 "食品リサイクル法の再生利用では、肥料化を最も優先する。",
 "小規模な食品等事業者は、HACCPに沿った衛生管理の対象外である。",
@@ -2329,7 +2329,7 @@
 "a": 0,
 "e": "免税店（輸出物品販売場）制度は、外国人旅行者などの非居住者が国外に持ち出す物品を買う場合に、消費税を免除する制度で、税務署長の許可を受けた店舗で扱う。リファンド方式では、購入から90日以内に出国し、税関で持ち出しを確認する。",
 "st": "ok",
-"n": 1484,
+"n": 1613,
 "ch": [
 "リファンド方式では、一般物品と消耗品の区分がなくなった。",
 "フルフィルメントサービスでは、在庫の所有権は、サービスを提供する事業者が持つ。",
