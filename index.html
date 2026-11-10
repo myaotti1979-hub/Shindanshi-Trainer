@@ -171,6 +171,10 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .res-a{font-size:13px;font-weight:700;color:var(--ink)}
 .res p{margin:0;font-size:14.5px;line-height:1.75}
 .res .ref{font-size:12.5px;color:var(--ink-2)}
+.res-x{background:var(--sheet);border-radius:10px;padding:8px 10px 10px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.res-x p{font-size:14px}
+.res-x .tx-figcap{margin-top:0}
+.res-x ul{margin:0;padding-left:1.2em;font-size:14px;line-height:1.7}
 .p-foot{flex:none;padding-block:10px;border-top:1px solid var(--guide);background:var(--paper)}
 .p-foot.two{display:grid;grid-template-columns:1fr 1.6fr;gap:8px}
 .score{display:flex;align-items:baseline;gap:8px}
@@ -210,7 +214,7 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .tx-point{background:var(--good-soft)}
 .tx-trap{background:var(--warn-soft)}
 .tx-case b,.tx-point b,.tx-trap b{font-size:12px;letter-spacing:.06em}
-.tx-fig{margin:6px 0 0;overflow-x:auto}.tx-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;color:var(--ink)}.tx-figcap{font-size:12px;color:var(--ink-2);text-align:center;margin-top:-4px}
+.tx-fig{margin:6px 0 0;overflow-x:auto}.tx-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;color:var(--ink)}.tx-figcap{font-size:12.5px;line-height:1.6;color:var(--ink-2);text-align:left;margin-top:2px}
 .tx-code{margin:6px 0 0;padding:8px 10px;background:var(--sheet);border:1px solid var(--guide);border-radius:8px;overflow-x:auto;white-space:pre;font-family:ui-monospace,Menlo,Consolas,'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic','Meiryo',monospace;font-size:13px;line-height:1.55;color:var(--ink)}
 .tx-case b{color:var(--drop)}
 .tx-point b{color:var(--good)}
@@ -321,7 +325,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v5';   // sw.js の VER と同じ値にする
+var APP_VER='v6';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -752,7 +756,7 @@ function renderSession(){
   if(s.phase==='conf')h+='<div class="confwrap"><p class="conf-q">自信はどのくらい？</p><div class="conf"><button class="btn" type="button" data-act="conf" data-c="sure">確信</button><button class="btn" type="button" data-act="conf" data-c="unsure">迷った</button><button class="btn" type="button" data-act="conf" data-c="guess">勘</button></div></div>';
   if(rev){
     var ansTxt=isTF(q)?(q.a?'○':'×'):LT[q.a];
-    h+='<div class="res '+(ok?'ok':'ng')+'" aria-live="polite"><div class="res-h">'+(ok?'正解':'不正解')+'<span class="res-a">正しくは '+ansTxt+'</span></div><p>'+esc(q.e)+'</p>'+(q.ref?'<p class="ref">根拠：'+esc(q.ref)+'</p>':'')
+    h+='<div class="res '+(ok?'ok':'ng')+'" aria-live="polite"><div class="res-h">'+(ok?'正解':'不正解')+'<span class="res-a">正しくは '+ansTxt+'</span></div><p>'+esc(q.e)+'</p>'+(q.x?'<div class="res-x">'+renderContent(q.x)+'</div>':'')+(q.ref?'<p class="ref">根拠：'+esc(q.ref)+'</p>':'')
      +'<div class="row-act">'+(hasText(q.s,q.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+q.s+'" data-sec="'+esc(q.t)+'">テキストで確認</button>':'')+(ST.flags[id]?'<span class="fine">報告済み（演習から外しました）</span>':'<button class="linkbtn" type="button" data-act="flag">誤りを報告</button>')+'<span class="fine">問題番号 '+esc(id)+'</span></div></div>';
   }
   h+='</div></div><div class="p-foot gut">'+(rev?'<button class="btn primary wide" type="button" data-act="next">次へ</button>':'<p class="fine center">'+(s.phase==='answer'?(isTF(q)?'正しければ○、誤りなら×':'答えを1つ選ぶ'):'自信を選ぶと答え合わせ')+'</p>')+'</div>';
