@@ -206,3 +206,9 @@
 - 確認：`node t_qb.js keizai-101..200 名前`（指定した問題だけの演習を開き、誤答を選んだ後の画面全体を shots/qb-名前-ID.png に撮る。はみ出しと図の数も出す）。検証の資料は `python3 mk_qpacket.py 科目 開始 終了 出力.md`、検証の結果の反映は `python3 apply_qfix.py review/qb_*.json [--dry] [--mark]`。集計は `python3 qstats.py`。
 - 検証（作成とは別の2人）：review/qb_keizai1.json（101〜156、ok52・fix4）、qb_keizai2.json（157〜195、ok37・fix2）、qb_keizai3.json（196〜200、ok5）。正答の誤り0件。fix は、別の数値のテキストの図（106・112・141、191）、図の目盛と軸名の重なり（187）、根拠の資料名（119：IMF「World Economic Outlook」）。
 - 財務・会計の91問（zaimu-101〜191）は作成済みで検証中（qb_zaimu_a.md → qb_zaimu1.json、qb_zaimu_b.md → qb_zaimu2.json）。次は企業経営理論、運営管理、経営法務、経営情報システム、中小企業経営・政策の順。
+
+## 11n. 検証の記録（v17：財務・会計の全36細目に本試験形式の91問）
+
+- 問題：qbank/q_zaimu_a.py〜e.py（zaimu-101〜191）、図は text/fig_qb_zaimu.py（zaimu.qd.*・zaimu.qx.*）。テキストの図が別の数値の例なら、問題と同じ数値の図（未払法人税等のT字勘定、のれんの箱の図、製造原価の流れ、圧縮記帳の仕訳など）に差し替えた。
+- 検証（作成とは別の2人）：review/qb_zaimu1.json（101〜140、ok32・fix8）、qb_zaimu2.json（141〜191、ok41・fix10）。正答の誤り0件。直したのは、選択肢の値と注の不一致（182）、注の誤り（178）、問題文の条件の不足（147の需要の上限、139の単位、122の支配獲得日、114の収益認識基準の範囲）、図の説明（108・111・115・129・131・143・150・154）、注のあいまいさ（169・170・179）、図の文字の重なり（185）。
+- 次：企業経営理論（qbank/q_kigyo_a.py〜。kigyo-101〜は作成中。図は text/fig_qb_kigyo.py）。
