@@ -178,3 +178,22 @@
 - 法改正（review/law_homu_2027.json の26件）から本文に加えたもの：早期事業再生法（2026年12月11日施行）、景品表示法の2024年10月の改正（確約手続・直罰・課徴金の加算）、フリーランス・事業者間取引適正化等法、相続登記の義務化、遺言の押印の任意化と成年後見制度の見直し（施行日が未定なので、施行までは現行の制度で考えると注記）。
 - 確認：6章26節で画面の横はみ出しなし・未処理の記号なし（`PAGE=_prev.html node t_allch2.js homu …`）。図は直したものを1枚ずつ目で確認した。
 - 次：中小企業経営・政策（1章は執筆済み：text/chusho_p1a.py・p1b.py、fig_chusho_a.py・fig_chusho_b.py。2章の政策は review/src_chusho_seisaku2026.json をもとに執筆）。公開まで t_chusho.json は出さない（tar の除外に `--exclude=data/t_chusho.json`）。
+
+## 11k. 中小企業経営・政策の執筆（v15 予定）
+
+- 26節すべてを書いた：1.1（text/chusho_p1a.py・fig_chusho_a.py）、1.2（chusho_p1b.py・fig_chusho_b.py）、2.1.1〜2.1.3（chusho_p2a.py・fig_chusho_c.py・fig_chusho_d.py）、2.1.4〜2.3.1（chusho_p2b.py・fig_chusho_d.py・fig_chusho_e.py）。図表126点。経営法務の図を4つ流用（homu.tokurei・tokurei2・toteki・chiiki）。演習6問の解説の図は text/qx_chusho.py（これで演習125問すべてに図表がついた）。
+- 根拠：白書は review/src_chusho_hakusho2026.json（2026年版、102件）、制度は review/src_chusho_seisaku2026.json（2026年度、99件）、過去問は past_chusho_a.json・past_chusho_b.json。細目ごとの抜き出しは `python3 chusho_pts.py 細目ID past|haku|sei|all 文字数`、制度は `python3 sei_pts.py 細目ID 文字数`。
+- マル経融資の返済期間：中小企業庁の資料（令和8年4月8日時点版）で、運転資金・設備資金とも10年以内（据置2年以内）を確認（以前の本試験では運転資金7年以内）。
+- 点検（作成とは別の4人）：白書担当＝1.1・1.2（packet_chusho_a.md → text_chusho_a.json）、制度担当＝2.1〜2.3と演習6問（packet_chusho_b.md → text_chusho_b.json）、過去問A＝平成27〜令和2年度の網羅（→ text_chusho_c.json）、過去問B＝令和3〜8年度の網羅（→ text_chusho_d.json）。
+- 公開の前の確認に、簡体字などの日本語にない文字が入っていないかの検査を加えた（text/*.py と pwa/data を cp932・euc_jis_2004 で符号化できるか。記号の ┅ と — は可）。執筆中に、「成長」の「長」が簡体字になっていた1字を見つけて直した。
+- 公開の手順：点検の反映 → build_text.py chusho → index.html の TEXT_SUBJ と sw.js の SHELL に chusho を追加 → v15。それまで t_chusho.json は出さない（tar の除外に `--exclude=t_chusho.json`）。
+
+## 11l. 検証の記録（v15：中小企業経営・中小企業政策のテキスト26節を公開。7科目の全321節がそろった）
+
+- 点検（作成とは別の4人）：review/text_chusho_a.json（白書担当、1.1・1.2、27件：誤り1・誤解20・不足6）、text_chusho_b.json（制度担当、2.1〜2.3と演習、30件：誤解10・不足20）、text_chusho_c.json（過去問A、平成27〜令和2年度、22件：不足22）、text_chusho_d.json（過去問B、令和3〜8年度、21件：誤解2・不足19）。計100件。
+- 誤りの1件：倒産件数を「2009年から2021年まで減少が続いた」とした点（白書は「減少傾向」で、2019年にも増加）。一次資料で確かめられなかった2021年・2023年の件数は図から外し、図 chusho.tosan を確かめられた値だけの表に変えた。
+- 重なる指摘は1つにまとめた（反映に使った一覧は review/merge_chusho.json の71件。当てたのは `apply_merge.py review/merge_chusho.json:0,1,…`。図・本文の【置換前】【置換後】と、【追加】の3通りの位置の書き方に対応）。見送り：2024年度の業種別の労働生産性の順位（白書の図の業種と値の対応が推定のため）。
+- 条件が年度で変わる過去の施策（JAPANブランド育成支援等事業、模倣品対策支援事業、小規模事業者経営発達支援融資制度）は、今の制度の表に入れず、「出題時の条件」として年度つきで書いた（図 chusho.kako2 と2.1.3の本文）。
+- 修正案のない「未確認」4件（保証料上乗せで経営者保証を外す保証の開始2024年3月、中小会計指針2005年、診断士の登録の有効期間5年、中小企業憲章2010年）は、本文のまま残した（いずれも広く知られた事実で、誤りの指摘ではない）。
+- 演習 chusho-05・06（共済）の論点を chusho.2.1.3 に付け替えた（build_data.py の MAP）。
+- 確認：7科目すべてで画面の横はみ出しなし・未処理の記号なし（`node t_allch2.js 科目 x sec-x`）、t_pwa.js は正常。公開するファイルに簡体字などの日本語にない文字がないことを確かめた（記号の ┅ と — だけ）。
