@@ -210,6 +210,8 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .tx-point{background:var(--good-soft)}
 .tx-trap{background:var(--warn-soft)}
 .tx-case b,.tx-point b,.tx-trap b{font-size:12px;letter-spacing:.06em}
+.tx-fig{margin:6px 0 0;overflow-x:auto}.tx-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;color:var(--ink)}.tx-figcap{font-size:12px;color:var(--ink-2);text-align:center;margin-top:-4px}
+.tx-code{margin:6px 0 0;padding:8px 10px;background:var(--sheet);border:1px solid var(--guide);border-radius:8px;overflow-x:auto;white-space:pre;font-family:ui-monospace,Menlo,Consolas,'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic','Meiryo',monospace;font-size:13px;line-height:1.55;color:var(--ink)}
 .tx-case b{color:var(--drop)}
 .tx-point b{color:var(--good)}
 .tx-trap b{color:var(--warn)}
@@ -319,7 +321,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v4';   // sw.js の VER と同じ値にする
+var APP_VER='v5';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -390,7 +392,7 @@ window.addEventListener('pagehide',saveNow);
 
 /* ---------- データ ---------- */
 var DATA={syl:null,past:null,q:{},qById:{},items:{},groups:{},text:{}};
-var TEXT_SUBJ=['kigyo','unei'];   // テキスト（data/t_<科目>.json）がある科目。追加したら sw.js の SHELL にも足す
+var TEXT_SUBJ=['kigyo','unei','zaimu'];   // テキスト（data/t_<科目>.json）がある科目。追加したら sw.js の SHELL にも足す
 function loadTexts(){
   return Promise.all(SUBJ.filter(function(s){return TEXT_SUBJ.indexOf(s.k)>=0;}).map(function(s){
     return fetch('data/t_'+s.k+'.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}).then(function(j){
@@ -401,21 +403,26 @@ function loadTexts(){
 function hasText(s,itemId){var T=DATA.text[s];return !!(T&&T.secCh[itemId]);}
 function chapterHas(s,gid){var T=DATA.text[s];return !!(T&&T.chapters.some(function(c){return c.id===gid;}));}
 function renderContent(src){
-  var out=[],list=null;
+  var out=[],list=null,code=null;
   function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');}
   function closeList(){if(list){out.push('<ul>'+list.join('')+'</ul>');list=null;}}
+  function closeCode(){if(code){out.push('<pre class="tx-code">'+code.join('\n')+'</pre>');code=null;}}
   String(src||'').split('\n').forEach(function(raw){
     var l=raw.trim();
+    if(l.length>1&&l.charAt(0)==='`'&&l.slice(-1)==='`'){if(list)closeList();(code=code||[]).push(esc(l.slice(1,-1)));return;}
+    closeCode();
     if(!l){closeList();return;}
     if(/^\*\*[^*]+\*\*$/.test(l)){closeList();out.push('<h4>'+esc(l.slice(2,-2))+'</h4>');return;}
     if(l.charAt(0)==='・'){(list=list||[]).push('<li>'+inline(l.slice(1))+'</li>');return;}
     closeList();
+    if(l.indexOf('<svg')===0&&/<\/svg>$/.test(l)){out.push('<figure class="tx-fig">'+l+'</figure>');return;}
+    if(l.indexOf('【図】')===0){out.push('<p class="tx-figcap">'+inline(l.slice(3))+'</p>');return;}
     if(l.indexOf('【事例】')===0){out.push('<div class="tx-case"><b>事例</b><span>'+inline(l.slice(4))+'</span></div>');return;}
     if(l.indexOf('【試験のポイント】')===0){out.push('<div class="tx-point"><b>試験のポイント</b><span>'+inline(l.slice(9))+'</span></div>');return;}
     if(l.indexOf('【ひっかけ注意】')===0){out.push('<div class="tx-trap"><b>ひっかけ注意</b><span>'+inline(l.slice(8))+'</span></div>');return;}
     out.push('<p>'+inline(l)+'</p>');
   });
-  closeList();return out.join('');
+  closeList();closeCode();return out.join('');
 }
 function openText(s,ch,sec,fromSess){
   var T=DATA.text[s];if(!T)return;if(!ch&&sec)ch=T.secCh[sec];if(!ch)return;
