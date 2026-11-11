@@ -3,7 +3,7 @@
 // ・data/*.json: キャッシュを即返し、裏で最新版を取得して差し替え（次回起動で反映）
 // ・Google Fonts: キャッシュ優先
 // index.html の APP_VER と、この VER は必ず同じ値にする
-var VER = 'v26';
+var VER = 'v27';
 var CACHE = 'shindan1-' + VER;
 var SHELL = [
   './', 'index.html', 'manifest.json',
