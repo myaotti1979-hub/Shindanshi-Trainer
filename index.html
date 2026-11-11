@@ -283,6 +283,63 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .pc.none{color:var(--ink-3);font-weight:500;font-size:13px}
 .pc.low{color:var(--bad)}
 .pc.good{color:var(--good)}
+.pc.na{color:var(--ink-3);font-weight:500;font-size:12px}
+.pgrid td.mt{font-size:13px;font-variant-numeric:tabular-nums;padding-inline:2px;white-space:nowrap}
+.pgrid thead th{white-space:nowrap}
+.pgrid td.mt b.good{color:var(--good)}
+.pgrid td.mt b.bad{color:var(--bad)}
+.pgrid td.mt small{color:var(--ink-3)}
+/* 模擬試験のアラート（今日のタブの先頭） */
+.malert{border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px;background:var(--sheet);min-width:0}
+.malert.soon{border-color:var(--warn)}
+.malert.today{border-color:var(--mark);border-width:2px}
+.malert.over{border-color:var(--bad);border-width:2px;background:var(--bad-soft)}
+.malert-h{display:flex;align-items:center;gap:8px;font-size:15.5px;line-height:1.4}
+.flag{width:18px;height:18px;flex:none;color:var(--ink-2)}
+.malert.soon .flag{color:var(--warn)}
+.malert.today .flag{color:var(--ink)}
+.malert.over .flag,.malert.over .malert-h b{color:var(--bad)}
+.mday{display:flex;flex-direction:column;gap:6px}
+.mday-l{font-size:12px;font-weight:700;color:var(--ink-2)}
+.mday-s{display:flex;flex-wrap:wrap;gap:6px}
+.mchip{appearance:none;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;min-height:50px;padding:4px 8px;border:1.5px solid var(--guide);border-radius:12px;background:var(--sheet);font:inherit;color:var(--ink);cursor:pointer;line-height:1.3}
+.mchip span{font-weight:700;font-size:13.5px}
+.mchip small{font-size:11px;color:var(--ink-2)}
+.mchip.go{border-color:var(--mark);background:var(--mark);color:var(--on-mark)}
+.mchip.go small{color:var(--on-mark);opacity:.85}
+.mchip.done b{font-size:13px}
+.mchip.done b.good{color:var(--good)}
+.mchip.done b.bad{color:var(--bad)}
+.mchip.na{cursor:default;color:var(--ink-3);border-style:dashed}
+.tab.al .tab-dot{border-color:var(--warn);box-shadow:0 0 0 2px var(--warn-soft)}
+.tab.al-over .tab-dot{border-color:var(--bad);background:var(--bad)}
+/* 模擬試験の画面 */
+.m-info{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.m-info div{border:1.5px solid var(--guide);border-radius:var(--r);padding:10px;display:flex;align-items:baseline;justify-content:center;gap:4px;background:var(--sheet)}
+.m-info b{font-size:28px;font-weight:900;font-variant-numeric:tabular-nums}
+.m-info span{font-size:13px;color:var(--ink-2);font-weight:700}
+.m-rules{margin:0;padding-left:1.2em;font-size:13.5px;color:var(--ink-2);display:flex;flex-direction:column;gap:4px}
+.m-no{display:flex;align-items:baseline;gap:10px}
+.m-no b{font-size:15px}
+.m-no span{font-size:12px;color:var(--ink-2);font-weight:700}
+.m-lead{border-left:3px solid var(--guide);padding:2px 0 2px 12px;font-size:14px;color:var(--ink);min-width:0}
+.ptimer.warn{color:var(--bad)}
+.mnav{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:8px}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
+.mcell{appearance:none;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:52px;border:1.5px solid var(--guide);border-radius:10px;background:var(--sheet);font:inherit;color:var(--ink);cursor:pointer;padding:2px}
+.mcell span{font-size:11.5px;color:var(--ink-2);font-weight:700}
+.mcell b{font-size:15px;min-height:1.2em}
+.mcell.on{border-color:var(--mark)}
+.mcell.on b{color:var(--ink)}
+.mcell.cur{box-shadow:0 0 0 2px var(--drop)}
+.mcell i{position:absolute;top:1px;right:4px;font-style:normal;font-size:12px;color:var(--warn)}
+.mres{appearance:none;display:grid;grid-template-columns:5.6em minmax(0,1fr) auto 1.6em;align-items:center;gap:8px;width:100%;min-height:44px;text-align:left;background:none;border:0;border-bottom:1px dashed var(--guide);padding:6px 0;font:inherit;color:var(--ink);cursor:pointer}
+.mres .ms-n{font-weight:700;font-size:13px;line-height:1.3}
+.mres .ms-n small{display:block;font-size:11px;color:var(--ink-2)}
+.mres-a{font-size:12.5px;color:var(--ink-2)}
+.mres-p{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.mres b.ok{color:var(--good)}
+.mres b.ng{color:var(--bad)}
 .pyr{display:flex;flex-direction:column;gap:6px;padding-block:12px;border-bottom:1px dashed var(--guide)}
 .pyr-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .pyr-h b{font-size:15px}
@@ -345,7 +402,7 @@ select,input[type=text],input[type=number],input[type=date]{font:inherit;font-si
 .confirm{border-radius:12px;padding:12px 14px;background:var(--warn-soft);display:flex;flex-direction:column;gap:10px;font-size:13.5px}
 
 nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--guide);background:var(--sheet);padding-bottom:env(safe-area-inset-bottom,0px)}
-.tab{appearance:none;background:none;border:none;font:inherit;color:var(--ink-3);display:flex;flex-direction:column;align-items:center;gap:3px;padding-block:9px 7px;font-size:11.5px;font-weight:700;cursor:pointer;min-height:54px}
+.tab{appearance:none;background:none;border:none;font:inherit;color:var(--ink-3);display:flex;flex-direction:column;align-items:center;gap:3px;padding-block:9px 7px;font-size:11px;font-weight:700;cursor:pointer;min-height:54px;white-space:nowrap;letter-spacing:-.02em}
 .tab-dot{width:16px;height:16px;border-radius:50%;border:1.5px solid var(--guide)}
 .tab[aria-current="page"]{color:var(--ink)}
 .tab[aria-current="page"] .tab-dot{background:var(--mark);border-color:var(--mark)}
@@ -363,13 +420,14 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
   <nav class="tabs gut" aria-label="画面の切り替え">
     <button class="tab" type="button" data-act="tab" data-tab="today"><span class="tab-dot" aria-hidden="true"></span>今日</button>
     <button class="tab" type="button" data-act="tab" data-tab="drill"><span class="tab-dot" aria-hidden="true"></span>学習</button>
-    <button class="tab" type="button" data-act="tab" data-tab="past"><span class="tab-dot" aria-hidden="true"></span>過去問</button>
+    <button class="tab" type="button" data-act="tab" data-tab="past"><span class="tab-dot" aria-hidden="true"></span>模試・過去問</button>
     <button class="tab" type="button" data-act="tab" data-tab="judge"><span class="tab-dot" aria-hidden="true"></span>判定</button>
     <button class="tab" type="button" data-act="tab" data-tab="log"><span class="tab-dot" aria-hidden="true"></span>記録</button>
   </nav>
 </div>
 <section class="panel" id="sess" aria-label="演習" hidden></section>
 <section class="panel" id="msheet" aria-label="過去問の採点" hidden></section>
+<section class="panel" id="mock" aria-label="模擬試験" hidden></section>
 <section class="panel" id="reader" aria-label="テキスト" hidden></section>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 <input type="file" id="importFile" accept="application/json,.json" hidden>
@@ -377,7 +435,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v24';   // sw.js の VER と同じ値にする
+var APP_VER='v25';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -435,7 +493,7 @@ function fsrs(prev,g,now){
 }
 
 /* ---------- 保存（この端末のブラウザ） ---------- */
-function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null};}
+function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null,mock:[],mockRun:null};}
 var ST=blankState(), storageOK=true, saveT=0;
 function loadState(){
   try{var j=localStorage.getItem(STORE);if(j){var o=JSON.parse(j);if(o&&o.v===1){ST=Object.assign(blankState(),o);ST.settings=Object.assign({},DEF,o.settings||{});}}}
@@ -447,7 +505,7 @@ document.addEventListener('visibilitychange',function(){if(document.visibilitySt
 window.addEventListener('pagehide',saveNow);
 
 /* ---------- データ ---------- */
-var DATA={syl:null,past:null,q:{},qById:{},items:{},groups:{},text:{}};
+var DATA={syl:null,past:null,q:{},qById:{},items:{},groups:{},text:{},mock:null,mset:{}};
 var TEXT_SUBJ=['kigyo','unei','zaimu','keizai','joho','homu','chusho'];   // テキスト（data/t_<科目>.json）がある科目。追加したら sw.js の SHELL にも足す
 function loadTexts(){
   return Promise.all(SUBJ.filter(function(s){return TEXT_SUBJ.indexOf(s.k)>=0;}).map(function(s){
@@ -506,13 +564,15 @@ function loadData(){
     DATA.qById={};SUBJ.forEach(function(s){DATA.q[s.k].forEach(function(q){DATA.qById[q.id]=q;});});
     DATA.items={};DATA.groups={};
     DATA.syl.subjects.forEach(function(sub){sub.parts.forEach(function(p){p.groups.forEach(function(g){DATA.groups[g.id]={g:g,s:sub.k,part:p.n};g.items.forEach(function(it){DATA.items[it.id]={n:it.n,g:g.id,s:sub.k};});});});});
+    // 模擬試験の日程と公開済みの問題の一覧（なくても動く）
+    return fetch('data/mock.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}).then(function(j){DATA.mock=j;});
   });
 }
 function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',drillSub:null,sess:null,sheet:null,reader:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null};
+var UI={tab:'today',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 
 /* ---------- 集計 ---------- */
@@ -573,7 +633,7 @@ function scopeFilter(sc){return function(q){
   if(sc.mode==='new'&&ST.srs[q.id])return false;if(sc.mode==='ng'&&qst(q.id)!=='ng')return false;return true;};}
 function scopeName(sc){if(sc.g){var g=DATA.groups[sc.g];return g?g.g.n:'この論点';}return sc.s&&SN[sc.s]?SN[sc.s].n:'';}
 function scopeProg(sc){return progOf(allQ().filter(scopeFilter({s:sc.s,g:sc.g})));}
-function startScope(sc,first){if(UI.sheet){UI.sheet=null;renderSheet();}startSession(10,scopeFilter(sc),false,{scope:sc,first:first});}
+function startScope(sc,first){if(UI.mock&&!ST.mockRun){UI.mock=null;renderMock();}if(UI.sheet){UI.sheet=null;renderSheet();}startSession(10,scopeFilter(sc),false,{scope:sc,first:first});}
 function qtype(q){return q.type==='tf'?'○×':q.type==='combo'?'組み合わせ':'単答';}
 function qrow(q){
   var st=qst(q.id),r=ST.srs[q.id];
@@ -629,6 +689,7 @@ function render(){
     UI.dirty=false;if(fid){var n=document.getElementById(fid);if(n)n.focus({preventScroll:true});}
   }
   document.querySelectorAll('.tab').forEach(function(b){if(b.dataset.tab===UI.tab)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
+  var fl=DATA.syl?mockFlag():'';document.querySelectorAll('.tab[data-tab=today],.tab[data-tab=past]').forEach(function(b){b.classList.toggle('al',!!fl);b.classList.toggle('al-over',fl==='over');});
 }
 function renderHeader(){
   var st=ST.settings,d1=daysUntil(st.exam1),d2=daysUntil(st.exam2),w=weekStats(0),tg=weeklyTarget();
@@ -645,7 +706,7 @@ function renderNote(){
 function viewToday(){
   var c=counts(),td=ST.days[todayKey()]||{},total=c.due+c.newToday,weak=weakTopics(3);
   var act=ST.settings.active.map(function(k){return SN[k]?SN[k].sh:k;}).join('・')||'なし';
-  var h='<section class="sheet"><div class="sec-h"><span>今日の演習</span></div>'
+  var h=mockAlert()+'<section class="sheet"><div class="sec-h"><span>今日の演習</span></div>'
    +'<div class="dueRow"><div class="stat"><span class="k">復習</span><span class="v">'+c.due+'<small>問</small></span></div><div class="stat"><span class="k">新しい問題</span><span class="v">'+c.newToday+'<small>問</small></span></div></div>';
   if(total)h+='<div class="go"><button class="btn primary" type="button" data-act="go" data-n="10">5分<small>10問</small></button><button class="btn" type="button" data-act="go" data-n="30">15分<small>30問</small></button><button class="btn" type="button" data-act="go" data-n="60">30分<small>60問</small></button></div>';
   else h+='<p class="note">今日の分は終わりました。</p>'+(c.avail?'':'<p class="fine">学習中の科目の新しい問題は、いまは残っていません。問題は版を重ねて追加していきます。</p>')+'<button class="btn ghost" type="button" data-act="ahead">先取りで10問</button>';
@@ -723,7 +784,7 @@ function groupAcc(k){
 
 function viewPast(){
   var ys=DATA.past.years;
-  var h='<section class="sec"><div class="sec-h"><span>過去問（公式）</span></div><p class="fine">公式サイトの問題PDFで解き、ここで答えをマークすると、公式の正解と配点で採点します。<b>仕上げ</b>の年度は初見判定用なので、練習の判定を満たすまで取っておいてください。</p><button class="linkbtn" type="button" data-act="scroll" data-to="pyr">年度ごとの問題PDFと正解のリンク ↓</button>'
+  var h=viewMock()+'<section class="sec"><div class="sec-h"><span>過去問（公式）</span></div><p class="fine">公式サイトの問題PDFで解き、ここで答えをマークすると、公式の正解と配点で採点します。<b>仕上げ</b>の年度は初見判定用なので、練習の判定を満たすまで取っておいてください。</p><button class="linkbtn" type="button" data-act="scroll" data-to="pyr">年度ごとの問題PDFと正解のリンク ↓</button>'
    +'<div class="pgrid"><table><thead><tr><th scope="col"></th>'+SUBJ.map(function(s){return '<th scope="col">'+s.sh+'</th>';}).join('')+'</tr></thead><tbody>';
   ys.forEach(function(e){
     h+='<tr><th scope="row">'+esc(e.label.replace('年度',''))+(isReserve(e.y)?'<small>仕上げ</small>':'')+'</th>';
@@ -768,6 +829,7 @@ function viewJudge(){
    +'<p class="lead">'+(done===7?'全科目が完了しました。本試験の水準に達しています。':'科目ごとに、次の2つを満たすと完了です。')+'</p>'
    +'<ol class="crit"><li><b>練習：</b>公式過去問で、最後に解いた2つの年度（別々の年度）がどちらも'+PASS+'点以上</li><li><b>初見：</b>仕上げ用の'+DATA.past.reserve.map(function(y){return pastYear(y).label;}).join('・')+'を、初めて解いて'+PASS+'点以上</li></ol>'
    +'<p class="fine">本試験の合格基準は「合計420点以上かつ40点未満の科目なし」です。全科目'+PASS+'点以上を条件にしているのは、それより厳しく見て取りこぼしを防ぐためです。</p></section>';
+  h+=judgeMock();
   h+='<section class="sec"><div class="sec-h"><span>科目ごとの状態</span></div><ul class="list">'+js.map(function(j){
     var s=SN[j.s],pill=j.status==='done'?'<span class="pill good">完了</span>':j.status==='ready'?'<span class="pill warn">初見待ち</span>':j.status==='fail'?'<span class="pill bad">初見で未達</span>':j.status==='work'?'<span class="pill mute">練習中</span>':'<span class="pill mute">未着手</span>';
     var pr=j.practice.length?j.practice.map(function(a){return pastYear(a.y).label.replace('年度','')+' '+a.score+'点';}).join('、'):'記録なし';
@@ -983,6 +1045,198 @@ function scoreNow(){
   save();m.result=r;m.phase='done';m.first=first;renderSheet();schedRender();
 }
 
+/* ---------- 模擬試験 ---------- */
+// 日程と公開済みの問題の一覧は data/mock.json。問題（data/m_<科目>_<回>.json）は受けるときに読み込み、演習には混ぜない。
+// 本試験と同じ時間割：1日目（土）に4科目、2日目（日）に3科目。記録は各回・各科目の1回目の結果。
+var MOCK_DAY={1:['keizai','zaimu','kigyo','unei'],2:['homu','joho','chusho']};
+var WD=['日','月','火','水','木','金','土'];
+function dlabel(s){var d=parseYmd(s);return (d.getMonth()+1)+'月'+d.getDate()+'日（'+WD[d.getDay()]+'）';}
+function mRounds(){return (DATA.mock&&DATA.mock.rounds)||[];}
+function mRound(r){return mRounds().filter(function(x){return x.r===r;})[0];}
+function mSet(s,r){return DATA.mock&&DATA.mock.sets?DATA.mock.sets[s+'-'+r]:null;}
+function mFirst(r,s){return ST.mock.filter(function(a){return a.r===r&&a.s===s;}).sort(function(a,b){return a.at-b.at;})[0]||null;}
+function mDayOf(s){return MOCK_DAY[1].indexOf(s)>=0?1:2;}
+function mLim(s){var x=DATA.syl.subjects.filter(function(u){return u.k===s;})[0];return x?x.min:60;}
+function roundDone(rd){return SUBJ.every(function(x){return !!mFirst(rd.r,x.k);});}
+function roundState(rd){var t=todayKey();if(roundDone(rd))return 'done';if(t<rd.sat)return 'future';if(t===rd.sat)return 'day1';if(t===rd.sun)return 'day2';return 'over';}
+function focusRound(){var rs=mRounds();for(var i=0;i<rs.length;i++)if(!roundDone(rs[i]))return rs[i];return null;}
+function mockFlag(){if(ST.mockRun)return 'today';var rd=focusRound();if(!rd)return '';var st=roundState(rd);return st==='over'?'over':(st==='day1'||st==='day2')?'today':'';}
+function runLeft(){var r=ST.mockRun;return r?r.t0+mLim(r.s)*60000-Date.now():0;}
+var FLAG_SVG='<svg class="flag" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 1.5v13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 2.2h8.6l-2.2 3.1 2.2 3.1H4z" fill="currentColor"/></svg>';
+function mChip(rd,k){
+  var a=mFirst(rd.r,k),set=mSet(k,rd.r),run=ST.mockRun&&ST.mockRun.r===rd.r&&ST.mockRun.s===k;
+  var at='data-act="mk-open" data-s="'+k+'" data-r="'+rd.r+'"';
+  if(a)return '<button class="mchip done" type="button" '+at+'><span>'+SN[k].sh+'</span><b class="'+(a.score<CUT?'bad':a.score>=PASS?'good':'')+'">'+a.score+'点</b></button>';
+  if(run)return '<button class="mchip go" type="button" '+at+'><span>'+SN[k].sh+'</span><small>受験中</small></button>';
+  if(!set||!set.ready)return '<span class="mchip na"><span>'+SN[k].sh+'</span><small>準備中</small></span>';
+  return '<button class="mchip'+(todayKey()>=rd.sat?' go':'')+'" type="button" '+at+'><span>'+SN[k].sh+'</span><small>'+mLim(k)+'分</small></button>';
+}
+function mockAlert(){
+  if(!DATA.mock)return '';
+  var run=ST.mockRun;
+  if(run){var left=runLeft();return '<section class="malert today"><div class="malert-h">'+FLAG_SVG+'<b>模擬試験を受験中です</b></div><p class="fine">'+esc(SN[run.s].n)+'（第'+run.r+'回）。'+(left>0?'残り '+fmtClock(left)+'。':'時間が過ぎました。開くと提出します。')+'閉じている間も時間は進みます。</p><button class="btn primary" type="button" data-act="mk-open" data-s="'+run.s+'" data-r="'+run.r+'">'+(left>0?'続きを解く':'開いて提出する')+'</button></section>';}
+  var rd=focusRound();if(!rd)return '';
+  var st=roundState(rd),dd=daysUntil(rd.sat),rem=SUBJ.filter(function(x){return !mFirst(rd.r,x.k);});
+  var cls=st==='over'?'over':(st==='day1'||st==='day2')?'today':dd<=7?'soon':'';
+  var head=st==='over'?'第'+rd.r+'回 模擬試験が未完了です（残り'+rem.length+'科目）':st==='day1'?'今日は第'+rd.r+'回 模擬試験の1日目です':st==='day2'?'今日は第'+rd.r+'回 模擬試験の2日目です':'第'+rd.r+'回 模擬試験まで あと'+dd+'日';
+  var sub=st==='over'?'予定日の'+dlabel(rd.sat)+'・'+dlabel(rd.sun)+'を過ぎています。進み具合にかかわらず、残りの科目を受けて今の実力を測ってください。'
+    :st==='future'?dlabel(rd.sat)+'・'+dlabel(rd.sun)+'に、本試験と同じ時間割で7科目を解きます。'
+    :'本試験と同じ時間割です。時間を計って、続けて解いてください。';
+  var h='<section class="malert '+cls+'"><div class="malert-h">'+FLAG_SVG+'<b>'+head+'</b></div><p class="fine">'+sub+'</p>';
+  [1,2].forEach(function(d){h+='<div class="mday"><span class="mday-l">'+(d===1?'1日目　'+dlabel(rd.sat):'2日目　'+dlabel(rd.sun))+'</span><div class="mday-s">'+MOCK_DAY[d].map(function(k){return mChip(rd,k);}).join('')+'</div></div>';});
+  return h+'</section>';
+}
+function viewMock(){
+  if(!DATA.mock)return '';
+  var h='<section class="sec" id="mocks"><div class="sec-h"><span>模擬試験（オリジナル）</span></div><p class="fine">本試験と同じ問題数・配点・時間で解き、終わるまで正誤は出ません。毎月最終の土日に、1日目（土）に4科目、2日目（日）に3科目を受けます。得点は各回の1回目の結果です。</p>'
+   +'<div class="pgrid"><table><thead><tr><th scope="col"></th>'+SUBJ.map(function(x){return '<th scope="col">'+x.sh+'</th>';}).join('')+'<th scope="col">合計</th></tr></thead><tbody>';
+  mRounds().forEach(function(rd){var tot=0,n=0,low=0;
+    h+='<tr><th scope="row">第'+rd.r+'回<small>'+md(parseYmd(rd.sat))+'〜</small></th>';
+    SUBJ.forEach(function(x){var a=mFirst(rd.r,x.k),set=mSet(x.k,rd.r),run=ST.mockRun&&ST.mockRun.r===rd.r&&ST.mockRun.s===x.k,txt,cls='pc',ok=!!a||(set&&set.ready);
+      if(a){txt=a.score;tot+=a.score;n++;if(a.score<CUT)low++;cls+=a.score<CUT?' low':a.score>=PASS?' good':'';}
+      else if(run){txt='中';cls+=' none';}
+      else if(set&&set.ready){txt=todayKey()>=rd.sat?'受験':'—';cls+=' none';}
+      else{txt='準備';cls+=' na';}
+      h+='<td><button class="'+cls+'" type="button" data-act="mk-open" data-s="'+x.k+'" data-r="'+rd.r+'"'+(ok?'':' disabled')+' aria-label="'+esc('第'+rd.r+'回 '+x.n+(a?' '+a.score+'点':''))+'">'+txt+'</button></td>';});
+    h+='<td class="mt">'+(n===7?'<b class="'+(tot>=420&&!low?'good':'bad')+'">'+tot+'</b>':n?'<small>'+n+'/7</small>':'')+'</td></tr>';});
+  return h+'</tbody></table></div><div class="legend"><span>数字＝得点</span><span>受験・— ＝受けられる（—は予定日の前）</span><span>準備＝問題を作成中</span><span>合計の緑＝420点以上かつ40点未満なし</span></div></section>';
+}
+function loadMockSet(s,r){
+  var k=s+'-'+r;if(DATA.mset[k])return Promise.resolve(DATA.mset[k]);
+  var set=mSet(s,r);if(!set||!set.ready)return Promise.reject(new Error('not ready'));
+  return fetch('data/'+set.file).then(function(x){if(!x.ok)throw new Error(set.file);return x.json();}).then(function(j){DATA.mset[k]=j;return j;});
+}
+function openMock(s,r){
+  var run=ST.mockRun;
+  if(run&&!(run.s===s&&run.r===r)){toast('受験中の模擬試験を先に終えてください');s=run.s;r=run.r;}
+  UI.mock={s:s,r:r,phase:'load',i:0,confirm:false,early:false};
+  $('#mock').hidden=false;renderMock();
+  loadMockSet(s,r).then(function(){
+    var m=UI.mock;if(!m)return;
+    if(ST.mockRun&&ST.mockRun.s===m.s&&ST.mockRun.r===m.r){m.phase='exam';m.i=ST.mockRun.i||0;if(runLeft()<=0){submitMock(true);return;}}
+    else{var a=mFirst(m.r,m.s);if(a){m.phase='result';m.att=a;}else m.phase='intro';}
+    renderMock();
+  },function(){toast('問題を読み込めませんでした。通信を確かめてください');closeMock();});
+}
+function closeMock(){UI.mock=null;renderMock();render();}
+function mNo(no){var p=String(no).split('-');return '第'+p[0]+'問'+(p[1]?'（設問'+p[1]+'）':'');}
+function mItemHTML(it,mark,rev){
+  var h='<div class="m-no"><b>'+mNo(it.no)+'</b><span>'+it.p+'点</span></div>';
+  if(it.lead)h+='<div class="m-lead">'+renderContent(it.lead)+'</div>';
+  h+='<p class="s-q">'+esc(it.q)+'</p>';
+  if(it.fig)h+='<div class="fig">'+it.fig+'</div>';
+  if(it.type==='combo'&&it.stm)h+='<div class="stmts">'+it.stm.map(function(t,i){return '<p><b>'+'abcde'[i]+'</b><span>'+esc(t)+'</span></p>';}).join('')+'</div>';
+  h+='<div class="choices" role="group" aria-label="選択肢">'+it.ch.map(function(c,i){var on=mark===i,ans=rev&&it.a===i;
+    return '<button class="choice'+(on?' on':'')+(ans?' ans':'')+'" type="button" data-act="mk-pick" data-v="'+i+'"'+(rev?' disabled':'')+' aria-pressed="'+on+'"><span class="lt">'+LT[i]+'</span><span>'+esc(c)+(rev&&it.ce&&it.ce[i]?'<span class="ce">'+esc(it.ce[i])+'</span>':'')+'</span></button>';}).join('')+'</div>';
+  return h;
+}
+function renderMock(){
+  var m=UI.mock,el=$('#mock');
+  if(!m){el.hidden=true;el.innerHTML='';return;}
+  el.hidden=false;
+  var rd=mRound(m.r),set=DATA.mset[m.s+'-'+m.r],sub=SN[m.s],lim=mLim(m.s),run=ST.mockRun;
+  var title='<span class="p-title">'+esc(sub.n)+'<small>模擬試験 第'+m.r+'回・'+lim+'分</small></span>';
+  var h;
+  if(m.phase==='load'||!set){el.innerHTML='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut"><p class="fine">問題を読み込んでいます…</p></div></div>';return;}
+  var its=set.items,n=its.length;
+  if(m.phase==='intro'){
+    var early=todayKey()<rd.sat,pp={};its.forEach(function(it){pp[it.p]=(pp[it.p]||0)+1;});
+    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut">'
+     +'<div class="m-info"><div><b>'+lim+'</b><span>分</span></div><div><b>'+n+'</b><span>問</span></div><div><b>100</b><span>点</span></div></div>'
+     +'<p class="fine">配点：'+Object.keys(pp).sort().reverse().map(function(p){return p+'点×'+pp[p]+'問';}).join('・')+'。予定日：'+dlabel(mDayOf(m.s)===1?rd.sat:rd.sun)+'（'+mDayOf(m.s)+'日目）。</p>'
+     +'<ul class="m-rules"><li>本試験と同じく、提出するまで正誤は出ません。</li><li>時間になると自動で提出します。途中で閉じても時間は進みます。</li><li>「見直す」の印を付けた問題は、解答の一覧で分かります。</li><li>この回の得点として記録するのは1回目の結果です。</li></ul>'
+     +(early?'<p class="note">予定日の前です。前倒しで受けると、この回の結果として記録します。</p>':'')
+     +'</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-close">閉じる</button>'
+     +(early&&!m.early?'<button class="btn" type="button" data-act="mk-early">前倒しで受ける</button>':'<button class="btn primary" type="button" data-act="mk-start">開始する</button>')+'</div>';
+    el.innerHTML=h;return;
+  }
+  if(m.phase==='exam'||m.phase==='list'){
+    var done=Object.keys(run.ans).length,left=runLeft();
+    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる（時間は進みます）">×</button><span class="p-title">'+esc(sub.sh)+' 第'+m.r+'回<small>解答 '+done+'/'+n+'</small></span><span class="ptimer'+(left<5*60000?' warn':'')+'" id="mtimer">'+fmtClock(Math.max(0,left))+'</span><button class="btn small ghost" type="button" data-act="mk-list" aria-pressed="'+(m.phase==='list')+'">一覧</button></div>';
+    if(m.phase==='list'){
+      var un=its.filter(function(it){return run.ans[it.no]==null;}).length,fl=its.filter(function(it){return run.flag&&run.flag[it.no];}).length;
+      h+='<div class="p-scroll"><div class="p-body gut"><p class="fine">番号を押すと、その問題に戻ります。●＝解答済み、☆＝見直す印。</p><div class="mgrid">'+its.map(function(it,i){var a=run.ans[it.no];
+        return '<button class="mcell'+(a!=null?' on':'')+(i===m.i?' cur':'')+'" type="button" data-act="mk-goto" data-i="'+i+'"><span>'+esc(String(it.no).replace('-','‐'))+'</span><b>'+(a!=null?LT[a]:'')+'</b>'+(run.flag&&run.flag[it.no]?'<i aria-label="見直す">☆</i>':'')+'</button>';}).join('')+'</div>'
+       +'<p class="fine">未解答 '+un+'問・見直す印 '+fl+'問</p></div></div>'
+       +'<div class="p-foot gut">'+(m.confirm?'<div class="endbar"><span>'+(un?'未解答が'+un+'問あります。':'')+'提出すると、やり直せません。</span><button class="btn small primary" type="button" data-act="mk-submit">提出する</button><button class="btn small ghost" type="button" data-act="mk-cancel">戻る</button></div>':'<button class="btn primary wide" type="button" data-act="mk-confirm">提出する</button>')+'</div>';
+      el.innerHTML=h;return;
+    }
+    var it=its[m.i];
+    h+='<div class="p-scroll"><div class="p-body gut">'+mItemHTML(it,run.ans[it.no],false)+'</div></div>'
+     +'<div class="p-foot gut mnav"><button class="btn ghost" type="button" data-act="mk-prev"'+(m.i===0?' disabled':'')+'>前へ</button><button class="btn'+(run.flag&&run.flag[it.no]?' primary':' ghost')+'" type="button" data-act="mk-flag" aria-pressed="'+!!(run.flag&&run.flag[it.no])+'">☆ 見直す</button>'
+     +(m.i<n-1?'<button class="btn" type="button" data-act="mk-next">次へ</button>':'<button class="btn primary" type="button" data-act="mk-list">一覧・提出</button>')+'</div>';
+    el.innerHTML=h;return;
+  }
+  var a=m.att;
+  if(m.phase==='review'){
+    var it2=its[m.i],mk=a.ans[it2.no],good=mk===it2.a,tn=it2.t&&DATA.items[it2.t]?topicName({t:it2.t}):'';
+    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-back" aria-label="結果に戻る">←</button><span class="p-title">'+esc(sub.sh)+' 第'+m.r+'回<small>'+mNo(it2.no)+'</small></span></div><div class="p-scroll"><div class="p-body gut">'
+     +mItemHTML(it2,mk,true)
+     +'<div class="res '+(good?'ok':'ng')+'"><div class="res-h">'+(good?'正解':mk==null?'未解答':'不正解')+'<span class="res-a">正しくは '+LT[it2.a]+'</span></div><p>'+esc(it2.e)+'</p>'+(it2.x?'<div class="res-x">'+renderContent(it2.x)+'</div>':'')
+     +'<div class="row-act">'+(it2.t&&hasText(m.s,it2.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+m.s+'" data-sec="'+esc(it2.t)+'">テキストで確認</button>':'')+(tn?'<span class="fine">'+esc(tn)+'</span>':'')+'</div></div>'
+     +'</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-back">結果に戻る</button>'+(m.i<n-1?'<button class="btn primary" type="button" data-act="mk-rv" data-i="'+(m.i+1)+'">次の問題</button>':'<button class="btn primary" type="button" data-act="mk-back">結果に戻る</button>')+'</div>';
+    el.innerHTML=h;return;
+  }
+  // 結果
+  var wrongG={};its.forEach(function(it){if(a.ans[it.no]!==it.a&&it.t){var g=groupOf(it.t);wrongG[g]=(wrongG[g]||0)+it.p;}});
+  var wg=Object.keys(wrongG).sort(function(x,y){return wrongG[y]-wrongG[x];});
+  h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut">'
+   +'<div class="score"><b>'+a.score+'</b><span>/ 100点（'+a.ok+'/'+a.total+'問正解）</span></div>'
+   +'<p class="note">'+(a.score>=PASS?'60点以上です。':a.score>=CUT?'40点以上ですが、60点に'+(PASS-a.score)+'点届いていません。':'40点未満です。本試験では足切りになります。')+'</p>'
+   +'<p class="fine">'+md(new Date(a.at))+'に受験・'+a.mins+'分'+(a.auto?'（時間切れで提出）':'')+'。問題を押すと、解説を見られます。</p>';
+  if(wg.length)h+='<section class="sec"><div class="sec-h"><span>失点の多い論点</span></div><ul class="list">'+wg.slice(0,8).map(function(g){var G=DATA.groups[g],nq=(DATA.q[m.s]||[]).filter(function(q){return groupOf(q.t)===g;}).length;
+    return '<li class="todo"><div class="todo-t"><b>'+esc(G?G.g.n:g)+'</b><span>'+wrongG[g]+'点の失点'+(nq?'・演習'+nq+'問':'')+'</span></div>'+(nq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g+'">演習</button>':'')+'</li>';}).join('')+'</ul></section>';
+  h+='<section class="sec"><div class="sec-h"><span>問題ごとの結果</span></div><div>'+its.map(function(it,i){var mk=a.ans[it.no],good=mk===it.a;
+    return '<button class="mres" type="button" data-act="mk-rv" data-i="'+i+'"><span class="ms-n">'+mNo(it.no).replace('（',' <small>').replace('）','</small>')+'</span><span class="mres-a">あなた '+(mk==null?'－':LT[mk])+'・正解 '+LT[it.a]+'</span><span class="mres-p">'+it.p+'点</span><b class="'+(good?'ok':'ng')+'">'+(good?'○':'×')+'</b></button>';}).join('')+'</div></section>';
+  h+='</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-close">閉じる</button><button class="btn primary" type="button" data-act="mk-tab">模擬試験の一覧</button></div>';
+  el.innerHTML=h;
+}
+function startMock(){
+  var m=UI.mock;if(!m)return;
+  ST.mockRun={s:m.s,r:m.r,t0:Date.now(),ans:{},flag:{},i:0,early:todayKey()<mRound(m.r).sat};save();
+  m.phase='exam';m.i=0;renderMock();schedRender();
+}
+function submitMock(auto){
+  var m=UI.mock,run=ST.mockRun;if(!m||!run)return;var set=DATA.mset[run.s+'-'+run.r];if(!set)return;
+  var ok=0,score=0;set.items.forEach(function(it){if(run.ans[it.no]===it.a){ok++;score+=it.p;}});
+  var end=Math.min(Date.now(),run.t0+mLim(run.s)*60000),mins=Math.max(1,Math.round((end-run.t0)/60000));
+  var at={id:uid('m'),r:run.r,s:run.s,at:Date.now(),score:score,ok:ok,total:set.items.length,ans:Object.assign({},run.ans),flag:Object.assign({},run.flag||{}),mins:mins,auto:!!auto,early:!!run.early};
+  ST.mock.push(at);ST.mockRun=null;if(!ST.timer)bumpDay({min:mins});save();
+  m.phase='result';m.att=at;m.confirm=false;renderMock();schedRender();
+  if(auto)toast('時間になったので提出しました');
+}
+function judgeMock(){
+  if(!DATA.mock)return '';
+  var rows=mRounds().map(function(rd){var sc=SUBJ.map(function(x){var a=mFirst(rd.r,x.k);return a?a.score:null;});
+    return {rd:rd,n:sc.filter(function(v){return v!=null;}).length,tot:sc.reduce(function(t,v){return t+(v||0);},0),low:sc.filter(function(v){return v!=null&&v<CUT;}).length};}).filter(function(x){return x.n;});
+  var h='<section class="sec"><div class="sec-h"><span>模擬試験の結果</span></div>';
+  if(!rows.length)return h+'<p class="fine">模擬試験を受けると、回ごとの合計点と、40点未満の科目の数をここに出します。</p></section>';
+  return h+'<ul class="list">'+rows.map(function(x){var pass=x.n===7&&x.tot>=420&&!x.low;
+    return '<li class="todo"><div class="todo-t"><b>第'+x.rd.r+'回（'+md(parseYmd(x.rd.sat))+'）</b><span>'+(x.n<7?x.n+'/7科目・':'')+'合計'+x.tot+'点'+(x.low?'・40点未満'+x.low+'科目':'')+'</span></div>'+(x.n===7?'<span class="pill '+(pass?'good':'bad')+'">'+(pass?'合格基準を満たす':'合格基準に未達')+'</span>':'')+'</li>';}).join('')+'</ul></section>';
+}
+function mockKey(act,b){
+  var m=UI.mock,run=ST.mockRun;
+  switch(act){
+    case 'mk-open':openMock(b.dataset.s,+b.dataset.r);return true;
+    case 'mk-close':if(run&&m&&(m.phase==='exam'||m.phase==='list'))toast('閉じても時間は進みます');closeMock();return true;
+    case 'mk-early':if(m){m.early=true;renderMock();}return true;
+    case 'mk-start':startMock();return true;
+    case 'mk-pick':{if(!m||!run)return true;var set=DATA.mset[m.s+'-'+m.r],it=set.items[m.i],v=+b.dataset.v;if(run.ans[it.no]===v)delete run.ans[it.no];else run.ans[it.no]=v;save();renderMock();return true;}
+    case 'mk-prev':if(m&&m.i>0){m.i--;if(run)run.i=m.i;save();renderMock();var sp=$('#mock .p-scroll');if(sp)sp.scrollTop=0;}return true;
+    case 'mk-next':{var st2=m&&DATA.mset[m.s+'-'+m.r];if(m&&st2&&m.i<st2.items.length-1){m.i++;if(run)run.i=m.i;save();renderMock();var sn=$('#mock .p-scroll');if(sn)sn.scrollTop=0;}return true;}
+    case 'mk-flag':{if(!m||!run)return true;var it3=DATA.mset[m.s+'-'+m.r].items[m.i];run.flag=run.flag||{};if(run.flag[it3.no])delete run.flag[it3.no];else run.flag[it3.no]=1;save();renderMock();return true;}
+    case 'mk-list':if(m){m.phase=m.phase==='list'?'exam':'list';m.confirm=false;renderMock();}return true;
+    case 'mk-goto':if(m){m.i=+b.dataset.i;if(run)run.i=m.i;m.phase='exam';save();renderMock();}return true;
+    case 'mk-confirm':if(m){m.confirm=true;renderMock();}return true;
+    case 'mk-cancel':if(m){m.confirm=false;renderMock();}return true;
+    case 'mk-submit':submitMock(false);return true;
+    case 'mk-rv':if(m){m.i=+b.dataset.i;m.phase='review';renderMock();var sr=$('#mock .p-scroll');if(sr)sr.scrollTop=0;}return true;
+    case 'mk-back':if(m){m.phase='result';renderMock();}return true;
+    case 'mk-tab':closeMock();setTab('past');setTimeout(function(){var g=document.getElementById('mocks');if(g)g.scrollIntoView({block:'start'});},30);return true;
+  }
+  return false;
+}
+
 /* ---------- 小さな操作 ---------- */
 function toast(msg,undo){var t=$('#toast');t.innerHTML='<span>'+esc(msg)+'</span>'+(undo?'<button class="linkbtn inv" type="button" data-act="undo-add">取り消す</button>':'');t.hidden=false;clearTimeout(UI.toastT);UI.toastT=setTimeout(function(){t.hidden=true;},undo?6000:2800);}
 function setTab(t){UI.tab=t;UI.setDraft=null;UI.confirmImport=null;try{localStorage.setItem(STORE+'-tab',t);}catch(e){}$('#main').scrollTop=0;render();}
@@ -1020,6 +1274,7 @@ function onImportFile(file){
 document.addEventListener('click',function(ev){
   var b=ev.target.closest('[data-act]');if(!b||b.disabled)return;
   var a=b.dataset.act,s=UI.sess,m=UI.sheet;
+  if(a.indexOf('mk-')===0&&mockKey(a,b))return;
   switch(a){
     case 'tab':setTab(b.dataset.tab);break;
     case 'scroll':{var tg=document.getElementById(b.dataset.to);if(tg)tg.scrollIntoView({behavior:'smooth',block:'start'});break;}
@@ -1088,6 +1343,9 @@ document.addEventListener('keydown',function(ev){
 setInterval(function(){
   if(ST.timer){var f=document.getElementById('tface');if(f)f.textContent=fmtClock(Date.now()-ST.timer);}
   var m=UI.sheet;if(m&&m.t0&&m.phase==='mark'){var p=document.getElementById('ptimer');if(p){var lim=DATA.syl.subjects.filter(function(x){return x.k===m.s;})[0].min*60000;p.textContent=fmtClock(Math.max(0,lim-(Date.now()-m.t0)));}}
+  // 模擬試験の残り時間。0になったら提出する（画面を開いているとき）
+  if(ST.mockRun&&DATA.syl){var left=runLeft(),mt=document.getElementById('mtimer');if(mt){mt.textContent=fmtClock(Math.max(0,left));mt.classList.toggle('warn',left<5*60000);}
+    var mm=UI.mock;if(left<=0&&mm&&mm.s===ST.mockRun.s&&mm.r===ST.mockRun.r&&(mm.phase==='exam'||mm.phase==='list'))submitMock(true);}
 },1000);
 setInterval(renderHeader,60000);
 

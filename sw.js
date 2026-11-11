@@ -3,7 +3,7 @@
 // ・data/*.json: キャッシュを即返し、裏で最新版を取得して差し替え（次回起動で反映）
 // ・Google Fonts: キャッシュ優先
 // index.html の APP_VER と、この VER は必ず同じ値にする
-var VER = 'v24';
+var VER = 'v25';
 var CACHE = 'shindan1-' + VER;
 var SHELL = [
   './', 'index.html', 'manifest.json',
@@ -17,7 +17,16 @@ var SHELL = [
 self.addEventListener('install', function (e) {
   self.skipWaiting();
   e.waitUntil(caches.open(CACHE).then(function (c) {
-    return Promise.all(SHELL.map(function (u) { return c.add(new Request(u, { cache: 'reload' })).catch(function () {}); }));
+    return Promise.all(SHELL.map(function (u) { return c.add(new Request(u, { cache: 'reload' })).catch(function () {}); })).then(function () {
+      // 模擬試験：data/mock.json に載っている公開済みの問題も、圏外で受けられるように入れておく
+      return fetch('data/mock.json', { cache: 'reload' }).then(function (r) {
+        if (!r.ok) return null;
+        return r.clone().json().then(function (j) {
+          c.put('data/mock.json', r);
+          return Promise.all(Object.keys(j.sets || {}).map(function (k) { return c.add(new Request('data/' + j.sets[k].file, { cache: 'reload' })).catch(function () {}); }));
+        });
+      }).catch(function () {});
+    });
   }));
 });
 
