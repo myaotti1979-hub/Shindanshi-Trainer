@@ -283,6 +283,16 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .pc.none{color:var(--ink-3);font-weight:500;font-size:13px}
 .pc.low{color:var(--bad)}
 .pc.good{color:var(--good)}
+.pyr{display:flex;flex-direction:column;gap:6px;padding-block:12px;border-bottom:1px dashed var(--guide)}
+.pyr-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pyr-h b{font-size:15px}
+.pyr-h small{font-size:12px;color:var(--ink-2)}
+.pyr-r{display:flex;align-items:flex-start;gap:8px}
+.pyr-l{flex:none;width:2.4em;font-size:12px;font-weight:700;color:var(--ink-2);padding-top:7px}
+.pyr-c{flex:1;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;min-width:0}
+.pyr-na{grid-column:1 / -1;font-size:12.5px;color:var(--ink-3);padding-top:6px}
+.lk{display:flex;align-items:center;justify-content:center;min-height:34px;padding:0;border:1.5px solid var(--guide);border-radius:999px;color:var(--ink);text-decoration:none;font-size:13px;font-weight:700;background:var(--sheet);white-space:nowrap}
+.lk:active{background:var(--guide-soft)}
 .pc.manual{font-weight:500}
 .pc.na{color:var(--ink-3);font-size:11px;font-weight:500}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:11.5px;color:var(--ink-2)}
@@ -367,7 +377,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v23';   // sw.js の VER と同じ値にする
+var APP_VER='v24';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -713,7 +723,7 @@ function groupAcc(k){
 
 function viewPast(){
   var ys=DATA.past.years;
-  var h='<section class="sec"><div class="sec-h"><span>過去問（公式）</span></div><p class="fine">公式サイトの問題PDFで解き、ここで答えをマークすると、公式の正解と配点で採点します。<b>仕上げ</b>の年度は初見判定用なので、練習の判定を満たすまで取っておいてください。</p>'
+  var h='<section class="sec"><div class="sec-h"><span>過去問（公式）</span></div><p class="fine">公式サイトの問題PDFで解き、ここで答えをマークすると、公式の正解と配点で採点します。<b>仕上げ</b>の年度は初見判定用なので、練習の判定を満たすまで取っておいてください。</p><button class="linkbtn" type="button" data-act="scroll" data-to="pyr">年度ごとの問題PDFと正解のリンク ↓</button>'
    +'<div class="pgrid"><table><thead><tr><th scope="col"></th>'+SUBJ.map(function(s){return '<th scope="col">'+s.sh+'</th>';}).join('')+'</tr></thead><tbody>';
   ys.forEach(function(e){
     h+='<tr><th scope="row">'+esc(e.label.replace('年度',''))+(isReserve(e.y)?'<small>仕上げ</small>':'')+'</th>';
@@ -726,10 +736,28 @@ function viewPast(){
     h+='</tr>';
   });
   h+='</tbody></table></div><div class="legend"><span>数字＝直近の得点</span><span>— ＝未着手（マークで採点）</span><span>入力＝正解未収録（点数だけ記録）</span></div></section>';
+  h+=pastLinks();
   var recent=ST.past.slice().sort(function(a,b){return b.at-a.at;}).slice(0,8);
   if(recent.length)h+='<section class="sec"><div class="sec-h"><span>最近の記録</span></div><ul class="list">'+recent.map(function(a){var e=pastYear(a.y);return '<li class="todo"><div class="todo-t"><b>'+esc(SN[a.s].n)+'</b><span>'+esc((e?e.label:a.y)+'・'+md(new Date(a.at))+(a.mode==='manual'?'・点数のみ':'・'+a.ok+'/'+a.total+'問正解')+(a.first&&isReserve(a.y)?'・初見':''))+'</span></div><b>'+a.score+'点</b></li>';}).join('')+'</ul></section>';
-  h+='<p class="fine">問題PDF・正解：<a href="'+esc(DATA.past.pastpage)+'" target="_blank" rel="noopener">中小企業診断協会 過去の試験問題</a></p>';
+  h+='<p class="fine">出典：<a href="'+esc(DATA.past.pastpage)+'" target="_blank" rel="noopener">中小企業診断協会 過去の試験問題</a>（全年度の問題PDFが1つのページに並んでいます）</p>';
   return h;
+}
+// 年度ごとの公式の問題PDFと正解PDF（科目ごとの直接のリンク）
+function pastLinks(){
+  function lk(u,t){return '<a class="lk" href="'+esc(u)+'" target="_blank" rel="noopener">'+t+'</a>';}
+  function row(lab,urls){return '<div class="pyr-r"><span class="pyr-l">'+lab+'</span><span class="pyr-c">'+urls+'</span></div>';}
+  function block(label,sub,pdfs,keys,res){
+    return '<li class="pyr"><div class="pyr-h"><b>'+esc(label)+'</b>'+(sub?'<small>'+esc(sub)+'</small>':'')+(res?'<span class="pill warn">仕上げ用</span>':'')+'</div>'
+      +(res?'<p class="fine">初見判定に使う年度です。練習の判定を満たすまで、問題PDFは開かないでください。</p>':'')
+      +row('問題',SUBJ.map(function(x){return pdfs[x.k]?lk(pdfs[x.k],x.sh):'';}).join(''))
+      +row('正解',keys?SUBJ.map(function(x){return keys[x.k]?lk(keys[x.k],x.sh):'';}).join(''):'<span class="pyr-na">このアプリには未収録（得点だけ記録できます）</span>')+'</li>';}
+  var h='<section class="sec" id="pyr"><div class="sec-h"><span>年度ごとの問題PDFと正解</span></div><p class="fine">中小企業診断協会の公式サイトのPDFを直接開きます。正解と配点のPDFは、公式サイトで公開されている令和4年度以降の分です。</p><ul class="list">';
+  DATA.past.years.forEach(function(e){
+    var pdfs={},keys={},nk=0;SUBJ.forEach(function(x){var se=e.subjects[x.k]||{};pdfs[x.k]=se.pdf;if(se.key){keys[x.k]=se.key;nk++;}});
+    h+=block(e.label,e.y+'年',pdfs,nk?keys:null,isReserve(e.y));
+    (DATA.past.extra||[]).forEach(function(x){if(x.after===e.y)h+=block(x.label,'採点の対象外',x.pdfs,null,false).replace('このアプリには未収録（得点だけ記録できます）','このアプリには未収録');});
+  });
+  return h+'</ul></section>';
 }
 
 function viewJudge(){
@@ -994,6 +1022,7 @@ document.addEventListener('click',function(ev){
   var a=b.dataset.act,s=UI.sess,m=UI.sheet;
   switch(a){
     case 'tab':setTab(b.dataset.tab);break;
+    case 'scroll':{var tg=document.getElementById(b.dataset.to);if(tg)tg.scrollIntoView({behavior:'smooth',block:'start'});break;}
     case 'tab-judge':UI.sheet=null;renderSheet();setTab('judge');break;
     case 'go':startSession(Number(b.dataset.n)||10);break;
     case 'ahead':startSession(10,null,true);break;
