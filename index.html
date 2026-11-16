@@ -436,7 +436,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v27';   // sw.js の VER と同じ値にする
+var APP_VER='v28';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -494,13 +494,13 @@ function fsrs(prev,g,now){
 }
 
 /* ---------- 保存（この端末のブラウザ） ---------- */
-function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null,mock:[],mockRun:null};}
+function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null,mock:[],mockRun:null,flagDel:{},daysX:{},settingsAt:0};}
 var ST=blankState(), storageOK=true, saveT=0;
 function loadState(){
   try{var j=localStorage.getItem(STORE);if(j){var o=JSON.parse(j);if(o&&o.v===1){ST=Object.assign(blankState(),o);ST.settings=Object.assign({},DEF,o.settings||{});}}}
   catch(e){storageOK=false;}
 }
-function save(){clearTimeout(saveT);saveT=setTimeout(saveNow,250);}
+function save(){clearTimeout(saveT);saveT=setTimeout(saveNow,250);if(SYNC&&SYNC.user)syncSoon();}
 function saveNow(){clearTimeout(saveT);try{localStorage.setItem(STORE,JSON.stringify(ST));storageOK=true;}catch(e){storageOK=false;toast('保存できませんでした。空き容量を確認してください');}}
 document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')saveNow();});
 window.addEventListener('pagehide',saveNow);
@@ -580,7 +580,7 @@ try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge'
 function weekStart(t){var x=new Date(t);x.setHours(0,0,0,0);x.setDate(x.getDate()-(x.getDay()+6)%7);return x;}
 function weekStats(back){
   var s=weekStart(Date.now());s.setDate(s.getDate()-7*back);var min=0,days=[];
-  for(var i=0;i<7;i++){var d=new Date(s);d.setDate(s.getDate()+i);var v=ST.days[ymd(d)]||{};min+=v.min||0;days.push({d:d,min:v.min||0});}
+  for(var i=0;i<7;i++){var d=new Date(s);d.setDate(s.getDate()+i);var v=dayRec(ymd(d));min+=v.min||0;days.push({d:d,min:v.min||0});}
   return {start:s,min:min,days:days};
 }
 function weeklyTarget(){return ST.settings.wdMin*5+ST.settings.weMin*2;}
@@ -588,7 +588,7 @@ function allQ(){var a=[];SUBJ.forEach(function(s){a=a.concat(DATA.q[s.k]||[]);})
 function counts(){
   var eod=endOfToday(),due=0,avail=0;
   allQ().forEach(function(q){if(ST.flags[q.id])return;var r=ST.srs[q.id];if(r){if(r.due<=eod)due++;}else if(ST.settings.active.indexOf(q.s)>=0)avail++;});
-  var td=ST.days[todayKey()]||{};var quota=Math.max(0,ST.settings.newPerDay-(td.nw||0));
+  var td=dayRec(todayKey());var quota=Math.max(0,ST.settings.newPerDay-(td.nw||0));
   return {due:due,avail:avail,newToday:Math.min(quota,avail)};
 }
 function subjStats(k){
@@ -705,7 +705,7 @@ function renderNote(){
 }
 
 function viewToday(){
-  var c=counts(),td=ST.days[todayKey()]||{},total=c.due+c.newToday,weak=weakTopics(3);
+  var c=counts(),td=dayRec(todayKey()),total=c.due+c.newToday,weak=weakTopics(3);
   var act=ST.settings.active.map(function(k){return SN[k]?SN[k].sh:k;}).join('・')||'なし';
   var h=mockAlert()+'<section class="sheet"><div class="sec-h"><span>今日の演習</span></div>'
    +'<div class="dueRow"><div class="stat"><span class="k">復習</span><span class="v">'+c.due+'<small>問</small></span></div><div class="stat"><span class="k">新しい問題</span><span class="v">'+c.newToday+'<small>問</small></span></div></div>';
@@ -859,7 +859,7 @@ function manualForm(){
 
 function viewLog(){
   var st=ST.settings,tg=weeklyTarget(),weeks=[];for(var i=7;i>=0;i--)weeks.push(weekStats(i));
-  var all=0,ans=0,cor=0;Object.keys(ST.days).forEach(function(k){var v=ST.days[k];all+=v.min||0;ans+=v.ans||0;cor+=v.cor||0;});
+  var all=0,ans=0,cor=0;allDayKeys().forEach(function(k){var v=dayRec(k);all+=v.min||0;ans+=v.ans||0;cor+=v.cor||0;});
   var el=Math.max(1/7,(Date.now()-parseYmd(st.start||DEF.start).getTime())/(7*DAY)),plan=Math.round(tg*el);
   var d=UI.setDraft||draftOf(st);
   var h='<section class="sec"><div class="sec-h"><span>週ごとの学習時間</span></div>'+weekChart(weeks,tg)
@@ -872,7 +872,8 @@ function viewLog(){
    +'<label class="field" for="s-e2">2次筆記試験日<input id="s-e2" type="date" data-bind="setDraft.exam2" value="'+esc(d.exam2)+'"></label></div>'
    +'<button class="btn primary" type="submit">保存する</button></form>'
    +'<p class="fine">今の目標は週'+fmtH(tg)+'時間です。試験日は、2027年度の試験案内（例年4月ごろ公表）で直してください。</p></section>';
-  h+='<section class="sec"><div class="sec-h"><span>学習記録のバックアップ</span></div><p class="fine">記録はこの端末のブラウザにだけ保存しています。機種変更やアプリの削除の前に、書き出してください。</p>'
+  h+=viewSync();
+  h+='<section class="sec"><div class="sec-h"><span>学習記録のバックアップ</span></div><p class="fine">同期を使わないときは、記録はこの端末のブラウザにだけ保存されます。機種変更やアプリの削除の前に、書き出してください（同期を使うときは不要です）。</p>'
    +'<div class="row-act"><button class="btn small" type="button" data-act="export">書き出す</button><button class="btn small ghost" type="button" data-act="import">読み込む</button></div>';
   if(UI.confirmImport)h+='<div class="confirm"><span>'+esc(UI.confirmImport.label)+'の記録で、今の記録を置き換えます。よろしいですか。</span><div class="row-act"><button class="btn small primary" type="button" data-act="import-ok">置き換える</button><button class="btn small ghost" type="button" data-act="import-cancel">やめる</button></div></div>';
   h+='</section><section class="sec"><div class="sec-h"><span>このアプリ</span></div><p class="fine">版 '+APP_VER+'・テキスト '+textCount()+'節・問題 '+allQ().length+'問・論点表'+Object.keys(DATA.items).length+'細目・過去問の正解 '+keyCount()+'科目年度分。出題範囲は令和8年度の試験案内、正解と配点は中小企業診断協会の公表資料によります。</p></section>';
@@ -905,7 +906,7 @@ function buildQueue(n,filter,ahead){
   var eod=endOfToday(),pool=allQ().filter(function(q){return !ST.flags[q.id]&&(!filter||filter(q));});
   var q=pool.filter(function(x){var r=ST.srs[x.id];return r&&r.due<=eod;}).sort(function(a,b){return ST.srs[a.id].due-ST.srs[b.id].due;}).slice(0,n).map(function(x){return x.id;});
   if(q.length<n){
-    var td=ST.days[todayKey()]||{},quota=(filter||ahead)?n:Math.max(0,ST.settings.newPerDay-(td.nw||0));
+    var td=dayRec(todayKey()),quota=(filter||ahead)?n:Math.max(0,ST.settings.newPerDay-(td.nw||0));
     var fresh=pool.filter(function(x){return !ST.srs[x.id]&&(filter||ST.settings.active.indexOf(x.s)>=0);}).sort(function(a,b){return (a.n||0)-(b.n||0);});
     q=q.concat(fresh.slice(0,Math.min(quota,n-q.length)).map(function(x){return x.id;}));
   }
@@ -1248,7 +1249,7 @@ function saveSettings(){
   var d=UI.setDraft||{},st=ST.settings;
   function num(v,lo,hi,df){var x=Math.round(Number(v));return isFinite(x)&&x>=lo&&x<=hi?x:df;}
   function dt(v,df){return /^\d{4}-\d{2}-\d{2}$/.test(String(v||''))?v:df;}
-  ST.settings=Object.assign({},st,{wdMin:num(d.wdMin,0,600,st.wdMin),weMin:num(d.weMin,0,900,st.weMin),newPerDay:num(d.newPerDay,0,100,st.newPerDay),exam1:dt(d.exam1,st.exam1),exam2:dt(d.exam2,st.exam2)});
+  ST.settings=Object.assign({},st,{wdMin:num(d.wdMin,0,600,st.wdMin),weMin:num(d.weMin,0,900,st.weMin),newPerDay:num(d.newPerDay,0,100,st.newPerDay),exam1:dt(d.exam1,st.exam1),exam2:dt(d.exam2,st.exam2)});ST.settingsAt=Date.now();
   UI.setDraft=null;save();if(document.activeElement&&document.activeElement.blur)document.activeElement.blur();toast('設定を保存しました');render();
 }
 function addManual(){
@@ -1308,14 +1309,19 @@ document.addEventListener('click',function(ev){
     case 's-more':{var sc0=s&&s.scope;UI.sess=null;renderSession();if(sc0)startScope({s:sc0.s,g:sc0.g});else{var c=counts();startSession(10,null,c.due+c.newToday===0);}render();break;}
     case 's-new':case 's-ng':{var sc1=s&&s.scope;UI.sess=null;renderSession();if(sc1)startScope({s:sc1.s,g:sc1.g,mode:a==='s-new'?'new':'ng'});render();break;}
     case 'flag':{if(!s)break;var fid=s.q[s.i];ST.flags[fid]={at:Date.now()};save();toast('報告しました。「学習」タブに残ります');renderSession();break;}
-    case 'unflag':delete ST.flags[b.dataset.id];save();toast('演習に戻しました');render();break;
-    case 'toggle-active':{var k=b.dataset.s,act=ST.settings.active;ST.settings.active=SUBJ.map(function(x){return x.k;}).filter(function(x){return x===k?act.indexOf(k)<0:act.indexOf(x)>=0;});save();render();break;}
+    case 'unflag':delete ST.flags[b.dataset.id];ST.flagDel=ST.flagDel||{};ST.flagDel[b.dataset.id]=Date.now();save();toast('演習に戻しました');render();break;
+    case 'toggle-active':{var k=b.dataset.s,act=ST.settings.active;ST.settings.active=SUBJ.map(function(x){return x.k;}).filter(function(x){return x===k?act.indexOf(k)<0:act.indexOf(x)>=0;});ST.settingsAt=Date.now();save();render();break;}
     case 'open-sheet':openSheet(b.dataset.s,b.dataset.y);break;
     case 'ms-close':UI.sheet=null;renderSheet();render();break;
     case 'ms-gate-ok':if(m){m.phase='mark';renderSheet();}break;
     case 'ms-start':if(m){m.t0=Date.now();renderSheet();}break;
     case 'ms-mark':if(m&&m.phase==='mark'){var n=b.dataset.n,l=b.dataset.l;if(m.marks[n]===l)delete m.marks[n];else m.marks[n]=l;renderSheet();}break;
     case 'ms-score':if(m&&m.phase==='mark')scoreNow();break;
+    case 'sync-login':syncLogin();break;
+    case 'sync-now':syncNow();break;
+    case 'sync-logout':syncLogout();break;
+    case 'sync-merge':syncNow('merge');break;
+    case 'sync-cloud':syncNow('cloud');break;
     case 'export':doExport();break;
     case 'import':$('#importFile').click();break;
     case 'import-ok':if(UI.confirmImport){ST=Object.assign(blankState(),UI.confirmImport.state);ST.settings=Object.assign({},DEF,ST.settings||{});UI.confirmImport=null;saveNow();toast('読み込みました');render();}break;
@@ -1351,9 +1357,124 @@ setInterval(function(){
 },1000);
 setInterval(renderHeader,60000);
 
+/* ---------- 端末間の同期（Firebase：Google ログイン＋Firestore） ---------- */
+// 記録の合わせ方
+// ・演習の記録（srs）：問題ごとに、最後に解いた時刻（last）が新しいほう
+// ・過去問・模擬試験の結果：id で合わせる（どちらの端末の結果も残す）
+// ・報告（flags）：報告した時刻と、演習に戻した時刻（flagDel）の新しいほう
+// ・設定：変えた時刻（settingsAt）が新しいほう。同じならクラウドのほう
+// ・学習時間（days）：端末ごとに保存して合計する（二重に数えない・消えない）。ほかの端末の分は daysX
+// ・実行中の模擬試験（mockRun）とタイマーは、その端末だけ
+// 保存先：users/{uid}/sync/state（j に上の記録の JSON）、users/{uid}/days/{端末のid}（j に学習時間の JSON）
+// ルール：ログインした本人だけが users/{uid} の下を読み書きできる（Firestore のセキュリティルール）
+var FB_CFG={apiKey:'AIzaSyD8VO0NT190-oLpS3qwiKtaAIc-EfzBk0c',authDomain:'shindannshi-app.firebaseapp.com',projectId:'shindannshi-app',storageBucket:'shindannshi-app.firebasestorage.app',messagingSenderId:'582946048152',appId:'1:582946048152:web:5bc45f4a859137e501a8ed'};
+var FB_URL='https://www.gstatic.com/firebasejs/12.19.0/';
+var SYNC={mod:null,loading:null,user:null,busy:false,again:false,last:0,err:'',ask:null,t:0};
+function lsGet(k){try{return localStorage.getItem(STORE+k);}catch(e){return null;}}
+function lsSet(k,v){try{if(v==null)localStorage.removeItem(STORE+k);else localStorage.setItem(STORE+k,v);}catch(e){}}
+function devId(){var d=lsGet('-dev');if(!d){d=uid('d');lsSet('-dev',d);}return d;}
+function devName(){var u=navigator.userAgent||'';return /Android/i.test(u)?'Android':/iPhone|iPad/i.test(u)?'iPhone・iPad':/Windows/i.test(u)?'Windows':/Macintosh/i.test(u)?'Mac':'この端末';}
+function dayRec(k){var o={min:0,ans:0,cor:0,nw:0},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){var v=D&&D[k];if(v){o.min+=v.min||0;o.ans+=v.ans||0;o.cor+=v.cor||0;o.nw+=v.nw||0;}});return o;}
+function allDayKeys(){var m={},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){Object.keys(D||{}).forEach(function(k){m[k]=1;});});return Object.keys(m);}
+function syncPart(S){return JSON.parse(JSON.stringify({srs:S.srs||{},past:S.past||[],mock:S.mock||[],flags:S.flags||{},flagDel:S.flagDel||{},settings:S.settings||{},settingsAt:S.settingsAt||0}));}
+function mergeSync(L,R){
+  L=L||{};if(!R)return syncPart(L);
+  var o={srs:{},past:[],mock:[],flags:{},flagDel:{},settings:{},settingsAt:0},ls=L.srs||{},rs=R.srs||{};
+  Object.keys(ls).concat(Object.keys(rs)).forEach(function(k){if(o.srs.hasOwnProperty(k))return;var a=ls[k],b=rs[k];
+    o.srs[k]=!a?b:!b?a:((a.last||0)>(b.last||0)||((a.last||0)===(b.last||0)&&(a.reps||0)>(b.reps||0)))?a:b;});
+  function rk(r){return r.id||[r.s,r.y,r.r,r.at].join('|');}
+  function uni(x,y){var m={},out=[];(x||[]).concat(y||[]).forEach(function(r){if(!r)return;var k=rk(r);if(m[k])return;m[k]=1;out.push(r);});return out.sort(function(p,q){return (p.at||0)-(q.at||0);});}
+  o.past=uni(L.past,R.past);o.mock=uni(L.mock,R.mock);
+  var lf=L.flags||{},rf=R.flags||{},ld=L.flagDel||{},rd=R.flagDel||{},fk={};
+  function fat(x){return x?(x.at||1):0;}
+  [lf,rf,ld,rd].forEach(function(m){Object.keys(m).forEach(function(k){fk[k]=1;});});
+  Object.keys(fk).forEach(function(k){var fa=Math.max(fat(lf[k]),fat(rf[k])),da=Math.max(ld[k]||0,rd[k]||0);if(fa>da)o.flags[k]={at:fa};if(da)o.flagDel[k]=da;});
+  var la=L.settingsAt||0,ra=R.settingsAt||0;
+  if(la>ra){o.settings=L.settings||{};o.settingsAt=la;}else{o.settings=R.settings||L.settings||{};o.settingsAt=ra;}
+  return JSON.parse(JSON.stringify(o));
+}
+function putSync(mg){ST.srs=mg.srs||{};ST.past=mg.past||[];ST.mock=mg.mock||[];ST.flags=mg.flags||{};ST.flagDel=mg.flagDel||{};ST.settings=Object.assign({},DEF,mg.settings||{});ST.settingsAt=mg.settingsAt||0;}
+function fbLoad(){
+  if(SYNC.mod)return Promise.resolve(SYNC.mod);
+  if(SYNC.loading)return SYNC.loading;
+  var imp=function(u){try{return (new Function('u','return import(u)'))(u);}catch(e){return Promise.reject(e);}};
+  SYNC.loading=Promise.all([imp(FB_URL+'firebase-app.js'),imp(FB_URL+'firebase-auth.js'),imp(FB_URL+'firebase-firestore-lite.js')]).then(function(m){
+    var app=m[0].initializeApp(FB_CFG),auth=m[1].getAuth(app);
+    SYNC.mod={A:m[1],F:m[2],auth:auth,db:m[2].getFirestore(app)};
+    m[1].onAuthStateChanged(auth,function(u){var was=SYNC.user;SYNC.user=u||null;if(u){lsSet('-sync','1');if(!was||was.uid!==u.uid)syncNow();}schedRender();});
+    return SYNC.mod;
+  },function(e){SYNC.loading=null;throw e;});
+  return SYNC.loading;
+}
+function syncSoon(ms){if(!SYNC.user)return;clearTimeout(SYNC.t);SYNC.t=setTimeout(function(){syncNow();},ms||30000);}
+function syncErr(e){var c=(e&&e.code)||'';
+  return c==='auth/popup-blocked'?'ログインの画面を開けませんでした（ポップアップを許可してください）'
+    :c==='auth/unauthorized-domain'?'このアドレスからはログインできません'
+    :(c==='auth/network-request-failed'||c==='unavailable')?'通信できませんでした。つながったときに同期します'
+    :c==='permission-denied'?'同期の権限がありません。ログインし直してください'
+    :'同期できませんでした（'+String(c||(e&&e.message)||e).slice(0,60)+'）';}
+// mode：なし＝ふつうの同期、'merge'＝はじめての同期で「合わせる」、'cloud'＝はじめての同期で「クラウドの記録にする」
+function syncNow(mode){
+  clearTimeout(SYNC.t);
+  var M=SYNC.mod,u=SYNC.user;if(!M||!u)return Promise.resolve();
+  if(SYNC.busy){SYNC.again=true;return Promise.resolve();}
+  if(navigator.onLine===false){SYNC.err='オフラインです。つながったときに同期します';schedRender();return Promise.resolve();}
+  SYNC.busy=true;SYNC.err='';schedRender();saveNow();
+  var F=M.F,dv=devId(),ref=F.doc(M.db,'users',u.uid,'sync','state'),first=lsGet('-synced')!==u.uid;
+  var hasLocal=Object.keys(ST.srs).length||ST.past.length||ST.mock.length||Object.keys(ST.days).length;
+  var chk=(first&&!mode)?F.getDoc(ref).then(function(s){return s.exists()?s.data():null;}):Promise.resolve(null);
+  return chk.then(function(rem){
+    if(rem&&hasLocal){SYNC.ask={at:rem.at||0};return;}
+    var mine=syncPart(ST);
+    return F.runTransaction(M.db,function(tx){return tx.get(ref).then(function(s){
+      var R=null;if(s.exists()){try{R=JSON.parse(s.data().j||'null');}catch(e){R=null;}}
+      var cloud=mode==='cloud'&&!!R,mg=mergeSync(cloud?syncPart({}):mine,R);
+      tx.set(ref,{v:1,j:JSON.stringify(mg),at:Date.now(),dev:dv});return {mg:mg,cloud:cloud};});
+    }).then(function(r){
+      if(r.cloud){putSync(r.mg);ST.days={};}else putSync(mergeSync(syncPart(ST),r.mg));
+      saveNow();
+      return F.setDoc(F.doc(M.db,'users',u.uid,'days',dv),{j:JSON.stringify(ST.days),at:Date.now(),name:devName()});
+    }).then(function(){return F.getDocs(F.collection(M.db,'users',u.uid,'days'));}).then(function(qs){
+      var X={};qs.forEach(function(d){if(d.id===dv)return;try{X[d.id]=JSON.parse(d.data().j||'{}')||{};}catch(e){}});
+      ST.daysX=X;SYNC.ask=null;SYNC.last=Date.now();lsSet('-synced',u.uid);lsSet('-last',String(SYNC.last));saveNow();
+    });
+  }).catch(function(e){SYNC.err=syncErr(e);}).then(function(){
+    SYNC.busy=false;schedRender();if(SYNC.again){SYNC.again=false;syncSoon(2000);}
+  });
+}
+function syncLogin(){
+  var M=SYNC.mod;
+  if(!M){toast('準備しています…');fbLoad().then(function(){toast('準備ができました。もう一度押してください');schedRender();},function(){toast('通信できる場所で、もう一度試してください');});return;}
+  SYNC.err='';
+  M.A.signInWithPopup(M.auth,new M.A.GoogleAuthProvider()).then(function(){lsSet('-sync','1');toast('ログインしました。同期します');},function(e){
+    var c=(e&&e.code)||'';if(c==='auth/popup-closed-by-user'||c==='auth/cancelled-popup-request')return;SYNC.err=syncErr(e);schedRender();});
+}
+function syncLogout(){var M=SYNC.mod;if(!M)return;M.A.signOut(M.auth).then(function(){lsSet('-sync',null);lsSet('-synced',null);SYNC.user=null;SYNC.ask=null;SYNC.err='';toast('ログアウトしました。記録はこの端末に残ります');schedRender();});}
+function fmtWhen(t){var d=new Date(t);return (d.getMonth()+1)+'月'+d.getDate()+'日 '+('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2);}
+function viewSync(){
+  var u=SYNC.user,h='<section class="sec"><div class="sec-h"><span>端末間の同期</span></div>';
+  if(!SYNC.mod&&!SYNC.loading&&navigator.onLine!==false)fbLoad().then(schedRender,function(){});
+  if(!u){
+    h+='<p class="fine">Google でログインすると、スマホとパソコンで学習記録（演習・過去問・模擬試験の結果、学習時間、設定）がそろいます。記録は、あなたの Google アカウントだけが読み書きできる場所（Firebase）に保存されます。</p>'
+     +'<div class="row-act"><button class="btn small primary" type="button" data-act="sync-login">Google でログインして同期</button></div>';
+  }else{
+    var last=SYNC.last||Number(lsGet('-last'))||0;
+    h+='<p class="fine">ログイン中：'+esc(u.email||'')+'<br>'+(SYNC.busy?'同期しています…':last?'最後の同期：'+fmtWhen(last):'まだ同期していません')+'（この端末：'+esc(devName())+'）。記録は、解いたあとやアプリを開いたときに自動で同期します。</p>'
+     +'<div class="row-act"><button class="btn small" type="button" data-act="sync-now"'+(SYNC.busy?' disabled':'')+'>今すぐ同期</button><button class="btn small ghost" type="button" data-act="sync-logout">ログアウト</button></div>';
+    if(SYNC.ask)h+='<div class="confirm"><span>クラウドにも記録があります（'+(SYNC.ask.at?fmtWhen(SYNC.ask.at)+'に更新':'更新の日時は不明')+'）。この端末の記録とどうしますか。</span>'
+     +'<div class="row-act"><button class="btn small primary" type="button" data-act="sync-merge">合わせる</button><button class="btn small ghost" type="button" data-act="sync-cloud">クラウドの記録にする</button></div>'
+     +'<span class="fine">ふつうは「合わせる」です。この端末の記録が、別の端末から「読み込む」で移したものなら「クラウドの記録にする」を選んでください（学習時間を二重に数えないため。この端末だけの記録は消えます）。</span></div>';
+  }
+  if(SYNC.err)h+='<p class="err">'+esc(SYNC.err)+'</p>';
+  return h+'</section>';
+}
+document.addEventListener('visibilitychange',function(){if(!SYNC.user)return;if(document.visibilityState==='hidden')syncNow();else syncSoon(1500);});
+window.addEventListener('online',function(){if(SYNC.user)syncSoon(1000);});
+
 /* ---------- 起動 ---------- */
 loadState();
 render();
+if(lsGet('-sync')==='1')fbLoad().catch(function(){SYNC.err='同期の準備ができませんでした。通信できる場所で開き直してください';schedRender();});
 loadData().then(function(){render();return loadTexts();}).then(function(){render();}).catch(function(){
   $('#view').innerHTML='<section class="sheet"><p class="lead">問題データを読み込めませんでした。</p><p class="fine">通信できる場所で一度開くと、その後はオフラインでも使えます。</p><button class="btn primary" type="button" onclick="location.reload()">もう一度読み込む</button></section>';
 });
