@@ -54,6 +54,7 @@ a{color:var(--drop);text-underline-offset:3px}
 .wk-t b{font-size:17px;color:var(--ink);font-variant-numeric:tabular-nums}
 .meter{height:6px;border-radius:3px;background:var(--guide-soft);overflow:hidden;margin-top:6px}
 .meter i{display:block;height:100%;background:var(--mark)}
+.ver{display:block;margin-top:5px;font-size:11px;line-height:1;color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .bar-note{flex:none;font-size:12.5px;color:var(--warn);background:var(--warn-soft);padding-block:7px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 
 main{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-block:16px 28px}
@@ -436,7 +437,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v29';   // sw.js の VER と同じ値にする
+var APP_VER='v30';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -695,11 +696,13 @@ function render(){
 function renderHeader(){
   var st=ST.settings,d1=daysUntil(st.exam1),d2=daysUntil(st.exam2),w=weekStats(0),tg=weeklyTarget();
   $('#hdr').innerHTML='<div class="cd"><span class="cd-l">1次試験まで</span><b class="cd-n">'+Math.max(0,d1)+'</b><span class="cd-u">日</span><span class="cd-sub">2次筆記まで '+Math.max(0,d2)+'日（日程は仮）</span></div>'
-   +'<div class="wk"><div class="wk-t"><span>今週</span><b>'+fmtH(w.min)+'</b><span>/ '+fmtH(tg)+' 時間</span></div><div class="meter" role="meter" aria-label="今週の学習時間" aria-valuemin="0" aria-valuemax="'+tg+'" aria-valuenow="'+w.min+'"><i style="width:'+(tg?Math.min(100,w.min/tg*100):0)+'%"></i></div></div>';
+   +'<div class="wk"><div class="wk-t"><span>今週</span><b>'+fmtH(w.min)+'</b><span>/ '+fmtH(tg)+' 時間</span></div><div class="meter" role="meter" aria-label="今週の学習時間" aria-valuemin="0" aria-valuemax="'+tg+'" aria-valuenow="'+w.min+'"><i style="width:'+(tg?Math.min(100,w.min/tg*100):0)+'%"></i></div><span class="ver">版 '+APP_VER+'</span></div>';
 }
 function renderNote(){
   var n=$('#note');
-  if(UI.swWaiting){n.innerHTML='<span>新しい版があります。</span><button class="btn small" type="button" data-act="sw-update">更新する</button>';n.hidden=false;}
+  if(UI.swWaiting){
+    if(!UI.newVer&&!UI.newVerReq){UI.newVerReq=1;fetch('sw.js',{cache:'no-store'}).then(function(r){return r.text();}).then(function(t){var m=t.match(/var VER = '([^']+)'/);if(m){UI.newVer=m[1];renderNote();}}).catch(function(){});}
+    n.innerHTML='<span>新しい版'+(UI.newVer&&UI.newVer!==APP_VER?'（'+esc(UI.newVer)+'）':'')+'があります（今は '+APP_VER+'）。</span><button class="btn small" type="button" data-act="sw-update">更新する</button>';n.hidden=false;}
   else if(!storageOK){n.innerHTML='<span>この端末に記録を保存できません。プライベートブラウズを解除してください。</span>';n.hidden=false;}
   else n.hidden=true;
 }
