@@ -436,7 +436,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v28';   // sw.js の VER と同じ値にする
+var APP_VER='v29';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1359,7 +1359,8 @@ setInterval(renderHeader,60000);
 
 /* ---------- 端末間の同期（Firebase：Google ログイン＋Firestore） ---------- */
 // 記録の合わせ方
-// ・演習の記録（srs）：問題ごとに、最後に解いた時刻（last）が新しいほう
+// ・演習の記録（srs）：問題ごとに、復習の予定などは最後に解いた時刻（last）が新しいほう。解いた回数・正解の回数（att・cor・reps・lapses）は、
+//   前の同期のときの値（base）からの増えた分を両方の端末について足す（両方で同じ問題を解いても回数が消えない）
 // ・過去問・模擬試験の結果：id で合わせる（どちらの端末の結果も残す）
 // ・報告（flags）：報告した時刻と、演習に戻した時刻（flagDel）の新しいほう
 // ・設定：変えた時刻（settingsAt）が新しいほう。同じならクラウドのほう
@@ -1377,11 +1378,17 @@ function devName(){var u=navigator.userAgent||'';return /Android/i.test(u)?'Andr
 function dayRec(k){var o={min:0,ans:0,cor:0,nw:0},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){var v=D&&D[k];if(v){o.min+=v.min||0;o.ans+=v.ans||0;o.cor+=v.cor||0;o.nw+=v.nw||0;}});return o;}
 function allDayKeys(){var m={},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){Object.keys(D||{}).forEach(function(k){m[k]=1;});});return Object.keys(m);}
 function syncPart(S){return JSON.parse(JSON.stringify({srs:S.srs||{},past:S.past||[],mock:S.mock||[],flags:S.flags||{},flagDel:S.flagDel||{},settings:S.settings||{},settingsAt:S.settingsAt||0}));}
-function mergeSync(L,R){
+// base：問題の id ごとの [att,cor,reps,lapses]（前の同期でクラウドにあった値）。{} は「前の同期なし」＝両方の回数を足す。null は「わからない」＝多いほう
+var CNT=['att','cor','reps','lapses'];
+function cntOf(srs){var c={};Object.keys(srs||{}).forEach(function(k){var r=srs[k]||{};c[k]=CNT.map(function(f){return r[f]||0;});});return c;}
+function mergeSync(L,R,base){
   L=L||{};if(!R)return syncPart(L);
   var o={srs:{},past:[],mock:[],flags:{},flagDel:{},settings:{},settingsAt:0},ls=L.srs||{},rs=R.srs||{};
   Object.keys(ls).concat(Object.keys(rs)).forEach(function(k){if(o.srs.hasOwnProperty(k))return;var a=ls[k],b=rs[k];
-    o.srs[k]=!a?b:!b?a:((a.last||0)>(b.last||0)||((a.last||0)===(b.last||0)&&(a.reps||0)>(b.reps||0)))?a:b;});
+    if(!a||!b){o.srs[k]=a||b;return;}
+    var n=((a.last||0)>(b.last||0)||((a.last||0)===(b.last||0)&&(a.reps||0)>(b.reps||0)))?a:b,x=Object.assign({},n),same=(a.last||0)===(b.last||0)&&(a.reps||0)===(b.reps||0);
+    CNT.forEach(function(f,i){var av=a[f]||0,bv=b[f]||0,hi=Math.max(av,bv);x[f]=(same||!base)?hi:Math.max(hi,av+bv-((base[k]&&base[k][i])||0));});
+    o.srs[k]=x;});
   function rk(r){return r.id||[r.s,r.y,r.r,r.at].join('|');}
   function uni(x,y){var m={},out=[];(x||[]).concat(y||[]).forEach(function(r){if(!r)return;var k=rk(r);if(m[k])return;m[k]=1;out.push(r);});return out.sort(function(p,q){return (p.at||0)-(q.at||0);});}
   o.past=uni(L.past,R.past);o.mock=uni(L.mock,R.mock);
@@ -1393,6 +1400,8 @@ function mergeSync(L,R){
   if(la>ra){o.settings=L.settings||{};o.settingsAt=la;}else{o.settings=R.settings||L.settings||{};o.settingsAt=ra;}
   return JSON.parse(JSON.stringify(o));
 }
+function baseGet(u){try{var o=JSON.parse(lsGet('-base')||'null');return o&&o.uid===u?o.c:null;}catch(e){return null;}}
+function baseSet(u,srs){lsSet('-base',JSON.stringify({uid:u,c:cntOf(srs)}));}
 function putSync(mg){ST.srs=mg.srs||{};ST.past=mg.past||[];ST.mock=mg.mock||[];ST.flags=mg.flags||{};ST.flagDel=mg.flagDel||{};ST.settings=Object.assign({},DEF,mg.settings||{});ST.settingsAt=mg.settingsAt||0;}
 function fbLoad(){
   if(SYNC.mod)return Promise.resolve(SYNC.mod);
@@ -1425,13 +1434,14 @@ function syncNow(mode){
   var chk=(first&&!mode)?F.getDoc(ref).then(function(s){return s.exists()?s.data():null;}):Promise.resolve(null);
   return chk.then(function(rem){
     if(rem&&hasLocal){SYNC.ask={at:rem.at||0};return;}
-    var mine=syncPart(ST);
+    var mine=syncPart(ST),base=first?{}:baseGet(u.uid);   // はじめての同期は回数を足す。前の同期の値がない（v28 で同期した）ときは多いほう
     return F.runTransaction(M.db,function(tx){return tx.get(ref).then(function(s){
       var R=null;if(s.exists()){try{R=JSON.parse(s.data().j||'null');}catch(e){R=null;}}
-      var cloud=mode==='cloud'&&!!R,mg=mergeSync(cloud?syncPart({}):mine,R);
+      var cloud=mode==='cloud'&&!!R,mg=mergeSync(cloud?syncPart({}):mine,R,cloud?{}:base);
       tx.set(ref,{v:1,j:JSON.stringify(mg),at:Date.now(),dev:dv});return {mg:mg,cloud:cloud};});
     }).then(function(r){
-      if(r.cloud){putSync(r.mg);ST.days={};}else putSync(mergeSync(syncPart(ST),r.mg));
+      if(r.cloud){putSync(r.mg);ST.days={};}else putSync(mergeSync(syncPart(ST),r.mg,cntOf(mine.srs)));   // 同期の途中で解いた分も足す
+      baseSet(u.uid,r.mg.srs);
       saveNow();
       return F.setDoc(F.doc(M.db,'users',u.uid,'days',dv),{j:JSON.stringify(ST.days),at:Date.now(),name:devName()});
     }).then(function(){return F.getDocs(F.collection(M.db,'users',u.uid,'days'));}).then(function(qs){
@@ -1449,7 +1459,7 @@ function syncLogin(){
   M.A.signInWithPopup(M.auth,new M.A.GoogleAuthProvider()).then(function(){lsSet('-sync','1');toast('ログインしました。同期します');},function(e){
     var c=(e&&e.code)||'';if(c==='auth/popup-closed-by-user'||c==='auth/cancelled-popup-request')return;SYNC.err=syncErr(e);schedRender();});
 }
-function syncLogout(){var M=SYNC.mod;if(!M)return;M.A.signOut(M.auth).then(function(){lsSet('-sync',null);lsSet('-synced',null);SYNC.user=null;SYNC.ask=null;SYNC.err='';toast('ログアウトしました。記録はこの端末に残ります');schedRender();});}
+function syncLogout(){var M=SYNC.mod;if(!M)return;M.A.signOut(M.auth).then(function(){lsSet('-sync',null);SYNC.user=null;SYNC.ask=null;SYNC.err='';toast('ログアウトしました。記録はこの端末に残ります');schedRender();});}
 function fmtWhen(t){var d=new Date(t);return (d.getMonth()+1)+'月'+d.getDate()+'日 '+('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2);}
 function viewSync(){
   var u=SYNC.user,h='<section class="sec"><div class="sec-h"><span>端末間の同期</span></div>';
