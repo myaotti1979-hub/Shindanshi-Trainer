@@ -437,7 +437,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v31';   // sw.js の VER と同じ値にする
+var APP_VER='v32';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1061,12 +1061,13 @@ function mRound(r){return mRounds().filter(function(x){return x.r===r;})[0];}
 function mSet(s,r){return DATA.mock&&DATA.mock.sets?DATA.mock.sets[s+'-'+r]:null;}
 function mFirst(r,s){return ST.mock.filter(function(a){return a.r===r&&a.s===s;}).sort(function(a,b){return a.at-b.at;})[0]||null;}
 function mDayOf(s){return MOCK_DAY[1].indexOf(s)>=0?1:2;}
-function mLim(s){var x=DATA.syl.subjects.filter(function(u){return u.k===s;})[0];return x?x.min:60;}
+function mLim(s,r){var k=s+'-'+r,d=r!=null&&DATA.mset[k];if(d&&d.min)return d.min;var ms=r!=null&&DATA.mock&&DATA.mock.sets&&DATA.mock.sets[k];if(ms&&ms.min)return ms.min;var x=DATA.syl.subjects.filter(function(u){return u.k===s;})[0];return x?x.min:60;}
+function mMaxPts(set){var t=0;set.items.forEach(function(it){t+=it.p;});return t;}
 function roundDone(rd){return SUBJ.every(function(x){return !!mFirst(rd.r,x.k);});}
 function roundState(rd){var t=todayKey();if(roundDone(rd))return 'done';if(t<rd.sat)return 'future';if(t===rd.sat)return 'day1';if(t===rd.sun)return 'day2';return 'over';}
 function focusRound(){var rs=mRounds();for(var i=0;i<rs.length;i++)if(!roundDone(rs[i]))return rs[i];return null;}
 function mockFlag(){if(ST.mockRun)return 'today';var rd=focusRound();if(!rd)return '';var st=roundState(rd);return st==='over'?'over':(st==='day1'||st==='day2')?'today':'';}
-function runLeft(){var r=ST.mockRun;return r?r.t0+mLim(r.s)*60000-Date.now():0;}
+function runLeft(){var r=ST.mockRun;return r?r.t0+mLim(r.s,r.r)*60000-Date.now():0;}
 var FLAG_SVG='<svg class="flag" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 1.5v13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 2.2h8.6l-2.2 3.1 2.2 3.1H4z" fill="currentColor"/></svg>';
 function mChip(rd,k){
   var a=mFirst(rd.r,k),set=mSet(k,rd.r),run=ST.mockRun&&ST.mockRun.r===rd.r&&ST.mockRun.s===k;
@@ -1074,7 +1075,7 @@ function mChip(rd,k){
   if(a)return '<button class="mchip done" type="button" '+at+'><span>'+SN[k].sh+'</span><b class="'+(a.score<CUT?'bad':a.score>=PASS?'good':'')+'">'+a.score+'点</b></button>';
   if(run)return '<button class="mchip go" type="button" '+at+'><span>'+SN[k].sh+'</span><small>受験中</small></button>';
   if(!set||!set.ready)return '<span class="mchip na"><span>'+SN[k].sh+'</span><small>準備中</small></span>';
-  return '<button class="mchip'+(todayKey()>=rd.sat?' go':'')+'" type="button" '+at+'><span>'+SN[k].sh+'</span><small>'+mLim(k)+'分</small></button>';
+  return '<button class="mchip'+(todayKey()>=rd.sat?' go':'')+'" type="button" '+at+'><span>'+SN[k].sh+'</span><small>'+mLim(k,rd.r)+'分</small></button>';
 }
 function mockAlert(){
   if(!DATA.mock)return '';
@@ -1140,7 +1141,7 @@ function renderMock(){
   var m=UI.mock,el=$('#mock');
   if(!m){el.hidden=true;el.innerHTML='';return;}
   el.hidden=false;
-  var rd=mRound(m.r),set=DATA.mset[m.s+'-'+m.r],sub=SN[m.s],lim=mLim(m.s),run=ST.mockRun;
+  var rd=mRound(m.r),set=DATA.mset[m.s+'-'+m.r],sub=SN[m.s],lim=mLim(m.s,m.r),run=ST.mockRun;
   var title='<span class="p-title">'+esc(sub.n)+'<small>模擬試験 第'+m.r+'回・'+lim+'分</small></span>';
   var h;
   if(m.phase==='load'||!set){el.innerHTML='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut"><p class="fine">問題を読み込んでいます…</p></div></div>';return;}
@@ -1205,7 +1206,8 @@ function startMock(){
 function submitMock(auto){
   var m=UI.mock,run=ST.mockRun;if(!m||!run)return;var set=DATA.mset[run.s+'-'+run.r];if(!set)return;
   var ok=0,score=0;set.items.forEach(function(it){if(run.ans[it.no]===it.a){ok++;score+=it.p;}});
-  var end=Math.min(Date.now(),run.t0+mLim(run.s)*60000),mins=Math.max(1,Math.round((end-run.t0)/60000));
+  var maxP=mMaxPts(set);if(maxP>0&&maxP!==100)score=Math.round(score*100/maxP);
+  var end=Math.min(Date.now(),run.t0+mLim(run.s,run.r)*60000),mins=Math.max(1,Math.round((end-run.t0)/60000));
   var at={id:uid('m'),r:run.r,s:run.s,at:Date.now(),score:score,ok:ok,total:set.items.length,ans:Object.assign({},run.ans),flag:Object.assign({},run.flag||{}),mins:mins,auto:!!auto,early:!!run.early};
   ST.mock.push(at);ST.mockRun=null;if(!ST.timer)bumpDay({min:mins});save();
   m.phase='result';m.att=at;m.confirm=false;renderMock();schedRender();
