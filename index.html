@@ -442,6 +442,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
     <button class="tab" type="button" data-act="tab" data-tab="log"><span class="tab-dot" aria-hidden="true"></span>記録</button>
   </nav>
   <nav class="tabs gut" id="tabs2" aria-label="2次の画面切り替え" hidden>
+    <button class="tab" type="button" data-act="tab2" data-tab="jtext"><span class="tab-dot" aria-hidden="true"></span>テキスト</button>
     <button class="tab" type="button" data-act="tab2" data-tab="j4drill"><span class="tab-dot" aria-hidden="true"></span>事例Ⅳドリル</button>
   </nav>
 </div>
@@ -455,7 +456,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v34';   // sw.js の VER と同じ値にする
+var APP_VER='v35';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -592,19 +593,29 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',tab2:'j4drill',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null};
+var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,jtSec:null};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 try{var st0=localStorage.getItem(STORE+'-stage');if(st0==='s1'||st0==='s2')UI.stage=st0;}catch(e){}
 
 /* ---------- 2次試験データ ---------- */
-var DATA2={j4:null};
+var DATA2={j4:null,text:{}};
 var ST2={j4:{}};  // {[id]: {att:N, cor:N, last:timestamp}}
 try{var raw2=localStorage.getItem('shindan2');if(raw2)ST2=JSON.parse(raw2);}catch(e){}
 if(!ST2.j4)ST2.j4={};
 function save2(){try{localStorage.setItem('shindan2',JSON.stringify(ST2));}catch(e){}}
+var J_TEXT_FILES=['j_common','j1','j2','j3','j4_text'];
 function loadJ4(){
   if(DATA2.j4)return Promise.resolve();
   return fetch('data/j4_drill.json').then(function(r){return r.json();}).then(function(j){DATA2.j4=j;});
+}
+function loadJText(){
+  if(DATA2._textLoaded)return Promise.resolve();
+  return Promise.all(J_TEXT_FILES.map(function(f){
+    return fetch('data/'+f+'.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  })).then(function(arr){
+    arr.forEach(function(j,i){if(j)DATA2.text[J_TEXT_FILES[i]]=j;});
+    DATA2._textLoaded=true;
+  });
 }
 
 /* ---------- 集計 ---------- */
@@ -715,8 +726,13 @@ function render(){
   renderHeader();renderNote();renderStage();
   var v=$('#view'),ae=document.activeElement;
   if(UI.stage==='s2'){
-    v.innerHTML=DATA2.j4?viewJ4():'<p class="fine">読み込んでいます…</p>';
-    if(!DATA2.j4)loadJ4().then(function(){render();});
+    if(UI.tab2==='jtext'){
+      v.innerHTML=DATA2._textLoaded?viewJText():'<p class="fine">読み込んでいます…</p>';
+      if(!DATA2._textLoaded)loadJText().then(function(){render();});
+    } else {
+      v.innerHTML=DATA2.j4?viewJ4():'<p class="fine">読み込んでいます…</p>';
+      if(!DATA2.j4)loadJ4().then(function(){render();});
+    }
     return;
   }
   if(ae&&v.contains(ae)&&(ae.tagName==='INPUT'&&ae.type!=='checkbox'&&ae.type!=='file')){UI.dirty=true;}
@@ -1296,6 +1312,68 @@ function setTab(t){UI.tab=t;UI.setDraft=null;UI.confirmImport=null;try{localStor
 function setStage(s){UI.stage=s;try{localStorage.setItem(STORE+'-stage',s);}catch(e){}$('#main').scrollTop=0;render();}
 
 /* ---------- 2次：事例Ⅳドリル ---------- */
+function viewJText(){
+  var order=['j_common','j1','j2','j3','j4_text'];
+  var labels={'j_common':'共通','j1':'事例Ⅰ 組織・人事','j2':'事例Ⅱ マーケティング','j3':'事例Ⅲ 生産・技術','j4_text':'事例Ⅳ 財務・会計'};
+  var h='';
+  // セクション表示モード
+  if(UI.jtSec){
+    var found=null;
+    order.forEach(function(fk){var d=DATA2.text[fk];if(!d)return;d.chapters.forEach(function(ch){ch.sections.forEach(function(sec){if(sec.id===UI.jtSec)found={sec:sec,ch:ch,fk:fk};});});});
+    if(found){
+      h+='<section class="sec"><div class="sec-h"><span>'+esc(found.ch.title)+'</span></div>';
+      h+='<div class="sheet"><div class="tx-sec"><h3>'+esc(found.sec.title)+'</h3>'+renderJContent(found.sec.content)+'</div>';
+      // Prev/Next nav
+      var allSecs=[];
+      order.forEach(function(fk2){var d=DATA2.text[fk2];if(!d)return;d.chapters.forEach(function(ch2){ch2.sections.forEach(function(s2){allSecs.push(s2.id);});});});
+      var idx=allSecs.indexOf(UI.jtSec);
+      h+='<div class="tx-nav">';
+      if(idx>0)h+='<button class="linkbtn" type="button" data-act="jt-sec" data-sec="'+allSecs[idx-1]+'">← 前</button>';
+      h+='<button class="linkbtn" type="button" data-act="jt-back">目次に戻る</button>';
+      if(idx<allSecs.length-1)h+='<button class="linkbtn" type="button" data-act="jt-sec" data-sec="'+allSecs[idx+1]+'">次 →</button>';
+      h+='</div></div></section>';
+      return h;
+    }
+  }
+  // 目次モード
+  order.forEach(function(fk){
+    var d=DATA2.text[fk];if(!d)return;
+    h+='<section class="sec"><div class="sec-h"><span>'+esc(labels[fk])+'</span></div>';
+    d.chapters.forEach(function(ch){
+      h+='<div class="sheet"><p class="lead">'+esc(ch.title)+'</p><ul class="list">';
+      ch.sections.forEach(function(sec){
+        h+='<li class="todo"><button class="todo-t" type="button" data-act="jt-sec" data-sec="'+esc(sec.id)+'" style="cursor:pointer;text-decoration:underline;text-decoration-color:var(--guide);text-underline-offset:3px"><b>'+esc(sec.title)+'</b></button></li>';
+      });
+      h+='</ul></div>';
+    });
+    h+='</section>';
+  });
+  return h;
+}
+function renderJContent(content){
+  // Convert markdown-like content to HTML
+  var lines=content.split('\n'),h='',inP=false;
+  lines.forEach(function(ln){
+    if(ln.startsWith('<svg')||ln.startsWith('<')){
+      if(inP){h+='</p>';inP=false;}
+      h+='<div class="tx-fig">'+ln+'</div>';
+    } else if(ln.startsWith('**')&&ln.endsWith('**')){
+      if(inP){h+='</p>';inP=false;}
+      h+='<h4>'+esc(ln.slice(2,-2))+'</h4>';
+    } else if(ln.startsWith('- ')){
+      if(inP){h+='</p>';inP=false;}
+      h+='<p style="padding-left:1em;text-indent:-1em">・'+esc(ln.slice(2))+'</p>';
+    } else if(ln.trim()===''){
+      if(inP){h+='</p>';inP=false;}
+    } else {
+      if(!inP){h+='<p>';inP=true;}else{h+='<br>';}
+      h+=esc(ln).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+    }
+  });
+  if(inP)h+='</p>';
+  return h;
+}
+
 function viewJ4(){
   var d=DATA2.j4;if(!d)return '';
   var h='<section class="sec"><div class="sec-h"><span>事例Ⅳ 計算ドリル</span></div>'
@@ -1397,7 +1475,7 @@ document.addEventListener('click',function(ev){
   if(a.indexOf('mk-')===0&&mockKey(a,b))return;
   switch(a){
     case 'tab':setTab(b.dataset.tab);break;
-    case 'tab2':UI.tab2=b.dataset.tab;render();break;
+    case 'tab2':UI.tab2=b.dataset.tab;UI.jtSec=null;$('#main').scrollTop=0;render();break;
     case 'stage':setStage(b.dataset.stage);break;
     case 'scroll':{var tg=document.getElementById(b.dataset.to);if(tg)tg.scrollIntoView({behavior:'smooth',block:'start'});break;}
     case 'tab-judge':UI.sheet=null;renderSheet();setTab('judge');break;
@@ -1446,6 +1524,9 @@ document.addEventListener('click',function(ev){
     case 'import-ok':if(UI.confirmImport){ST=Object.assign(blankState(),UI.confirmImport.state);ST.settings=Object.assign({},DEF,ST.settings||{});UI.confirmImport=null;saveNow();toast('読み込みました');render();}break;
     case 'import-cancel':UI.confirmImport=null;render();break;
     case 'sw-update':if(UI.swWaiting){UI.swWaiting.postMessage&&UI.swWaiting.postMessage('skip');location.reload();}break;
+    /* 2次テキスト */
+    case 'jt-sec':UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;
+    case 'jt-back':UI.jtSec=null;$('#main').scrollTop=0;render();break;
     /* 事例Ⅳドリル */
     case 'j4-cat':UI.j4cat=b.dataset.cat;UI.j4i=null;UI.j4sel=null;UI.j4ans=null;$('#main').scrollTop=0;render();setTimeout(function(){var el=document.getElementById('j4q');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},30);break;
     case 'j4-pick':UI.j4i=+b.dataset.i;UI.j4sel=null;UI.j4ans=null;$('#main').scrollTop=0;render();setTimeout(function(){var el=document.getElementById('j4q');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},30);break;
