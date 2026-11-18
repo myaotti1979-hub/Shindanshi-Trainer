@@ -1,7 +1,7 @@
 {
-  "name": "診断士1次トレーナー",
-  "short_name": "診断士1次",
-  "description": "中小企業診断士 第1次試験の演習・過去問採点・合格判定アプリ",
+  "name": "診断士トレーナー",
+  "short_name": "診断士",
+  "description": "中小企業診断士 1次試験・2次試験の学習アプリ",
   "lang": "ja",
   "start_url": "./index.html",
   "scope": "./",

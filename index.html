@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>診断士1次トレーナー</title>
-<meta name="description" content="中小企業診断士 第1次試験の演習・過去問採点・合格判定アプリ">
+<title>診断士トレーナー</title>
+<meta name="description" content="中小企業診断士 1次試験・2次試験の学習アプリ">
 <meta name="theme-color" content="#FAF7F6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#141719" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="診断士1次">
+<meta name="apple-mobile-web-app-title" content="診断士">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -412,19 +412,37 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(80px + env(safe-area-inset-bottom,0px));z-index:40;background:var(--mark);color:var(--on-mark);padding:10px 16px;border-radius:12px;font-size:13.5px;font-weight:700;max-width:calc(100% - 32px);display:flex;gap:14px;align-items:center;box-shadow:0 6px 20px rgba(0,0,0,.18)}
 @media (max-width:380px){ .ox{gap:28px} .cd-n{font-size:30px} .mb{width:36px;height:36px} .ms-row{grid-template-columns:4em minmax(0,1fr)} }
 @media (prefers-reduced-motion: reduce){ *{transition:none!important;animation:none!important} }
+
+/* 1次/2次切り替え */
+.stage-sw{display:flex;gap:0;border:1.5px solid var(--guide);border-radius:999px;overflow:hidden;align-self:center}
+.stage-sw button{appearance:none;border:none;background:transparent;font:inherit;font-size:12.5px;font-weight:700;color:var(--ink-2);padding:5px 16px;cursor:pointer;min-height:32px;white-space:nowrap;transition:background-color .12s,color .12s}
+.stage-sw button[aria-pressed="true"]{background:var(--mark);color:var(--on-mark)}
+.stage-sw button+button{border-left:1.5px solid var(--guide)}
+
+/* 事例Ⅳドリル */
+.j4-cats{display:flex;flex-direction:column;gap:10px}
+.j4-cat{appearance:none;display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer}
+.j4-cat b{font-size:15px;font-weight:700}
+.j4-cat span{font-size:12.5px;color:var(--ink-2)}
+.j4-cat .j4-prog{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:2px}
+.j4-cat .j4-prog em{color:var(--good);font-style:normal}
 </style>
 </head>
 <body>
 <div id="app">
   <header class="top gut" id="hdr"></header>
   <div class="bar-note gut" id="note" hidden></div>
+  <div class="gut" style="padding-block:8px;display:flex;justify-content:center"><div class="stage-sw" role="group" aria-label="試験の切り替え"><button type="button" data-act="stage" data-stage="s1" aria-pressed="true">1次試験</button><button type="button" data-act="stage" data-stage="s2" aria-pressed="false">2次試験</button></div></div>
   <main class="gut" id="main"><div class="view" id="view"><p class="fine">読み込んでいます…</p></div></main>
-  <nav class="tabs gut" aria-label="画面の切り替え">
+  <nav class="tabs gut" id="tabs1" aria-label="1次の画面切り替え">
     <button class="tab" type="button" data-act="tab" data-tab="today"><span class="tab-dot" aria-hidden="true"></span>今日</button>
     <button class="tab" type="button" data-act="tab" data-tab="drill"><span class="tab-dot" aria-hidden="true"></span>学習</button>
     <button class="tab" type="button" data-act="tab" data-tab="past"><span class="tab-dot" aria-hidden="true"></span>模試・過去問</button>
     <button class="tab" type="button" data-act="tab" data-tab="judge"><span class="tab-dot" aria-hidden="true"></span>判定</button>
     <button class="tab" type="button" data-act="tab" data-tab="log"><span class="tab-dot" aria-hidden="true"></span>記録</button>
+  </nav>
+  <nav class="tabs gut" id="tabs2" aria-label="2次の画面切り替え" hidden>
+    <button class="tab" type="button" data-act="tab2" data-tab="j4drill"><span class="tab-dot" aria-hidden="true"></span>事例Ⅳドリル</button>
   </nav>
 </div>
 <section class="panel" id="sess" aria-label="演習" hidden></section>
@@ -437,7 +455,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v32';   // sw.js の VER と同じ値にする
+var APP_VER='v33';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -574,8 +592,20 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null};
+var UI={tab:'today',tab2:'j4drill',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
+try{var st0=localStorage.getItem(STORE+'-stage');if(st0==='s1'||st0==='s2')UI.stage=st0;}catch(e){}
+
+/* ---------- 2次試験データ ---------- */
+var DATA2={j4:null};
+var ST2={j4:{}};  // {[id]: {att:N, cor:N, last:timestamp}}
+try{var raw2=localStorage.getItem('shindan2');if(raw2)ST2=JSON.parse(raw2);}catch(e){}
+if(!ST2.j4)ST2.j4={};
+function save2(){try{localStorage.setItem('shindan2',JSON.stringify(ST2));}catch(e){}}
+function loadJ4(){
+  if(DATA2.j4)return Promise.resolve();
+  return fetch('data/j4_drill.json').then(function(r){return r.json();}).then(function(j){DATA2.j4=j;});
+}
 
 /* ---------- 集計 ---------- */
 function weekStart(t){var x=new Date(t);x.setHours(0,0,0,0);x.setDate(x.getDate()-(x.getDay()+6)%7);return x;}
@@ -682,21 +712,36 @@ function judgeSubject(s){
 var rq=0;
 function schedRender(){if(rq)return;rq=requestAnimationFrame(function(){rq=0;render();});}
 function render(){
-  renderHeader();renderNote();
+  renderHeader();renderNote();renderStage();
   var v=$('#view'),ae=document.activeElement;
+  if(UI.stage==='s2'){
+    v.innerHTML=DATA2.j4?viewJ4():'<p class="fine">読み込んでいます…</p>';
+    if(!DATA2.j4)loadJ4().then(function(){render();});
+    return;
+  }
   if(ae&&v.contains(ae)&&(ae.tagName==='INPUT'&&ae.type!=='checkbox'&&ae.type!=='file')){UI.dirty=true;}
   else{
     var fid=ae&&v.contains(ae)?ae.id:'';
     v.innerHTML=!DATA.syl?'<p class="fine">読み込んでいます…</p>':UI.tab==='drill'?viewDrill():UI.tab==='past'?viewPast():UI.tab==='judge'?viewJudge():UI.tab==='log'?viewLog():viewToday();
     UI.dirty=false;if(fid){var n=document.getElementById(fid);if(n)n.focus({preventScroll:true});}
   }
-  document.querySelectorAll('.tab').forEach(function(b){if(b.dataset.tab===UI.tab)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
+  document.querySelectorAll('#tabs1 .tab').forEach(function(b){if(b.dataset.tab===UI.tab)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
   var fl=DATA.syl?mockFlag():'';document.querySelectorAll('.tab[data-tab=today],.tab[data-tab=past]').forEach(function(b){b.classList.toggle('al',!!fl);b.classList.toggle('al-over',fl==='over');});
+}
+function renderStage(){
+  document.querySelectorAll('.stage-sw button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.stage===UI.stage?'true':'false');});
+  $('#tabs1').hidden=UI.stage!=='s1';$('#tabs2').hidden=UI.stage!=='s2';
+  document.querySelectorAll('#tabs2 .tab').forEach(function(b){if(b.dataset.tab===UI.tab2)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
 }
 function renderHeader(){
   var st=ST.settings,d1=daysUntil(st.exam1),d2=daysUntil(st.exam2),w=weekStats(0),tg=weeklyTarget();
-  $('#hdr').innerHTML='<div class="cd"><span class="cd-l">1次試験まで</span><b class="cd-n">'+Math.max(0,d1)+'</b><span class="cd-u">日</span><span class="cd-sub">2次筆記まで '+Math.max(0,d2)+'日（日程は仮）</span></div>'
-   +'<div class="wk"><div class="wk-t"><span>今週</span><b>'+fmtH(w.min)+'</b><span>/ '+fmtH(tg)+' 時間</span></div><div class="meter" role="meter" aria-label="今週の学習時間" aria-valuemin="0" aria-valuemax="'+tg+'" aria-valuenow="'+w.min+'"><i style="width:'+(tg?Math.min(100,w.min/tg*100):0)+'%"></i></div><span class="ver">版 '+APP_VER+'</span></div>';
+  if(UI.stage==='s2'){
+    $('#hdr').innerHTML='<div class="cd"><span class="cd-l">2次筆記まで</span><b class="cd-n">'+Math.max(0,d2)+'</b><span class="cd-u">日</span><span class="cd-sub">日程は仮</span></div>'
+     +'<div class="wk"><div class="wk-t"><span>今週</span><b>'+fmtH(w.min)+'</b><span>/ '+fmtH(tg)+' 時間</span></div><div class="meter" role="meter" aria-label="今週の学習時間" aria-valuemin="0" aria-valuemax="'+tg+'" aria-valuenow="'+w.min+'"><i style="width:'+(tg?Math.min(100,w.min/tg*100):0)+'%"></i></div><span class="ver">版 '+APP_VER+'</span></div>';
+  } else {
+    $('#hdr').innerHTML='<div class="cd"><span class="cd-l">1次試験まで</span><b class="cd-n">'+Math.max(0,d1)+'</b><span class="cd-u">日</span><span class="cd-sub">2次筆記まで '+Math.max(0,d2)+'日（日程は仮）</span></div>'
+     +'<div class="wk"><div class="wk-t"><span>今週</span><b>'+fmtH(w.min)+'</b><span>/ '+fmtH(tg)+' 時間</span></div><div class="meter" role="meter" aria-label="今週の学習時間" aria-valuemin="0" aria-valuemax="'+tg+'" aria-valuenow="'+w.min+'"><i style="width:'+(tg?Math.min(100,w.min/tg*100):0)+'%"></i></div><span class="ver">版 '+APP_VER+'</span></div>';
+  }
 }
 function renderNote(){
   var n=$('#note');
@@ -1248,6 +1293,73 @@ function mockKey(act,b){
 /* ---------- 小さな操作 ---------- */
 function toast(msg,undo){var t=$('#toast');t.innerHTML='<span>'+esc(msg)+'</span>'+(undo?'<button class="linkbtn inv" type="button" data-act="undo-add">取り消す</button>':'');t.hidden=false;clearTimeout(UI.toastT);UI.toastT=setTimeout(function(){t.hidden=true;},undo?6000:2800);}
 function setTab(t){UI.tab=t;UI.setDraft=null;UI.confirmImport=null;try{localStorage.setItem(STORE+'-tab',t);}catch(e){}$('#main').scrollTop=0;render();}
+function setStage(s){UI.stage=s;try{localStorage.setItem(STORE+'-stage',s);}catch(e){}$('#main').scrollTop=0;render();}
+
+/* ---------- 2次：事例Ⅳドリル ---------- */
+function viewJ4(){
+  var d=DATA2.j4;if(!d)return '';
+  var h='<section class="sec"><div class="sec-h"><span>事例Ⅳ 計算ドリル</span></div>'
+    +'<div class="sheet"><p class="lead">2次試験 事例Ⅳの計算問題を分野別に演習できます。</p></div></section>';
+  h+='<section class="sec"><div class="sec-h"><span>分野を選ぶ</span></div><div class="j4-cats">';
+  d.categories.forEach(function(cat){
+    var ps=d.problems.filter(function(p){return p.cat===cat.k;});
+    var done=0,cor=0;ps.forEach(function(p){var r=ST2.j4[p.id];if(r){done++;if(r.cor>0)cor++;}});
+    h+='<button class="j4-cat" type="button" data-act="j4-cat" data-cat="'+cat.k+'">'
+      +'<b>'+esc(cat.n)+'</b><span>'+esc(cat.desc)+'</span>'
+      +'<div class="j4-prog">'+done+'/'+ps.length+'問解答'+(cor?' <em>正解'+cor+'</em>':'')+'</div></button>';
+  });
+  h+='</div></section>';
+  // カテゴリ内の問題表示
+  if(UI.j4cat){
+    var cat=d.categories.filter(function(c){return c.k===UI.j4cat;})[0];
+    var ps=d.problems.filter(function(p){return p.cat===UI.j4cat;});
+    if(cat&&ps.length){
+      h+='<section class="sec" id="j4q"><div class="sec-h"><span>'+esc(cat.n)+'</span></div>';
+      if(UI.j4i!=null){
+        h+=renderJ4Q(ps[UI.j4i],UI.j4i,ps.length);
+      } else {
+        h+='<div class="sheet">';
+        ps.forEach(function(p,i){
+          var r=ST2.j4[p.id],st=r?(r.cor>0?'ok':'ng'):'new';
+          h+='<button class="qrow" type="button" data-act="j4-pick" data-i="'+i+'"><i class="qd'+(st==='new'?'':' '+st)+'" aria-hidden="true"></i><span class="qtx"><span class="qq">'+esc(p.q.split('\n')[0])+'</span><span class="qm">'+esc(p.lv)+'ランク'+(r?' ・'+r.att+'回解いた':'')+'</span></span></button>';
+        });
+        h+='</div>';
+      }
+      h+='</section>';
+    }
+  }
+  return h;
+}
+function renderJ4Q(p,idx,total){
+  var r=ST2.j4[p.id],answered=UI.j4ans!=null;
+  var h='<div class="sheet">';
+  h+='<div class="s-meta"><span class="chip">'+esc(p.lv)+'ランク</span><span class="s-topic">第'+(idx+1)+'問 / '+total+'問</span></div>';
+  h+='<p class="s-q">'+esc(p.q)+'</p>';
+  if(p.fig)h+='<div class="fig">'+p.fig+'</div>';
+  h+='<div class="choices">';
+  p.ch.forEach(function(c,i){
+    var cls='choice',lt=LT[i];
+    if(answered){
+      if(i===p.a)cls+=' ans';
+      if(i===UI.j4ans)cls+=' on';
+    } else if(UI.j4sel===i){cls+=' on';}
+    h+='<button class="'+cls+'" type="button" data-act="j4-ch" data-v="'+i+'"'+(answered?' disabled':'')+'><span class="lt">'+lt+'</span><span>'+esc(c)+(answered&&p.ce[i]?'<span class="ce">'+esc(p.ce[i])+'</span>':'')+'</span></button>';
+  });
+  h+='</div>';
+  if(!answered&&UI.j4sel!=null){
+    h+='<button class="btn primary wide" type="button" data-act="j4-answer">解答する</button>';
+  }
+  if(answered){
+    var ok=UI.j4ans===p.a;
+    h+='<div class="res '+(ok?'ok':'ng')+'"><div class="res-h">'+(ok?'正解！':'不正解')+'</div><p>'+esc(p.e)+'</p></div>';
+    h+='<div style="display:flex;gap:8px;flex-wrap:wrap">';
+    if(idx>0)h+='<button class="btn ghost" type="button" data-act="j4-prev">前の問題</button>';
+    if(idx<total-1)h+='<button class="btn primary" type="button" data-act="j4-next">次の問題</button>';
+    h+='<button class="btn ghost" type="button" data-act="j4-back">一覧に戻る</button></div>';
+  }
+  h+='</div>';
+  return h;
+}
 function draftOf(st){return {wdMin:String(st.wdMin),weMin:String(st.weMin),newPerDay:String(st.newPerDay),exam1:st.exam1,exam2:st.exam2};}
 function setBind(path,val){var p=path.split('.');if(p[0]==='setDraft'&&!UI.setDraft)UI.setDraft=draftOf(ST.settings);var o=UI[p[0]];if(o)o[p[1]]=val;}
 function saveSettings(){
@@ -1285,6 +1397,8 @@ document.addEventListener('click',function(ev){
   if(a.indexOf('mk-')===0&&mockKey(a,b))return;
   switch(a){
     case 'tab':setTab(b.dataset.tab);break;
+    case 'tab2':UI.tab2=b.dataset.tab;render();break;
+    case 'stage':setStage(b.dataset.stage);break;
     case 'scroll':{var tg=document.getElementById(b.dataset.to);if(tg)tg.scrollIntoView({behavior:'smooth',block:'start'});break;}
     case 'tab-judge':UI.sheet=null;renderSheet();setTab('judge');break;
     case 'go':startSession(Number(b.dataset.n)||10);break;
@@ -1332,6 +1446,21 @@ document.addEventListener('click',function(ev){
     case 'import-ok':if(UI.confirmImport){ST=Object.assign(blankState(),UI.confirmImport.state);ST.settings=Object.assign({},DEF,ST.settings||{});UI.confirmImport=null;saveNow();toast('読み込みました');render();}break;
     case 'import-cancel':UI.confirmImport=null;render();break;
     case 'sw-update':if(UI.swWaiting){UI.swWaiting.postMessage&&UI.swWaiting.postMessage('skip');location.reload();}break;
+    /* 事例Ⅳドリル */
+    case 'j4-cat':UI.j4cat=b.dataset.cat;UI.j4i=null;UI.j4sel=null;UI.j4ans=null;$('#main').scrollTop=0;render();setTimeout(function(){var el=document.getElementById('j4q');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},30);break;
+    case 'j4-pick':UI.j4i=+b.dataset.i;UI.j4sel=null;UI.j4ans=null;$('#main').scrollTop=0;render();setTimeout(function(){var el=document.getElementById('j4q');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},30);break;
+    case 'j4-ch':if(UI.j4ans==null){UI.j4sel=+b.dataset.v;render();}break;
+    case 'j4-answer':{
+      if(UI.j4sel==null||!DATA2.j4)break;
+      var ps2=DATA2.j4.problems.filter(function(p){return p.cat===UI.j4cat;});
+      var qp=ps2[UI.j4i];UI.j4ans=UI.j4sel;
+      var rec=ST2.j4[qp.id]||(ST2.j4[qp.id]={att:0,cor:0,last:0});
+      rec.att++;if(UI.j4ans===qp.a)rec.cor++;rec.last=Date.now();
+      save2();render();break;
+    }
+    case 'j4-next':{UI.j4i++;UI.j4sel=null;UI.j4ans=null;render();var sn2=document.getElementById('j4q');if(sn2)sn2.scrollIntoView({behavior:'smooth',block:'start'});break;}
+    case 'j4-prev':{UI.j4i--;UI.j4sel=null;UI.j4ans=null;render();var sp2=document.getElementById('j4q');if(sp2)sp2.scrollIntoView({behavior:'smooth',block:'start'});break;}
+    case 'j4-back':UI.j4i=null;UI.j4sel=null;UI.j4ans=null;render();break;
   }
 });
 document.addEventListener('toggle',function(ev){var d=ev.target;if(d&&d.tagName==='DETAILS'&&d.dataset&&d.dataset.g){UI.openG=UI.openG||{};if(d.open)UI.openG[d.dataset.g]=1;else delete UI.openG[d.dataset.g];}},true);
