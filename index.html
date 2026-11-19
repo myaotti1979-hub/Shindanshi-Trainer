@@ -436,6 +436,18 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .ex-card{appearance:none;display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer}
 .ex-card b{font-size:15px;font-weight:700}
 .ex-card span{font-size:12.5px;color:var(--ink-2)}
+.ex-ai{background:var(--sheet);border:1.5px solid var(--guide);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.ex-ai b{font-size:12px;letter-spacing:.06em}
+.ex-ai .ex-score{font-size:28px;font-weight:900;font-variant-numeric:tabular-nums;line-height:1.2}
+.ex-ai .ex-score.good{color:var(--good)}
+.ex-ai .ex-score.mid{color:var(--warn)}
+.ex-ai .ex-score.low{color:var(--bad)}
+.ex-ai p{margin:0;font-size:14px;line-height:1.75}
+.ex-ai .ex-fb{font-size:13.5px;line-height:1.7;white-space:pre-wrap}
+.ex-loading{text-align:center;padding:16px;color:var(--ink-2);font-size:13px}
+.ex-apikey{display:flex;flex-direction:column;gap:8px;padding:12px 14px;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r)}
+.ex-apikey input{font:inherit;font-size:14px;color:var(--ink);background:var(--paper);border:1.5px solid var(--guide);border-radius:8px;padding:8px 10px;width:100%;min-height:40px}
+.ex-apikey input:focus{border-color:var(--drop);outline:none}
 
 /* 事例Ⅳドリル */
 .j4-cats{display:flex;flex-direction:column;gap:10px}
@@ -475,7 +487,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v37';   // sw.js の VER と同じ値にする
+var APP_VER='v38';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -612,7 +624,7 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,jtSec:null,exId:null,exShow:false};
+var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,jtSec:null,exId:null,exShow:false,exGrade:{},exGrading:{}};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 try{var st0=localStorage.getItem(STORE+'-stage');if(st0==='s1'||st0==='s2')UI.stage=st0;}catch(e){}
 
@@ -624,6 +636,49 @@ if(!ST2.j4)ST2.j4={};
 if(!ST2.ex)ST2.ex={};  // {[caseId]: {[qNo]: {ans:['...'], at:timestamp}}}
 
 function save2(){try{localStorage.setItem('shindan2',JSON.stringify(ST2));}catch(e){}}
+/* APIキー管理 */
+var AI_KEY='';
+try{AI_KEY=localStorage.getItem('shindan2-aikey')||'';}catch(e){}
+function saveAiKey(k){AI_KEY=k;try{localStorage.setItem('shindan2-aikey',k);}catch(e){}}
+
+/* AI採点 */
+function gradeWithAI(caseData,qData,answers){
+  if(!AI_KEY)return Promise.reject('APIキーが未設定です');
+  var prompt='あなたは中小企業診断士2次試験の採点者です。以下の与件文と設問に対する受験者の解答を採点してください。\n\n';
+  prompt+='【与件文】\n'+caseData.yoken+'\n\n';
+  prompt+='【設問】'+qData.q+'\n（配点'+qData.score+'点、'+qData.limit+'字以内×'+qData.count+'問）\n\n';
+  prompt+='【採点ポイント（キーワード）】\n'+qData.points.join('、')+'\n\n';
+  prompt+='【模範解答】\n';
+  qData.model.forEach(function(m,i){prompt+=(qData.labels?qData.labels[i]+'：':'')+m+'\n';});
+  prompt+='\n【受験者の解答】\n';
+  answers.forEach(function(a,i){prompt+=(qData.labels?qData.labels[i]+'：':'')+(a||'（未記入）')+'\n';});
+  prompt+='\n以下の形式でJSON（コードブロックなし）を返してください：\n{"score":得点（0〜'+qData.score+'の整数）,"grade":"A/B/C/Dのいずれか","feedback":"良い点と改善点を含む2〜3文のフィードバック（日本語）","keywords_hit":["含まれていた採点ポイント"],"keywords_miss":["不足している採点ポイント"]}';
+
+  return fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{
+      'Content-Type':'application/json',
+      'x-api-key':AI_KEY,
+      'anthropic-version':'2023-06-01',
+      'anthropic-dangerous-direct-browser-access':'true'
+    },
+    body:JSON.stringify({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:500,
+      messages:[{role:'user',content:prompt}]
+    })
+  }).then(function(r){
+    if(!r.ok)return r.json().then(function(e){throw new Error(e.error&&e.error.message||'API error '+r.status);});
+    return r.json();
+  }).then(function(j){
+    var txt=j.content&&j.content[0]&&j.content[0].text||'';
+    try{return JSON.parse(txt);}catch(e){
+      var m=txt.match(/\{[\s\S]*\}/);
+      if(m)return JSON.parse(m[0]);
+      throw new Error('採点結果を解析できません');
+    }
+  });
+}
 var J_TEXT_FILES=['j_common','j1','j2','j3','j4_text'];
 function loadJ4(){
   if(DATA2.j4)return Promise.resolve();
@@ -1381,10 +1436,20 @@ function viewJEx(){
         +'<textarea class="ex-ta" data-ex="'+esc(c.id)+'" data-qno="'+q.no+'" data-k="'+k+'" rows="3" maxlength="'+(q.limit+10)+'">'+esc(val)+'</textarea></label>'
         +'<div class="ex-count'+(len>q.limit?' over':'')+'">'+len+' / '+q.limit+'字</div>';
     }
-    if(!UI.exShow){
-      h+='</div></section>';
-    } else {
-      // 模範解答表示
+    // AI採点結果
+    var gk=c.id+'-'+q.no,gr=UI.exGrade[gk];
+    if(UI.exGrading[gk]){
+      h+='<div class="ex-loading">⏳ AI採点中…</div>';
+    } else if(gr){
+      var scCls=gr.score>=q.score*0.7?'good':gr.score>=q.score*0.4?'mid':'low';
+      h+='<div class="ex-ai"><b>AI採点結果</b>';
+      h+='<div style="display:flex;align-items:baseline;gap:8px"><span class="ex-score '+scCls+'">'+gr.score+'</span><span style="font-size:14px;color:var(--ink-2)">/ '+q.score+'点（'+esc(gr.grade)+'）</span></div>';
+      h+='<div class="ex-fb">'+esc(gr.feedback)+'</div>';
+      if(gr.keywords_hit&&gr.keywords_hit.length){h+='<div class="ex-pts">';gr.keywords_hit.forEach(function(k){h+='<span style="border-color:var(--good);color:var(--good)">✓ '+esc(k)+'</span>';});h+='</div>';}
+      if(gr.keywords_miss&&gr.keywords_miss.length){h+='<div class="ex-pts">';gr.keywords_miss.forEach(function(k){h+='<span style="border-color:var(--bad);color:var(--bad)">✗ '+esc(k)+'</span>';});h+='</div>';}
+      h+='</div>';
+    }
+    if(UI.exShow){
       h+='<div class="ex-model"><b>模範解答</b>';
       q.model.forEach(function(m,mi){
         var lab=q.labels?q.labels[mi]:'';
@@ -1392,14 +1457,27 @@ function viewJEx(){
       });
       h+='<b>採点ポイント</b><div class="ex-pts">';
       q.points.forEach(function(pt){h+='<span>'+esc(pt)+'</span>';});
-      h+='</div></div></div></section>';
+      h+='</div></div>';
     }
+    h+='</div></section>';
   });
   h+='<section class="sec">';
+  var anyAns=c.questions.some(function(q){var sv=saved[q.no];return sv&&sv.ans&&sv.ans.some(function(a){return a&&a.length>0;});});
+  if(anyAns&&AI_KEY){
+    h+='<button class="btn primary wide" type="button" data-act="ex-grade">AI採点する</button>';
+  }
   if(!UI.exShow){
-    h+='<button class="btn primary wide" type="button" data-act="ex-submit">解答を提出して模範解答を見る</button>';
+    h+='<button class="btn'+(anyAns&&AI_KEY?'':' primary')+' wide" type="button" data-act="ex-submit">模範解答を見る</button>';
   } else {
     h+='<button class="btn wide" type="button" data-act="ex-hide">模範解答を閉じる</button>';
+  }
+  if(!AI_KEY){
+    h+='<div class="ex-apikey"><b style="font-size:12px;color:var(--ink-2)">AI採点を使うには Anthropic APIキーを設定</b>'
+      +'<input type="password" id="aikey-input" placeholder="sk-ant-…" value="'+esc(AI_KEY)+'">'
+      +'<button class="btn small" type="button" data-act="ex-savekey">保存</button>'
+      +'<span style="font-size:11px;color:var(--ink-3)">キーはこの端末のlocalStorageにのみ保存され、外部に送信されません（Anthropic API以外）</span></div>';
+  } else {
+    h+='<button class="linkbtn" type="button" data-act="ex-editkey" style="font-size:12px">APIキーを変更</button>';
   }
   h+='</section>';
   return h;
@@ -1618,10 +1696,42 @@ document.addEventListener('click',function(ev){
     case 'import-cancel':UI.confirmImport=null;render();break;
     case 'sw-update':if(UI.swWaiting){UI.swWaiting.postMessage&&UI.swWaiting.postMessage('skip');location.reload();}break;
     /* 記述式演習 */
-    case 'ex-open':UI.exId=b.dataset.id;UI.exShow=false;$('#main').scrollTop=0;render();break;
-    case 'ex-back':UI.exId=null;UI.exShow=false;$('#main').scrollTop=0;render();break;
+    case 'ex-open':{
+      UI.exId=b.dataset.id;UI.exShow=false;UI.exGrade={};UI.exGrading={};
+      // 保存済みの採点結果を復元
+      var eSaved=ST2.ex[UI.exId]||{};
+      Object.keys(eSaved).forEach(function(qn){if(eSaved[qn].grade)UI.exGrade[UI.exId+'-'+qn]=eSaved[qn].grade;});
+      $('#main').scrollTop=0;render();break;
+    }
+    case 'ex-back':UI.exId=null;UI.exShow=false;UI.exGrade={};UI.exGrading={};$('#main').scrollTop=0;render();break;
     case 'ex-submit':UI.exShow=true;render();break;
     case 'ex-hide':UI.exShow=false;render();break;
+    case 'ex-grade':{
+      var gc=DATA2.ex&&DATA2.ex.cases.filter(function(x){return x.id===UI.exId;})[0];
+      if(!gc||!AI_KEY)break;
+      var gsaved=ST2.ex[gc.id]||{};
+      gc.questions.forEach(function(gq){
+        var gk2=gc.id+'-'+gq.no;
+        if(UI.exGrade[gk2]||UI.exGrading[gk2])return;
+        var gans=(gsaved[gq.no]||{}).ans||[];
+        if(!gans.some(function(a){return a&&a.length>0;}))return;
+        UI.exGrading[gk2]=true;render();
+        gradeWithAI(gc,gq,gans).then(function(res){
+          UI.exGrade[gk2]=res;UI.exGrading[gk2]=false;
+          // 保存
+          if(!ST2.ex[gc.id])ST2.ex[gc.id]={};
+          if(!ST2.ex[gc.id][gq.no])ST2.ex[gc.id][gq.no]={ans:gans,at:Date.now()};
+          ST2.ex[gc.id][gq.no].grade=res;save2();
+          render();
+        }).catch(function(err){
+          UI.exGrading[gk2]=false;
+          toast('採点エラー：'+err);render();
+        });
+      });
+      break;
+    }
+    case 'ex-savekey':{var ki=document.getElementById('aikey-input');if(ki&&ki.value.trim()){saveAiKey(ki.value.trim());toast('APIキーを保存しました');render();}break;}
+    case 'ex-editkey':saveAiKey('');render();break;
     /* 2次テキスト */
     case 'jt-sec':UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;
     case 'jt-back':UI.jtSec=null;$('#main').scrollTop=0;render();break;
