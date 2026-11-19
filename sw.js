@@ -3,7 +3,7 @@
 // ・data/*.json: キャッシュを即返し、裏で最新版を取得して差し替え（次回起動で反映）
 // ・Google Fonts: キャッシュ優先
 // index.html の APP_VER と、この VER は必ず同じ値にする
-var VER = 'v36';
+var VER = 'v37';
 var CACHE = 'shindan1-' + VER;
 var SHELL = [
   './', 'index.html', 'manifest.json',
@@ -13,7 +13,8 @@ var SHELL = [
   'data/q_homu.json', 'data/q_joho.json', 'data/q_chusho.json',
   'data/t_kigyo.json', 'data/t_unei.json', 'data/t_zaimu.json', 'data/t_keizai.json', 'data/t_joho.json', 'data/t_homu.json', 'data/t_chusho.json',
   'data/j4_drill.json',
-  'data/j_common.json', 'data/j1.json', 'data/j2.json', 'data/j3.json', 'data/j4_text.json'
+  'data/j_common.json', 'data/j1.json', 'data/j2.json', 'data/j3.json', 'data/j4_text.json',
+  'data/j_exercise.json'
 ];
 
 self.addEventListener('install', function (e) {

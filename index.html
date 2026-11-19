@@ -419,6 +419,24 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .stage-sw button[aria-pressed="true"]{background:var(--mark);color:var(--on-mark)}
 .stage-sw button+button{border-left:1.5px solid var(--guide)}
 
+/* 記述式演習 */
+.ex-yoken{background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;font-size:14.5px;line-height:1.85;white-space:pre-wrap;text-wrap:pretty}
+.ex-qbox{background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+.ex-qbox h4{margin:0;font-size:15px;font-weight:700;color:var(--drop)}
+.ex-qbox p{margin:0;font-size:15px;line-height:1.75}
+.ex-ta{font:inherit;font-size:15px;line-height:1.75;color:var(--ink);background:var(--paper);border:1.5px solid var(--guide);border-radius:10px;padding:10px 12px;width:100%;min-height:80px;resize:vertical}
+.ex-ta:focus{border-color:var(--drop);outline:none}
+.ex-count{font-size:12px;color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
+.ex-count.over{color:var(--bad);font-weight:700}
+.ex-model{background:var(--good-soft);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.ex-model b{font-size:12px;color:var(--good);letter-spacing:.06em}
+.ex-model p{margin:0;font-size:14.5px;line-height:1.75}
+.ex-model .ex-pts{font-size:12.5px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:4px}
+.ex-model .ex-pts span{background:var(--sheet);border-radius:6px;padding:1px 8px;border:1px solid var(--guide)}
+.ex-card{appearance:none;display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer}
+.ex-card b{font-size:15px;font-weight:700}
+.ex-card span{font-size:12.5px;color:var(--ink-2)}
+
 /* 事例Ⅳドリル */
 .j4-cats{display:flex;flex-direction:column;gap:10px}
 .j4-cat{appearance:none;display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer}
@@ -443,6 +461,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
   </nav>
   <nav class="tabs gut" id="tabs2" aria-label="2次の画面切り替え" hidden>
     <button class="tab" type="button" data-act="tab2" data-tab="jtext"><span class="tab-dot" aria-hidden="true"></span>テキスト</button>
+    <button class="tab" type="button" data-act="tab2" data-tab="jex"><span class="tab-dot" aria-hidden="true"></span>演習</button>
     <button class="tab" type="button" data-act="tab2" data-tab="j4drill"><span class="tab-dot" aria-hidden="true"></span>事例Ⅳドリル</button>
   </nav>
 </div>
@@ -456,7 +475,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v36';   // sw.js の VER と同じ値にする
+var APP_VER='v37';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -593,7 +612,7 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,jtSec:null};
+var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,jtSec:null,exId:null,exShow:false};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 try{var st0=localStorage.getItem(STORE+'-stage');if(st0==='s1'||st0==='s2')UI.stage=st0;}catch(e){}
 
@@ -602,11 +621,17 @@ var DATA2={j4:null,text:{}};
 var ST2={j4:{}};  // {[id]: {att:N, cor:N, last:timestamp}}
 try{var raw2=localStorage.getItem('shindan2');if(raw2)ST2=JSON.parse(raw2);}catch(e){}
 if(!ST2.j4)ST2.j4={};
+if(!ST2.ex)ST2.ex={};  // {[caseId]: {[qNo]: {ans:['...'], at:timestamp}}}
+
 function save2(){try{localStorage.setItem('shindan2',JSON.stringify(ST2));}catch(e){}}
 var J_TEXT_FILES=['j_common','j1','j2','j3','j4_text'];
 function loadJ4(){
   if(DATA2.j4)return Promise.resolve();
   return fetch('data/j4_drill.json').then(function(r){return r.json();}).then(function(j){DATA2.j4=j;});
+}
+function loadJEx(){
+  if(DATA2.ex)return Promise.resolve();
+  return fetch('data/j_exercise.json').then(function(r){return r.json();}).then(function(j){DATA2.ex=j;});
 }
 function loadJText(){
   if(DATA2._textLoaded)return Promise.resolve();
@@ -729,6 +754,9 @@ function render(){
     if(UI.tab2==='jtext'){
       v.innerHTML=DATA2._textLoaded?viewJText():'<p class="fine">読み込んでいます…</p>';
       if(!DATA2._textLoaded)loadJText().then(function(){render();});
+    } else if(UI.tab2==='jex'){
+      v.innerHTML=DATA2.ex?viewJEx():'<p class="fine">読み込んでいます…</p>';
+      if(!DATA2.ex)loadJEx().then(function(){render();});
     } else {
       v.innerHTML=DATA2.j4?viewJ4():'<p class="fine">読み込んでいます…</p>';
       if(!DATA2.j4)loadJ4().then(function(){render();});
@@ -1312,6 +1340,71 @@ function setTab(t){UI.tab=t;UI.setDraft=null;UI.confirmImport=null;try{localStor
 function setStage(s){UI.stage=s;try{localStorage.setItem(STORE+'-stage',s);}catch(e){}$('#main').scrollTop=0;render();}
 
 /* ---------- 2次：事例Ⅳドリル ---------- */
+function viewJEx(){
+  var d=DATA2.ex;if(!d)return '';
+  // 事例選択モード
+  if(!UI.exId){
+    var h='<section class="sec"><div class="sec-h"><span>記述式演習</span></div>'
+      +'<div class="sheet"><p class="lead">本試験と同じ形式で、与件文を読み設問に記述で解答します。提出後に模範解答と採点ポイントが表示されます。</p></div></section>';
+    var byJ={1:[],2:[],3:[]};
+    d.cases.forEach(function(c){if(byJ[c.jirei])byJ[c.jirei].push(c);});
+    var jn={1:'事例Ⅰ 組織・人事',2:'事例Ⅱ マーケティング',3:'事例Ⅲ 生産・技術'};
+    [1,2,3].forEach(function(j){
+      if(!byJ[j].length)return;
+      h+='<section class="sec"><div class="sec-h"><span>'+jn[j]+'</span></div>';
+      byJ[j].forEach(function(c){
+        var done=ST2.ex[c.id]?Object.keys(ST2.ex[c.id]).length:0;
+        h+='<button class="ex-card" type="button" data-act="ex-open" data-id="'+esc(c.id)+'">'
+          +'<b>'+esc(c.title)+'</b>'
+          +'<span>設問'+c.questions.length+'問'+(done?' ・'+done+'問解答済':'')+'</span></button>';
+      });
+      h+='</section>';
+    });
+    return h;
+  }
+  // 演習画面
+  var c=d.cases.filter(function(x){return x.id===UI.exId;})[0];
+  if(!c)return '<p class="err">事例が見つかりません</p>';
+  var saved=ST2.ex[c.id]||{};
+  var h='<section class="sec"><div class="sec-h"><span>'+esc(c.title)+'</span></div>';
+  h+='<button class="linkbtn back" type="button" data-act="ex-back">← 演習一覧に戻る</button>';
+  h+='<div class="ex-yoken">'+esc(c.yoken)+'</div></section>';
+  c.questions.forEach(function(q){
+    var sv=saved[q.no]||{};
+    var ans=sv.ans||[];
+    h+='<section class="sec" id="exq'+q.no+'"><div class="ex-qbox"><h4>第'+q.no+'問（配点'+q.score+'点）</h4><p>'+esc(q.q)+'</p>';
+    for(var k=0;k<q.count;k++){
+      var label=q.labels?q.labels[k]:'解答';
+      var val=ans[k]||'';
+      var len=val.length;
+      h+='<label class="field">'+esc(label)+'（'+q.limit+'字以内）'
+        +'<textarea class="ex-ta" data-ex="'+esc(c.id)+'" data-qno="'+q.no+'" data-k="'+k+'" rows="3" maxlength="'+(q.limit+10)+'">'+esc(val)+'</textarea></label>'
+        +'<div class="ex-count'+(len>q.limit?' over':'')+'">'+len+' / '+q.limit+'字</div>';
+    }
+    if(!UI.exShow){
+      h+='</div></section>';
+    } else {
+      // 模範解答表示
+      h+='<div class="ex-model"><b>模範解答</b>';
+      q.model.forEach(function(m,mi){
+        var lab=q.labels?q.labels[mi]:'';
+        h+='<p>'+(lab?'<b style="color:var(--ink)">'+esc(lab)+'：</b>':'')+esc(m)+'</p>';
+      });
+      h+='<b>採点ポイント</b><div class="ex-pts">';
+      q.points.forEach(function(pt){h+='<span>'+esc(pt)+'</span>';});
+      h+='</div></div></div></section>';
+    }
+  });
+  h+='<section class="sec">';
+  if(!UI.exShow){
+    h+='<button class="btn primary wide" type="button" data-act="ex-submit">解答を提出して模範解答を見る</button>';
+  } else {
+    h+='<button class="btn wide" type="button" data-act="ex-hide">模範解答を閉じる</button>';
+  }
+  h+='</section>';
+  return h;
+}
+
 function viewJText(){
   var order=['j_common','j1','j2','j3','j4_text'];
   var labels={'j_common':'共通','j1':'事例Ⅰ 組織・人事','j2':'事例Ⅱ マーケティング','j3':'事例Ⅲ 生産・技術','j4_text':'事例Ⅳ 財務・会計'};
@@ -1524,6 +1617,11 @@ document.addEventListener('click',function(ev){
     case 'import-ok':if(UI.confirmImport){ST=Object.assign(blankState(),UI.confirmImport.state);ST.settings=Object.assign({},DEF,ST.settings||{});UI.confirmImport=null;saveNow();toast('読み込みました');render();}break;
     case 'import-cancel':UI.confirmImport=null;render();break;
     case 'sw-update':if(UI.swWaiting){UI.swWaiting.postMessage&&UI.swWaiting.postMessage('skip');location.reload();}break;
+    /* 記述式演習 */
+    case 'ex-open':UI.exId=b.dataset.id;UI.exShow=false;$('#main').scrollTop=0;render();break;
+    case 'ex-back':UI.exId=null;UI.exShow=false;$('#main').scrollTop=0;render();break;
+    case 'ex-submit':UI.exShow=true;render();break;
+    case 'ex-hide':UI.exShow=false;render();break;
     /* 2次テキスト */
     case 'jt-sec':UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;
     case 'jt-back':UI.jtSec=null;$('#main').scrollTop=0;render();break;
@@ -1550,7 +1648,19 @@ document.addEventListener('change',function(ev){
   if(t.id==='importFile'){if(t.files&&t.files[0])onImportFile(t.files[0]);t.value='';return;}
   var bd=t.dataset&&t.dataset.bind;if(!bd)return;setBind(bd,t.value);if(t.tagName==='SELECT')render();
 });
-document.addEventListener('input',function(ev){var t=ev.target,bd=t.dataset&&t.dataset.bind;if(bd&&t.tagName!=='SELECT')setBind(bd,t.value);});
+document.addEventListener('input',function(ev){
+  var t=ev.target,bd=t.dataset&&t.dataset.bind;if(bd&&t.tagName!=='SELECT')setBind(bd,t.value);
+  // 記述式演習の解答保存
+  if(t.dataset&&t.dataset.ex){
+    var cid=t.dataset.ex,qno=+t.dataset.qno,k=+t.dataset.k;
+    if(!ST2.ex[cid])ST2.ex[cid]={};
+    if(!ST2.ex[cid][qno])ST2.ex[cid][qno]={ans:[],at:0};
+    ST2.ex[cid][qno].ans[k]=t.value;ST2.ex[cid][qno].at=Date.now();save2();
+    // 文字数カウント更新
+    var cnt=t.parentElement&&t.parentElement.nextElementSibling;
+    if(cnt&&cnt.classList.contains('ex-count')){var lim=+t.getAttribute('maxlength')-10;cnt.textContent=t.value.length+' / '+lim+'字';cnt.classList.toggle('over',t.value.length>lim);}
+  }
+});
 document.addEventListener('focusout',function(){setTimeout(function(){if(UI.dirty)render();},0);});
 document.addEventListener('submit',function(ev){
   var f=ev.target,k=f.dataset&&f.dataset.form;if(!k)return;ev.preventDefault();
