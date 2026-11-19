@@ -1,6 +1,6 @@
 {
-  "name": "診断士トレーナー",
-  "short_name": "診断士",
+  "name": "診断士試験対策アプリ",
+  "short_name": "診断士対策",
   "description": "中小企業診断士 1次試験・2次試験の学習アプリ",
   "lang": "ja",
   "start_url": "./index.html",
