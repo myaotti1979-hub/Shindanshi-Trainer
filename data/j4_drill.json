@@ -2209,130 +2209,837 @@
    "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 255\" role=\"img\" aria-label=\"D社と同業他社の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"56.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">指標</text><text x=\"143.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社前期</text><text x=\"205.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社当期</text><text x=\"268.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">同業他社</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"168\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20.00%</text><text x=\"230\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14.83%</text><text x=\"294\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">18.33%</text><text x=\"330.0\" y=\"38.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">売上高販売費及び</text><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">一般管理費比率</text><text x=\"168\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10.58%</text><text x=\"230\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">11.00%</text><text x=\"294\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">11.00%</text><text x=\"330.0\" y=\"68.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業並み</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"168\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9.42%</text><text x=\"230\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.83%</text><text x=\"294\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">7.33%</text><text x=\"330.0\" y=\"97.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"168\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.12回</text><text x=\"230\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.96回</text><text x=\"294\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.96回</text><text x=\"330.0\" y=\"120.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業並み</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">棚卸資産回転率</text><text x=\"168\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.00回</text><text x=\"230\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.29回</text><text x=\"294\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9.81回</text><text x=\"330.0\" y=\"142.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><rect x=\"1\" y=\"149.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 149.4L359 149.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"164.5\" font-size=\"11\" style=\"fill:currentColor\">流動比率</text><text x=\"168\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">200.00%</text><text x=\"230\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">113.97%</text><text x=\"294\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">150.86%</text><text x=\"330.0\" y=\"164.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 171.6L359 171.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"186.7\" font-size=\"11\" style=\"fill:currentColor\">固定長期適合率</text><text x=\"168\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">64.86%</text><text x=\"230\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">91.21%</text><text x=\"294\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">82.02%</text><text x=\"330.0\" y=\"186.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 193.8L359 193.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"208.9\" font-size=\"11\" style=\"fill:currentColor\">インタレスト・</text><text x=\"6\" y=\"224.1\" font-size=\"11\" style=\"fill:currentColor\">カバレッジ・レシオ</text><text x=\"168\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">25.00倍</text><text x=\"230\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4.30倍</text><text x=\"294\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10.67倍</text><text x=\"330.0\" y=\"216.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><rect x=\"1\" y=\"231.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 231.2L359 231.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"246.3\" font-size=\"11\" style=\"fill:currentColor\">自己資本比率</text><text x=\"168\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">62.00%</text><text x=\"230\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">53.06%</text><text x=\"294\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">40.30%</text><text x=\"330.0\" y=\"246.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M112 0L112 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M174 0L174 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M236 0L236 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"252.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"貸借対照表の構成（D社は固定負債が少なく、流動負債が多い）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">D社当期</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"83.6\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"60.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"41.8\" y=\"75.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,322</text><rect x=\"1.0\" y=\"105.6\" width=\"81.5\" height=\"106.4\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"155.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"41.8\" y=\"170.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,682</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"73.4\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"55.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"125.2\" y=\"70.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,160</text><rect x=\"84.5\" y=\"95.4\" width=\"81.5\" height=\"15.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"107.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">固定負債 250</text><rect x=\"84.5\" y=\"111.2\" width=\"81.5\" height=\"100.8\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"158.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"125.2\" y=\"173.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,594</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">同業他社</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"74.9\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"56.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"234.8\" y=\"71.4\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,584</text><rect x=\"194.0\" y=\"96.9\" width=\"81.5\" height=\"115.1\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"151.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"234.8\" y=\"166.4\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,436</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"49.6\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"43.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"318.2\" y=\"58.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,050</text><rect x=\"277.5\" y=\"71.6\" width=\"81.5\" height=\"63.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"100.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定負債</text><text x=\"318.2\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,350</text><rect x=\"277.5\" y=\"135.4\" width=\"81.5\" height=\"76.6\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"170.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"318.2\" y=\"185.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,620</text></svg>"
   },
   {
-   "id": "j4-mgmt-11",
-   "cat": "mgmt",
-   "lv": "B",
-   "q": "D社と同業他社の財務データを比較し、D社の課題を示す指標（同業他社より劣っている指標）の組み合わせとして、最も適切なものはどれか（指標の値は小数第3位を四捨五入）。\n\n【D社】売上高5,400、売上原価4,100、販管費1,245、総資産4,800（有形固定資産480）、負債合計4,120（単位：百万円）\n【同業他社】売上高営業利益率1.85%、有形固定資産回転率8.50回、自己資本比率22.00%",
-   "ch": [
-    "売上高営業利益率（1.02%）と自己資本比率（14.17%）",
-    "有形固定資産回転率（11.25回）と自己資本比率（14.17%）",
-    "売上高営業利益率（1.02%）と有形固定資産回転率（11.25回）",
-    "有形固定資産回転率（11.25回）と負債比率（605.88%）"
-   ],
-   "a": 0,
-   "ce": [
-    "○　売上高営業利益率はD社1.02%＜同業1.85%、自己資本比率はD社14.17%＜同業22.00%で、どちらも劣っている",
-    "×　有形固定資産回転率はD社11.25回＞同業8.50回で、D社が優れている（課題ではない）",
-    "×　有形固定資産回転率はD社が優れている。売上高営業利益率と自己資本比率がどちらも劣っている",
-    "×　負債比率605.88%は同業（自己資本比率22%から78÷22≒354.55%）より高く劣っているが、有形固定資産回転率はD社が優れている"
-   ],
-   "e": "営業利益＝5,400−4,100−1,245＝55百万円、自己資本＝4,800−4,120＝680百万円。売上高営業利益率＝55÷5,400≒1.02%（同業1.85%：劣る）。有形固定資産回転率＝5,400÷480＝11.25回（同業8.50回：優れる）。自己資本比率＝680÷4,800≒14.17%（同業22.00%：劣る）。負債比率＝4,120÷680≒605.88%（同業は自己資本比率から78÷22≒354.55%：劣る）。指標ごとに同業他社より良いか悪いかを判定する（利益率・回転率・自己資本比率は高いほど良く、負債比率は低いほど良い）。単位や水準の違う指標の差（ポイント）の大きさを比べて「最も劣る指標」を決めることはしない。本試験では、劣っている指標の中から与件の内容（収益性の低さ、負債への依存など）と結びつくものを選ぶ。",
-   "fmt": "mc"
-  },
-  {
-   "id": "j4-mgmt-12",
-   "cat": "mgmt",
-   "lv": "B",
-   "q": "D社の前期と当期のデータから、当期に悪化した指標はどれか（小数第3位を四捨五入）。\n\n【前期】売上高3,200、営業利益128、総資産2,900、有形固定資産1,200、棚卸資産320\n【当期】売上高3,500、営業利益105、総資産3,400、有形固定資産1,800、棚卸資産480（単位：百万円）",
-   "ch": [
-    "売上高営業利益率のみ（4.00%→3.00%）",
-    "有形固定資産回転率のみ（2.67回→1.94回）",
-    "棚卸資産回転率のみ（10.00回→7.29回）",
-    "上記すべてが悪化している"
-   ],
-   "a": 3,
-   "ce": [
-    "×　正しい計算だが、他の指標も悪化している",
-    "×　正しい計算だが、他の指標も悪化している",
-    "×　正しい計算だが、他の指標も悪化している",
-    "○　3指標とも悪化。収益性・効率性がすべて低下している"
-   ],
-   "e": "売上高営業利益率：4.00%→3.00%。有形固定資産回転率：2.67回→1.94回。棚卸資産回転率：10.00回→7.29回。売上は300百万円増加したが、利益率低下、設備投資による固定資産増、在庫膨張による回転率低下がすべて同時に起きている。",
-   "fmt": "mc"
-  },
-  {
-   "id": "j4-mgmt-13",
-   "cat": "mgmt",
-   "lv": "B",
-   "q": "D社の流動比率と当座比率を求めよ（小数第3位を四捨五入）。\n\n流動資産1,850百万円（現金預金320、売掛金680、棚卸資産750、その他100）\n流動負債1,400百万円",
-   "ch": [
-    "流動比率132.14%・当座比率71.43%",
-    "流動比率132.14%・当座比率78.57%",
-    "流動比率125.00%・当座比率71.43%",
-    "流動比率125.00%・当座比率78.57%"
-   ],
-   "a": 0,
-   "ce": [
-    "○　流動比率＝1,850÷1,400≒132.14%。当座資産＝320+680＝1,000。当座比率＝1,000÷1,400≒71.43%",
-    "×　当座資産に「その他」100を含めている（1,100÷1,400≒78.57%）。当座資産は現金預金と売掛金の1,000",
-    "×　流動比率の計算が誤り",
-    "×　両方の計算が誤り"
-   ],
-   "e": "流動比率＝1,850÷1,400≒132.14%。当座資産＝現金預金320＋売掛金680＝1,000百万円。棚卸資産とその他は当座資産に含まない。当座比率＝1,000÷1,400≒71.43%。流動比率は100%超だが当座比率は低く、在庫に依存した流動性。",
-   "fmt": "mc"
-  },
-  {
-   "id": "j4-cvp-11",
+   "id": "d4-cvp-01",
    "cat": "cvp",
-   "lv": "B",
-   "q": "D社の当期のデータから損益分岐点売上高と安全余裕率を求めよ。\n\n【当期】売上高6,400百万円、変動費4,160百万円、固定費1,920百万円",
-   "ch": [
-    "BEP 約5,486百万円・安全余裕率14.29%",
-    "BEP 約5,486百万円・安全余裕率10.00%",
-    "BEP 4,800百万円・安全余裕率25.00%",
-    "BEP 4,500百万円・安全余裕率20.00%"
+   "lv": 1,
+   "min": 10,
+   "src": "R1-第2問",
+   "title": "洋菓子店：損益分岐点・安全余裕率と目標経常利益の売上高",
+   "lead": "D社は、地方都市で洋菓子の製造小売店を3店舗営んでいる。各店舗の厨房で生菓子と焼き菓子を作り、店頭で販売している。\n原材料費・包装資材費・決済手数料は売上高に比例して発生する変動費、人件費・地代家賃・減価償却費・その他の経費は固定費である。\nD社の当期の損益計算書（変動費と固定費に分けたもの）は次のとおりである。",
+   "tables": [
+    {
+     "cap": "損益計算書（当期。変動費と固定費に分けたもの）",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "486,000"
+      ],
+      [
+       "変動費",
+       "184,680"
+      ],
+      [
+       "　原材料費",
+       "145,800"
+      ],
+      [
+       "　包装資材費",
+       "24,300"
+      ],
+      [
+       "　決済手数料",
+       "14,580"
+      ],
+      [
+       "限界利益",
+       "301,320"
+      ],
+      [
+       "固定費",
+       "273,200"
+      ],
+      [
+       "　人件費",
+       "172,800"
+      ],
+      [
+       "　地代家賃",
+       "43,200"
+      ],
+      [
+       "　減価償却費",
+       "19,500"
+      ],
+      [
+       "　その他の経費",
+       "37,700"
+      ],
+      [
+       "営業利益",
+       "28,120"
+      ],
+      [
+       "営業外収益",
+       "1,500"
+      ],
+      [
+       "営業外費用（支払利息）",
+       "4,800"
+      ],
+      [
+       "経常利益",
+       "24,820"
+      ]
+     ],
+     "note": ""
+    }
    ],
-   "a": 0,
-   "ce": [
-    "○　変動費率＝0.65、限界利益率＝0.35。BEP＝1,920÷0.35≒5,485.7。安全余裕率＝(6,400−5,485.7)÷6,400≒14.29%",
-    "×　安全余裕率の計算が誤り",
-    "×　限界利益率を0.4として計算している（1,920÷0.4＝4,800）",
-    "×　計算が異なる"
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の当期の損益分岐点売上高（営業利益が0となる売上高）と安全余裕率を求めよ。損益分岐点売上高は千円未満を四捨五入し、安全余裕率は%で小数第3位を四捨五入して小数第2位まで示すこと。計算の途中では端数を処理しない。",
+     "fields": [
+      {
+       "k": "bep",
+       "type": "num",
+       "label": "損益分岐点売上高",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 440645
+      },
+      {
+       "k": "saf",
+       "type": "num",
+       "label": "安全余裕率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 9.33
+      }
+     ],
+     "steps": [
+      "変動費率＝変動費184,680÷売上高486,000＝0.38（38%）",
+      "限界利益率＝1−0.38＝0.62（限界利益301,320÷売上高486,000でも同じ）",
+      "損益分岐点売上高＝固定費273,200÷0.62＝440,645.16…≒440,645千円",
+      "安全余裕率＝（売上高486,000−440,645.16…）÷486,000×100＝9.332…≒9.33%",
+      "検算：安全余裕率＝営業利益28,120÷限界利益301,320×100≒9.33%"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "D社は次期に4店舗目を出店する計画である。出店により固定費が32,400千円増え、出店の資金を借り入れるため、支払利息は7,200千円になる見込みである。変動費率と営業外収益は当期と同じとし、営業外費用は支払利息だけとする。\n次期に経常利益40,000千円を達成するのに必要な売上高を求めよ（千円未満を四捨五入。計算の途中では端数を処理しない）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "tgt",
+       "type": "num",
+       "label": "必要な売上高",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 566613
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "次期の固定費＝273,200＋32,400＝305,600千円",
+      "営業外の損益（純額）＝支払利息7,200−営業外収益1,500＝5,700千円（経常利益を出すには、これも限界利益で賄う）",
+      "必要な限界利益＝固定費305,600＋5,700＋目標の経常利益40,000＝351,300千円",
+      "必要な売上高＝351,300÷限界利益率0.62＝566,612.90…≒566,613千円"
+     ]
+    }
    ],
-   "e": "変動費率＝4,160÷6,400＝0.65。限界利益率＝1−0.65＝0.35。BEP＝1,920÷0.35≒5,485.7百万円（約5,486百万円）。安全余裕率＝(6,400−5,485.7)÷6,400≒14.29%。別解：営業利益320÷限界利益2,240≒14.29%。BEPを四捨五入した5,486で計算すると14.28%になるので、丸める前の値を使う。",
-   "fmt": "mc"
+   "ce": {
+    "bep": "よくある誤り：718,947千円は、固定費を変動費率（0.38）で割った値。割るのは限界利益率（0.62）。445,968千円は、営業外の損益まで含めた経常利益ベースの値で、設問1は「営業利益が0となる売上高」を問うている。",
+    "saf": "よくある誤り：90.67%は損益分岐点比率（損益分岐点売上高÷売上高）で、安全余裕率は100%からこれを引いた値。10.29%は、分母を損益分岐点売上高にした値で、安全余裕率の分母は実際の売上高。",
+    "tgt": "よくある誤り：557,419千円は、支払利息と営業外収益を入れていない（目標は経常利益なので、営業外の損益の純額5,700千円も賄う）。562,742千円は、支払利息を当期の4,800千円のままにした。514,355千円は、出店で増える固定費を入れていない。571,452千円は、営業外収益を差し引かずに足した。"
+   },
+   "e": "【考え方】売上高から変動費を引いた限界利益で固定費を回収し、残りが営業利益になる。限界利益率（0.62）は売上高1円当たりの限界利益なので、回収したい額を限界利益率で割れば、必要な売上高が出る。\n【設問1】損益分岐点売上高＝固定費÷限界利益率＝440,645千円。安全余裕率（9.33%）は、売上高があと何%減ると営業利益が0になるかを示す。営業利益÷限界利益でも同じ値になるので、検算に使える。\n【設問2】目標が経常利益なので、支払利息から営業外収益を引いた純額（5,700千円）も、固定費と同じく限界利益で賄う額に入れる。固定費（出店で増える分）と支払利息（借入で増える分）は、次期の値に置き換える。\n【本試験での注意】営業利益と経常利益のどちらで考えるかは、問題文の言葉（「営業利益が0」「経常利益」など）で決まる。端数は指示どおりに処理し、途中で丸めない。計算過程は、何の数値かが分かるように式に名前を添えて書く。\n【図】上は当期の損益分岐点図（金額は百万円に直して描いた）。売上高線と総費用線が交わる点が損益分岐点で、当期の売上高との差が安全余裕。下は、設問2で限界利益で賄う額の内訳で、これを限界利益率0.62で割ると必要な売上高566,613千円になる。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">損益分岐点図（当期。単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"損益分岐点図（当期。百万円）\" font-size=\"12\"><path d=\"M266.2 18L266.2 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M289.5 18L289.5 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 210.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 210.0L350.0 210.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"224.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"45.0\" y=\"24\" font-size=\"11\" style=\"fill:currentColor\">金額</text><text x=\"348.0\" y=\"242.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上高</text><text x=\"142.7\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"245.3\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">400</text><text x=\"36.0\" y=\"160.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"36.0\" y=\"106.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">400</text><text x=\"36.0\" y=\"52.9\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">600</text><path d=\"M40.0 210.0 L348.0 48.9\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 136.6 L348.0 75.4\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 136.6 L348.0 136.6\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"266.2\" cy=\"91.7\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"289.5\" cy=\"79.5\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"289.5\" cy=\"87.0\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"264.7\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">損益分岐点 440.6</text><text x=\"291.0\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">当期 486.0</text><text x=\"343.9\" y=\"41.9\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">売上高線</text><text x=\"343.9\" y=\"92.9\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">総費用線</text><text x=\"44.1\" y=\"150.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">固定費 273.2</text><text x=\"347.0\" y=\"73.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">利益</text><text x=\"194.0\" y=\"115.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">損失</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問2：限界利益で賄う額（単位：千円）。これを限界利益率0.62で割る</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"設問2：限界利益で賄う額（千円）\" font-size=\"12\"><rect x=\"136.0\" y=\"9.0\" width=\"122.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"128\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期の固定費</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">273,200</text><rect x=\"258.9\" y=\"35.0\" width=\"14.6\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">出店で増える固定費</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋32,400</text><path d=\"M258.9 25.0L258.9 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"273.4\" y=\"61.0\" width=\"2.6\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息−営業外収益</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋5,700</text><path d=\"M273.4 51.0L273.4 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"276.0\" y=\"87.0\" width=\"18.0\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">目標の経常利益</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋40,000</text><path d=\"M276.0 77.0L276.0 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"136.0\" y=\"113.0\" width=\"158.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"128\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">必要な限界利益</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">351,300</text><path d=\"M294.0 103.0L294.0 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
   },
   {
-   "id": "j4-cvp-12",
+   "id": "d4-cvp-02",
    "cat": "cvp",
-   "lv": "C",
-   "q": "D社は製品A・Bを製造している。固定費は5,000千円（うちB個別固定費800千円。製品Bの販売を中止すれば発生しなくなる）。製品Bの販売を中止し、製品Aの販売量を800個増やせる場合、営業利益はどう変化するか。\n\n製品A：単価5,000円、変動費3,000円、現在2,000個\n製品B：単価8,000円、変動費5,600円、現在1,500個",
-   "ch": [
-    "営業利益1,200千円減少（中止すべきでない）",
-    "営業利益1,200千円増加（中止すべき）",
-    "営業利益2,000千円減少（中止すべきでない）",
-    "営業利益400千円減少（中止すべきでない）"
+   "lv": 2,
+   "min": 18,
+   "src": "R5-第2問",
+   "title": "貸切バス：2期の比較で費用を分解し、損益分岐点比率の変化を見る",
+   "lead": "D社は、地方都市で貸切バス事業を営んでいる。観光ツアーや、企業・学校の送迎などの運行を請け負っている。\n当期は、大口の取引先である旅行会社の団体ツアーが減り、売上高が前期より10%減少した。また、運転手を確保するため、当期の期首に運転手の基本給を引き上げた。これにより、当期の固定費は前期より30百万円増えている。この増加分を除けば、固定費と変動費率は前期と当期で変わらないものとする。\nD社の前期と当期の損益計算書は次のとおりである。",
+   "tables": [
+    {
+     "cap": "損益計算書",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "1,600",
+       "1,440"
+      ],
+      [
+       "売上原価",
+       "1,180",
+       "1,162"
+      ],
+      [
+       "売上総利益",
+       "420",
+       "278"
+      ],
+      [
+       "販売費及び一般管理費",
+       "232",
+       "222"
+      ],
+      [
+       "営業利益",
+       "188",
+       "56"
+      ]
+     ],
+     "note": "売上原価には、運転手の人件費、燃料費、高速道路の通行料、車両の減価償却費などが含まれる。販売費及び一般管理費には、旅行会社に支払う手数料などが含まれる。"
+    }
    ],
-   "a": 0,
-   "ce": [
-    "○　Bの限界利益3,600千円を失い、Aの限界利益が1,600千円増え、Bの個別固定費800千円がなくなる。差引＝−3,600＋1,600＋800＝−1,200千円",
-    "×　利益は減少する",
-    "×　個別固定費の消滅を考慮していない",
-    "×　計算が異なる"
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "前期と当期の損益計算書を用いて、D社の変動費率と当期の固定費を求めよ。また、当期の損益分岐点売上高と、損益分岐点比率が前期から何ポイント上昇したかを求めよ。\n変動費率と損益分岐点比率の上昇幅は、%（ポイント）で小数第3位を四捨五入して小数第2位まで、金額は百万円未満を四捨五入して示すこと。計算の途中では端数を処理しない。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "v",
+       "type": "num",
+       "label": "変動費率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 36.25
+      },
+      {
+       "k": "fc",
+       "type": "num",
+       "label": "当期の固定費",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 862
+      },
+      {
+       "k": "bep",
+       "type": "num",
+       "label": "当期の損益分岐点売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 1352
+      },
+      {
+       "k": "chg",
+       "type": "num",
+       "label": "損益分岐点比率の上昇幅",
+       "unit": "ポイント",
+       "dp": 2,
+       "ans": 12.33
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "総費用（売上原価＋販管費）：前期1,180＋232＝1,412、当期1,162＋222＝1,384",
+      "当期の総費用から固定費の増加30を除く：1,384−30＝1,354（前期と同じ費用構造に直す）",
+      "変動費率＝総費用の差（1,412−1,354）÷売上高の差（1,600−1,440）＝58÷160＝0.3625（36.25%）",
+      "前期の固定費＝1,412−1,600×0.3625＝1,412−580＝832、当期の固定費＝832＋30＝862百万円",
+      "当期の損益分岐点売上高＝862÷（1−0.3625）＝862÷0.6375＝1,352.15…≒1,352百万円",
+      "前期の損益分岐点売上高＝832÷0.6375＝1,305.09…",
+      "損益分岐点比率：前期1,305.09…÷1,600×100＝81.568…%、当期1,352.15…÷1,440×100＝93.899…%",
+      "上昇幅＝93.899…−81.568…＝12.331…≒12.33ポイント"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "損益分岐点比率が上昇した要因を、設問1の計算結果を踏まえて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "団体ツアーの減少で売上高が10%減ったことが主因で、基本給の引き上げで固定費が増え、損益分岐点売上高も上がったため。",
+       "points": [
+        "主因は団体ツアーの減少による売上高の10%減少",
+        "基本給の引き上げによる固定費の増加",
+        "損益分岐点売上高の上昇"
+       ]
+      }
+     ]
+    }
    ],
-   "e": "現状の営業利益＝Aの限界利益4,000＋Bの限界利益3,600−固定費5,000＝2,600千円。B中止後＝Aの限界利益5,600−固定費4,200＝1,400千円。差額＝−1,200千円（＝−Bの限界利益3,600＋Aの増分1,600＋Bの個別固定費800）。Bの貢献利益（3,600−800＝2,800千円）がAの増分1,600千円より大きいので、中止すべきでない。",
-   "fmt": "mc"
+   "ce": {
+    "v": "よくある誤り：17.50%は、当期の固定費の増加30百万円を除かずに総費用の差をとった値（総費用の差28には固定費の増加が含まれ、変動費の差が小さく見える）。80.69%は、売上原価をすべて変動費とみなした値（売上原価には運転手の基本給や車両の減価償却費などの固定費が含まれる）。",
+    "fc": "よくある誤り：832百万円は前期の固定費（当期は基本給の引き上げで30百万円増えている）。1,132百万円は、固定費の増加を除かずに求めた変動費率17.50%から出した値。",
+    "bep": "よくある誤り：1,305百万円は前期の固定費832で計算した値。1,372百万円は、固定費の増加を除かずに求めた変動費率と固定費で計算した値。1,150百万円は、売上原価を変動費、販管費を固定費とみなした値。",
+    "chg": "よくある誤り：9.06ポイントは、当期の損益分岐点売上高にも前期の固定費を使った値（売上高の減少の影響だけで、固定費の増加の影響3.27ポイントが抜けている）。9.53ポイントは、固定費の増加を除かずに求めた変動費率と固定費で計算した値。"
+   },
+   "e": "【費用の分解】固定費と変動費率が2期で同じなら、総費用の差は「売上高の差×変動費率」だけで生じる。ただしD社は当期に固定費が30百万円増えているので、当期の総費用からその分を除いてから差をとる（除かないと変動費率は17.50%になり、誤る）。\n【損益分岐点】当期の損益分岐点売上高は1,352百万円（前期1,305.1百万円）。損益分岐点比率は81.57%から93.90%へ12.33ポイント上がり、安全余裕率は6.10%しか残っていない。\n【要因の大きさ】上昇幅12.33ポイントのうち、売上高の減少による分が9.06ポイント（前期の損益分岐点売上高÷当期の売上高−前期の比率）、固定費の増加による分が3.27ポイント（損益分岐点売上高の増加47.05…÷当期の売上高）。先に固定費の増加を見る分け方では2.94ポイントと9.39ポイントになるが、どちらでも主因は売上高の減少である。\n【本試験での注意】2期の比較で費用を分けるときは、問題文の前提（固定費と変動費率が変わらない、変わるならいくらか）を確かめる。売上原価＝変動費、販管費＝固定費とみなすのは、問題文にその指示があるときだけ。比率の差は、途中で丸めずに計算する。\n【図】上の表は、2期の差から変動費率を求める手順（網掛けの行の差を使う）。中は前期と当期の損益分岐点。下は、安全余裕率の低下（＝損益分岐点比率の上昇）を、売上高の減少と固定費の増加に分けたもの。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">2期の差から変動費率を求める（58÷160＝36.25%）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 188\" role=\"img\" aria-label=\"2期の差から変動費率を求める\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">百万円</text><text x=\"183.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前期</text><text x=\"249.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"321.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">差</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高</text><text x=\"210\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,600</text><text x=\"276\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,440</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">−160</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">総費用</text><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">（売上原価＋販管費）</text><text x=\"210\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,412</text><text x=\"276\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,384</text><text x=\"354\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">−28</text><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">うち基本給の引き上げ</text><text x=\"6\" y=\"117.1\" font-size=\"11.5\" style=\"fill:currentColor\">（固定費）</text><text x=\"210\" y=\"109.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"276\" y=\"109.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">30</text><text x=\"354\" y=\"109.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">30</text><rect x=\"1\" y=\"124.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 124.4L359 124.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"140.0\" font-size=\"11.5\" style=\"fill:currentColor\">引き上げ分を除いた総費用</text><text x=\"210\" y=\"140.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,412</text><text x=\"276\" y=\"140.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,354</text><text x=\"354\" y=\"140.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">−58</text><path d=\"M1 147.3L359 147.3\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"162.9\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">変動費率＝総費用の</text><text x=\"6\" y=\"178.8\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">差÷売上高の差</text><text x=\"354\" y=\"170.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">36.25%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 185.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M216 0L216 185.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M282 0L282 185.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"185.1\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">前期と当期の損益分岐点</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 117\" role=\"img\" aria-label=\"前期と当期の損益分岐点（百万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">百万円</text><text x=\"202.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前期</text><text x=\"307.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">固定費</text><text x=\"249\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">832</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">862</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">損益分岐点売上高</text><text x=\"249\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,305.1</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,352.2</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">損益分岐点比率</text><text x=\"249\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">81.57%</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">93.90%</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">安全余裕率</text><text x=\"249\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">18.43%</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.10%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M255 0L255 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"114.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">安全余裕率の低下の内訳（損益分岐点比率の上昇と同じ幅。単位：%）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 112\" role=\"img\" aria-label=\"安全余裕率の低下の内訳（％。損益分岐点比率の上昇と同じ幅）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"144.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">前期の安全余裕率</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">18.43%</text><rect x=\"223.2\" y=\"35.0\" width=\"70.8\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上高の10%減少</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－9.06%</text><path d=\"M294.0 25.0L294.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"197.7\" y=\"61.0\" width=\"25.5\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">固定費の増加（基本給）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－3.27%</text><path d=\"M223.2 51.0L223.2 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"87.0\" width=\"47.7\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"99.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期の安全余裕率</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">6.10%</text><path d=\"M197.7 77.0L197.7 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
   },
   {
-   "id": "j4-cvp-13",
+   "id": "d4-cvp-03",
    "cat": "cvp",
-   "lv": "C",
-   "q": "D社の変動費率は60%、固定費は3,200千円、税率は30%である。税引後営業利益1,400千円を達成するために必要な売上高はいくらか。",
-   "ch": [
-    "11,500千円",
-    "12,000千円",
-    "13,000千円",
-    "14,000千円"
+   "lv": 2,
+   "min": 15,
+   "src": "R1-第2問・R6-第2問",
+   "title": "日帰り温浴施設：値下げと燃料費の上昇の感度分析",
+   "lead": "D社は、郊外で日帰りの温浴施設を1か所営んでいる。露天風呂・サウナ・食事処を備え、近隣の住民を中心に年間を通じて利用されている。\n近隣に競合する施設が開業する予定であり、D社は平日の入館料の引き下げを検討している。また、給湯に使う燃料の価格が上がっている。\nD社の当期の損益計算書（変動費と固定費に分けたもの）は次のとおりである。",
+   "tables": [
+    {
+     "cap": "損益計算書（当期。変動費と固定費に分けたもの）",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "216,000"
+      ],
+      [
+       "変動費",
+       "54,000"
+      ],
+      [
+       "限界利益",
+       "162,000"
+      ],
+      [
+       "固定費",
+       "150,000"
+      ],
+      [
+       "営業利益",
+       "12,000"
+      ]
+     ],
+     "note": "当期の年間の入館者数は180,000人である。売上高は入館料と館内の飲食・物販の合計、変動費はタオル・アメニティ、飲食の材料、水道光熱費のうち入館者数に比例する部分である。"
+    }
    ],
-   "a": 2,
-   "ce": [
-    "×　税引前目標利益への換算が必要（(3,200＋1,400)÷0.4＝11,500としている）",
-    "×　計算が異なる",
-    "○　税引前目標利益＝1,400÷0.7＝2,000千円。目標売上高＝(3,200＋2,000)÷0.4＝13,000千円",
-    "×　計算が異なる"
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "平日の入館料を引き下げると、入館者1人当たりの売上高（客単価）は当期より10%下がると見込まれる。1人当たりの変動費と固定費は当期と同じとする。\n(1) 当期と同じ営業利益を確保するには、年間の入館者数を何人以上にする必要があるか。1人未満の端数は切り上げること。\n(2) 調査によると、値下げにより年間の入館者数は当期より12%増えると見込まれる。このとき、営業利益は当期と比べて何千円増減するか。減少する場合は数値の前に−を付けること。",
+     "fields": [
+      {
+       "k": "n",
+       "type": "num",
+       "label": "(1) 必要な年間の入館者数",
+       "unit": "人",
+       "dp": 0,
+       "ans": 207693
+      },
+      {
+       "k": "d",
+       "type": "num",
+       "label": "(2) 営業利益の増減",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -4752
+      }
+     ],
+     "steps": [
+      "客単価＝売上高216,000千円÷180,000人＝1,200円、1人当たりの変動費＝54,000千円÷180,000人＝300円",
+      "値下げ後の客単価＝1,200×（1−0.1）＝1,080円、1人当たりの限界利益＝1,080−300＝780円",
+      "(1) 必要な限界利益＝固定費150,000千円＋営業利益12,000千円＝162,000千円",
+      "(1) 必要な入館者数＝162,000,000円÷780円＝207,692.3…→207,693人（切り上げ。当期より15.39%多い）",
+      "(2) 入館者数＝180,000×1.12＝201,600人、限界利益＝201,600人×780円＝157,248千円",
+      "(2) 営業利益＝157,248−固定費150,000＝7,248千円、当期12,000千円との差＝−4,752千円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1とは別に、燃料の価格の上昇により、次期は1人当たりの変動費が60円、固定費が3,000千円増えると見込まれる。年間の入館者数が当期と同じとき、当期と同じ営業利益を確保するには、客単価を何円以上にする必要があるか。円未満の端数は切り上げること。",
+     "fields": [
+      {
+       "k": "p",
+       "type": "num",
+       "label": "必要な客単価",
+       "unit": "円",
+       "dp": 0,
+       "ans": 1277
+      }
+     ],
+     "steps": [
+      "次期の1人当たりの変動費＝300＋60＝360円、固定費＝150,000＋3,000＝153,000千円",
+      "必要な1人当たりの限界利益＝（固定費153,000千円＋営業利益12,000千円）÷180,000人＝916.66…円",
+      "必要な客単価＝360＋916.66…＝1,276.66…→1,277円（切り上げ。当期より6.42%の値上げ）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "設問1・2の結果を踏まえ、D社の価格の方針について60字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "値下げは入館者数が12%増えても営業利益が4,752千円減るため見送り、燃料費の上昇分は客単価を約6%上げて吸収する。",
+       "points": [
+        "値下げは見込みの入館者数の増加（12%）では必要な増加（約15%）に届かず、営業利益が減る",
+        "値下げを見送る",
+        "燃料費の上昇分は客単価の引き上げ（約6%、1,277円以上）で吸収する"
+       ]
+      }
+     ]
+    }
    ],
-   "e": "税引後目標利益1,400千円→税引前目標利益＝1,400÷(1−0.30)＝2,000千円。限界利益率＝1−0.60＝0.40。目標売上高＝(固定費＋税引前目標利益)÷限界利益率＝(3,200＋2,000)÷0.40＝13,000千円。税引後の目標利益が与えられた場合は、まず税引前に戻す。",
-   "fmt": "mc"
+   "ce": {
+    "n": "よくある誤り：200,000人は、1人当たりの限界利益を10%下げて計算した値（値下げで減るのは客単価の10%＝120円で、限界利益は900円から780円に下がる。限界利益率で見ると75%から約72%への低下）。150,000人は、変動費を引かずに客単価で割った値。207,692人（四捨五入・切り捨て）では、営業利益が当期にわずかに届かない。",
+    "d": "よくある誤り：1,728千円は売上高の増減で、変動費の増加を差し引いていない。1,296千円は、1人当たりの限界利益を10%下げて計算した値（値下げ額120円は、そのまま限界利益を減らす）。",
+    "p": "よくある誤り：1,260円は、固定費の増加3,000千円を入れていない。1,217円は、1人当たりの変動費の増加60円を入れていない。1,210円は、営業利益が0になる客単価で、当期の営業利益12,000千円を確保していない。"
+   },
+   "e": "【考え方】1人当たりの限界利益（客単価−1人当たりの変動費）×入館者数−固定費＝営業利益。値下げは客単価を下げるが変動費は変わらないので、値下げ額はそのまま1人当たりの限界利益を減らす（900円→780円で13.3%減る）。\n【設問1】営業利益を保つには、限界利益の合計162,000千円を確保する入館者数が必要で、207,693人（当期より約15.4%増）。見込みの12%増では届かず、営業利益は4,752千円減る。値下げ率（10%）より大きな客数の増加が要る点に注意。\n【設問2】変動費の増加（1人60円）と固定費の増加（3,000千円）の両方を、客単価の引き上げで賄う。必要な客単価は1,277円で、当期より約6.4%の値上げになる。\n【感度】営業利益に効く順は、客単価（1%の変化で営業利益が18.0%動く）、入館者数（13.5%）、固定費（12.5%）、1人当たり変動費（4.5%）。営業利益が売上高に比べて小さい（固定費の負担が重い）施設では、価格のわずかな変化が利益を大きく動かす。\n【本試験での注意】「何人以上」「何円以上」は、四捨五入でなく切り上げ（指示に従う）。値下げの効果は、売上高でなく限界利益で比べる。助言は計算結果（必要な増加率と見込みの差、必要な値上げ幅）を根拠に書く。\n【図】上は、各要因が1%不利に動いたときに営業利益が何%減るか（当期）。下は、当期と2つの見込みの損益の比較。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">各要因が1%不利に動いたとき、営業利益は何%減るか（当期）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"各要因が1%不利に動いたときの営業利益の減少率\" font-size=\"12\"><path d=\"M40 178L350 178\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 178L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">営業利益の減少率（％）</text><rect x=\"52.4\" y=\"31.6\" width=\"52.7\" height=\"146.4\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"78.8\" y=\"27.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">18.0%</text><text x=\"78.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">客単価</text><rect x=\"129.9\" y=\"68.2\" width=\"52.7\" height=\"109.8\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"156.2\" y=\"64.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">13.5%</text><text x=\"156.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">入館者数</text><rect x=\"207.4\" y=\"76.3\" width=\"52.7\" height=\"101.7\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"233.8\" y=\"72.3\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">12.5%</text><text x=\"233.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">固定費</text><rect x=\"284.9\" y=\"141.4\" width=\"52.7\" height=\"36.6\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"311.2\" y=\"137.4\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">4.5%</text><text x=\"311.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1人当たり</text><text x=\"311.2\" y=\"203\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">変動費</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当期と2つの見込みの比較（値下げ後は入館者数12%増、燃料費の上昇後は客単価1,277円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 173\" role=\"img\" aria-label=\"当期と2つの見込みの比較\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"52.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"142.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期</text><text x=\"225.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">値下げ後</text><text x=\"315.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">燃料費の上昇後</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">入館者数（人）</text><text x=\"174\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">180,000</text><text x=\"264\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">201,600</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">180,000</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">客単価（円）</text><text x=\"174\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,200</text><text x=\"264\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,080</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,277</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">1人当たり変動費</text><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">（円）</text><text x=\"174\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">300</text><text x=\"264\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">300</text><text x=\"354\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">360</text><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">限界利益（千円）</text><text x=\"174\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">162,000</text><text x=\"264\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">157,248</text><text x=\"354\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">165,060</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">固定費（千円）</text><text x=\"174\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">150,000</text><text x=\"264\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">150,000</text><text x=\"354\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">153,000</text><rect x=\"1\" y=\"149.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 149.4L359 149.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"164.5\" font-size=\"11\" style=\"fill:currentColor\">営業利益（千円）</text><text x=\"174\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12,000</text><text x=\"264\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">7,248</text><text x=\"354\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12,060</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M104 0L104 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M180 0L180 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M270 0L270 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"170.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-cvp-04",
+   "cat": "cvp",
+   "lv": 2,
+   "min": 18,
+   "src": "R1-第2問",
+   "title": "自動車整備：3事業のセールスミックスと損益分岐点",
+   "lead": "D社は、地方都市で自動車の整備工場と中古車の展示場を営んでいる。事業は、車検・整備、板金・塗装、中古車販売の3つである。車検・整備と板金・塗装の変動費は部品代と外注費で、中古車販売の変動費は仕入れた車両の原価が大半を占める。\n社長は、売上高を伸ばすため、中古車の展示場を広げて中古車販売を拡大することを考えている。\nD社の当期の事業別の損益は次のとおりである。",
+   "tables": [
+    {
+     "cap": "事業別の損益（当期）",
+     "unit": "百万円",
+     "head": [
+      "事業",
+      "売上高",
+      "変動費",
+      "固定費"
+     ],
+     "rows": [
+      [
+       "車検・整備",
+       "420",
+       "168",
+       "150"
+      ],
+      [
+       "板金・塗装",
+       "180",
+       "63",
+       "60"
+      ],
+      [
+       "中古車販売",
+       "600",
+       "516",
+       "48"
+      ],
+      [
+       "共通固定費",
+       "－",
+       "－",
+       "150"
+      ],
+      [
+       "合計",
+       "1,200",
+       "747",
+       "408"
+      ]
+     ],
+     "note": "事業ごとの固定費は、その事業のためだけに発生する固定費である。共通固定費は本社の管理部門の費用で、各事業には配賦していない。当期の全社の営業利益は45百万円である。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "売上高の構成比（事業ごとの売上高の割合）が当期と変わらないものとして、D社の全社の変動費率、全社の損益分岐点売上高、および損益分岐点売上高のときの車検・整備事業の売上高を求めよ。変動費率は%で小数第3位を四捨五入して小数第2位まで、金額は百万円未満を四捨五入して示すこと。計算の途中では端数を処理しない。",
+     "fields": [
+      {
+       "k": "v",
+       "type": "num",
+       "label": "全社の変動費率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 62.25
+      },
+      {
+       "k": "bep",
+       "type": "num",
+       "label": "全社の損益分岐点売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 1081
+      },
+      {
+       "k": "seg",
+       "type": "num",
+       "label": "そのときの車検・整備事業の売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 378
+      }
+     ],
+     "steps": [
+      "全社の変動費率＝変動費の合計747÷売上高の合計1,200＝0.6225（62.25%）、限界利益率＝0.3775",
+      "参考：事業ごとの変動費率は、車検・整備40.00%、板金・塗装35.00%、中古車販売86.00%",
+      "固定費の合計＝事業ごとの固定費（150＋60＋48）＋共通固定費150＝408",
+      "全社の損益分岐点売上高＝408÷0.3775＝1,080.79…≒1,081百万円",
+      "車検・整備の売上高＝1,080.79…×構成比（420÷1,200＝0.35）＝378.27…≒378百万円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "次期は、中古車の展示場を広げて、中古車販売の売上高を当期より300百万円増やす計画である。展示場の賃借料と営業担当者の人件費で、固定費が45百万円増える。中古車販売の変動費率と、ほかの2事業の売上高・変動費率・固定費は当期と同じとする。\n(1) 次期の計画のもとで、売上高の構成比が計画と変わらないものとして、全社の損益分岐点売上高を求めよ（百万円未満を四捨五入。計算の途中では端数を処理しない）。計算過程も示すこと。\n(2) この計画の財務的な問題点を、損益分岐点と営業利益の変化を踏まえて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "bep2",
+       "type": "num",
+       "label": "(1) 次期の全社の損益分岐点売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 1373
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(1) 計算過程"
+      },
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "(2) 解答",
+       "limit": 60,
+       "model": "限界利益率の低い中古車販売の比率が高まり固定費も増えるため、売上高は増えるが損益分岐点が上がり営業利益は減る。",
+       "points": [
+        "限界利益率の低い中古車販売の構成比が高まる（全社の限界利益率が37.75%→33.00%）",
+        "固定費の増加",
+        "損益分岐点売上高が上がり（1,081→1,373百万円）、営業利益は減る（45→42百万円）"
+       ]
+      }
+     ],
+     "steps": [
+      "次期の売上高＝1,200＋300＝1,500、変動費＝747＋300×0.86＝1,005",
+      "全社の変動費率＝1,005÷1,500＝0.67、限界利益率＝0.33",
+      "次期の固定費＝408＋45＝453",
+      "次期の損益分岐点売上高＝453÷0.33＝1,372.72…≒1,373百万円",
+      "参考：次期の営業利益＝1,500×0.33−453＝42（当期45）、安全余裕率は8.48%（当期9.93%）"
+     ]
+    }
+   ],
+   "ce": {
+    "v": "よくある誤り：53.67%は、3事業の変動費率を単純に平均した値。全社の変動費率は、変動費の合計÷売上高の合計（売上高の構成比で加重した平均）で、売上高の大きい中古車販売の影響が大きく出る。",
+    "bep": "よくある誤り：683百万円は、共通固定費150百万円を入れていない（全社の損益分岐点では、共通固定費も回収する）。881百万円は、変動費率の単純平均で計算した値。",
+    "seg": "よくある誤り：250百万円は、車検・整備の固定費だけを回収する売上高（事業単独の損益分岐点）。問われているのは、全社の損益分岐点売上高を売上高の構成比（35.0%）で分けた額。601百万円は、限界利益の構成比で分けた値。",
+    "bep2": "よくある誤り：1,236百万円は、固定費の増加45百万円を入れていない。1,200百万円は、当期の全社の限界利益率37.75%のまま計算した値（構成比が変わると、全社の限界利益率も変わる）。"
+   },
+   "e": "【考え方】複数の事業があるときの全社の損益分岐点は、売上高の構成比が一定という前提で、全社の限界利益率（限界利益の合計÷売上高の合計）を使って求める。全社の限界利益率は、事業ごとの限界利益率を売上高の構成比で加重した平均になる。\n【設問1】全社の変動費率は62.25%（限界利益率37.75%）。固定費は事業ごとの固定費と共通固定費の合計408百万円で、損益分岐点売上高は1,081百万円。そのときの車検・整備の売上高は、構成比35.0%を掛けて378百万円。\n【設問2】限界利益率が14.00%と低い中古車販売の構成比が50.0%から60.0%に上がり、全社の限界利益率は33.00%に下がる。固定費も45百万円増えるので、損益分岐点売上高は1,373百万円に上がる。売上高は300百万円増えるのに、営業利益は45百万円から42百万円に減り、安全余裕率も9.93%から8.48%に下がる。\n【本試験での注意】全社の損益分岐点売上高は、売上高の構成比が変わると変わる。利益計画に使うときは、この前提を必ず意識する（本試験でも、この問題点を短く書かせる設問がある）。売上高を伸ばす計画は、限界利益の増加（ここでは300×0.14＝42）が固定費の増加（45）を上回るかで判断する。\n【図】上は、事業ごとの限界利益率（棒）と全社の限界利益率（点線）。中古車販売は全社の平均を大きく下回る。下は、当期と次期の計画の比較（網掛けは変化の要点）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">事業ごとの限界利益率（棒）と全社の限界利益率（点線）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"事業ごとの限界利益率と全社の限界利益率\" font-size=\"12\"><path d=\"M40 168L350 168\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 168L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">限界利益率（％）</text><rect x=\"56.5\" y=\"52.5\" width=\"70.3\" height=\"115.5\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"91.7\" y=\"48.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">60.00%</text><text x=\"91.7\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">車検・整備</text><rect x=\"159.9\" y=\"42.9\" width=\"70.3\" height=\"125.1\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"195.0\" y=\"38.9\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">65.00%</text><text x=\"195.0\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">板金・塗装</text><rect x=\"263.2\" y=\"141.1\" width=\"70.3\" height=\"26.9\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"298.3\" y=\"137.1\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">14.00%</text><text x=\"298.3\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">中古車販売</text><path d=\"M40 95.3L350 95.3\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-dasharray=\"5 3\" fill=\"none\"/><text x=\"350\" y=\"90.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">全社（当期）37.75%</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当期と次期の計画の比較</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 186\" role=\"img\" aria-label=\"当期と次期の計画の比較（百万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">百万円</text><text x=\"202.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"307.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">次期の計画</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高</text><text x=\"249\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,200</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,500</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">中古車販売の構成比</text><text x=\"249\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">50.0%</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">60.0%</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">全社の限界利益率</text><text x=\"249\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">37.75%</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">33.00%</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">固定費</text><text x=\"249\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">408</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">453</text><rect x=\"1\" y=\"115.5\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">損益分岐点売上高</text><text x=\"249\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,081</text><text x=\"354\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,373</text><path d=\"M1 138.4L359 138.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-size=\"11.5\" style=\"fill:currentColor\">営業利益</text><text x=\"249\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">45</text><text x=\"354\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">42</text><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">安全余裕率</text><text x=\"249\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">9.93%</text><text x=\"354\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8.48%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M255 0L255 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"183.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-cvp-05",
+   "cat": "cvp",
+   "lv": 2,
+   "min": 18,
+   "src": "R4-第3問・R5-第4問",
+   "title": "クラフトビール：委託と内製の費用構造（無差別点・経営レバレッジ）",
+   "lead": "D社は、地方の観光地でクラフトビールを製造し、缶に詰めて土産物店や飲食店に販売している。缶への充填は、近隣の同業者に委託している。\n委託の費用を抑えるため、D社は充填設備を借りて自社で充填する案を検討している。現状のまま委託を続ける案をA案、自社での充填（内製）に切り替える案をB案とする。販売価格と販売数量は、どちらの案でも変わらない。\n次期の売上高は180,000千円と見込まれるが、観光客の数に左右されやすく、見込みから大きく変動する可能性がある。両案の費用の見込みは次のとおりである。",
+   "tables": [
+    {
+     "cap": "A案とB案の費用の見込み",
+     "unit": "千円",
+     "head": [
+      "項目",
+      "A案（委託）",
+      "B案（内製）"
+     ],
+     "rows": [
+      [
+       "変動費（売上高に対する割合）",
+       "55%",
+       "40%"
+      ],
+      [
+       "　原材料・缶・ラベルなど",
+       "37%",
+       "37%"
+      ],
+      [
+       "　充填の委託料",
+       "18%",
+       "－"
+      ],
+      [
+       "　充填の電力・消耗品",
+       "－",
+       "3%"
+      ],
+      [
+       "固定費",
+       "63,000",
+       "87,000"
+      ],
+      [
+       "　充填設備のリース料",
+       "－",
+       "15,000"
+      ],
+      [
+       "　充填作業者の人件費",
+       "－",
+       "9,000"
+      ],
+      [
+       "　その他の固定費",
+       "63,000",
+       "63,000"
+      ]
+     ],
+     "note": "固定費の「その他」は、醸造の設備の減価償却費や醸造担当者の人件費などで、両案で同じである。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "A案とB案の営業利益が等しくなる売上高と、B案の損益分岐点売上高を求めよ（千円未満を四捨五入）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "sx",
+       "type": "num",
+       "label": "営業利益が等しくなる売上高",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 160000
+      },
+      {
+       "k": "bb",
+       "type": "num",
+       "label": "B案の損益分岐点売上高",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 145000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "A案：変動費率37＋18＝55%、限界利益率0.45、固定費63,000",
+      "B案：変動費率37＋3＝40%、限界利益率0.6、固定費63,000＋15,000＋9,000＝87,000",
+      "営業利益が等しくなる売上高をSとすると、0.45S−63,000＝0.6S−87,000 より、0.15S＝24,000、S＝160,000千円",
+      "（固定費の差24,000÷変動費率の差0.15＝160,000でも同じ）",
+      "B案の損益分岐点売上高＝87,000÷0.6＝145,000千円（A案は63,000÷0.45＝140,000千円）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "次期の売上高が見込みどおり180,000千円のときの、A案とB案それぞれの経営レバレッジ係数を求めよ（単位は倍。小数第3位を四捨五入して小数第2位まで）。また、このとき営業利益が大きいのはどちらの案か。",
+     "fields": [
+      {
+       "k": "la",
+       "type": "num",
+       "label": "A案の経営レバレッジ係数",
+       "unit": "倍",
+       "dp": 2,
+       "ans": 4.5
+      },
+      {
+       "k": "lb",
+       "type": "num",
+       "label": "B案の経営レバレッジ係数",
+       "unit": "倍",
+       "dp": 2,
+       "ans": 5.14
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "営業利益が大きい案",
+       "opts": [
+        "A案",
+        "B案"
+       ],
+       "ans": "B案"
+      }
+     ],
+     "steps": [
+      "A案：限界利益＝180,000×0.45＝81,000、営業利益＝81,000−63,000＝18,000",
+      "B案：限界利益＝180,000×0.6＝108,000、営業利益＝108,000−87,000＝21,000",
+      "経営レバレッジ係数＝限界利益÷営業利益：A案81,000÷18,000＝4.50倍、B案108,000÷21,000＝5.142…≒5.14倍",
+      "営業利益はB案（21,000）がA案（18,000）より3,000千円大きい（売上高が、営業利益の等しくなる160,000千円を上回るため）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "B案を採用する場合に注意すべき財務的なリスクを、設問1・2の結果を踏まえて70字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 70,
+       "model": "固定費の増加で経営レバレッジ係数が5.14倍と高く、売上高が減ると利益が大きく減り、160,000千円を下回るとA案より利益が小さくなる。",
+       "points": [
+        "固定費の増加で経営レバレッジ係数が高まる（5.14倍）",
+        "売上高の変動による利益の振れが大きい",
+        "売上高が160,000千円（営業利益が等しくなる売上高）を下回るとA案より不利"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "sx": "よくある誤り：133,333千円は、固定費の差を委託料の割合18%で割った値（内製でも電力・消耗品が3%かかるので、変動費率の差は15%）。40,000千円は、固定費の差をB案の限界利益率で割った値。",
+    "bb": "よくある誤り：105,000千円は、内製で増える固定費（リース料と人件費）を入れていない。138,095千円は、内製の電力・消耗品（3%）を変動費に入れていない。",
+    "la": "よくある誤り：10.00倍は売上高÷営業利益、3.50倍は固定費÷営業利益。経営レバレッジ係数は限界利益÷営業利益（＝1＋固定費÷営業利益）。",
+    "lb": "よくある誤り：8.57倍は売上高÷営業利益、4.14倍は固定費÷営業利益。経営レバレッジ係数は限界利益÷営業利益（＝1＋固定費÷営業利益）。",
+    "ch": "よくある誤り：A案を選ぶ。損益分岐点が低くリスクが小さいのはA案だが、問われているのは売上高180,000千円のときの営業利益の大きさで、B案が3,000千円大きい。"
+   },
+   "e": "【考え方】委託（A案）は変動費が大きく固定費が小さい構造、内製（B案）は変動費が小さく固定費が大きい構造。売上高が多いほど、限界利益率の高いB案が有利になり、少ないほどA案が有利になる。その境目が、営業利益が等しくなる売上高（無差別点）＝固定費の差÷変動費率の差＝160,000千円。\n【設問1・2】見込みの180,000千円は無差別点を上回るので、営業利益はB案が3,000千円大きい。一方、B案は損益分岐点売上高が145,000千円（A案140,000千円）と高く、経営レバレッジ係数も5.14倍（A案4.50倍）と高い。\n【経営レバレッジ係数の意味】売上高が1%変わると営業利益が何%変わるかを示す（B案は約5.14%）。安全余裕率の逆数でもある（B案の安全余裕率は19.44%）。売上高が20%減って144,000千円になると、A案は1,800千円の黒字だが、B案は600千円の赤字になる。\n【本試験での注意】委託から内製（または設備の導入）への切り替えは、固定費を増やして変動費を減らす判断。本試験でも、委託と自社対応のどちらが有利になるかの境目の計算（令和4年度）や、生産の委託（OEM）と、自社で設備投資して生産することの、それぞれの財務的な利点の記述（令和5年度）が問われた。変動費率の差は、減る費用（委託料）から増える費用（電力・消耗品）を引いて求める。\n【図】上は、売上高と営業利益の関係（利益図表）。2本の線が交わる点が無差別点で、B案の線の傾き（限界利益率）が大きいことが、売上高の変動に対する利益の振れの大きさを表す。下は、A案とB案の比較（網掛けはリスクの要点）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">売上高と営業利益（単位：百万円。横軸上の●は損益分岐点）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"売上高と営業利益（A案とB案）\" font-size=\"12\"><path d=\"M194.0 18L194.0 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M245.3 18L245.3 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 210.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 139.5L350.0 139.5\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"143.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"242.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上高</text><text x=\"91.3\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">120</text><text x=\"194.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">160</text><text x=\"245.3\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">180</text><text x=\"296.7\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"36.0\" y=\"190.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"96.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"49.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M40.0 181.8 L348.0 54.9\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 202.9 L348.0 33.8\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"194.0\" cy=\"118.4\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"245.3\" cy=\"97.2\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"245.3\" cy=\"90.2\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"142.7\" cy=\"139.5\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"155.5\" cy=\"139.5\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"188.9\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">無差別点 160</text><text x=\"250.5\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">見込み 180</text><text x=\"317.2\" y=\"41.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">B案（内製）</text><text x=\"342.9\" y=\"94.6\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">A案（委託）</text><text x=\"240.2\" y=\"83.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">21.0</text><text x=\"250.5\" y=\"111.3\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">18.0</text><text x=\"42.6\" y=\"36.1\" font-size=\"11\" style=\"fill:currentColor\">営業利益</text><text x=\"140.1\" y=\"132.4\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">A案 140</text><text x=\"159.4\" y=\"160.7\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">B案 145</text><text x=\"50.3\" y=\"200.6\" font-size=\"10.5\" style=\"fill:currentColor\">← A案が有利</text><text x=\"337.7\" y=\"200.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">B案が有利 →</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">A案とB案の比較</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 217\" role=\"img\" aria-label=\"A案とB案の比較（千円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"80.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">千円</text><text x=\"210.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">A案（委託）</text><text x=\"310.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">B案（内製）</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">限界利益率</text><text x=\"254\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">45%</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">60%</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">固定費</text><text x=\"254\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">63,000</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">87,000</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">損益分岐点売上高</text><text x=\"254\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">140,000</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">145,000</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">売上高180,000のときの</text><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">営業利益</text><text x=\"254\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">18,000</text><text x=\"354\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">21,000</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">経営レバレッジ係数</text><text x=\"254\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4.50倍</text><text x=\"354\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.14倍</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">損益分岐点比率</text><text x=\"254\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">77.78%</text><text x=\"354\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">80.56%</text><rect x=\"1\" y=\"177.2\" width=\"358\" height=\"38.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 177.2L359 177.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"192.8\" font-size=\"11.5\" style=\"fill:currentColor\">売上高が20%減ったとき</text><text x=\"6\" y=\"208.7\" font-size=\"11.5\" style=\"fill:currentColor\">（144,000）の営業利益</text><text x=\"254\" y=\"200.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,800</text><text x=\"354\" y=\"200.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">−600</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M160 0L160 215.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M260 0L260 215.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"215.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-cvp-06",
+   "cat": "cvp",
+   "lv": 3,
+   "min": 20,
+   "src": "R1-第2問・R5-第2問",
+   "title": "クリーニング：新事業の段階的な固定費と税引後の目標利益",
+   "lead": "D社は、地方都市で個人向けのクリーニング店を営んでいる。市内の取次店で預かった衣類を自社の工場で洗い、取次店に戻している。\n次期から、市内のホテルや旅館のシーツ・タオルを洗う、法人向けのリネンサプライ事業（新事業）を始める計画である。新事業の変動費率は56%で、新事業のための固定費（大型洗濯設備のリース料と作業者の人件費）が年36百万円かかる。この体制（1交代制）で処理できるのは、新事業の売上高で年150百万円までである。売上高が150百万円を超える場合は2交代制にする必要があり、人件費（固定費）がさらに年18百万円増える（2交代制では年300百万円まで処理できる）。\n次期の既存事業の売上高・変動費率・固定費は当期と同じとする。新事業の設備資金を借り入れるため、次期の支払利息は10百万円になる。営業外収益と特別損益はなく、法人税等の税率は30%とする。\nD社の当期の損益計算書（既存事業だけ。変動費と固定費に分けたもの）は次のとおりである。",
+   "tables": [
+    {
+     "cap": "損益計算書（当期。変動費と固定費に分けたもの）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "400"
+      ],
+      [
+       "変動費",
+       "168"
+      ],
+      [
+       "限界利益",
+       "232"
+      ],
+      [
+       "固定費",
+       "210"
+      ],
+      [
+       "営業利益",
+       "22"
+      ],
+      [
+       "営業外費用（支払利息）",
+       "8"
+      ],
+      [
+       "経常利益",
+       "14"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "次期に税引後の当期純利益35百万円を達成するために必要な新事業の売上高を求めよ（百万円未満を四捨五入。計算の途中では端数を処理しない）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "s1",
+       "type": "num",
+       "label": "必要な新事業の売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 209
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "必要な税引前当期純利益（＝経常利益）＝35÷（1−0.3）＝50",
+      "必要な営業利益＝経常利益50＋支払利息10＝60",
+      "既存事業の限界利益−既存事業の固定費＝232−210＝22",
+      "1交代制と仮定：新事業に必要な限界利益＝60−22＋36＝74、売上高＝74÷0.44＝168.18… → 150を超えるので、この仮定は成り立たない",
+      "2交代制：新事業の固定費＝36＋18＝54、必要な限界利益＝60−22＋54＝92",
+      "必要な新事業の売上高＝92÷0.44＝209.09…≒209百万円（150を超えるので、2交代制の前提と合う）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "新事業の売上高が150百万円を超えて2交代制にする場合、新事業の営業利益（新事業の限界利益から新事業の固定費を引いたもの）が、売上高150百万円（1交代制）のときの新事業の営業利益を下回らないためには、新事業の売上高が何百万円以上必要か。百万円未満の端数は切り上げること。",
+     "fields": [
+      {
+       "k": "s2",
+       "type": "num",
+       "label": "必要な新事業の売上高",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 191
+      }
+     ],
+     "steps": [
+      "売上高150のときの新事業の営業利益＝150×0.44−36＝30.0",
+      "2交代制で営業利益30.0を確保する売上高＝（30.0＋54）÷0.44＝190.90…→191百万円（切り上げ）",
+      "別の見方：増える固定費18を、150を超える分の限界利益で取り戻す。150＋18÷0.44＝190.90…"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "1交代制で処理できる上限（売上高150百万円）まで受注の見込みが立った段階で、あるホテルから、年間の売上高20百万円となる追加の取引の打診があった。ほかに追加の受注の見込みはない。この取引を受けるべきかを営業利益の観点から答え、その理由を60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "追加の取引",
+       "opts": [
+        "受けるべきである",
+        "受けるべきでない"
+       ],
+       "ans": "受けるべきでない"
+      },
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "理由",
+       "limit": 60,
+       "model": "2交代制で固定費が18百万円増え、追加の限界利益8.8百万円を上回るので、新事業の営業利益が9.2百万円減るため。",
+       "points": [
+        "追加の限界利益は8.8百万円（20×0.44）",
+        "2交代制で固定費が18百万円増える",
+        "営業利益が9.2百万円減る（売上高170は設問2の191に届かない）"
+       ]
+      }
+     ],
+     "steps": [
+      "追加の限界利益＝20×0.44＝8.8、2交代制で増える固定費＝18",
+      "受けた場合の新事業の営業利益＝170×0.44−54＝20.8（150のときの30.0より9.2少ない）",
+      "売上高170は、設問2の191に届かない → 受けるべきでない"
+     ]
+    }
+   ],
+   "ce": {
+    "s1": "よくある誤り：168百万円は、1交代制の固定費のまま計算した値（168.18…は150を超えるので、2交代制の固定費で計算し直す）。134百万円は、税引後の利益を税引前に戻していない。199百万円は、税引前の利益を35×1.3としている（正しくは35÷0.7＝50）。205百万円は、支払利息を当期の8のままにした。164百万円は、限界利益率でなく変動費率で割った。",
+    "s2": "よくある誤り：183百万円は、増える固定費18を変動費率で割った（限界利益率44%で割る）。123百万円は2交代制の損益分岐点で、比べる相手は売上高150のときの営業利益30.0。190百万円（四捨五入・切り捨て）では、営業利益が30.0に届かない。",
+    "ch": "よくある誤り：受けるべきであるとする。売上高と限界利益は増えるが、2交代制で固定費が18百万円増えるので、営業利益は9.2百万円減る。"
+   },
+   "e": "【設問1の手順】目標から逆算する。税引後の利益35→税引前（＝経常利益）50→支払利息を足して営業利益60→既存事業の分（限界利益−固定費＝22）を引き、新事業の固定費を足して、新事業で必要な限界利益を出す。\n【段階的な固定費】まず1交代制と仮定すると必要な売上高は168.18…で、上限の150を超える。超えるなら2交代制の固定費54で計算し直し、209.09…（≒209）を得る。これは150を超えるので前提と合う。仮定を置いたら、答えがその仮定の範囲に入るかを必ず確かめる。\n【設問2・3】150を少し超えるだけでは、2交代制で増える固定費18を限界利益で取り戻せず、利益が減る。取り戻すには売上高191以上が必要。追加の取引（売上高170）を受けると、営業利益は30.0から20.8に減るので、受けるべきでない（受けるなら、ほかの受注と合わせて191以上を見込めるときに限る）。\n【本試験での注意】税率が与えられたら、税引後の目標は（1−税率）で割って税引前に戻す。目標が税引後や経常利益のときは、営業外費用の扱いも確かめる。段階的に増える固定費は、損益分岐点や必要な売上高が段階の範囲に入るかで、どの固定費を使うかが決まる。\n【図】上は、設問1で新事業が稼ぐ必要のある限界利益の内訳（これを限界利益率0.44で割ると必要な売上高）。下は、新事業の売上高と営業利益の関係で、150を超えると固定費が増えて線が下に段差を作る。点線は売上高150のときの営業利益の水準。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問1：新事業で稼ぐ必要のある限界利益（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"設問1：新事業で稼ぐ必要のある限界利益（百万円）\" font-size=\"12\"><rect x=\"160.0\" y=\"9.0\" width=\"15.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"152\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">目標の税引後当期純利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">35</text><rect x=\"175.8\" y=\"35.0\" width=\"6.8\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">法人税等（35÷0.7−35）</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋15</text><path d=\"M175.8 25.0L175.8 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"182.5\" y=\"61.0\" width=\"4.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息（次期）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋10</text><path d=\"M182.5 51.0L182.5 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"187.0\" y=\"87.0\" width=\"94.6\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">既存事業の固定費</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋210</text><path d=\"M187.0 77.0L187.0 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"281.7\" y=\"113.0\" width=\"24.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新事業の固定費（2交代制）</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54</text><path d=\"M281.7 103.0L281.7 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"201.5\" y=\"139.0\" width=\"104.5\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"152\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">既存事業の限界利益</text><text x=\"356\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－232</text><path d=\"M306.0 129.0L306.0 139.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"160.0\" y=\"165.0\" width=\"41.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"152\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">新事業で必要な限界利益</text><text x=\"356\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">92</text><path d=\"M201.5 155.0L201.5 165.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新事業の売上高と営業利益（単位：百万円）。150を超えると固定費が増えて線が下にずれ、点線（150のときの営業利益30）の水準に戻るのは191</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"新事業の売上高と営業利益（段階的な固定費）\" font-size=\"12\"><path d=\"M224.8 18L224.8 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M275.2 18L275.2 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 210.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 141.6L350.0 141.6\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"145.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"242.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新事業の売上高</text><text x=\"101.6\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"163.2\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"224.8\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"348.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"179.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"111.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"77.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><text x=\"36.0\" y=\"43.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><path d=\"M40.0 203.2 L224.8 90.4\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M224.8 121.1 L348.0 45.9\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"224.8\" cy=\"90.4\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"224.8\" cy=\"121.1\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"249.4\" cy=\"106.1\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"275.2\" cy=\"90.4\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"297.6\" cy=\"76.7\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"222.3\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">1交代制の上限 150</text><text x=\"277.7\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">191</text><path d=\"M224.8 90.4L348.0 90.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" stroke-dasharray=\"4 3\" fill=\"none\"/><text x=\"43.7\" y=\"39.1\" font-size=\"11\" style=\"fill:currentColor\">新事業の営業利益</text><text x=\"47.4\" y=\"64.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">1交代制（固定費36）</text><text x=\"231.0\" y=\"158.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">2交代制（固定費54）</text><text x=\"219.9\" y=\"81.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">30.0</text><text x=\"219.9\" y=\"126.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">12.0</text><text x=\"251.9\" y=\"123.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">追加の取引</text><text x=\"251.9\" y=\"136.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">170：20.8</text><text x=\"302.5\" y=\"68.1\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">目標 209</text></svg>"
   },
   {
    "id": "j4-cf-11",
