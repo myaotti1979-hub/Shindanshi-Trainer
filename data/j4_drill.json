@@ -77,6 +77,2138 @@
  ],
  "problems": [
   {
+   "id": "d4-mgmt-01",
+   "cat": "mgmt",
+   "lv": 1,
+   "min": 15,
+   "src": "R2-第1問・R6-第1問",
+   "title": "通販業：劣る指標2つ・優れる指標1つ（同業比較）",
+   "lead": "D社は、園芸用品（草花の苗・用土・肥料・園芸資材）をインターネットで販売する通信販売業者である。品ぞろえの多さを強みとし、約1万点の商品を賃借した倉庫に在庫として持ち、注文の翌日に発送している。\nここ数年は新規の顧客を増やすため、インターネット広告の出稿を増やし、送料無料の対象も広げてきた。商品の仕入価格と販売価格の水準は、同業他社とほぼ同じである。\n創業以来、借入金に頼らず、利益を内部に留保して事業を広げてきた。\nD社と同業他社（同じくインターネット通販を営む）の当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（当期末）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "1,947",
+       "1,777"
+      ],
+      [
+       "　現金預金",
+       "860",
+       "600"
+      ],
+      [
+       "　売掛金",
+       "292",
+       "492"
+      ],
+      [
+       "　商品",
+       "745",
+       "590"
+      ],
+      [
+       "　その他の流動資産",
+       "50",
+       "95"
+      ],
+      [
+       "固定資産",
+       "365",
+       "615"
+      ],
+      [
+       "　有形固定資産",
+       "219",
+       "369"
+      ],
+      [
+       "　無形固定資産",
+       "70",
+       "105"
+      ],
+      [
+       "　投資その他の資産",
+       "76",
+       "141"
+      ],
+      [
+       "資産合計",
+       "2,312",
+       "2,392"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "595",
+       "1,100"
+      ],
+      [
+       "　買掛金",
+       "280",
+       "460"
+      ],
+      [
+       "　短期借入金",
+       "－",
+       "380"
+      ],
+      [
+       "　その他の流動負債",
+       "315",
+       "260"
+      ],
+      [
+       "固定負債",
+       "45",
+       "635"
+      ],
+      [
+       "　長期借入金",
+       "－",
+       "560"
+      ],
+      [
+       "　その他の固定負債",
+       "45",
+       "75"
+      ],
+      [
+       "負債合計",
+       "640",
+       "1,735"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "30",
+       "100"
+      ],
+      [
+       "利益剰余金",
+       "1,642",
+       "557"
+      ],
+      [
+       "純資産合計",
+       "1,672",
+       "657"
+      ],
+      [
+       "負債・純資産合計",
+       "2,312",
+       "2,392"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書（当期）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "3,650",
+       "6,150"
+      ],
+      [
+       "売上原価",
+       "2,263",
+       "3,813"
+      ],
+      [
+       "売上総利益",
+       "1,387",
+       "2,337"
+      ],
+      [
+       "販売費及び一般管理費",
+       "1,318",
+       "1,980"
+      ],
+      [
+       "営業利益",
+       "69",
+       "357"
+      ],
+      [
+       "営業外収益",
+       "9",
+       "14"
+      ],
+      [
+       "営業外費用",
+       "2",
+       "31"
+      ],
+      [
+       "経常利益",
+       "76",
+       "340"
+      ],
+      [
+       "税引前当期純利益",
+       "76",
+       "340"
+      ],
+      [
+       "法人税等",
+       "23",
+       "102"
+      ],
+      [
+       "当期純利益",
+       "53",
+       "238"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社と同業他社の財務諸表を比較し、D社が同業他社より劣っていると考えられる財務指標を2つ、優れていると考えられる財務指標を1つ取り上げ、名称と値を答えよ。値はD社の期末の値を用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。\n劣っている2つの指標は異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "劣っている指標①",
+       "dp": 2,
+       "accept": {
+        "売上高営業利益率": {
+         "v": 1.89,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 2.08,
+         "u": "%"
+        },
+        "売上高販売費及び一般管理費比率": {
+         "v": 36.11,
+         "u": "%"
+        }
+       },
+       "grp": "課題"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "劣っている指標②",
+       "dp": 2,
+       "accept": {
+        "棚卸資産回転率": {
+         "v": 4.9,
+         "u": "回"
+        }
+       },
+       "grp": "課題"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "優れている指標",
+       "dp": 2,
+       "accept": {
+        "自己資本比率": {
+         "v": 72.32,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 38.28,
+         "u": "%"
+        },
+        "流動比率": {
+         "v": 327.23,
+         "u": "%"
+        },
+        "当座比率": {
+         "v": 193.61,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 21.83,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 21.26,
+         "u": "%"
+        }
+       }
+      }
+     ],
+     "steps": [
+      "劣①（収益性）：売上高営業利益率＝営業利益69÷売上高3,650×100≒1.89%（同業他社5.80%）",
+      "劣①の別解：売上高販売費及び一般管理費比率＝販管費1,318÷売上高3,650×100≒36.11%（同業他社32.20%）",
+      "劣②（効率性）：棚卸資産回転率＝売上高3,650÷棚卸資産745≒4.90回（同業他社10.42回）",
+      "優（安全性）：自己資本比率＝自己資本1,672÷総資本2,312×100≒72.32%（同業他社27.47%）",
+      "優の別解：当座比率＝当座資産1,152（現金預金860＋売上債権292）÷流動負債595×100≒193.61%（同業他社99.27%）",
+      "参考：売上高総利益率はD社・同業他社とも38.00%（差がない）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1の指標をもとに、同業他社と比べたD社の財務的な特徴を60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "借入金がなく安全性は高いが、広告費や送料で販管費が重く収益性が低く、品ぞろえのための在庫が多く効率性も低い。",
+       "points": [
+        "借入金がなく安全性が高い",
+        "広告費・送料で販管費が重く、収益性が低い",
+        "品ぞろえのための在庫が多く、効率性が低い"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：売上高総利益率・売上高売上原価比率を選ぶ（両社とも38.00%・62.00%で差がない。差は販管費で生じている）。総資本経常利益率などの総合指標は、収益性と効率性のどちらが原因かを示せないので認めない。",
+    "i2": "よくある誤り：売上債権回転率・有形固定資産回転率を選ぶ（同業他社と同じ12.50回・16.67回）。総資本回転率は総資本全体の指標で、原因の資産を示せない。回転率は期末の値と売上高で計算する（売上原価や期首と期末の平均を使わない）。",
+    "i3": "よくある誤り：当座資産に商品を含める（当座資産は現金預金と売掛金）。自己資本比率の分母は総資本（負債と純資産の合計）で、負債ではない。安全性の指標はどれも同業他社より優れている。"
+   },
+   "e": "【解き方】観点（収益性・効率性・安全性）ごとに代表的な指標を計算し、同業他社との差が大きく、与件に原因が書かれている指標を選ぶ。\n【収益性】売上高総利益率は両社とも38.00%で同じ（与件：仕入価格と販売価格の水準は同業他社並み）。一方、売上高販管費比率は36.11%（同業他社32.20%）と高く、売上高営業利益率は1.89%（同5.80%）にとどまる。広告の出稿と送料無料の拡大が原因。経常利益率・販管費比率も認める。\n【効率性】棚卸資産回転率は4.90回で、同業他社（10.42回）の半分以下。約1万点の品ぞろえを在庫として持つことが原因。売上債権回転率・有形固定資産回転率は同業他社と同じ。\n【安全性】借入金がなく、自己資本比率72.32%（同27.47%）、当座比率193.61%（同99.27%）など、安全性の指標はすべて優れている。どれを挙げてもよいが、無借金と内部留保の与件に最も合うのは自己資本比率。\n【本試験での注意】指標は「原因が分かる」ものを選ぶ。総合的な指標は避ける（総資本経常利益率・自己資本当期純利益率は売上高利益率と回転率のどちらが原因かを、総資本回転率はどの資産が原因かを示せない）。記述は「強み＋課題＋その原因」を与件の言葉で短くまとめる。\n【図】表は主な指標の比較（網掛けは代表の解答）。その下は、売上高営業利益率の差を、売上高総利益率の差と販管費比率の差に分けたもの。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 224\" role=\"img\" aria-label=\"D社と同業他社の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"73.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">指標</text><text x=\"182.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">D社</text><text x=\"254.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">同業他社</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">判定</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"212\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">38.00%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">38.00%</text><text x=\"325.0\" y=\"39.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">同じ</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上高販売費及び</text><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">一般管理費比率</text><text x=\"212\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">36.11%</text><text x=\"284\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">32.20%</text><text x=\"325.0\" y=\"70.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><rect x=\"1\" y=\"85.6\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"212\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.89%</text><text x=\"284\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.80%</text><text x=\"325.0\" y=\"101.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><rect x=\"1\" y=\"108.5\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">棚卸資産回転率</text><text x=\"212\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4.90回</text><text x=\"284\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10.42回</text><text x=\"325.0\" y=\"124.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"212\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">12.50回</text><text x=\"284\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">12.50回</text><text x=\"325.0\" y=\"147.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">同じ</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16.67回</text><text x=\"284\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16.67回</text><text x=\"325.0\" y=\"169.9\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">同じ</text><rect x=\"1\" y=\"177.2\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 177.2L359 177.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"192.8\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"212\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">72.32%</text><text x=\"284\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">27.47%</text><text x=\"325.0\" y=\"192.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 200.1L359 200.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"215.7\" font-size=\"11.5\" style=\"fill:currentColor\">当座比率</text><text x=\"212\" y=\"215.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">193.61%</text><text x=\"284\" y=\"215.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">99.27%</text><text x=\"325.0\" y=\"215.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M146 0L146 222.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 222.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 222.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"222.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"売上高営業利益率の差の内訳（％）\" font-size=\"12\"><rect x=\"150.0\" y=\"16.0\" width=\"150.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"20.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">同業他社の</text><text x=\"142\" y=\"35.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"356\" y=\"28.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">5.80%</text><rect x=\"300.0\" y=\"49.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"61.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上高総利益率の差</text><text x=\"356\" y=\"61.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋0.00%</text><path d=\"M300.0 32.0L300.0 49.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"198.9\" y=\"82.0\" width=\"101.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"86.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">販管費比率の差</text><text x=\"142\" y=\"101.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（D社が高い）</text><text x=\"356\" y=\"94.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－3.91%</text><path d=\"M300.0 65.0L300.0 82.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"115.0\" width=\"48.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"127.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社の売上高営業利益率</text><text x=\"356\" y=\"127.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1.89%</text><path d=\"M198.9 98.0L198.9 115.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-mgmt-02",
+   "cat": "mgmt",
+   "lv": 2,
+   "min": 20,
+   "src": "R5-第1問",
+   "title": "運送業：悪化2つ・改善1つと悪化の原因（前期比較）",
+   "lead": "D社は、地元の食品メーカーや卸売業者から食品の輸送を請け負う一般貨物自動車運送業者である。保有するトラックと自社の運転手による配送を基本としてきた。\n当期は運転手の退職が相次ぎ、採用も進まなかったため、自社のトラックによる配送を減らし、協力会社への外注（傭車）を増やした。外注費は売上原価に含まれる。燃料の価格は前期とほぼ同じ水準であった。\n使う見込みのなくなったトラックの一部は当期中に売却し、売却で得た資金で借入金の一部を返済した。\nまた当期から、最大の荷主との取引条件が変わり、運賃の支払いが「月末締め翌月末払い」から「月末締め翌々月末払い」になった。\nD社の前期と当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（各期末）",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "513,750",
+       "529,770"
+      ],
+      [
+       "　現金預金",
+       "262,000",
+       "198,270"
+      ],
+      [
+       "　売掛金",
+       "230,750",
+       "310,000"
+      ],
+      [
+       "　その他の流動資産",
+       "21,000",
+       "21,500"
+      ],
+      [
+       "固定資産",
+       "804,800",
+       "708,100"
+      ],
+      [
+       "　有形固定資産",
+       "751,000",
+       "654,000"
+      ],
+      [
+       "　　車両運搬具",
+       "386,000",
+       "296,000"
+      ],
+      [
+       "　　建物",
+       "142,000",
+       "136,000"
+      ],
+      [
+       "　　土地",
+       "205,000",
+       "205,000"
+      ],
+      [
+       "　　その他",
+       "18,000",
+       "17,000"
+      ],
+      [
+       "　無形固定資産",
+       "5,200",
+       "4,800"
+      ],
+      [
+       "　投資その他の資産",
+       "48,600",
+       "49,300"
+      ],
+      [
+       "資産合計",
+       "1,318,550",
+       "1,237,870"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "334,000",
+       "313,000"
+      ],
+      [
+       "　営業未払金",
+       "118,000",
+       "141,000"
+      ],
+      [
+       "　短期借入金",
+       "120,000",
+       "80,000"
+      ],
+      [
+       "　その他の流動負債",
+       "96,000",
+       "92,000"
+      ],
+      [
+       "固定負債",
+       "544,000",
+       "475,000"
+      ],
+      [
+       "　長期借入金",
+       "500,000",
+       "430,000"
+      ],
+      [
+       "　その他の固定負債",
+       "44,000",
+       "45,000"
+      ],
+      [
+       "負債合計",
+       "878,000",
+       "788,000"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "30,000",
+       "30,000"
+      ],
+      [
+       "利益剰余金",
+       "410,550",
+       "419,870"
+      ],
+      [
+       "純資産合計",
+       "440,550",
+       "449,870"
+      ],
+      [
+       "負債・純資産合計",
+       "1,318,550",
+       "1,237,870"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "1,846,000",
+       "1,858,000"
+      ],
+      [
+       "売上原価",
+       "1,476,800",
+       "1,578,700"
+      ],
+      [
+       "売上総利益",
+       "369,200",
+       "279,300"
+      ],
+      [
+       "販売費及び一般管理費",
+       "258,440",
+       "260,120"
+      ],
+      [
+       "営業利益",
+       "110,760",
+       "19,180"
+      ],
+      [
+       "営業外収益",
+       "3,120",
+       "3,240"
+      ],
+      [
+       "営業外費用",
+       "14,880",
+       "12,420"
+      ],
+      [
+       "経常利益",
+       "99,000",
+       "10,000"
+      ],
+      [
+       "特別利益",
+       "－",
+       "7,600"
+      ],
+      [
+       "税引前当期純利益",
+       "99,000",
+       "17,600"
+      ],
+      [
+       "法人税等",
+       "29,700",
+       "5,280"
+      ],
+      [
+       "当期純利益",
+       "69,300",
+       "12,320"
+      ]
+     ],
+     "note": "当期の特別利益は、トラックの売却益である。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の前期と当期の財務諸表を比較し、当期に悪化したと考えられる財務指標を2つ、改善したと考えられる財務指標を1つ取り上げ、名称と当期の値を答えよ。値は当期の期末の値を用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。\n悪化した2つの指標は異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "悪化した指標①",
+       "dp": 2,
+       "accept": {
+        "売上高総利益率": {
+         "v": 15.03,
+         "u": "%"
+        },
+        "売上高売上原価比率": {
+         "v": 84.97,
+         "u": "%"
+        },
+        "売上高営業利益率": {
+         "v": 1.03,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 0.54,
+         "u": "%"
+        }
+       },
+       "grp": "悪化"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "悪化した指標②",
+       "dp": 2,
+       "accept": {
+        "売上債権回転率": {
+         "v": 5.99,
+         "u": "回"
+        }
+       },
+       "grp": "悪化"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "改善した指標",
+       "dp": 2,
+       "accept": {
+        "有形固定資産回転率": {
+         "v": 2.84,
+         "u": "回"
+        },
+        "固定資産回転率": {
+         "v": 2.62,
+         "u": "回"
+        },
+        "自己資本比率": {
+         "v": 36.34,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 175.16,
+         "u": "%"
+        },
+        "流動比率": {
+         "v": 169.26,
+         "u": "%"
+        },
+        "当座比率": {
+         "v": 162.39,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 157.4,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 76.56,
+         "u": "%"
+        }
+       }
+      }
+     ],
+     "steps": [
+      "悪①（収益性）：売上高総利益率＝売上総利益279,300÷売上高1,858,000×100≒15.03%（前期20.00%）",
+      "悪①の別解：売上高営業利益率＝営業利益19,180÷売上高1,858,000×100≒1.03%（前期6.00%）",
+      "悪②（効率性）：売上債権回転率＝売上高1,858,000÷売上債権310,000≒5.99回（前期8.00回）",
+      "改善（効率性）：有形固定資産回転率＝売上高1,858,000÷有形固定資産654,000≒2.84回（前期2.46回）",
+      "改善の別解（安全性）：自己資本比率＝自己資本449,870÷総資本1,237,870×100≒36.34%（前期33.41%）",
+      "参考：販管費比率は前期・当期とも14.00%（変わらない）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1で取り上げた悪化した2つの指標について、それぞれ悪化した原因を与件に即して80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "運転手不足で協力会社への外注を増やし、外注費の増加で売上原価率が上昇した。また最大の荷主の支払条件が翌々月末払いに延び、売掛金の回収が遅くなった。",
+       "points": [
+        "運転手不足で外注（傭車）を増やした",
+        "外注費の増加で売上原価率が上昇した",
+        "最大の荷主の支払条件が延びた",
+        "売掛金の回収が遅くなった"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：販管費比率を選ぶ（前期・当期とも14.00%で変わらない）。悪化の原因は売上原価（外注費）にあり、売上高総利益率や売上原価比率が原因を最も正確に示す（営業利益率・経常利益率も認める）。総資本経常利益率などの総合指標は認めない。",
+    "i2": "よくある誤り：有形固定資産回転率を選ぶ（トラックの売却で、むしろ改善している）。総資本回転率は、売上債権の増加（悪化）と車両の売却（改善）が打ち消し合う総合的な指標で、原因を示せない。",
+    "i3": "よくある誤り：総資本回転率を選ぶ（上がってはいるが、売上債権の悪化を含む総合的な指標なので認めない）。改善は、車両の売却による有形固定資産回転率、借入金の返済による自己資本比率などの安全性の指標。"
+   },
+   "e": "【収益性の悪化】売上高総利益率は20.00%→15.03%と大きく下がった。販管費比率は14.00%で変わらないので、原因は売上原価（外注費）にある。運転手不足による協力会社への外注の増加と結びつく。営業利益率（6.00%→1.03%）・経常利益率・売上原価比率も認める。\n【効率性の悪化】売上債権回転率は8.00回→5.99回に下がった。最大の荷主の支払条件が「翌々月末払い」に延び、期末の売掛金が増えたことが原因。\n【改善】トラックの一部を売却したため、有形固定資産回転率は2.46回→2.84回に上がった。売却で得た資金で借入金を返したので、自己資本比率（33.41%→36.34%）などの安全性の指標も改善した。改善の欄はこれらのどれでもよい。\n【本試験での注意】前期との比較では、まず与件から「当期に何が起きたか」を拾い、その影響が最も直接に表れる指標を選ぶ。外注費が売上原価に入るときは、営業利益率より売上高総利益率のほうが原因を正確に示す。トラックの売却益は特別利益なので、経常利益までの指標には入らない。記述は指標ごとに「原因→結果」の順で書く。\n【図】表は主な指標の比較（網掛けは代表の解答）。その下は、売上高営業利益率の低下を、売上原価比率と販管費比率の変化に分けたもの。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 202\" role=\"img\" aria-label=\"前期と当期の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"73.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">指標</text><text x=\"182.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前期</text><text x=\"254.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.9\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"212\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">20.00%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">15.03%</text><text x=\"325.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上高販売費及び</text><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">一般管理費比率</text><text x=\"212\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14.00%</text><text x=\"284\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14.00%</text><text x=\"325.0\" y=\"70.3\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">横ばい</text><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"212\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.00%</text><text x=\"284\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.03%</text><text x=\"325.0\" y=\"101.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><rect x=\"1\" y=\"108.5\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"212\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8.00回</text><text x=\"284\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.99回</text><text x=\"325.0\" y=\"124.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.46回</text><text x=\"284\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.84回</text><text x=\"325.0\" y=\"147.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"212\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">33.41%</text><text x=\"284\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">36.34%</text><text x=\"325.0\" y=\"169.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 177.2L359 177.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"192.8\" font-size=\"11.5\" style=\"fill:currentColor\">流動比率</text><text x=\"212\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">153.82%</text><text x=\"284\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">169.26%</text><text x=\"325.0\" y=\"192.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M146 0L146 199.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 199.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 199.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"199.1\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 126\" role=\"img\" aria-label=\"売上高営業利益率の変化の内訳（％）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"150.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">前期の売上高営業利益率</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">6.00%</text><rect x=\"175.8\" y=\"42.0\" width=\"124.2\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上原価比率の上昇</text><text x=\"142\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（外注費）</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－4.97%</text><path d=\"M300.0 25.0L300.0 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"175.8\" y=\"75.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">販管費比率の変化</text><text x=\"356\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋0.00%</text><path d=\"M175.8 58.0L175.8 75.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"101.0\" width=\"25.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"113.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期の売上高営業利益率</text><text x=\"356\" y=\"113.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1.03%</text><path d=\"M175.8 91.0L175.8 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-mgmt-03",
+   "cat": "mgmt",
+   "lv": 2,
+   "min": 20,
+   "src": "R4-第1問",
+   "title": "ソフトウェア業：優れる指標2つ・劣る指標1つと要因（同業比較）",
+   "lead": "D社は、中小製造業向けの生産管理システムを開発・販売するソフトウェア会社である。自社で開発した業務パッケージを基に、顧客ごとの導入・カスタマイズと保守のサービスを提供している。開発の大半を自社の技術者が担っており、開発を外注に頼る同業他社より利幅が大きい。\n約10年前に本社ビル（土地と建物）を購入した。その後、在宅勤務が定着して出社する従業員が減り、現在はビルの約半分のフロアが使われていない。また、以前は自社のサーバー設備で顧客のシステムを運用していたが、外部のクラウドサービスへの移行を終え、旧設備は除却されないまま残っている。\n借入金はなく、手元の資金は厚い。\nD社と同業他社の当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（当期末）",
+     "unit": "万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "23,400",
+       "38,900"
+      ],
+      [
+       "　現金預金",
+       "13,881",
+       "21,054"
+      ],
+      [
+       "　売掛金",
+       "8,019",
+       "15,246"
+      ],
+      [
+       "　その他の流動資産",
+       "1,500",
+       "2,600"
+      ],
+      [
+       "固定資産",
+       "30,000",
+       "18,000"
+      ],
+      [
+       "　有形固定資産",
+       "24,200",
+       "4,700"
+      ],
+      [
+       "　　建物",
+       "9,800",
+       "1,820"
+      ],
+      [
+       "　　土地",
+       "11,500",
+       "－"
+      ],
+      [
+       "　　工具器具備品",
+       "2,900",
+       "2,880"
+      ],
+      [
+       "　無形固定資産",
+       "3,000",
+       "6,200"
+      ],
+      [
+       "　投資その他の資産",
+       "2,800",
+       "7,100"
+      ],
+      [
+       "資産合計",
+       "53,400",
+       "56,900"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "9,000",
+       "34,000"
+      ],
+      [
+       "　買掛金",
+       "2,900",
+       "8,600"
+      ],
+      [
+       "　短期借入金",
+       "－",
+       "9,000"
+      ],
+      [
+       "　その他の流動負債",
+       "6,100",
+       "16,400"
+      ],
+      [
+       "固定負債",
+       "2,400",
+       "5,500"
+      ],
+      [
+       "　長期借入金",
+       "－",
+       "3,000"
+      ],
+      [
+       "　その他の固定負債",
+       "2,400",
+       "2,500"
+      ],
+      [
+       "負債合計",
+       "11,400",
+       "39,500"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "3,000",
+       "5,000"
+      ],
+      [
+       "利益剰余金",
+       "39,000",
+       "12,400"
+      ],
+      [
+       "純資産合計",
+       "42,000",
+       "17,400"
+      ],
+      [
+       "負債・純資産合計",
+       "53,400",
+       "56,900"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書（当期）",
+     "unit": "万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "48,600",
+       "92,400"
+      ],
+      [
+       "売上原価",
+       "30,872",
+       "64,912"
+      ],
+      [
+       "売上総利益",
+       "17,728",
+       "27,488"
+      ],
+      [
+       "販売費及び一般管理費",
+       "9,321",
+       "18,296"
+      ],
+      [
+       "営業利益",
+       "8,407",
+       "9,192"
+      ],
+      [
+       "営業外収益",
+       "180",
+       "260"
+      ],
+      [
+       "営業外費用",
+       "30",
+       "420"
+      ],
+      [
+       "経常利益",
+       "8,557",
+       "9,032"
+      ],
+      [
+       "税引前当期純利益",
+       "8,557",
+       "9,032"
+      ],
+      [
+       "法人税等",
+       "2,567",
+       "2,710"
+      ],
+      [
+       "当期純利益",
+       "5,990",
+       "6,322"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社と同業他社の財務諸表を比較し、D社が同業他社より優れていると考えられる財務指標を2つ、劣っていると考えられる財務指標を1つ取り上げ、名称と値を答えよ。値はD社の期末の値を用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。\n優れている2つの指標は異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "優れている指標①",
+       "dp": 2,
+       "accept": {
+        "売上高総利益率": {
+         "v": 36.48,
+         "u": "%"
+        },
+        "売上高営業利益率": {
+         "v": 17.3,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 17.61,
+         "u": "%"
+        },
+        "売上高売上原価比率": {
+         "v": 63.52,
+         "u": "%"
+        },
+        "売上高販売費及び一般管理費比率": {
+         "v": 19.18,
+         "u": "%"
+        }
+       },
+       "grp": "強み"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "優れている指標②",
+       "dp": 2,
+       "accept": {
+        "自己資本比率": {
+         "v": 78.65,
+         "u": "%"
+        },
+        "当座比率": {
+         "v": 243.33,
+         "u": "%"
+        },
+        "流動比率": {
+         "v": 260.0,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 27.14,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 71.43,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 67.57,
+         "u": "%"
+        }
+       },
+       "grp": "強み"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "劣っている指標",
+       "dp": 2,
+       "accept": {
+        "有形固定資産回転率": {
+         "v": 2.01,
+         "u": "回"
+        },
+        "固定資産回転率": {
+         "v": 1.62,
+         "u": "回"
+        }
+       }
+      }
+     ],
+     "steps": [
+      "優①（収益性）：売上高総利益率＝売上総利益17,728÷売上高48,600×100≒36.48%（同業他社29.75%）",
+      "優①の別解：売上高営業利益率＝営業利益8,407÷売上高48,600×100≒17.30%（同業他社9.95%）",
+      "優②（安全性）：自己資本比率＝自己資本42,000÷総資本53,400×100≒78.65%（同業他社30.58%）",
+      "優②の別解：当座比率＝当座資産21,900（現金預金13,881＋売上債権8,019）÷流動負債9,000×100≒243.33%（同業他社106.76%）",
+      "劣（効率性）：有形固定資産回転率＝売上高48,600÷有形固定資産24,200≒2.01回（同業他社19.66回）",
+      "劣の別解：固定資産回転率＝売上高48,600÷固定資産30,000＝1.62回（同業他社5.13回）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "D社が同業他社に比べて劣っている点を指摘し、その要因を与件に即して80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "有形固定資産の効率性が低い。要因は、本社ビルの約半分のフロアが使われていないことと、クラウドへの移行で不要になったサーバー設備を除却せず保有していること。",
+       "points": [
+        "有形固定資産の効率性が低い",
+        "本社ビルの約半分のフロアが使われていない",
+        "不要になったサーバー設備を保有し続けている"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：総資本経常利益率を選ぶ（総合指標。D社16.02%・同業他社15.87%とほぼ同じで、強みとは言えない）。収益性は売上高に対する利益率で示す。",
+    "i2": "よくある誤り：②に効率性の指標を入れる（効率性は劣っている）。優れている2つは観点を分け、②は安全性から選ぶ。当座資産は現金預金と売掛金。",
+    "i3": "よくある誤り：総資本回転率や自己資本当期純利益率を選ぶ。どちらも同業他社より低いが、総合指標で原因の資産を示せない（自己資本当期純利益率が低いのは、借入金がなく自己資本が厚いためでもある）。売上債権回転率は同業他社と同じ（6.06回）。"
+   },
+   "e": "【収益性：強み】売上高総利益率36.48%（同業他社29.75%）、売上高営業利益率17.30%（同9.95%）。自社の技術者による開発で外注費が少ないことが原因。\n【安全性：強み】借入金がなく、自己資本比率78.65%（同30.58%）、当座比率243.33%（同106.76%）。負債比率・固定比率・固定長期適合率なども優れている。\n【効率性：課題】有形固定資産回転率は2.01回で、同業他社（19.66回）の約10分の1。本社ビル（土地・建物）の約半分が使われていないことと、使わないサーバー設備（工具器具備品）が残っていることが原因。固定資産回転率（1.62回、同5.13回）も認める。\n【総合指標の落とし穴】総資本経常利益率は16.02%で、同業他社（15.87%）とほぼ同じ。高い売上高経常利益率（収益性）と低い総資本回転率（効率性）が打ち消し合っているためで、総合指標だけを見ると課題を見落とす（下の図）。\n【本試験での注意】「劣っている点の要因」は、指標の名前だけでなく、与件の具体的な事実（使われていないフロア・不要な設備）まで書く。対策を問われたら、空きフロアの賃貸や、不要な資産の売却・除却が考えられる。\n【図】表は主な指標の比較（網掛けは代表の解答）。その下は、総資本経常利益率を売上高経常利益率と総資本回転率に分けたもの。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 186\" role=\"img\" aria-label=\"D社と同業他社の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"73.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">指標</text><text x=\"182.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">D社</text><text x=\"254.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">同業他社</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.9\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"212\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">36.48%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">29.75%</text><text x=\"325.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"212\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">17.30%</text><text x=\"284\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">9.95%</text><text x=\"325.0\" y=\"62.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.01回</text><text x=\"284\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">19.66回</text><text x=\"325.0\" y=\"85.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産回転率</text><text x=\"212\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.62回</text><text x=\"284\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.13回</text><text x=\"325.0\" y=\"108.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"212\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.06回</text><text x=\"284\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.06回</text><text x=\"325.0\" y=\"131.1\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">同じ</text><rect x=\"1\" y=\"138.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 138.4L359 138.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"212\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">78.65%</text><text x=\"284\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">30.58%</text><text x=\"325.0\" y=\"154.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">当座比率</text><text x=\"212\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">243.33%</text><text x=\"284\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">106.76%</text><text x=\"325.0\" y=\"176.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M146 0L146 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"183.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 132\" role=\"img\" aria-label=\"総資本経常利益率の分解（収益性は高いが、効率性が低い）\" font-size=\"12\"><rect x=\"60.0\" y=\"2\" width=\"240\" height=\"42\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.14;stroke:var(--drop)\" stroke-width=\"1.3\"/><text x=\"180.0\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">総資本経常利益率</text><text x=\"180.0\" y=\"34.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">D社 16.02%／同業他社 15.87%</text><path d=\"M180.0 44L180.0 64\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"186.0\" y=\"60\" font-weight=\"bold\" font-size=\"12\" style=\"fill:currentColor\">＝</text><rect x=\"2.0\" y=\"70\" width=\"168.0\" height=\"56\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"86.0\" y=\"88.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">売上高経常利益率</text><text x=\"86.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">D社 17.61%</text><text x=\"86.0\" y=\"116.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業他社 9.77%</text><text x=\"180.0\" y=\"103.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"14\" style=\"fill:currentColor\">×</text><rect x=\"190.0\" y=\"70\" width=\"168.0\" height=\"56\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"274.0\" y=\"88.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">総資本回転率</text><text x=\"274.0\" y=\"102.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">D社 0.91回</text><text x=\"274.0\" y=\"116.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業他社 1.62回</text></svg>"
+  },
+  {
+   "id": "d4-mgmt-04",
+   "cat": "mgmt",
+   "lv": 2,
+   "min": 20,
+   "src": "R3-第1問",
+   "title": "調剤薬局：優れる指標2つ・課題2つ（同業比較）",
+   "lead": "D社は、地方都市とその周辺で調剤薬局を12店舗運営している。後発医薬品（ジェネリック医薬品）の調剤の割合を高めて調剤報酬の加算を得ているほか、店舗の間で医薬品の在庫を融通し合う仕組みを整え、在庫を少なく抑えている。\n一方、薬剤師の採用が難しく、給与の水準を引き上げたほか、他の店舗からの応援に伴う手当や、人材紹介会社への手数料がかさんでいる（給与・手当は人件費として、手数料はその他として、販売費及び一般管理費に含まれる）。\n店舗の改装の資金や運転資金は、主に短期借入金で調達し、毎年借り換えている。\nD社と同業他社の当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（当期末）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "2,565",
+       "5,390"
+      ],
+      [
+       "　現金預金",
+       "981",
+       "2,130"
+      ],
+      [
+       "　売掛金",
+       "1,089",
+       "1,936"
+      ],
+      [
+       "　医薬品",
+       "365",
+       "1,024"
+      ],
+      [
+       "　その他の流動資産",
+       "130",
+       "300"
+      ],
+      [
+       "固定資産",
+       "1,485",
+       "2,640"
+      ],
+      [
+       "　有形固定資産",
+       "702",
+       "1,248"
+      ],
+      [
+       "　無形固定資産",
+       "180",
+       "560"
+      ],
+      [
+       "　投資その他の資産",
+       "603",
+       "832"
+      ],
+      [
+       "資産合計",
+       "4,050",
+       "8,030"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "2,515",
+       "3,010"
+      ],
+      [
+       "　買掛金",
+       "1,110",
+       "2,000"
+      ],
+      [
+       "　短期借入金",
+       "1,060",
+       "400"
+      ],
+      [
+       "　その他の流動負債",
+       "345",
+       "610"
+      ],
+      [
+       "固定負債",
+       "205",
+       "2,190"
+      ],
+      [
+       "　長期借入金",
+       "－",
+       "1,780"
+      ],
+      [
+       "　その他の固定負債",
+       "205",
+       "410"
+      ],
+      [
+       "負債合計",
+       "2,720",
+       "5,200"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "30",
+       "100"
+      ],
+      [
+       "利益剰余金",
+       "1,300",
+       "2,730"
+      ],
+      [
+       "純資産合計",
+       "1,330",
+       "2,830"
+      ],
+      [
+       "負債・純資産合計",
+       "4,050",
+       "8,030"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書（当期）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "D社",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "7,200",
+       "12,800"
+      ],
+      [
+       "売上原価",
+       "4,918",
+       "9,000"
+      ],
+      [
+       "売上総利益",
+       "2,282",
+       "3,800"
+      ],
+      [
+       "販売費及び一般管理費",
+       "2,218",
+       "3,215"
+      ],
+      [
+       "　人件費",
+       "1,375",
+       "1,799"
+      ],
+      [
+       "　地代家賃",
+       "223",
+       "384"
+      ],
+      [
+       "　その他",
+       "620",
+       "1,032"
+      ],
+      [
+       "営業利益",
+       "64",
+       "585"
+      ],
+      [
+       "営業外収益",
+       "22",
+       "40"
+      ],
+      [
+       "営業外費用",
+       "30",
+       "32"
+      ],
+      [
+       "経常利益",
+       "56",
+       "593"
+      ],
+      [
+       "特別損失",
+       "－",
+       "20"
+      ],
+      [
+       "税引前当期純利益",
+       "56",
+       "573"
+      ],
+      [
+       "法人税等",
+       "17",
+       "172"
+      ],
+      [
+       "当期純利益",
+       "39",
+       "401"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社と同業他社の財務諸表を比較し、D社が同業他社より優れていると考えられる財務指標を2つ、課題を示すと考えられる財務指標を2つ取り上げ、名称と値を答えよ。値はD社の期末の値を用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。\n優れている2つ、課題を示す2つは、それぞれ異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "優れている指標①",
+       "dp": 2,
+       "accept": {
+        "売上高総利益率": {
+         "v": 31.69,
+         "u": "%"
+        },
+        "売上高売上原価比率": {
+         "v": 68.31,
+         "u": "%"
+        }
+       },
+       "grp": "強み"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "優れている指標②",
+       "dp": 2,
+       "accept": {
+        "棚卸資産回転率": {
+         "v": 19.73,
+         "u": "回"
+        }
+       },
+       "grp": "強み"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "課題を示す指標①",
+       "dp": 2,
+       "accept": {
+        "売上高営業利益率": {
+         "v": 0.89,
+         "u": "%"
+        },
+        "売上高販売費及び一般管理費比率": {
+         "v": 30.81,
+         "u": "%"
+        },
+        "売上高人件費比率": {
+         "v": 19.1,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 0.78,
+         "u": "%"
+        }
+       },
+       "grp": "課題"
+      },
+      {
+       "k": "i4",
+       "type": "ind",
+       "label": "課題を示す指標②",
+       "dp": 2,
+       "accept": {
+        "流動比率": {
+         "v": 101.99,
+         "u": "%"
+        },
+        "当座比率": {
+         "v": 82.31,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 96.74,
+         "u": "%"
+        },
+        "自己資本比率": {
+         "v": 32.84,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 204.51,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 111.65,
+         "u": "%"
+        }
+       },
+       "grp": "課題"
+      }
+     ],
+     "steps": [
+      "優①（収益性）：売上高総利益率＝売上総利益2,282÷売上高7,200×100≒31.69%（同業他社29.69%）",
+      "優②（効率性）：棚卸資産回転率＝売上高7,200÷棚卸資産365≒19.73回（同業他社12.50回）",
+      "課①（収益性）：売上高営業利益率＝営業利益64÷売上高7,200×100≒0.89%（同業他社4.57%）",
+      "課①の別解：売上高人件費比率＝人件費1,375÷売上高7,200×100≒19.10%（同業他社14.05%）",
+      "課②（安全性）：流動比率＝流動資産2,565÷流動負債2,515×100≒101.99%（同業他社179.07%）",
+      "課②の別解：当座比率＝当座資産2,070（現金預金981＋売上債権1,089）÷流動負債2,515×100≒82.31%（同業他社135.08%）",
+      "課②の別解：固定長期適合率＝固定資産1,485÷（自己資本1,330＋固定負債205）×100≒96.74%（同業他社52.59%）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1の指標をもとに、同業他社と比べたD社の財務的な特徴と課題を80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "後発医薬品の調剤で売上総利益率が高く、在庫の融通で効率性も高い。一方、薬剤師確保の人件費で営業段階の収益性が低く、短期借入金への依存で短期の安全性が低い。",
+       "points": [
+        "後発医薬品の調剤で売上総利益率が高い",
+        "在庫の融通で効率性が高い",
+        "人件費が重く営業段階の収益性が低い",
+        "短期借入金に頼り短期の安全性が低い"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：売上高営業利益率を強みに選ぶ（人件費の負担で同業他社を大きく下回る）。収益性で優れるのは売上総利益の段階まで（売上高総利益率・売上高売上原価比率）。",
+    "i2": "よくある誤り：有形固定資産回転率・売上債権回転率を選ぶ（同業他社と同じ10.26回・6.61回）。総資本回転率は総合指標で、どの資産が効率的かを示せない。",
+    "i3": "よくある誤り：課題①に売上高総利益率を選ぶ（同業他社より優れている）。課題は販管費（人件費）の段階なので、営業利益率・販管費比率・人件費比率・経常利益率のどれかを選ぶ。総資本経常利益率・自己資本当期純利益率などの総合指標も同業他社より低いが、損益のどの段階に原因があるかを示せないので認めない。",
+    "i4": "よくある誤り：当座資産に医薬品（棚卸資産）を含める。固定長期適合率の分母は自己資本と固定負債の合計。短期借入金への依存は、流動比率・当座比率・固定長期適合率に最も強く表れる。"
+   },
+   "e": "【収益性】売上高総利益率は31.69%で同業他社（29.69%）を上回る（後発医薬品の調剤による加算）。一方、売上高人件費比率は19.10%（同14.05%）と高く、売上高営業利益率は0.89%（同4.57%）にとどまる。同じ収益性でも、売上総利益の段階は強み、販管費の段階は課題になる。\n【効率性】棚卸資産回転率は19.73回で、同業他社（12.50回）より高い（店舗の間の在庫の融通）。有形固定資産回転率・売上債権回転率は同業他社と同じ。\n【安全性】流動比率101.99%（同179.07%）、当座比率82.31%（同135.08%）と、短期の支払能力が低い。固定長期適合率も96.74%（同52.59%）で、店舗の改装の資金まで短期借入金に頼っていることが分かる（下の図）。自己資本比率・負債比率・固定比率も劣るので、課題②はどれを挙げてもよい。\n【本試験での注意】強みと課題が同じ観点（ここでは収益性）に出ることがある。損益計算書を段階ごと（売上総利益→営業利益→経常利益）に見て、どこで差がつくかを確かめる。記述は「強み→課題」の順に、与件の原因と結びつけて書く。\n【図】表は主な指標の比較（網掛けは代表の解答）。その下は貸借対照表の構成で、箱の高さは金額に比例する。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 231\" role=\"img\" aria-label=\"D社と同業他社の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"73.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">指標</text><text x=\"182.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">D社</text><text x=\"254.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">同業他社</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.9\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"212\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">31.69%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">29.69%</text><text x=\"325.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上高人件費比率</text><text x=\"212\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">19.10%</text><text x=\"284\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14.05%</text><text x=\"325.0\" y=\"62.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"212\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0.89%</text><text x=\"284\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4.57%</text><text x=\"325.0\" y=\"85.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><rect x=\"1\" y=\"92.6\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">棚卸資産回転率</text><text x=\"212\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">19.73回</text><text x=\"284\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">12.50回</text><text x=\"325.0\" y=\"108.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">優れる</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10.26回</text><text x=\"284\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10.26回</text><text x=\"325.0\" y=\"131.1\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">同じ</text><rect x=\"1\" y=\"138.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 138.4L359 138.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-size=\"11.5\" style=\"fill:currentColor\">流動比率</text><text x=\"212\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">101.99%</text><text x=\"284\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">179.07%</text><text x=\"325.0\" y=\"154.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">当座比率</text><text x=\"212\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">82.31%</text><text x=\"284\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">135.08%</text><text x=\"325.0\" y=\"176.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 184.2L359 184.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"199.8\" font-size=\"11.5\" style=\"fill:currentColor\">固定長期適合率</text><text x=\"212\" y=\"199.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">96.74%</text><text x=\"284\" y=\"199.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">52.59%</text><text x=\"325.0\" y=\"199.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 207.1L359 207.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"222.7\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"212\" y=\"222.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">32.84%</text><text x=\"284\" y=\"222.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">35.24%</text><text x=\"325.0\" y=\"222.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">劣る</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M146 0L146 229.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 229.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 229.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"229.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"貸借対照表の構成（D社は流動負債が流動資産とほぼ同じ）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">D社</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"120.3\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"79.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"41.8\" y=\"94.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,565</text><rect x=\"1.0\" y=\"142.3\" width=\"81.5\" height=\"69.7\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"174.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"41.8\" y=\"189.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,485</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"118.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"78.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"125.2\" y=\"93.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,515</text><rect x=\"84.5\" y=\"140.0\" width=\"81.5\" height=\"9.6\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"84.5\" y=\"149.6\" width=\"81.5\" height=\"62.4\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"177.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"125.2\" y=\"192.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,330</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">同業他社</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"127.5\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"82.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"234.8\" y=\"97.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">5,390</text><rect x=\"194.0\" y=\"149.5\" width=\"81.5\" height=\"62.5\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"177.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"234.8\" y=\"192.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,640</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"71.2\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"54.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"318.2\" y=\"69.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">3,010</text><rect x=\"277.5\" y=\"93.2\" width=\"81.5\" height=\"51.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"116.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定負債</text><text x=\"318.2\" y=\"131.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,190</text><rect x=\"277.5\" y=\"145.0\" width=\"81.5\" height=\"67.0\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"175.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"318.2\" y=\"190.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,830</text></svg>"
+  },
+  {
+   "id": "d4-mgmt-05",
+   "cat": "mgmt",
+   "lv": 2,
+   "min": 20,
+   "src": "R1-第1問",
+   "title": "電子部品商社：与件で指標を見極める（前期比較）",
+   "lead": "D社は、電子部品を仕入れて国内の機器メーカーに販売する専門商社である。当期は、利幅の大きい産業機器向けの部品の取扱いを増やし、利幅の小さい家電向けの部品を減らした。売上高は前期と同じであった。\n主要な得意先の1社が生産を大きく減らしたため、その得意先向けに見込みで仕入れた部品が売れ残り、倉庫に滞留している。この仕入代金の支払いには、短期借入金を充てた。\nなお、当期末日は金融機関の休業日であったため、得意先から当期末日に入金される予定だった売掛金560百万円が、翌期の最初の営業日に入金された。売掛金の回収条件は前期から変わっていない。\nD社の前期と当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（各期末）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "3,200",
+       "4,031"
+      ],
+      [
+       "　現金預金",
+       "849",
+       "556"
+      ],
+      [
+       "　受取手形・売掛金",
+       "1,435",
+       "1,995"
+      ],
+      [
+       "　商品",
+       "856",
+       "1,420"
+      ],
+      [
+       "　その他の流動資産",
+       "60",
+       "60"
+      ],
+      [
+       "固定資産",
+       "900",
+       "900"
+      ],
+      [
+       "　有形固定資産",
+       "612",
+       "612"
+      ],
+      [
+       "　無形固定資産",
+       "40",
+       "40"
+      ],
+      [
+       "　投資その他の資産",
+       "248",
+       "248"
+      ],
+      [
+       "資産合計",
+       "4,100",
+       "4,931"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "1,600",
+       "2,250"
+      ],
+      [
+       "　支払手形・買掛金",
+       "1,050",
+       "1,100"
+      ],
+      [
+       "　短期借入金",
+       "300",
+       "900"
+      ],
+      [
+       "　その他の流動負債",
+       "250",
+       "250"
+      ],
+      [
+       "固定負債",
+       "600",
+       "520"
+      ],
+      [
+       "　長期借入金",
+       "500",
+       "420"
+      ],
+      [
+       "　その他の固定負債",
+       "100",
+       "100"
+      ],
+      [
+       "負債合計",
+       "2,200",
+       "2,770"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "100",
+       "100"
+      ],
+      [
+       "利益剰余金",
+       "1,800",
+       "2,061"
+      ],
+      [
+       "純資産合計",
+       "1,900",
+       "2,161"
+      ],
+      [
+       "負債・純資産合計",
+       "4,100",
+       "4,931"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "8,400",
+       "8,400"
+      ],
+      [
+       "売上原価",
+       "7,148",
+       "7,019"
+      ],
+      [
+       "売上総利益",
+       "1,252",
+       "1,381"
+      ],
+      [
+       "販売費及び一般管理費",
+       "932",
+       "932"
+      ],
+      [
+       "営業利益",
+       "320",
+       "449"
+      ],
+      [
+       "営業外収益",
+       "18",
+       "20"
+      ],
+      [
+       "営業外費用",
+       "24",
+       "36"
+      ],
+      [
+       "経常利益",
+       "314",
+       "433"
+      ],
+      [
+       "税引前当期純利益",
+       "314",
+       "433"
+      ],
+      [
+       "法人税等",
+       "94",
+       "130"
+      ],
+      [
+       "当期純利益",
+       "220",
+       "303"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の前期と当期の財務諸表を比較し、与件の内容を踏まえて、経営の実態として当期に悪化したと考えられる財務指標を2つ、改善したと考えられる財務指標を1つ取り上げ、名称と当期の値を答えよ。値は財務諸表に記載された当期の期末の値をそのまま用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。\n悪化した2つの指標は異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "悪化した指標①",
+       "dp": 2,
+       "accept": {
+        "棚卸資産回転率": {
+         "v": 5.92,
+         "u": "回"
+        }
+       },
+       "grp": "悪化"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "悪化した指標②",
+       "dp": 2,
+       "accept": {
+        "当座比率": {
+         "v": 113.38,
+         "u": "%"
+        },
+        "流動比率": {
+         "v": 179.16,
+         "u": "%"
+        },
+        "自己資本比率": {
+         "v": 43.82,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 128.18,
+         "u": "%"
+        }
+       },
+       "grp": "悪化"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "改善した指標",
+       "dp": 2,
+       "accept": {
+        "売上高総利益率": {
+         "v": 16.44,
+         "u": "%"
+        },
+        "売上高売上原価比率": {
+         "v": 83.56,
+         "u": "%"
+        },
+        "売上高営業利益率": {
+         "v": 5.35,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 5.15,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 41.65,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 33.57,
+         "u": "%"
+        }
+       }
+      }
+     ],
+     "steps": [
+      "悪①（効率性）：棚卸資産回転率＝売上高8,400÷棚卸資産1,420≒5.92回（前期9.81回）",
+      "悪②（安全性）：当座比率＝当座資産2,551（現金預金556＋売上債権1,995）÷流動負債2,250×100≒113.38%（前期142.75%）",
+      "悪②の別解：自己資本比率＝自己資本2,161÷総資本4,931×100≒43.82%（前期46.34%）",
+      "改善（収益性）：売上高総利益率＝売上総利益1,381÷売上高8,400×100≒16.44%（前期14.90%）",
+      "改善の別解：売上高営業利益率＝営業利益449÷売上高8,400×100≒5.35%（前期3.81%）",
+      "選ばない：売上債権回転率＝売上高8,400÷売上債権1,995≒4.21回（前期5.85回）。入金のずれ560を除くと8,400÷1,435≒5.85回で前期と同じ"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "前期と比べた当期のD社の財務的な特徴を50字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 50,
+       "model": "取扱品の見直しで収益性は改善したが、在庫の滞留で効率性が、その仕入資金の短期借入で安全性が悪化した。",
+       "points": [
+        "取扱品の見直しで収益性が改善",
+        "在庫の滞留で効率性が悪化",
+        "短期借入金の増加で安全性が悪化"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：売上債権回転率を選ぶ。当期は4.21回に下がっているが、期末日が休日で入金560百万円が翌期にずれた一時的なもの。これを除くと売上債権は1,435百万円、回転率は5.85回で前期と同じなので、経営の実態は悪化していない。総資本回転率（2.05回→1.70回）も下がっているが、総合指標で、原因の資産（滞留在庫）を示せないので認めない。",
+    "i2": "よくある誤り：固定比率・固定長期適合率を選ぶ（利益の内部留保で自己資本が増え、むしろ改善している）。滞留在庫の仕入代金を短期借入金で払ったことは、当座比率・流動比率・自己資本比率・負債比率に表れる。",
+    "i3": "よくある誤り：有形固定資産回転率を選ぶ（前期と同じ13.73回）。総資本経常利益率などの総合指標は認めない。改善の中心は収益性（取扱品の見直し）。固定比率・固定長期適合率も数値は改善しているので認める。"
+   },
+   "e": "【数値だけ見ると】売上債権回転率（5.85回→4.21回）と棚卸資産回転率（9.81回→5.92回）がともに大きく下がっており、効率性の指標をどちらにするか迷う。\n【与件で決める】売上債権の増加は、期末日が休日で入金560百万円が翌期にずれた一時的なもの。除いて計算すると1,995−560＝1,435百万円で、回転率は5.85回と前期と同じ。経営の実態として悪化しているのは、売れ残った部品が滞留している棚卸資産のほう。\n【安全性】滞留在庫の仕入代金を短期借入金（300→900百万円）で払ったため、当座比率は142.75%→113.38%、自己資本比率は46.34%→43.82%に下がった。なお、入金のずれは現金預金と売上債権の入れ替わりなので、当座比率・流動比率には影響しない。\n【改善】利幅の大きい産業機器向けの部品を増やし、売上高総利益率が14.90%→16.44%、売上高営業利益率が3.81%→5.35%に上がった。\n【本試験での注意】与件に一時的な要因（休日・臨時の取引・災害など）があれば、数値の変化をそのまま課題とせず、実態で判断する。ただし値は、問題文の指示どおり記載された期末の値で計算する。\n【図】表は主な指標の比較（網掛けは代表の解答）。その下は前期と当期の貸借対照表を同じ縮尺で並べたもので、「入金のずれ」は休日による一時的な売掛金の増加。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 247\" role=\"img\" aria-label=\"前期と当期の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"73.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">指標</text><text x=\"182.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前期</text><text x=\"254.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.9\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"212\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14.90%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16.44%</text><text x=\"325.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"212\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3.81%</text><text x=\"284\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.35%</text><text x=\"325.0\" y=\"62.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"212\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.85回</text><text x=\"284\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4.21回</text><text x=\"325.0\" y=\"85.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">（入金のずれを除く）</text><text x=\"212\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.85回</text><text x=\"284\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.85回</text><text x=\"325.0\" y=\"116.1\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">横ばい</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">棚卸資産回転率</text><text x=\"212\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">9.81回</text><text x=\"284\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.92回</text><text x=\"325.0\" y=\"147.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">13.73回</text><text x=\"284\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">13.73回</text><text x=\"325.0\" y=\"169.9\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">横ばい</text><rect x=\"1\" y=\"177.2\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 177.2L359 177.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"192.8\" font-size=\"11.5\" style=\"fill:currentColor\">当座比率</text><text x=\"212\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">142.75%</text><text x=\"284\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">113.38%</text><text x=\"325.0\" y=\"192.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><path d=\"M1 200.1L359 200.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"215.7\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"212\" y=\"215.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">46.34%</text><text x=\"284\" y=\"215.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">43.82%</text><text x=\"325.0\" y=\"215.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">悪化</text><path d=\"M1 223.0L359 223.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"238.6\" font-size=\"11.5\" style=\"fill:currentColor\">固定比率</text><text x=\"212\" y=\"238.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">47.37%</text><text x=\"284\" y=\"238.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">41.65%</text><text x=\"325.0\" y=\"238.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">改善</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M146 0L146 244.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 244.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 244.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"244.9\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 280\" role=\"img\" aria-label=\"貸借対照表の変化（同じ縮尺）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">前期</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"43.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"40.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">現金預金</text><text x=\"41.8\" y=\"55.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">849</text><rect x=\"1.0\" y=\"65.0\" width=\"81.5\" height=\"72.8\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"98.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">売掛金</text><text x=\"41.8\" y=\"113.4\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,435</text><rect x=\"1.0\" y=\"137.8\" width=\"81.5\" height=\"43.4\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"156.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">商品</text><text x=\"41.8\" y=\"171.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">856</text><rect x=\"1.0\" y=\"181.2\" width=\"81.5\" height=\"48.7\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"202.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">その他</text><text x=\"41.8\" y=\"217.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">960</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"65.9\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"52.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">買掛金など</text><text x=\"125.2\" y=\"67.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,300</text><rect x=\"84.5\" y=\"87.9\" width=\"81.5\" height=\"15.2\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"99.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">短期借入金 300</text><rect x=\"84.5\" y=\"103.1\" width=\"81.5\" height=\"30.4\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"115.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定負債</text><text x=\"125.2\" y=\"130.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">600</text><rect x=\"84.5\" y=\"133.5\" width=\"81.5\" height=\"96.3\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"178.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"125.2\" y=\"193.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,900</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">当期</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"28.2\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"40.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">現金預金 556</text><rect x=\"194.0\" y=\"50.2\" width=\"81.5\" height=\"72.8\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"83.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">売掛金</text><text x=\"234.8\" y=\"98.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,435</text><rect x=\"194.0\" y=\"122.9\" width=\"81.5\" height=\"28.4\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"141.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">入金のずれ 560</text><rect x=\"194.0\" y=\"151.3\" width=\"81.5\" height=\"72.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"184.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">商品</text><text x=\"234.8\" y=\"199.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,420</text><rect x=\"194.0\" y=\"223.3\" width=\"81.5\" height=\"48.7\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"244.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">その他</text><text x=\"234.8\" y=\"259.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">960</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"68.4\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"53.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">買掛金など</text><text x=\"318.2\" y=\"68.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,350</text><rect x=\"277.5\" y=\"90.4\" width=\"81.5\" height=\"45.6\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"110.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">短期借入金</text><text x=\"318.2\" y=\"125.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">900</text><rect x=\"277.5\" y=\"136.1\" width=\"81.5\" height=\"26.4\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"153.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">固定負債 520</text><rect x=\"277.5\" y=\"162.4\" width=\"81.5\" height=\"109.6\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"214.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"318.2\" y=\"229.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,161</text></svg>"
+  },
+  {
+   "id": "d4-mgmt-06",
+   "cat": "mgmt",
+   "lv": 3,
+   "min": 20,
+   "src": "R6-第1問・R5-第1問",
+   "title": "精密部品加工：前期・同業と比べた課題の原因と改善策",
+   "lead": "D社は、自動車や産業機械に使われる精密部品の切削加工を営む製造業者である。熟練した技術者による短納期の受注生産を強みとし、製品の在庫はほとんど持たない。\n主力の加工設備の多くは導入から20年以上たち、故障による生産の停止や加工不良が増えている。当期は、止まった設備の分の加工を協力会社に外注したほか、主要な得意先からの値下げの要請に一部の製品で応じた。\n当期中に、老朽化した設備の一部を新しい加工設備に更新した。更新の資金は、主に短期借入金で調達した。創業以来、利益の多くを内部に留保してきた。\nD社の前期と当期、および同業他社の当期の財務諸表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "貸借対照表（D社は前期末と当期末、同業他社は当期末）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       "",
+       ""
+      ],
+      [
+       "流動資産",
+       "1,300",
+       "1,322",
+       "1,584"
+      ],
+      [
+       "　現金預金",
+       "510",
+       "563",
+       "382"
+      ],
+      [
+       "　受取手形・売掛金",
+       "500",
+       "493",
+       "714"
+      ],
+      [
+       "　棚卸資産",
+       "260",
+       "236",
+       "428"
+      ],
+      [
+       "　その他の流動資産",
+       "30",
+       "30",
+       "60"
+      ],
+      [
+       "固定資産",
+       "1,200",
+       "1,682",
+       "2,436"
+      ],
+      [
+       "　有形固定資産",
+       "1,000",
+       "1,479",
+       "2,142"
+      ],
+      [
+       "　　建物",
+       "300",
+       "285",
+       "650"
+      ],
+      [
+       "　　機械装置",
+       "420",
+       "929",
+       "1,012"
+      ],
+      [
+       "　　土地",
+       "250",
+       "250",
+       "420"
+      ],
+      [
+       "　　その他",
+       "30",
+       "15",
+       "60"
+      ],
+      [
+       "　無形固定資産",
+       "20",
+       "18",
+       "54"
+      ],
+      [
+       "　投資その他の資産",
+       "180",
+       "185",
+       "240"
+      ],
+      [
+       "資産合計",
+       "2,500",
+       "3,004",
+       "4,020"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       "",
+       ""
+      ],
+      [
+       "流動負債",
+       "650",
+       "1,160",
+       "1,050"
+      ],
+      [
+       "　支払手形・買掛金",
+       "280",
+       "300",
+       "520"
+      ],
+      [
+       "　短期借入金",
+       "200",
+       "700",
+       "260"
+      ],
+      [
+       "　その他の流動負債",
+       "170",
+       "160",
+       "270"
+      ],
+      [
+       "固定負債",
+       "300",
+       "250",
+       "1,350"
+      ],
+      [
+       "　長期借入金",
+       "250",
+       "200",
+       "1,240"
+      ],
+      [
+       "　その他の固定負債",
+       "50",
+       "50",
+       "110"
+      ],
+      [
+       "負債合計",
+       "950",
+       "1,410",
+       "2,400"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "50",
+       "50",
+       "100"
+      ],
+      [
+       "利益剰余金",
+       "1,500",
+       "1,544",
+       "1,520"
+      ],
+      [
+       "純資産合計",
+       "1,550",
+       "1,594",
+       "1,620"
+      ],
+      [
+       "負債・純資産合計",
+       "2,500",
+       "3,004",
+       "4,020"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "損益計算書（D社は前期と当期、同業他社は当期）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期",
+      "同業他社"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "3,120",
+       "2,900",
+       "4,200"
+      ],
+      [
+       "売上原価",
+       "2,496",
+       "2,470",
+       "3,430"
+      ],
+      [
+       "売上総利益",
+       "624",
+       "430",
+       "770"
+      ],
+      [
+       "販売費及び一般管理費",
+       "330",
+       "319",
+       "462"
+      ],
+      [
+       "営業利益",
+       "294",
+       "111",
+       "308"
+      ],
+      [
+       "営業外収益",
+       "11",
+       "11",
+       "21"
+      ],
+      [
+       "　受取利息・配当金",
+       "6",
+       "5",
+       "12"
+      ],
+      [
+       "　その他",
+       "5",
+       "6",
+       "9"
+      ],
+      [
+       "営業外費用",
+       "15",
+       "31",
+       "35"
+      ],
+      [
+       "　支払利息",
+       "12",
+       "27",
+       "30"
+      ],
+      [
+       "　その他",
+       "3",
+       "4",
+       "5"
+      ],
+      [
+       "経常利益",
+       "290",
+       "91",
+       "294"
+      ],
+      [
+       "税引前当期純利益",
+       "290",
+       "91",
+       "294"
+      ],
+      [
+       "法人税等",
+       "87",
+       "27",
+       "88"
+      ],
+      [
+       "当期純利益",
+       "203",
+       "64",
+       "206"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の当期の財務指標のうち、同業他社より劣り、かつ前期より悪化しているものを課題として2つ、同業他社より優れているものを強みとして1つ取り上げ、名称と当期の値を答えよ。値は当期の期末の値を用いて計算し、小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回、倍率は倍とする（回転率は売上高を用いて計算する）。\n課題の2つは異なる観点（収益性・効率性・安全性）から1つずつ選ぶこと（①②の順は問わない）。\n総合的な指標（総資本経常利益率・総資本営業利益率・自己資本当期純利益率・総資本回転率）は、原因を示せないので取り上げないこと。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "課題①",
+       "dp": 2,
+       "accept": {
+        "売上高総利益率": {
+         "v": 14.83,
+         "u": "%"
+        },
+        "売上高売上原価比率": {
+         "v": 85.17,
+         "u": "%"
+        },
+        "売上高営業利益率": {
+         "v": 3.83,
+         "u": "%"
+        },
+        "売上高経常利益率": {
+         "v": 3.14,
+         "u": "%"
+        }
+       },
+       "grp": "課題"
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "課題②",
+       "dp": 2,
+       "accept": {
+        "流動比率": {
+         "v": 113.97,
+         "u": "%"
+        },
+        "当座比率": {
+         "v": 91.03,
+         "u": "%"
+        },
+        "固定長期適合率": {
+         "v": 91.21,
+         "u": "%"
+        },
+        "インタレスト・カバレッジ・レシオ": {
+         "v": 4.3,
+         "u": "倍"
+        }
+       },
+       "grp": "課題"
+      },
+      {
+       "k": "i3",
+       "type": "ind",
+       "label": "強み",
+       "dp": 2,
+       "accept": {
+        "自己資本比率": {
+         "v": 53.06,
+         "u": "%"
+        },
+        "負債比率": {
+         "v": 88.46,
+         "u": "%"
+        },
+        "固定比率": {
+         "v": 105.52,
+         "u": "%"
+        },
+        "棚卸資産回転率": {
+         "v": 12.29,
+         "u": "回"
+        }
+       }
+      }
+     ],
+     "steps": [
+      "課①（収益性）：売上高総利益率＝売上総利益430÷売上高2,900×100≒14.83%（前期20.00%、同業他社18.33%）",
+      "課①の別解：売上高営業利益率＝営業利益111÷売上高2,900×100≒3.83%（前期9.42%、同業他社7.33%）",
+      "課②（安全性）：流動比率＝流動資産1,322÷流動負債1,160×100≒113.97%（前期200.00%、同業他社150.86%）",
+      "課②の別解：固定長期適合率＝固定資産1,682÷（自己資本1,594＋固定負債250）×100≒91.21%（前期64.86%、同業他社82.02%）",
+      "課②の別解：インタレスト・カバレッジ・レシオ＝（営業利益111＋受取利息・配当金5）÷支払利息27≒4.30倍（前期25.00倍、同業他社10.67倍）",
+      "強み（安全性）：自己資本比率＝自己資本1,594÷総資本3,004×100≒53.06%（前期62.00%、同業他社40.30%）",
+      "強みの別解（効率性）：棚卸資産回転率＝売上高2,900÷棚卸資産236≒12.29回（前期12.00回、同業他社9.81回）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1で取り上げた2つの課題について、その原因と改善策を80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "老朽設備の故障による外注増と値下げで原価率が上昇し、設備更新を短期借入金で賄い短期の安全性が低下した。新設備で内製化を進め、短期借入金を長期借入金に借り換える。",
+       "points": [
+        "外注の増加と値下げで原価率が上昇",
+        "設備の更新を短期借入金で賄い、短期の安全性が低下",
+        "新設備による内製化で原価を下げる",
+        "短期借入金を長期借入金に借り換える"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：販管費比率を選ぶ（当期は同業他社と同じ11.00%。前期より上がってはいるが、課題の条件を満たさない）。差は売上原価で生じており、売上高総利益率（または売上原価比率）が原因を最も正確に示す。営業利益率・経常利益率も認める。",
+    "i2": "よくある誤り：自己資本比率・負債比率・固定比率を選ぶ。前期より悪化したが、同業他社より優れているので課題の条件に当たらない。短期借入金で設備を買ったことは、流動比率・当座比率・固定長期適合率に表れる（インタレスト・カバレッジ・レシオも認める）。",
+    "i3": "よくある誤り：有形固定資産回転率・売上債権回転率を選ぶ（同業他社と同じ1.96回・5.88回）。流動比率など短期の安全性は同業他社より劣るので、強みにならない。"
+   },
+   "e": "【条件の確かめ方】課題は「同業他社より劣る」と「前期より悪化」の両方を満たす指標。下の表で、両方に当たるもの（判定が「課題」）を探す。総資本経常利益率・自己資本当期純利益率・総資本回転率なども条件には当たるが、総合指標で原因を示せないので、問題文の指示のとおり取り上げない。\n【収益性】売上高総利益率は20.00%→14.83%（同業他社18.33%）。販管費比率は同業他社と同じなので、原因は売上原価にある。老朽設備の故障による外注の増加と、値下げの要請に応じたことが原因。\n【安全性】設備の更新を短期借入金（200→700百万円）で賄ったため、流動比率は200.00%→113.97%（同150.86%）、固定長期適合率は64.86%→91.21%（同82.02%）に悪化した。営業利益の減少と借入金の増加で、インタレスト・カバレッジ・レシオも25.00倍→4.30倍（同10.67倍）に下がった。\n【強み】利益の内部留保で、自己資本比率は53.06%と同業他社（40.30%）より高い（前期62.00%からは低下）。受注生産で在庫が少なく、棚卸資産回転率も12.29回（同9.81回）と優れる。負債比率・固定比率も認める。\n【改善策】収益性は、新しい設備で外注していた加工を内製に戻し、不良を減らして原価率を下げる。安全性は、設備のように長く使う資産の資金を長期借入金に借り換え、調達と運用の期間を合わせる。\n【本試験での注意】長期の安全性（自己資本比率）が高くても、短期の安全性（流動比率）が低いことがある。設備の資金を短期で借りる「調達と運用の期間のずれ」は、固定長期適合率と流動比率で示す。\n【図】表は主な指標の比較（網掛けは代表の解答。判定の「課題」は、同業他社より劣り、かつ前期より悪化したもの）。その下は当期の貸借対照表の構成で、箱の高さは金額に比例する。",
+   "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 255\" role=\"img\" aria-label=\"D社と同業他社の指標（網掛けは代表の解答）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"56.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">指標</text><text x=\"143.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社前期</text><text x=\"205.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社当期</text><text x=\"268.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">同業他社</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">判定</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">売上高総利益率</text><text x=\"168\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20.00%</text><text x=\"230\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14.83%</text><text x=\"294\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">18.33%</text><text x=\"330.0\" y=\"38.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">売上高販売費及び</text><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">一般管理費比率</text><text x=\"168\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10.58%</text><text x=\"230\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">11.00%</text><text x=\"294\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">11.00%</text><text x=\"330.0\" y=\"68.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業並み</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"168\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9.42%</text><text x=\"230\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.83%</text><text x=\"294\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">7.33%</text><text x=\"330.0\" y=\"97.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"168\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.12回</text><text x=\"230\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.96回</text><text x=\"294\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.96回</text><text x=\"330.0\" y=\"120.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">同業並み</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">棚卸資産回転率</text><text x=\"168\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.00回</text><text x=\"230\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.29回</text><text x=\"294\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9.81回</text><text x=\"330.0\" y=\"142.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><rect x=\"1\" y=\"149.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 149.4L359 149.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"164.5\" font-size=\"11\" style=\"fill:currentColor\">流動比率</text><text x=\"168\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">200.00%</text><text x=\"230\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">113.97%</text><text x=\"294\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">150.86%</text><text x=\"330.0\" y=\"164.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 171.6L359 171.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"186.7\" font-size=\"11\" style=\"fill:currentColor\">固定長期適合率</text><text x=\"168\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">64.86%</text><text x=\"230\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">91.21%</text><text x=\"294\" y=\"186.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">82.02%</text><text x=\"330.0\" y=\"186.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><path d=\"M1 193.8L359 193.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"208.9\" font-size=\"11\" style=\"fill:currentColor\">インタレスト・</text><text x=\"6\" y=\"224.1\" font-size=\"11\" style=\"fill:currentColor\">カバレッジ・レシオ</text><text x=\"168\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">25.00倍</text><text x=\"230\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4.30倍</text><text x=\"294\" y=\"216.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10.67倍</text><text x=\"330.0\" y=\"216.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">課題</text><rect x=\"1\" y=\"231.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 231.2L359 231.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"246.3\" font-size=\"11\" style=\"fill:currentColor\">自己資本比率</text><text x=\"168\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">62.00%</text><text x=\"230\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">53.06%</text><text x=\"294\" y=\"246.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">40.30%</text><text x=\"330.0\" y=\"246.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M112 0L112 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M174 0L174 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M236 0L236 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 252.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"252.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:10px\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"貸借対照表の構成（D社は固定負債が少なく、流動負債が多い）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">D社当期</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"83.6\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"60.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"41.8\" y=\"75.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,322</text><rect x=\"1.0\" y=\"105.6\" width=\"81.5\" height=\"106.4\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"155.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"41.8\" y=\"170.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,682</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"73.4\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"55.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"125.2\" y=\"70.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,160</text><rect x=\"84.5\" y=\"95.4\" width=\"81.5\" height=\"15.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"107.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">固定負債 250</text><rect x=\"84.5\" y=\"111.2\" width=\"81.5\" height=\"100.8\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"158.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"125.2\" y=\"173.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,594</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">同業他社</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"74.9\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"56.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動資産</text><text x=\"234.8\" y=\"71.4\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,584</text><rect x=\"194.0\" y=\"96.9\" width=\"81.5\" height=\"115.1\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"151.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定資産</text><text x=\"234.8\" y=\"166.4\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,436</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"49.6\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"43.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">流動負債</text><text x=\"318.2\" y=\"58.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,050</text><rect x=\"277.5\" y=\"71.6\" width=\"81.5\" height=\"63.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"100.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">固定負債</text><text x=\"318.2\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,350</text><rect x=\"277.5\" y=\"135.4\" width=\"81.5\" height=\"76.6\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"170.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"318.2\" y=\"185.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,620</text></svg>"
+  },
+  {
    "id": "j4-mgmt-11",
    "cat": "mgmt",
    "lv": "B",

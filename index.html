@@ -515,7 +515,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v47';   // sw.js の VER と同じ値にする
+var APP_VER='v48';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1616,14 +1616,26 @@ function d4Round(a,dp){var m=Math.pow(10,dp||0);return (a<0?-1:1)*Math.round(Mat
 function d4Eq(x,ans,dp){return isFinite(x)&&Math.abs(x-d4Round(ans,dp))<Math.pow(10,-(dp||0))/1000;}
 function d4Unit(nm){return /回転率/.test(nm)?'回':/レシオ/.test(nm)?'倍':'%';}
 function d4Fmt(v,dp){return Number(v).toLocaleString('ja-JP',{minimumFractionDigits:dp||0,maximumFractionDigits:dp||0});}
+function d4Perms(n){if(n<=1)return [[0].slice(0,n)];var out=[];d4Perms(n-1).forEach(function(q){for(var i=0;i<=q.length;i++){var r=q.slice();r.splice(i,0,n-1);out.push(r);}});return out;}
 function d4Check(p,v){
   var res={};
-  p.parts.forEach(function(pt){var used={};pt.fields.forEach(function(f){
-    var k=f.k;
-    if(f.type==='num'){var x=d4Num(v[k]);res[k]=d4Eq(x,f.ans,f.dp)||(f.alt||[]).some(function(a){return d4Eq(x,a,f.dp);});}
-    else if(f.type==='ind'){var nm=v[k+'_n']||'',a=f.accept[nm];res[k]=!!a&&!used[nm]&&d4Eq(d4Num(v[k+'_v']),a.v,f.dp);if(nm)used[nm]=1;}
-    else if(f.type==='choice'){res[k]=v[k]===f.ans;}
-  });});
+  p.parts.forEach(function(pt){
+    var used={},grps={};
+    pt.fields.forEach(function(f){
+      var k=f.k;
+      if(f.type==='num'){var x=d4Num(v[k]);res[k]=d4Eq(x,f.ans,f.dp)||(f.alt||[]).some(function(a){return d4Eq(x,a,f.dp);});}
+      else if(f.type==='ind'&&f.grp){(grps[f.grp]=grps[f.grp]||[]).push(f);}
+      else if(f.type==='ind'){var nm=v[k+'_n']||'',a=f.accept[nm];res[k]=!!a&&!used[nm]&&d4Eq(d4Num(v[k+'_v']),a.v,f.dp);if(nm)used[nm]=1;}
+      else if(f.type==='choice'){res[k]=v[k]===f.ans;}
+    });
+    // 同じ区分（grp）の欄：記入の順を問わない。入れた指標を欄（観点ごとの正解の枠）に割り当て、正解が最も多くなる組み合わせで採点する
+    Object.keys(grps).forEach(function(g){
+      var F=grps[g],seen={},ans=F.map(function(f){var nm=v[f.k+'_n']||'',dup=!!(nm&&seen[nm]);if(nm)seen[nm]=1;return {nm:dup?'':nm,x:d4Num(v[f.k+'_v'])};});
+      var best=null,bs=-1;
+      d4Perms(F.length).forEach(function(pm){var sc=0,r=pm.map(function(j,i){var a=F[j].accept[ans[i].nm];var ok=!!a&&d4Eq(ans[i].x,a.v,F[j].dp);if(ok)sc++;return ok;});if(sc>bs){bs=sc;best=r;}});
+      F.forEach(function(f,i){res[f.k]=best[i];});
+    });
+  });
   return res;
 }
 function d4State(p){
@@ -1649,8 +1661,9 @@ function d4Field(p,f,v,chk){
     var nm=v[k+'_n']||'',inds=(DATA2.j4&&DATA2.j4.inds)||[];
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><select'+id+esc(k)+'_n" aria-label="'+esc(f.label)+'の指標"><option value="">指標を選ぶ</option>'+inds.map(function(n){return '<option'+(n===nm?' selected':'')+'>'+esc(n)+'</option>';}).join('')+'</select>'
       +'<input type="text" inputmode="decimal" autocomplete="off"'+id+esc(k)+'_v" value="'+esc(v[k+'_v']||'')+'" aria-label="'+esc(f.label)+'の値"><span class="d4-u">'+(nm?d4Unit(nm):'')+'</span></div>';
-    if(chk){var acc=Object.keys(f.accept).map(function(n){return n+'（'+d4Fmt(f.accept[n].v,f.dp)+f.accept[n].u+'）';}).join('、');
-      h+=chk[k]?mk(true)+(Object.keys(f.accept).length>1?'<span class="d4-note">認める指標：'+esc(acc)+'</span>':''):mk(false,'認める指標：'+acc);}
+    if(chk){var A={};(f.grp?p.parts.reduce(function(L,pt){return L.concat(pt.fields.filter(function(x){return x.grp===f.grp&&x.type==='ind';}));},[]):[f]).forEach(function(x){Object.keys(x.accept).forEach(function(n){A[n]=x.accept[n];});});
+      var acc=Object.keys(A).map(function(n){return n+'（'+d4Fmt(A[n].v,f.dp)+A[n].u+'）';}).join('、');
+      h+=chk[k]?mk(true)+(Object.keys(A).length>1?'<span class="d4-note">認める指標'+(f.grp?'（'+esc(f.grp)+'の欄。観点の違うものを1つずつ）':'')+'：'+esc(acc)+'</span>':''):mk(false,'認める指標'+(f.grp?'（'+f.grp+'の欄。観点の違うものを1つずつ）':'')+'：'+acc);}
   } else if(f.type==='choice'){
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><select'+id+esc(k)+'" aria-label="'+esc(f.label)+'"><option value="">選ぶ</option>'+f.opts.map(function(o){return '<option'+(o===v[k]?' selected':'')+'>'+esc(o)+'</option>';}).join('')+'</select>'+mk(chk&&chk[k],'正解は '+f.ans)+'</div>';
   } else {
