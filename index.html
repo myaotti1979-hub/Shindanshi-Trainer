@@ -487,6 +487,65 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .d4-clock{font-size:12.5px;font-weight:700;color:var(--ink-2);font-variant-numeric:tabular-nums}
 .d4-proc{min-height:96px}
 .d4-nav{display:flex;gap:8px;flex-wrap:wrap}
+
+/* 2次の過去問：一覧、80分のタイマー、字数のマス目、自己採点、広い画面の2列（左に保存した問題PDF） */
+.k2-years{display:flex;flex-direction:column;gap:18px}
+.k2-yr{display:flex;flex-direction:column;gap:8px}
+.k2-yr h3{margin:0;font-size:14px;font-weight:700}
+.k2-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:600px){.k2-cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.k2-card{appearance:none;display:flex;flex-direction:column;gap:3px;min-width:0;text-align:left;background:var(--sheet);border:1.5px solid var(--guide);border-radius:var(--r);padding:10px 12px;font:inherit;color:var(--ink);cursor:pointer}
+.k2-card b{font-size:14px}
+.k2-th{font-size:12px;color:var(--ink-2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.k2-st{font-size:12px;font-weight:700;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.k2-st.run{color:var(--warn)}
+.k2-st.done{color:var(--good)}
+.k2-card.off{opacity:.5;cursor:default}
+.k2-head{gap:10px}
+.k2-links{display:flex;flex-wrap:wrap;gap:8px}
+.k2-wide-hint{display:none}
+@media (min-width:1100px){.k2-wide-hint{display:block}}
+.k2-timer{position:sticky;top:-16px;z-index:5;display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;background:var(--paper);border-bottom:1.5px solid var(--guide);padding-block:10px}
+.k2-clock{font-size:28px;font-weight:900;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.k2-clock.warn{color:var(--warn)}
+.k2-clock.over{color:var(--bad)}
+.k2-f{gap:6px}
+.k2-none{font-size:13px;font-weight:400;color:var(--ink-3)}
+.ex-ta{font-weight:400}
+.ex-ta:disabled,.d4-row input:disabled,.d4-row select:disabled{opacity:1;color:var(--ink);-webkit-text-fill-color:var(--ink)}
+.k2-grid{display:grid;grid-template-columns:repeat(20,minmax(0,1fr));width:100%;max-width:520px;border-top:1px solid var(--guide);border-left:1px solid var(--guide);background:var(--sheet)}
+.k2-grid i{font-style:normal;aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-right:1px solid var(--guide);border-bottom:1px solid var(--guide);font-size:clamp(9px,3vw,14px);line-height:1;font-weight:400;color:var(--ink);overflow:hidden}
+.k2-grid i:nth-child(20n+11){border-left:1px solid var(--guide)}
+.k2-grid i.ov{background:var(--bad-soft);color:var(--bad)}
+.k2-memo summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--ink-2);padding-block:4px}
+.k2-memo textarea{margin-top:6px}
+.k2-part{display:flex;flex-direction:column;gap:10px;padding-top:10px;border-top:1px dashed var(--guide)}
+.k2-sum{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-weight:700}
+.k2-sum b{font-size:32px;font-weight:900;line-height:1.1;font-variant-numeric:tabular-nums}
+.k2-ai-t{color:var(--good)}
+.k2-us{font-size:13px;color:var(--good);font-weight:700;white-space:nowrap}
+.k2-pt{display:flex;align-items:flex-start;gap:8px;font-size:14px;line-height:1.6;color:var(--ink);font-weight:400;cursor:pointer}
+.k2-pt input{flex:none;width:18px;height:18px;margin-top:3px;accent-color:var(--good)}
+.k2-pt em{font-style:normal;font-size:12.5px;color:var(--ink-2);white-space:nowrap}
+.k2-pt small{display:block;font-size:12px;color:var(--ink-2)}
+.k2-fl{color:var(--ink);font-size:13px}
+.k2-sub{display:block;font-size:12px;color:var(--drop);letter-spacing:.06em;margin-top:6px}
+.k2-ul{margin:4px 0 0;padding-left:1.2em;font-size:14px;line-height:1.7;display:flex;flex-direction:column;gap:2px}
+.k2-p{margin:4px 0 0;font-size:14px;line-height:1.75}
+.k2-why{display:flex;flex-direction:column;gap:2px;padding-top:8px;border-top:1px dashed var(--guide)}
+.k2-e{border-bottom:0;padding-block:4px 0}
+.k2-mx td{text-align:center;color:var(--drop);font-weight:700}
+.k2-mx tbody th{white-space:normal;min-width:9em;font-size:12.5px}
+.k2-confirm{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:10px;background:var(--warn-soft)}
+#k2side{display:none}
+@media (min-width:1100px){
+  body.k2w #k2side{display:flex;flex-direction:column;position:fixed;top:0;bottom:0;left:0;width:50vw;border-right:1.5px solid var(--guide);background:var(--paper)}
+  body.k2w #app{margin-left:50vw;margin-right:0;width:50vw;max-width:none}
+}
+.k2-if{flex:1;width:100%;border:0;background:var(--sheet)}
+.k2-sbar{flex:none;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;border-top:1px solid var(--guide)}
+.k2-sbar .fine{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.k2-empty{margin:auto;max-width:440px;padding:24px;display:flex;flex-direction:column;gap:12px}
 </style>
 </head>
 <body>
@@ -506,8 +565,10 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
     <button class="tab" type="button" data-act="tab2" data-tab="jtext"><span class="tab-dot" aria-hidden="true"></span>テキスト</button>
     <button class="tab" type="button" data-act="tab2" data-tab="jex"><span class="tab-dot" aria-hidden="true"></span>演習</button>
     <button class="tab" type="button" data-act="tab2" data-tab="j4drill"><span class="tab-dot" aria-hidden="true"></span>事例Ⅳドリル</button>
+    <button class="tab" type="button" data-act="tab2" data-tab="jkako"><span class="tab-dot" aria-hidden="true"></span>過去問</button>
   </nav>
 </div>
+<aside id="k2side" aria-label="問題（保存したPDF）"></aside>
 <section class="panel" id="sess" aria-label="演習" hidden></section>
 <section class="panel" id="msheet" aria-label="過去問の採点" hidden></section>
 <section class="panel" id="mock" aria-label="模擬試験" hidden></section>
@@ -518,7 +579,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v63';   // sw.js の VER と同じ値にする
+var APP_VER='v64';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -655,7 +716,7 @@ function groupOf(t){return t?t.split('.').slice(0,3).join('.'):'';}
 function topicName(q){var it=DATA.items[q.t];if(!it)return '';var g=DATA.groups[it.g];return (g?g.g.n+'｜':'')+it.n;}
 
 /* ---------- 画面の状態 ---------- */
-var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,d4chk:false,d4t0:0,d4sec:0,jtSec:null,exId:null,exShow:false,exGrade:{},exGrading:{}};
+var UI={tab:'today',tab2:'jtext',stage:'s1',drillSub:null,sess:null,sheet:null,reader:null,mock:null,toastT:0,armDel:null,armT:0,lastAdd:null,confirmImport:null,setDraft:null,manual:{s:'zaimu',y:'2021',p:''},swWaiting:null,j4cat:null,j4i:null,j4sel:null,j4ans:null,d4chk:false,d4t0:0,d4sec:0,jtSec:null,jtFrom:null,k2Id:null,k2Pdf:null,k2Grading:{},k2Confirm:false,exId:null,exShow:false,exGrade:{},exGrading:{}};
 try{var t0=localStorage.getItem(STORE+'-tab');if(['today','drill','past','judge','log'].indexOf(t0)>=0)UI.tab=t0;}catch(e){}
 try{var st0=localStorage.getItem(STORE+'-stage');if(st0==='s1'||st0==='s2')UI.stage=st0;}catch(e){}
 
@@ -666,7 +727,8 @@ try{var raw2=localStorage.getItem('shindan2');if(raw2)ST2=JSON.parse(raw2);}catc
 if(!ST2.j4)ST2.j4={};
 if(!ST2.ex)ST2.ex={};  // {[caseId]: {[qNo]: {ans:['...'], at:書いた時刻, grade:{score,…,at:採点の時刻}}}}
 if(!ST2.dr)ST2.dr={};  // 事例Ⅳドリル（本番形式）：{[問題id]: {v:{欄:入力}, at:書いた時刻}}
-if(!ST2.log)ST2.log={};  // 解いた記録：{[記録id]: {k:種類, p:問題や事例のid, at, …}}（同期では両方の端末の分を残す）
+if(!ST2.log)ST2.log={};
+if(!ST2.k2)ST2.k2={};  // 過去問：{[事例id]: {a:{欄:文字}, m:{設問:メモ}, t:{s,e}, done, sc:{観点:1}, ai:{設問:AI採点}, lid, at}}  // 解いた記録：{[記録id]: {k:種類, p:問題や事例のid, at, …}}（同期では両方の端末の分を残す）
 
 function save2(){try{localStorage.setItem('shindan2',JSON.stringify(ST2));}catch(e){}if(typeof SYNC!=='undefined'&&SYNC&&SYNC.user)syncSoon();}
 /* APIキー管理（キーとモデルはこの端末だけに保存。同期しない） */
@@ -861,7 +923,7 @@ function judgeSubject(s){
 var rq=0;
 function schedRender(){if(rq)return;rq=requestAnimationFrame(function(){rq=0;render();});}
 function render(){
-  renderHeader();renderNote();renderStage();
+  renderHeader();renderNote();renderStage();k2Side();
   var v=$('#view'),ae=document.activeElement;
   if(UI.stage==='s2'){
     // 解答を書いている途中（同期や採点の結果が届いたとき）は書き換えない。欄を離れたときに描く
@@ -873,6 +935,9 @@ function render(){
     } else if(UI.tab2==='jex'){
       v.innerHTML=DATA2.ex?viewJEx():'<p class="fine">読み込んでいます…</p>';
       if(!DATA2.ex)loadJEx().then(function(){render();});
+    } else if(UI.tab2==='jkako'){
+      v.innerHTML=DATA2.k2?viewK2():'<p class="fine">読み込んでいます…</p>';
+      if(!DATA2.k2)loadK2().then(function(){render();},function(){v.innerHTML='<p class="err">過去問の一覧を読み込めませんでした。つながる所で開き直してください</p>';});
     } else {
       v.innerHTML=DATA2.j4?viewJ4():'<p class="fine">読み込んでいます…</p>';
       if(!DATA2.j4)loadJ4().then(function(){render();});
@@ -1553,10 +1618,13 @@ function renderJ2(src){
     var m=l.trim().match(/^【1次】([a-z]+)(\.[0-9.]+)\|(.+)$/);
     if(m){flush();var sid=m[1]+m[2],ok=DATA.text[m[1]]&&DATA.text[m[1]].secCh[sid];
       out.push(ok?'<button class="tx-link" type="button" data-act="jt-1ji" data-s="'+esc(m[1])+'" data-sec="'+esc(sid)+'">1次テキスト：'+esc(m[3])+'</button>':'<p class="fine">1次テキスト：'+esc(m[3])+'</p>');return;}
+    var m2=l.trim().match(/^【2次】([a-z0-9_.]+)\|(.+)$/);
+    if(m2){flush();out.push(jtHas(m2[1])?'<button class="tx-link" type="button" data-act="k2-jt" data-sec="'+esc(m2[1])+'">2次テキスト：'+esc(m2[2])+'</button>':'<p class="fine">2次テキスト：'+esc(m2[2])+'</p>');return;}
     buf.push(l.replace(/^- /,'・'));
   });
   flush();return out.join('');
 }
+function jtHas(id){var f=false;J_TEXT_FILES.forEach(function(k){var d=DATA2.text[k];if(d)d.chapters.forEach(function(c){c.sections.forEach(function(x){if(x.id===id)f=true;});});});return f;}
 function viewJText(){
   var order=['j_common','j1','j2','j3','j4_text'];
   var labels={'j_common':'共通','j1':'事例Ⅰ 組織・人事','j2':'事例Ⅱ マーケティング','j3':'事例Ⅲ 生産・技術','j4_text':'事例Ⅳ 財務・会計'};
@@ -1567,6 +1635,7 @@ function viewJText(){
     order.forEach(function(fk){var d=DATA2.text[fk];if(!d)return;d.chapters.forEach(function(ch){ch.sections.forEach(function(sec){if(sec.id===UI.jtSec)found={sec:sec,ch:ch,fk:fk};});});});
     if(found){
       h+='<section class="sec"><div class="sec-h"><span>'+esc(found.ch.title)+'</span></div>';
+      if(UI.jtFrom)h+='<button class="linkbtn back" type="button" data-act="jt-ret">← 過去問に戻る</button>';
       h+='<div class="sheet"><div class="tx-sec"><h3>'+esc(found.sec.title)+'</h3>'+renderJ2(found.sec.content)+'</div>';
       // Prev/Next nav
       var allSecs=[];
@@ -1668,12 +1737,12 @@ function d4Table(t){
   h+='</tbody></table></div>'+(t.note?'<p class="d4-note">'+esc(t.note)+'</p>':'');
   return h;
 }
-function d4Field(p,f,v,chk){
-  var k=f.k,id=' data-d4="'+esc(p.id)+'" data-k="',h='<div class="field d4-f">';
+function d4Field(p,f,v,chk,att){
+  var A=att||'d4',k=f.k,id=' data-'+A+'="'+esc(p.id)+'" data-k="',h='<div class="field d4-f">';
   function mk(ok,ng){return chk?'<span class="d4-mk '+(ok?'ok':'ng')+'">'+(ok?'○ 正解':'× '+esc(ng))+'</span>':'';}
   if(f.type==='num'){
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><input type="text" inputmode="decimal" autocomplete="off"'+id+esc(k)+'" value="'+esc(v[k]||'')+'" aria-label="'+esc(f.label)+'">'
-      +'<button class="d4-pm" type="button" data-act="d4-pm" data-d4p="'+esc(p.id)+'" data-k="'+esc(k)+'" aria-label="符号（マイナス）を付ける・外す">±</button>'   // スマホの数字キーに「−」がないとき用
+      +'<button class="d4-pm" type="button" data-act="d4-pm" data-d4p="'+esc(p.id)+'" data-att="'+A+'" data-k="'+esc(k)+'" aria-label="符号（マイナス）を付ける・外す">±</button>'   // スマホの数字キーに「−」がないとき用
       +'<span class="d4-u">'+esc(f.unit||'')+'</span>'+mk(chk&&chk[k],'正解は '+d4Fmt(f.ans,f.dp)+(f.unit||''))+'</div>';
   } else if(f.type==='ind'){
     var nm=v[k+'_n']||'',inds=(DATA2.j4&&DATA2.j4.inds)||[];
@@ -1772,6 +1841,272 @@ function renderJ4Q(p,idx,total){
   h+='</div>';
   return h;
 }
+/* ---------- 2次の過去問（令和元〜6年度の24事例） ----------
+   与件と設問は協会の問題PDFで読む（アプリには載せない）。アプリでは80分を計り、解答欄（字数のマス目）に書く。
+   解き終えたら、解答例・解説・採点の観点（このアプリが作ったもの。検証済みの事例だけ）で見直し、自己採点か AI 採点で点の目安を出す。
+   記録：ST2.k2[事例id] = {a:{欄:文字}, m:{設問:メモ}, t:{s:計り始めた時刻（0＝止めている）, e:それまでの経過ms}, done:解き終えた時刻（0＝途中）,
+          sc:{観点:1}（自己採点のチェック）, ai:{設問:AI採点}, lid:記録（ST2.log）のid, at:書いた時刻}
+   欄のキー：事例Ⅰ〜Ⅲは「大問-その大問の中の欄の番号」（例 '4-1'）。解答例のない事例でも同じキーで書け、あとで解答例が載っても答えが残る。事例Ⅳは欄の k */
+var K2J={1:'事例Ⅰ',2:'事例Ⅱ',3:'事例Ⅲ',4:'事例Ⅳ'},K2JN={1:'組織・人事',2:'マーケティング・流通',3:'生産・技術',4:'財務・会計'},K2MIN=80;
+function loadK2(){
+  if(DATA2.k2)return Promise.resolve();
+  return fetch('data/k2.json').then(function(r){return r.json();}).then(function(j){var by={};(j.cases||[]).forEach(function(c){by[c.id]=c;});DATA2.k2={cases:j.cases||[],by:by};});
+}
+function loadK2C(id){
+  DATA2.k2c=DATA2.k2c||{};
+  if(DATA2.k2c[id])return Promise.resolve(DATA2.k2c[id]);
+  return fetch('data/'+id+'.json').then(function(r){if(!r.ok)throw new Error('nf');return r.json();}).then(function(j){DATA2.k2c[id]=j;return j;});
+}
+function k2Len(s){return Array.from(String(s||'')).length;}
+function k2Rec(id){var r=ST2.k2[id];if(!r)r=ST2.k2[id]={a:{},m:{},t:{s:0,e:0},done:0,sc:{},ai:{},at:0};['a','m','sc','ai'].forEach(function(k){if(!r[k])r[k]={};});if(!r.t)r.t={s:0,e:0};return r;}
+function k2Ms(r){return r&&r.t?(r.t.e||0)+(r.t.s?Math.max(0,Date.now()-r.t.s):0):0;}
+function k2Fmt(ms){var s=Math.max(0,Math.floor(ms/1000));return Math.floor(s/60)+':'+pad(s%60);}   // 分:秒（80分を「80:00」と出す）
+function k2Clock(r){var left=K2MIN*60000-k2Ms(r);return left>=0?k2Fmt(left):'+'+k2Fmt(-left);}
+function k2Stop(r){if(r.t.s){r.t.e=(r.t.e||0)+Math.max(0,Date.now()-r.t.s);r.t.s=0;}}
+/* 設問の単位（配点の付いた単位）。解答例があればそれを、なければ大問ごと（共通編の字数と配点）にする */
+function k2Units(m,c){
+  if(c&&c.qs){
+    var cnt={},byDai={};c.qs.forEach(function(q){byDai[q.dai]=(byDai[q.dai]||0)+1;});
+    var seen={};
+    return c.qs.map(function(q){
+      seen[q.dai]=(seen[q.dai]||0)+1;
+      var u={k:q.k,h:q.h,dai:q.dai,pts:q.pts,q:q,col:String(q.dai)+(byDai[q.dai]>1?'-'+seen[q.dai]:'')};
+      if(m.j<=3)u.f=(q.fields||[]).map(function(f){var n=cnt[q.dai]||0;cnt[q.dai]=n+1;return {key:q.dai+'-'+n,k:f.k,label:f.label,limit:f.limit};});
+      return u;
+    });
+  }
+  if(m.j>3)return [];
+  return (m.dai||[]).map(function(d){return {k:'d'+d.no,h:'第'+d.no+'問',dai:d.no,pts:d.pts,q:null,col:String(d.no),f:d.lim.map(function(l,i){return {key:d.no+'-'+i,k:String(i),label:d.lim.length>1?'解答欄'+(i+1):'解答',limit:l};})};});
+}
+/* 字数のマス目（1行20マス。字数を超えた分は赤） */
+function k2Grid(s,lim){
+  var ch=Array.from(String(s||'')),n=Math.max(lim,ch.length),h='<div class="k2-grid" aria-hidden="true">';
+  for(var i=0;i<n;i++)h+='<i'+(i>=lim?' class="ov"':'')+'>'+(ch[i]?esc(ch[i]):'')+'</i>';
+  return h+'</div>';
+}
+function k2TextField(id,uk,key,label,lim,val,ro){
+  var n=k2Len(val),h='<div class="field k2-f"><span>'+esc(label)+'（'+lim+'字以内）</span>';
+  if(!ro)h+='<textarea class="ex-ta" rows="3" data-k2="'+esc(id)+'" data-k="'+esc(key)+'" data-u="'+esc(uk)+'" data-grid="'+lim+'" aria-label="'+esc(label)+'">'+esc(val)+'</textarea>';
+  if(ro&&!n)return h+'<span class="k2-none">（書いていない）</span></div>';
+  h+='<div class="ex-count'+(n>lim?' over':'')+'">'+n+' / '+lim+'字'+(ro&&n>lim?'（字数を超えている。本試験の解答用紙には書けない）':'')+'</div>'+k2Grid(val,lim);
+  return h+'</div>';
+}
+/* 事例Ⅳの欄：数値・指標・選択・計算過程は事例Ⅳドリルの描き方を使う（欄の印は data-k2） */
+function k2P4(m,u){return {id:m.id,parts:u.q.parts,ce:u.q.ce||{}};}
+function k2Fld(u,f){for(var i=0;i<u.q.fields.length;i++)if(u.q.fields[i].k===f)return u.q.fields[i];return null;}
+/* 自己採点（目安）：事例Ⅰ〜Ⅲは、チェックした観点の配分の合計。字数を超えた欄の観点は数えない */
+function k2Self(m,u,r){
+  if(!u.q)return null;
+  if(m.j<=3){
+    var over={};u.f.forEach(function(f){if(k2Len(r.a[f.key])>f.limit)over[f.k]=1;});
+    var s=0;u.q.points.forEach(function(p,i){if(r.sc[u.k+'.'+i]&&!over[p.f])s+=p.w;});return Math.min(u.pts,s);
+  }
+  // 事例Ⅳ：設問ごとに、自動で採点する欄（数値・指標・選択）の正解と、記述の欄の観点のチェックの割合から（設問の配点がなければ均等に分ける）
+  var res=d4Check({parts:u.q.parts},r.a),tot=0,np=u.q.parts.length;
+  u.q.parts.forEach(function(pt){
+    var pp=pt.pts!=null?pt.pts:u.pts/np,n=0,got=0;
+    pt.fields.forEach(function(f){
+      if(f.type==='num'||f.type==='ind'||f.type==='choice'){n++;if(res[f.k])got++;}
+      else if(f.type==='text'){n++;var P=f.points||[];if(P.length&&k2Len(r.a[f.k])<=f.limit){var c=0;P.forEach(function(x,i){if(r.sc[u.k+'.'+f.k+'.'+i])c++;});got+=c/P.length;}}
+    });
+    if(n)tot+=pp*got/n;
+  });
+  return Math.round(tot);
+}
+function k2Total(m,c,r,ai){
+  var U=k2Units(m,c),t=0;if(!c||!U.length)return null;
+  for(var i=0;i<U.length;i++){
+    if(ai){var g=r.ai[U[i].k];if(!g)return null;t+=g.score;}
+    else t+=k2Self(m,U[i],r)||0;
+  }
+  return t;
+}
+function k2Log(id){var r=ST2.k2[id];if(!r||!r.lid||!ST2.log[r.lid])return;var m=DATA2.k2&&DATA2.k2.by[id],c=DATA2.k2c&&DATA2.k2c[id];if(!m||!c)return;var L=ST2.log[r.lid];L.self=k2Total(m,c,r,false);var a=k2Total(m,c,r,true);if(a!=null)L.ai=a;}
+function k2Status(m,r){
+  if(!r||(!r.done&&!k2Ms(r)&&!Object.keys(r.a||{}).some(function(k){return r.a[k];})))return {t:'未着手',c:''};
+  if(!r.done)return {t:'解答中 ・ 残り '+k2Clock(r),c:'run'};
+  var L=r.lid&&ST2.log[r.lid],s=L&&L.self!=null?L.self:null;   // 自己採点は、チェックしたときに記録へ書いた値
+  return {t:'解き終えた'+(s!=null?' ・ 自己採点 '+s+'点':''),c:'done'};
+}
+function viewK2(){
+  var d=DATA2.k2;if(!d)return '';
+  var m=UI.k2Id&&d.by[UI.k2Id];
+  if(m)return k2Case(m);
+  var h='<section class="sec"><div class="sec-h"><span>過去問（令和元〜6年度）</span></div><div class="sheet">'
+    +'<p class="lead">協会の問題PDFで与件と設問を読み、80分を計って、解答欄（字数のマス目）に書きます。解き終えたら、解答例・解説・採点の観点で見直します。</p>'
+    +'<p class="fine">解答例と採点の観点はこのアプリが作ったものです（協会は模範解答も採点基準も公表していません）。解答例ができた事例から順に載せます。令和7・8年度は、仕上げに初見で解くために残しています。</p></div></section>';
+  h+='<section class="sec"><div class="sec-h"><span>年度と事例を選ぶ</span></div><div class="k2-years">';
+  for(var y=6;y>=1;y--){
+    h+='<div class="k2-yr"><h3>令和'+(y===1?'元':y)+'年度（'+(2018+y)+'）</h3><div class="k2-cards">';
+    d.cases.filter(function(c){return c.y===y;}).forEach(function(c){
+      var off=c.j>3&&!c.has,st=k2Status(c,ST2.k2[c.id]);
+      h+='<button class="k2-card'+(off?' off':'')+'" type="button" data-act="k2-open" data-id="'+esc(c.id)+'"'+(off?' disabled':'')+'><b>'+K2J[c.j]+'</b>'
+        +'<span class="k2-th">'+esc(c.has?c.theme:(off?'準備中':K2JN[c.j]+'（解答例は準備中）'))+'</span>'
+        +(off?'':'<span class="k2-st '+st.c+'">'+esc(st.t)+'</span>')+'</button>';
+    });
+    h+='</div></div>';
+  }
+  return h+'</div></section>';
+}
+function k2Case(m){
+  var c=DATA2.k2c&&DATA2.k2c[m.id],r=k2Rec(m.id),U=k2Units(m,c),rev=!!r.done,yn='令和'+(m.y===1?'元':m.y)+'年度';
+  var h='<section class="sec"><div class="sec-h"><span>'+yn+' '+K2J[m.j]+'</span></div>'
+    +'<button class="linkbtn back" type="button" data-act="k2-back">← 過去問の一覧に戻る</button>'
+    +'<div class="sheet k2-head"><p class="lead">'+esc(c?c.theme:K2JN[m.j])+'</p>'
+    +'<div class="k2-links"><a class="btn ghost small" href="'+esc(m.pdf)+'" target="_blank" rel="noopener">問題（協会のPDF）</a>'
+    +(rev?'<a class="btn ghost small" href="'+esc(m.shushi)+'" target="_blank" rel="noopener">出題の趣旨（協会のPDF）</a>':'')+'</div>'
+    +(c?'':'<p class="fine">この事例の解答例・解説は準備中です。解いた答えは残るので、載ったら見直せます。</p>')
+    +'<p class="fine k2-wide-hint">パソコンの広い画面では、保存した問題PDFを左に並べて表示できます。</p></div></section>';
+  if(!rev){
+    var run=!!r.t.s,ms=k2Ms(r);
+    h+='<div class="k2-timer"><span class="k2-clock'+(ms>K2MIN*60000?' over':ms>(K2MIN-10)*60000?' warn':'')+'" id="k2clock">'+k2Clock(r)+'</span>'
+      +'<span class="fine">'+(run?'計っています':ms?'止めています':'80分')+'</span>'
+      +'<button class="btn small'+(run?'':' primary')+'" type="button" data-act="'+(run?'k2-pause':'k2-start')+'">'+(run?'一時停止':ms?'再開':'開始')+'</button></div>';
+    U.forEach(function(u){
+      h+='<section class="sec"><div class="ex-qbox"><h4>'+esc(u.h)+'（配点'+u.pts+'点）</h4>'+(u.q?'<p>'+esc(u.q.ask)+'</p>':'<p class="fine">設問は問題PDFで読む。</p>');
+      if(m.j<=3)u.f.forEach(function(f){h+=k2TextField(m.id,u.k,f.key,f.label,f.limit,r.a[f.key]||'',false);});
+      else h+=k2Parts4(m,u,r,null);
+      var memo=r.m[u.k]||'';
+      h+='<details class="k2-memo"'+(memo?' open':'')+'><summary>メモ（骨子）</summary><textarea class="ex-ta" rows="3" data-k2="'+esc(m.id)+'" data-k="'+esc(u.k)+'" data-memo="1" aria-label="'+esc(u.h)+'のメモ">'+esc(memo)+'</textarea></details>';
+      h+='</div></section>';
+    });
+    h+='<section class="sec"><button class="btn primary wide" type="button" data-act="k2-done">解き終えた（見直しへ）</button>'
+      +'<p class="fine">解き終えると時間を止め、'+(c?'解答例・解説・採点の観点':'出題の趣旨へのリンク')+'を出します。</p></section>';
+    return h;
+  }
+  return h+k2Review(m,c,r,U);
+}
+/* 事例Ⅳの大問の中身：設問（parts）ごとに、欄と（見直しのとき）答え合わせ */
+function k2Parts4(m,u,r,chk){
+  var p=k2P4(m,u),h='';
+  u.q.parts.forEach(function(pt){
+    h+='<div class="k2-part">'+(pt.h?'<h5 class="d4-h">'+esc(pt.h)+(pt.pts!=null?'（'+pt.pts+'点）':'')+'</h5>':'')+'<div class="d4-q">'+d4Paras(pt.q)+'</div>';
+    pt.fields.forEach(function(f){
+      if(f.type==='text'){
+        h+=k2TextField(m.id,u.k,f.k,f.label,f.limit,r.a[f.k]||'',!!chk);
+        if(chk){h+='<div class="ex-model"><b>解答例</b><p>'+esc(f.model)+'</p><b>採点の観点（自分の答えに入っていればチェック）</b>';
+          (f.points||[]).forEach(function(x,i){var key=u.k+'.'+f.k+'.'+i;h+='<label class="k2-pt"><input type="checkbox" data-act="k2-sc" data-id="'+esc(m.id)+'" data-key="'+esc(key)+'"'+(r.sc[key]?' checked':'')+'><span>'+esc(x)+'</span></label>';});
+          h+='</div>';}
+      } else {var fh=d4Field(p,f,r.a,chk,'k2');h+=chk?fh.replace(/<(input|select|textarea)\b/g,'<$1 disabled').replace(/<button class="d4-pm"/g,'<button disabled class="d4-pm"'):fh;}   // 見直しでは書き換えない（直すときは「答えを直す」）
+    });
+    if(chk&&pt.steps&&pt.steps.length)h+='<div class="d4-steps"><b>計算の手順</b><ol>'+pt.steps.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ol></div>';
+    h+='</div>';
+  });
+  return h;
+}
+function k2Review(m,c,r,U){
+  var h='',sec=Math.round(k2Ms(r)/1000);
+  var self=c?k2Total(m,c,r,false):null,ai=c?k2Total(m,c,r,true):null;
+  h+='<section class="sec"><div class="sec-h"><span>見直し</span></div><div class="sheet"><div class="k2-sum">'
+    +(c?'<span>自己採点（目安）</span><b>'+self+'</b><span>/ 100点</span>'+(ai!=null?'<span class="k2-ai-t">AI採点 '+ai+'点</span>':''):'<span>解答例は準備中</span>')
+    +'</div><p class="fine">かかった時間 '+k2Fmt(sec*1000)+(sec>K2MIN*60?'（80分を超えた）':'')+'。'+(c?'各設問の観点のうち、自分の答えに入っているものにチェックを付けると点になります。点と配分はこのアプリの目安です。':'出題の趣旨（協会のPDF）で、問われたことに答えられたかを確かめてください。')+'</p>';
+  if(c&&AI_KEY&&m.j<=3)h+='<button class="btn primary wide" type="button" data-act="k2-ai">AI採点する（観点ごと）</button>';
+  else if(c&&m.j<=3)h+='<p class="fine">AI採点は、Anthropic のAPIキーを「演習」の画面で設定すると使えます（キーはこの端末にだけ保存）。</p>';
+  h+=UI.k2Confirm?'<div class="k2-confirm"><p class="fine">今の答えと点は記録に残し、白紙から80分で解き直します。</p><div class="d4-nav"><button class="btn primary small" type="button" data-act="k2-new-yes">白紙にする</button><button class="btn ghost small" type="button" data-act="k2-new-no">やめる</button></div></div>'
+    :'<div class="d4-nav"><button class="btn ghost small" type="button" data-act="k2-redo">答えを直す</button><button class="btn ghost small" type="button" data-act="k2-new">もう一度、白紙から解く</button></div>';
+  h+='</div></section>';
+  if(c){
+    // 与件の流れと設問の対応（basis から描く）
+    var mx='<div class="d4-tw"><table class="d4-tbl k2-mx"><caption>与件の流れと設問の対応（●＝根拠に使う所）</caption><thead><tr><th scope="col">与件の流れ</th>'+U.map(function(u){return '<th scope="col">'+esc(u.col)+'</th>';}).join('')+'</tr></thead><tbody>';
+    c.gist.forEach(function(g,gi){mx+='<tr><th scope="row">'+(gi+1)+'. '+esc(g)+'</th>'+U.map(function(u){return '<td>'+((u.q.basis||[]).some(function(b){return b[0]===gi+1;})?'●':'')+'</td>';}).join('')+'</tr>';});
+    mx+='</tbody></table></div>';
+    h+='<section class="sec"><div class="sec-h"><span>この事例の要点</span></div><div class="sheet">'+mx
+      +'<div><b class="k2-sub">この事例で身につけること</b><ul class="k2-ul">'+c.lesson.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div></div></section>';
+  }
+  U.forEach(function(u){
+    var q=u.q,sc=c?k2Self(m,u,r):null,g=r.ai[u.k];
+    h+='<section class="sec" id="k2u-'+esc(u.k)+'"><div class="ex-qbox"><h4>'+esc(u.h)+'（配点'+u.pts+'点）'+(sc!=null?' <span class="k2-us">自己採点 '+sc+'点'+(g?' ・ AI '+g.score+'点':'')+'</span>':'')+'</h4>'+(q?'<p>'+esc(q.ask)+'</p>':'');
+    if(m.j<=3){
+      u.f.forEach(function(f){h+=k2TextField(m.id,u.k,f.key,'あなたの答え：'+f.label,f.limit,r.a[f.key]||'',true);});
+      if(q){
+        h+='<div class="ex-model"><b>解答例</b>'+q.fields.map(function(f){return '<p>'+(q.fields.length>1?'<b class="k2-fl">'+esc(f.label)+'：</b>':'')+esc(q.model[f.k])+'</p>';}).join('');
+        h+='<b>採点の観点（自分の答えに入っていればチェック）</b>';
+        q.points.forEach(function(p,i){var key=u.k+'.'+i,fl=k2Fld(u,p.f),aiG=g&&g.got?g.got[i]:null;
+          h+='<label class="k2-pt"><input type="checkbox" data-act="k2-sc" data-id="'+esc(m.id)+'" data-key="'+esc(key)+'"'+(r.sc[key]?' checked':'')+'><span>'+(q.fields.length>1&&fl?'['+esc(fl.label)+'] ':'')+esc(p.t)+' <em>'+p.w+'点'+(aiG!=null?' ・ AI '+aiG+'点':'')+'</em>'+(g&&g.why&&g.why[i]?'<small>'+esc(g.why[i])+'</small>':'')+'</span></label>';});
+        h+='</div>';
+        if(UI.k2Grading&&UI.k2Grading[m.id+'/'+u.k])h+='<div class="ex-loading">AI採点中…</div>';
+        else if(g)h+='<div class="ex-ai"><b>AI採点 '+g.score+' / '+u.pts+'点</b><div class="ex-fb">'+esc(g.feedback)+'</div></div>';
+      }
+    } else if(q){
+      var res=d4Check({parts:q.parts},r.a);
+      h+=k2Parts4(m,u,r,res);
+    }
+    if(q){
+      h+='<div class="k2-why"><b class="k2-sub">根拠（与件の流れ）</b><ul class="k2-ul">'+q.basis.map(function(b){return '<li>'+b[0]+'. '+esc((c.gist[b[0]-1]||''))+'：'+esc(b[1])+'</li>';}).join('')+'</ul>'
+        +'<b class="k2-sub">出題の趣旨（要約）</b><p class="k2-p">'+esc(q.shushi)+'</p>'
+        +'<b class="k2-sub">解説</b><div class="tx-sec k2-e">'+renderJ2(q.e)+'</div></div>';
+    }
+    var memo=r.m[u.k];if(memo)h+='<div class="k2-why"><b class="k2-sub">自分のメモ</b><p class="k2-p">'+esc(memo)+'</p></div>';
+    h+='</div></section>';
+  });
+  return h;
+}
+/* AI採点（事例Ⅰ〜Ⅲ）：解答例・観点・根拠・趣旨を渡し、観点ごとに点を付けさせる */
+function k2AiPrompt(m,c,u,r){
+  var q=u.q,L=[];
+  L.push('あなたは中小企業診断士の第2次試験（筆記）の採点者です。協会は採点基準を公表していないので、下の「採点の観点」を基準に、受験者の解答を観点ごとに採点してください。');
+  L.push('');
+  L.push('【事例】令和'+(m.y===1?'元':m.y)+'年度 '+K2J[m.j]+'（'+c.theme+'）');
+  L.push('【与件の流れ（要約）】'+c.gist.map(function(g,i){return (i+1)+'. '+g;}).join(' / '));
+  L.push('【設問】'+u.h+'（配点'+u.pts+'点）：'+q.ask);
+  L.push('【出題の趣旨（要約）】'+q.shushi);
+  L.push('【与件の根拠】'+q.basis.map(function(b){return b[0]+'. '+(c.gist[b[0]-1]||'')+'：'+b[1];}).join(' / '));
+  L.push('【解答例】');
+  q.fields.forEach(function(f){L.push('・'+f.label+'（'+f.limit+'字以内）：'+q.model[f.k]);});
+  L.push('【採点の観点（合計'+u.pts+'点）】');
+  q.points.forEach(function(p,i){var f=k2Fld(u,p.f);L.push((i+1)+'. ['+(f?f.label:'')+'] '+p.t+'（'+p.w+'点）');});
+  L.push('【受験者の解答】');
+  u.f.forEach(function(f){var s=r.a[f.key]||'',n=k2Len(s);L.push('・'+f.label+'（'+f.limit+'字以内）：'+(s?'「'+s+'」（'+n+'字'+(n>f.limit?'、字数超過':'')+'）':'（未記入）'));});
+  L.push('');
+  L.push('採点のしかた：');
+  L.push('・観点ごとに、受験者の解答の [ ] の欄に同じ意味の要素があれば配点どおり、不十分（あいまい、根拠が弱い、因果が欠ける）なら一部、なければ0点。言い回しが解答例と違っても、意味が同じなら認める。');
+  L.push('・設問の条件（観点・時制・対象）から外れた内容、与件にない内容には点を付けない。');
+  L.push('・字数を超えた欄の観点は0点にする。');
+  L.push('・解答例にない要素でも、与件の根拠があって設問の条件に合うものは、feedback で触れる（点は観点の範囲で付ける）。');
+  L.push('');
+  L.push('次の形の JSON だけを返す（コードブロックなし）：{"pts":[{"i":観点の番号,"got":その観点の得点（0〜配点の整数）,"why":"判断の理由（30字程度）"}],"feedback":"良い点と、次に直す点（100字程度）"}');
+  return L.join('\n');
+}
+function k2ParseAi(txt,u,r){
+  var o=null;try{o=JSON.parse(txt);}catch(e){var mm=txt.match(/\{[\s\S]*\}/);if(mm){try{o=JSON.parse(mm[0]);}catch(e2){}}}
+  if(!o||!Array.isArray(o.pts))throw new Error('採点の結果を読み取れませんでした。もう一度試してください');
+  var P=u.q.points,got=P.map(function(){return 0;}),why=P.map(function(){return '';}),over={};
+  u.f.forEach(function(f){if(k2Len(r.a[f.key])>f.limit)over[f.k]=1;});
+  o.pts.forEach(function(x){var i=Math.round(Number(x&&x.i))-1;if(i>=0&&i<P.length){var g=Math.round(Number(x.got));got[i]=isFinite(g)?Math.max(0,Math.min(P[i].w,g)):0;why[i]=String(x.why||'').slice(0,120);}});
+  P.forEach(function(p,i){if(over[p.f]){got[i]=0;why[i]='字数を超えた欄（0点）';}});
+  return {got:got,why:why,score:got.reduce(function(a,b){return a+b;},0),feedback:String(o.feedback||'').slice(0,500),at:Date.now(),model:AI_MODEL};
+}
+/* パソコンの広い画面：保存した問題PDFを左に並べる（この端末の中だけで開く。IndexedDB に事例ごとに覚える） */
+var K2DB=null;
+function k2Db(){if(!K2DB)K2DB=new Promise(function(res,rej){try{var q=indexedDB.open('shindan2-pdf',1);q.onupgradeneeded=function(){q.result.createObjectStore('pdf');};q.onsuccess=function(){res(q.result);};q.onerror=function(){rej(q.error);};}catch(e){rej(e);}});return K2DB;}
+function k2PdfPut(id,file){return k2Db().then(function(db){return new Promise(function(res,rej){var tx=db.transaction('pdf','readwrite');tx.objectStore('pdf').put({name:file.name,blob:file},id);tx.oncomplete=function(){res();};tx.onerror=function(){rej(tx.error);};});});}
+function k2PdfGet(id){return k2Db().then(function(db){return new Promise(function(res){var tx=db.transaction('pdf','readonly'),q=tx.objectStore('pdf').get(id);q.onsuccess=function(){res(q.result||null);};q.onerror=function(){res(null);};});}).catch(function(){return null;});}
+function k2PdfDel(id){return k2Db().then(function(db){return new Promise(function(res){var tx=db.transaction('pdf','readwrite');tx.objectStore('pdf').delete(id);tx.oncomplete=function(){res();};tx.onerror=function(){res();};});}).catch(function(){});}
+function k2PdfShow(id,o){if(UI.k2Pdf&&UI.k2Pdf.url)URL.revokeObjectURL(UI.k2Pdf.url);UI.k2Pdf=o&&o.blob?{id:id,name:o.name||'問題.pdf',url:URL.createObjectURL(o.blob)}:{id:id};k2Side(true);}
+function k2Side(force){
+  var on=UI.stage==='s2'&&UI.tab2==='jkako'&&!!UI.k2Id,side=$('#k2side');
+  document.body.classList.toggle('k2w',on);
+  if(!side)return;
+  if(!on){if(side.dataset.id){side.innerHTML='';side.dataset.id='';}return;}
+  var wide=!window.matchMedia||window.matchMedia('(min-width:1100px)').matches;   // 狭い画面では左の欄は出ないので、PDF も開かない
+  var m=DATA2.k2&&DATA2.k2.by[UI.k2Id],p=UI.k2Pdf&&UI.k2Pdf.id===UI.k2Id?UI.k2Pdf:null,key=UI.k2Id+'|'+(p&&p.url||'')+'|'+wide;
+  if(!m||(!force&&side.dataset.id===key))return;
+  if(!wide){side.innerHTML='';side.dataset.id=key;return;}
+  side.dataset.id=key;
+  side.innerHTML=p&&p.url?'<iframe class="k2-if" title="問題（保存したPDF）" src="'+esc(p.url)+'"></iframe><div class="k2-sbar"><span class="fine">'+esc(p.name)+'（この端末の中だけで表示）</span><label class="linkbtn">別のPDF<input type="file" class="k2pdf" accept="application/pdf,.pdf" hidden></label><button class="linkbtn" type="button" data-act="k2-pdf-del">外す</button></div>'
+    :'<div class="k2-empty"><p class="lead">令和'+(m.y===1?'元':m.y)+'年度 '+K2J[m.j]+'の問題</p><p class="fine">協会の問題PDFを保存してから選ぶと、ここに並べて表示します。PDFはこの端末の中だけで開き、どこにも送りません（次に開いたときも表示します）。</p>'
+      +'<div class="k2-links"><a class="btn ghost small" href="'+esc(m.pdf)+'" target="_blank" rel="noopener">問題（協会のPDF）を開く</a><label class="btn small primary">保存したPDFを選ぶ<input type="file" class="k2pdf" accept="application/pdf,.pdf" hidden></label></div></div>';
+}
+function k2Open(id){
+  var m=DATA2.k2&&DATA2.k2.by[id];if(!m)return;
+  UI.k2Id=id;UI.k2Grading={};$('#main').scrollTop=0;
+  var need=[loadJText()];if(m.has)need.push(loadK2C(id));if(m.j>3)need.push(loadJ4());
+  Promise.all(need).catch(function(){toast('解答例を読み込めませんでした。つながる所で開き直してください');}).then(function(){render();});
+  if(!UI.k2Pdf||UI.k2Pdf.id!==id){if(UI.k2Pdf&&UI.k2Pdf.url)URL.revokeObjectURL(UI.k2Pdf.url);UI.k2Pdf={id:id};k2PdfGet(id).then(function(o){if(UI.k2Id===id&&o)k2PdfShow(id,o);});}
+  render();
+}
+window.addEventListener('resize',function(){if(UI.k2Id)k2Side();});
+
 function draftOf(st){return {wdMin:String(st.wdMin),weMin:String(st.weMin),newPerDay:String(st.newPerDay),exam1:st.exam1,exam2:st.exam2};}
 function setBind(path,val){var p=path.split('.');if(p[0]==='setDraft'&&!UI.setDraft)UI.setDraft=draftOf(ST.settings);var o=UI[p[0]];if(o)o[p[1]]=val;}
 function saveSettings(){
@@ -1810,7 +2145,7 @@ document.addEventListener('click',function(ev){
   if(a.indexOf('mk-')===0&&mockKey(a,b))return;
   switch(a){
     case 'tab':setTab(b.dataset.tab);break;
-    case 'tab2':UI.tab2=b.dataset.tab;UI.jtSec=null;$('#main').scrollTop=0;render();break;
+    case 'tab2':UI.tab2=b.dataset.tab;UI.jtSec=null;UI.jtFrom=null;$('#main').scrollTop=0;render();break;
     case 'stage':setStage(b.dataset.stage);break;
     case 'scroll':{var tg=document.getElementById(b.dataset.to);if(tg)tg.scrollIntoView({behavior:'smooth',block:'start'});break;}
     case 'tab-judge':UI.sheet=null;renderSheet();setTab('judge');break;
@@ -1901,6 +2236,45 @@ document.addEventListener('click',function(ev){
     case 'jt-sec':UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;
     case 'jt-back':UI.jtSec=null;$('#main').scrollTop=0;render();break;
     case 'jt-1ji':openText(b.dataset.s,null,b.dataset.sec,2);break;   // 2次のテキストから、1次のテキストの節を開く
+    case 'k2-jt':if(UI.tab2==='jkako')UI.jtFrom={tab:'jkako',top:$('#main').scrollTop};UI.tab2='jtext';UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;   // 解説から2次のテキストの節を開く
+    case 'jt-ret':{var jf=UI.jtFrom;UI.jtFrom=null;UI.jtSec=null;UI.tab2=(jf&&jf.tab)||'jtext';render();$('#main').scrollTop=(jf&&jf.top)||0;break;}
+    /* 過去問 */
+    case 'k2-open':k2Open(b.dataset.id);break;
+    case 'k2-back':UI.k2Id=null;UI.k2Confirm=false;$('#main').scrollTop=0;render();break;
+    case 'k2-start':{var kr=k2Rec(UI.k2Id);if(!kr.t.s){kr.t.s=Date.now();kr.at=Date.now();save2();}render();break;}
+    case 'k2-pause':{var kr=k2Rec(UI.k2Id);k2Stop(kr);kr.at=Date.now();save2();render();break;}
+    case 'k2-done':{
+      var km=DATA2.k2&&DATA2.k2.by[UI.k2Id];if(!km)break;
+      var kr=k2Rec(km.id),kn=Date.now();k2Stop(kr);kr.done=kn;kr.at=kn;
+      var klid=kr.lid&&ST2.log[kr.lid]?kr.lid:uid('k2');   // 直してからもう一度「解き終えた」なら、同じ回の記録を書き換える
+      ST2.log[klid]=Object.assign(ST2.log[klid]||{},{k:'k2',p:km.id,at:kn,sec:Math.round(k2Ms(kr)/1000)});kr.lid=klid;k2Log(km.id);
+      save2();$('#main').scrollTop=0;render();break;
+    }
+    case 'k2-redo':{var kr=k2Rec(UI.k2Id);kr.done=0;kr.at=Date.now();UI.k2Confirm=false;save2();$('#main').scrollTop=0;render();break;}
+    case 'k2-new':UI.k2Confirm=true;render();break;
+    case 'k2-new-no':UI.k2Confirm=false;render();break;
+    case 'k2-new-yes':{   // 今の答えは記録（ST2.log）に残し、白紙から解き直す
+      var kid=UI.k2Id,kr=k2Rec(kid);
+      if(kr.lid&&ST2.log[kr.lid])ST2.log[kr.lid].a=JSON.parse(JSON.stringify(kr.a));
+      ST2.k2[kid]={a:{},m:{},t:{s:0,e:0},done:0,sc:{},ai:{},at:Date.now()};UI.k2Confirm=false;
+      save2();$('#main').scrollTop=0;render();break;
+    }
+    case 'k2-sc':{var kr=k2Rec(b.dataset.id);if(b.checked)kr.sc[b.dataset.key]=1;else delete kr.sc[b.dataset.key];kr.at=Date.now();k2Log(b.dataset.id);save2();schedRender();break;}
+    case 'k2-ai':{
+      var am=DATA2.k2&&DATA2.k2.by[UI.k2Id],ac=am&&DATA2.k2c&&DATA2.k2c[am.id];if(!ac||!AI_KEY||am.j>3)break;
+      var ar=k2Rec(am.id),AU=k2Units(am,ac).filter(function(u){return !ar.ai[u.k]&&!UI.k2Grading[am.id+'/'+u.k]&&u.f.some(function(f){return ar.a[f.key];});});
+      if(!AU.length){toast('採点する答えがありません（採点済みか、まだ書いていない）');break;}
+      AU.forEach(function(u){UI.k2Grading[am.id+'/'+u.k]=true;});
+      // 1問ずつ順に送る（同時に送ると、利用の上限に当たりやすい）
+      AU.reduce(function(pr,u){return pr.then(function(){
+        var gk=am.id+'/'+u.k,rr=k2Rec(am.id);
+        return aiMessage(k2AiPrompt(am,ac,u,rr)).then(function(txt){var g=k2ParseAi(txt,u,rr);rr.ai[u.k]=g;rr.at=Date.now();k2Log(am.id);save2();})
+          .catch(function(e){toast('採点できませんでした：'+((e&&e.message)||e));})
+          .then(function(){delete UI.k2Grading[gk];schedRender();});
+      });},Promise.resolve());
+      render();break;
+    }
+    case 'k2-pdf-del':{var pid=UI.k2Id;if(pid){k2PdfDel(pid);k2PdfShow(pid,null);}break;}
     /* 事例Ⅳドリル */
     case 'j4-cat':UI.j4cat=b.dataset.cat;UI.j4i=null;UI.j4sel=null;UI.j4ans=null;UI.d4chk=false;$('#main').scrollTop=0;render();break;
     case 'j4-cats':UI.j4cat=null;UI.j4i=null;UI.d4chk=false;$('#main').scrollTop=0;render();break;
@@ -1924,7 +2298,7 @@ document.addEventListener('click',function(ev){
       UI.d4chk=true;save2();render();break;
     }
     case 'd4-pm':{   // 数値の欄の符号を付け外しする（入力の保存は input の処理に任せる）
-      var pin=document.querySelector('[data-d4="'+b.dataset.d4p+'"][data-k="'+b.dataset.k+'"]');if(!pin)break;
+      var pin=document.querySelector('[data-'+(b.dataset.att||'d4')+'="'+b.dataset.d4p+'"][data-k="'+b.dataset.k+'"]');if(!pin)break;
       var pv=pin.value.trim();pin.value=/^[-−－▲△]/.test(pv)?pv.replace(/^[-−－▲△]\s*/,''):'-'+pv;
       pin.dispatchEvent(new Event('input',{bubbles:true}));break;
     }
@@ -1939,10 +2313,28 @@ document.addEventListener('toggle',function(ev){var d=ev.target;if(d&&d.tagName=
 document.addEventListener('change',function(ev){
   var t=ev.target;
   if(t.id==='importFile'){if(t.files&&t.files[0])onImportFile(t.files[0]);t.value='';return;}
+  if(t.classList&&t.classList.contains('k2pdf')){   // 過去問：保存した問題PDFを左に並べる（この端末の中だけ）
+    var kf=t.files&&t.files[0],kfid=UI.k2Id;t.value='';
+    if(kf&&kfid){if(!/pdf$/i.test(kf.type||'')&&!/\.pdf$/i.test(kf.name||'')){toast('PDFのファイルを選んでください');return;}k2PdfPut(kfid,kf).catch(function(){});k2PdfShow(kfid,{name:kf.name,blob:kf});}
+    return;
+  }
   var bd=t.dataset&&t.dataset.bind;if(!bd)return;setBind(bd,t.value);if(t.tagName==='SELECT')render();
 });
 document.addEventListener('input',function(ev){
   var t=ev.target,bd=t.dataset&&t.dataset.bind;if(bd&&t.tagName!=='SELECT')setBind(bd,t.value);
+  // 過去問の答えとメモの保存。記述の欄は改行を入れず、字数とマス目をその場で直す。答えを書き直したら、その設問のAI採点は消す
+  if(t.dataset&&t.dataset.k2){
+    var kid2=t.dataset.k2,kk=t.dataset.k,kr2=k2Rec(kid2);
+    if(t.dataset.memo){kr2.m[kk]=t.value;kr2.at=Date.now();save2();return;}
+    var kv=t.value;
+    if(t.dataset.grid&&/[\r\n]/.test(kv)){var kpos=(t.selectionStart||0),kbef=kv.slice(0,kpos).replace(/[\r\n]/g,'');kv=kv.replace(/[\r\n]/g,'');t.value=kv;try{t.setSelectionRange(kbef.length,kbef.length);}catch(e){}}
+    kr2.a[kk]=kv;kr2.at=Date.now();
+    if(t.dataset.u&&kr2.ai[t.dataset.u])delete kr2.ai[t.dataset.u];
+    save2();
+    if(t.dataset.grid){var kl=+t.dataset.grid,kb=t.parentElement,kn2=k2Len(kv),kc=kb&&kb.querySelector('.ex-count'),kg=kb&&kb.querySelector('.k2-grid');if(kc){kc.textContent=kn2+' / '+kl+'字';kc.classList.toggle('over',kn2>kl);}if(kg)kg.outerHTML=k2Grid(kv,kl);}
+    if(t.tagName==='SELECT'&&/_n$/.test(kk)){var kdu=t.parentElement&&t.parentElement.querySelector('.d4-u');if(kdu)kdu.textContent=t.value?d4Unit(t.value):'';}
+    return;
+  }
   // 事例Ⅳドリル（本番形式）の入力の保存。答え合わせのあとに書き直したら、結果の表示は欄を離れたときに消す
   if(t.dataset&&t.dataset.d4){
     var dpid=t.dataset.d4,dk=t.dataset.k,drr=ST2.dr[dpid]||(ST2.dr[dpid]={v:{},at:0});
@@ -1980,6 +2372,8 @@ document.addEventListener('keydown',function(ev){
 setInterval(function(){
   if(ST.timer){var f=document.getElementById('tface');if(f)f.textContent=fmtClock(Date.now()-ST.timer);}
   if(UI.d4t0&&!UI.d4chk){var dck=document.getElementById('d4clock');if(dck)dck.textContent=fmtClock(Date.now()-UI.d4t0);}
+  if(UI.k2Id&&UI.stage==='s2'&&UI.tab2==='jkako'){var kck=document.getElementById('k2clock'),kcr=ST2.k2[UI.k2Id];if(kck&&kcr){var kms=k2Ms(kcr);kck.textContent=k2Clock(kcr);kck.classList.toggle('over',kms>K2MIN*60000);kck.classList.toggle('warn',kms<=K2MIN*60000&&kms>(K2MIN-10)*60000);
+    UI.k2Alert=UI.k2Alert||{};if(kcr.t.s&&kms>=K2MIN*60000&&!UI.k2Alert[UI.k2Id]){UI.k2Alert[UI.k2Id]=1;toast('80分が経ちました（本試験ならここで終わり）');}}}
   var m=UI.sheet;if(m&&m.t0&&m.phase==='mark'){var p=document.getElementById('ptimer');if(p){var lim=DATA.syl.subjects.filter(function(x){return x.k===m.s;})[0].min*60000;p.textContent=fmtClock(Math.max(0,lim-(Date.now()-m.t0)));}}
   // 模擬試験の残り時間。0になったら提出する（画面を開いているとき）
   if(ST.mockRun&&DATA.syl){var left=runLeft(),mt=document.getElementById('mtimer');if(mt){mt.textContent=fmtClock(Math.max(0,left));mt.classList.toggle('warn',left<5*60000);}
@@ -2039,18 +2433,19 @@ function putSync(mg){ST.srs=mg.srs||{};ST.past=mg.past||[];ST.mock=mg.mock||[];S
    ・解いた記録（log）：id で合わせる（両方の端末の分を残す）
    ・旧形式のドリルの回数（j4）：多いほう
    2次の記録は消さずに必ず合わせる（はじめての同期で「クラウドの記録にする」を選んでも、2次は合わせる） */
-function sync2Part(S){S=S||{};return JSON.parse(JSON.stringify({ex:S.ex||{},dr:S.dr||{},log:S.log||{},j4:S.j4||{}}));}
+function sync2Part(S){S=S||{};return JSON.parse(JSON.stringify({ex:S.ex||{},dr:S.dr||{},log:S.log||{},j4:S.j4||{},k2:S.k2||{}}));}
 function merge2(L,R){
   L=sync2Part(L);if(!R)return L;R=sync2Part(R);
   function newer(a,b){if(!a)return b;if(!b)return a;var x=a.at||0,y=b.at||0;if(x!==y)return x>y?a:b;var ga=(a.grade&&a.grade.at)||(a.grade?1:0),gb=(b.grade&&b.grade.at)||(b.grade?1:0);return gb>ga?b:a;}
-  var o={ex:{},dr:{},log:{},j4:{}};
+  var o={ex:{},dr:{},log:{},j4:{},k2:{}};
+  Object.keys(L.k2).concat(Object.keys(R.k2)).forEach(function(c){o.k2[c]=newer(L.k2[c],R.k2[c]);});
   Object.keys(L.ex).concat(Object.keys(R.ex)).forEach(function(c){if(o.ex[c])return;var a=L.ex[c]||{},b=R.ex[c]||{},m={};Object.keys(a).concat(Object.keys(b)).forEach(function(q){m[q]=newer(a[q],b[q]);});o.ex[c]=m;});
   Object.keys(L.dr).concat(Object.keys(R.dr)).forEach(function(p){o.dr[p]=newer(L.dr[p],R.dr[p]);});
   Object.keys(L.log).concat(Object.keys(R.log)).forEach(function(k){o.log[k]=L.log[k]||R.log[k];});
   Object.keys(L.j4).concat(Object.keys(R.j4)).forEach(function(p){var a=L.j4[p]||{},b=R.j4[p]||{};o.j4[p]={att:Math.max(a.att||0,b.att||0),cor:Math.max(a.cor||0,b.cor||0),last:Math.max(a.last||0,b.last||0)};});
   return JSON.parse(JSON.stringify(o));
 }
-function put2(mg){ST2.ex=mg.ex||{};ST2.dr=mg.dr||{};ST2.log=mg.log||{};ST2.j4=mg.j4||{};}
+function put2(mg){ST2.ex=mg.ex||{};ST2.dr=mg.dr||{};ST2.log=mg.log||{};ST2.j4=mg.j4||{};ST2.k2=mg.k2||{};}
 function sync2(M,u,dv){
   var F=M.F,ref=F.doc(M.db,'users',u.uid,'sync','s2'),mine=sync2Part(ST2);
   return F.runTransaction(M.db,function(tx){return tx.get(ref).then(function(s){

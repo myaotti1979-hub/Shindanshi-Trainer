@@ -1,0 +1,878 @@
+{
+ "cases": [
+  {
+   "id": "k2-r01-1",
+   "y": 1,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2019/a2ji2019.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/h31/h31_2ji_shushi/r01_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 5,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r01-2",
+   "y": 1,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2019/b2ji2019.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/h31/h31_2ji_shushi/r01_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      40,
+      40,
+      40,
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 30,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 50,
+     "lim": [
+      100,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r01-3",
+   "y": 1,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2019/c2ji2019.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/h31/h31_2ji_shushi/r01_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      80
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 40,
+     "lim": [
+      120,
+      140
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r01-4",
+   "y": 1,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2019/d2ji2019.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/h31/h31_2ji_shushi/r01_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 25
+    },
+    {
+     "no": 2,
+     "pts": 25
+    },
+    {
+     "no": 3,
+     "pts": 30
+    },
+    {
+     "no": 4,
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "k2-r02-1",
+   "y": 2,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2020/a2ji2020.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r02/2ji_shushi/r02_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 40,
+     "lim": [
+      100,
+      100
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r02-2",
+   "y": 2,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2020/b2ji2020.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r02/2ji_shushi/r02_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      40,
+      40,
+      40,
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 30,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 30,
+     "lim": [
+      50,
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r02-3",
+   "y": 2,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2020/c2ji2020.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r02/2ji_shushi/r02_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      40,
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 40,
+     "lim": [
+      60,
+      60,
+      60,
+      60
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r02-4",
+   "y": 2,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2020/d2ji2020.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r02/2ji_shushi/r02_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 25
+    },
+    {
+     "no": 2,
+     "pts": 30
+    },
+    {
+     "no": 3,
+     "pts": 20
+    },
+    {
+     "no": 4,
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "k2-r03-1",
+   "y": 3,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2021/a2ji2021.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r03/2ji_shushi/r03_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 5,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r03-2",
+   "y": 3,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2021/b2ji2021.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r03/2ji_shushi/r03_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      30,
+      30,
+      30,
+      30
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 25,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 30,
+     "lim": [
+      50,
+      50
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 25,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r03-3",
+   "y": 3,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2021/c2ji2021.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r03/2ji_shushi/r03_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      40,
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 30,
+     "lim": [
+      20,
+      20,
+      80,
+      80
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 30,
+     "lim": [
+      140
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r03-4",
+   "y": 3,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2021/d2ji2021.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r03/2ji_shushi/r03_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 30
+    },
+    {
+     "no": 2,
+     "pts": 30
+    },
+    {
+     "no": 3,
+     "pts": 20
+    },
+    {
+     "no": 4,
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "k2-r04-1",
+   "y": 4,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2022/a2ji2022.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r04/2ji_shushi/r04_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 40,
+     "lim": [
+      50,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r04-2",
+   "y": 4,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2022/b2ji2022.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r04/2ji_shushi/r04_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 30,
+     "lim": [
+      150
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 30,
+     "lim": [
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r04-3",
+   "y": 4,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2022/c2ji2022.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r04/2ji_shushi/r04_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      80
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 5,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r04-4",
+   "y": 4,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2022/d2ji2022.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r04/2ji_shushi/r04_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 25
+    },
+    {
+     "no": 2,
+     "pts": 20
+    },
+    {
+     "no": 3,
+     "pts": 35
+    },
+    {
+     "no": 4,
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "k2-r05-1",
+   "y": 5,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2023/A2JI2023.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r05/2ji_shushi/r05_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      30,
+      30
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 40,
+     "lim": [
+      80,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r05-2",
+   "y": 5,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2023/B2JI2023.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r05/2ji_shushi/r05_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 30,
+     "lim": [
+      150
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 30,
+     "lim": [
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r05-3",
+   "y": 5,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2023/C2JI2023.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r05/2ji_shushi/r05_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 10,
+     "lim": [
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 5,
+     "pts": 30,
+     "lim": [
+      140
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r05-4",
+   "y": 5,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2023/D2JI2023.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r05/2ji_shushi/r05_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20
+    },
+    {
+     "no": 2,
+     "pts": 30
+    },
+    {
+     "no": 3,
+     "pts": 30
+    },
+    {
+     "no": 4,
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "k2-r06-1",
+   "y": 6,
+   "j": 1,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2024/A2JI2024.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r06/2ji_shushi/r06_2ji_shushi_jirei1.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      30,
+      30
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 40,
+     "lim": [
+      80,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r06-2",
+   "y": 6,
+   "j": 2,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2024/B2JI2024.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r06/2ji_shushi/r06_2ji_shushi_jirei2.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      40,
+      40,
+      40,
+      40
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 25,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 25,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 30,
+     "lim": [
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r06-3",
+   "y": 6,
+   "j": 3,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2024/C2JI2024.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r06/2ji_shushi/r06_2ji_shushi_jirei3.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 20,
+     "lim": [
+      80
+     ]
+    },
+    {
+     "no": 2,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 3,
+     "pts": 20,
+     "lim": [
+      100
+     ]
+    },
+    {
+     "no": 4,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    },
+    {
+     "no": 5,
+     "pts": 20,
+     "lim": [
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k2-r06-4",
+   "y": 6,
+   "j": 4,
+   "pdf": "https://www.jf-cmca.jp/attach/test/shikenmondai/2ji2024/D2JI2024.pdf",
+   "shushi": "https://www.jf-cmca.jp/attach/test/r06/2ji_shushi/r06_2ji_shushi_jirei4.pdf",
+   "dai": [
+    {
+     "no": 1,
+     "pts": 25
+    },
+    {
+     "no": 2,
+     "pts": 20
+    },
+    {
+     "no": 3,
+     "pts": 30
+    },
+    {
+     "no": 4,
+     "pts": 25
+    }
+   ]
+  }
+ ]
+}
