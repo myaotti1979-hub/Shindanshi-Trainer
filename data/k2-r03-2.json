@@ -1,0 +1,389 @@
+{
+ "id": "k2-r03-2",
+ "y": 3,
+ "j": 2,
+ "theme": "豆腐の製造販売：ネット販売・FCの置き配・主婦層の菓子",
+ "gist": [
+  "豆腐の製造販売・15名、軟水に恵まれた地方都市",
+  "1953年に創業、地元産大豆と水の豆腐が評判",
+  "小京都の京文化、京都で修業した職人の繁盛店",
+  "2代目：卸売を始め、農村部に新しい工場",
+  "現社長：PBを受注し、最盛期は売上の約半分",
+  "2015年にPBを失い、設備と人員をY社へ",
+  "Y社：地元の米の全国EC、B社の水、コラボ企画",
+  "雑誌の紹介で、Y社サイトに全国の食通",
+  "冷蔵販売車の移動販売を、FC方式で始める",
+  "地元産大豆に戻し、季節の変わり豆腐を月替わり",
+  "駐車場の交流、試食の工夫で高単価品が売れる",
+  "高齢の客は電話、若年層はIM、受注サイトは見送り",
+  "収穫祭の豆腐丼が好評、主婦層の客は少ない",
+  "コロナ禍：試食の中止、手作り豆腐セットが人気",
+  "売上3割減、置き配の検討と菓子・ネット販売の夢"
+ ],
+ "lesson": [
+  "第1問は、時点（2021年8月末）と目的（移動販売の拡大・ネット販売の立ち上げ）に合う要素を選ぶ。検討中の置き配や、夢の菓子類・ネット販売は強みにしない。Y社とその客はB社の外（O）。",
+  "与件の部品を組み合わせて商品にする（第2問：手作り豆腐セット＋Y社の新米＋B社の地下水の水＝収穫祭の豆腐丼）。弱み（ネット販売のノウハウ）は、協業（Y社のコラボ企画）で補い、脅威（全国の豆腐のECに多い同じ型のセット）とは組み合わせで差をつける。",
+  "立場を分けて書く設問（第3問）は、与件の役割分担（加盟者＝担当地域の販売、B社＝それ以外のマーケティングと支援）に沿って、欄ごとにその主体の行動を書く。",
+  "設問が決めたターゲットに手段を合わせる（第3問：置き配を使う高齢の客＝電話、第4問：X市周辺の主婦層＝IM）。設問どうしで客層を混ぜない。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "2021年8月末の時点のB社の状況を、移動販売を広げることとネット販売を始めることを目的に、SWOT分析で整理する。①〜④の欄に各30字以内（設問文は欄ごとの区分を書いていない。ここではS・W・O・Tの順とした）。配点は第1問で計20点（欄ごとの内訳は示されていない。各5点は目安）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "①強み（S）",
+     "limit": 30
+    },
+    {
+     "k": "b",
+     "label": "②弱み（W）",
+     "limit": 30
+    },
+    {
+     "k": "c",
+     "label": "③機会（O）",
+     "limit": 30
+    },
+    {
+     "k": "d",
+     "label": "④脅威（T）",
+     "limit": 30
+    }
+   ],
+   "model": {
+    "a": "地元産大豆と軟水の評判の豆腐と、ヒットした手作り豆腐セット。",
+    "b": "主婦層の客が少なく、ネット販売のノウハウも受注サイトもない。",
+    "c": "Y社が得た全国の食通、在宅の食事へのこだわり、置き配の要望。",
+    "d": "コロナ禍で接触を避ける客の増加と、全国の豆腐ECとの競合。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "地元産大豆と軟水の評判の豆腐",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "手作り豆腐セットのヒット",
+     "w": 2
+    },
+    {
+     "f": "b",
+     "t": "主婦層の客が少ない",
+     "w": 3
+    },
+    {
+     "f": "b",
+     "t": "ネット販売のノウハウ・受注サイトがない",
+     "w": 2
+    },
+    {
+     "f": "c",
+     "t": "Y社が得た全国の食通",
+     "w": 2
+    },
+    {
+     "f": "c",
+     "t": "在宅の食事へのこだわり",
+     "w": 2
+    },
+    {
+     "f": "c",
+     "t": "置き配の要望",
+     "w": 1
+    },
+    {
+     "f": "d",
+     "t": "コロナ禍で接触を避ける客の増加",
+     "w": 3
+    },
+    {
+     "f": "d",
+     "t": "全国の豆腐ECとの競合",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     1,
+     "清流の地下水は良質な軟水で、なめらかな豆腐を作るのに向く"
+    ],
+    [
+     2,
+     "地元産大豆と水へのこだわりで評判になり、品評会で何度も表彰された"
+    ],
+    [
+     8,
+     "Y社サイトの新米と佃煮が雑誌で紹介され、Y社は全国の食通を客にして売上を伸ばしている"
+    ],
+    [
+     11,
+     "加盟者の一人が試食と調味料の説明を始め、高単価品が売れ始めた（コロナ禍の前。別の答え方のS）"
+    ],
+    [
+     12,
+     "自社の受注サイトは、ノウハウがなく費用ほどの利益も見込めないとして見送った"
+    ],
+    [
+     13,
+     "X市の年齢の分布に比べ、主婦層の客が少ない。移動販売で売上が伸びてきたのは高齢層"
+    ],
+    [
+     14,
+     "コロナ禍で試食をやめ、駐車場から戸別への変更や訪問を断る客が増えた。全国の豆腐のECの多くが豆乳とにがりのセットを売る。在宅勤務の広がりで家での食事を大事にする家庭が増え、手作り豆腐セットは主婦層にも売れる"
+    ],
+    [
+     15,
+     "移動販売の売上は3割減のまま。高齢層と主婦層から、対面を減らしたい・留守でも届けてほしいという声"
+    ]
+   ],
+   "shushi": "B社の外部と内部の経営環境を分析する力をみる。",
+   "e": "・**題意**：2021年8月末の時点のB社を、移動販売を広げ、ネット販売を始めるという目的に照らしてSWOTで整理する（目的は設問文にある）。4欄に各30字。出題の趣旨は内外の経営環境の分析。\n**SWOTの要素と使う設問**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 361\" role=\"img\" aria-label=\"SWOTの要素と使う設問\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"20.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"146.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"306.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">使う設問</text><text x=\"20.0\" y=\"45.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">S</text><text x=\"46\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">地元産大豆と良質な軟水の豆腐。</text><text x=\"46\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">品評会で何度も表彰</text><text x=\"258\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">第2問・第4問</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"83.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">S</text><text x=\"46\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">手作り豆腐セットのヒット</text><text x=\"46\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">（家でできたての味）</text><text x=\"258\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">第2問</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"120.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">W</text><text x=\"46\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">主婦層の客が少ない</text><text x=\"46\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">（移動販売で伸びたのは高齢層）</text><text x=\"258\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">第4問</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"158.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">W</text><text x=\"46\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">ネット販売のノウハウがなく、</text><text x=\"46\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">受注サイトも見送った</text><text x=\"258\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">第2問</text><text x=\"258\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">（Y社と組む）</text><path d=\"M1 172.8L359 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"195.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">O</text><text x=\"46\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">Y社サイトが全国の食通を得た。</text><text x=\"46\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">地元企業の品を売るコラボ企画</text><text x=\"258\" y=\"195.5\" font-size=\"11\" style=\"fill:currentColor\">第2問</text><path d=\"M1 210.2L359 210.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"232.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">O</text><text x=\"46\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">在宅勤務が広がり、</text><text x=\"46\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">家での食事を大事にする家庭が増加</text><text x=\"258\" y=\"232.9\" font-size=\"11\" style=\"fill:currentColor\">第2問・第4問</text><path d=\"M1 247.6L359 247.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"270.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">O</text><text x=\"46\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">対面を減らしたい・</text><text x=\"46\" y=\"277.9\" font-size=\"11\" style=\"fill:currentColor\">留守でも届けてほしいという声</text><text x=\"258\" y=\"270.3\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><path d=\"M1 285.0L359 285.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"307.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">T</text><text x=\"46\" y=\"300.1\" font-size=\"11\" style=\"fill:currentColor\">コロナ禍で対面を避ける客が増え、</text><text x=\"46\" y=\"315.3\" font-size=\"11\" style=\"fill:currentColor\">試食や駐車場の販売が難しい</text><text x=\"258\" y=\"307.7\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><path d=\"M1 322.4L359 322.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"345.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">T</text><text x=\"46\" y=\"337.5\" font-size=\"11\" style=\"fill:currentColor\">全国の豆腐のECの多くが豆乳とにがりの</text><text x=\"46\" y=\"352.7\" font-size=\"11\" style=\"fill:currentColor\">セットを売る（ネットの競合）</text><text x=\"258\" y=\"337.5\" font-size=\"11\" style=\"fill:currentColor\">第2問（豆腐丼で</text><text x=\"258\" y=\"352.7\" font-size=\"11\" style=\"fill:currentColor\">差をつける）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M40 0L40 358.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M252 0L252 358.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"358.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】30字の欄に要素は2〜3つ（S・W・Tは2つ、Oは3つ）。目的に合い、後の設問の根拠になる要素を優先した。\n・**組み立て**：S＝豆腐そのもの（地元産大豆と軟水、品評会の評価）と、コロナ禍で売れた手作り豆腐セット。W＝客層の偏り（主婦層が少ない）とネット販売の弱さ。O＝ネット販売の足場（Y社サイトの全国の食通）、家の食事へのこだわり、置き配の要望。T＝コロナ禍で対面を避ける客（移動販売の側）と、全国の豆腐のECに多い同じ型のセット（ネット販売の側。第2問で差をつける）。\n・**別の答え方**：Sに「試食と調味料の説明で高単価品を売る加盟者の工夫」「顧客リストと収穫祭によるお得意さまとの関係」「FC方式の販売網」。Wに「移動販売の売上が3割減のまま」「高齢の客はIMを敬遠し、やり取りは電話が中心」。Tに「試食や駐車場での販売がしにくい（対面を避ける客の増加から）」。\n【ひっかけ注意】置き配は検討中、菓子類と全国へのネット販売は社長の夢で、8月末の時点の強みではない。Y社はB社の外の会社なので、Y社の全国の客はO。試食はコロナ禍で止めているので、Sに書くなら「試食と説明の工夫（ノウハウ）」として書く。\n【2次】j2.base.anal|現状分析の設問（SWOT・3C）\n【1次】kigyo.1.1.3|戦略策定プロセス（SWOT分析とクロスSWOT）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 25,
+   "ask": "前提（設問文）：社長は、世の中がオンラインに移る流れを受けて、ネット販売で地元産大豆のよさを全国に伝えたい。ネット販売で、どの商品をどう売るべきかを、ターゲットをはっきりさせて助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "商品と売り方",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "Y社サイトの全国の食通に、手作り豆腐セットとY社の新米、B社の地下水を詰めた水で作る豆腐丼セットを、コラボ企画で販売する。祖父の代からの豆腐丼と地元産大豆へのこだわりを伝え、ファンを得て売上減を補う。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "ターゲット：Y社サイトの全国の食通",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "手作り豆腐セット＋新米・水の豆腐丼",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "Y社サイトのコラボ企画で販売",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "豆腐丼と地元産大豆のこだわりを伝える",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "ファンを得て売上減を補う",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "地元産大豆と水へのこだわりで評判、品評会で何度も表彰"
+    ],
+    [
+     6,
+     "PBを失った後、余った設備をY社に売り、整理する人員もY社が雇った（Y社との関係）"
+    ],
+    [
+     7,
+     "Y社は地元の米を全国にネットで売り、B社の地下水で得意客向けの水を作る。「X市の魅力を全国に」と、市内の会社の佃煮や干物を「コラボ企画」で売る"
+    ],
+    [
+     8,
+     "雑誌に新米と佃煮が載り、全国の食通がY社サイトの客になった"
+    ],
+    [
+     12,
+     "自社の受注サイトは、ノウハウがなく見送った"
+    ],
+    [
+     13,
+     "収穫祭で毎年好評の豆腐丼：炊きたての新米にできたての豆腐をのせる。新米は豆腐と同じ水で炊く。祖父の代からのまかない。出来たての豆腐ほど風味がよい"
+    ],
+    [
+     14,
+     "食事会の中止で、豆腐丼を惜しむ声。手作り豆腐セットは手間がかかるが家でできたての味。全国の豆腐のECに豆乳とにがりのセットが多い"
+    ],
+    [
+     15,
+     "移動販売の売上は3割減のまま。地元産大豆のよさを全国に伝えるネット販売が社長の夢"
+    ]
+   ],
+   "shushi": "強みと機会を生かして弱みと脅威を乗り越える、ターゲティング・商品・流通の戦略を提言する力をみる。",
+   "e": "・**題意**：答えるのは、ネット販売で売る商品と売り方。ターゲットを明確にする条件が付く。社長の考え（オンライン化の流れを受けて、地元産大豆のよさを全国に伝えたい）は設問文にある。出題の趣旨は、強み・機会で弱み・脅威を乗り越える、ターゲティング・商品・流通の3つの戦略。\n**3つの戦略と与件の根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 318\" role=\"img\" aria-label=\"3つの戦略と与件の根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"37.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">戦略</text><text x=\"147.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">解答例</text><text x=\"290.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">ターゲ</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">ティング</text><text x=\"80\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">Y社サイトの全国の食通</text><text x=\"226\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">雑誌に新米と</text><text x=\"226\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">佃煮が載り、</text><text x=\"226\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">全国の食通がY社の客に</text><rect x=\"1\" y=\"75.8\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">商品</text><text x=\"80\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">手作り豆腐セット＋Y社の</text><text x=\"80\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">新米＋B社の地下水を</text><text x=\"80\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">詰めた水＝豆腐丼セット</text><text x=\"226\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">収穫祭の豆腐丼（豆腐と</text><text x=\"226\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">同じ水で炊く新米）。</text><text x=\"226\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">食事会の中止で惜しむ声</text><rect x=\"1\" y=\"128.4\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">流通</text><text x=\"80\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">Y社サイトの</text><text x=\"80\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">「コラボ企画」で売る</text><text x=\"226\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">Y社は地元企業の品を</text><text x=\"226\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">サイトで売る。B社の</text><text x=\"226\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">地下水を買う取引もある</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">伝える中身</text><text x=\"80\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">祖父の代からの豆腐丼、</text><text x=\"80\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">地元産大豆と</text><text x=\"80\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">水へのこだわり</text><text x=\"226\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">品評会で表彰された</text><text x=\"226\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">豆腐。清流の軟水</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"279.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">乗り越える</text><text x=\"80\" y=\"256.3\" font-size=\"11\" style=\"fill:currentColor\">ネット販売の</text><text x=\"80\" y=\"271.5\" font-size=\"11\" style=\"fill:currentColor\">ノウハウがない／全国の</text><text x=\"80\" y=\"286.7\" font-size=\"11\" style=\"fill:currentColor\">豆腐のECとの競合／</text><text x=\"80\" y=\"301.9\" font-size=\"11\" style=\"fill:currentColor\">移動販売の売上3割減</text><text x=\"226\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">受注サイトは見送り。</text><text x=\"226\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">全国の豆腐のECに</text><text x=\"226\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">豆乳とにがりのセットが</text><text x=\"226\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">多い。コロナ禍で</text><text x=\"226\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">客が対面を避ける</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M74 0L74 315.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M220 0L220 315.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"315.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】色の付いた3行が出題の趣旨の3つの戦略。下の行は、この売り方で乗り越える弱みと脅威。\n・**組み立て**：誰に（Y社サイトが得た全国の食通）→何を（手作り豆腐セット＋Y社の新米＋B社の地下水を詰めた水＝収穫祭で好評の豆腐丼を家で作れるセット。「豆腐に旅をさせるな」というほど出来たてが大事な豆腐も、セットなら遠くの家で出来たての味になる。全国の豆腐のECに多い豆乳とにがりだけのセットとも、新米と同じ水で作る豆腐丼で差がつく）→どのように（Y社サイトの「コラボ企画」。受注サイトのノウハウがない弱みを、Y社の集客と仕組みで補う。Y社の考え「X市の魅力を全国に」とも合う）→伝える中身（祖父の代からの豆腐丼、地元産大豆と水へのこだわり）→効果（全国のファン、移動販売の売上減を補う）。\n・**別の答え方**：ターゲットを「家の食事にこだわる全国の家庭」とし、手作り豆腐セットに季節の変わり豆腐の食べ方を添えて売る。売り方に「Y社の佃煮も添えた詰め合わせ」「収穫祭や豆腐づくりの様子をサイトで見せる」。生ものを全国に送るので、冷蔵の配送と日持ちに留意する。\n【ひっかけ注意】「ネットで豆腐を売る」「全国の消費者に売る」だけでは、ターゲットも売り方も明確でない。設問は「どの商品を」と問うので、商品の中身まで書く。自社で受注サイトを作る案は、与件がノウハウと費用の面で見送った経緯と合わない。菓子類と主婦層は第4問の役割。\n【2次】j2.mix.target|ターゲット（誰に）\n【2次】j2.mix.product|商品・サービス（何を）\n【2次】j2.rel.collab|協業と地域の資源\n【1次】kigyo.3.2.2|マーケティング・マネジメント（STPと4P）\n【1次】kigyo.1.2.6|戦略的提携"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 30,
+   "ask": "B社のFC方式の移動販売で置き配を入れる場合に、置き配を使う高齢の客に対して、(a)フランチャイザー（本部のB社）と(b)フランチャイジー（加盟者）が、それぞれどんな取り組みをすべきか。各50字以内。配点は第3問で計30点（(a)(b)の内訳は示されていない。15点ずつは目安）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "(a) フランチャイザー（B社）",
+     "limit": 50
+    },
+    {
+     "k": "b",
+     "label": "(b) フランチャイジー（加盟者）",
+     "limit": 50
+    }
+   ],
+   "model": {
+    "a": "冷蔵ボックスを用意し、試食に代わる小分けの試供品と、季節の商品と食べ方の案内を作って加盟者に配る。",
+    "b": "届ける前に電話で注文と試供品の感想を聞いて新商品を勧め、置いた後も電話で受け取りと様子を確かめる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "冷蔵ボックスを用意",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "試食に代わる小分けの試供品",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "季節の商品と食べ方の案内",
+     "w": 6
+    },
+    {
+     "f": "b",
+     "t": "届ける前の電話で注文と感想",
+     "w": 6
+    },
+    {
+     "f": "b",
+     "t": "電話で新商品を勧める",
+     "w": 4
+    },
+    {
+     "f": "b",
+     "t": "置いた後の電話で受け取りを確認",
+     "w": 3
+    },
+    {
+     "f": "b",
+     "t": "様子を確かめる",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     9,
+     "加盟者は受け持ちの地域で売ることに集中し、ほかのマーケティングと支援はB社が受け持つ"
+    ],
+    [
+     10,
+     "季節の変わり豆腐を月ごとに入れ替えて出す"
+    ],
+    [
+     11,
+     "駐車場では高齢の客が知人を呼び、話の場になる。試食と調味料の説明で高単価品が売れ始めた"
+    ],
+    [
+     12,
+     "加盟者と高齢の客のやり取りは、販売の前の電話が中心で、IMは敬遠された"
+    ],
+    [
+     14,
+     "コロナ禍で試食をやめ、対面を避ける客が増えた"
+    ],
+    [
+     15,
+     "対面を減らしたい・留守でも届けてほしいという声を受け、生協にならい冷蔵ボックスでの置き配を検討"
+    ]
+   ],
+   "shushi": "FC方式での本部と加盟者の役割の分け方を踏まえ、特定のターゲットのニーズに応える方法を提言する力をみる。",
+   "e": "・**題意**：置き配を入れる場合（与件では検討中）に、置き配を使う高齢の客へ行う取り組みを、本部と加盟者に分けて書く。客層は設問が決めている。出題の趣旨は、FC方式の役割分担を踏まえて、特定のターゲットのニーズに応える方法。\n**本部と加盟者の役割と取り組み**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 228\" role=\"img\" aria-label=\"本部と加盟者の役割と取り組み\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"38.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"147.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">(a) フランチャイザー</text><text x=\"147.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">（B社）</text><text x=\"289.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">(b) フランチャイジー</text><text x=\"289.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">（加盟者）</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">与件の役割</text><text x=\"82\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">販売のほかの</text><text x=\"82\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">マーケティングと、</text><text x=\"82\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">加盟者の支援</text><text x=\"224\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">受け持ちの地域で</text><text x=\"224\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">売ることに集中</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">置き配で</text><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">起きること</text><text x=\"82\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">試食と説明ができず、</text><text x=\"82\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">高単価品の良さが</text><text x=\"82\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">伝わりにくい</text><text x=\"224\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">顔を合わせる</text><text x=\"224\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">会話が減り、</text><text x=\"224\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">客の様子が分からない</text><rect x=\"1\" y=\"143.6\" width=\"358\" height=\"83.0\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">取り組み</text><text x=\"6\" y=\"196.7\" font-size=\"11\" style=\"fill:currentColor\">（解答例）</text><text x=\"82\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">冷蔵ボックスを用意。</text><text x=\"82\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">小分けの試供品と、</text><text x=\"82\" y=\"196.7\" font-size=\"11\" style=\"fill:currentColor\">季節の商品と食べ</text><text x=\"82\" y=\"211.9\" font-size=\"11\" style=\"fill:currentColor\">方の案内を作り配る</text><text x=\"224\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">届ける前の電話で</text><text x=\"224\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">注文と感想を聞き</text><text x=\"224\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">新商品を勧める。</text><text x=\"224\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">置いた後の電話で受け</text><text x=\"224\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">取りと様子を確かめる</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M76 0L76 225.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 225.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"225.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の行の役割は与件のとおり。置き配で高齢の客の願い（対面を減らす・留守でも受け取る）はかなうが、試食と説明、顔を合わせる会話がなくなる。それを補う中身を役割で分けた。\n・**組み立て**：(a)本部＝仕組みと販促物（冷蔵ボックス、試食の代わりの小分けの試供品、季節の商品と食べ方の案内）。加盟者が客に届けられる形にして配る。(b)加盟者＝担当地域の客への声かけ。与件でも高齢の客とは販売の前の電話が中心なので、その電話で、届ける前（注文・試供品の感想・新商品の提案）と置いた後（受け取りと様子の確認）に話す。説明と提案を続けることで、客単価も保つ。\n・**別の答え方**：(a)に「置き配の手順と電話の応対を加盟者に研修する」「顧客リストで置き配の客と注文の記録を管理し、加盟者と共有する」「対面のない支払いの方法を用意する」。(b)に「届けるたびに手書きの一言を添える」。様子の確認は与件に直接の根拠がない（駐車場での交流から考えた）ので、観点の配分を軽くした。\n【ひっかけ注意】高齢の客はIMを敬遠し、電話が中心（与件）。IMやアプリでの注文を中心にすると、ターゲットに合わない。本部の欄に加盟者の販売の行動を書く（逆も）と、役割分担の題意からそれる。主婦層への施策（第4問）を混ぜない。\n【2次】j2.mix.price|価格と販路\n【2次】j2.rel.collab|協業と地域の資源\n【2次】j2.rel.digital|デジタルの活用（与件の制約に合わせる）\n【1次】kigyo.3.11.1|流通チャネルの機能と種類（フランチャイズ・チェーン）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 25,
+   "ask": "前提（設問文）：B社は、X市周辺の主婦層を顧客にするため、豆腐やおからを使う菓子類を新しく開発し、移動販売することを検討している。製品戦略と、コミュニケーション戦略を助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "製品・コミュニケーション",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "製品は、新素材の菓子で人気の和菓子店と組み、豆腐やおからで家で楽しめる季節の菓子を作る。伝え方は、手作り豆腐セットを買う主婦層にIMの登録を勧め、X市周辺を回る日時と新作を知らせ、紹介で客を広げる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "和菓子店と組み菓子を開発",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "豆腐・おからで家で楽しむ季節の菓子",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "手作り豆腐セットの主婦層にIM登録",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "X市周辺を回る日時と新作を知らせる",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "紹介で新しい客を広げる",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "京文化への親しみが強い。新しい素材の菓子で人気の和菓子店など、京都で修業した職人が繁盛店を支える"
+    ],
+    [
+     10,
+     "季節の変わり豆腐を月ごとに入れ替える品揃え（季節の菓子の手本）"
+    ],
+    [
+     12,
+     "若年層はIMの文字のやり取りを好み、B社は受注用サイトを作らずIMで十分と判断した"
+    ],
+    [
+     13,
+     "X市の年齢の分布に比べ、主婦層の客が少ない"
+    ],
+    [
+     14,
+     "家での食事を大事にする家庭が増え、手作り豆腐セットは、お得意さまでない主婦層にも売れる"
+    ],
+    [
+     15,
+     "豆腐やおからの菓子類で主婦層を得ることが社長の夢"
+    ]
+   ],
+   "shushi": "新しい市場に入るときの製品戦略と、コミュニケーション戦略について提言する力をみる。",
+   "e": "・**題意**：X市周辺の主婦層（設問が決めたターゲット）に向けた、豆腐やおからの菓子類の製品戦略と、コミュニケーション戦略の両方を書く。新しく開発して移動販売で売ることは設問文の前提（与件の社長の夢には売り方はない）。出題の趣旨は、新しい市場に入るときの製品戦略と、コミュニケーション戦略。\n**製品とコミュニケーションの要素**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 242\" role=\"img\" aria-label=\"製品とコミュニケーションの要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"40.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"150.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">解答例</text><text x=\"290.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"6\" y=\"45.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">製品：誰と</text><text x=\"86\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">新しい素材の菓子で</text><text x=\"86\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">人気の和菓子店と組む</text><text x=\"226\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">京都で修業した職人が</text><text x=\"226\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">支える繁盛店の一つ</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">製品：何を</text><text x=\"86\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">豆腐やおからで、</text><text x=\"86\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">家で楽しめる季節の菓子</text><text x=\"226\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">家での食事を</text><text x=\"226\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">大事にする家庭の増加。</text><text x=\"226\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">月替わりの変わり豆腐</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">伝え方：誰に</text><text x=\"86\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">手作り豆腐セットを</text><text x=\"86\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">買う主婦層を入口に</text><text x=\"226\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">手作り豆腐セットは、</text><text x=\"226\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">お得意さまでない</text><text x=\"226\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">主婦層にも売れる</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"188.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">伝え方：手段</text><text x=\"86\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">IMに登録してもらう</text><text x=\"226\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">若年層はIMの</text><text x=\"226\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">文字のやり取りを好む</text><path d=\"M1 203.2L359 203.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"225.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">伝え方：中身</text><text x=\"86\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">X市周辺を回る日時と</text><text x=\"86\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">新作。紹介を促す</text><text x=\"226\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">主婦層の客が少ない</text><text x=\"226\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">（新しい客を得る）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M80 0L80 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M220 0L220 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"239.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：製品＝誰と（新しい素材の菓子で人気の和菓子店）・何で（豆腐とおから＝設問の条件）・どんな価値（家で楽しめる、季節ごとに替わる。家での食事を大事にする家庭の増加と、月替わりの変わり豆腐の型）。コミュニケーション＝誰に（手作り豆腐セットを買う主婦層を入口に）・手段（IM。B社は受注用サイトの代わりにIMで十分と判断しており、使える手段。与件でIMを好むと書かれたのは若年層で、主婦層は高齢層より若く、電話よりIMが合うとみた）・中身（X市周辺を回る日時と新作）・広げ方（紹介。与件に直接の根拠はないので配分を軽くした）。\n・**別の答え方**：製品に「親子で作れる菓子の手作りセット」「京文化に親しむ土地柄を生かした京風の菓子」「健康に気を配る家庭向けの菓子（与件に健康の記述はないので一つの案）」。伝え方に「個包装の試食品を手作り豆腐セットに添える」「収穫祭に来る子連れの家族に菓子を持ち帰ってもらう」「和菓子店の店頭で案内する」。\n【ひっかけ注意】高齢の客向けの電話を中心にすると、主婦層に合わない。第2問の全国の食通への販売と混ぜない（第4問はX市周辺の主婦層）。製品とコミュニケーションの片方だけで終わらせない。「おいしい菓子を開発し、SNSで発信する」だけでは、与件の資源（和菓子店・手作り豆腐セットの客）も、誰に何を伝えるかもない。\n【2次】j2.mix.product|商品・サービス（何を）\n【2次】j2.mix.promo|販促とコミュニケーション\n【1次】kigyo.3.5.3|新製品開発\n【1次】kigyo.3.9.5|デジタル時代のコミュニケーション"
+  }
+ ]
+}

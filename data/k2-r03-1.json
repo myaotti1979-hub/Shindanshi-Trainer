@@ -1,0 +1,382 @@
+{
+ "id": "k2-r03-1",
+ "y": 3,
+ "j": 1,
+ "theme": "印刷会社のファブレス化、広告制作への広がりと承継",
+ "gist": [
+  "首都圏の印刷・広告制作、1960年に家族経営で創業",
+  "1990年に長男が2代目、2020年から3代目",
+  "創業時：事務用品の印刷下請、活版で職人が分業",
+  "1970年代：オフセット普及で大量・安価な印刷に",
+  "2000年頃：デジタル化、参入増で事務用の単価下落",
+  "2代目：印刷機と工場を順次売却、協力企業網へ",
+  "事務用印刷を縮小、高精度・小ロットの美術印刷へ",
+  "1990年代〜：職人を減らし、ディレクションに特化",
+  "2000年代：デジタル化に投資、案件ごとのチーム",
+  "2代目がデザイン部門を新設、加わった3代目に統括",
+  "3代目の人脈で採用、ウェブ・広告制作へ広げる",
+  "新事業は受注難：競合が多く、営業の資源が不足",
+  "両部門で協力企業を管理、実作業は外部に依存",
+  "印刷5名・デザイン10名、3代目は特に営業せず",
+  "紹介と口コミで新規客、売上は目立った回復なし"
+ ],
+ "lesson": [
+  "「なぜか」の推測（第1問・第2問）は、当時の環境と判断の中身から理由を立てる。第1問は戦略（ニッチと資源の振り向け直し）、第2問は組織（承継と新しい事業）と、出題の趣旨の視点が違う。",
+  "設問文にしかない前提（第2問の、3代目にA社での経験がなかったこと。第4問の前置き）を読み落とさず、答えの組み立てに使う。",
+  "「利点と欠点」は両方を1つの欄に書く（第3問）。差別化とシナジーの2つの切り口でそろえると、偏らない。",
+  "第3問の欠点（競合・営業・受注）を、第4問は外部企業との関係、第5問は全社の戦略と組織で解き、同じ施策を重ねない。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "2代目が、印刷工場を持たない形（ファブレス）に変えた理由の推測（「なぜか」）。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "理由",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "技術革新で印刷が安価になり事務用印刷は参入増で単価が下がる中、設備更新と価格競争を避け、版式別の協力企業との分業で細かな要望に応え、資源をデザインと工程の指示に集め、高精度な美術印刷に絞るため。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "技術革新で印刷が安価・単価が下落",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "設備更新と価格競争を避ける",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "協力企業との分業で細かな要望に対応",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "資源をデザインと工程の指示に集める",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "高精度な美術印刷に絞る",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "創業の頃は自社の工場で活版印刷を行い、製版から加工までを社内外の職人が分けて担っていた（外部と分業する素地）"
+    ],
+    [
+     4,
+     "1970年代、オフセット印刷機が広まり、職人の分業が崩れ始め、大量で安い印刷ができるようになった"
+    ],
+    [
+     5,
+     "2000年頃からデジタル化が進み、版の要らない機械で安い小ロットの印刷が広まった。事務用印刷は専門の知識が要らなくなり、他業種の参入で単価が下がった"
+    ],
+    [
+     6,
+     "同業の多くが新しい印刷機に替える中、2代目は就任後に印刷機と工場を順次売った。デザインから製本までを一括で受け、製版・印刷は版式ごとに専門の協力企業へ任せ、細かな要望に応える分業を築いた"
+    ],
+    [
+     7,
+     "事務用印刷などを大きく減らし、工程が多く高い品質と精度の要る美術印刷に絞った。手間のかかる小ロットの仕事を広げ、展示用の印刷物・図録・画集などの需要を得た"
+    ],
+    [
+     8,
+     "職人の定年ごとに版下と印刷の工程を外へ移し、社内は図案と顧客への相談、工程の仲介・段取り・指示・調整（ディレクション）に特化"
+    ]
+   ],
+   "shushi": "ニッチに絞る戦略と、付加価値の高い分野へ経営資源を振り向け直したことを、経営戦略の面から分析させる。",
+   "e": "・**題意**：主語は2代目。印刷工場を持たない形（ファブレス）に変えた理由の推測で、「〜ため」で結ぶ。出題の趣旨は、ニッチに絞る戦略と、付加価値の高い分野への資源の振り向け直し（経営戦略の視点）。\n・**組み立て**：環境（技術革新で大量・安価な印刷が広がり、事務用印刷は参入が増えて単価が下落。同業の多くは設備を刷新）→ 判断（設備を順次売り、版式ごとの協力企業と分業。与件はこの分業を、顧客の細かな要望に応えるために築いたと書く）→ 狙い（社内の資源をデザイン・仕様決定・工程の指示に集め、工程が多く高精度の美術印刷に絞る）。\n**経営資源の振り向け直し（2代目の転換）**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 279\" role=\"img\" aria-label=\"経営資源の振り向け直し\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"126.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">創業の頃</text><text x=\"274.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">2代目の転換の後</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">環境</text><text x=\"70\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">活版印刷が主流。</text><text x=\"70\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">社内外の職人が</text><text x=\"70\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">工程を分業</text><text x=\"194\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">オフセット（1970年代〜）</text><text x=\"194\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">とデジタル化（2000年頃〜）</text><text x=\"194\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">で大量・安価に。事務用印刷は</text><text x=\"194\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">参入が増え単価が下落</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">設備</text><text x=\"70\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">自社の</text><text x=\"70\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">印刷工場と印刷機</text><text x=\"194\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">順次売り、持たない</text><text x=\"194\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">（同業の多くは刷新）</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">人</text><text x=\"70\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">製版などの</text><text x=\"70\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">職人を抱える</text><text x=\"194\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">定年ごとに減らし、</text><text x=\"194\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">工程は協力企業へ</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">社内の</text><text x=\"6\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">仕事</text><text x=\"70\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">製版・印刷・加工</text><text x=\"194\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">図案・仕様決定・協力企業の</text><text x=\"194\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">手配と調整（ディレクション）</text><path d=\"M1 203.2L359 203.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">外部</text><text x=\"70\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">社外の職人</text><text x=\"194\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">版式ごとに専門の協力企業の網</text><path d=\"M1 225.4L359 225.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">市場</text><text x=\"70\" y=\"248.1\" font-size=\"11\" style=\"fill:currentColor\">事務用品の印刷下請、</text><text x=\"70\" y=\"263.3\" font-size=\"11\" style=\"fill:currentColor\">帳票の加工</text><text x=\"194\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">高精度で手間のかかる</text><text x=\"194\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">小ロットの美術印刷</text><text x=\"194\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">（図録・画集など）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 277.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M188 0L188 277.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"277.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】右の列の環境は、2代目が向き合った技術革新の流れ（1970年代〜2000年頃）。与件は売却の理由を直接は書いていないので、環境の変化、同業との対比、転換の後の姿から読む（「設備更新と価格競争を避ける」は推測の要素なので3点と軽くした）。\n・**別の答え方**：「工場と職人の固定費を減らし、需要の変化に身軽に応じる」（設備を持たない一般的な利点。与件に直接の記述はない）、「手間をかける少量の印刷や出版を幅広く手がける」（与件が転換の結果として書く）。\n【ひっかけ注意】A社の小ロットは、工程が多く手間のかかる高精度の仕事で、オンデマンド機の安価な小ロット（与件では事務用・広告の需要が移った先）とは違う。デザイン部門の新設やウェブへの拡大（3代目が加わった後）は、第1問の根拠にしない。売却は就任後に順次で、転換は1990年代から続いた。\n【2次】j1.ans.reason|過去の判断を問う設問の答え方\n【2次】j1.strat.growth|成長と事業の領域\n【1次】kigyo.1.3.3|競争地位別戦略"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "2代目が、デザイン部門の統括を3代目に委ねた理由の推測。設問文の前提：3代目にはA社での経験がなかった。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "理由",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "図案制作を切り離した新部門は社内の経験より前職の力が要り、広告代理店での知見とデザイナー等との人脈で、紙媒体に頼らない事業を立ち上げられるため。部門を率いて実績を積ませ、後継者として育てるため。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "社内の経験より前職の力が要る新部門",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "広告代理店で得た知見を生かす",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "デザイナー等との人脈を生かす",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "紙媒体に頼らない事業の立ち上げ",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "実績を積ませ後継者として育てる",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "1990年から約30年、長男の2代目が経営し、2020年から3代目が承継"
+    ],
+    [
+     5,
+     "2000年頃から、事務用印刷は参入が増えて単価が下がった（紙媒体に頼らない事業が要る背景の一つ。3代目が加わった年は与件にない）"
+    ],
+    [
+     10,
+     "広告代理店で働いていた3代目が入ると、2代目は図案制作を版下制作から切り離してデザイン部門をつくり、3代目に率いさせた"
+    ],
+    [
+     11,
+     "3代目は前職でデザイナーやアーティストと組んだ仕事のつながりから、ウェブデザイナー2名を雇い入れた。人材がそろい、紙媒体以外のウェブ・コンテンツ制作と広告制作へ広げた"
+    ]
+   ],
+   "shushi": "先代から後継者への承継と、後継者による新しい事業の立ち上げを、組織の面から分析させる。",
+   "e": "・**題意**：主語は2代目。設問文の前提（3代目にはA社での経験がない）のうえで、新しいデザイン部門を3代目に率いさせた理由の推測。出題の趣旨は、先代からの承継と、後継者による新しい事業の立ち上げ（経営組織の視点）。\n・**組み立て**：①能力の面：新部門に要るのは社内の経験ではなく、前職（広告代理店）の知見と、デザイナーやアーティストとの人脈 → 紙媒体に頼らない事業を立ち上げる。②承継の面：部門を率いる経験と実績を積ませ、後継者として育てる（2020年に承継）。\n**3代目に任せた理由の組み立て**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 227\" role=\"img\" aria-label=\"3代目に任せた理由\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"31.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"137.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件・設問の根拠</text><text x=\"286.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">答えの要素</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">前提</text><text x=\"68\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">A社での経験がない</text><text x=\"68\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（設問文）</text><text x=\"218\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">社内の経験より、前職の</text><text x=\"218\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">力が要る仕事を任せる</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">前職</text><text x=\"68\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">広告代理店に勤め、</text><text x=\"68\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">デザイナーやアーティス</text><text x=\"68\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">トと共同の仕事に関わった</text><text x=\"218\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">広告とデザインの知見を、</text><text x=\"218\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">新しい部門で生かす</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">人脈</text><text x=\"68\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">前職の人脈（のちにウェ</text><text x=\"68\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">ブデザイナー2名を採用）</text><text x=\"218\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">社内にない</text><text x=\"218\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">人材を集められる</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">新部門</text><text x=\"68\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">図案制作を版下制作から</text><text x=\"68\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">切り離して発足</text><text x=\"218\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">紙媒体に頼らない</text><text x=\"218\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">事業を立ち上げる</text><path d=\"M1 188.0L359 188.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"210.7\" font-size=\"11\" style=\"fill:currentColor\">承継</text><text x=\"68\" y=\"210.7\" font-size=\"11\" style=\"fill:currentColor\">2020年から3代目が承継</text><text x=\"218\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">部門を率いる経験と実績を</text><text x=\"218\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">積ませ、後継者に育てる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M62 0L62 224.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M212 0L212 224.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"224.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「既存の印刷の仕事にとらわれない発想で、新しい事業を広げさせる」「自ら集めた人材と部門をつくらせ、社内での求心力を持たせる」（どちらも与件に直接の記述はなく、新部門を任せるときの一般的な理由）。\n【ひっかけ注意】ウェブデザイナー2名の採用や事業の拡大は、任せた後の出来事なので、理由の中心にはしない（理由の根拠は、前職の経験と人脈があったこと）。後の拡大は、任せた狙い（紙媒体に頼らない事業の立ち上げ）を読む手がかりにとどめる。3代目の続柄は与件に書かれていないので、「長男」などと書かない。\n【2次】j1.strat.succession|事業承継と後継者の育成\n【2次】j1.ans.reason|過去の判断を問う設問の答え方\n【1次】kigyo.1.7.2|事業承継"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "現経営者の3代目が、印刷業から広告制作業へ事業ドメインを広げたことが、A社にもたらした利点と欠点（推測。両方を1つの欄に）。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "利点と欠点",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "利点は、紙媒体以外へ事業が広がり、既存顧客に印刷と広告・ウェブを一括で提案できる点。欠点は、競合の多い中小企業向け広告では差別化が難しく、新市場の営業に資源を割けず、印刷物を伴わない受注が伸びない点。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "紙媒体以外へ事業が広がる",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "既存顧客に印刷と広告を一括で提案",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "競合が多く差別化が難しい",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "営業に資源を割けず印刷なしの受注不振",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     6,
+     "デザインから製本までを一括で受ける形（2代目の転換から）"
+    ],
+    [
+     7,
+     "高精度で手間のかかる美術印刷の分野で需要を得てきた（A社の差別化の基盤）"
+    ],
+    [
+     11,
+     "ウェブ制作・コンテンツ制作へ広げ、地域の中小企業が大半の既存顧客に向けて広告制作を拡大"
+    ],
+    [
+     12,
+     "新事業の案件は取りにくく、既存顧客に訴えるには新しい需要を生む必要があった。中小企業向けの広告制作は競合が多く厳しい。新しい市場の営業に資源を回しにくく、印刷物を伴わない受注を増やすのに苦労している"
+    ],
+    [
+     13,
+     "デザイン部門と印刷部門の両方が、外部の協力企業を使う供給の網を管理"
+    ],
+    [
+     14,
+     "3代目は特に営業をしていない"
+    ]
+   ],
+   "shushi": "競合との差別化と、新しい事業と既存の事業の相乗効果（シナジー）を、事業戦略の面から分析させる。",
+   "e": "・**題意**：主語は現経営者の3代目。印刷業から広告制作業へ事業ドメインを広げた結果の、利点と欠点の両方（数の指定はない）。出題の趣旨は、競合との差別化と、新旧の事業の相乗効果（事業戦略の視点）。\n・**組み立て**：利点＝紙媒体以外へ広がる（既存の顧客・デザインの力・協力企業の網を使うシナジー）＋既存顧客に印刷と広告・ウェブを一括で提案（印刷だけ・広告だけの競合との差別化）。欠点＝競合の多い市場で差別化が難しい（美術印刷の高い精度は、中小企業の広告では差になりにくい。この理由づけは与件からの推測）＋新しい市場の営業に資源を割けず、印刷物を伴わない受注が伸びない（シナジーが印刷の受注に頼る形にとどまる）。営業に資源を回しにくいことは、与件では新しい事業の案件が取りにくい理由の一つ。もともとの弱みとだけ書かず、広げた先の市場の営業に限られた資源を回せない、とドメインを広げたことに結びつける。\n**差別化とシナジーで見た利点と欠点**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 199\" role=\"img\" aria-label=\"差別化とシナジーで見た利点と欠点\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"26\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"136.5\" y=\"18\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">利点</text><text x=\"285.5\" y=\"18\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">欠点</text><rect x=\"65.0\" y=\"29\" width=\"143.0\" height=\"88\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.12;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"136.5\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:var(--good)\">一括で手がける</text><text x=\"71.0\" y=\"64\" font-size=\"11\" style=\"fill:currentColor\">デザインから印刷・</text><text x=\"71.0\" y=\"79\" font-size=\"11\" style=\"fill:currentColor\">ウェブまで、</text><text x=\"71.0\" y=\"94\" font-size=\"11\" style=\"fill:currentColor\">既存顧客にまとめて</text><text x=\"71.0\" y=\"109\" font-size=\"11\" style=\"fill:currentColor\">提案できる</text><rect x=\"214.0\" y=\"29\" width=\"143.0\" height=\"88\" rx=\"5\" style=\"fill:var(--drop);fill-opacity:0.12;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"285.5\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:var(--drop)\">強みが生きにくい</text><text x=\"220.0\" y=\"64\" font-size=\"11\" style=\"fill:currentColor\">中小企業向けの広告は</text><text x=\"220.0\" y=\"79\" font-size=\"11\" style=\"fill:currentColor\">競合が多く、美術印刷の</text><text x=\"220.0\" y=\"94\" font-size=\"11\" style=\"fill:currentColor\">高い精度で差がつきにくい</text><text x=\"31.0\" y=\"77.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">差別化</text><path d=\"M1 26L359 26\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><rect x=\"65.0\" y=\"123\" width=\"143.0\" height=\"73\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.12;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"136.5\" y=\"140\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:var(--good)\">資源の共有</text><text x=\"71.0\" y=\"158\" font-size=\"11\" style=\"fill:currentColor\">既存の顧客、デザインの</text><text x=\"71.0\" y=\"173\" font-size=\"11\" style=\"fill:currentColor\">力、協力企業の網を使い、</text><text x=\"71.0\" y=\"188\" font-size=\"11\" style=\"fill:currentColor\">紙媒体の外へ広がる</text><rect x=\"214.0\" y=\"123\" width=\"143.0\" height=\"73\" rx=\"5\" style=\"fill:var(--drop);fill-opacity:0.12;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"285.5\" y=\"140\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:var(--drop)\">印刷頼み</text><text x=\"220.0\" y=\"158\" font-size=\"11\" style=\"fill:currentColor\">営業に資源を回せず、</text><text x=\"220.0\" y=\"173\" font-size=\"11\" style=\"fill:currentColor\">印刷物を伴わない</text><text x=\"220.0\" y=\"188\" font-size=\"11\" style=\"fill:currentColor\">受注が伸びない</text><text x=\"31.0\" y=\"163.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">シナジー</text><path d=\"M1 120L359 120\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M62 1L62 198\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"197\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：利点に「デザイン部門の人材が増え、デザインの力が高まる」「既存顧客との関係が深まる」。欠点に「既存顧客に訴えるには新しい需要を生む必要があり、案件を取りにくい」「顧客が地域の中小企業に偏り、市場が広がらない」。\n【ひっかけ注意】利点か欠点の片方だけにしない。売上が回復していないのは結果で、欠点としては、なぜ伸びないか（競合・営業・受注の中身）を書く。改善策（第4問・第5問）はここに書かない。\n【2次】j1.strat.growth|成長と事業の領域\n【2次】jc.solve.question|設問の読み方\n【1次】kigyo.1.2.1|ドメイン\n【1次】kigyo.1.2.2|多角化（シナジー、関連型・非関連型）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 20,
+   "ask": "設問文の前提：2代目は、案件ごとに社内の人と外部の協力企業を組ませて事業を進めてきた。3代目は、2代目が築いた外部企業との関係をどう発展させるべきか。中小企業診断士としての助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "助言",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "案件ごとに手配する関係から、協力企業や3代目の人脈のデザイナー等と企画段階から組む継続的な関係へ広げる。紙とウェブを合わせた高精度な制作を共同で提案し、案件を紹介し合い、新しい需要と受注を生む。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "案件ごとから継続的な関係へ",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "3代目の人脈を加え網を広げる",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "企画段階から共同で提案する",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "案件を紹介し合う",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "新しい需要と受注を生む",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     6,
+     "製版・印刷は版式ごとに専門の協力企業へ任せ、外部に供給の網を築いた"
+    ],
+    [
+     9,
+     "案件ごとにチームを組み、アートディレクターが進み具合を管理し、社外の協力企業をまとめて工程を調整"
+    ],
+    [
+     11,
+     "3代目は前職のデザイナーやアーティストとの人脈を持つ"
+    ],
+    [
+     12,
+     "新しい需要を生む必要、競合の多さ、営業に資源を回しにくいこと、印刷物を伴わない受注の伸び悩み"
+    ],
+    [
+     13,
+     "必要に応じて、フォトグラファー・イラストレーター・コピーライター・製版業者・印刷職人と協力し、案件ごとに社内でチームを組む"
+    ],
+    [
+     15,
+     "新しい客は既存客の紹介と口コミで得てきた"
+    ]
+   ],
+   "shushi": "協力企業との関係と、外部とのネットワークのつくり方についての助言をみる。",
+   "e": "・**題意**：中小企業診断士としての助言。設問文の前提は、2代目が案件のたびに社内の人と社外の協力企業を組ませて事業を進めてきたこと。その外部企業との関係を3代目がどう発展させるか。出題の趣旨は、協力企業との関係づくりと、外部とのネットワークをどう築くか。\n・**組み立て**：今の関係（案件ごとに手配し指示する）→ 発展の向き（①結びつきを深める：継続的に組み、企画の段階から協働、②網を広げる：3代目の前職の人脈を加える）→ 効果（紙とウェブを合わせた提案と案件の紹介で、新しい需要と受注。第3問の欠点を解く）。\n**外部企業との関係の発展**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 205\" role=\"img\" aria-label=\"外部企業との関係の発展\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"134.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">2代目が築いた関係</text><text x=\"282.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">発展させた関係（助言）</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">相手</text><text x=\"70\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">版式ごとの製版・印刷の</text><text x=\"70\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">企業。写真・イラスト・</text><text x=\"70\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">コピーの専門家</text><text x=\"210\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">＋3代目の前職の人脈</text><text x=\"210\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（デザイナー・</text><text x=\"210\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">アーティスト）</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">結びつき</text><text x=\"70\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">案件ごとにチームを</text><text x=\"70\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">組み、手配し指示する</text><text x=\"210\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">継続的に組み、</text><text x=\"210\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">企画の段階から協働する</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">共有</text><text x=\"70\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">案件の仕様と工程</text><text x=\"210\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">顧客の要望、技術、</text><text x=\"210\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">新しい案件の情報</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">生むもの</text><text x=\"70\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">高精度な紙媒体</text><text x=\"210\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">紙とウェブを合わせた</text><text x=\"210\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">提案と案件の紹介で、</text><text x=\"210\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">新しい需要と受注</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"202.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】右の列が助言。案件を紹介し合う関係は与件に直接の記述はなく、新しい客を紹介と口コミで得てきたことと、営業に資源を回しにくいことから広げる案なので、2点と軽くした。中心は、協力企業との関係を深めることと、3代目の人脈で網を広げること（出題の趣旨の2つの論点）。\n・**別の答え方**：「協力企業と工程やデータを共有する仕組みをつくる」「高精細画像のデータ化の力と協力企業の印刷を組み合わせ、図録や展示の顧客にデジタルの制作も提案する」。\n【ひっかけ注意】社内の組織（営業の担当、部門の連携）を中心に書くと、外部企業との関係の問いからずれる（社内は第5問）。工程を社内に戻す（印刷機を持つ）案は、第1問の判断と逆の向き。\n【2次】j1.ans.elements|助言の設問の解答の要素\n【2次】j1.strat.growth|成長と事業の領域\n【1次】kigyo.2.2.4|ネットワーク組織\n【1次】kigyo.1.2.6|戦略的提携"
+  },
+  {
+   "k": "q5",
+   "h": "第5問",
+   "dai": 5,
+   "pts": 20,
+   "ask": "新しい事業（デザイン部門）を担う3代目が、印刷業を含む全社の経営を引き継ぎ、事業を続けていくうえでの長期的な課題と、その解決策（両方を1つの欄に）。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "課題と解決策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "課題は、紹介頼みの地場市場から顧客を広げて売上を回復し、両部門の強みを融合させること。解決策は、営業担当を置き3代目も自ら提案に回り、両部門合同のチームと人事交流でディレクションを担う人材を育てる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "紹介頼みから顧客を広げ売上を回復",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "両部門の強みを融合させる",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "営業担当を置き3代目も提案に回る",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "両部門合同のチームと人事交流",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "ディレクションを担う人材の育成",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "美術印刷（高精度・小ロット）の強み"
+    ],
+    [
+     8,
+     "ディレクション（工程の仲介・段取り・指示・調整）が社内の中心の仕事"
+    ],
+    [
+     9,
+     "案件ごとにチームを組み、アートディレクターが工程を調整する体制がある"
+    ],
+    [
+     11,
+     "デザイン部門はウェブ・コンテンツ・広告の制作へ広げた"
+    ],
+    [
+     12,
+     "新事業は案件が取りにくく、競合が多い。営業に資源を回しにくい"
+    ],
+    [
+     14,
+     "印刷部門5名・デザイン部門10名の2部門、正社員15名。3代目は特に営業をしていない"
+    ],
+    [
+     15,
+     "初代と2代目が開いた地元の市場を受け継ぎ、紹介と口コミで新しい客を得てきたが、売上は目立って回復していない"
+    ]
+   ],
+   "shushi": "次の世代の経営者がとる事業戦略と組織づくりの論点を、提言させる。",
+   "e": "・**題意**：主語は、新しい事業（デザイン部門）を担う3代目。印刷業を含む全社の経営を引き継いで事業を続けるための、長期的な課題と解決策の両方。出題の趣旨は、次の世代の経営者の事業戦略と組織づくり。\n・**組み立て**：課題＝事業戦略（紹介と口コミに頼る地場の市場から顧客を広げ、売上を回復）＋全社（印刷とデザインの強みの融合）。解決策＝組織（営業担当を置き、3代目自らも提案。両部門合同のチームと人事交流）＋人（ディレクションを担う次の人材の育成）。\n**長期的な課題と解決策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 213\" role=\"img\" aria-label=\"長期的な課題と解決策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"59.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課題</text><text x=\"176.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">解決策（解答例）</text><text x=\"297.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">①紹介頼みの</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">地場の市場から</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">顧客を広げ、</text><text x=\"6\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">売上を回復する</text><text x=\"124\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">営業担当を置き、</text><text x=\"124\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">3代目も自ら</text><text x=\"124\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">提案に回る</text><text x=\"240\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">3代目は特に</text><text x=\"240\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">営業せず。新しい客は</text><text x=\"240\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">紹介と口コミ。売上は</text><text x=\"240\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">目立った回復なし</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">②印刷とデザインの</text><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">両部門の</text><text x=\"6\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">強みを融合する</text><text x=\"124\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">両部門合同の</text><text x=\"124\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">チームと人事交流</text><text x=\"240\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">印刷5名・</text><text x=\"240\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">デザイン10名。</text><text x=\"240\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">案件ごとの</text><text x=\"240\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">チームの体制がある</text><path d=\"M1 158.8L359 158.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">（①②を支える人）</text><text x=\"124\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">ディレクションを</text><text x=\"124\" y=\"196.7\" font-size=\"11\" style=\"fill:currentColor\">担う人材を育てる</text><text x=\"240\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">社内の中心の仕事は</text><text x=\"240\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">ディレクション</text><text x=\"240\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">（工程の仲介と調整）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M118 0L118 210.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M234 0L234 210.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"210.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「全社の事業領域（ドメイン）を示し、両部門の向かう先をそろえる」「美術印刷の顧客（展示・図録など）に、ウェブを合わせた提案を広げる」「提案と受注の成果を評価に入れ、意欲を高める」「デザイン部門を任せる後任を育て、3代目は全社の経営に軸足を移す」（設問は、デザイン部門を担う3代目が全社を引き継ぐ形）。\n【ひっかけ注意】デザイン部門だけの施策にしない（設問は印刷業を含む全社）。「長期的」なので、単発の値下げや販促ではなく、体制と人の育成を入れる。第4問の外部との関係の施策を繰り返さない。\n【2次】j1.strat.succession|事業承継と後継者の育成\n【2次】j1.org.structure|組織構造と権限\n【1次】kigyo.2.7.5|経営戦略と組織"
+  }
+ ]
+}
