@@ -9124,6 +9124,430 @@
    },
    "e": "【考え方】PPAは、販売単価が17年間固定される一方、設備の資金は借入れで賄う。このため、①資金を借りる側の金利の変動と、②収入を1社の需要家に頼ることが、財務的なリスクになる。\n【設問1】営業利益は44−6−20＝18百万円。1年度の経常利益は、変動金利なら12.9、固定金利なら9.5。変動金利は、いまは固定金利より1ポイント低いが、5.29…%を超えると1年度から経常赤字になり、販売単価を上げて取り戻すこともできない。固定金利にすれば、1年度の利益は3.4百万円少なくなるが、17年間の支払利息が確定する。\n【設問2】5年度末の帳簿価額は240、売却損は190。1〜5年度の経常利益の合計67.5から売却損を差し引くと、損益の合計は△122.5。借入金も240残り、売却収入50を返済に充てても190残る。これは本業の資金（年30程度）の6年分を超え、本業の資金繰りを圧迫する。\n【設問3】リスクは「何が起きると、何が悪化するか」と「対応」を対にして書く。金利には、固定金利への切替え（金利スワップ）、自己資金を入れて借入れを減らす。需要家の信用には、与信審査、中途解約のときに需要家が設備を残りの価額で買い取る（違約金を払う）条項、複数の需要家への分散。\n【本試験での注意】令和4年度第4問は、新規事業（中古車販売事業）を実行する際に考えられるリスクを、財務的観点から2点指摘し、それらのマネジメントについて100字以内で助言させた（20点）。出題の趣旨は、新規事業の諸特性を理解し、付随する財務的リスクを指摘し、そのリスクマネジメントを助言する能力を問うとしている。リスクは、与件の事業の特徴（収入は固定か変動か、どの通貨か、取引先は何社か、在庫を持つか、資金をどう調達するか）から探す。平成27年度第4問も、大口の取引先がいることのデメリットを問うた。\n【図】上は、金利と1年度の経常利益。中は、需要家が5年度末で工場を閉鎖した場合の損益。下は、財務的なリスクと主な対応の一覧（ほかの事業のリスクを探すときにも使える）。",
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">金利と1年度の経常利益（縦軸は1年度の経常利益で、単位は百万円。金利が5.29…%を超えると、1年度から経常赤字になる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"金利と1年度の経常利益\" font-size=\"12\"><path d=\"M117.0 18L117.0 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M168.3 18L168.3 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M311.8 18L311.8 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 170.3L350.0 170.3\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"174.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">金利（年%）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"91.3\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"142.7\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2</text><text x=\"194.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3</text><text x=\"245.3\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4</text><text x=\"296.7\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">6</text><text x=\"36.0\" y=\"137.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"36.0\" y=\"100.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><text x=\"36.0\" y=\"63.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">15</text><path d=\"M40.0 36.8 L348.0 188.1\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"117.0\" cy=\"74.7\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"168.3\" cy=\"99.9\" r=\"3.4\" style=\"fill:var(--warn)\"/><circle cx=\"311.8\" cy=\"170.3\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"121.1\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">変動 1.5%</text><text x=\"164.2\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">固定 2.5%</text><text x=\"311.8\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">5.29…%</text><text x=\"123.2\" y=\"65.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">12.9</text><text x=\"174.5\" y=\"91.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">9.5</text><text x=\"46.2\" y=\"32.4\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">営業利益 18</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">需要家が5年度末で工場を閉鎖した場合の損益（単位：百万円。変動金利は1.5%のまま）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"需要家が5年度末で工場を閉鎖した場合の損益（百万円）\" font-size=\"12\"><rect x=\"235.3\" y=\"9.0\" width=\"62.7\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1〜5年度の営業利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">90.0</text><rect x=\"282.3\" y=\"35.0\" width=\"15.7\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息（年1.5%）</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－22.5</text><path d=\"M298.0 25.0L298.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"235.3\" y=\"61.0\" width=\"47.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1〜5年度の経常利益</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">67.5</text><path d=\"M282.3 51.0L282.3 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"87.0\" width=\"132.3\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">固定資産売却損</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－190.0</text><path d=\"M282.3 77.0L282.3 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"113.0\" width=\"85.3\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">損益の合計</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－122.5</text><path d=\"M150.0 103.0L150.0 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M235.3 2L235.3 134\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">財務的なリスクと主な対応（網掛けは、この事業で大きいもの）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 257\" role=\"img\" aria-label=\"財務的なリスクと主な対応\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"39.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">リスク</text><text x=\"141.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">何が起きるか</text><text x=\"282.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">主な対応</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">金利の変動</text><text x=\"84\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">変動金利が上がり、</text><text x=\"84\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">支払利息が増える</text><text x=\"210\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">固定金利・金利スワップで</text><text x=\"210\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">確定する、借入れを減らす</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">取引先の信用</text><text x=\"84\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">倒産・</text><text x=\"84\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">解約で収入が止まる、</text><text x=\"84\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">代金を回収できない</text><text x=\"210\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">与信審査、担保・</text><text x=\"210\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">保証、契約の条項、</text><text x=\"210\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">取引先の分散、取引信用保険</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">為替の変動</text><text x=\"84\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">外貨建ての受取額の</text><text x=\"84\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">減少、支払額の増加</text><text x=\"210\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">為替予約、通貨オプション、</text><text x=\"210\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">円建ての取引、外貨の</text><text x=\"210\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">受取りと支払いをそろえる</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">価格の</text><text x=\"6\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">変動・在庫</text><text x=\"84\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">仕入価格の上昇、</text><text x=\"84\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">在庫の値下がり・</text><text x=\"84\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">売れ残り</text><text x=\"210\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">価格を見直す取決め、適正な</text><text x=\"210\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">在庫、受注に合わせた生産</text><path d=\"M1 218.4L359 218.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"241.1\" font-size=\"11\" style=\"fill:currentColor\">資金繰り</text><text x=\"84\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">支払いや返済の</text><text x=\"84\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">資金が足りなくなる</text><text x=\"210\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">手元資金、当座貸越の枠、</text><text x=\"210\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">使い道に合わせた返済期間</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M78 0L78 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"254.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-desc-01",
+   "cat": "desc",
+   "lv": 2,
+   "min": 15,
+   "src": "R3-第4問（不採算事業を廃止して一本化する短期的なメリットを財務指標をあげながら40字、事業の継続が必ずしも企業価値を低下させないと経営者が考える理由の推測40字）",
+   "title": "介護人材の派遣：講座事業をやめる短期の効果と、続ける理由（企業価値）",
+   "lead": "D社は、地方都市で、介護施設に介護職員を派遣する事業（派遣事業）を営んでいる。3年前からは、介護の仕事に就くための資格を取る講座を開く事業（講座事業）も行っている。講座は賃借した教室で開き、実習用の介護ベッドや入浴の設備をそろえている。受講料は、介護の仕事が初めての人も受けやすいように近隣の講座より安くしており、講座事業は開設以来、営業損失が続いている。\n当期の講座の修了生は48人で、そのうち32人がD社に派遣スタッフとして登録し、介護施設で働き始めた。地域では介護の人材が不足しており、求人広告を出しても応募は少ない。介護施設からの派遣の依頼は年々増えているが、D社はスタッフが足りず、当期は依頼の約2割を断った。\n役員の一人は、講座事業をやめて派遣事業に一本化することを提案している。一方、社長は、講座事業を続けても企業価値が下がるとは限らないと考えている。当期の事業別の損益と、当期末の貸借対照表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "事業別の損益（当期）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "派遣事業",
+      "講座事業",
+      "全社"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "900",
+       "30",
+       "930"
+      ],
+      [
+       "営業費用",
+       "864",
+       "42",
+       "906"
+      ],
+      [
+       "営業利益",
+       "36",
+       "△12",
+       "24"
+      ]
+     ],
+     "note": "営業費用は、売上原価と販売費及び一般管理費の合計である。講座事業の営業費用は、講師の人件費、教室の賃借料、実習の設備の減価償却費などで、すべて講座事業だけで生じている。本社の費用は、派遣事業の営業費用に含めている。"
+    },
+    {
+     "cap": "貸借対照表（当期末）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "現金預金",
+       "60"
+      ],
+      [
+       "売掛金",
+       "150"
+      ],
+      [
+       "その他の流動資産",
+       "30"
+      ],
+      [
+       "有形固定資産",
+       "40"
+      ],
+      [
+       "敷金・保証金",
+       "20"
+      ],
+      [
+       "資産合計",
+       "300"
+      ],
+      [
+       "未払金・未払費用",
+       "70"
+      ],
+      [
+       "長期借入金",
+       "110"
+      ],
+      [
+       "純資産",
+       "120"
+      ],
+      [
+       "負債・純資産合計",
+       "300"
+      ]
+     ],
+     "note": "有形固定資産のうち30は講座の実習の設備（介護ベッド・入浴の設備など）、敷金・保証金（固定資産の投資その他の資産）のうち10は講座の教室のもの。売掛金はすべて派遣事業のもの。未払金・未払費用は流動負債、長期借入金は固定負債である。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "講座事業をやめた場合の短期的な効果を考える。やめると、講座事業の売上高と営業費用はなくなり、派遣事業の損益は当期と変わらないものとする。講座事業の資産（有形固定資産30百万円と敷金・保証金10百万円）は帳簿価額で現金にでき、その全額で長期借入金を返済する。\n(1) 講座事業をやめた後の値が当期より良くなる財務指標を、収益性と効率性の観点から1つずつ取り上げ、名称と、やめた後の値を答えよ。やめた後の値は、当期の損益と当期末の貸借対照表から講座事業の分を除き、返済を反映した額で計算すること。小数第3位を四捨五入して小数第2位まで示すこと。単位は、比率は%、回転率は回とする（回転率は売上高を用いて計算する）。総資本営業利益率のように、収益性と効率性の両方にかかわる指標は除く。\n(2) 講座事業をやめて派遣事業に一本化することの短期的なメリットを、(1)を踏まえ、財務指標を挙げて40字以内で述べよ。",
+     "fields": [
+      {
+       "k": "i1",
+       "type": "ind",
+       "label": "(1) 収益性の指標",
+       "dp": 2,
+       "accept": {
+        "売上高営業利益率": {
+         "v": 4.0,
+         "u": "%"
+        }
+       }
+      },
+      {
+       "k": "i2",
+       "type": "ind",
+       "label": "(1) 効率性の指標",
+       "dp": 2,
+       "accept": {
+        "総資本回転率": {
+         "v": 3.46,
+         "u": "回"
+        },
+        "有形固定資産回転率": {
+         "v": 90.0,
+         "u": "回"
+        },
+        "固定資産回転率": {
+         "v": 45.0,
+         "u": "回"
+        }
+       }
+      },
+      {
+       "k": "t1",
+       "type": "text",
+       "label": "(2) 解答",
+       "limit": 40,
+       "model": "講座の赤字がなくなり売上高営業利益率が、設備の売却で有形固定資産回転率が高まる。",
+       "points": [
+        "講座の赤字（営業損失12百万円）がなくなり、売上高営業利益率が高まる（2.58%→4.00%）",
+        "講座の設備（資産）がなくなり、有形固定資産回転率が高まる（23.25回→90.00回。総資本回転率でもよい）"
+       ]
+      }
+     ],
+     "steps": [
+      "やめた後の損益：売上高930−30＝900、営業利益24＋12＝36（講座の営業損失がなくなる）",
+      "やめた後の資産：講座の資産40（設備30・敷金10）を現金にして返済 → 総資本300−40＝260、有形固定資産40−30＝10、固定資産（有形固定資産＋敷金・保証金）60−40＝20",
+      "収益性：売上高営業利益率＝36÷900×100＝4.00%（当期は24÷930×100＝2.580…→2.58%）",
+      "効率性：有形固定資産回転率＝900÷10＝90.00回（当期23.25回）。総資本回転率＝900÷260＝3.461…→3.46回（当期3.10回）、固定資産回転率＝900÷20＝45.00回（当期15.50回）も認める",
+      "参考：売上債権回転率は6.20回→6.00回で悪くなる（売上高だけが減る）。自己資本比率は40.00%→46.15%に良くなる（返済で総資本が減る）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "社長は、講座事業を続けても企業価値が下がるとは限らないと考えている。社長がそう考える理由を、与件に即して推測し、40字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 40,
+       "model": "修了生が派遣スタッフになり、断っている依頼に応えて将来のCFを増やせるため。",
+       "points": [
+        "講座の修了生が派遣スタッフになる（人材が不足し、依頼の約2割を断っている中で、スタッフを増やす手段になる）",
+        "断っている依頼に応えて、派遣事業の将来のCF（売上・利益）が増える（企業価値は将来のCFの現在価値で決まる）"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "i1": "よくある誤り：総資本営業利益率（8.00%→13.85%）も良くなるが、収益性と効率性の両方にかかわる指標なので除く（問題文）。売上高総利益率・売上高売上原価比率・売上高販売費及び一般管理費比率は営業費用の内訳がなく、売上高経常利益率は経常利益がないので、この資料からは求められない。やめた後の値は、売上高900と営業利益36で計算する（当期の値のままでは2.58%）。",
+    "i2": "よくある誤り：売上債権回転率は、売上高だけが減り売掛金は変わらないので、6.20回→6.00回と悪くなる。有形固定資産は講座の30を除いた10で計算する（40のままでは22.50回）。総資本は260（300のままでは3.00回）、固定資産は20（60のままでは15.00回）で計算する。"
+   },
+   "e": "【考え方】設問1は「短期的」な効果で、来期の財務指標がどう変わるかを数値で確かめる。設問2は「企業価値」で、将来にわたって生むCFの現在価値で考える。同じ「講座事業をやめる」ことでも、見る期間が違えば評価が逆になりうる。\n【設問1】やめると講座の営業損失12がなくなり、営業利益は24→36、売上高は930→900になる。資産は講座の40（設備30・敷金10）がなくなり、総資本は300→260、有形固定資産は40→10。収益性は売上高営業利益率が2.58%→4.00%、効率性は有形固定資産回転率が23.25回→90.00回（総資本回転率3.10回→3.46回、固定資産回転率15.50回→45.00回も認める）。売上債権回転率は、売上高だけが減るので6.20回→6.00回と悪くなる。返済で自己資本比率も40.00%→46.15%に高まるので、安全性を記述の要素にしてもよい。\n【設問2】企業価値は、将来のCFの現在価値で決まる。講座は単独では赤字でも、修了生48人のうち32人がD社の派遣スタッフになった。介護の人材が不足して求人広告では人が集まらず、依頼の約2割を断っている中で、講座は派遣スタッフを増やす手段になっている。続ければ、断っている依頼に応えて派遣事業の将来のCFが増え、それが講座の赤字を上回れば企業価値は下がらない。やめると短期の指標は良くなるが、人材を増やす手段を失う。\n【要素の選び方】設問1は、設問の「短期的」「財務指標を挙げて」に合わせ、講座の数字（営業損失、資産）から良くなる指標を観点ごとに選ぶ（赤字→収益性、資産→効率性）。設問2は、設問の「企業価値」に合わせ、与件の修了生の登録、断っている依頼、人材の不足を、派遣事業の将来のCFにつなぐ。\n【よくある失点】設問1：「収益性が高まる」だけで指標の名前がない。悪くなる売上債権回転率を挙げる。将来の人材不足など長期の話を書く。設問2：「地域への貢献」「社会的責任」だけで、CF・企業価値とのつながりがない。受講料の値上げなど講座単独の改善策を書く（問われているのは、続けても企業価値が下がらない理由）。短期の指標で答える。\n【本試験での注意】令和3年度第4問（20点）は、不採算の移動販売事業を廃止してネット通販事業に一本化することについて、設問1で一本化による短期的なメリットを財務指標をあげながら（40字）、設問2で経営者が移動販売事業の継続は必ずしも企業価値を低下させるとは考えていない理由を推測して（40字）述べさせた。出題の趣旨では、設問1は業務統合（不採算事業への対処法）の財務指標への短期的効果について、設問2は不採算事業を続けることの企業価値への影響について長期的観点から、それぞれ助言する能力を問うとしている。本試験では事業別の数値はなく、財務諸表と与件から考える。\n【図】1つ目は主な指標の当期とやめた後。2つ目は講座事業が企業価値につながる流れ。3つ目は与件の根拠と記述の要素の対応。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">講座事業をやめる前と後の主な指標（網掛けは代表の解答。やめた後は、講座の分を除き返済を反映した値）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 309\" role=\"img\" aria-label=\"講座事業をやめる前と後の主な指標\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"63.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">指標（観点）</text><text x=\"161.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期</text><text x=\"232.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">やめた後</text><text x=\"304.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">変化</text><rect x=\"1\" y=\"23.2\" width=\"338\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（収益性）</text><text x=\"190\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2.58%</text><text x=\"262\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4.00%</text><text x=\"304.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><rect x=\"1\" y=\"60.6\" width=\"338\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L339 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">（効率性）</text><text x=\"190\" y=\"83.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">23.25回</text><text x=\"262\" y=\"83.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">90.00回</text><text x=\"304.0\" y=\"83.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><path d=\"M1 98.0L339 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">総資本回転率</text><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">（効率性）</text><text x=\"190\" y=\"120.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.10回</text><text x=\"262\" y=\"120.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3.46回</text><text x=\"304.0\" y=\"120.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><path d=\"M1 135.4L339 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">固定資産回転率</text><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">（効率性）</text><text x=\"190\" y=\"158.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">15.50回</text><text x=\"262\" y=\"158.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">45.00回</text><text x=\"304.0\" y=\"158.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><path d=\"M1 172.8L339 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">売上債権回転率</text><text x=\"6\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">（効率性）</text><text x=\"190\" y=\"195.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6.20回</text><text x=\"262\" y=\"195.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6.00回</text><text x=\"304.0\" y=\"195.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">悪くなる</text><path d=\"M1 210.2L339 210.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">自己資本比率</text><text x=\"6\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">（安全性）</text><text x=\"190\" y=\"232.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">40.00%</text><text x=\"262\" y=\"232.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">46.15%</text><text x=\"304.0\" y=\"232.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><path d=\"M1 247.6L339 247.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">流動比率（安全性）</text><text x=\"190\" y=\"262.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">342.86%</text><text x=\"262\" y=\"262.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">342.86%</text><text x=\"304.0\" y=\"262.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">変わらない</text><path d=\"M1 269.8L339 269.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"284.9\" font-size=\"11\" style=\"fill:currentColor\">総資本営業利益率</text><text x=\"6\" y=\"300.1\" font-size=\"11\" style=\"fill:currentColor\">（総合）</text><text x=\"190\" y=\"292.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">8.00%</text><text x=\"262\" y=\"292.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">13.85%</text><text x=\"304.0\" y=\"292.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">良くなる</text><path d=\"M1 23.2L339 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M126 0L126 306.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M196 0L196 306.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M268 0L268 306.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"338\" height=\"306.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">講座事業が企業価値につながる流れ（設問2）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 148\" role=\"img\" aria-label=\"講座事業が企業価値につながる流れ\" font-size=\"12\"><rect x=\"2.0\" y=\"2\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"54.0\" y=\"28.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">講座（単独では</text><text x=\"54.0\" y=\"43.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">営業損失12）</text><rect x=\"128.0\" y=\"2\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"28.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">修了生48人のうち</text><text x=\"180.0\" y=\"43.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">32人が登録</text><rect x=\"254.0\" y=\"2\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"28.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">派遣スタッフ</text><text x=\"306.0\" y=\"43.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">が増える</text><rect x=\"2.0\" y=\"87\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"54.0\" y=\"105.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">断っている依頼</text><text x=\"54.0\" y=\"120.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（約2割）</text><text x=\"54.0\" y=\"135.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">に応える</text><rect x=\"128.0\" y=\"87\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"113.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">派遣事業の</text><text x=\"180.0\" y=\"128.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">将来のCFが増える</text><rect x=\"254.0\" y=\"87\" width=\"104.0\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"105.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">企業価値が高まる</text><text x=\"306.0\" y=\"120.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（将来のCFの</text><text x=\"306.0\" y=\"135.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">現在価値）</text><path d=\"M108.0 31.5 L126.0 31.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M126.0 31.5L120.5 33.9L120.5 29.1Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M234.0 31.5 L252.0 31.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252.0 31.5L246.5 33.9L246.5 29.1Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M306.0 62 L306.0 74.0 L54.0 74.0 L54.0 85\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M54.0 85L51.6 79.5L56.4 79.5Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M108.0 116.5 L126.0 116.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M126.0 116.5L120.5 118.9L120.5 114.1Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M234.0 116.5 L252.0 116.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252.0 116.5L246.5 118.9L246.5 114.1Z\" style=\"fill:currentColor;stroke:none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">与件の根拠と記述の要素（網掛けは模範解答の要素）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 348\" role=\"img\" aria-label=\"与件の根拠と記述の要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">設問</text><text x=\"138.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"273.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">記述の要素</text><rect x=\"1\" y=\"23.2\" width=\"338\" height=\"67.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">設問1</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（短期）</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">講座事業は営業損失</text><text x=\"76\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（△12百万円）</text><text x=\"212\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">赤字がなくなり、</text><text x=\"212\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">売上高営業利益率が</text><text x=\"212\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">高まる</text><text x=\"212\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">（2.58%→4.00%）</text><rect x=\"1\" y=\"91.0\" width=\"338\" height=\"83.0\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 91.0L339 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">設問1</text><text x=\"6\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">（短期）</text><text x=\"76\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">講座の設備と敷金</text><text x=\"76\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">（40百万円）</text><text x=\"76\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">を現金にして返済</text><text x=\"212\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">資産が減り、</text><text x=\"212\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産回転率</text><text x=\"212\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">（総資本回転率）</text><text x=\"212\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">が高まる。返済で</text><text x=\"212\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">自己資本比率も高まる</text><rect x=\"1\" y=\"174.0\" width=\"338\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 174.0L339 174.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><text x=\"6\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">（長期）</text><text x=\"76\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">修了生48人のうち</text><text x=\"76\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">32人がD社に登録</text><text x=\"212\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">講座は派遣スタッフを</text><text x=\"212\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">増やす手段になっている</text><rect x=\"1\" y=\"211.4\" width=\"338\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 211.4L339 211.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"234.1\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><text x=\"6\" y=\"249.3\" font-size=\"11\" style=\"fill:currentColor\">（長期）</text><text x=\"76\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">人材が不足し求人の</text><text x=\"76\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">応募が少ない。依頼の</text><text x=\"76\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">約2割を断っている</text><text x=\"212\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">派遣事業の将来のCFが</text><text x=\"212\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">増える（企業価値は</text><text x=\"212\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">将来のCFの現在価値）</text><path d=\"M1 264.0L339 264.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">（設問2で</text><text x=\"6\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">弱い</text><text x=\"6\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">書き方）</text><text x=\"76\" y=\"301.9\" font-size=\"11\" style=\"fill:currentColor\">地域では介護の</text><text x=\"76\" y=\"317.1\" font-size=\"11\" style=\"fill:currentColor\">人材が不足している</text><text x=\"212\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">「地域への貢献」</text><text x=\"212\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">だけでは、企業価値</text><text x=\"212\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">（将来のCF）</text><text x=\"212\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">とのつながりが</text><text x=\"212\" y=\"339.9\" font-size=\"11\" style=\"fill:currentColor\">書けていない</text><path d=\"M1 23.2L339 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 346.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M206 0L206 346.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"338\" height=\"346.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-desc-02",
+   "cat": "desc",
+   "lv": 2,
+   "min": 12,
+   "src": "R1-第4問設問1（業務を分離して連結子会社が担当していることのメリットとデメリット、各30字）",
+   "title": "はかりの製造：点検・校正部門の子会社化（メリット・デメリットと連結の利益）",
+   "lead": "D社は、店舗や工場、物流の現場で使う業務用の電子はかりを製造・販売している。社内の点検・校正部門（以下、校正部門）の技術者12人が、D社のはかりを使う顧客を年1回訪ね、精度を確かめて調整する点検・校正を行っている。顧客から受け取る点検料は、D社の売上高に含めている。\n校正部門の状況は次のとおりである。点検の依頼は春と秋に集中し、夏と冬は技術者の手が空く。他社製のはかりの点検を頼まれることもあるが、D社の方針で断っている。部門の費用は本社の総務・経理の費用と区別されておらず、部門の採算は分からない。技術者は点検の際に、顧客から使い勝手の要望や故障の情報を聞き取って開発部門と営業部門に伝えており、これらの情報は製品の改良や買替えの提案に生かされている。技術者の給与と勤務時間はD社の基準で決まっており、春と秋は残業が多い。\nD社は、校正部門を分離して、100%出資の子会社E社とすることを検討している。E社は、D社の顧客の点検・校正をD社から受託するほか、他社製のはかりの点検も受託する。D社がE社に支払う委託料は、校正部門の費用に一定の利益を上乗せした額とし、毎年D社が決める。E社には総務・経理の担当者を置き、決算や税務の申告も独自に行う。D社はE社を連結子会社とする。子会社化した初年度の計画は次のとおりである。",
+   "tables": [
+    {
+     "cap": "子会社化した初年度の計画",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "校正部門の費用（技術者の人件費、校正用の設備の減価償却費など）",
+       "90"
+      ],
+      [
+       "D社がE社に支払う委託料",
+       "96"
+      ],
+      [
+       "他社製のはかりの点検の売上高",
+       "30"
+      ],
+      [
+       "他社製のはかりの点検の変動費（出張の旅費、交換する部品など）",
+       "6"
+      ],
+      [
+       "E社で新たに生じる管理の費用（総務・経理の担当者、決算・税務の費用など）",
+       "10"
+      ]
+     ],
+     "note": "校正部門の費用は固定費で、子会社化しても変わらない（E社に移る）。他社製のはかりの点検は技術者の手が空く時期に行うので、この固定費は増えない。D社の顧客から受け取る点検料は、子会社化の後もD社の売上高とする。子会社の設立の費用と法人税等は考えない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "子会社化した初年度について、(1) E社の営業利益と、(2) 子会社化しない場合と比べたD社の連結の営業利益の増減額を求めよ。子会社化しない場合は、他社製のはかりの点検を受託しないものとする。単位は百万円とし、減少の場合は△を付けること。",
+     "fields": [
+      {
+       "k": "ope",
+       "type": "num",
+       "label": "(1) E社の営業利益",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 20
+      },
+      {
+       "k": "dcon",
+       "type": "num",
+       "label": "(2) 連結の営業利益の増減額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 14
+      }
+     ],
+     "steps": [
+      "(1) E社の営業利益＝委託料96＋他社製の点検の売上高30−校正部門の費用90−変動費6−管理の費用10＝20",
+      "(2) D社がE社に支払う委託料96は、グループの中の取引なので、連結では相殺して消す（D社の費用96とE社の売上高96）",
+      "校正部門の費用90は、D社からE社に移るだけで、グループ全体の額は変わらない",
+      "連結の営業利益の増減＝他社製の点検の限界利益（30−6＝24）−管理の費用10＝＋14",
+      "確かめ：D社単体は、校正部門の費用90が委託料96に置き換わり△6。E社の20と合わせて＋14"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "校正部門をD社から分離して連結子会社とすることの、(a) メリットと (b) デメリットを、設問1の結果と与件を踏まえ、それぞれ30字以内で述べよ。",
+     "fields": [
+      {
+       "k": "ta",
+       "type": "text",
+       "label": "(a) メリット",
+       "limit": 30,
+       "model": "採算が明確になり、手の空く時期に他社製の点検で収益を得る。",
+       "points": [
+        "独立した会社として、校正の事業の採算が明確になる",
+        "技術者の手が空く時期に他社製の点検を受託して収益を得る（連結の営業利益が年14百万円増える）"
+       ]
+      },
+      {
+       "k": "tb",
+       "type": "text",
+       "label": "(b) デメリット",
+       "limit": 30,
+       "model": "管理費が年10百万円増え、顧客情報が開発・営業に届きにくい。",
+       "points": [
+        "E社の総務・経理・決算などの管理の費用が増える（年10百万円）",
+        "点検で聞き取る顧客の要望や故障の情報が、D社の開発・営業に伝わりにくくなる"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "ope": "よくある誤り：30百万円は管理の費用10を、26百万円は変動費6を引いていない。△76百万円は、D社から受け取る委託料96をE社の売上高に入れていない（E社の売上高は、委託料と他社製の点検の売上高）。",
+    "dcon": "よくある誤り：20百万円は、E社の営業利益をそのまま足した（委託料に上乗せした6は、D社の費用でもあり、連結では消える）。24百万円は管理の費用10を引いていない。30百万円は、他社製の点検の売上高だけを足した。△6百万円は、D社単体の増減だけを見た。"
+   },
+   "e": "【考え方】連結では、親会社と子会社の間の取引（ここでは委託料）は相殺して消すので、子会社化（分離）そのものではグループの利益は変わらない。連結の利益を変えるのは、①グループの外との取引の増減（他社製の点検）と、②新たに生じる費用（E社の管理の費用）だけ。メリットとデメリットは、この2つと、組織が分かれることの影響（採算と責任の明確化、情報の分断）から探す。\n【設問1】E社の営業利益＝96＋30−90−6−10＝20。D社単体は、校正部門の費用90が委託料96に置き換わり6減る。連結では委託料が消え、増減は他社製の点検の限界利益24−管理の費用10＝＋14（E社の20とD社単体の△6の合計とも一致）。E社の利益20のうち6は、D社が委託料に上乗せした分で、グループの外から稼いだものではない。\n【設問2】(a) メリット：「部門の費用が本社と区別されず採算が分からない」「夏と冬は手が空く」「他社製の点検は断っている」から、採算と責任が明確になること、手の空く時期に他社製の点検で収益を得ること（連結で年14百万円）。(b) デメリット：「E社に総務・経理を置き、決算・税務も行う」「点検で聞いた情報を開発・営業に伝え、改良や買替えの提案に生かしている」から、管理の費用が増えること（年10百万円）、顧客の情報が開発・営業に伝わりにくくなること。\n【要素の選び方】30字では2つの要素が限度。事例Ⅳなので、少なくとも1つは利益・費用への影響（連結の利益の増加、管理の費用の増加）にする。メリットとデメリットが同じことの裏返し（「採算が明確になる」と「採算が悪くなる」など）にならないよう、与件の別々の事実を使う。別解として、メリットにE社独自の勤務・賃金の制度で繁閑に合わせる（残業代を抑える）こと、デメリットに委託料の決め方で両社の損益が変わり、E社の業績を正しく評価しにくいことも、与件に根拠がある。ただし、委託料の点は、メリットの「採算が明確になる」と食い違う（D社の顧客の分のE社の利益は、D社が毎年決める上乗せの額で決まる）。委託料の点をデメリットに書くなら、メリットは他社製の点検や勤務・賃金の制度など、採算以外の要素にする。\n【よくある失点】E社の利益20を「グループの利益が20増える」と書く（委託料の上乗せ分は連結で消える）。「子会社化で費用が減る」と書く（管理の費用は増える）。「管理が難しくなる」「連結決算の手間が増える」だけで、何の費用が増え、何が損なわれるかが分からない。\n【本試験での注意】令和元年度第4問設問1は、配送業務を分離して連結子会社が担当していることのメリットとデメリットを、それぞれ30字以内で問うた。出題の趣旨は、子会社化された配送業務への助言に必要な、子会社化のメリットとデメリットの理解を確認する問題としている。本試験では数値がなく、与件の事実から考える型。\n【図】上は、子会社化による営業利益の増減を、D社単体・E社・連結に分けたもの。下は、与件の根拠と記述の要素の対応。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">子会社化による営業利益の増減（初年度。単位：百万円。E社は全額が新しく生じる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 173\" role=\"img\" aria-label=\"子会社化による営業利益の増減\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">項目</text><text x=\"152.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社（単体）</text><text x=\"234.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">E社</text><text x=\"312.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">連結</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">委託料</text><text x=\"198\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△96</text><text x=\"258\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋96</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0（相殺）</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">校正部門の費用</text><text x=\"198\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋90（なくなる）</text><text x=\"258\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△90</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0（移るだけ）</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">他社製の</text><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">点検の売上高</text><text x=\"258\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋30</text><text x=\"354\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋30</text><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">その変動費</text><text x=\"258\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△6</text><text x=\"354\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△6</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">E社の管理の費用</text><text x=\"258\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△10</text><text x=\"354\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△10</text><rect x=\"1\" y=\"149.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 149.4L359 149.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"164.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業利益の増減</text><text x=\"198\" y=\"164.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">△6</text><text x=\"258\" y=\"164.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＋20</text><text x=\"354\" y=\"164.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＋14</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M264 0L264 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"170.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">与件の根拠と記述の要素（網掛けは模範解答の要素）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 371\" role=\"img\" aria-label=\"与件の根拠と記述の要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"38.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"149.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"291.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">記述の要素</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">メリット①</text><text x=\"82\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">部門の費用が</text><text x=\"82\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">本社と区別されず、</text><text x=\"82\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">採算が分からない</text><text x=\"228\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">独立した会社として、</text><text x=\"228\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">採算が明確になる</text><rect x=\"1\" y=\"75.8\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">メリット②</text><text x=\"82\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">夏と冬は手が空く。</text><text x=\"82\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">他社製の点検は断っている</text><text x=\"228\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">手の空く時期に他社製の</text><text x=\"228\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">点検を受託して収益を</text><text x=\"228\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">得る（連結で年＋14）</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">メリット</text><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">（別解）</text><text x=\"82\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">給与と勤務時間は</text><text x=\"82\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">D社の基準で、</text><text x=\"82\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">春と秋は残業が多い</text><text x=\"228\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">E社独自の勤務・</text><text x=\"228\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">賃金の制度で、繁閑に</text><text x=\"228\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">合わせて人件費を抑える</text><rect x=\"1\" y=\"181.0\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">デメリット①</text><text x=\"82\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">E社に総務・</text><text x=\"82\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">経理の担当者を置き、</text><text x=\"82\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">決算・税務も行う</text><text x=\"228\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">管理の費用が増える</text><text x=\"228\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">（年10百万円）</text><rect x=\"1\" y=\"233.6\" width=\"358\" height=\"67.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"271.5\" font-size=\"11\" style=\"fill:currentColor\">デメリット②</text><text x=\"82\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">点検で聞いた要望・</text><text x=\"82\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">故障の情報を開発・営業に</text><text x=\"82\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">伝え、改良や買替えの</text><text x=\"82\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">提案に生かしている</text><text x=\"228\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">顧客の情報が開発・</text><text x=\"228\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">営業に伝わりにくくなる</text><path d=\"M1 301.4L359 301.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"331.7\" font-size=\"11\" style=\"fill:currentColor\">デメリット</text><text x=\"6\" y=\"346.9\" font-size=\"11\" style=\"fill:currentColor\">（別解）</text><text x=\"82\" y=\"339.3\" font-size=\"11\" style=\"fill:currentColor\">委託料はD社が毎年決める</text><text x=\"228\" y=\"316.5\" font-size=\"11\" style=\"fill:currentColor\">委託料の決め方で</text><text x=\"228\" y=\"331.7\" font-size=\"11\" style=\"fill:currentColor\">両社の損益が変わり、</text><text x=\"228\" y=\"346.9\" font-size=\"11\" style=\"fill:currentColor\">E社の業績を正しく</text><text x=\"228\" y=\"362.1\" font-size=\"11\" style=\"fill:currentColor\">評価しにくい</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M76 0L76 368.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M222 0L222 368.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"368.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-desc-03",
+   "cat": "desc",
+   "lv": 2,
+   "min": 18,
+   "src": "R1-第4問設問2（EDIを導入することで期待できる財務的効果、60字）・R5-第4問設問2（新たな製品分野を開発し販売することの財務的な利点、50字）",
+   "title": "除雪機の製造：販売店と在庫を共有する仕組みの効果と、草刈り機への進出の利点",
+   "lead": "D社は、雪の多い地域の家庭や商店で使われる小型の除雪機を製造し、農機具の販売店やホームセンター（以下、販売店）を通じて販売している。除雪機の販売は11月から1月に集中する。D社は、販売の見込みに基づいて7月から12月に生産し、在庫を積み上げて販売に備えている。在庫の資金は短期借入金で賄っている。\n販売店からの注文はファクシミリと電話で受け、事務員が手作業で入力している。D社は販売店の店頭の在庫や客からの予約の状況が分からないため、見込みを多めにして生産しており、雪の少ない冬には、売れ残った除雪機の値引き販売や、型落ちになった製品の評価損が生じている。\n1月から6月は生産ラインの稼働率が3割程度にとどまるが、工場の人件費や減価償却費などの固定費は年間を通じて生じる。除雪機の売上高は雪の量に左右され、雪の少なかった年には平年の6割ほどにとどまり、営業損失となった。\nD社は、次の2つの施策を検討している。\n①主要な販売店と、受発注のデータと店頭の在庫・予約の状況を電子データで交換する仕組み（以下、新しい仕組み）を導入する。受注の入力作業がなくなり、販売店の状況に合わせて生産量を調整できるようになる。\n②除雪機のエンジンと走行部を使った乗用の草刈り機を開発し、新たな製品分野として販売する。草刈り機は除雪機と同じ生産ラインで2月から5月に生産でき、追加の設備は刈刃の部分の金型などにとどまる。草刈り機は4月から8月に売れ、除雪機と同じ販売店を通じて販売できる。販売店からも、春から夏に売れる商品を求める声がある。また、農家の高齢化で、草刈りの機械化の需要は伸びている。",
+   "tables": [
+    {
+     "cap": "当期の実績",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "1,800"
+      ],
+      [
+       "売上原価",
+       "1,260"
+      ],
+      [
+       "在庫の年間の平均残高",
+       "420"
+      ],
+      [
+       "受注の入力作業の人件費",
+       "8"
+      ],
+      [
+       "売れ残りの値引きと評価損（過去5年の平均）",
+       "30"
+      ]
+     ],
+     "note": "在庫の回転期間（在庫の年間の平均残高÷1か月当たりの売上原価）は4.0か月である。"
+    },
+    {
+     "cap": "新しい仕組みを導入した場合の見込み",
+     "unit": "",
+     "head": [
+      "項目",
+      "見込み"
+     ],
+     "rows": [
+      [
+       "在庫の回転期間",
+       "3.0か月"
+      ],
+      [
+       "受注の入力作業の人件費",
+       "なくなる"
+      ],
+      [
+       "売れ残りの値引きと評価損",
+       "半分になる"
+      ],
+      [
+       "新しい仕組みの利用料（初期費用はない）",
+       "年9百万円"
+      ],
+      [
+       "短期借入金の金利（変わらない）",
+       "年2.0%"
+      ]
+     ],
+     "note": "在庫の回転期間の計算には、当期の売上原価を用いる。在庫が減って浮いた資金は短期借入金の返済に充て、短期借入金の年間の平均残高は、在庫の年間の平均残高の減少額と同じだけ減る。法人税等は考えない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "新しい仕組みを導入した場合の、(1) 在庫の年間の平均残高の減少額と、(2) 経常利益の年間の増加額を求めよ。販売数量は当期と変わらないものとする（欠品が減ることによる販売の増加は考えない）。単位は百万円とし、(2)は小数第1位まで示すこと。",
+     "fields": [
+      {
+       "k": "dinv",
+       "type": "num",
+       "label": "(1) 在庫の年間の平均残高の減少額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 105
+      },
+      {
+       "k": "dord",
+       "type": "num",
+       "label": "(2) 経常利益の年間の増加額",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 16.1
+      }
+     ],
+     "steps": [
+      "(1) 1か月当たりの売上原価＝1,260÷12＝105。導入後の平均残高＝105×3.0＝315。減少額＝420−315＝105（＝105×（4.0−3.0））",
+      "(2) 人件費の減少8＋値引き・評価損の減少（30÷2）15＋支払利息の減少（105×2.0%）2.1−利用料9＝16.1",
+      "在庫の減少105そのものは利益ではない（在庫が現金に戻り、借入金の返済に回る）。利益に効くのは、支払利息・値引き・評価損・人件費の減少と、利用料の増加"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "新しい仕組みを導入することによって期待できる財務的効果を、設問1の結果を踏まえて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "受注入力の人件費と、店頭に合わせた生産で値引き・評価損が減り収益性が高まる。在庫の減少で借入金と支払利息も減る。",
+       "points": [
+        "受注の入力作業がなくなり、人件費が減る",
+        "店頭の在庫・予約に合わせて生産し、売れ残りの値引き・評価損が減る（収益性の向上）",
+        "在庫が減り、浮いた資金で短期借入金を返済して支払利息が減る（効率性・安全性の向上）"
+       ]
+      }
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "乗用の草刈り機を新たな製品分野として開発し販売することには、財務的にどのような利点があるか。与件に即して50字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 50,
+       "model": "閑散期のラインと共通部品・販売店を生かし少ない投資で固定費を回収でき、雪による売上変動も分散できる。",
+       "points": [
+        "稼働率の低い時期の生産ライン、共通のエンジン・走行部、同じ販売店を生かすので追加の投資・費用が少なく、草刈り機の限界利益で工場の固定費を回収できる（利益の増加）",
+        "売れる時期が除雪機と逆なので、雪の量に左右される売上と利益の変動を分散できる（リスクの分散）"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "dinv": "よくある誤り：150百万円は、売上高で1か月分を求めた（回転期間は売上原価で計算すると資料にある）。315百万円は導入後の残高、420百万円は当期の残高で、減少額ではない。",
+    "dord": "よくある誤り：121.1百万円は、在庫の減少額105を利益に足した（在庫が減ると資金は浮くが、利益は増えない）。25.1百万円は利用料9を引いていない。14.0百万円は支払利息の減少2.1を入れていない。31.1百万円は、値引き・評価損30がすべてなくなるとした（半分になる見込み）。17.0百万円は、支払利息の減少を売上高で求めた在庫の減少150から計算した。"
+   },
+   "e": "【考え方】財務的効果・利点は、①損益（売上・費用→収益性）、②資産と資金（在庫・借入金→効率性・安全性）、③リスク（利益の変動）に分けて探し、「施策で何が変わる→財務諸表のどの科目が変わる→どの指標が良くなる」とつなぐ。設問2と設問3は、どちらも季節に関わるが、効く仕組みが違う。\n【設問1】1か月当たりの売上原価は1,260÷12＝105。在庫の平均残高は105×4.0＝420から105×3.0＝315になり、105減る。経常利益の増加は、人件費8＋値引き・評価損の減少15（30の半分）＋支払利息の減少2.1（105×2.0%）−利用料9＝16.1。在庫の減少105そのものは利益ではない（在庫が現金に戻り、借入金の返済に回る＝貸借対照表の効果）。\n【設問2】効果は3つ。受注の入力作業がなくなり人件費が減る。店頭の在庫と予約に合わせて生産するので、売れ残りの値引き・評価損が減る（この2つで収益性が高まる）。在庫が減り（棚卸資産回転率が高まる）、浮いた資金で短期借入金を返すので支払利息も減る（安全性も高まる）。利用料を差し引いても、経常利益は年16.1百万円増える。\n【設問3】利点は2つ。稼働率が3割程度の1〜6月の生産ラインと、共通のエンジン・走行部、同じ販売店を使うので、追加の投資と費用が小さく、草刈り機の限界利益で工場の固定費を回収できる（利益が増え、損益分岐点比率が下がる）。売れる時期が除雪機と逆なので、雪の量に左右される売上と利益の変動を分散できる（雪の少ない年に営業損失となるリスクを抑える）。機械化の需要の伸びで売上を伸ばせる点を加えてもよい。\n【要素の選び方】与件の文を設問ごとに振り分ける（3つ目の図）。設問2（新しい仕組み）には、受注の手入力、店頭の状況が分からず見込みを多めにした生産、値引き・評価損、在庫の資金は短期借入金、の文を使う。設問3（草刈り機）には、1〜6月の稼働率、共通の部品と生産ライン、同じ販売店、雪の量による売上の変動、の文を使う。\n【よくある失点】設問2：「業務の効率化」「販売店との関係の強化」など財務の言葉がない。在庫の減少を「利益が増える」と書く。在庫だけ・人件費だけと、効果を1つしか書かない。設問3：「ブランドの向上」「新たな顧客の獲得」などマーケティングの利点だけ。季節の平準化や固定費の回収を設問2に書く（新しい仕組みの効果ではない）。\n【本試験での注意】令和元年度第4問設問2は、EDIを導入することによって期待できる財務的効果を60字以内で問うた（EDIは検討中）。出題の趣旨は、EDIの導入を検討する際の財務的な効果について助言する能力を問うとしている。令和5年度第4問設問2は、新たな製品分野として製品を開発し販売することには、財務的にどのような利点があるかを50字以内で問うた。出題の趣旨は、新たな製品分野に進出する財務的利点について問う問題としている。同じ年の設問1はOEM生産の財務的利点（50字）で、その利点のうち、固定費が少なく売上高の変動に強いことは、CVP分析の分野のクラフトビールの問題（設備を借りて内製するリスクの記述）の裏返しとして練習できる。もう一つの典型の要素は、生産の設備に投資しないので、資産と資金の調達を抑えられること（総資本回転率などの資産効率が高い）である。\n【図】1つ目は経常利益の年間の増加額の内訳。2つ目は月ごとの生産と販売の時期。3つ目は与件の根拠と記述の要素の対応。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">経常利益の年間の増加額の内訳（設問1(2)。単位：百万円。在庫の減少105そのものは利益ではない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"経常利益の年間の増加額の内訳（百万円）\" font-size=\"12\"><rect x=\"170.0\" y=\"9.0\" width=\"43.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"21.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">受注の入力作業の人件費</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋8.0</text><rect x=\"213.3\" y=\"42.0\" width=\"81.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">値引き・評価損の減少</text><text x=\"162\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（30の半分）</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋15.0</text><path d=\"M213.3 25.0L213.3 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"294.6\" y=\"75.0\" width=\"11.4\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息の減少（105×2.0%）</text><text x=\"356\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋2.1</text><path d=\"M294.6 58.0L294.6 75.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"257.2\" y=\"101.0\" width=\"48.8\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新しい仕組みの利用料</text><text x=\"356\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－9.0</text><path d=\"M306.0 91.0L306.0 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"170.0\" y=\"127.0\" width=\"87.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">経常利益の年間の増加額</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">16.1</text><path d=\"M257.2 117.0L257.2 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">月ごとの生産と販売の時期（網掛けは生産ラインの稼働率が低い1〜6月）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"月ごとの生産と販売の時期\" font-size=\"12\"><rect x=\"86.0\" y=\"6\" width=\"134.0\" height=\"120\" style=\"fill:var(--warn);fill-opacity:0.12;stroke:none\" stroke-width=\"1\"/><text x=\"80\" y=\"25.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">除雪機の生産</text><path d=\"M86 36L354 36\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"221.0\" y=\"11\" width=\"132.0\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"287.0\" y=\"25.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">見込みで生産</text><text x=\"80\" y=\"55.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">除雪機の販売</text><path d=\"M86 66L354 66\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"310.3\" y=\"41\" width=\"42.7\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><rect x=\"87.0\" y=\"41\" width=\"20.3\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"80\" y=\"85.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">草刈り機の生産</text><path d=\"M86 96L354 96\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"109.3\" y=\"71\" width=\"87.3\" height=\"20\" rx=\"3\" style=\"fill:var(--good);fill-opacity:0.32;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"153.0\" y=\"85.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">空いたラインで</text><text x=\"80\" y=\"115.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">草刈り機の販売</text><path d=\"M86 126L354 126\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"154.0\" y=\"101\" width=\"109.7\" height=\"20\" rx=\"3\" style=\"fill:var(--good);fill-opacity:0.32;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"208.8\" y=\"115.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">同じ販売店で</text><path d=\"M86 6L86 126\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M86 126L354 126\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"97.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">1</text><text x=\"119.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">2</text><text x=\"141.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">3</text><text x=\"164.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">4</text><text x=\"186.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">5</text><text x=\"208.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">6</text><text x=\"231.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">7</text><text x=\"253.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">8</text><text x=\"275.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">9</text><text x=\"298.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">10</text><text x=\"320.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">11</text><text x=\"342.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">12</text><text x=\"354\" y=\"155\" text-anchor=\"end\" font-size=\"10\" style=\"fill:currentColor\">（月）</text><text x=\"153.0\" y=\"155\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--warn)\">1〜6月はラインの稼働率が3割程度</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">与件の根拠と記述の要素（網掛けは模範解答の要素）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 378\" role=\"img\" aria-label=\"与件の根拠と記述の要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"229.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">財務への影響</text><text x=\"334.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">設問</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">注文を事務員が</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">手作業で入力している</text><text x=\"156\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">入力の人件費が減る</text><text x=\"156\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（収益性）</text><text x=\"334.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">店頭の在庫・</text><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">予約が分からず、</text><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">見込みを多めにして生産</text><text x=\"156\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">売れ残りの値引き・</text><text x=\"156\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">評価損が減る（収益性）</text><text x=\"334.0\" y=\"90.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"113.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">在庫の資金は</text><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">短期借入金で賄っている</text><text x=\"156\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">在庫が減り、</text><text x=\"156\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">借入金と支払利息が減る</text><text x=\"156\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">（効率性・安全性）</text><text x=\"334.0\" y=\"143.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"165.8\" width=\"358\" height=\"67.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">1〜6月は生産ラインの</text><text x=\"6\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">稼働率が3割程度。</text><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">固定費は年間を</text><text x=\"6\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">通じて生じる</text><text x=\"156\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">空いたラインで作り、</text><text x=\"156\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">固定費を回収できる</text><text x=\"156\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">（利益の増加）</text><text x=\"334.0\" y=\"203.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><rect x=\"1\" y=\"233.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">エンジンと走行部が共通。</text><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">追加の設備は金型など。</text><text x=\"6\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">同じ販売店で売れる</text><text x=\"156\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">追加の投資と費用が少ない</text><text x=\"334.0\" y=\"263.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><rect x=\"1\" y=\"286.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 286.2L359 286.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"308.9\" font-size=\"11\" style=\"fill:currentColor\">雪の少ない年は売上高が</text><text x=\"6\" y=\"324.1\" font-size=\"11\" style=\"fill:currentColor\">平年の6割で、営業損失</text><text x=\"156\" y=\"301.3\" font-size=\"11\" style=\"fill:currentColor\">売れる時期が逆の製品で、</text><text x=\"156\" y=\"316.5\" font-size=\"11\" style=\"fill:currentColor\">売上と利益の</text><text x=\"156\" y=\"331.7\" font-size=\"11\" style=\"fill:currentColor\">変動を分散できる</text><text x=\"334.0\" y=\"316.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><path d=\"M1 338.8L359 338.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"353.9\" font-size=\"11\" style=\"fill:currentColor\">農家の高齢化で、草刈りの</text><text x=\"6\" y=\"369.1\" font-size=\"11\" style=\"fill:currentColor\">機械化の需要が伸びている</text><text x=\"156\" y=\"361.5\" font-size=\"11\" style=\"fill:currentColor\">売上を伸ばせる（別解）</text><text x=\"334.0\" y=\"361.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 375.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M308 0L308 375.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"375.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
   }
  ]
 }
