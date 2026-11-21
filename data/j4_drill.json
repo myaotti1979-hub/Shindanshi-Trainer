@@ -3042,6 +3042,1124 @@
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問1：新事業で稼ぐ必要のある限界利益（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"設問1：新事業で稼ぐ必要のある限界利益（百万円）\" font-size=\"12\"><rect x=\"160.0\" y=\"9.0\" width=\"15.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"152\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">目標の税引後当期純利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">35</text><rect x=\"175.8\" y=\"35.0\" width=\"6.8\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">法人税等（35÷0.7−35）</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋15</text><path d=\"M175.8 25.0L175.8 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"182.5\" y=\"61.0\" width=\"4.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息（次期）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋10</text><path d=\"M182.5 51.0L182.5 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"187.0\" y=\"87.0\" width=\"94.6\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">既存事業の固定費</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋210</text><path d=\"M187.0 77.0L187.0 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"281.7\" y=\"113.0\" width=\"24.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"152\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新事業の固定費（2交代制）</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54</text><path d=\"M281.7 103.0L281.7 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"201.5\" y=\"139.0\" width=\"104.5\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"152\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">既存事業の限界利益</text><text x=\"356\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－232</text><path d=\"M306.0 129.0L306.0 139.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"160.0\" y=\"165.0\" width=\"41.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"152\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">新事業で必要な限界利益</text><text x=\"356\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">92</text><path d=\"M201.5 155.0L201.5 165.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新事業の売上高と営業利益（単位：百万円）。150を超えると固定費が増えて線が下にずれ、点線（150のときの営業利益30）の水準に戻るのは191</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"新事業の売上高と営業利益（段階的な固定費）\" font-size=\"12\"><path d=\"M224.8 18L224.8 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M275.2 18L275.2 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 210.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 141.6L350.0 141.6\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"145.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"242.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新事業の売上高</text><text x=\"101.6\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"163.2\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"224.8\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"348.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"179.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"111.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"77.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><text x=\"36.0\" y=\"43.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><path d=\"M40.0 203.2 L224.8 90.4\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M224.8 121.1 L348.0 45.9\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"224.8\" cy=\"90.4\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"224.8\" cy=\"121.1\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"249.4\" cy=\"106.1\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"275.2\" cy=\"90.4\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"297.6\" cy=\"76.7\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"222.3\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">1交代制の上限 150</text><text x=\"277.7\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">191</text><path d=\"M224.8 90.4L348.0 90.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" stroke-dasharray=\"4 3\" fill=\"none\"/><text x=\"43.7\" y=\"39.1\" font-size=\"11\" style=\"fill:currentColor\">新事業の営業利益</text><text x=\"47.4\" y=\"64.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">1交代制（固定費36）</text><text x=\"231.0\" y=\"158.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">2交代制（固定費54）</text><text x=\"219.9\" y=\"81.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">30.0</text><text x=\"219.9\" y=\"126.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">12.0</text><text x=\"251.9\" y=\"123.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">追加の取引</text><text x=\"251.9\" y=\"136.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">170：20.8</text><text x=\"302.5\" y=\"68.1\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">目標 209</text></svg>"
   },
   {
+   "id": "d4-cf-02",
+   "cat": "cf",
+   "lv": 2,
+   "min": 15,
+   "src": "R1〜R6に出題なし（1級の会計：間接法の調整項目）",
+   "title": "ビルメンテナンス：引当金・売却益・法人税等の支払いを含む営業キャッシュ・フロー",
+   "lead": "D社は、オフィスビルや商業施設の清掃と設備の管理を請け負うビルメンテナンス業者である。従業員の多くは、現場で働く清掃員と設備の技術者である。\nD社の当期の損益計算書と、前期末・当期末の貸借対照表は次のとおりである。当期について、次のことが分かっている。\n・減価償却費は54百万円で、売上原価と販売費及び一般管理費に含まれている。\n・帳簿価額15百万円の作業用の車両を30百万円で売却し、固定資産売却益を計上した。このほかに、作業用の車両と設備を70百万円で取得した。\n・引当金の増減は、繰入れ（費用の計上）と、賞与・退職金の支払いによる取崩しだけによる。当期に貸倒れは発生していない。\n・法人税等の支払いは、前期末の未払法人税等の納付と当期の中間納付だけである。損益計算書の法人税等から中間納付額を差し引いた残りが、当期末の未払法人税等である。\n・利息及び配当金の受取額と利息の支払額は、営業活動によるキャッシュ・フローの区分に記載する。未収利息・未払利息はない。",
+   "tables": [
+    {
+     "cap": "損益計算書（当期）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "3,240"
+      ],
+      [
+       "売上原価",
+       "2,786"
+      ],
+      [
+       "売上総利益",
+       "454"
+      ],
+      [
+       "販売費及び一般管理費",
+       "340"
+      ],
+      [
+       "営業利益",
+       "114"
+      ],
+      [
+       "営業外収益（受取利息及び配当金）",
+       "3"
+      ],
+      [
+       "営業外費用（支払利息）",
+       "12"
+      ],
+      [
+       "経常利益",
+       "105"
+      ],
+      [
+       "特別利益（固定資産売却益）",
+       "15"
+      ],
+      [
+       "税引前当期純利益",
+       "120"
+      ],
+      [
+       "法人税等",
+       "36"
+      ],
+      [
+       "当期純利益",
+       "84"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "貸借対照表",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期末",
+      "当期末"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "現金預金",
+       "230",
+       "247"
+      ],
+      [
+       "売掛金",
+       "405",
+       "441"
+      ],
+      [
+       "貸倒引当金",
+       "△8",
+       "△10"
+      ],
+      [
+       "貯蔵品",
+       "22",
+       "19"
+      ],
+      [
+       "有形固定資産",
+       "420",
+       "421"
+      ],
+      [
+       "投資有価証券",
+       "120",
+       "120"
+      ],
+      [
+       "資産合計",
+       "1,189",
+       "1,238"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "買掛金",
+       "168",
+       "159"
+      ],
+      [
+       "未払費用",
+       "96",
+       "104"
+      ],
+      [
+       "未払法人税等",
+       "21",
+       "14"
+      ],
+      [
+       "賞与引当金",
+       "72",
+       "78"
+      ],
+      [
+       "短期借入金",
+       "50",
+       "50"
+      ],
+      [
+       "長期借入金",
+       "180",
+       "150"
+      ],
+      [
+       "退職給付引当金",
+       "210",
+       "222"
+      ],
+      [
+       "負債合計",
+       "797",
+       "777"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "50",
+       "50"
+      ],
+      [
+       "利益剰余金",
+       "342",
+       "411"
+      ],
+      [
+       "純資産合計",
+       "392",
+       "461"
+      ],
+      [
+       "負債・純資産合計",
+       "1,189",
+       "1,238"
+      ]
+     ],
+     "note": "有形固定資産は、減価償却累計額を差し引いた後の金額である。貯蔵品は清掃用の資材、買掛金は資材の仕入と外注費の未払分、未払費用は従業員の給与と社会保険料の未払分である。当期中に、配当金を15百万円支払い、長期借入金を30百万円返済した。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問",
+     "q": "D社の当期の(1) 法人税等の支払額と、(2) 営業活動によるキャッシュ・フローを、間接法により求めよ（単位：百万円）。(1)は金額で答え（△は付けない）、(2)はマイナスの場合は△を付けること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "tp",
+       "type": "num",
+       "label": "(1) 法人税等の支払額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 43
+      },
+      {
+       "k": "ocf",
+       "type": "num",
+       "label": "(2) 営業活動によるキャッシュ・フロー",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 102
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "(1) 中間納付額＝法人税等36−当期末の未払法人税等14＝22",
+      "(1) 法人税等の支払額＝前期末の未払法人税等21＋中間納付22＝43百万円（＝期首21＋法人税等36−期末14）",
+      "(2) 出発点：税引前当期純利益120",
+      "資金の出ない費用：減価償却費＋54、貸倒引当金の増加＋2、賞与引当金の増加＋6、退職給付引当金の増加＋12",
+      "投資CFに入る損益：固定資産売却益△15（売却による収入30は全額を投資CFに記載する）",
+      "運転資本：売掛金の増加△36、貯蔵品の減少＋3、買掛金の減少△9、未払費用の増加＋8（合計△34）",
+      "法人税等の支払額△43。利息・配当金の受払額は営業CFなので、税引前当期純利益に含まれたままでよい（未収・未払はない）",
+      "(2) 営業CF＝120＋54＋20−15−34−43＝102百万円"
+     ]
+    }
+   ],
+   "ce": {
+    "tp": "よくある誤り：36百万円は損益計算書の法人税等（発生した額）で、支払った額ではない。29百万円は、期首と期末の未払法人税等を逆にした。21百万円は前期分の納付だけ、22百万円は中間納付だけで、どちらも片方が抜けている。",
+    "ocf": "よくある誤り：109百万円は、法人税等を損益計算書の36で引いた（引くのは支払額43）。82百万円は、引当金の増加（20）を足し戻していない。117百万円は、固定資産売却益を差し引いていない（売却による収入は全額が投資CFなので、利益に含まれる売却益は営業CFから除く）。98百万円は、貸倒引当金の増加を引いた（費用の繰入れなので足す）。94百万円は、未払費用の増加を入れていない。111百万円は、受取利息及び配当金を引き支払利息を足したが、その下で受払額を戻していない。132百万円は、売却による収入まで営業CFに入れた。"
+   },
+   "e": "【考え方】間接法の調整は4種類に分けると漏れない。①資金の出ない費用（減価償却費、引当金の増加）を足す、②投資CF・財務CFに入る損益（固定資産売却益）を除く、③運転資本の増減を調整する（負債の未払費用も含む）、④法人税等は支払額を引く。\n【引当金】繰入れは費用だが、資金は出ていかない。賞与・退職金の支払い（取崩し）は資金が出ていくが、費用ではない（当期は貸倒れがなく、貸倒引当金は繰入れだけ）。差し引きの増加額20（貸倒引当金2、賞与引当金6、退職給付引当金12）を足し戻す。売掛金を貸倒引当金を差し引いた純額で見ても、答えは同じになる。\n【売却益】車両の売却による収入30は、投資CFに全額を記載する。税引前当期純利益に含まれる売却益15をそのままにすると二重に数えるので、営業CFから差し引く（売却損なら足す）。\n【法人税等】期末の未払法人税等は、当期の法人税等36から中間納付22を引いた残り。当期に支払ったのは、前期分の21と中間納付の22で、合計43。\n【本試験での注意】利息・配当金の受払額の区分は、問題文の指示に従う（営業CFに記載するなら、税引前当期純利益に含まれたままでよい）。小計を書く形では、受取利息及び配当金を引き支払利息を足して小計を出し、その下で受払額を戻す（結果は同じ）。\n【図】上は、調整の一覧（網掛けが差のつく調整）。中は、税引前当期純利益から営業CFへの調整。下は、未払法人税等と有形固定資産の勘定の動き（法人税等の支払額と、売却した車両の帳簿価額の行き先）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">調整の一覧（単位：百万円。網掛けが、本問で差がつく調整）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 269\" role=\"img\" aria-label=\"調整の一覧（百万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"59.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">調整の種類</text><text x=\"199.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">科目</text><text x=\"320.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業CF</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">資金の出ない費用</text><text x=\"124\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">減価償却費</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54</text><rect x=\"1\" y=\"45.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">貸倒引当金の増加</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋2</text><rect x=\"1\" y=\"67.6\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">賞与引当金の増加</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋6</text><rect x=\"1\" y=\"89.8\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">退職給付引当金の増加</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋12</text><rect x=\"1\" y=\"112.0\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 112.0L359 112.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-size=\"11\" style=\"fill:currentColor\">投資CFに入る損益</text><text x=\"124\" y=\"127.1\" font-size=\"11\" style=\"fill:currentColor\">固定資産売却益</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△15</text><path d=\"M1 134.2L359 134.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"149.3\" font-size=\"11\" style=\"fill:currentColor\">運転資本</text><text x=\"124\" y=\"149.3\" font-size=\"11\" style=\"fill:currentColor\">売掛金の増加</text><text x=\"354\" y=\"149.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△36</text><path d=\"M1 156.4L359 156.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"171.5\" font-size=\"11\" style=\"fill:currentColor\">貯蔵品の減少</text><text x=\"354\" y=\"171.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋3</text><path d=\"M1 178.6L359 178.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"193.7\" font-size=\"11\" style=\"fill:currentColor\">買掛金の減少</text><text x=\"354\" y=\"193.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△9</text><path d=\"M1 200.8L359 200.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"124\" y=\"215.9\" font-size=\"11\" style=\"fill:currentColor\">未払費用の増加</text><text x=\"354\" y=\"215.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋8</text><rect x=\"1\" y=\"223.0\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 223.0L359 223.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"238.1\" font-size=\"11\" style=\"fill:currentColor\">法人税等</text><text x=\"124\" y=\"238.1\" font-size=\"11\" style=\"fill:currentColor\">支払額（21＋22）</text><text x=\"354\" y=\"238.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△43</text><path d=\"M1 245.2L359 245.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"260.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業CF</text><text x=\"354\" y=\"260.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">102</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M118 0L118 266.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M280 0L280 266.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"266.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">税引前当期純利益から営業CFへ（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 218\" role=\"img\" aria-label=\"税引前当期純利益から営業CFへ（百万円）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"96.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">税引前当期純利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">120</text><rect x=\"246.5\" y=\"35.0\" width=\"43.4\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">減価償却費</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54</text><path d=\"M246.5 25.0L246.5 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"289.9\" y=\"68.0\" width=\"16.1\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"72.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">引当金の増加</text><text x=\"142\" y=\"87.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（3つの合計）</text><text x=\"356\" y=\"80.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋20</text><path d=\"M289.9 51.0L289.9 68.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"293.9\" y=\"101.0\" width=\"12.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">固定資産売却益</text><text x=\"356\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－15</text><path d=\"M306.0 84.0L306.0 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"266.6\" y=\"134.0\" width=\"27.3\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"138.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">運転資本の増減</text><text x=\"142\" y=\"153.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（4つの純額）</text><text x=\"356\" y=\"146.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－34</text><path d=\"M293.9 117.0L293.9 134.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"232.0\" y=\"167.0\" width=\"34.6\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"179.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">法人税等の支払額</text><text x=\"356\" y=\"179.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－43</text><path d=\"M266.6 150.0L266.6 167.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"193.0\" width=\"82.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"205.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業CF</text><text x=\"356\" y=\"205.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">102</text><path d=\"M232.0 183.0L232.0 193.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">未払法人税等と有形固定資産の動き（単位：百万円。左が借方、右が貸方）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 93\" role=\"img\" aria-label=\"未払法人税等と有形固定資産の動き（百万円）\" font-size=\"12\"><text x=\"86.0\" y=\"17\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">未払法人税等</text><path d=\"M2.0 24L170.0 24\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M86.0 24L86.0 87\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"4.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">前期分</text><text x=\"81.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">21</text><text x=\"4.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">中間納付</text><text x=\"81.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">22</text><text x=\"4.0\" y=\"80\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"81.0\" y=\"80\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14</text><text x=\"91.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"168.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">21</text><text x=\"91.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">法人税等</text><text x=\"168.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">36</text><text x=\"274.0\" y=\"17\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">有形固定資産（帳簿価額）</text><path d=\"M190.0 24L358.0 24\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M274.0 24L274.0 87\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"192.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"269.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">420</text><text x=\"192.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">取得</text><text x=\"269.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">70</text><text x=\"279.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">売却</text><text x=\"356.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">15</text><text x=\"279.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">減価償却</text><text x=\"356.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">54</text><text x=\"279.0\" y=\"80\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"356.0\" y=\"80\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">421</text></svg>"
+  },
+  {
+   "id": "d4-cf-03",
+   "cat": "cf",
+   "lv": 2,
+   "min": 20,
+   "src": "R1〜R6に出題なし（1級の会計：キャッシュ・フロー計算書の作成）",
+   "title": "製麺業：設備の入れ替えと借入れのあるキャッシュ・フロー計算書",
+   "lead": "D社は、地方都市で業務用の麺（うどん・そば・中華麺）を製造し、飲食店やスーパーに販売している。当期は、旧来の製麺ラインを新しい製麺ラインに入れ替えた。\nD社の当期の損益計算書と、前期末・当期末の貸借対照表は次のとおりである。当期について、次のことが分かっている。\n・減価償却費は、建物6,000千円、機械装置38,400千円で、売上原価と販売費及び一般管理費に含まれている。\n・旧製麺ライン（機械装置。取得原価80,000千円、減価償却累計額68,000千円）を7,200千円で売却した。このほかに、有形固定資産の売却・除却はない。\n・長期借入金は、新製麺ラインの資金として100,000千円を借り入れたほかは、約定どおりの返済によって減っただけである。短期借入金の増減は純額で記載する。\n・利益剰余金の増減は、当期純利益と配当金の支払いによるものだけである。\n・当期中に支払った法人税等は15,600千円である。利息の支払額は営業活動によるキャッシュ・フローの区分に記載し、未払利息はない。現金及び現金同等物は、貸借対照表の現金預金と一致する。",
+   "tables": [
+    {
+     "cap": "損益計算書（当期）",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "1,380,000"
+      ],
+      [
+       "売上原価",
+       "1,035,000"
+      ],
+      [
+       "売上総利益",
+       "345,000"
+      ],
+      [
+       "販売費及び一般管理費",
+       "285,600"
+      ],
+      [
+       "営業利益",
+       "59,400"
+      ],
+      [
+       "営業外費用（支払利息）",
+       "3,600"
+      ],
+      [
+       "経常利益",
+       "55,800"
+      ],
+      [
+       "特別損失（機械装置売却損）",
+       "4,800"
+      ],
+      [
+       "税引前当期純利益",
+       "51,000"
+      ],
+      [
+       "法人税等",
+       "15,300"
+      ],
+      [
+       "当期純利益",
+       "35,700"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "貸借対照表",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "前期末",
+      "当期末"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "現金預金",
+       "85,000",
+       "87,800"
+      ],
+      [
+       "売掛金",
+       "168,000",
+       "172,500"
+      ],
+      [
+       "棚卸資産",
+       "46,500",
+       "48,000"
+      ],
+      [
+       "建物",
+       "240,000",
+       "240,000"
+      ],
+      [
+       "　減価償却累計額",
+       "△96,000",
+       "△102,000"
+      ],
+      [
+       "機械装置",
+       "360,000",
+       "420,000"
+      ],
+      [
+       "　減価償却累計額",
+       "△200,000",
+       "△170,400"
+      ],
+      [
+       "土地",
+       "120,000",
+       "120,000"
+      ],
+      [
+       "資産合計",
+       "723,500",
+       "815,900"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "買掛金",
+       "92,000",
+       "95,000"
+      ],
+      [
+       "未払法人税等",
+       "9,000",
+       "8,700"
+      ],
+      [
+       "短期借入金",
+       "60,000",
+       "50,000"
+      ],
+      [
+       "長期借入金",
+       "150,000",
+       "220,000"
+      ],
+      [
+       "負債合計",
+       "311,000",
+       "373,700"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "30,000",
+       "30,000"
+      ],
+      [
+       "利益剰余金",
+       "382,500",
+       "412,200"
+      ],
+      [
+       "純資産合計",
+       "412,500",
+       "442,200"
+      ],
+      [
+       "負債・純資産合計",
+       "723,500",
+       "815,900"
+      ]
+     ],
+     "note": "棚卸資産は、製品（麺）と原材料（小麦粉など）である。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の当期のキャッシュ・フロー計算書（間接法）を作成したときの、次の金額を求めよ（単位：千円）。支出やマイナスの金額は△を付けること。計算過程も示すこと。\n(1) 営業活動によるキャッシュ・フロー\n(2) 有形固定資産の取得による支出\n(3) 投資活動によるキャッシュ・フロー\n(4) 財務活動によるキャッシュ・フロー",
+     "fields": [
+      {
+       "k": "ocf",
+       "type": "num",
+       "label": "(1) 営業活動によるキャッシュ・フロー",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 81600
+      },
+      {
+       "k": "capex",
+       "type": "num",
+       "label": "(2) 有形固定資産の取得による支出",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -140000
+      },
+      {
+       "k": "icf",
+       "type": "num",
+       "label": "(3) 投資活動によるキャッシュ・フロー",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -132800
+      },
+      {
+       "k": "fin",
+       "type": "num",
+       "label": "(4) 財務活動によるキャッシュ・フロー",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 54000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "(1) 営業CF＝税引前当期純利益51,000＋減価償却費44,400（6,000＋38,400）＋機械装置売却損4,800−売上債権の増加4,500−棚卸資産の増加1,500＋仕入債務の増加3,000−法人税等の支払額15,600＝81,600",
+      "(2) 機械装置（取得原価）：期首360,000＋取得−売却80,000＝期末420,000 → 取得＝420,000−360,000＋80,000＝140,000 → △140,000",
+      "確かめ：減価償却累計額（機械装置）＝期首200,000＋償却38,400−売却68,000＝170,400（当期末と一致）",
+      "(3) 売却による収入7,200（帳簿価額12,000−売却損4,800）、投資CF＝△140,000＋7,200＝△132,800",
+      "(4) 長期借入金の返済＝期首150,000＋借入れ100,000−期末220,000＝30,000",
+      "(4) 配当金＝利益剰余金の期首382,500＋当期純利益35,700−期末412,200＝6,000",
+      "(4) 財務CF＝短期借入金の純増減△10,000＋長期借入れ100,000−返済30,000−配当金6,000＝54,000",
+      "検算：期首の現金預金85,000＋81,600−132,800＋54,000＝87,800（当期末の現金預金と一致）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "当期のフリー・キャッシュ・フロー（営業活動によるキャッシュ・フローと投資活動によるキャッシュ・フローの合計とする）を求めよ（単位：千円。マイナスの場合は△を付けること）。また、当期のキャッシュ・フローの状況を、3つの区分の関係に触れて50字以内で説明せよ。",
+     "fields": [
+      {
+       "k": "fcf",
+       "type": "num",
+       "label": "フリー・キャッシュ・フロー",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -51200
+      },
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "説明",
+       "limit": 50,
+       "model": "設備投資が営業CFを上回りFCFは△51,200千円、不足を長期借入れで賄い現金預金はほぼ横ばい。",
+       "points": [
+        "新ラインへの設備投資（140,000千円）が営業CF（81,600千円）を上回り、FCFがマイナス（△51,200千円）",
+        "不足を長期借入れ（財務CF＋54,000千円）で賄った",
+        "現金預金はほぼ横ばい（＋2,800千円）"
+       ]
+      }
+     ],
+     "steps": [
+      "FCF＝営業CF81,600＋投資CF△132,800＝△51,200千円",
+      "財務CF＋54,000千円で不足を補い、現金預金の増減は＋2,800千円"
+     ]
+    }
+   ],
+   "ce": {
+    "ocf": "よくある誤り：76,800千円は、機械装置売却損を足し戻していない（売却損は資金の出ない損失で、売却の資金の動きは投資CFに記載する）。72,000千円は、売却損を差し引いた。88,800千円は、売却による収入まで営業CFに入れた。81,900千円は、法人税等を損益計算書の15,300で引いた。",
+    "capex": "よくある誤り：△60,000千円は、取得原価の期首と期末の差だけで、売却した旧ラインの取得原価80,000を足していない。△128,000千円は、帳簿価額の差に減価償却費を足したが、売却した旧ラインの帳簿価額12,000を足していない。",
+    "icf": "よくある誤り：△128,000千円は、売却による収入を帳簿価額12,000で入れた（入れるのは売却価額7,200）。△140,000千円は、売却による収入を入れていない。△52,800千円は、取得を取得原価の差で求めた。",
+    "fin": "よくある誤り：60,000千円は、配当金の支払い6,000を入れていない（利益剰余金の差で求める）。50,400千円は、支払利息まで財務CFに入れた（問題文の指示は営業CF）。74,000千円は、短期借入金の減少を足した。",
+    "fcf": "よくある誤り：△58,400千円は、設備投資だけを引き、旧ラインの売却による収入を入れていない。135,600千円は、営業CFと財務CFを足した。"
+   },
+   "e": "【考え方】キャッシュ・フロー計算書は、営業（本業で稼いだ資金）・投資（設備などへの支出と売却の収入）・財務（借入れ・返済・配当）の3つの区分で、現金の増減を説明する。3つの合計に期首の残高を足すと、期末の残高（貸借対照表の現金預金）と一致する。これが検算になる。\n【隠れた動きは差額で】有形固定資産の取得額、借入金の返済額、配当金は、貸借対照表の期首と期末の差だけでは分からない。勘定の動き（期首＋増加−減少＝期末）を書き、分かっている動きを入れた差額で求める。\n【売却損と売却収入】旧ラインの売却損4,800は資金の出ていかない損失なので営業CFで足し戻し、売却の資金の動きは売却価額7,200で投資CFに記載する。足し戻し忘れると、営業CFが売却損の分だけ少なくなる（売却益なら、差し引き忘れると売却益を営業CFと投資CFで二重に数える）。\n【設問2】営業CF81,600を上回る140,000の設備投資でFCFは△51,200となり、長期借入れ100,000で賄った（返済30,000と配当6,000も払っている）。現金預金は＋2,800でほぼ変わらない。\n【本試験での注意】借入れと返済は相殺せずに総額で記載する（短期借入金は純額でよいと指示されたときだけ純額）。利息の支払額の区分は問題文の指示に従う。答えを書いたら、3区分の合計が現金預金の増減と一致するかを必ず確かめる。\n【図】上は、差額で求める期中の動き（T字の勘定。左が借方、右が貸方）。中は、完成したキャッシュ・フロー計算書（営業CFは、支払利息を足し戻して小計を出し、その下で利息の支払額を引く形。答えは同じ）。下は、3つの区分による現金預金の増減。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">差額で求める期中の動き（単位：千円。左が借方、右が貸方）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"差額で求める期中の動き（千円）\" font-size=\"12\"><text x=\"86.0\" y=\"17\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">機械装置（取得原価）</text><path d=\"M2.0 24L170.0 24\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M86.0 24L86.0 68\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"4.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"81.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">360,000</text><text x=\"4.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">取得</text><text x=\"81.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">140,000</text><text x=\"91.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">売却</text><text x=\"168.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">80,000</text><text x=\"91.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"168.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">420,000</text><text x=\"274.0\" y=\"17\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">減価償却累計額（機械装置）</text><path d=\"M190.0 24L358.0 24\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M274.0 24L274.0 68\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"192.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">売却</text><text x=\"269.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">68,000</text><text x=\"192.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"269.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">170,400</text><text x=\"279.0\" y=\"42\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"356.0\" y=\"42\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">200,000</text><text x=\"279.0\" y=\"61\" font-size=\"11\" style=\"fill:currentColor\">償却</text><text x=\"356.0\" y=\"61\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">38,400</text><text x=\"86.0\" y=\"95\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">長期借入金</text><path d=\"M2.0 102L170.0 102\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M86.0 102L86.0 146\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"4.0\" y=\"120\" font-size=\"11\" style=\"fill:currentColor\">返済</text><text x=\"81.0\" y=\"120\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">30,000</text><text x=\"4.0\" y=\"139\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"81.0\" y=\"139\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">220,000</text><text x=\"91.0\" y=\"120\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"168.0\" y=\"120\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">150,000</text><text x=\"91.0\" y=\"139\" font-size=\"11\" style=\"fill:currentColor\">借入</text><text x=\"168.0\" y=\"139\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">100,000</text><text x=\"274.0\" y=\"95\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">利益剰余金</text><path d=\"M190.0 102L358.0 102\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M274.0 102L274.0 146\" style=\"stroke:currentColor\" stroke-width=\"1.4\" fill=\"none\"/><text x=\"192.0\" y=\"120\" font-size=\"11\" style=\"fill:currentColor\">配当</text><text x=\"269.0\" y=\"120\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6,000</text><text x=\"192.0\" y=\"139\" font-size=\"11\" style=\"fill:currentColor\">期末</text><text x=\"269.0\" y=\"139\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">412,200</text><text x=\"279.0\" y=\"120\" font-size=\"11\" style=\"fill:currentColor\">期首</text><text x=\"356.0\" y=\"120\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">382,500</text><text x=\"279.0\" y=\"139\" font-size=\"11\" style=\"fill:currentColor\">純利益</text><text x=\"356.0\" y=\"139\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">35,700</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">完成したキャッシュ・フロー計算書（単位：千円。網掛けが設問1の答え）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 580\" role=\"img\" aria-label=\"完成したキャッシュ・フロー計算書（千円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"125.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">区分・項目</text><text x=\"305.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">金額</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">Ⅰ 営業活動によるキャッシュ・フロー</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">税引前当期純利益</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">51,000</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">減価償却費</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">44,400</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">機械装置売却損</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4,800</text><path d=\"M1 112.0L359 112.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-size=\"11\" style=\"fill:currentColor\">支払利息</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,600</text><path d=\"M1 134.2L359 134.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"149.3\" font-size=\"11\" style=\"fill:currentColor\">売上債権の増減額</text><text x=\"354\" y=\"149.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△4,500</text><path d=\"M1 156.4L359 156.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"171.5\" font-size=\"11\" style=\"fill:currentColor\">棚卸資産の増減額</text><text x=\"354\" y=\"171.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△1,500</text><path d=\"M1 178.6L359 178.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"193.7\" font-size=\"11\" style=\"fill:currentColor\">仕入債務の増減額</text><text x=\"354\" y=\"193.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,000</text><path d=\"M1 200.8L359 200.8\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"215.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">小計</text><text x=\"354\" y=\"215.9\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">100,800</text><path d=\"M1 223.0L359 223.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"238.1\" font-size=\"11\" style=\"fill:currentColor\">利息の支払額</text><text x=\"354\" y=\"238.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△3,600</text><path d=\"M1 245.2L359 245.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"260.3\" font-size=\"11\" style=\"fill:currentColor\">法人税等の支払額</text><text x=\"354\" y=\"260.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△15,600</text><rect x=\"1\" y=\"267.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 267.4L359 267.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"282.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業活動によるキャッシュ・フロー</text><text x=\"354\" y=\"282.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">81,600</text><path d=\"M1 289.6L359 289.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"304.7\" font-size=\"11\" style=\"fill:currentColor\">Ⅱ 投資活動によるキャッシュ・フロー</text><rect x=\"1\" y=\"311.8\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 311.8L359 311.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"326.9\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産の取得による支出</text><text x=\"354\" y=\"326.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△140,000</text><path d=\"M1 334.0L359 334.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"349.1\" font-size=\"11\" style=\"fill:currentColor\">有形固定資産の売却による収入</text><text x=\"354\" y=\"349.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">7,200</text><rect x=\"1\" y=\"356.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 356.2L359 356.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"371.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">投資活動によるキャッシュ・フロー</text><text x=\"354\" y=\"371.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">△132,800</text><path d=\"M1 378.4L359 378.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"393.5\" font-size=\"11\" style=\"fill:currentColor\">Ⅲ 財務活動によるキャッシュ・フロー</text><path d=\"M1 400.6L359 400.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"415.7\" font-size=\"11\" style=\"fill:currentColor\">短期借入金の純増減額</text><text x=\"354\" y=\"415.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△10,000</text><path d=\"M1 422.8L359 422.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"437.9\" font-size=\"11\" style=\"fill:currentColor\">長期借入れによる収入</text><text x=\"354\" y=\"437.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">100,000</text><path d=\"M1 445.0L359 445.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"460.1\" font-size=\"11\" style=\"fill:currentColor\">長期借入金の返済による支出</text><text x=\"354\" y=\"460.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△30,000</text><path d=\"M1 467.2L359 467.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"482.3\" font-size=\"11\" style=\"fill:currentColor\">配当金の支払額</text><text x=\"354\" y=\"482.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△6,000</text><rect x=\"1\" y=\"489.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 489.4L359 489.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"504.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">財務活動によるキャッシュ・フロー</text><text x=\"354\" y=\"504.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">54,000</text><path d=\"M1 511.6L359 511.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"526.7\" font-size=\"11\" style=\"fill:currentColor\">Ⅳ 現金及び現金同等物の増減額</text><text x=\"354\" y=\"526.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,800</text><path d=\"M1 533.8L359 533.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"548.9\" font-size=\"11\" style=\"fill:currentColor\">Ⅴ 期首残高</text><text x=\"354\" y=\"548.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">85,000</text><path d=\"M1 556.0L359 556.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"571.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">Ⅵ 期末残高</text><text x=\"354\" y=\"571.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">87,800</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M250 0L250 577.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"577.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">3つの区分と現金預金の増減（単位：千円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"現金預金の増減（千円）\" font-size=\"12\"><rect x=\"110.0\" y=\"9.0\" width=\"91.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"102\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">期首の現金預金</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">85,000</text><rect x=\"201.8\" y=\"35.0\" width=\"88.2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"102\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">営業CF</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋81,600</text><path d=\"M201.8 25.0L201.8 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"146.5\" y=\"61.0\" width=\"143.5\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"102\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">投資CF</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－132,800</text><path d=\"M290.0 51.0L290.0 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"146.5\" y=\"87.0\" width=\"58.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"102\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">財務CF</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54,000</text><path d=\"M146.5 77.0L146.5 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"110.0\" y=\"113.0\" width=\"94.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"102\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">期末の現金預金</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">87,800</text><path d=\"M204.9 103.0L204.9 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-cf-04",
+   "cat": "cf",
+   "lv": 2,
+   "min": 18,
+   "src": "R6-第3問の設問1（営業利益の増加×（1−税率）＋減価償却費−運転資本残高の増加）・R5-第3問（正味運転資本の増減）",
+   "title": "冷凍倉庫：フリー・キャッシュ・フローで借入金を返済できるか",
+   "lead": "D社は、港湾地区で冷凍・冷蔵倉庫を運営し、水産加工会社や食品メーカーから預かった商品の保管と配送を請け負っている。次期は、老朽化した冷凍機の更新と、自動倉庫の導入を計画している。\nD社は、次期に長期借入金を約定どおり180百万円返済する予定であり、取引銀行から、次期の返済の見通しについて説明を求められている。\n当期の実績と次期の計画、運転資本の科目の残高は次のとおりである。法人税等の税率は30%とする。",
+   "tables": [
+    {
+     "cap": "当期の実績と次期の計画",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "当期（実績）",
+      "次期（計画）"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "2,400",
+       "2,640"
+      ],
+      [
+       "営業利益",
+       "200",
+       "240"
+      ],
+      [
+       "減価償却費",
+       "140",
+       "156"
+      ],
+      [
+       "設備投資額",
+       "60",
+       "240"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "運転資本の科目の残高",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "前期末",
+      "当期末"
+     ],
+     "rows": [
+      [
+       "売上債権（営業未収入金）",
+       "288",
+       "300"
+      ],
+      [
+       "貯蔵品",
+       "20",
+       "20"
+      ],
+      [
+       "仕入債務（営業未払金）",
+       "106",
+       "110"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "ここでは、フリー・キャッシュ・フロー（FCF）を、税引後の営業利益（営業利益×（1−税率））に減価償却費を足し、設備投資額と運転資本の増加額を差し引いた額とする。運転資本は、売上債権＋貯蔵品−仕入債務とし、次期末の売上債権・貯蔵品・仕入債務は、いずれも当期末の残高から売上高と同じ割合で増えるものとする。\nD社の当期（実績）と次期（計画）のFCFを求めよ（単位：百万円）。マイナスの場合は△を付けること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "f0",
+       "type": "num",
+       "label": "当期のFCF",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 212
+      },
+      {
+       "k": "f1",
+       "type": "num",
+       "label": "次期のFCF",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 63
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "運転資本：前期末288＋20−106＝202、当期末300＋20−110＝210 → 当期の増加8",
+      "当期のFCF＝200×（1−0.3）＋140−60−8＝140＋140−60−8＝212",
+      "次期末の運転資本：売上高が2,640÷2,400＝1.1倍になるので、売上債権330、貯蔵品22、仕入債務121 → 231（増加21）",
+      "次期のFCF＝240×（1−0.3）＋156−240−21＝168＋156−240−21＝63"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "借入金の返済に充てられる資金はFCFであるとする（支払利息と配当金は考えない）。次期のFCFで次期の約定返済額180百万円を賄えるかを答え、賄えない場合は不足額を求めよ（単位：百万円）。また、設問1と合わせて、次期の資金繰りについてD社に60字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "次期のFCFで約定返済額を",
+       "opts": [
+        "賄える",
+        "賄えない"
+       ],
+       "ans": "賄えない"
+      },
+      {
+       "k": "sh",
+       "type": "num",
+       "label": "不足額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 117
+      },
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "助言",
+       "limit": 60,
+       "model": "設備投資と運転資本の増加でFCFが返済額を117百万円下回るため、設備資金は耐用年数に合わせた長期借入れで調達する。",
+       "points": [
+        "次期のFCF（63百万円）は約定返済額（180百万円）を下回り、117百万円不足する",
+        "原因は、設備投資（240百万円）と運転資本の増加",
+        "設備資金は、耐用年数に合わせた長期借入れで調達する（返済を本業のCFの範囲に収める）"
+       ]
+      }
+     ],
+     "steps": [
+      "次期のFCF63＜約定返済額180 → 賄えない",
+      "不足額＝180−63＝117百万円",
+      "参考：簡易CF（税引後営業利益＋減価償却費）は324で返済額を上回るが、設備投資240と運転資本の増加21を差し引くと足りない"
+     ]
+    }
+   ],
+   "ce": {
+    "f0": "よくある誤り：272百万円は営業利益に税金をかけていない（税引後にする）。72百万円は減価償却費を足していない。228百万円は運転資本の増加を足した。220百万円は運転資本を入れていない。10百万円は、運転資本の増加でなく当期末の残高210を引いた。132百万円は、営業利益×税率（税額）を税引後の利益とした。",
+    "f1": "よくある誤り：135百万円は営業利益に税金をかけていない。△93百万円は減価償却費を足していない。105百万円は運転資本の増加を足した。84百万円は運転資本を入れていない。△147百万円は、運転資本の増加でなく次期末の残高231を引いた。△33百万円は、営業利益×税率（税額）を税引後の利益とした。47百万円は、減価償却費に当期の140を使った。",
+    "ch": "よくある誤り：「賄える」とする。税引後営業利益と減価償却費の合計（324）は返済額180を上回るが、設備投資と運転資本の増加を差し引いたFCFは63しかない。",
+    "sh": "よくある誤り：243百万円は、返済額にFCFを足した。0や「不足なし」は、簡易CF324で判断した（設備投資と運転資本の増加を差し引いていない）。"
+   },
+   "e": "【考え方】FCFは、本業が生んだ資金（税引後営業利益＋減価償却費）から、事業を続け伸ばすための支出（設備投資と運転資本の増加）を差し引いた、自由に使える資金。借入金の返済や配当は、この中から行う。令和6年度の第3問の設問1でも、営業利益の増加×（1−税率）に減価償却費の増加を足し、各年度末の運転資本残高の増加を差し引いて、CFの増加額を求める形が出た。\n【設問1】当期は設備投資が少なく、FCF212で返済額180を賄えた。次期は売上高の伸び（1.1倍）で運転資本が21増え、設備投資が240に膨らむので、FCFは63に落ちる。\n【設問2】簡易CF（324）だけを見ると返済できそうに見えるが、FCFで見ると117不足する。設備投資を手元の資金で賄うと返済の原資がなくなるので、設備資金は設備の耐用年数に合わせた長期借入れで調達し、毎年の返済をFCFの範囲に収めるのが基本（資金の使途と調達の期間を合わせる）。\n【本試験での注意】税金は営業利益にかける（支払利息は考えないと指示されている）。運転資本は残高でなく増加額を引く（増えればCFのマイナス、減ればプラス）。減価償却費は、その年度の値を使う。\n【図】上は、当期と次期のFCFの内訳。中は、簡易CFとFCFを約定返済額（点線）と比べたもの。下は、次期のFCFから約定返済額を差し引くと不足が残ること。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当期と次期のFCF（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 180\" role=\"img\" aria-label=\"当期と次期のFCF（百万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"65.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">百万円</text><text x=\"187.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期（実績）</text><text x=\"302.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">次期（計画）</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">営業利益×（1−0.3）</text><text x=\"239\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">140</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">168</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">＋減価償却費</text><text x=\"239\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">140</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">156</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＝簡易CF</text><text x=\"239\" y=\"82.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">280</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">324</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">−設備投資額</text><text x=\"239\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">60</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">240</text><path d=\"M1 112.0L359 112.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-size=\"11\" style=\"fill:currentColor\">−運転資本の増加</text><text x=\"239\" y=\"127.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">8（202→210）</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">21（210→231）</text><path d=\"M1 134.2L359 134.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"149.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＝FCF</text><text x=\"239\" y=\"149.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">212</text><text x=\"354\" y=\"149.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">63</text><rect x=\"1\" y=\"156.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 156.4L359 156.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"171.5\" font-size=\"11\" style=\"fill:currentColor\">約定返済額との差</text><text x=\"239\" y=\"171.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋32</text><text x=\"354\" y=\"171.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△117</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M130 0L130 177.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M245 0L245 177.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"177.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">簡易CF（税引後営業利益＋減価償却費）・FCFと約定返済額（点線）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"簡易CF・FCFと約定返済額\" font-size=\"12\"><path d=\"M40 178L350 178\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 178L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">百万円</text><rect x=\"52.4\" y=\"51.5\" width=\"52.7\" height=\"126.5\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"78.8\" y=\"47.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">280</text><text x=\"78.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">当期 簡易CF</text><rect x=\"129.9\" y=\"82.2\" width=\"52.7\" height=\"95.8\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"156.2\" y=\"78.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">212</text><text x=\"156.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">当期 FCF</text><rect x=\"207.4\" y=\"31.6\" width=\"52.7\" height=\"146.4\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"233.8\" y=\"27.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">324</text><text x=\"233.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">次期 簡易CF</text><rect x=\"284.9\" y=\"149.5\" width=\"52.7\" height=\"28.5\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"311.2\" y=\"145.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">63</text><text x=\"311.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">次期 FCF</text><path d=\"M40 96.7L350 96.7\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-dasharray=\"5 3\" fill=\"none\"/><text x=\"350\" y=\"91.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">約定返済額 180</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">次期のFCFと約定返済額（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"次期のFCFと約定返済額（百万円）\" font-size=\"12\"><rect x=\"169.3\" y=\"9.0\" width=\"70.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"112\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">税引後営業利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">168</text><rect x=\"240.2\" y=\"35.0\" width=\"65.8\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"112\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">減価償却費</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋156</text><path d=\"M240.2 25.0L240.2 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"204.8\" y=\"61.0\" width=\"101.2\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"112\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">設備投資額</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－240</text><path d=\"M306.0 51.0L306.0 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"195.9\" y=\"87.0\" width=\"8.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"112\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">運転資本の増加</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－21</text><path d=\"M204.8 77.0L204.8 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"169.3\" y=\"113.0\" width=\"26.6\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"112\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">次期のFCF</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">63</text><path d=\"M195.9 103.0L195.9 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"120.0\" y=\"139.0\" width=\"75.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"112\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">約定返済額</text><text x=\"356\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－180</text><path d=\"M195.9 129.0L195.9 139.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"120.0\" y=\"165.0\" width=\"49.3\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"112\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">返済の不足</text><text x=\"356\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－117</text><path d=\"M120.0 155.0L120.0 165.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M169.3 2L169.3 186\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-cf-05",
+   "cat": "cf",
+   "lv": 2,
+   "min": 20,
+   "src": "R1〜R6に出題なし（1級の会計：間接法）・R5-第3問（正味運転資本の増減）",
+   "title": "業務用厨房機器の販売：黒字なのに資金が減った原因と改善策",
+   "lead": "D社は、業務用の厨房機器（冷蔵庫・食器洗浄機・加熱調理機器など）を飲食店やホテルに販売し、設置まで請け負っている。\n当期から大手のホテルチェーンとの取引を始め、売上高は前期より20%増えた。ホテルチェーンからは、代金を、納品の4か月後が期日の手形で受け取っている（従来の取引先との回収条件は変わっていない）。また、メーカーの値上げを見込んで商品を多めに仕入れ、仕入先からの求めに応じて支払期日を早めた。\n当期は増益となったが、現金預金は前期末より大きく減り、短期借入金を増やした。D社の前期と当期の損益計算書と、前期末・当期末の貸借対照表は次のとおりである。",
+   "tables": [
+    {
+     "cap": "損益計算書",
+     "unit": "万円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "40,000",
+       "48,000"
+      ],
+      [
+       "売上原価",
+       "30,000",
+       "36,000"
+      ],
+      [
+       "売上総利益",
+       "10,000",
+       "12,000"
+      ],
+      [
+       "販売費及び一般管理費",
+       "8,400",
+       "9,600"
+      ],
+      [
+       "　うち減価償却費",
+       "400",
+       "420"
+      ],
+      [
+       "営業利益",
+       "1,600",
+       "2,400"
+      ],
+      [
+       "営業外費用（支払利息）",
+       "100",
+       "120"
+      ],
+      [
+       "経常利益",
+       "1,500",
+       "2,280"
+      ],
+      [
+       "税引前当期純利益",
+       "1,500",
+       "2,280"
+      ],
+      [
+       "法人税等",
+       "450",
+       "684"
+      ],
+      [
+       "当期純利益",
+       "1,050",
+       "1,596"
+      ]
+     ],
+     "note": "特別損益はない。"
+    },
+    {
+     "cap": "貸借対照表",
+     "unit": "万円",
+     "head": [
+      "科目",
+      "前期末",
+      "当期末"
+     ],
+     "rows": [
+      [
+       "〈資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "現金預金",
+       "6,000",
+       "3,600"
+      ],
+      [
+       "受取手形・売掛金",
+       "6,000",
+       "9,600"
+      ],
+      [
+       "商品",
+       "4,500",
+       "6,300"
+      ],
+      [
+       "有形固定資産",
+       "3,600",
+       "3,780"
+      ],
+      [
+       "差入保証金",
+       "900",
+       "900"
+      ],
+      [
+       "資産合計",
+       "21,000",
+       "24,180"
+      ],
+      [
+       "〈負債の部〉",
+       "",
+       ""
+      ],
+      [
+       "支払手形・買掛金",
+       "4,000",
+       "4,200"
+      ],
+      [
+       "未払法人税等",
+       "300",
+       "384"
+      ],
+      [
+       "短期借入金",
+       "2,000",
+       "4,000"
+      ],
+      [
+       "長期借入金",
+       "3,000",
+       "2,500"
+      ],
+      [
+       "負債合計",
+       "9,300",
+       "11,084"
+      ],
+      [
+       "〈純資産の部〉",
+       "",
+       ""
+      ],
+      [
+       "資本金",
+       "1,000",
+       "1,000"
+      ],
+      [
+       "利益剰余金",
+       "10,700",
+       "12,096"
+      ],
+      [
+       "純資産合計",
+       "11,700",
+       "13,096"
+      ],
+      [
+       "負債・純資産合計",
+       "21,000",
+       "24,180"
+      ]
+     ],
+     "note": "有形固定資産は、減価償却累計額を差し引いた後の金額である。当期中に、設備を600万円で取得し、長期借入金を500万円返済し、配当金を200万円支払った。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の当期の営業活動によるキャッシュ・フローを、間接法により求めよ（単位：万円）。\n法人税等の支払いは、前期末の未払法人税等の納付と当期の中間納付だけで、損益計算書の法人税等から中間納付額を差し引いた残りが当期末の未払法人税等である。利息の支払額は営業活動によるキャッシュ・フローの区分に記載し、未払利息はない。マイナスの場合は△を付けること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "ocf",
+       "type": "num",
+       "label": "営業活動によるキャッシュ・フロー",
+       "unit": "万円",
+       "dp": 0,
+       "ans": -3100
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "法人税等の支払額＝前期末の未払法人税等300＋中間納付（684−384＝300）＝600",
+      "売上債権の増加9,600−6,000＝3,600、商品の増加6,300−4,500＝1,800、買掛金の増加4,200−4,000＝200",
+      "営業CF＝税引前当期純利益2,280＋減価償却費420−3,600−1,800＋200−法人税等の支払額600＝△3,100万円",
+      "参考：投資CF△600（設備の取得）、財務CF＋1,300（短期借入れ＋2,000−返済500−配当200）で、現金預金は△2,400"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "運転資本を、受取手形・売掛金＋商品−支払手形・買掛金とする。当期の運転資本の増加額を、(1) 売上高の増加によるもの（運転資本が前期末から売上高と同じ割合で増えたとした場合の増加額）と、(2) それ以外（売上債権・商品・仕入債務の回転期間の変化）によるものに分けて求めよ（単位：万円）。",
+     "fields": [
+      {
+       "k": "g",
+       "type": "num",
+       "label": "(1) 売上高の増加によるもの",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 1300
+      },
+      {
+       "k": "r",
+       "type": "num",
+       "label": "(2) 回転期間の変化によるもの",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 3900
+      }
+     ],
+     "steps": [
+      "運転資本：前期末6,000＋4,500−4,000＝6,500、当期末9,600＋6,300−4,200＝11,700、増加5,200",
+      "売上高の増加率＝48,000÷40,000−1＝20%",
+      "(1) 売上高の増加によるもの＝前期末の運転資本6,500×20%＝1,300万円",
+      "(2) 回転期間の変化によるもの＝5,200−1,300＝3,900万円",
+      "検算：前期の回転期間のままなら、当期末は売上債権7,200＋商品5,400−買掛金4,800＝7,800（前期末6,500との差1,300）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社は当期、増益となりながら現金預金が減少した。その原因と、資金繰りを改善するための方策を、設問1・2の結果を踏まえて80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "ホテルチェーンとの手形取引で売上債権が、値上げ前の仕入れで在庫が増え、運転資本の増加が利益を上回った。回収条件の短縮交渉、在庫の圧縮、支払条件の見直しを図る。",
+       "points": [
+        "ホテルチェーンとの手形取引（回収期間の長期化）で売上債権が増加",
+        "値上げ前の仕入れで在庫が増加（支払期日の短縮も）",
+        "運転資本の増加（5,200万円。うち回転期間の変化3,900万円）が利益を上回り、営業CFがマイナス",
+        "回収条件の短縮、在庫の圧縮、支払条件の見直し"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "ocf": "よくある誤り：7,300万円は運転資本の増減の符号を逆にした。△3,184万円は法人税等を損益計算書の684で引いた（引くのは支払額600）。△3,520万円は減価償却費を足し戻していない。△1,100万円は短期借入金の増加を足した（借入れは財務CF）。△3,784万円は、当期純利益から始めたうえに法人税等の支払額も引いた。",
+    "g": "よくある誤り：2,340万円は、当期末の運転資本11,700に増加率をかけた（もとにするのは前期末6,500）。1,040万円は、運転資本の増加額5,200に増加率をかけた。1,200万円は、売上債権だけで考えた。",
+    "r": "よくある誤り：2,860万円は、(1)を当期末の運転資本から求めた。4,160万円は、(1)を増加額にかけて求めた。5,200万円は、運転資本の増加額の全体で、売上高の増加による分を差し引いていない。"
+   },
+   "e": "【考え方】利益は売上と費用の差で、資金の動きとは時点がずれる。売上が伸びると、回収前の売上債権や在庫（運転資本）がふくらみ、その分の資金が先に出ていく。さらに回収が遅く・在庫が多く・支払が早くなる（回転期間が悪化する）と、運転資本は売上の伸び以上に増える。\n【設問1】当期純利益1,596万円に対し、営業CFは△3,100万円。売上債権3,600万円と商品1,800万円の増加が、利益と減価償却費の合計を大きく上回った。設備の取得600万円、返済500万円、配当200万円も重なり、短期借入れ2,000万円でも賄えず、現金預金は2,400万円減った。\n【設問2】運転資本の増加5,200万円のうち、売上高の20%増による分は1,300万円にすぎず、3,900万円は回転期間の悪化（ホテルチェーンの4か月後の手形、値上げ前の仕入れ、支払期日の短縮）による。売上債権の回転期間は1.80か月から2.40か月に延びた。資金が減った主因は、増収そのものより取引条件の悪化である。\n【設問3】原因（運転資本の増加が利益を上回り営業CFがマイナス）と、どの科目かを、与件の事情（手形・値上げ前の仕入れ・支払期日）と結び付けて書く。方策は、回収（ホテルチェーンとの条件の交渉）・在庫（適正な水準への圧縮）・支払（仕入先との条件の見直し）の3つの面から挙げる。\n【本試験での注意】「黒字なのに資金が減る」問いでは、計算で裏付けた原因（どの科目がいくら増えたか）を示してから方策を書く。短期借入金の増加は財務CFで、営業CFの不足を補った結果であって、原因ではない。\n【図】上は、税引前当期純利益から営業CFへの調整（売上債権と商品の増加で大きくマイナスになる）。中は、運転資本の増加を、売上高の増加による分と回転期間の変化による分に分けたもの。下は、回転期間の変化。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">税引前当期純利益から営業CFへ（単位：万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"税引前当期純利益から営業CFへ（万円）\" font-size=\"12\"><rect x=\"219.7\" y=\"9.0\" width=\"64.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"124\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">税引前当期純利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">2,280</text><rect x=\"284.1\" y=\"35.0\" width=\"11.9\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"124\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">減価償却費</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋420</text><path d=\"M284.1 25.0L284.1 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"194.2\" y=\"61.0\" width=\"101.8\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"124\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上債権の増加</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－3,600</text><path d=\"M296.0 51.0L296.0 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"143.3\" y=\"87.0\" width=\"50.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"124\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">棚卸資産の増加</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－1,800</text><path d=\"M194.2 77.0L194.2 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"143.3\" y=\"113.0\" width=\"5.7\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"124\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">仕入債務の増加</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋200</text><path d=\"M143.3 103.0L143.3 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"132.0\" y=\"139.0\" width=\"17.0\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"124\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">法人税等の支払額</text><text x=\"356\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－600</text><path d=\"M149.0 129.0L149.0 139.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"132.0\" y=\"165.0\" width=\"87.7\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"124\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業CF</text><text x=\"356\" y=\"177.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－3,100</text><path d=\"M132.0 155.0L132.0 165.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M219.7 2L219.7 186\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">運転資本の増加5,200万円の分解（単位：万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 126\" role=\"img\" aria-label=\"運転資本の増加の分解（万円）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"81.1\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">前期末の運転資本</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">6,500</text><rect x=\"231.1\" y=\"42.0\" width=\"16.2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">売上高の増加</text><text x=\"142\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（20%）による分</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋1,300</text><path d=\"M231.1 25.0L231.1 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"247.3\" y=\"75.0\" width=\"48.7\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">回転期間の変化による分</text><text x=\"356\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋3,900</text><path d=\"M247.3 58.0L247.3 75.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"101.0\" width=\"146.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"113.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期末の運転資本</text><text x=\"356\" y=\"113.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">11,700</text><path d=\"M296.0 91.0L296.0 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">回転期間の変化（運転資本の増加の主因）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 122\" role=\"img\" aria-label=\"回転期間の変化\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">回転期間（月）</text><text x=\"180.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">前期</text><text x=\"240.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期</text><text x=\"315.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">変化</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">売上債権（÷月商）</text><text x=\"204\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.80</text><text x=\"264\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2.40</text><text x=\"315.0\" y=\"38.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">長くなった</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">商品</text><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">（÷月平均の売上原価）</text><text x=\"204\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.80</text><text x=\"264\" y=\"68.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2.10</text><text x=\"315.0\" y=\"68.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">長くなった</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">買掛金</text><text x=\"6\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">（÷月平均の売上原価）</text><text x=\"204\" y=\"105.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.60</text><text x=\"264\" y=\"105.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1.40</text><text x=\"315.0\" y=\"105.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">短くなった</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M210 0L210 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M270 0L270 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"119.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-cf-06",
+   "cat": "cf",
+   "lv": 3,
+   "min": 22,
+   "src": "R4-第3問（販売台数1か月分の在庫投資）・R6-第3問（運転資本残高の増加）。資金計画は1級の会計・財務の標準的な扱い",
+   "title": "調理器具メーカー：売上の伸びに伴う運転資本の増加と資金調達の必要額",
+   "lead": "D社は、家庭用の鍋やフライパンなどの調理器具を製造し、全国のホームセンターや量販店に販売している。次期から、大手の通信販売会社（新規の取引先）への販売を始める計画である。\nD社は、次期の資金計画を作るため、売上債権・棚卸資産・仕入債務を回転期間（か月）で管理することにした。回転期間は、期末の残高を月商（その期の売上高÷12）で割って求める。\n当期の実績と次期の計画は次のとおりである。次期については、次のことを前提とする。\n・棚卸資産と仕入債務の回転期間は、当期と同じ。\n・売上債権の回転期間は、既存の取引先は当期と同じ、新規の取引先は3.0か月。\n・現金預金は、期末に月商の1.2か月分を保つ（当期末も1.2か月分である）。\n・特別損益はなく、法人税等は税引前当期純利益の30%を次期中に支払う（未払法人税等の増減は考えない）。",
+   "tables": [
+    {
+     "cap": "当期の実績",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "1,800"
+      ],
+      [
+       "当期末の現金預金",
+       "180"
+      ],
+      [
+       "当期末の売上債権",
+       "300"
+      ],
+      [
+       "当期末の棚卸資産",
+       "270"
+      ],
+      [
+       "当期末の仕入債務",
+       "150"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "cap": "次期の計画",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "2,340"
+      ],
+      [
+       "　既存の取引先",
+       "1,800"
+      ],
+      [
+       "　新規の取引先",
+       "540"
+      ],
+      [
+       "経常利益",
+       "120"
+      ],
+      [
+       "減価償却費",
+       "60"
+      ],
+      [
+       "設備投資額（金型と成形機）",
+       "100"
+      ],
+      [
+       "配当金の支払額",
+       "12"
+      ],
+      [
+       "長期借入金の約定返済額",
+       "90"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "次期末の所要運転資金（売上債権＋棚卸資産−仕入債務）と、当期末からの増加額を求めよ（単位：百万円）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "wc",
+       "type": "num",
+       "label": "次期末の所要運転資金",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 591
+      },
+      {
+       "k": "dwc",
+       "type": "num",
+       "label": "当期末からの増加額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 171
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "当期の月商＝1,800÷12＝150。回転期間：売上債権300÷150＝2.0か月、棚卸資産270÷150＝1.8か月、仕入債務150÷150＝1.0か月",
+      "次期の月商：全体2,340÷12＝195、既存の取引先150、新規の取引先540÷12＝45",
+      "次期末の売上債権＝既存150×2.0＋新規45×3.0＝300＋135＝435",
+      "次期末の棚卸資産＝195×1.8＝351、仕入債務＝195×1.0＝195",
+      "次期末の所要運転資金＝435＋351−195＝591百万円（当期末300＋270−150＝420）",
+      "増加額＝591−420＝171百万円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "次期に必要な資金のうち、内部資金（税引後当期純利益＋減価償却費−配当金）で賄えない分は、外部からの借入れで調達する。次期に外部から調達する必要のある額を求めよ（単位：百万円）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "ext",
+       "type": "num",
+       "label": "外部から調達する必要のある額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 283
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "現金預金の積み増し＝次期の月商195×1.2−当期末180＝234−180＝54",
+      "必要な資金＝所要運転資金の増加171＋設備投資額100＋約定返済額90＋現金預金の積み増し54＝415",
+      "税引後当期純利益＝経常利益120×（1−0.3）＝84（特別損益はない）",
+      "内部資金＝84＋減価償却費60−配当金12＝132",
+      "外部から調達する額＝415−132＝283百万円"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "取引銀行からは、次期の新たな借入れは250百万円までと言われている。\n(1) ほかの条件を変えずに、新規の取引先の売上債権の回転期間を短くして、外部からの調達額を250百万円以内に収めるには、回転期間を何か月以内にする必要があるか（小数第2位以下を切り捨てて、小数第1位まで示すこと）。\n(2) 設問1〜3(1)の結果を踏まえ、次期の資金調達と運転資本の管理について、D社に60字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "m",
+       "type": "num",
+       "label": "(1) 新規の取引先の売上債権の回転期間",
+       "unit": "か月",
+       "dp": 1,
+       "ans": 2.2
+      },
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "(2) 助言",
+       "limit": 60,
+       "model": "新規先の回収期間を2.2か月以内にする交渉と在庫の圧縮で借入れを上限内に収め、増加運転資金と設備資金は長期借入れで賄う。",
+       "points": [
+        "新規の取引先との回収条件を2.2か月以内に短くするよう交渉する",
+        "在庫の圧縮で所要運転資金を抑え、借入れを上限（250百万円）以内に収める",
+        "売上の伸びで恒常的に増える運転資金と設備資金は、長期の借入れで賄う（使途と期間を合わせる）"
+       ]
+      }
+     ],
+     "steps": [
+      "回転期間を1か月短くすると、新規の取引先の売上債権が月商45減り、外部からの調達額も45減る",
+      "減らす必要のある額＝283−250＝33 → 短くする幅＝33÷45＝0.733…か月",
+      "回転期間＝3.0−0.733…＝2.266… → 小数第2位以下を切り捨てて2.2か月以内",
+      "確かめ：2.2か月なら外部からの調達額は247.0（250以内）、2.3か月なら251.5で上限を超える"
+     ]
+    }
+   ],
+   "ce": {
+    "wc": "よくある誤り：546百万円は、新規の取引先も既存と同じ2.0か月で回収するとした。741百万円は、すべての売上債権を3.0か月とした。786百万円は、仕入債務を差し引いていない。",
+    "dwc": "よくある誤り：126百万円は、新規の取引先の回収条件を考えず、売上高の伸び（1.3倍）だけ増えるとした。591百万円は、増加額でなく次期末の残高。",
+    "ext": "よくある誤り：238百万円は新規の取引先の回収条件を考えていない。229百万円は現金預金の積み増し54を入れていない。247百万円は法人税等を差し引いていない（内部資金は税引後の利益から）。343百万円は減価償却費を内部資金に入れていない。271百万円は配当金を差し引いていない。193百万円は約定返済90を入れていない。463百万円は、現金預金の増加でなく残高を入れた。703百万円は、所要運転資金の増加でなく残高を入れた。",
+    "m": "よくある誤り：2.3か月は、2.266…を四捨五入（または切り上げ）した値で、外部からの調達額が251.5となり上限を超える。0.7か月は、短くする幅。3.0か月（今のまま）では、283で上限を超える。"
+   },
+   "e": "【考え方】売上が伸びると、売上債権・棚卸資産・仕入債務も月商に比例して増える。その差の所要運転資金（＝月商×（売上債権回転期間＋棚卸資産回転期間−仕入債務回転期間））の増加分は、売上が伸びる限り毎年必要になる資金である。回収の遅い取引先が加わると、売上の伸び以上に増える。\n【設問1】売上高は1.3倍だが、新規の取引先の回収が3.0か月と長いので、所要運転資金は420から591へ171増える（既存と同じ条件なら126の増加）。\n【設問2】使いみち（所要運転資金の増加171、設備投資100、約定返済90、現金預金の積み増し54）の合計415から、内部資金132（税引後当期純利益84＋減価償却費60−配当金12）を引いた283を外部から調達する。\n【設問3】新規の取引先の回収を1か月早めるごとに、必要な資金は月商45減る。上限250に収めるには、回転期間を2.2か月以内にする必要がある（2.3か月では上限を超える）。交渉が難しい場合は、在庫の圧縮や設備投資の時期の見直しも組み合わせる。売上の伸びで恒常的に増える運転資金と設備資金は、短期の借入れの借り換えに頼らず、長期の借入れで賄うのが安全（資金の使途と調達の期間を合わせる。季節的・一時的に増える運転資金なら短期の借入れが合う）。\n【本試験での注意】資金計画では、運転資本の増加だけでなく、設備投資・借入金の返済・手元資金の積み増しも使いみちに入れ、内部資金（税引後の利益＋減価償却費−配当金）と比べる。「何か月以内」は、上限を超えないように切り捨てる。\n【図】上は、当期末と次期末の所要運転資金（同じ縮尺。新規先の債権が加わり大きくなる）。中は、次期の資金の使いみちと調達。下は、新規先の回転期間ごとの外部からの調達額と、借入れの上限（点線）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">所要運転資金（売上債権＋棚卸資産−仕入債務）の当期末と次期末（単位：百万円。同じ縮尺）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"所要運転資金（同じ縮尺）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">当期末</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"87.8\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"62.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">売上債権</text><text x=\"41.8\" y=\"77.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">300</text><rect x=\"1.0\" y=\"109.8\" width=\"81.5\" height=\"79.0\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"146.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">棚卸資産</text><text x=\"41.8\" y=\"161.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">270</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"43.9\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"40.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">仕入債務</text><text x=\"125.2\" y=\"55.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">150</text><rect x=\"84.5\" y=\"65.9\" width=\"81.5\" height=\"122.9\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"124.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">所要運転資金</text><text x=\"125.2\" y=\"139.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">420</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">次期末</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"87.8\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"62.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">既存先の債権</text><text x=\"234.8\" y=\"77.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">300</text><rect x=\"194.0\" y=\"109.8\" width=\"81.5\" height=\"39.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"126.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">新規先の債権</text><text x=\"234.8\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">135</text><rect x=\"194.0\" y=\"149.3\" width=\"81.5\" height=\"102.7\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"197.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">棚卸資産</text><text x=\"234.8\" y=\"212.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">351</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"57.1\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"47.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">仕入債務</text><text x=\"318.2\" y=\"62.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">195</text><rect x=\"277.5\" y=\"79.1\" width=\"81.5\" height=\"172.9\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"162.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">所要運転資金</text><text x=\"318.2\" y=\"177.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">591</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">次期の資金の使いみちと調達（単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 204\" role=\"img\" aria-label=\"次期の資金の使いみちと調達（百万円）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"64.3\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">所要運転資金の増加</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">171</text><rect x=\"214.3\" y=\"35.0\" width=\"37.6\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">設備投資額</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋100</text><path d=\"M214.3 25.0L214.3 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"251.9\" y=\"61.0\" width=\"33.8\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">長期借入金の返済</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋90</text><path d=\"M251.9 51.0L251.9 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"285.7\" y=\"87.0\" width=\"20.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">現金預金の積み増し</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54</text><path d=\"M285.7 77.0L285.7 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"113.0\" width=\"156.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">必要な資金</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">415</text><path d=\"M306.0 103.0L306.0 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"256.4\" y=\"146.0\" width=\"49.6\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"150.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">内部資金（純利益＋</text><text x=\"142\" y=\"165.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">減価償却費−配当金）</text><text x=\"356\" y=\"158.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－132</text><path d=\"M306.0 129.0L306.0 146.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"179.0\" width=\"106.4\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"191.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">外部からの調達</text><text x=\"356\" y=\"191.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">283</text><path d=\"M256.4 162.0L256.4 179.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新規先の売上債権回転期間と外部からの調達額（単位：百万円。点線が借入れの上限）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"新規先の回転期間と外部からの調達額\" font-size=\"12\"><path d=\"M40 178L350 178\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 178L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">百万円</text><rect x=\"52.4\" y=\"31.6\" width=\"52.7\" height=\"146.4\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"78.8\" y=\"27.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">283</text><text x=\"78.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3.0か月</text><rect x=\"129.9\" y=\"43.2\" width=\"52.7\" height=\"134.8\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"156.2\" y=\"39.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">260.5</text><text x=\"156.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2.5か月</text><rect x=\"207.4\" y=\"50.2\" width=\"52.7\" height=\"127.8\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"233.8\" y=\"63.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">247</text><text x=\"233.8\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2.2か月</text><rect x=\"284.9\" y=\"54.9\" width=\"52.7\" height=\"123.1\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"311.2\" y=\"67.9\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">238</text><text x=\"311.2\" y=\"191\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2.0か月</text><path d=\"M40 48.6L350 48.6\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-dasharray=\"5 3\" fill=\"none\"/><text x=\"350\" y=\"43.6\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">借入れの上限 250</text></svg>"
+  },
+  {
    "id": "d4-inv-01",
    "cat": "inv",
    "lv": 1,
