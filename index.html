@@ -579,7 +579,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v68';   // sw.js の VER と同じ値にする
+var APP_VER='v69';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1743,7 +1743,7 @@ function d4Field(p,f,v,chk,att){
   if(f.type==='num'){
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><input type="text" inputmode="decimal" autocomplete="off"'+id+esc(k)+'" value="'+esc(v[k]||'')+'" aria-label="'+esc(f.label)+'">'
       +'<button class="d4-pm" type="button" data-act="d4-pm" data-d4p="'+esc(p.id)+'" data-att="'+A+'" data-k="'+esc(k)+'" aria-label="符号（マイナス）を付ける・外す">±</button>'   // スマホの数字キーに「−」がないとき用
-      +'<span class="d4-u">'+esc(f.unit||'')+'</span>'+mk(chk&&chk[k],'正解は '+d4Fmt(f.ans,f.dp)+(f.unit||''))+'</div>';
+      +'<span class="d4-u">'+esc(f.unit||'')+'</span>'+mk(chk&&chk[k],'正解は '+d4Fmt(f.ans,f.dp)+(f.unit||'')+((f.alt||[]).length?'（読み方によっては '+f.alt.map(function(x){return d4Fmt(x,f.dp)+(f.unit||'');}).join('・')+' も正解。解説を参照）':''))+'</div>';
   } else if(f.type==='ind'){
     var nm=v[k+'_n']||'',inds=(DATA2.j4&&DATA2.j4.inds)||[];
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><select'+id+esc(k)+'_n" aria-label="'+esc(f.label)+'の指標"><option value="">指標を選ぶ</option>'+inds.map(function(n){return '<option'+(n===nm?' selected':'')+'>'+esc(n)+'</option>';}).join('')+'</select>'
