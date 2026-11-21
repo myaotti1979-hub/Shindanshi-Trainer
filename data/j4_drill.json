@@ -5246,25 +5246,1003 @@
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新店だけを見た正味現在価値から、D社全体の正味現在価値へ（単位：百万円。差額CFの現在価値で増減を示す）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"新店だけを見た正味現在価値から、D社全体の正味現在価値へ（百万円）\" font-size=\"12\"><rect x=\"175.2\" y=\"9.0\" width=\"124.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">新店だけを見たNPV</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">60.79</text><rect x=\"191.1\" y=\"35.0\" width=\"108.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXの限界利益の減少</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－53.07</text><path d=\"M300.0 25.0L300.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"61.0\" width=\"29.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">賃貸収入の喪失（機会費用）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－14.15</text><path d=\"M191.1 51.0L191.1 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"94.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"154\" y=\"98.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">調査費・本社費の配賦</text><text x=\"154\" y=\"113.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（含めない）</text><text x=\"356\" y=\"106.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋0.00</text><path d=\"M162.0 77.0L162.0 94.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"127.0\" width=\"13.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社全体のNPV</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－6.44</text><path d=\"M162.0 110.0L162.0 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M175.2 2L175.2 148\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">クラブXから移る会員数と正味現在価値（単位：百万円。1人移るごとに0.353808下がる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"移る会員数と正味現在価値\" font-size=\"12\"><path d=\"M202.4 18L202.4 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M224.8 18L224.8 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 119.1L350.0 119.1\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"123.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"45.0\" y=\"24\" font-size=\"11\" style=\"fill:currentColor\">正味現在価値</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXから移る会員数（人）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"101.6\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"163.2\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"224.8\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"286.4\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"187.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−40</text><text x=\"36.0\" y=\"155.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"90.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"58.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M40.0 43.6 L348.0 186.8\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"202.4\" cy=\"119.1\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"224.8\" cy=\"129.5\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"40.0\" cy=\"43.6\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"198.7\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">上限 131人</text><text x=\"228.5\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">見込み 150人</text><text x=\"229.7\" y=\"44.7\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">NPV △6.44</text><text x=\"64.6\" y=\"38.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0人なら 46.63</text></svg>"
   },
   {
-   "id": "j4-price-11",
+   "id": "d4-cost-01",
    "cat": "cost",
-   "lv": "C",
-   "q": "D社は部品Pを年間5,000個使用している。現在は内製（変動費800円/個、個別固定費1,200千円）だが、外部から1個1,100円で購入することもできる。外注に切り替えると部品Pの個別固定費は発生しなくなり、内製設備を転用して製品Qを年間600個生産・販売でき、1個あたり限界利益2,500円を得られる（製品Qの生産に追加の固定費はかからない）。外注すべきか。",
-   "ch": [
-    "外注すべき（利益1,200千円改善）",
-    "外注すべきでない（利益300千円悪化）",
-    "外注すべき（利益300千円改善）",
-    "外注すべきでない（利益1,200千円悪化）"
+   "lv": 2,
+   "min": 15,
+   "src": "R4-第3問設問1（外注が有利になる条件の上限。配賦された固定費の扱い）・R5-第4問設問1（OEM生産の利点の記述）",
+   "title": "介護用ベッド：部品の内製と外注（差額原価と機会原価）",
+   "lead": "D社は、地方都市で介護用の電動ベッドを製造し、介護用品のレンタル会社や病院に販売している。ベッドの両側に取り付けるサイドレール（利用者の転落を防ぐ柵）は、鋼管を切断・曲げ加工し、溶接・塗装して自社の工場で作っている。サイドレールは安全上重要な部品であり、D社は溶接の強度を全数検査するとともに、病院からの寸法の変更の要望にも短い納期で応えてきた。\nサイドレールの年間の必要数は4,800本（ベッド2,400台分）で、今後も変わらない見込みである。このたび部品メーカー1社から、サイドレールを1本4,550円（配送費を含む）で供給したいとの申し出があり、D社は外注に切り替えるかを検討している。外注先の候補は、いまのところこの1社だけである。内製しているサイドレールの1本当たりの製造原価は、次の表のとおりである。\n外注に切り替える場合の条件は次のとおりである。①サイドレールの加工に従事しているパートタイマーとは契約を更新しないので、直接労務費は発生しなくなる。②サイドレール専用の曲げ加工機のリース契約（リース料は年2,160千円）は解約できる（違約金はない）。工場の建物の減価償却費や工場の管理者の給与などの工場全体の固定費は、外注に切り替えても総額が変わらない。③外注品は受け入れる際にD社が全数の強度検査を行うので、検査員（パートタイマー）を1名雇う。その人件費は年960千円である。",
+   "tables": [
+    {
+     "cap": "サイドレールの1本当たりの製造原価（内製）",
+     "unit": "円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "直接材料費",
+       "2,350"
+      ],
+      [
+       "直接労務費",
+       "1,600"
+      ],
+      [
+       "変動製造間接費",
+       "450"
+      ],
+      [
+       "固定製造間接費",
+       "1,350"
+      ],
+      [
+       "　うち曲げ加工機のリース料",
+       "450"
+      ],
+      [
+       "　うち工場全体の固定費の配賦額",
+       "900"
+      ],
+      [
+       "製造原価",
+       "5,750"
+      ]
+     ],
+     "note": "変動製造間接費は、溶接材・塗料・電力など、生産量に比例して発生する費用である。工場全体の固定費は、直接作業時間を基準に各製品・部品に配賦している。"
+    }
    ],
-   "a": 0,
-   "ce": [
-    "○　外注による変動費の増加−1,500＋個別固定費の削減1,200＋製品Qの限界利益1,500＝＋1,200千円",
-    "×　製品Qの機会利益を考慮していない",
-    "×　計算が異なる",
-    "×　外注の追加コストだけで判断している"
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "サイドレールを外注に切り替えた場合、内製を続ける場合と比べて、D社の年間の営業利益はいくら増加するか。外注に切り替えた後に空く設備は、ほかに使わないものとする。単位は千円とし、減少する場合は△を付けること。\nまた、D社は年間の営業利益が大きくなる方を選ぶ方針である。外注に切り替えるべきかを答えよ。",
+     "fields": [
+      {
+       "k": "d",
+       "type": "num",
+       "label": "年間の営業利益の増加",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 480
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "外注への切り替え",
+       "opts": [
+        "外注に切り替えるべきである",
+        "内製を続けるべきである"
+       ],
+       "ans": "外注に切り替えるべきである"
+      }
+     ],
+     "steps": [
+      "外注すれば発生しなくなる原価（1本当たり）＝直接材料費2,350＋直接労務費1,600＋変動製造間接費450＋リース料450（2,160千円÷4,800本）＝4,850円",
+      "工場全体の固定費の配賦額900円は、外注しても総額が変わらないので差額原価に入れない",
+      "内製を続ける場合の差額原価＝4,850円×4,800本＝23,280千円",
+      "外注する場合の差額原価＝購入代価4,550円×4,800本＋受入検査の人件費960千円＝21,840千円＋960千円＝22,800千円",
+      "営業利益の増加＝23,280−22,800＝480千円 → 外注に切り替えるべきである"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "外注に切り替えると、サイドレールの溶接に使っていた溶接ロボット（自社所有）が空く。D社は、空いた溶接ロボットを使って、歩行器のフレームを新たに年1,500台生産し、販売できる見込みである。歩行器のフレームの販売価格は1台7,800円、変動費は1台5,500円で、生産には専用の治具が必要になり、その費用（固定費）が年420千円かかる。そのほかの費用は変わらず、そのほかの条件は設問1と同じとする。\nこの場合、外注先からの購入単価が1本何円以下であれば、外注に切り替えても、内製を続ける場合より年間の営業利益が小さくならないか。計算の途中では端数を処理せず、円未満の端数は切り捨てること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "lim",
+       "type": "num",
+       "label": "購入単価の上限",
+       "unit": "円",
+       "dp": 0,
+       "ans": 5281
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "歩行器のフレームの利益＝1,500台×（7,800−5,500）−治具420千円＝3,450千円−420千円＝3,030千円（内製を続けると得られない利益＝機会原価）",
+      "内製を続ける場合の費用（機会原価を含む）＝差額原価23,280千円＋機会原価3,030千円＝26,310千円",
+      "外注する場合の費用＝購入単価×4,800本＋受入検査の人件費960千円",
+      "購入単価×4,800≦26,310,000−960,000＝25,350,000（円）より、購入単価≦25,350,000÷4,800＝5,281.25 → 5,281円以下（切り捨て）",
+      "検算：5,281円なら外注の費用は26,308,800円で、内製の26,310,000円以下。5,282円なら26,313,600円で上回る"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社が外注に切り替えるかを最終的に決める前に、数値に表れない点で確かめるべきことを、与件に即して60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "安全上重要な部品の品質・納期を外注先で管理できるか、1社依存による値上げ・供給停止のおそれ、溶接技術の喪失を確かめる。",
+       "points": [
+        "安全上重要な部品なので、外注先の品質・納期を管理できるか",
+        "外注先1社への依存（値上げ・供給停止のおそれ）",
+        "自社の溶接技術（寸法変更への短納期の対応力）を失わないか"
+       ]
+      }
+     ]
+    }
    ],
-   "e": "外注による変動費増＝(1,100−800)×5,000＝1,500千円。個別固定費の削減＝1,200千円。製品Qの限界利益＝600×2,500÷1,000＝1,500千円。差引＝−1,500＋1,200＋1,500＝＋1,200千円。外注の方が1,200千円有利。内製を続けると製品Qの機会利益1,500千円を失う。意思決定では機会費用を必ず考慮する。",
-   "fmt": "mc"
+   "ce": {
+    "d": "よくある誤り：4,800千円は、製造原価5,750円（配賦された工場全体の固定費900円を含む）と購入単価を比べた値。工場全体の固定費は外注しても減らない。5,760千円は、さらに受入検査の人件費を入れていない。△1,680千円は、曲げ加工機のリース料（固定費だが解約できる）を差額原価に入れていない値で、外注は不利という逆の判断になる。1,440千円は、受入検査の人件費（外注で新たに生じる費用）を入れていない。",
+    "ch": "よくある誤り：内製を続けるべきとする。リース料の解約を見落とすと、営業利益の増加は△1,680千円となり、判断が逆になる。正しくは480千円の増加。",
+    "lim": "よくある誤り：4,650円は、歩行器のフレームの利益（機会原価）を入れていない値（設問1の条件での上限）。5,368円は、治具の費用を差し引いていない。5,481円は、受入検査の人件費を入れていない。4,831円は、リース料を差額原価に入れていない。6,181円は、製造原価5,750円（配賦額を含む）で比べた値。5,282円（切り上げ）では、外注のほうが営業利益が小さくなる。"
+   },
+   "e": "【考え方】内製か外注かは、外注に切り替えると「発生しなくなる費用」と「新たに発生する費用」を比べて判断する（差額原価収益分析）。配賦された固定費のうち、外注しても総額が変わらないもの（建物の減価償却費・管理者の給与）は差額原価に入れない。固定費でも、外注すればなくなるもの（専用の曲げ加工機のリース料）は差額原価に入れる。外注で新たに生じる費用（受入検査）も忘れない。\n【設問1】内製の差額原価は1本4,850円（製造原価5,750円から、減らない900円を除く）。外注は1本4,550円に加えて、受入検査の人件費960千円が生じる。差は年480千円で、外注が有利。製造原価5,750円で比べると4,800千円も有利に見え、リース料の解約を見落とすと逆に1,680千円不利に見える。\n【設問2】外注で空く溶接ロボットで歩行器のフレームを作れるなら、その利益3,030千円は、内製を続けると得られない利益（機会原価）になる。機会原価を内製の側の費用に加えて比べると、購入単価の上限は5,281.25円→5,281円（切り捨て）。新製品がなければ上限は4,650円で、空いた設備の使い道で判断が大きく変わる。\n【設問3】数値に表れない点は、与件（安全上重要な部品、外注先の候補は1社だけ、寸法の変更に短納期で応えてきたこと）と結び付けて書く。外注先の品質・納期の管理、1社への依存による値上げや供給停止のおそれ、技術やノウハウの喪失（強みの短納期の対応を失う）が典型。なお、歩行器のフレームの販売は見込みなので、設問2の上限は、見込みどおりに売れることが前提である。\n【本試験での注意】令和4年度第3問設問1は、自社で点検整備する場合と外注する場合を比べ、外注が有利になる中古車の買取価格の上限を、計算過程とともに求めさせた（間接費のうち固定費の配賦額は、既存の工場に余裕があるので差額原価にならない）。令和5年度第4問設問1では、OEM生産（生産の委託）の財務的利点が問われた。どの費用が「やめれば消えるか」を、与件の言葉（契約を更新しない、解約できる、総額は変わらない）から判断する。上限・下限を求める問いは、端数の指示（切り捨て・切り上げ）に従い、境目の両側で検算する（令和3年度第2問設問3も、上限を小数点以下切り捨てで求めさせた）。\n【図】上は、1本当たりの製造原価のうち、外注で減る原価（差額原価）。下は、購入単価と外注による年間の営業利益の増加の関係で、2本の線が0と交わる点が上限。新製品を作れる場合（緑）は、機会原価の分だけ線が上にずれる。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">内製の原価のうち、外注で減るもの（1本当たり。単位：円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 217\" role=\"img\" aria-label=\"内製の原価のうち、外注で減るもの\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"88.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1本当たり（円）</text><text x=\"211.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">金額</text><text x=\"303.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">外注で減るか</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">直接材料費</text><text x=\"240\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,350</text><text x=\"303.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">減る</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">直接労務費</text><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">（契約を更新しない）</text><text x=\"240\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,600</text><text x=\"303.0\" y=\"70.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">減る</text><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">変動製造間接費</text><text x=\"240\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">450</text><text x=\"303.0\" y=\"101.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">減る</text><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">曲げ加工機のリース料</text><text x=\"6\" y=\"140.0\" font-size=\"11.5\" style=\"fill:currentColor\">（解約できる）</text><text x=\"240\" y=\"132.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">450</text><text x=\"303.0\" y=\"132.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">減る</text><path d=\"M1 147.3L359 147.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"162.9\" font-size=\"11.5\" style=\"fill:currentColor\">工場全体の固定費の配賦額</text><text x=\"240\" y=\"162.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">900</text><text x=\"303.0\" y=\"162.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">減らない</text><path d=\"M1 170.2L359 170.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"185.8\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">製造原価</text><text x=\"240\" y=\"185.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">5,750</text><rect x=\"1\" y=\"193.1\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 193.1L359 193.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"208.7\" font-size=\"11.5\" style=\"fill:currentColor\">外注で減る原価（差額原価）</text><text x=\"240\" y=\"208.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4,850</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M176 0L176 215.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M246 0L246 215.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"215.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">購入単価と、外注による年間の営業利益の増加（単位：千円。点線は提示の4,550円）。線が0と交わる点が上限（新製品なしは4,650円、新製品ありは5,281.25円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"購入単価と、外注による年間の営業利益の増加\" font-size=\"12\"><path d=\"M82.0 18L82.0 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 210.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 116.0L350.0 116.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"120.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"242.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">購入単価（円）</text><text x=\"40.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4,400</text><text x=\"152.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4,800</text><text x=\"264.0\" y=\"224.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5,200</text><text x=\"36.0\" y=\"203.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−4,000</text><text x=\"36.0\" y=\"161.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−2,000</text><text x=\"36.0\" y=\"78.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">2,000</text><text x=\"36.0\" y=\"36.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">4,000</text><path d=\"M40.0 90.9 L348.0 201.2\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 27.6 L348.0 137.9\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110.0\" cy=\"116.0\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"286.8\" cy=\"116.0\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"82.0\" cy=\"106.0\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"82.0\" cy=\"42.7\" r=\"3.4\" style=\"fill:var(--good)\"/><text x=\"82.0\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">提示 4,550</text><text x=\"86.2\" y=\"35.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">3,510</text><text x=\"86.2\" y=\"102.4\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">480</text><text x=\"115.0\" y=\"111.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">上限 4,650</text><text x=\"290.7\" y=\"111.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">上限 5,281</text><text x=\"208.0\" y=\"80.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">新製品あり</text><text x=\"264.0\" y=\"164.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">新製品なし</text></svg>"
+  },
+  {
+   "id": "d4-cost-02",
+   "cat": "cost",
+   "lv": 3,
+   "min": 22,
+   "src": "R6-第2問（通常より低い価格の注文と生産能力の制約。設問2の販売価格の下限）",
+   "title": "タオルの製造：特別注文の受注と価格の下限（生産能力と機会原価）",
+   "lead": "D社は、タオルの産地にある織物業者で、先染めの糸を使った高品質のタオルを織り、自社のブランドで百貨店やタオルの専門店に卸している。主力はフェイスタオルとバスタオルで、バスタオルの主な販売先は、長年取引のある百貨店である。\nタオルを織る織機の稼働時間は、平日の操業で月2,400時間が上限である。休日にも織機を動かせば、平日の上限とは別に月160時間まで稼働できるが、その場合は、休日出勤の人件費（割増分を含む）が稼働1時間当たり2,000円増える（変動費は、これとは別に平日と同じだけかかる）。\nD社の原価計算では、製造固定費（月14,400千円。織機の減価償却費・正社員の人件費など）を、織機の稼働時間1時間当たり6,000円で製品に配賦している。既存の製品のデータは次の表のとおりで、毎月の販売量（需要）は今後も同じと見込まれる。\nこのたび、ホテルチェーンから、ロゴを織り込んだ客室用のフェイスタオル（ホテル向け製品）の注文の打診があった。ホテル向け製品は、1枚当たりの変動費が360円（個別の包装をしない）、織機の稼働時間が1枚0.05時間で、D社の原価計算による1枚当たりの製造原価は660円となる。ロゴを織り込むための紋紙（柄のデータ）の作成費126千円が別にかかる。注文は全量を受けるか断るかのどちらかで、1か月のうちに納める必要がある。ホテルチェーンは、今回の品質と納期を評価して、来年度から定期的に発注することも検討している。",
+   "tables": [
+    {
+     "cap": "既存の製品のデータ（1枚当たり）",
+     "unit": "",
+     "head": [
+      "項目",
+      "フェイスタオル",
+      "バスタオル"
+     ],
+     "rows": [
+      [
+       "販売価格（円）",
+       "900",
+       "2,400"
+      ],
+      [
+       "変動費（円）",
+       "420",
+       "1,200"
+      ],
+      [
+       "織機の稼働時間（時間）",
+       "0.04",
+       "0.12"
+      ],
+      [
+       "製造原価（円）",
+       "660",
+       "1,920"
+      ],
+      [
+       "毎月の販売量（枚）",
+       "30,000",
+       "6,000"
+      ]
+     ],
+     "note": "変動費は、糸・染料・縫製の外注加工費・包装材などである。製造原価は、変動費に、織機の稼働時間1時間当たり6,000円の製造固定費を加えたもの。販売費及び一般管理費は、注文を受けても変わらない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "ホテルチェーンからの最初の打診は、ホテル向け製品8,000枚を1枚600円で納めるというものであった。この注文を受けた場合の、D社のその月の営業利益の増減額を求めよ（単位：千円。減少する場合は△を付けること）。\nまた、D社は営業利益が大きくなる方を選ぶ方針である。この注文を受けるべきかを答えよ。",
+     "fields": [
+      {
+       "k": "d1",
+       "type": "num",
+       "label": "営業利益の増減額",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 1794
+      },
+      {
+       "k": "ch1",
+       "type": "choice",
+       "label": "注文を受けるか",
+       "opts": [
+        "受けるべきである",
+        "受けるべきでない"
+       ],
+       "ans": "受けるべきである"
+      }
+     ],
+     "steps": [
+      "必要な織機の稼働時間＝8,000枚×0.05時間＝400時間",
+      "既存の製品が使う時間＝30,000×0.04＋6,000×0.12＝1,200＋720＝1,920時間、空いている時間＝2,400−1,920＝480時間 → 400時間は空いている時間で賄える",
+      "製造固定費は注文を受けても増えないので、配賦額（1枚300円）は差額原価に入れない",
+      "営業利益の増減＝（600−360）×8,000枚−紋紙の作成費126千円＝1,920千円−126千円＝1,794千円 → 受けるべきである"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "その後、ホテルチェーンから、全館のタオルを一度に入れ替えるため、注文を20,000枚に増やし、その代わりに価格を1枚540円にしてほしいとの申し入れがあった（設問1の注文に代わるもので、紋紙の作成費は同じ126千円）。D社は、営業利益が最も大きくなるように、休日の稼働と既存の製品の生産の減らし方を決める。既存の製品の販売を減らした分は、その月の販売が失われ、翌月以降に取り戻すことはできない。\n(1) 1枚540円でこの注文を受けた場合の、その月の営業利益の増減額を求めよ（単位：千円。減少する場合は△を付けること）。\n(2) この注文を受けても営業利益が減少しないためには、ホテル向け製品の価格を1枚何円以上にする必要があるか。計算の途中では端数を処理せず、円未満の端数は切り上げること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "d2",
+       "type": "num",
+       "label": "(1) 営業利益の増減額",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -446
+      },
+      {
+       "k": "pmin",
+       "type": "num",
+       "label": "(2) 価格の下限",
+       "unit": "円",
+       "dp": 0,
+       "ans": 563
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(2) 計算過程"
+      }
+     ],
+     "steps": [
+      "必要な時間＝20,000枚×0.05時間＝1,000時間。空いている480時間では520時間足りない",
+      "足りない時間の賄い方を比べる：休日の稼働は1時間当たり2,000円の人件費の増加。既存の製品を減らすと、織機1時間当たりの限界利益を失う（フェイスタオル：（900−420）÷0.04＝12,000円、バスタオル：（2,400−1,200）÷0.12＝10,000円）",
+      "まず休日に160時間稼働する（人件費の増加＝160×2,000＝320千円）。残り360時間は、1時間当たりの限界利益が小さいバスタオルを減らす：360÷0.12＝3,000枚、失う限界利益＝3,000×1,200＝3,600千円（機会原価）",
+      "(1) 営業利益の増減＝（540−360）×20,000−紋紙126千円−休日の人件費320千円−機会原価3,600千円＝3,600千円−4,046千円＝△446千円",
+      "(2) 価格の下限＝変動費360＋（126,000＋320,000＋3,600,000）÷20,000枚＝360＋202.3＝562.3 → 563円以上（切り上げ）",
+      "検算：563円なら営業利益は14,000円の増加、562円なら△6,000円（減少）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "設問2の注文について、価格の交渉を含めて受けるかを決めるにあたり、数値に表れない点で留意すべきことを、与件に即して60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "バスタオルの欠品で百貨店の信頼を損ない以後の注文を失うおそれと、ホテルとの定期取引に広がる可能性を比べて判断する。",
+       "points": [
+        "バスタオルの欠品で百貨店（長年の取引先）の信頼を損ない、以後の注文を失うおそれ",
+        "ホテルとの定期的な取引に広がる可能性（紋紙代の回収・空いている能力の活用）",
+        "両面を比べて判断する"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "d1": "よくある誤り：△606千円は、D社の原価計算の製造原価660円（配賦された製造固定費300円を含む）で比べ、紋紙の作成費も引いた値で、受けるべきでないという逆の判断になる。1,920千円は、紋紙の作成費（この注文のために新たに生じる費用）を入れていない。",
+    "ch1": "よくある誤り：受けるべきでないとする。1枚600円は製造原価660円を下回るが、製造固定費は注文を受けても増えないので、判断に使うのは限界利益（1枚240円）と紋紙の作成費。",
+    "d2": "よくある誤り：3,474千円は、生産能力が足りないことを考えていない（休日の人件費も、既存の製品の減産もない）。3,154千円は、休日の人件費は入れたが、既存の製品の減産を入れていない。△1,726千円は、休日に稼働せず、520時間分のバスタオルを減らした値（休日の稼働のほうが安い）。△1,166千円は、1枚当たりの限界利益が小さいフェイスタオルを減らした値（制約となる織機1時間当たりで比べると、フェイスタオルのほうが大きい）。△4,046千円は、失う額をバスタオルの売上高（限界利益でなく）で計算した値。",
+    "pmin": "よくある誤り：367円は能力不足を考えていない。383円は既存の製品の減産を入れていない。627円は休日に稼働しない場合。599円はフェイスタオルを減らした場合。743円は失う額を売上高で計算した場合。562円（四捨五入）では、営業利益がわずかに減る。"
+   },
+   "e": "【考え方】注文を受けるかは、受けた場合に増える収益と費用（差額）で判断する。製造固定費は注文を受けても増えないので、D社の原価計算の製造原価（配賦額を含む660円）ではなく、変動費と、その注文のために新たにかかる費用（紋紙の作成費）で考える。\n【設問1】空いている480時間で賄えるので、限界利益（600−360）×8,000枚＝1,920千円から紋紙126千円を引いた1,794千円の増益。製造原価660円と比べて「赤字の注文」と考えると、判断を誤る。\n【設問2】能力が足りないときは、足りない時間をどう賄うかで機会原価が決まる。休日の稼働（1時間当たり2,000円の人件費の増加）は、既存の製品を減らす（1時間10,000〜12,000円の限界利益を失う）より安いので先に使う。減らすのは、制約となる織機1時間当たりの限界利益が小さいバスタオル（1枚当たりの限界利益は大きいが、1時間当たりでは小さい）。価格の下限＝変動費＋（紋紙＋休日の人件費＋失う限界利益）÷数量＝562.3円→563円。申し入れの540円では446千円の減益になる。\n【設問3】数値に表れない点：既存の取引先（長年の取引のある百貨店）への欠品による信頼の低下と、以後の注文の喪失（機会原価が今月だけで済まないおそれ）。一方、ホテルとの定期的な取引に広がれば、空いている能力を毎月使え、紋紙の作成費も回収しやすい。両面を与件から書く。\n【本試験での注意】令和6年度第2問は、通常より低い価格の注文と、追加加工した製品を、直接作業時間と機械運転時間の制約のもとで組み合わせて営業利益を最大にする設問で、設問2では、一方の取引先向けの生産を一定量以上にするために、その販売価格を何円以上にすべきかを、計算過程とともに求めさせた。価格の下限は「変動費＋その注文のために増える費用＋機会原価（失う限界利益）」を数量で割って考える。端数は指示に従い、境目の両側で検算する。\n【図】上は、制約となる織機1時間当たりの限界利益（減らすのはバスタオル）。中は、織機の稼働時間の使い道（受注前と受注後）。下は、設問2の価格の下限の内訳（1枚当たり）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">制約となる織機1時間当たりの限界利益（減らすのは、1時間当たりの小さいバスタオル）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"制約となる織機1時間当たりの限界利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">製品</text><text x=\"146.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1枚の限界利益</text><text x=\"230.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1枚の時間</text><text x=\"314.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1時間当たり</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">フェイスタオル</text><text x=\"186\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">480円</text><text x=\"262\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0.04時間</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">12,000円</text><rect x=\"1\" y=\"46.8\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">バスタオル</text><text x=\"186\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,200円</text><text x=\"262\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0.12時間</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10,000円</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">休日の稼働</text><text x=\"186\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"262\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">費用 2,000円</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M192 0L192 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M268 0L268 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"91.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">織機の稼働時間の使い道（単位：時間。点線は平日の上限2,400時間）。ホテル向けの1,000時間＝空き480＋休日160＋バスタオルの減産360</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 256\" role=\"img\" aria-label=\"織機の稼働時間の使い道\" font-size=\"12\"><text x=\"88.5\" y=\"30.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">受注前（平日2,400時間）</text><rect x=\"1.0\" y=\"144.2\" width=\"175.0\" height=\"107.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"88.5\" y=\"195.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">フェイスタオル</text><text x=\"88.5\" y=\"208.6\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,200</text><rect x=\"1.0\" y=\"79.5\" width=\"175.0\" height=\"64.7\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"88.5\" y=\"109.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">バスタオル</text><text x=\"88.5\" y=\"122.3\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">720</text><rect x=\"1.0\" y=\"36.4\" width=\"175.0\" height=\"43.1\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"88.5\" y=\"55.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">空き</text><text x=\"88.5\" y=\"68.4\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">480</text><text x=\"271.5\" y=\"16.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">受注後（休日を含め2,560時間）</text><rect x=\"184.0\" y=\"144.2\" width=\"175.0\" height=\"107.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"271.5\" y=\"195.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">フェイスタオル</text><text x=\"271.5\" y=\"208.6\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,200</text><rect x=\"184.0\" y=\"111.8\" width=\"175.0\" height=\"32.3\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"271.5\" y=\"125.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">バスタオル</text><text x=\"271.5\" y=\"138.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">360</text><rect x=\"184.0\" y=\"22.0\" width=\"175.0\" height=\"89.8\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"271.5\" y=\"64.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">ホテル向け</text><text x=\"271.5\" y=\"77.4\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M180.0 36.4L361.0 36.4\" style=\"stroke:currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問2：価格の下限の内訳（1枚当たり。単位：円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 180\" role=\"img\" aria-label=\"価格の下限の内訳（1枚当たり）\" font-size=\"12\"><rect x=\"176.0\" y=\"9.0\" width=\"78.1\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"168\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">変動費</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">360</text><rect x=\"254.1\" y=\"42.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"168\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">紋紙の作成費</text><text x=\"168\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">126千円÷20,000枚</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋6.3</text><path d=\"M254.1 25.0L254.1 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"255.5\" y=\"82.0\" width=\"3.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"168\" y=\"86.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">休日の人件費</text><text x=\"168\" y=\"101.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">320千円÷20,000枚</text><text x=\"356\" y=\"94.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋16</text><path d=\"M255.5 58.0L255.5 82.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"258.9\" y=\"122.0\" width=\"39.1\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"168\" y=\"126.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">失う限界利益</text><text x=\"168\" y=\"141.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,600千円÷20,000枚</text><text x=\"356\" y=\"134.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋180</text><path d=\"M258.9 98.0L258.9 122.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"176.0\" y=\"155.0\" width=\"122.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"168\" y=\"167.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">価格の下限</text><text x=\"356\" y=\"167.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">562.3</text><path d=\"M298.0 138.0L298.0 155.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-cost-03",
+   "cat": "cost",
+   "lv": 2,
+   "min": 15,
+   "src": "R6-第2問（追加加工した製品の扱い）。連産品は R1〜R6 に出題なし（1級の原価計算：連産品と追加加工の意思決定）",
+   "title": "乳業：連産品の追加加工（結合原価は判断に入れない）",
+   "lead": "D社は、酪農の盛んな地域にある乳業メーカーで、近隣の酪農家から生乳を仕入れ、分離機でクリームと脱脂乳に分けて販売している。クリームと脱脂乳は、同じ生乳から同時に生じる連産品である。クリームは洋菓子店や製菓会社に、脱脂乳は大手の乳業メーカーに原料として販売している。\n毎月、生乳120,000kgを1kg当たり100円で仕入れ、分離・殺菌の加工費が月1,200千円かかる（これらを結合原価という）。生乳からは、重量で10%のクリームと90%の脱脂乳が得られる。分離した時点での販売価格は、クリームが1kg当たり700円、脱脂乳が1kg当たり50円で、いずれも全量を販売できる。\nD社は結合原価を重量の比で各製品に配賦しており、製品別の損益は次の表のとおりである。脱脂乳が大きな赤字となっていることから、D社では、脱脂乳の一部を飲むヨーグルトに加工して地元のスーパーに販売する案（追加加工）が検討されている。飲むヨーグルトの計画は次の表のとおりである。",
+   "tables": [
+    {
+     "cap": "製品別の損益（月。結合原価を重量の比で配賦）",
+     "unit": "千円",
+     "head": [
+      "項目",
+      "クリーム",
+      "脱脂乳",
+      "合計"
+     ],
+     "rows": [
+      [
+       "販売量（kg）",
+       "12,000",
+       "108,000",
+       "120,000"
+      ],
+      [
+       "売上高",
+       "8,400",
+       "5,400",
+       "13,800"
+      ],
+      [
+       "結合原価の配賦額",
+       "1,320",
+       "11,880",
+       "13,200"
+      ],
+      [
+       "売上総利益",
+       "7,080",
+       "△6,480",
+       "600"
+      ]
+     ],
+     "note": "販売量の行だけは、単位がkgである。"
+    },
+    {
+     "cap": "飲むヨーグルトの計画",
+     "unit": "",
+     "head": [
+      "項目",
+      "見込み"
+     ],
+     "rows": [
+      [
+       "販売価格",
+       "1kg当たり220円"
+      ],
+      [
+       "追加加工の変動費（乳酸菌・砂糖・容器など）",
+       "1kg当たり92円"
+      ],
+      [
+       "追加加工の固定費（充填機のリース料・専任の作業者）",
+       "月1,770千円"
+      ],
+      [
+       "加工・販売量の見込み",
+       "月30,000kg"
+      ]
+     ],
+     "note": "脱脂乳1kgから、同じ重量の飲むヨーグルトができるものとする。加工しない脱脂乳は、これまでどおり大手の乳業メーカーに1kg当たり50円で販売できる。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "工場長は、配賦後の損益で脱脂乳が赤字であることから、脱脂乳の販売をやめて、廃棄物として処理することも提案している。廃棄の処理費は1kg当たり8円である（クリームの生産・販売は続ける）。脱脂乳をすべて販売せずに廃棄した場合の、月間の営業利益の増減額を求めよ（単位：千円。減少する場合は△を付けること）。\nまた、D社は営業利益が大きくなる方を選ぶ方針である。脱脂乳の販売をやめるべきかを答えよ。",
+     "fields": [
+      {
+       "k": "d1",
+       "type": "num",
+       "label": "営業利益の増減額",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -6264
+      },
+      {
+       "k": "ch1",
+       "type": "choice",
+       "label": "脱脂乳の販売",
+       "opts": [
+        "やめるべきである",
+        "やめるべきでない"
+       ],
+       "ans": "やめるべきでない"
+      }
+     ],
+     "steps": [
+      "クリームを作るには生乳を分離する必要があるので、結合原価13,200千円は、脱脂乳を売っても売らなくても変わらない",
+      "販売をやめると失う売上高＝108,000kg×50円＝5,400千円、新たにかかる処理費＝108,000kg×8円＝864千円",
+      "営業利益の増減＝△5,400−864＝△6,264千円 → やめるべきでない",
+      "脱脂乳への配賦額11,880千円は、販売をやめても消えない（クリームに付け替わるだけ）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "(1) 脱脂乳のうち月30,000kgを飲むヨーグルトに加工して販売した場合の、加工しない場合と比べた月間の営業利益の増減額を求めよ（単位：千円。減少する場合は△を付けること）。\n(2) 飲むヨーグルトの販売価格と追加加工の費用が表のとおりであるとき、追加加工をしても営業利益が減少しないためには、月に何kg以上を加工・販売する必要があるか。計算の途中では端数を処理せず、kg未満の端数は切り上げること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "d2",
+       "type": "num",
+       "label": "(1) 営業利益の増減額",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 570
+      },
+      {
+       "k": "qmin",
+       "type": "num",
+       "label": "(2) 必要な加工・販売量",
+       "unit": "kg",
+       "dp": 0,
+       "ans": 22693
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(2) 計算過程"
+      }
+     ],
+     "steps": [
+      "加工すると、脱脂乳として売れば得られた1kg50円を失う（機会原価）。結合原価は加工してもしなくても変わらないので含めない",
+      "1kg当たりの増分の利益＝ヨーグルト220−追加の変動費92−脱脂乳の販売価格50＝78円",
+      "(1) 78円×30,000kg−追加の固定費1,770千円＝2,340千円−1,770千円＝570千円",
+      "(2) 1,770,000÷78＝22,692.3… → 22,693kg以上（切り上げ）",
+      "検算：22,693kgなら78×22,693−1,770,000＝54円の増加、22,692kgなら△24円（減少）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "工場長は、「配賦後の損益では脱脂乳は1kg当たり60円の赤字であり、ヨーグルトにしても1kg当たり18円の利益しかなく、充填機の費用を賄えない」と主張している。設問1・2の結果を踏まえ、この主張の誤りを60字以内で指摘せよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "結合原価は売っても加工しても総額が変わらないので判断に含めない。分離点後の増分で見れば、加工は月570千円の増益となる。",
+       "points": [
+        "結合原価は、脱脂乳を売っても加工しても総額が変わらない（判断に含めない）",
+        "分離点の後の増分（収益・費用・機会原価）で判断する",
+        "加工すると月570千円の増益になる"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "d1": "よくある誤り：5,616千円は、配賦後の脱脂乳の赤字6,480千円がなくなると考え、廃棄の処理費を引いた値（結合原価はクリームを作る限り減らない）。6,480千円は、赤字がなくなるとだけ考えた値。△5,400千円は、廃棄の処理費を入れていない。",
+    "ch1": "よくある誤り：やめるべきであるとする。配賦後の損益は赤字でも、脱脂乳の売上高5,400千円は、すべて結合原価の回収に役立っている。",
+    "d2": "よくある誤り：△1,230千円は、配賦された結合原価（1kg110円）を加工の費用に入れた値（工場長の計算）。2,070千円は、脱脂乳として売れば得られた収入（1kg50円）を差し引いていない。2,340千円は、追加の固定費を入れていない。△2,730千円は、配賦された結合原価と脱脂乳の収入の両方を差し引いた値。",
+    "qmin": "よくある誤り：98,334kgは、配賦された結合原価を入れた1kg18円で割った値。13,829kgは、脱脂乳の収入を差し引かない1kg128円で割った値。22,692kg（切り捨て・四捨五入）では、営業利益がわずかに減る。"
+   },
+   "e": "【考え方】連産品は、同じ原料・同じ工程から同時に生じるので、どれか1つだけを作ることはできない。分離点までの結合原価は、どの製品を売るか・加工するかで総額が変わらないので、製品の採否や追加加工の判断には入れない。結合原価の配賦は、在庫の評価や損益の表示のための計算で、配賦の基準（重量か、販売価格か）を変えると製品別の損益は大きく変わる。\n【設問1】脱脂乳の販売をやめても、クリームを作る限り結合原価13,200千円は減らない。失うのは脱脂乳の売上高5,400千円で、廃棄の処理費864千円が増え、6,264千円の減益。配賦後の赤字6,480千円が消えるように見えるが、配賦額はクリームに付け替わるだけ。\n【設問2】追加加工の判断は、分離点の後の増分だけで行う。増える収益はヨーグルトの売上高、増える費用は追加の変動費と固定費、失う収益は脱脂乳の販売収入（機会原価）。1kg当たり78円の増分の利益で、固定費1,770千円を賄うには22,693kg以上が必要。計画の30,000kgなら月570千円の増益。\n【設問3】工場長の計算は、配賦された結合原価（1kg110円）を加工の費用に入れているので誤り。結合原価は加工してもしなくても変わらず、正しくは月570千円の増益。「赤字の製品」は配賦の結果にすぎず、やめると設問1のように利益が減る。\n【本試験での注意】令和6年度第2問でも、通常の製品に追加加工をして別の取引先に販売する製品が出題され、追加加工の費用と生産能力の使い方を考えさせた。追加加工の判断は、「加工すると増える収益と費用」と「加工しないで売れば得られた収益（機会原価）」で行う。配賦された費用（結合原価・共通費）は、判断によって総額が変わるかを確かめる。\n【図】上は、連産品の流れと分離点。中は、追加加工の1kg当たりの判断（正しい判断と工場長の計算）。下は、加工・販売量と営業利益の増減の関係で、実線が0と交わる点が下限。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">連産品の流れ（結合原価は分離点までに生じ、どの製品の判断でも総額が変わらない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 172\" role=\"img\" aria-label=\"連産品の流れ\" font-size=\"12\"><rect x=\"112\" y=\"2\" width=\"94\" height=\"50.5\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"159.0\" y=\"17.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">クリーム</text><text x=\"159.0\" y=\"31.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">12,000kg</text><text x=\"159.0\" y=\"44.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">700円/kgで販売</text><rect x=\"218\" y=\"60.5\" width=\"140\" height=\"37.0\" rx=\"5\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"288.0\" y=\"76.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">そのまま販売</text><text x=\"288.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50円/kg</text><rect x=\"218\" y=\"105.5\" width=\"140\" height=\"64.0\" rx=\"5\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"288.0\" y=\"121.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">飲むヨーグルトに加工</text><text x=\"288.0\" y=\"134.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">220円/kgで販売</text><text x=\"288.0\" y=\"148.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">追加の変動費 92円/kg</text><text x=\"288.0\" y=\"161.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">固定費 月1,770千円</text><rect x=\"112\" y=\"89.8\" width=\"94\" height=\"37.0\" rx=\"5\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"159.0\" y=\"105.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">脱脂乳</text><text x=\"159.0\" y=\"119.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">108,000kg</text><path d=\"M206 108.2H212.0V79.0H218\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M206 108.2H212.0V137.5H218\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"35.8\" width=\"98\" height=\"64.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"51.0\" y=\"51.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">生乳 120,000kg</text><text x=\"51.0\" y=\"65.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">結合原価</text><text x=\"51.0\" y=\"78.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">13,200千円</text><text x=\"51.0\" y=\"92.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">（分離点まで）</text><path d=\"M100 67.8H106.0V27.2H112\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M100 67.8H106.0V108.2H112\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">追加加工の判断（1kg当たり。単位：円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 179\" role=\"img\" aria-label=\"追加加工の判断（1kg当たり）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"80.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1kg当たり（円）</text><text x=\"210.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">正しい判断</text><text x=\"310.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">工場長の計算</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">ヨーグルトの販売価格</text><text x=\"254\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">220</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">220</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">追加加工の変動費</text><text x=\"254\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△92</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△92</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">脱脂乳として売れば</text><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">得られる収入（機会原価）</text><text x=\"254\" y=\"93.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△50</text><text x=\"354\" y=\"93.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">配賦された結合原価</text><text x=\"254\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">含めない</text><text x=\"354\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△110</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1kg当たりの利益</text><text x=\"254\" y=\"147.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">78</text><text x=\"354\" y=\"147.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">18</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">固定費を賄う加工量</text><text x=\"254\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">22,693kg</text><text x=\"354\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">98,334kg</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M160 0L160 176.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M260 0L260 176.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"176.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">加工・販売量と、加工しない場合と比べた営業利益の増減（単位：千円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"加工・販売量と営業利益の増減\" font-size=\"12\"><path d=\"M214.7 18L214.7 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M271.0 18L271.0 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 98.3L350.0 98.3\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"102.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">加工・販売量（kg）</text><text x=\"117.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10,000</text><text x=\"194.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20,000</text><text x=\"271.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">30,000</text><text x=\"36.0\" y=\"178.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−1,500</text><text x=\"36.0\" y=\"153.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−1,000</text><text x=\"36.0\" y=\"127.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−500</text><text x=\"36.0\" y=\"76.9\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><text x=\"36.0\" y=\"51.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M40.0 188.3 L348.0 29.6\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 188.3 L348.0 151.7\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"214.7\" cy=\"98.3\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"271.0\" cy=\"69.3\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"271.0\" cy=\"160.8\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"212.4\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">下限 22,693</text><text x=\"273.3\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">計画 30,000</text><text x=\"267.1\" y=\"63.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">570</text><text x=\"267.1\" y=\"180.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">△1,230</text><text x=\"294.1\" y=\"83.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">正しい判断</text><text x=\"282.5\" y=\"177.6\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">工場長の計算</text><text x=\"44.6\" y=\"34.7\" font-size=\"11\" style=\"fill:currentColor\">営業利益の増減（千円）</text></svg>"
+  },
+  {
+   "id": "d4-cost-04",
+   "cat": "cost",
+   "lv": 2,
+   "min": 18,
+   "src": "R1〜R6に出題なし（1級の原価計算：直接原価計算と全部原価計算・固定費調整）。全部原価の問題点は R6-第4問設問1（振替価格）と共通",
+   "title": "脚立・はしご：直接原価計算と全部原価計算（在庫の積み増しと業績評価）",
+   "lead": "D社は、アルミ製の脚立・はしごを製造し、ホームセンターや建材店に販売している。主力の製品は1機種で、販売価格は1台20,000円である。D社は全部原価計算を採用しており、固定製造原価はその期の実際の生産量で製品に配賦している。製品の払出しは先入先出法による。\n当期は、競合の低価格品に押されて販売量が前期より減ったが、工場長は、工場の稼働率を高めれば製品1台当たりの製造原価が下がるとして、生産量を前期より増やした。その結果、全部原価計算の営業利益は前期を上回り、工場長の業績評価は高くなった。D社では、工場長の業績を全部原価計算の営業利益で評価している。\n前期と当期の数量と原価のデータ、損益計算書は次のとおりである。前期の期首の製品の在庫はなく、仕掛品はない。",
+   "tables": [
+    {
+     "cap": "数量と原価のデータ",
+     "unit": "",
+     "head": [
+      "項目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "生産量（台）",
+       "12,000",
+       "14,400"
+      ],
+      [
+       "販売量（台）",
+       "11,600",
+       "10,800"
+      ],
+      [
+       "期末の製品の在庫（台）",
+       "400",
+       "4,000"
+      ],
+      [
+       "1台当たりの変動製造原価（円）",
+       "9,000",
+       "9,000"
+      ],
+      [
+       "固定製造原価（千円）",
+       "72,000",
+       "72,000"
+      ],
+      [
+       "1台当たりの変動販売費（円）",
+       "1,000",
+       "1,000"
+      ],
+      [
+       "固定販売費及び一般管理費（千円）",
+       "30,000",
+       "30,000"
+      ]
+     ],
+     "note": "変動製造原価は材料費・外注加工費など、変動販売費は運送費・販売手数料である。"
+    },
+    {
+     "cap": "損益計算書（全部原価計算）",
+     "unit": "千円",
+     "head": [
+      "科目",
+      "前期",
+      "当期"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "232,000",
+       "216,000"
+      ],
+      [
+       "売上原価",
+       "174,000",
+       "151,600"
+      ],
+      [
+       "売上総利益",
+       "58,000",
+       "64,400"
+      ],
+      [
+       "販売費及び一般管理費",
+       "41,600",
+       "40,800"
+      ],
+      [
+       "営業利益",
+       "16,400",
+       "23,600"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "前期と当期について、直接原価計算による営業利益を求めよ（単位：千円）。",
+     "fields": [
+      {
+       "k": "op_p",
+       "type": "num",
+       "label": "前期の営業利益（直接原価計算）",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 14000
+      },
+      {
+       "k": "op_c",
+       "type": "num",
+       "label": "当期の営業利益（直接原価計算）",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 6000
+      }
+     ],
+     "steps": [
+      "1台当たりの限界利益＝販売価格20,000−変動製造原価9,000−変動販売費1,000＝10,000円",
+      "固定費＝固定製造原価72,000＋固定販売費及び一般管理費30,000＝102,000千円（直接原価計算では、期間の費用として全額を差し引く）",
+      "前期：10,000円×11,600台−102,000千円＝116,000−102,000＝14,000千円",
+      "当期：10,000円×10,800台−102,000千円＝108,000−102,000＝6,000千円",
+      "検算（当期）：全部原価計算23,600−直接原価計算6,000＝17,600千円＝期末の製品に含まれる固定製造原価20,000（4,000台×5,000円）−期首の製品に含まれる2,400（400台×6,000円）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "工場長は、次期も生産量を当期と同じ14,400台とする計画である。次期の販売量は当期と同じ10,800台、販売価格・変動費・固定費は当期と同じと見込まれる。この計画のとおりの場合の、(1) 次期の全部原価計算による営業利益と、(2) 次期末の製品の帳簿価額（全部原価計算）を求めよ（単位：千円）。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "op_n",
+       "type": "num",
+       "label": "(1) 次期の営業利益（全部原価計算）",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 24000
+      },
+      {
+       "k": "inv_n",
+       "type": "num",
+       "label": "(2) 次期末の製品の帳簿価額",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 106400
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "次期の1台当たりの製造原価＝9,000＋72,000千円÷14,400台（5,000）＝14,000円",
+      "次期末の在庫＝期首4,000＋生産14,400−販売10,800＝7,600台、帳簿価額＝7,600台×14,000円＝106,400千円",
+      "売上原価＝期首の製品56,000＋当期製品製造原価201,600（14,400台×14,000円）−期末の製品106,400＝151,200千円",
+      "営業利益＝売上高216,000−売上原価151,200−販売費及び一般管理費40,800（10,800台×1,000円＋30,000千円）＝24,000千円",
+      "検算：直接原価計算の営業利益6,000＋期末の製品に含まれる固定製造原価38,000（7,600台×5,000円）−期首の20,000＝24,000"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社が工場長の業績を全部原価計算の営業利益で評価していることの問題点と、その改善策を、設問1・2の結果を踏まえて80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "全部原価計算では生産を増やすと固定製造原価が在庫に繰り越され、販売が減っても増益になり、在庫の積み増しを招く。直接原価計算の営業利益と在庫の水準で評価する。",
+       "points": [
+        "全部原価計算では、生産を増やすと固定製造原価が在庫に繰り越され、利益が増える",
+        "販売が減っても増益になり（直接原価計算では減益）、売れない在庫の積み増しを招く",
+        "直接原価計算の営業利益と、在庫の水準（販売計画に合った生産）で評価する"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "op_p": "よくある誤り：16,400千円は、固定製造原価を販売した分だけ（11,600台×6,000円）差し引いた値で、全部原価計算の営業利益と同じになる。25,600千円は、変動販売費を差し引いていない。44,000千円は、固定販売費及び一般管理費を差し引いていない。",
+    "op_c": "よくある誤り：23,600千円は全部原価計算の営業利益。24,000千円は、固定製造原価のうち販売した分（10,800台×5,000円）だけを差し引いた値。これは全部原価計算の考え方で、しかも期首の在庫400台（前期の生産で1台6,000円）も当期の5,000円で計算している。次期は期首の在庫も次期の生産も1台5,000円なので、設問2(1)の全部原価計算の営業利益はこの値と同じ24,000千円になる。16,800千円は、変動販売費を差し引いていない。",
+    "op_n": "よくある誤り：6,000千円は、直接原価計算の営業利益（販売量が同じなので当期と同じ）。44,000千円は、期末の製品に含まれる固定製造原価を足したが、期首の製品に含まれる20,000千円を引いていない。",
+    "inv_n": "よくある誤り：68,400千円は、変動製造原価だけで評価した値（直接原価計算の評価）。56,000千円は、当期末の在庫の帳簿価額のまま。50,400千円は、次期に増えた在庫の分だけを評価した値。"
+   },
+   "e": "【考え方】全部原価計算では、固定製造原価を製品の原価に含めるので、売れ残って在庫になった製品の分の固定製造原価は、その期の費用にならず次期に繰り越される。生産量を販売量より多くすると、繰り越す固定製造原価が増え、販売が減っても営業利益が増える。直接原価計算では、固定製造原価を全額その期の費用にするので、営業利益は販売量だけで決まる。\n【設問1】直接原価計算の営業利益は、前期14,000千円→当期6,000千円と、販売量の減少に合わせて減っている。全部原価計算では16,400千円→23,600千円と増えている。当期の差17,600千円は、期末の在庫4,000台に含まれる固定製造原価20,000千円から、期首の在庫400台に含まれる2,400千円を引いた額（固定費調整）。\n【設問2】次期も同じ計画なら、販売量は変わらないのに、全部原価計算の営業利益は24,000千円とさらに増え、在庫は7,600台（帳簿価額106,400千円。販売量の約8.4か月分）にふくらむ。直接原価計算の営業利益は6,000千円のまま。\n【設問3】問題点：生産を増やすだけで全部原価計算の利益が増えるので、売れない在庫の積み増しを招く（資金の拘束、保管の費用、値崩れ・陳腐化のおそれ）。1台当たりの製造原価の低下（15,000円→14,000円）も固定費の分散によるもので、実際の原価の改善ではない。改善策：工場の業績は、直接原価計算の営業利益（限界利益）や、販売計画に合わせた生産、在庫の水準（回転期間）で評価する。\n【本試験での注意】令和元〜6年度に直接原価計算と全部原価計算の比較を問う設問はないが、令和6年度第4問設問1では、全部原価に一定の利潤を上乗せした価格で事業部間の取引を行うことの問題点が問われた。固定費が製品の原価に入ると、生産量や配賦の仕方で原価と利益が変わる点が共通の論点。損益分岐点などのCVP分析も、直接原価計算の考え方（変動費と固定費の分解）に基づく。\n【図】上は、当期の直接原価計算の営業利益から全部原価計算の営業利益への調整（固定費調整）。下は、3期の比較（網掛けは2つの営業利益）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当期：直接原価計算の営業利益から全部原価計算の営業利益への調整（単位：千円。固定費調整）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"当期：直接原価計算から全部原価計算の営業利益へ（千円）\" font-size=\"12\"><rect x=\"196.0\" y=\"9.0\" width=\"23.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"188\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">直接原価計算の営業利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">6,000</text><rect x=\"219.5\" y=\"42.0\" width=\"78.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"188\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">期末の製品に含まれる固定製造原価</text><text x=\"188\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（4,000台×5,000円）</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋20,000</text><path d=\"M219.5 25.0L219.5 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"288.6\" y=\"82.0\" width=\"9.4\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"188\" y=\"86.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">期首の製品に含まれる固定製造原価</text><text x=\"188\" y=\"101.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（400台×6,000円）</text><text x=\"356\" y=\"94.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－2,400</text><path d=\"M298.0 58.0L298.0 82.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"196.0\" y=\"115.0\" width=\"92.6\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"188\" y=\"127.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">全部原価計算の営業利益</text><text x=\"356\" y=\"127.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">23,600</text><path d=\"M288.6 98.0L288.6 115.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">3期の比較（販売量が減っても、生産を増やすと全部原価計算の営業利益は増える）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"3期の比較\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">項目</text><text x=\"185.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前期</text><text x=\"255.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当期</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">次期の計画</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">販売量（台）</text><text x=\"214\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">11,600</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10,800</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10,800</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">生産量（台）</text><text x=\"214\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">12,000</text><text x=\"284\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,400</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,400</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">期末の製品の在庫（台）</text><text x=\"214\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">400</text><text x=\"284\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4,000</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">7,600</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">1台当たりの製造原価</text><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">（円）</text><text x=\"214\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">15,000</text><text x=\"284\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,000</text><text x=\"354\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,000</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"38.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">全部原価計算の営業利益</text><text x=\"6\" y=\"162.9\" font-size=\"11.5\" style=\"fill:currentColor\">（千円）</text><text x=\"214\" y=\"154.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16,400</text><text x=\"284\" y=\"154.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">23,600</text><text x=\"354\" y=\"154.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">24,000</text><rect x=\"1\" y=\"170.2\" width=\"358\" height=\"38.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 170.2L359 170.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"185.8\" font-size=\"11.5\" style=\"fill:currentColor\">直接原価計算の営業利益</text><text x=\"6\" y=\"201.7\" font-size=\"11.5\" style=\"fill:currentColor\">（千円）</text><text x=\"214\" y=\"193.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,000</text><text x=\"284\" y=\"193.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6,000</text><text x=\"354\" y=\"193.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6,000</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M220 0L220 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"208.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-cost-05",
+   "cat": "cost",
+   "lv": 2,
+   "min": 20,
+   "src": "R1〜R6に出題なし（1級の原価計算：標準原価計算の差異分析）",
+   "title": "樹脂成形：標準原価の差異分析と、安い材料への切り替えの評価",
+   "lead": "D社は、プラスチックの射出成形により家庭用の収納ケースを製造し、ホームセンターに販売している。D社は標準原価計算を採用しており、収納ケース1個当たりの標準原価は次の表のとおりである。\n当月、購買部門は、原料の樹脂を、再生材を混ぜた安価な樹脂に切り替えた。製造部門からは、切り替えた後、成形時の不良品（ひけ・割れ）が増え、作り直しのために材料の消費量と作業時間が増えたとの報告があった。また、当月から、最低賃金の引上げに伴って作業者（パートタイマー）の時給を引き上げた。当月は電力料金の単価も上がった。\n当月の生産と原価の実績は次のとおりである。月初・月末の仕掛品と材料の在庫はなく、当月に購入した樹脂はすべて当月に消費した。不良品は粉砕しても再利用できない。作業者の賃金は、作業時間に応じて支払っている。",
+   "tables": [
+    {
+     "cap": "収納ケース1個当たりの標準原価",
+     "unit": "円",
+     "head": [
+      "費目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "直接材料費（300円/kg×1.2kg）",
+       "360"
+      ],
+      [
+       "直接労務費（1,800円/時間×0.1時間）",
+       "180"
+      ],
+      [
+       "変動製造間接費（1,000円/時間×0.1時間）",
+       "100"
+      ],
+      [
+       "固定製造間接費（2,000円/時間×0.1時間）",
+       "200"
+      ],
+      [
+       "標準原価",
+       "840"
+      ]
+     ],
+     "note": "製造間接費は直接作業時間を基準に配賦する。変動製造間接費は成形機の電力・消耗品などで、作業時間に比例して発生する。固定製造間接費の配賦率は、月の予算5,000千円を基準操業度2,500時間で割ったものである。"
+    },
+    {
+     "cap": "当月の実績",
+     "unit": "",
+     "head": [
+      "項目",
+      "実績"
+     ],
+     "rows": [
+      [
+       "良品の生産量",
+       "22,000個"
+      ],
+      [
+       "樹脂の購入・消費量",
+       "28,600kg"
+      ],
+      [
+       "樹脂の購入単価",
+       "280円/kg"
+      ],
+      [
+       "直接作業時間",
+       "2,420時間"
+      ],
+      [
+       "作業者の時給（実際の賃率）",
+       "1,850円"
+      ],
+      [
+       "変動製造間接費の発生額",
+       "2,450千円"
+      ],
+      [
+       "固定製造間接費の発生額",
+       "5,000千円"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "当月の直接材料費の価格差異と数量差異、直接労務費の賃率差異と作業時間差異を求めよ。価格差異は実際の消費量に、賃率差異は実際の作業時間に基づいて計算すること。単位は円とし、不利差異の場合は△を付けること。",
+     "fields": [
+      {
+       "k": "pv",
+       "type": "num",
+       "label": "価格差異",
+       "unit": "円",
+       "dp": 0,
+       "ans": 572000
+      },
+      {
+       "k": "qv",
+       "type": "num",
+       "label": "数量差異",
+       "unit": "円",
+       "dp": 0,
+       "ans": -660000
+      },
+      {
+       "k": "rv",
+       "type": "num",
+       "label": "賃率差異",
+       "unit": "円",
+       "dp": 0,
+       "ans": -121000
+      },
+      {
+       "k": "tv",
+       "type": "num",
+       "label": "作業時間差異",
+       "unit": "円",
+       "dp": 0,
+       "ans": -396000
+      }
+     ],
+     "steps": [
+      "標準の消費量＝22,000個×1.2kg＝26,400kg、標準の作業時間＝22,000個×0.1時間＝2,200時間",
+      "価格差異＝（標準価格300−実際価格280）×実際の消費量28,600kg＝572,000円（有利）",
+      "数量差異＝標準価格300×（標準の消費量26,400−実際の消費量28,600）＝△660,000円（不利）",
+      "賃率差異＝（標準賃率1,800−実際の賃率1,850）×実際の作業時間2,420＝△121,000円（不利）",
+      "作業時間差異＝標準賃率1,800×（標準の作業時間2,200−実際の作業時間2,420）＝△396,000円（不利）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "再生材を混ぜた樹脂への切り替えについて、次の問いに答えよ。材料の消費量と作業時間の増加は、すべて切り替えによる不良品の増加が原因であり、時給の引上げと電力料金の単価の上昇は切り替えとは関係がないものとする。切り替えの影響は、切り替えによって実際に増減した原価の額とし、材料の消費量と作業時間の増加は、標準の価格・賃率・変動費率で測ること（固定製造間接費は、作業時間が増えても発生額が変わらない）。\n(1) 切り替えによる当月の営業利益への影響額を求めよ（単位：円。減少する場合は△を付けること）。\n(2) 不良品の発生が当月と同じであるとすると、再生材を混ぜた樹脂の購入単価が1kg当たり何円以下であれば、切り替えが、元の樹脂（1kg当たり300円）を使い続けるより不利にならないか。計算の途中では端数を処理せず、円未満の端数は切り捨てること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "eff",
+       "type": "num",
+       "label": "(1) 営業利益への影響額",
+       "unit": "円",
+       "dp": 0,
+       "ans": -704000
+      },
+      {
+       "k": "plim",
+       "type": "num",
+       "label": "(2) 購入単価の上限",
+       "unit": "円",
+       "dp": 0,
+       "ans": 255
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(2) 計算過程"
+      }
+     ],
+     "steps": [
+      "切り替えで有利になったもの：価格差異572,000円",
+      "切り替えで不利になったもの：数量差異△660,000円、作業時間差異△396,000円、作業時間の増加による変動製造間接費の増加（1,000円×220時間）△220,000円",
+      "固定製造間接費は、作業時間が増えても発生額が変わらないので含めない。賃率差異（時給の引上げ）と変動製造間接費の予算差異△30,000円（電力料金）も含めない",
+      "(1) 572,000−660,000−396,000−220,000＝△704,000円",
+      "(2) 切り替えで増える費用＝660,000＋396,000＋220,000＝1,276,000円。（300−購入単価）×28,600kg≧1,276,000 より、300−購入単価≧44.61… → 購入単価≦255.38… → 255円以下（切り捨て）",
+      "検算：255円なら（300−255）×28,600＝1,287,000円で、1,276,000円を上回る。256円なら1,258,400円で下回る"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "購買部門は、価格差異が有利であることから、樹脂の切り替えは原価の低減に貢献したと報告している。一方、製造部門は、数量差異と作業時間差異の不利は樹脂の切り替えのためで、製造部門の責任ではないと主張している。設問1・2の結果を踏まえ、差異の責任の所在と、今後の材料の選び方について、80字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "数量と作業時間の不利差異は切り替えによる不良が原因で、製造部門でなく切り替えを決めた購買の責任である。総額では不利なので、材料は製造への影響を含めて選ぶ。",
+       "points": [
+        "数量差異・作業時間差異の不利は、切り替え（不良の増加）が原因で、製造部門でなく切り替えを決めた購買部門の責任",
+        "切り替えは総額で不利（月704千円）。材料は価格差異だけで選ばず、製造への影響（不良・作業時間）を含めて判断する"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "pv": "よくある誤り：528,000円は、標準の消費量26,400kgで計算した値（問題文の指示どおり、実際の消費量で計算する）。符号を逆にした値は、有利と不利の取り違え。",
+    "qv": "よくある誤り：△616,000円は、実際の価格280円で計算した値（数量差異は標準価格で計算する）。符号のない660,000円は、不利差異を有利と取り違えている。",
+    "rv": "よくある誤り：△110,000円は、標準の作業時間2,200時間で計算した値（問題文の指示どおり、実際の作業時間で計算する）。",
+    "tv": "よくある誤り：△407,000円は、実際の賃率1,850円で計算した値（作業時間差異は標準賃率で計算する）。",
+    "eff": "よくある誤り：△88,000円は、直接材料費の差異（価格差異と数量差異）だけを見た値。△484,000円は、作業時間の増加による変動製造間接費の増加を入れていない。△825,000円は、賃率差異（時給の引上げ）まで切り替えの影響に入れた値。△734,000円は、変動製造間接費の予算差異（電力料金の上昇）まで入れた値。△1,144,000円は、固定製造間接費の能率差異（2,000円×220時間）まで入れた値（固定費は作業時間が増えても実際には増えない）。",
+    "plim": "よくある誤り：276円は、材料の数量差異だけを補えばよいとした値。263円は、変動製造間接費の増加を入れていない。251円は、賃率差異まで含めた値。240円は、固定製造間接費の能率差異まで含めた値。256円（切り上げ）では、切り替えが不利になる。"
+   },
+   "e": "【考え方】標準原価計算の差異は、価格（賃率）の差と、数量（時間）の差に分ける。価格差異は購買部門、数量差異・作業時間差異は製造部門が管理できるとして責任を分けるのが原則だが、原因が別の部門の判断にあるとき（安い材料を選んだことによる不良など）は、その判断をした部門の責任として扱う。有利と不利を合わせた総額で判断し、一方だけを見ない。\n【設問1】価格差異＝（標準価格−実際価格）×実際の消費量、数量差異＝標準価格×（標準の消費量−実際の消費量）。賃率差異・作業時間差異も同じ形。標準の消費量・作業時間は、実際の生産量（良品22,000個）に標準を掛けて求める。\n【設問2】切り替えの影響は、価格差異の有利572,000円に対し、数量差異△660,000円・作業時間差異△396,000円・変動製造間接費の増加△220,000円で、差し引き△704,000円の不利。時給の引上げ（賃率差異）と電力料金の上昇（予算差異）は切り替えと関係がない。固定製造間接費は作業時間が増えても発生額が変わらないので含めない。不良が減らないなら、購入単価が255円以下でなければ切り替えは不利。\n【設問3】価格差異の有利だけで購買部門を評価すると、安くても品質の劣る材料が選ばれ、その影響は製造部門の不利差異として表れる。差異の原因まで分析して責任を割り当て、材料の選定は、製造への影響（不良・作業時間）を含めた総額で、購買と製造が一緒に判断する。\n【本試験での注意】令和元〜6年度に標準原価計算の差異分析を問う設問はない。ただし、責任を「その部門が原因を管理できるか」で割り当てる見方は、令和6年度第4問設問2（設備投資の実質的な決定権を社長が持つ場合に、財務指標で事業部長の業績を評価する際の留意点）と共通する。出た場合に備え、差異の金額だけでなく、原因（与件の事実）・責任の所在・改善策を結び付けて書く練習をしておく。差異の計算では、どの数量・価格を掛けるか（実際か標準か）を問題文の指示で確かめる。\n【図】上は、切り替えの影響の内訳。中は、当月の差異と原因（網掛けは切り替えによるもの）。下は、購入単価と切り替えの影響の関係で、0と交わる点が上限。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">樹脂の切り替えの影響（月。単位：千円）。価格差異の有利を、不良による不利が上回る</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"樹脂の切り替えの影響（千円）\" font-size=\"12\"><rect x=\"240.6\" y=\"9.0\" width=\"57.4\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">価格差異（有利）</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">572</text><rect x=\"231.8\" y=\"35.0\" width=\"66.2\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">数量差異</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－660</text><path d=\"M298.0 25.0L298.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"192.1\" y=\"61.0\" width=\"39.7\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">作業時間差異</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－396</text><path d=\"M231.8 51.0L231.8 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"170.0\" y=\"94.0\" width=\"22.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"98.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">作業時間の増加による</text><text x=\"162\" y=\"113.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">変動製造間接費</text><text x=\"356\" y=\"106.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－220</text><path d=\"M192.1 77.0L192.1 94.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"170.0\" y=\"127.0\" width=\"70.6\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">切り替えの影響</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－704</text><path d=\"M170.0 110.0L170.0 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M240.6 2L240.6 148\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当月の差異と原因（網掛けは、切り替えによるもの。単位：円。△は不利差異）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 203\" role=\"img\" aria-label=\"当月の差異と原因\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"55.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">差異</text><text x=\"151.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">金額（円）</text><text x=\"276.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">原因</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">価格差異</text><text x=\"186\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">572,000</text><text x=\"198\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">安い樹脂への切り替え</text><rect x=\"1\" y=\"45.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">数量差異</text><text x=\"186\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△660,000</text><text x=\"198\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">切り替えによる不良の増加</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.3\" font-size=\"11\" style=\"fill:currentColor\">賃率差異</text><text x=\"186\" y=\"90.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△121,000</text><text x=\"198\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">最低賃金の引上げ</text><text x=\"198\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">（切り替えと無関係）</text><rect x=\"1\" y=\"105.0\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">作業時間差異</text><text x=\"186\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△396,000</text><text x=\"198\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">切り替えによる不良の増加</text><rect x=\"1\" y=\"127.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">変動製造間接費の</text><text x=\"6\" y=\"157.5\" font-size=\"11\" style=\"fill:currentColor\">能率差異</text><text x=\"186\" y=\"149.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△220,000</text><text x=\"198\" y=\"149.9\" font-size=\"11\" style=\"fill:currentColor\">切り替えによる作業時間の増加</text><path d=\"M1 164.6L359 164.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"179.7\" font-size=\"11\" style=\"fill:currentColor\">変動製造間接費の</text><text x=\"6\" y=\"194.9\" font-size=\"11\" style=\"fill:currentColor\">予算差異</text><text x=\"186\" y=\"187.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△30,000</text><text x=\"198\" y=\"179.7\" font-size=\"11\" style=\"fill:currentColor\">電力料金の単価の上昇</text><text x=\"198\" y=\"194.9\" font-size=\"11\" style=\"fill:currentColor\">（無関係）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M110 0L110 201.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M192 0L192 201.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"201.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">再生材を混ぜた樹脂の購入単価と、切り替えの影響（単位：千円。不良の発生は当月と同じとした）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"購入単価と、切り替えの影響（月）\" font-size=\"12\"><path d=\"M119.0 18L119.0 190.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M245.3 18L245.3 190.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 190.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 70.0L350.0 70.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"74.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"222.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">再生材を混ぜた樹脂の購入単価（円/kg）</text><text x=\"40.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">240</text><text x=\"142.7\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">260</text><text x=\"245.3\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">280</text><text x=\"348.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">300</text><text x=\"36.0\" y=\"154.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−1,000</text><text x=\"36.0\" y=\"114.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−500</text><text x=\"36.0\" y=\"34.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M40.0 34.8 L348.0 172.1\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"119.0\" cy=\"70.0\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"245.3\" cy=\"126.3\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"119.0\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">上限 255</text><text x=\"245.3\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">当月 280</text><text x=\"255.6\" y=\"119.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">△704</text></svg>"
+  },
+  {
+   "id": "d4-cost-06",
+   "cat": "cost",
+   "lv": 2,
+   "min": 18,
+   "src": "R1〜R6に出題なし（1級の原価計算：活動基準原価計算）。配賦の基準の妥当性は R5-第2問設問3（共通費の配賦）と共通",
+   "title": "看板の製作：活動基準原価計算（ABC）と特注品の価格",
+   "lead": "D社は、店舗の看板を製作している。製品は、チェーン店向けに同じデザインのものをまとめて製作する標準品と、個人の店舗の注文に合わせて1枚ずつ設計・製作する特注品の2種類である。\nD社は、製造間接費を直接作業時間で製品に配賦し、その製造原価をもとに販売価格を決めてきた。この方法では特注品の利益率が高く見えることから、社長は特注品の受注を増やす方針を示している。しかし、特注品が増えるにつれて、設計の打合せや機械の段取り替え、1枚ずつの梱包・出荷の手間が増え、工場の残業も増えている。\nそこで、製造間接費を活動ごとに集計し、活動の量（コスト・ドライバー）に応じて製品に配賦する活動基準原価計算（ABC）で、製品の原価を計算し直すことにした。当月のデータは次のとおりである。",
+   "tables": [
+    {
+     "cap": "製品のデータ（当月）",
+     "unit": "",
+     "head": [
+      "項目",
+      "標準品",
+      "特注品"
+     ],
+     "rows": [
+      [
+       "生産・販売量（枚）",
+       "600",
+       "120"
+      ],
+      [
+       "販売価格（円/枚）",
+       "26,000",
+       "46,000"
+      ],
+      [
+       "直接材料費（円/枚）",
+       "5,000",
+       "8,000"
+      ],
+      [
+       "直接作業時間（時間/枚）",
+       "1.5",
+       "2.5"
+      ],
+      [
+       "設計の件数",
+       "3",
+       "120"
+      ],
+      [
+       "段取りの回数",
+       "12",
+       "120"
+      ],
+      [
+       "出荷の回数",
+       "24",
+       "120"
+      ]
+     ],
+     "note": "直接作業時間1時間当たりの賃率は2,000円である。"
+    },
+    {
+     "cap": "製造間接費の内訳（当月）",
+     "unit": "千円",
+     "head": [
+      "活動",
+      "金額",
+      "コスト・ドライバー"
+     ],
+     "rows": [
+      [
+       "設計・打合せ",
+       "2,460",
+       "設計の件数"
+      ],
+      [
+       "段取り",
+       "1,980",
+       "段取りの回数"
+      ],
+      [
+       "梱包・出荷",
+       "1,440",
+       "出荷の回数"
+      ],
+      [
+       "加工（機械・工場の維持）",
+       "4,920",
+       "直接作業時間"
+      ],
+      [
+       "合計",
+       "10,800",
+       ""
+      ]
+     ],
+     "note": "梱包・出荷は工場の作業者が行っており、D社ではその費用も製造間接費に含めて管理している。現在の方法では、製造間接費10,800千円を、直接作業時間の合計1,200時間で割った1時間当たり9,000円で配賦している。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "活動基準原価計算により、標準品と特注品の1枚当たりの製造原価を求めよ（単位：円）。",
+     "fields": [
+      {
+       "k": "cs",
+       "type": "num",
+       "label": "標準品の製造原価",
+       "unit": "円",
+       "dp": 0,
+       "ans": 14950
+      },
+      {
+       "k": "cc",
+       "type": "num",
+       "label": "特注品の製造原価",
+       "unit": "円",
+       "dp": 0,
+       "ans": 68250
+      }
+     ],
+     "steps": [
+      "活動ごとの配賦率：設計・打合せ 2,460千円÷123件＝20,000円/件、段取り 1,980千円÷132回＝15,000円/回、梱包・出荷 1,440千円÷144回＝10,000円/回、加工（機械・工場の維持） 4,920千円÷1,200時間＝4,100円/時間",
+      "標準品の製造間接費＝20,000×3＋15,000×12＋10,000×24＋4,100×900＝4,170千円 → 1枚当たり6,950円",
+      "特注品の製造間接費＝20,000×120＋15,000×120＋10,000×120＋4,100×300＝6,630千円 → 1枚当たり55,250円",
+      "標準品＝直接材料費5,000＋直接労務費3,000（1.5時間×2,000円）＋6,950＝14,950円",
+      "特注品＝8,000＋5,000（2.5時間×2,000円）＋55,250＝68,250円",
+      "参考：現在の方法（1時間9,000円）では、標準品21,500円、特注品35,500円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "ある飲食チェーンから、同じデザインの特注品を、チェーンの10店舗に1枚ずつ、計10枚製作する注文の打診があった。この注文では、設計と段取りはそれぞれ1回で済み、出荷は店舗ごとに10回必要になる。1枚当たりの直接材料費と直接作業時間は、通常の特注品と同じである。\n活動基準原価計算の配賦率を用いて、この注文の1枚当たりの製造原価を求めよ。また、1枚当たりの販売価格が通常の特注品と同じ46,000円であるとき、この注文の1枚当たりの売上総利益を求めよ（単位：円。マイナスの場合は△を付けること）。",
+     "fields": [
+      {
+       "k": "c10",
+       "type": "num",
+       "label": "1枚当たりの製造原価",
+       "unit": "円",
+       "dp": 0,
+       "ans": 36750
+      },
+      {
+       "k": "g10",
+       "type": "num",
+       "label": "1枚当たりの売上総利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 9250
+      }
+     ],
+     "steps": [
+      "直接材料費と直接労務費＝（8,000＋5,000）×10枚＝130,000円",
+      "製造間接費＝設計20,000×1件＋段取り15,000×1回＋出荷10,000×10回＋加工4,100×25時間（2.5時間×10枚）＝237,500円",
+      "1枚当たりの製造原価＝367,500÷10枚＝36,750円（通常の特注品の68,250円より低い。設計と段取りの費用を10枚で分け合うため）",
+      "1枚当たりの売上総利益＝46,000−36,750＝9,250円"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "設問1・2の結果を踏まえ、D社の特注品の価格設定と受注の方針について、80字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 80,
+       "model": "特注品は設計・段取り・出荷の活動を多く使い現在の価格では原価割れである。設計や段取りの費用を件数に応じて見積もる価格に改め、同じデザインの複数枚の受注を増やす。",
+       "points": [
+        "特注品は設計・段取り・出荷の活動を多く使い、ABCでは原価（68,250円）が価格（46,000円）を上回る（原価割れ）",
+        "設計・段取りの費用を件数・回数に応じて見積もる価格に改める（設計料を別に見積もるなど）",
+        "同じデザインの複数枚の受注を増やし、1枚当たりの原価を下げる（設問2）"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "cs": "よくある誤り：21,500円は、現在の方法（直接作業時間1時間当たり9,000円）で配賦した値。11,950円は、直接労務費（1.5時間×2,000円）を入れていない。",
+    "cc": "よくある誤り：35,500円は、現在の方法で配賦した値（作業時間の割合でしか間接費が配られないので、特注品の原価が低く出る）。63,250円は、直接労務費を入れていない。",
+    "c10": "よくある誤り：68,250円は、通常の特注品の原価のまま（設計と段取りを1枚ごとに行う場合）。27,750円は、出荷も1回とした値（店舗ごとに10回必要）。35,500円は、現在の方法の原価。",
+    "g10": "よくある誤り：△22,250円は、通常の特注品の原価で計算した値。18,250円は、出荷を1回とした値。10,500円は、現在の方法の原価で計算した値。"
+   },
+   "e": "【考え方】直接作業時間だけで製造間接費を配賦すると、作業時間の長い製品に間接費が多く配られる。しかし実際には、設計・段取り・出荷などの費用は、作業時間ではなく、設計の件数や段取りの回数に応じて発生する。ABCは、活動ごとに費用を集め、その活動をどれだけ使ったか（コスト・ドライバー）で配賦するので、少量・多品種の製品の原価をより正しく示す。\n【設問1】特注品は生産量では全体の6分の1だが、設計の件数の98%、段取りの回数の91%、出荷の回数の83%を使っている。ABCでは1枚68,250円で、販売価格46,000円を大きく上回る。現在の方法（35,500円）では、利益が出ているように見えていた。標準品は逆に、ABCでは14,950円（現在の方法21,500円）と、原価を高く見積もられていた。\n【設問2】設計・段取りは、注文1件・1回ごとに生じる費用で、同じデザインの枚数が多いほど1枚当たりの負担が小さくなる。10枚の注文なら1枚当たり36,750円で、46,000円で受けても1枚9,250円の売上総利益が出る。\n【設問3】特注品の価格は、設計・段取りの費用を件数・回数に応じて見積もる形（設計料の別建てなど）に改め、同じデザインの複数枚の注文（チェーン店・複数店舗）を増やす。ただし、ABCで配賦した費用の多くは、設計担当者の人件費など短期的には変わらない費用なので、特注品の受注をやめても、すぐには費用は減らない（やめるかどうかは差額で判断する）。標準品は原価が低く見積もり直されたので、価格競争力を生かす余地がある。\n【本試験での注意】令和元〜6年度に活動基準原価計算を問う設問はないが、令和5年度第2問設問3では、共通費を売上高を基準に製品別に配賦する方法の妥当性について意見を問うた。配賦の基準が費用の発生の原因と合っているか、という見方は共通する。\n【図】上は、特注品の1枚当たりの製造原価の内訳（現在の方法・ABC・ABCで10枚の注文）と販売価格。中は、現在の方法とABCの比較（1枚当たり）。下は、活動ごとの製造間接費の配賦額と配賦率。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">特注品の1枚当たりの製造原価の内訳と販売価格（点線）。単位：円。合計は、現在の方法35,500円、ABCで1枚の注文68,250円、ABCで10枚の注文36,750円（設計・段取りの費用を10枚で分け合う）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 256\" role=\"img\" aria-label=\"特注品の1枚当たりの製造原価の内訳\" font-size=\"12\"><text x=\"58.0\" y=\"126.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">現在の方法</text><rect x=\"1.0\" y=\"208.2\" width=\"114.0\" height=\"43.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"58.0\" y=\"227.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">直接費</text><text x=\"58.0\" y=\"240.6\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">13,000</text><rect x=\"1.0\" y=\"132.4\" width=\"114.0\" height=\"75.8\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"58.0\" y=\"167.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">製造間接費</text><text x=\"58.0\" y=\"180.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">22,500</text><text x=\"180.0\" y=\"16.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ABC・1枚の注文</text><rect x=\"123.0\" y=\"208.2\" width=\"114.0\" height=\"43.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"180.0\" y=\"227.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">直接費</text><text x=\"180.0\" y=\"240.6\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">13,000</text><rect x=\"123.0\" y=\"173.6\" width=\"114.0\" height=\"34.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"180.0\" y=\"188.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">加工</text><text x=\"180.0\" y=\"201.4\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10,250</text><rect x=\"123.0\" y=\"139.9\" width=\"114.0\" height=\"33.7\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"180.0\" y=\"154.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">出荷</text><text x=\"180.0\" y=\"167.3\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10,000</text><rect x=\"123.0\" y=\"89.4\" width=\"114.0\" height=\"50.5\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"180.0\" y=\"112.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">段取り</text><text x=\"180.0\" y=\"125.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">15,000</text><rect x=\"123.0\" y=\"22.0\" width=\"114.0\" height=\"67.4\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"180.0\" y=\"53.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">設計</text><text x=\"180.0\" y=\"66.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20,000</text><text x=\"302.0\" y=\"122.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ABC・10枚の注文</text><rect x=\"245.0\" y=\"208.2\" width=\"114.0\" height=\"43.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"302.0\" y=\"227.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">直接費</text><text x=\"302.0\" y=\"240.6\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">13,000</text><rect x=\"245.0\" y=\"173.6\" width=\"114.0\" height=\"34.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"302.0\" y=\"188.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">加工</text><text x=\"302.0\" y=\"201.4\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10,250</text><rect x=\"245.0\" y=\"139.9\" width=\"114.0\" height=\"33.7\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"302.0\" y=\"154.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">出荷</text><text x=\"302.0\" y=\"167.3\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10,000</text><rect x=\"245.0\" y=\"134.9\" width=\"114.0\" height=\"5.1\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.1\"/><rect x=\"245.0\" y=\"128.2\" width=\"114.0\" height=\"6.7\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.1\"/><path d=\"M1 97.0L359 97.0\" style=\"stroke:var(--drop)\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" fill=\"none\"/><text x=\"4\" y=\"92.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">販売価格 46,000円</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">現在の方法（直接作業時間で配賦）とABCの比較（1枚当たり。単位：円。網掛けはABC）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"現在の方法とABCの比較\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"80.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1枚当たり（円）</text><text x=\"210.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">標準品</text><text x=\"310.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">特注品</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">販売価格</text><text x=\"254\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">26,000</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">46,000</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">製造原価（現在の方法）</text><text x=\"254\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">21,500</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">35,500</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">売上総利益（現在の方法）</text><text x=\"254\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4,500</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10,500</text><rect x=\"1\" y=\"92.6\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">製造原価（ABC）</text><text x=\"254\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14,950</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">68,250</text><rect x=\"1\" y=\"115.5\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">売上総利益（ABC）</text><text x=\"254\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">11,050</text><text x=\"354\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△22,250</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M160 0L160 137.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M260 0L260 137.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"137.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">活動ごとの製造間接費の配賦額（単位：千円。特注品は生産量が全体の6分の1だが、設計・段取り・出荷の大半を使う）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 173\" role=\"img\" aria-label=\"活動ごとの配賦額\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">千円</text><text x=\"153.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">標準品</text><text x=\"219.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">特注品</text><text x=\"306.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">配賦率</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">設計・打合せ</text><text x=\"180\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">60</text><text x=\"246\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,400</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20,000円/件</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">段取り</text><text x=\"180\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">180</text><text x=\"246\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,800</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">15,000円/回</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">梱包・出荷</text><text x=\"180\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">240</text><text x=\"246\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,200</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10,000円/回</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">加工（機械・</text><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">工場の維持）</text><text x=\"180\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,690</text><text x=\"246\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,230</text><text x=\"354\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4,100円/時間</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">合計</text><text x=\"180\" y=\"142.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">4,170</text><text x=\"246\" y=\"142.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">6,630</text><rect x=\"1\" y=\"149.4\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 149.4L359 149.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"164.5\" font-size=\"11\" style=\"fill:currentColor\">1枚当たり（円）</text><text x=\"180\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6,950</text><text x=\"246\" y=\"164.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">55,250</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M186 0L186 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M252 0L252 170.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"170.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
   },
   {
    "id": "j4-seg-11",
