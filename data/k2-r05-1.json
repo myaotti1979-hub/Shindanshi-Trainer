@@ -1,0 +1,369 @@
+{
+ "id": "k2-r05-1",
+ "y": 5,
+ "j": 1,
+ "theme": "蕎麦店の差別化の歩みと、近隣の同業との経営統合",
+ "gist": [
+  "1960年代後半：のれん分けで県道沿いに開業",
+  "出前と車の客、多くの品目で地域の食堂に",
+  "1980年代：宅地化で80席に拡大、売上1億円",
+  "1990年代半ば：競合の出店で低迷、正社員が独立",
+  "2000年代：長男が入社、蕎麦に集中し出前を中止",
+  "売上は回復も負荷増で離職、開発力と接客に課題",
+  "2010年承継：家族層・個室・値上げ・看板メニュー",
+  "近隣の仕入先の高齢化で、仕入れが不安定に",
+  "3部門にリーダー、方向性をそろえるチームづくり",
+  "助け合い自ら改善する風土、定着と増収・安定利益",
+  "コロナ禍：半調理品と地元需要、原料高と客の高齢化",
+  "2023年：同じ店ののれん分けのX社を譲り受け",
+  "X社：駅前の通勤客向けに高回転、仕入先は経営者の縁",
+  "X社：担当制で横の連携が弱く、価格競争と離職",
+  "観光客・若者の来訪、X社の従業員から退職の相談"
+ ],
+ "lesson": [
+  "「統合の前」の時点の指定：統合で得るX社の資源（駅前の店・仕入先）は、第1問のA社の強みに入れない。",
+  "1つの欄で「差別化」（先代と比べて何を変えたか）と「狙い」（期待した効果）を書き分ける（第2問）。",
+  "第3問で挙げたX社の留意点（戦略の違い・仕入先・組織と人）を、第4問の統合の進め方と事業の展開で解く形にそろえる。",
+  "観点の指定（競争戦略や成長戦略）は、両方の言葉を答えに出して書き分け、両社の強みを組み合わせて弱みを補う（第4問設問2）。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "経営統合の前のA社の強みと弱み。欄は別々で、各30字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "強み",
+     "limit": 30
+    },
+    {
+     "k": "b",
+     "label": "弱み",
+     "limit": 30
+    }
+   ],
+   "model": {
+    "a": "地元客が支持する看板メニューと、助け合い自ら改善する組織風土",
+    "b": "原料の調達が不安定な点と、常連が高齢化し新しい客層が乏しい点"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "地元客が支持する看板メニュー",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "助け合い自ら改善する組織風土",
+     "w": 5
+    },
+    {
+     "f": "b",
+     "t": "原料の調達が不安定",
+     "w": 5
+    },
+    {
+     "f": "b",
+     "t": "常連が高齢化し新しい客層が乏しい",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "2010年の承継後、地元の家族層に絞り、厳選素材と看板のオリジナルメニューで競合と差別化"
+    ],
+    [
+     8,
+     "近隣の仕入先が高齢化し、原材料の仕入れが不安定。新しい供給先が要る状況"
+    ],
+    [
+     9,
+     "3部門に専任のリーダー。経営者と接客リーダーが方向性を示し、目的意識をそろえるチームづくり"
+    ],
+    [
+     10,
+     "助け合う風土で従業員が定着。接客では自ら問題を見つけて解決する風土"
+    ],
+    [
+     11,
+     "コロナ禍は持ち帰りの半調理品でしのぎ、営業の再開後も地域の住民の需要に支えられ売上が伸びた。一方、常連の地元客が高齢化し、新しい客層の取り込みがいっそう重要に"
+    ]
+   ],
+   "shushi": "経営統合の前のA社について、内部環境（強み・弱み）を分析する力をみる。",
+   "e": "・**題意**：時点は経営統合の前。A社の内部の特徴を、強みと弱みに分けて各30字で（出題の趣旨も内部環境の分析）。各欄5点ずつの配分は目安。\n・**組み立て**：強み＝商品と顧客（看板メニューが地元の家族客に支持される）＋組織（助け合い、自ら問題を解決する風土）。弱み＝調達（近くの仕入先の高齢化で不安定）＋顧客（常連が高齢化し、新しい客層を取り込めていない）。各欄に2つの要素。\n**統合の前に使える根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 331\" role=\"img\" aria-label=\"統合の前に使える根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時期</text><text x=\"178.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の出来事（要約）</text><text x=\"326.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第1問</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">先代の</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">時代</text><text x=\"70\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">出前と多品目の地域の食堂。</text><text x=\"70\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">1990年代半ばから競合の出店で低迷</text><text x=\"326.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">背景</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">2000年代</text><text x=\"70\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">蕎麦に集中し出前をやめる。</text><text x=\"70\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">売上は戻るが、離職・開発力・接客に課題</text><text x=\"326.0\" y=\"83.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">背景</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">2010年〜</text><text x=\"70\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">地元の家族層に絞る。個室中心、</text><text x=\"70\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">厳選素材の看板メニュー</text><text x=\"326.0\" y=\"120.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.1\" font-size=\"11\" style=\"fill:currentColor\">2010年〜</text><text x=\"70\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">3部門のリーダー。助け合い、</text><text x=\"70\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">自ら問題を解決する風土。定着</text><text x=\"326.0\" y=\"158.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 172.8L359 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"195.5\" font-size=\"11\" style=\"fill:currentColor\">コロナ禍</text><text x=\"70\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">持ち帰りの半調理品を開発。</text><text x=\"70\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">地域の需要で売上が伸びる</text><text x=\"326.0\" y=\"195.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 210.2L359 210.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"232.9\" font-size=\"11\" style=\"fill:currentColor\">統合の前</text><text x=\"70\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">近くの仕入先の高齢化で、</text><text x=\"70\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">原材料の仕入れが不安定</text><text x=\"326.0\" y=\"232.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 247.6L359 247.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"270.3\" font-size=\"11\" style=\"fill:currentColor\">統合の前</text><text x=\"70\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">常連の地元客の高齢化。</text><text x=\"70\" y=\"277.9\" font-size=\"11\" style=\"fill:currentColor\">新しい客層の取り込みが要る</text><text x=\"326.0\" y=\"270.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 285.0L359 285.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"300.1\" font-size=\"11\" style=\"fill:currentColor\">統合の前</text><text x=\"70\" y=\"300.1\" font-size=\"11\" style=\"fill:currentColor\">原材料の高騰（外部の変化）</text><text x=\"326.0\" y=\"300.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">使わない</text><path d=\"M1 307.2L359 307.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"322.3\" font-size=\"11\" style=\"fill:currentColor\">2023年〜</text><text x=\"70\" y=\"322.3\" font-size=\"11\" style=\"fill:currentColor\">X社の駅前の店と仕入先（統合で得るもの）</text><text x=\"326.0\" y=\"322.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">使わない</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 328.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M292 0L292 328.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"328.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】与件を時期の順に並べ、統合の前の強み・弱みの候補かどうかを色で分けた（解答例は各欄2つを選んだ。残りは別の答え方）。\n・**別の答え方**：強みに「個室中心で家族の複数人の来店に向く店」「持ち帰りの半調理品を開発した力」「部門のリーダーと定着した従業員」。弱みに「駅から遠く、車で来る地元客に頼る立地」（与件に直接の記述はなく、公共交通で来る新しい客層との関係から読むもの）、「全体を統括する接客リーダーが、かねて自分の店を持ちたいと思っており、要の人が抜けるおそれ」。\n【ひっかけ注意】原材料の高騰は外部の変化（脅威）で、弱みそのものではない。2000年代の課題（離職、開発力、接客の粗さ）は、2010年以降の看板メニューの開発とチームづくりで手を打っているので、統合の前の弱みの中心にしない。X社の駅前の店や仕入先は統合で得るもので、統合の前のA社の強みではない。\n【2次】j1.over.company|与件のA社の姿と時点\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "現経営者が、先代の経営者と比べて行ってきた戦略上の差別化と、その狙い。1つの欄に合わせて100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "差別化と狙い",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "先代の多品目と出前の食堂に対し、蕎麦に資源を集中し出前をやめ、地元の家族層に絞り個室中心の店と厳選素材の看板メニューで高価格化した。狙いはチェーン店等との価格競争を避け、客単価と収益性を高めること。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "多品目・出前から蕎麦に資源を集中",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "地元の家族層に絞り個室中心の店",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "厳選素材の看板メニューで高価格化",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "チェーン店等との価格競争を避ける",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "客単価と収益性を高める",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "先代は出前を中心に、うどん・丼・カレーなどを加え、地域の食堂の役割を担った"
+    ],
+    [
+     3,
+     "先代の時代、宅地化で来店と出前が増え、80席に建て替えて売上1億円に"
+    ],
+    [
+     4,
+     "1990年代半ば、ファミレス・チェーン店・コンビニが売上の大半の昼食の需要を奪い、厨房の正社員も独立"
+    ],
+    [
+     5,
+     "先代の長男（現経営者）は入社後、効率の悪い丼ものとうどんをやめ、出前もやめて、看板の蕎麦に資源を集中"
+    ],
+    [
+     6,
+     "売上は回復したが、負荷が増えて離職が続き、新メニューの開発力の弱さと接客の粗さが課題に（2010年以降の取り組みの背景）"
+    ],
+    [
+     7,
+     "2010年の承継後、地元の家族層に絞り、80席を50席にして個室・ボックス席を中心に。厳選素材で価格を上げ、看板メニューで競合と差別化"
+    ],
+    [
+     10,
+     "承継後5年は前年を上回る売上。2015年以降は安定して利益を確保"
+    ]
+   ],
+   "shushi": "経営環境の変化を受けて現経営者が先代と異なる戦略をとってきた経緯から、戦略の違いとその目的を考える力をみる。",
+   "e": "・**題意**：現経営者が先代と比べて戦略の上で何を変えたか（差別化）と、その狙いの2つを1つの欄で。出題の趣旨は、環境の変化を受けて先代と異なる戦略をとった経緯から、戦略の違いと目的を問う。\n**先代と現経営者の戦略**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 317\" role=\"img\" aria-label=\"先代と現経営者の戦略\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"134.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">先代のやり方</text><text x=\"282.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">現経営者のやり方</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">環境</text><text x=\"70\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">周りに飲食店が少ない。</text><text x=\"70\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">宅地化で客が増える</text><text x=\"210\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">1990年代半ばから、</text><text x=\"210\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">ファミレス・チェーン店・</text><text x=\"210\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">コンビニが昼食の需要を奪う</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">客層</text><text x=\"70\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">近くの住民。</text><text x=\"70\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">昼食が売上の大半</text><text x=\"210\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">地元の家族層に絞る</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">商品</text><text x=\"70\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">蕎麦にうどん・</text><text x=\"70\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">丼・カレーなどを</text><text x=\"70\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">加えた多品目</text><text x=\"210\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">蕎麦に集中。厳選した素材と</text><text x=\"210\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">看板のオリジナルメニュー</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">売り方</text><text x=\"70\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">出前が中心</text><text x=\"210\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">出前をやめ、来店だけ</text><path d=\"M1 188.0L359 188.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">店と価格</text><text x=\"70\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">80席に広げる</text><text x=\"210\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">50席に減らし、個室・</text><text x=\"210\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">ボックス席が中心。</text><text x=\"210\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">価格を上げる</text><path d=\"M1 240.6L359 240.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"263.3\" font-size=\"11\" style=\"fill:currentColor\">結果</text><text x=\"70\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">前年割れが続き、</text><text x=\"70\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">正社員が独立</text><text x=\"210\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">承継後5年は増収。</text><text x=\"210\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">2015年以降は安定した利益</text><path d=\"M1 278.0L359 278.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"300.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">狙い</text><text x=\"210\" y=\"293.1\" font-size=\"11\" style=\"fill:currentColor\">価格競争を避け、</text><text x=\"210\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">客単価と収益性を高める</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 314.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 314.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"314.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】左が先代のやり方、右が現経営者のやり方（入社後の2000年代と、承継後の2010年以降）。最後の行が解答例の狙い。\n・**組み立て**：前半（66字）は先代との対比で差別化（多品目・出前の食堂 → 蕎麦への集中と来店だけ、家族層への絞り込みと個室、厳選素材と看板メニューで高価格）。後半（33字）は狙い（1990年代に増えたチェーン店などと同じ土俵の価格競争を避け、客単価と収益性を高める）。\n・与件が理由や目的として直接書くのは、入社後に効率の悪い品目をやめたことと、承継後の競合する外食店との差別化。価格競争を避ける、客単価と収益性を高める、という狙いは、環境の変化（チェーン店などの競合の出店）と、その後の結果（増収と安定した利益）から読む。\n・**別の答え方**：狙いに「限られた人員で効率よく店を回し、看板の蕎麦の質を保つ」（与件は効率の悪い品目をやめたと直接書く。字数に余裕があれば入れたい要素）、「家族や友人の複数人の来店を増やす」。差別化に「競合と異なるオリジナルメニュー」を前に出す書き方もある。\n【ひっかけ注意】先代の時代の取り組み（品目を増やす、席を広げる）を現経営者の差別化として書かない。差別化の中身だけで終わらせず、狙い（効果）まで書く。\n【2次】j1.ans.reason|過去の判断を問う設問の答え方\n【2次】j1.strat.growth|成長と事業の領域\n【1次】kigyo.1.3.2|競争優位の戦略（コストリーダーシップ・差別化・集中）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "経営統合の前に、A社の経営者がX社について留意すべき点（助言）。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "留意点",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "①駅前の通勤客向けに低単価・高回転で接客を省力化した戦略がA社と異なる点、②地元産原料の仕入先が経営者個人の縁による点、③経営者頼みの調整で横の連携が弱く、離職が多く従業員が統合に不安を持つ点。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "駅前の通勤客向け低単価・高回転の違い",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "仕入先が経営者個人の縁による",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "経営者頼みの調整で横の連携が弱い",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "離職が多く従業員が統合に不安",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     1,
+     "A社は駅からバスで約20分の県道沿い"
+    ],
+    [
+     7,
+     "A社は地元の家族層向けに、個室中心・厳選素材・高めの価格"
+    ],
+    [
+     12,
+     "同じ店からのれん分けした近隣のX社は、経営者が高齢で後継者がおらず閉店を考えていた。A社の経営者に経営権の引き継ぎの打診があり、2023年からA社が事業を譲り受けることになった"
+    ],
+    [
+     13,
+     "X社は駅前で、駅の利用者・通勤客向け。客単価を抑え回転率を高め、接客は省力化。仕入先は経営者個人のつながりの卸で、地元産の良質な原材料の生産者と直接取引"
+    ],
+    [
+     14,
+     "経営者の決めた手順の担当制で、部門の横のつながりが少なく、担当をまたぐ意思疎通は経営者が補う。仕事がきつく離職率が高く、常に求人"
+    ],
+    [
+     15,
+     "統合に不安を持つX社の正社員とアルバイトから退職の相談"
+    ]
+   ],
+   "shushi": "顧客・商品やサービス・立地・店舗運営などの異なる2社の統合を前に、A社の経営者が事前に検討すべき戦略と組織の課題を分析する力をみる。",
+   "e": "・**題意**：統合の前に、A社の経営者がX社のどんな点に気をつけるべきか（助言）。出題の趣旨は、顧客・商品やサービス・立地・店舗運営などの異なる2社の統合で、事前に検討すべき戦略と組織の課題。\n**A社とX社の違い**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 286\" role=\"img\" aria-label=\"A社とX社の違い\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">観点</text><text x=\"136.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">A社</text><text x=\"281.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">X社</text><text x=\"6\" y=\"45.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">立地</text><text x=\"76\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">県道沿い（駅から</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">バスで約20分）</text><text x=\"208\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">駅前（A社から約3km）</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">顧客</text><text x=\"76\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">地元の家族層</text><text x=\"208\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">駅の利用者・通勤客</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"105.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">商品・価格</text><text x=\"76\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">厳選素材の看板</text><text x=\"76\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">メニュー。価格は高め</text><text x=\"208\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">客単価を抑え、</text><text x=\"208\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">回転率を高める</text><path d=\"M1 120.2L359 120.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">店舗運営</text><text x=\"76\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">個室中心。自ら</text><text x=\"76\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">問題を解決する接客</text><text x=\"208\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">接客は省力化。</text><text x=\"208\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">コロナで営業時間を短縮</text><path d=\"M1 157.6L359 157.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">仕入れ</text><text x=\"76\" y=\"172.7\" font-size=\"11\" style=\"fill:currentColor\">近くの仕入先が</text><text x=\"76\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">高齢化し不安定</text><text x=\"208\" y=\"172.7\" font-size=\"11\" style=\"fill:currentColor\">地元産の良質な原料を扱う</text><text x=\"208\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">卸。経営者個人のつながり</text><path d=\"M1 195.0L359 195.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"225.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">組織</text><text x=\"76\" y=\"217.7\" font-size=\"11\" style=\"fill:currentColor\">3部門のリーダー。</text><text x=\"76\" y=\"232.9\" font-size=\"11\" style=\"fill:currentColor\">助け合う風土</text><text x=\"208\" y=\"210.1\" font-size=\"11\" style=\"fill:currentColor\">経営者の決めた手順の</text><text x=\"208\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">担当制。横のつながりが</text><text x=\"208\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">少なく、調整は経営者</text><path d=\"M1 247.6L359 247.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"270.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">人</text><text x=\"76\" y=\"270.3\" font-size=\"11\" style=\"fill:currentColor\">従業員が定着</text><text x=\"208\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">離職が多く常に求人。</text><text x=\"208\" y=\"277.9\" font-size=\"11\" style=\"fill:currentColor\">統合に不安を持ち退職の相談</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 284.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M202 0L202 284.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"284.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の4行（橙）が出題の趣旨の挙げた戦略の違い、下の3行（赤）が仕入れと組織・人。X社の列が留意点の根拠。\n・**組み立て**：①戦略の違い（駅前・通勤客・低単価で高回転・接客の省力化）、②仕入先（地元産の良質な原料。ただし経営者個人のつながりで、経営者が退くと続かないおそれ）、③組織と人（調整を経営者が担い横の連携が弱い、離職が多い、統合への不安）。戦略と組織の両面にする。\n・**別の答え方**：「経営者の決めた手順をこなすだけの働き方で、A社の自ら改善する風土と合わない」「コロナでシフト制をやめ、営業中は忙しすぎる働き方」「値下げと長い営業時間で対抗してきた経緯と、客足の減少」。\n【ひっかけ注意】A社自身の課題や統合の後の施策を書くと、問い（X社のどの点か）からずれる。施策は第4問で書く。\n【2次】j1.org.culture|組織文化と組織の変革\n【1次】kigyo.1.2.5|M&A（買収後の統合）"
+  },
+  {
+   "k": "q4a",
+   "h": "第4問（設問1）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提：A社とX社の経営統合の過程のマネジメント。設問1は、組織の統合をどう進めるべきかの助言（観点の指定なし）。80字以内。配点は第4問で計40点（設問ごとの内訳は示されていない。20点は目安）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "進め方",
+     "limit": 80
+    }
+   ],
+   "model": {
+    "a": "A社経営者が統合後の方針と処遇を示して不安を除き、接客リーダーをX社店の責任者に据え部門間を調整させ、合同会議と人の交流で意思疎通を図り、助け合う風土を広げる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "方針と処遇を示し不安を除く",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "接客リーダーをX社店の責任者に",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "合同会議と人の交流で意思疎通",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "助け合う風土を広げる",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     9,
+     "接客リーダーは全体を統括し、経営者の信頼が厚い。将来は自分の店を持ちたいと思っていた（与件は過去の形で書き、今の気持ちは書いていない）。経営者とともに方向性を示し、チームをつくった"
+    ],
+    [
+     10,
+     "助け合う風土、自ら問題を解決する接客、従業員の定着"
+    ],
+    [
+     14,
+     "X社は部門の横のつながりが少なく、店のレイアウトやメニューの変更など担当をまたぐ意思疎通は経営者が補ってきた。離職率が高い"
+    ],
+    [
+     15,
+     "統合に不安を持つX社の正社員とアルバイトから退職の相談"
+    ]
+   ],
+   "shushi": "統合の過程で、統合後の経営の向かう先を両社でどう共有し、互いの意思疎通をどう図るかを考える力をみる。",
+   "e": "・**題意**：第4問の前提は、A社とX社の経営統合の過程のマネジメント。設問1は組織の統合の進め方（観点の指定なし）。出題の趣旨は、統合後の経営の方向性の共有と、両社の意思疎通。配点は第4問で40点（設問ごとは示されていない。20点ずつは目安）。\n**組織の統合の進め方**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 182\" role=\"img\" aria-label=\"組織の統合の進め方\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">X社の状況（与件）</text><text x=\"183.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">施策（解答例）</text><text x=\"303.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">狙い</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">統合に不安を持つ従</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">業員から退職の相談</text><text x=\"126\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">A社の経営者が統合後</text><text x=\"126\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">の方針と処遇を示す</text><text x=\"252\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">方向性を共有し、</text><text x=\"252\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">人を残す</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">部門をまたぐ調整は</text><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">経営者が担い、</text><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">横のつながりが</text><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">少ない</text><text x=\"126\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">接客リーダーを</text><text x=\"126\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">X社店の責任者にし、</text><text x=\"126\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">部門の間を調整させる</text><text x=\"252\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">経営者に代わる</text><text x=\"252\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">調整役を置き、</text><text x=\"252\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">方針を現場に伝える</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">経営者の決めた</text><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">手順をこなす運営。</text><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">2社でやり方が違う</text><text x=\"126\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">合同会議と人の交流</text><text x=\"252\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">意思疎通を図り、</text><text x=\"252\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">A社の助け合う</text><text x=\"252\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">風土を広げる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 180.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M246 0L246 180.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"180.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：方向性の共有（A社の経営者が統合後の方針と処遇を示し、退職を考える従業員の不安を除く）→ 要の人（信頼の厚い接客リーダーをX社店の責任者にし、X社の経営者が担ってきた部門の間の調整を引き継ぐ）→ 意思疎通（合同会議と人の交流で、A社の助け合う風土を広げる）。\n・与件は、接客リーダーが将来は自分の店を持ちたいと思っていた、と過去の形で書く（今の気持ちは書いていない）。X社店を任せることは、その意欲に応える面もある（与件から読める範囲の推測）。\n・**別の答え方**：「X社の経営者に一定の期間残ってもらい、従業員と仕入先との関係を引き継ぐ」「X社店にも部門ごとのリーダーを置く」「シフト制を戻し、仕事のきつさを和らげて定着させる」「厨房リーダーが看板メニューの作り方を教える」。\n【ひっかけ注意】設問2の事業の展開（メニューや新しい客層）を書くと、組織の統合の問いからずれる。A社のやり方を一方的に押しつける書き方にしない（趣旨は方向性の共有と意思疎通）。\n【2次】j1.org.culture|組織文化と組織の変革\n【2次】j1.ans.elements|助言の設問の解答の要素\n【1次】kigyo.2.7.1|変革の段階（抵抗への対応）"
+  },
+  {
+   "k": "q4b",
+   "h": "第4問（設問2）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提と配点の扱い（20点は目安）は設問1と同じ。設問2は、今後の事業の展開の助言。観点は競争戦略や成長戦略。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "事業の展開",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "競争戦略は、X社の仕入先から地元産の良質な原料を安定調達し、A社の看板メニューで両店を差別化し価格競争を避ける。成長戦略は、駅前のX社店とSNSで観光客や若者を呼び込み、半調理品を通勤客に売る。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "X社の仕入先で良質な原料を安定調達",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "看板メニューで差別化し価格競争を回避",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "駅前の店とSNSで観光客・若者を呼ぶ",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "半調理品を通勤客に売る",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "A社は看板のオリジナルメニューで競合と差別化"
+    ],
+    [
+     8,
+     "近隣の仕入先の高齢化で、原材料の仕入れが不安定"
+    ],
+    [
+     11,
+     "持ち帰りの半調理品を開発して販売。常連の高齢化で、新しい客層の取り込みが重要に"
+    ],
+    [
+     13,
+     "X社は駅前で通勤客向け。仕入先の卸は地元産の良質な原材料の生産者と直接取引"
+    ],
+    [
+     14,
+     "駅の商業ビルのチェーン店などとの価格競争は難しく、商品やサービスでの差別化が要る"
+    ],
+    [
+     15,
+     "地域の食べ歩きを目当てに外国人観光客や若者が増え、SNSの口コミやグルメアプリを頼りに、公共交通で訪れる人が目立つ"
+    ]
+   ],
+   "shushi": "両社の弱みを補い強みを生かす競争戦略と、統合のシナジーを生かす成長戦略を描く力をみる。",
+   "e": "・**題意**：「競争戦略や成長戦略の観点から」今後の事業の展開を助言。出題の趣旨は、両社の弱みを補い強みを生かす競争戦略と、統合のシナジーを生かす成長戦略。2つの観点を言葉で示して書き分ける。\n**両社の強み・弱みと戦略**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 175\" role=\"img\" aria-label=\"両社の強み・弱みと戦略\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"31.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"112.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">生かす強み</text><text x=\"208.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">補う弱み</text><text x=\"307.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">施策（解答例）</text><text x=\"6\" y=\"68.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">競争戦略</text><text x=\"68\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">X社：</text><text x=\"68\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">地元産の良質な</text><text x=\"68\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">原料の仕入先</text><text x=\"68\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">A社：</text><text x=\"68\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">看板メニュー</text><text x=\"168\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">A社：</text><text x=\"168\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">仕入れが不安定</text><text x=\"168\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">X社：価格競争</text><text x=\"260\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">地元産の原料を</text><text x=\"260\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">安定調達し、</text><text x=\"260\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">看板メニューで</text><text x=\"260\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">両店を差別化。</text><text x=\"260\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">価格競争を避ける</text><path d=\"M1 106.2L359 106.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"144.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">成長戦略</text><text x=\"68\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">X社：駅前の立地</text><text x=\"68\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">A社：半調理品</text><text x=\"168\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">A社：</text><text x=\"168\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">常連の高齢化</text><text x=\"260\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">駅前の店とSNSで</text><text x=\"260\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">観光客・若者を</text><text x=\"260\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">呼ぶ。半調理品を</text><text x=\"260\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">通勤客に売る</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M62 0L62 173.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M162 0L162 173.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M254 0L254 173.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"173.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：競争戦略＝差別化（X社の仕入先から地元産の良質な原料を安定調達×A社の看板メニュー。A社の仕入れの不安とX社の価格競争を同時に解く）。成長戦略＝新しい市場（駅前のX社店とSNSで観光客・若者を呼ぶ。常連の高齢化を補う。与件は来訪先を「地域」とだけ書くが、公共交通で来るので駅前の店を入口にすると読む）＋新しい売り方（A社の半調理品を駅前で通勤客に）。\n・第3問の留意点（仕入先は経営者個人のつながり）を前提に、X社の経営者が退く前に取引を引き継いで生かす形にそろえる。\n・**別の答え方**：「地元産の原料の蕎麦を、食べ歩きの観光客向けの商品にする」「グルメアプリで情報を出す」「X社店は提供の速さを保ちつつ、看板メニューで客単価を上げる」。\n【ひっかけ注意】片方の観点だけ（新しい客層だけ、差別化だけ）で終わらせない。X社の低単価・高回転のやり方のまま、大手のチェーン店と価格で争う案は、趣旨（弱みを補い強みを生かす）に合わない。\n【2次】j1.strat.growth|成長と事業の領域\n【2次】jc.solve.question|設問の読み方\n【1次】kigyo.1.3.2|競争優位の戦略（コストリーダーシップ・差別化・集中）\n【1次】kigyo.1.2.2|多角化（成長ベクトル・シナジー）"
+  }
+ ]
+}

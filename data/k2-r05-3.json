@@ -1,0 +1,375 @@
+{
+ "id": "k2-r05-3",
+ "y": 5,
+ "j": 3,
+ "theme": "業務用食品の受託製造：人手・材料高・企画開発・増築の構想",
+ "gist": [
+  "業務用食品の製造、60名（パート40名）・4部門",
+  "温泉地の高級ホテル・旅館5軒から多品種少量を受託",
+  "1990年、料理人出身の現経営者が創業。受注は増加",
+  "コロナ禍で受注が激減、いまは回復しつつある",
+  "製造部4課、総菜5班は販売先ごと、管理者3名",
+  "班ごとの加工室をゾーニング、厨房と同様の配置",
+  "主な総菜：前処理・計量とカット・調理を手作業",
+  "工場管理者とパートリーダーが直接指導・監督",
+  "仕様は料理長が口頭で指示、レシピはメモ程度",
+  "月度計画と日々の作業計画、食材は経験値で発注",
+  "入出庫記録なし、在庫増と廃棄、納品遅れ",
+  "日々の数は週初めに確定、朝食・夕食に合わせ納品",
+  "X社と総菜を共同企画、製品開発部を新設",
+  "X社：2日前確定、1日2回以上配送、段階的拡大",
+  "社長は意欲的だが、能力不足で増築を考える"
+ ],
+ "lesson": [
+  "設問文にだけある前提（第2問の高齢のパートの退職、第4問の社長の思い、第5問の構想の中身：敷地内の増築・専用の生産設備・新規採用者が中心）を、与件の事実と分けて読む。X社との総菜の商品企画と、増築などで能力を確保する考えは与件にもある。",
+  "第1問は「生産面」の強みを2つ、合わせて40字。販売先との関係（販売面）や受注の回復（機会）は入れない。",
+  "第3問は出題の趣旨の3つの管理（資材調達・在庫・製造工程）。材料の流れに沿って、経験値の発注・記録のない在庫・廃棄・歩留りを拾い、1つに偏らない。",
+  "第5問は「妥当性・理由・留意点」の3つをそろえる。判断が割れても、理由と留意点を、与件・設問文の事実（X社の段階的な拡大、高齢のパートの退職、レシピの未整備）と第2〜4問の答えに合わせる。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 10,
+   "ask": "C社の生産面の強みを2つ。2つを合わせて40字以内（解答欄は1つ）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "生産面の強み2つ",
+     "limit": 40
+    }
+   ],
+   "model": {
+    "a": "①料理人経験者が料理長の仕様を再現する技術、②交差汚染を防ぐゾーニングした加工室"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "料理人経験者が料理長の仕様を再現する技術",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "交差汚染を防ぐゾーニングした加工室",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "創業者は高級ホテルの料理人の経験があり、調理場の作業の管理に詳しい"
+    ],
+    [
+     5,
+     "工場管理者（製造部長と2人の製造課長）は、3名ともホテル・旅館の料理人の経験がある"
+    ],
+    [
+     6,
+     "加工室を製造班ごとに分け、交差汚染を防ぐようにゾーニング。設備の配置はホテル・旅館の厨房と同様"
+    ],
+    [
+     9,
+     "料理長の口頭の指示をもとにC社が試作して仕様を決める。納入の期間中も料理長が出来栄えを確かめ、工場管理者が立ち会う"
+    ],
+    [
+     12,
+     "朝食用は前日の午後に作って当日の早朝に、夕食用は当日14時までに作って納める"
+    ]
+   ],
+   "shushi": "C社の生産面の強みを分析する力をみる。",
+   "e": "・**題意**：C社の生産面の強みを2つ、2つを合わせて40字（配点10点）。出題の趣旨も生産面の強みの分析。1つ20字ほどで、名詞でまとめる。\n・**組み立て**：人（料理人の経験を持つ工場管理者が、料理長の口頭の指示を試作で製品にする技術）と、設備・衛生（班ごとに分けて交差汚染を防ぐ加工室）の2つの切り口で、重ならないように選ぶ。\n**生産面の強みの候補と与件の根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 354\" role=\"img\" aria-label=\"生産面の強みの候補と与件の根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">候補</text><text x=\"193.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">答え</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">調理と</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">試作の技術</text><text x=\"92\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">工場管理者3名はホテル・</text><text x=\"92\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">旅館の料理人の経験。料理長の口頭の</text><text x=\"92\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">指示をもとに試作して仕様を決め、</text><text x=\"92\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">料理長の確認と変更の指示に立ち会う</text><text x=\"330.0\" y=\"61.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">入れる</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">衛生的な</text><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">加工室</text><text x=\"92\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">班ごとに加工室を分け、</text><text x=\"92\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">交差汚染を防ぐゾーニング</text><text x=\"330.0\" y=\"113.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">入れる</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">厨房と</text><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">同様の配置</text><text x=\"92\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">加工室の設備の配置は、</text><text x=\"92\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">ホテル・旅館の厨房と同様</text><text x=\"330.0\" y=\"151.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">時刻に</text><text x=\"6\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">合わせた製造</text><text x=\"92\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">朝食用は前日の午後に作って早朝に、</text><text x=\"92\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">夕食用は当日14時までに作って届ける</text><text x=\"330.0\" y=\"188.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 203.2L359 203.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">販売先ごとの</text><text x=\"6\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">班</text><text x=\"92\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">総菜は販売先ごとの5班。</text><text x=\"92\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">各班にベテランのパートリーダー</text><text x=\"330.0\" y=\"225.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 240.6L359 240.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">高級ホテル・</text><text x=\"6\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">旅館との取引</text><text x=\"92\" y=\"263.3\" font-size=\"11\" style=\"fill:currentColor\">温泉地の5軒から、料理長を通じて受託</text><text x=\"330.0\" y=\"263.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">観点違い</text><path d=\"M1 278.0L359 278.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"300.7\" font-size=\"11\" style=\"fill:currentColor\">受注の回復</text><text x=\"92\" y=\"293.1\" font-size=\"11\" style=\"fill:currentColor\">観光客が増え、</text><text x=\"92\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">販売先の稼働と受注が回復</text><text x=\"330.0\" y=\"300.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">機会</text><path d=\"M1 315.4L359 315.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"330.5\" font-size=\"11\" style=\"fill:currentColor\">レシピ・</text><text x=\"6\" y=\"345.7\" font-size=\"11\" style=\"fill:currentColor\">発注・在庫</text><text x=\"92\" y=\"330.5\" font-size=\"11\" style=\"fill:currentColor\">レシピはメモ程度。</text><text x=\"92\" y=\"345.7\" font-size=\"11\" style=\"fill:currentColor\">発注は経験値。入出庫の記録がない</text><text x=\"330.0\" y=\"338.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 351.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 351.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"351.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】答えに入れたもの、字数の都合で外したもの（別の答え）、生産面の強みにならないもの（観点違い・機会・弱み）に分けた。\n・**別の答え方**：「朝食用は前日の午後、夕食用は当日の14時までに作って届ける体制」「ホテル・旅館の厨房と同様の設備の配置」「販売先ごとの班で多品種少量を作る体制」。\n【ひっかけ注意】高級ホテル・旅館5軒との取引や、料理長を通じた受注は販売の側の関係で、「生産面」から外れる。コロナ禍の後の受注の回復は機会（外部）。メモ程度のレシピ・経験値の発注・記録のない在庫は弱み（第2・3問の根拠）。\n【2次】j3.over.company|与件のC社の姿と生産の形\n【1次】kigyo.1.1.5|内部環境分析（VRIO）\n【1次】unei.2.5.1|HACCP（食品の衛生管理）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "設問文の前提：2020年からのコロナ禍で受注が減って工場の稼働が下がり、出勤日数を調整した結果、高齢のパートが辞めた。いまは増えている受注への対応に苦慮している。生産面で必要な対応策。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "対応策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "①工場管理者がレシピと作業手順を標準化し、新たなパートを早く戦力化する。②パートを多能工化し、日々の納品数に応じて班の間で応援させる。③前処理とカットを機械化する。これにより少人数で受注増に応える。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "レシピと作業手順を標準化し早く戦力化",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "多能工化し班の間で応援させる",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "前処理とカットを機械化する",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "少人数で受注増に応える",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "多品種少量の食品を受託製造する"
+    ],
+    [
+     4,
+     "感染が落ち着き、観光客の増加で販売先の稼働が上がり、受注が回復しつつある"
+    ],
+    [
+     5,
+     "総菜は販売先ごとの5班。各班にベテランのパートリーダー1名とパート"
+    ],
+    [
+     7,
+     "受注量が最も多い総菜は、前処理・計量とカット・調理を、鍋や包丁などの汎用の器具で手作業"
+    ],
+    [
+     8,
+     "工場管理者とパートリーダーが、パートに作業の方法を直接指導・監督する"
+    ],
+    [
+     9,
+     "仕様は料理長の口頭の指示。レシピは工場管理者がメモ程度に作り、整理されていない"
+    ],
+    [
+     12,
+     "日々の納品数は、宿泊予約の変動を受けて週初めに確定する"
+    ]
+   ],
+   "shushi": "コロナ禍の後に受注が増える中で、C社の生産面の課題を整理し、対応策を助言する力をみる。",
+   "e": "・**題意**：設問文の前提（稼働の低下で出勤日数を調整したら、高齢のパートが辞めた。いまは受注が増えている）のもとで、生産面の対応策を100字で。出題の趣旨は、生産面の課題を整理して対応策を助言すること。\n・**組み立て**：課題は「少ない人数で生産能力を上げること」。与件から、人が減ると効いてくる弱み（作業が直接の指導とメモのレシピに頼る、班が販売先ごとに分かれる、前処理などが手作業）を拾い、それぞれに対応策を当てる → 効果（少人数で受注増に応える）。\n**人が減ったときの弱みと対応策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 198\" role=\"img\" aria-label=\"人が減ったときの弱みと対応策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"64.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の今の姿</text><text x=\"180.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">人が減ると</text><text x=\"296.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">対応策（解答例）</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">作業の方法は、</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">工場管理者とパート</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">リーダーが直接指導。</text><text x=\"6\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">レシピはメモ程度</text><text x=\"134\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">新しい人が育つの</text><text x=\"134\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">に時間がかかる。</text><text x=\"134\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">指導する人の</text><text x=\"134\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">手が足りない</text><text x=\"238\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">①レシピと作業手順を</text><text x=\"238\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">標準化し、新たな</text><text x=\"238\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">パートを早く戦力化</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">総菜は販売先ごとの</text><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">5班。日々の納品数は</text><text x=\"6\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">宿泊予約で変わる</text><text x=\"134\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">班ごとに人が固定</text><text x=\"134\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">（班の間の応援の</text><text x=\"134\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">記述はない）</text><text x=\"238\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">②多能工化し、</text><text x=\"238\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">納品数に応じて</text><text x=\"238\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">班の間で応援</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">前処理・計量と</text><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">カット・調理を、</text><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">汎用の器具で手作業</text><text x=\"134\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">1人で作れる</text><text x=\"134\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">量に限りがある</text><text x=\"238\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">③前処理と</text><text x=\"238\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">カットを機械化</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M128 0L128 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M232 0L232 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"195.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】中の列は与件からの推測（与件に人手の不足や残業の記述はない）。解答例は右の列の3つ。③の機械化は、受注量が最も多い総菜を汎用の器具の手作業で作っていること（与件）が根拠。\n・**別の答え方**：「週初めに確定する日々の納品数から、週単位で班ごとの人員の割り当てを計画する」「カット済みなどの加工した食材を仕入れ、前処理を減らす」「勤務の条件を見直してパートの採用と定着を図る」。\n【ひっかけ注意】高齢のパートの退職は設問文にだけ書かれた前提。採用だけを書くと、人が育つまでの手（標準化）が抜ける。班の間の応援では、加工室のゾーニング（交差汚染の防止）の手順を守る。発注・在庫・歩留りの話は第3問で書く。\n【2次】j3.prod.skill|作業の標準化と技能の継承\n【1次】unei.1.3.1|作業管理（標準作業・多能工化）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "設問文の前提：食材などの材料の価格が高騰し、付加価値の高い製品を売っているのに収益性が下がっている。必要な対応策（観点の指定はない）。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "対応策",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "調達は、発注を資材管理課に一元化し、計画と標準使用量、在庫から必要量を出して週ごとに発注する。在庫は、入出庫を記録し期限の近い順に使い廃棄を減らす。製造は、計量とトリミングを標準化し歩留りを高める。これにより材料費を抑え収益性を改善する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "発注を資材管理課に一元化",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "計画と標準使用量・在庫から必要量",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "入出庫を記録し期限の近い順に使う",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "計量とトリミングを標準化し歩留り向上",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "材料費を抑え収益性を改善",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "前処理で不要な部分をトリミングし、食材と調味料を計量する"
+    ],
+    [
+     9,
+     "仕様は料理長の口頭の指示で、納入の期間中も必要に応じて変更が指示される。レシピはメモ程度"
+    ],
+    [
+     10,
+     "パートリーダーが月度の計画に要る量を経験値で見積もり、長年の取引先の食品商社へ月末に定期発注。商社は計画と消費期限を考えて納める"
+    ],
+    [
+     11,
+     "資材管理課が受入れと保管（常温・冷蔵・冷凍）を行うが、入出庫の記録がない。在庫が増え、廃棄も出る。前日の準備で納品遅れが分かったことがある"
+    ],
+    [
+     12,
+     "日々の納品数は週初めに確定する"
+    ]
+   ],
+   "shushi": "最近の材料の価格の高騰を受け、資材調達・在庫・製造工程の各管理の課題を整理し、対応策を助言する力をみる。",
+   "e": "・**題意**：材料の価格が上がり、付加価値の高い製品なのに収益性が下がっている。その対応策を120字で（観点の指定はない）。出題の趣旨は、資材調達・在庫・製造工程の3つの管理の課題を整理して対応策を助言すること。\n・**組み立て**：材料の流れ（発注 → 受入れ・保管 → 前日の準備 → 前処理・計量）に沿って、ムダが出る所を拾う。調達：経験値の発注で量が合わない → 在庫を持つ資材管理課に発注をまとめ、計画・標準の使用量・在庫から必要量を出す（日々の数が確定する週初めに合わせ、月末の1回ではなく週ごとに）。在庫：記録がなく増えて廃棄 → 入出庫の記録と期限の管理。製造：計量とトリミングが口頭の指示とメモ頼み → 標準化で歩留りを上げる。「調達は」「在庫は」「製造は」と書き出すと、3つの管理に答えたことが伝わる。\n**3つの管理の今と対応策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 281\" role=\"img\" aria-label=\"3つの管理の今と対応策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"29.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">管理</text><text x=\"133.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今（与件）</text><text x=\"284.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">対応策（解答例）</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">資材調達</text><text x=\"64\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">パートリーダーが</text><text x=\"64\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">経験値で量を見積もり、</text><text x=\"64\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">月末に食品商社へ定期発注</text><text x=\"215\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">資材管理課に一元化。</text><text x=\"215\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">計画・標準の使用量・</text><text x=\"215\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">在庫から量を出し、</text><text x=\"215\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">週ごとに発注</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">在庫</text><text x=\"64\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">入出庫の記録がない。</text><text x=\"64\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">在庫が増え、</text><text x=\"64\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">廃棄も出る。前日の</text><text x=\"64\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">準備で納品遅れが分かる</text><text x=\"215\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">入出庫を記録し、在庫と</text><text x=\"215\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">消費期限を見える化。</text><text x=\"215\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">期限の近い順に使う</text><path d=\"M1 158.8L359 158.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">製造工程</text><text x=\"64\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">前処理で不要な</text><text x=\"64\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">部分をトリミングし、</text><text x=\"64\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">食材と調味料を計量。</text><text x=\"64\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">仕様は口頭、</text><text x=\"64\" y=\"234.7\" font-size=\"11\" style=\"fill:currentColor\">レシピはメモ程度</text><text x=\"215\" y=\"196.7\" font-size=\"11\" style=\"fill:currentColor\">計量とトリミングを</text><text x=\"215\" y=\"211.9\" font-size=\"11\" style=\"fill:currentColor\">標準化し、歩留りを上げる</text><path d=\"M1 241.8L359 241.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"264.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">効果</text><text x=\"64\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">材料の価格が上がり、</text><text x=\"64\" y=\"272.1\" font-size=\"11\" style=\"fill:currentColor\">収益性が下がる（設問文）</text><text x=\"215\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">材料費と廃棄を減らし、</text><text x=\"215\" y=\"272.1\" font-size=\"11\" style=\"fill:currentColor\">収益性を改善</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M58 0L58 278.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M209 0L209 278.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"278.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「料理長の仕様の変更を資材管理課に伝え、発注に反映する」「商社と納品の予定を共有し、遅れを前日より前につかむ」「材料の値上がりを、販売先との価格の見直しに反映する」（価格は趣旨の3つの管理の外なので、入れるなら短く）。\n【ひっかけ注意】「安い食材に替える」は、料理長が食材を指定する仕様と、付加価値の高い製品という前提に合わない。標準使用量は、第2問で整えるレシピとつながる（第2問は作業の手順、第3問は材料の量と歩留り、と目的を書き分ける）。\n【2次】j3.link.material|資材・在庫・外注と原価\n【1次】unei.1.5.1|資材管理（集中購買）\n【1次】unei.1.5.3|在庫管理（発注方式）\n【1次】unei.1.2.8|需給計画（MRP・所要量の計算）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 20,
+   "ask": "設問文の前提：社長は受注が落ち込んだ数年前から、既存の販売先との関係をより密にし、自社企画製品の製造・販売を実現したいと考えてきた（他のホテル・旅館へも販路を広げたい）。X社との新規事業でも総菜の商品企画が要る。C社は創業から受託製造に特化してきた。製品の企画開発をどう進めるべきか。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "企画開発の進め方",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "①製品開発部を中心に営業部と工場管理者で開発チームを作る。②営業部が料理長から地元食材や季節のメニューの要望を集める。③受託のレシピを整理・データ化し、試作と評価の手順を定める。これにより既存先と関係を深め、他のホテル・旅館へ販路を広げる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "製品開発部中心に営業・工場管理者でチーム",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "営業部が料理長から要望を集める",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "受託のレシピを整理・データ化",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "試作と評価の手順を定める",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "既存先との関係を深め販路を広げる",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     1,
+     "営業部6名（配送を兼務）、製品開発部2名"
+    ],
+    [
+     3,
+     "販売先は地元の食材を使う特色あるメニューを強め、調達と在庫の簡素化によるコスト低減も求める"
+    ],
+    [
+     5,
+     "工場管理者3名は、ホテル・旅館の料理人の経験がある"
+    ],
+    [
+     9,
+     "料理長は季節のメニューから製品を選び、口頭で仕様を指示。C社が試作して決める。レシピはメモ程度"
+    ],
+    [
+     10,
+     "営業部が料理長から翌月の納品予定を受け取る"
+    ],
+    [
+     13,
+     "製品開発部はX社との企画のために最近新設。外部人材は食品製造業で開発の実務と管理の経験がある"
+    ]
+   ],
+   "shushi": "自社企画製品の販売を実現したいが受託製造に特化してきたC社について、製品の企画開発の課題を整理し、社内の対応策を助言する力をみる。",
+   "e": "・**題意**：受託に特化してきたC社が、自社企画製品の企画開発をどう進めるか（120字）。目的は、既存の販売先との関係を一層密にし、他のホテル・旅館へ販路を広げること。X社との新規事業でも総菜の企画が要る（社長の思いと販路は設問文だけの前提。X社との総菜の商品企画は与件にもある）。出題の趣旨は、企画開発の課題を整理し、社内の対応策を助言すること。\n・**組み立て**：課題は、企画開発の体制と仕組みがないこと。体制（新設の製品開発部の経験者を中心に、販売先と接する営業部と、料理人の経験を持つ工場管理者を集める）→ 情報（料理長の要望。与件の販売先は地元食材の特色あるメニューとコスト低減を求める）→ 知見と手順（受託のレシピの整理、試作と評価）→ 効果。\n**企画開発に要るものとC社の資源**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 341\" role=\"img\" aria-label=\"企画開発に要るものとC社の資源\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">要るもの</text><text x=\"145.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">C社の今（与件・設問文）</text><text x=\"290.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">進め方（解答例）</text><text x=\"6\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">人と体制</text><text x=\"76\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">製品開発部（2名）</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">を最近新設。</text><text x=\"76\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">外部人材は食品製造業で</text><text x=\"76\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">開発の実務と管理の経験。</text><text x=\"76\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">C社は受託に特化</text><text x=\"76\" y=\"114.3\" font-size=\"11\" style=\"fill:currentColor\">（設問文）</text><text x=\"226\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">①製品開発部を中心に、</text><text x=\"226\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">営業部と工場管理者で</text><text x=\"226\" y=\"91.5\" font-size=\"11\" style=\"fill:currentColor\">チームを作る</text><path d=\"M1 121.4L359 121.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">顧客の要望</text><text x=\"76\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">営業部は料理長から翌月の</text><text x=\"76\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">納品予定を受け取る。</text><text x=\"76\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">販売先は地元食材の</text><text x=\"76\" y=\"182.1\" font-size=\"11\" style=\"fill:currentColor\">特色あるメニューと</text><text x=\"76\" y=\"197.3\" font-size=\"11\" style=\"fill:currentColor\">コスト低減を求める</text><text x=\"226\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">②営業部が料理長から</text><text x=\"226\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">要望を集め、</text><text x=\"226\" y=\"182.1\" font-size=\"11\" style=\"fill:currentColor\">チームで共有</text><path d=\"M1 204.4L359 204.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"249.9\" font-size=\"11\" style=\"fill:currentColor\">技術と知見</text><text x=\"76\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">工場管理者は</text><text x=\"76\" y=\"234.7\" font-size=\"11\" style=\"fill:currentColor\">料理人の経験。</text><text x=\"76\" y=\"249.9\" font-size=\"11\" style=\"fill:currentColor\">料理長の口頭の仕様を</text><text x=\"76\" y=\"265.1\" font-size=\"11\" style=\"fill:currentColor\">試作して製品にしてきた。</text><text x=\"76\" y=\"280.3\" font-size=\"11\" style=\"fill:currentColor\">レシピはメモ程度</text><text x=\"226\" y=\"234.7\" font-size=\"11\" style=\"fill:currentColor\">③レシピを整理・</text><text x=\"226\" y=\"249.9\" font-size=\"11\" style=\"fill:currentColor\">データ化し、試作と</text><text x=\"226\" y=\"265.1\" font-size=\"11\" style=\"fill:currentColor\">評価の手順を定める</text><path d=\"M1 287.4L359 287.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"317.7\" font-size=\"11\" style=\"fill:currentColor\">売り先</text><text x=\"76\" y=\"302.5\" font-size=\"11\" style=\"fill:currentColor\">既存の5軒、他のホテル・</text><text x=\"76\" y=\"317.7\" font-size=\"11\" style=\"fill:currentColor\">旅館（設問文）、X社</text><text x=\"76\" y=\"332.9\" font-size=\"11\" style=\"fill:currentColor\">（総菜の共同企画）</text><text x=\"226\" y=\"302.5\" font-size=\"11\" style=\"fill:currentColor\">既存先と関係を深め、</text><text x=\"226\" y=\"317.7\" font-size=\"11\" style=\"fill:currentColor\">他のホテル・</text><text x=\"226\" y=\"332.9\" font-size=\"11\" style=\"fill:currentColor\">旅館へ広げる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 339.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M220 0L220 339.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"339.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「X社との季節ごとの共同企画で、企画の手順と売れ行きのデータを得て、ホテル・旅館向けにも生かす」「地元の食材を使い、販売先の調達と在庫の手間を減らせる製品を提案する」「試作品を既存の販売先の料理長に評価してもらう」「外部人材の知見を社内に広げ、開発の担当者を育てる」「配送を兼務する営業部の配送を見直し（委託など）、料理長への提案と要望の収集に時間を充てる」。\n【ひっかけ注意】「新製品を開発する」だけでは進め方にならない。誰が・何の情報で・どの手順で進めるかを書く。製品開発部の新設は与件にある事実なので、「製品開発部を作る」は答えにならない（新設の部をどう動かすかを書く）。販売先の料理長が指定した仕様をそのまま他の販売先向けの製品にすると、既存の販売先との関係を損ねうる（レシピの整理は、調理の知見を蓄えて企画に生かすため）。\n【2次】j3.link.design|設計・開発と営業の連携\n【1次】kigyo.3.5.3|新製品開発\n【1次】kigyo.2.1.5|横断的関係（プロジェクト・チーム）"
+  },
+  {
+   "k": "q5",
+   "h": "第5問",
+   "dai": 5,
+   "pts": 30,
+   "ask": "社長は、X社との新規事業には今の生産能力では対応が難しいと考える（与件）。設問文の構想：工場の敷地内に工場を増築し、専用の生産設備を入れ、新規採用者を中心にした生産体制をつくる。この構想の妥当性とその理由、留意点の助言。140字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "妥当性・理由・留意点",
+     "limit": 140
+    }
+   ],
+   "model": {
+    "a": "妥当である。既存工場は人手が減り余力がなく、X社向けを増築部と専用設備で分けて作れば既存の品質と納期を守れるため。留意点は、①X社の店舗数に合わせ設備と人員を段階的に増やす、②作業を標準化し新規採用者を教育する、③2日前の数量確定と1日2回の配送に合わせ計画と調達を組むこと。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "妥当：既存工場は人手が減り余力がない",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "分けて作り既存の品質と納期を守る",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "店舗数に合わせ段階的に増やす",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "作業を標準化し新規採用者を教育",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "2日前確定と配送に合わせ計画・調達",
+     "w": 6
+    }
+   ],
+   "basis": [
+    [
+     1,
+     "営業部は配送を兼務"
+    ],
+    [
+     6,
+     "加工室を製造班ごと（総菜は販売先ごと）に分け、ゾーニングで交差汚染を防ぐ"
+    ],
+    [
+     8,
+     "作業は工場管理者とパートリーダーの直接の指導に頼る"
+    ],
+    [
+     9,
+     "レシピはメモ程度で整理されていない"
+    ],
+    [
+     12,
+     "朝食用は前日の午後、夕食用は当日14時までに作って納める"
+    ],
+    [
+     13,
+     "X社は売上が伸びる中で総菜の売上の伸びが低い。季節性と高級感のある和洋の総菜で差別化を図る"
+    ],
+    [
+     14,
+     "X社が月ごとの販売計画を作り、数量は2日前に確定。鮮度のため1日2回以上の配送。客単価の高い数店舗から10数店舗へ徐々に広げる"
+    ],
+    [
+     15,
+     "社長は意欲的だが、今の能力では難しく、増築などで能力を確保する必要があると考える"
+    ]
+   ],
+   "shushi": "工場の増築などの設備投資で生産体制をつくり、新規事業の生産に対応しようとする社長の構想について、妥当性とその理由、留意点を助言する力をみる。",
+   "e": "・**題意**：X社との新規事業に向けた社長の構想（敷地内の増築・専用の生産設備・新規採用者が中心の生産体制。中身は設問文）について、妥当性・その理由・留意点の3つを140字で（30点）。\n・**組み立て**：判断（妥当）→ 理由（既存工場に余力がない。X社向けを分けて作ると、時刻の決まった既存の受託品の品質と納期を守れる）→ 留意点（需要の不確かさ、新規採用者の経験の不足、短い納品のサイクル）を、与件の事実から1つずつ。\n**構想を判断する材料**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 401\" role=\"img\" aria-label=\"構想を判断する材料\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"28.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">観点</text><text x=\"141.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件・設問文の事実</text><text x=\"293.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">答えでの使い方</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">能力</text><text x=\"62\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">社長は今の能力では難しいと</text><text x=\"62\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">見る。高齢のパートが辞め、</text><text x=\"62\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">受注の増加に苦慮</text><text x=\"62\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">（第2問の設問文）</text><text x=\"232\" y=\"53.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">理由：</text><text x=\"232\" y=\"68.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">既存工場に余力がない</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">品質・</text><text x=\"6\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">納期</text><text x=\"62\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">製造班ごとの</text><text x=\"62\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">加工室をゾーニング</text><text x=\"62\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">（総菜は販売先ごと）。</text><text x=\"62\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">朝食用は前日の午後、</text><text x=\"62\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">夕食用は当日14時までに作る</text><text x=\"232\" y=\"128.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">理由：X社向けを分け、</text><text x=\"232\" y=\"144.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">既存の受託品を守る</text><path d=\"M1 174.0L359 174.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">需要</text><text x=\"62\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">X社は客単価の高い数店舗から</text><text x=\"62\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">10数店舗へ徐々に広げる。</text><text x=\"62\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">総菜の売上の伸びは低い</text><text x=\"232\" y=\"196.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">留意点：店舗数に</text><text x=\"232\" y=\"211.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">合わせ段階的に増やす</text><path d=\"M1 226.6L359 226.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">人</text><text x=\"62\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">新規採用者が中心（設問文）。</text><text x=\"62\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">いまは直接の指導と</text><text x=\"62\" y=\"272.1\" font-size=\"11\" style=\"fill:currentColor\">メモ程度のレシピに頼る</text><text x=\"232\" y=\"249.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">留意点：</text><text x=\"232\" y=\"264.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">作業を標準化して教育</text><path d=\"M1 279.2L359 279.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">計画・</text><text x=\"6\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">配送</text><text x=\"62\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">X社が月ごとの販売計画。</text><text x=\"62\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">数量は2日前に確定。</text><text x=\"62\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">1日2回以上の配送。</text><text x=\"62\" y=\"339.9\" font-size=\"11\" style=\"fill:currentColor\">営業部が配送を兼務</text><text x=\"232\" y=\"309.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">留意点：計画・</text><text x=\"232\" y=\"324.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">調達・配送を合わせる</text><path d=\"M1 347.0L359 347.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"377.3\" font-size=\"11\" style=\"fill:currentColor\">製品</text><text x=\"62\" y=\"362.1\" font-size=\"11\" style=\"fill:currentColor\">季節ごとの共同企画。</text><text x=\"62\" y=\"377.3\" font-size=\"11\" style=\"fill:currentColor\">高級感のある</text><text x=\"62\" y=\"392.5\" font-size=\"11\" style=\"fill:currentColor\">和洋の総菜で差別化</text><text x=\"232\" y=\"369.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え：</text><text x=\"232\" y=\"384.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">品目の変更に合う設備</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M56 0L56 398.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M226 0L226 398.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"398.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】右の列は、答えの理由・留意点・別の答えで色を分けた。中の列の「設問文」の印は、与件ではなく設問文に書かれた前提。\n・**別の答え方（判断が割れる）**：「今の時点では妥当でない」とする答えも成り立つ。理由は、X社は数店舗から徐々に広げ、総菜の売上の伸びも低いので需要が不確か、新規採用者が中心では高級感のある品質を保ちにくい、など。代わりに、第2問の改善で既存工場に余力をつくり、需要を見ながら段階的に投資する。どちらの判断でも、理由と留意点が与件と合うことが大切（協会は採点の基準を公表していない）。自己採点では、「妥当でない」とした答えも、理由が与件と合っていれば1つ目・2つ目の観点に当たるとみる（目安）。\n・**ほかの留意点**：増築する所もゾーニングで交差汚染を防ぐ、季節ごとに変わる品目に合う設備を選ぶ、1日2回以上の配送の体制（今は営業部が配送を兼務）、工場管理者の経験を新しい体制の指導に生かす。\n【ひっかけ注意】構想の3つの中身（増築・専用設備・新規採用）のどれかを無視しない。判断だけで終わらせず、理由と留意点の両方を書く。第2〜4問の答え（標準化、発注の仕組み、企画開発の体制）と矛盾させない。\n【2次】j3.strat.future|新規事業と今後の戦略\n【2次】j3.strat.answer|解答の組み立て\n【1次】unei.1.4.4|工場計画（SLP・レイアウト）\n【1次】zaimu.1.8.3|不確実性下の投資決定（リアル・オプション）"
+  }
+ ]
+}

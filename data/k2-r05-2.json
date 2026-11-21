@@ -1,0 +1,333 @@
+{
+ "id": "k2-r05-2",
+ "y": 5,
+ "j": 2,
+ "theme": "スポーツ用品の加工・販売：保護者・女子チーム・オンライン",
+ "gist": [
+  "資本金500万円・8名、作業場を併設した1店舗",
+  "都市近郊の住宅街、河川敷に野球場が多く野球熱",
+  "1955年衣料品店で創業、体操服の納品と加工技術",
+  "1970年代初頭、少年野球の需要でスポーツ店へ",
+  "少年野球の隆盛、指定業者で買い替え需要も獲得",
+  "サッカー、バスケ・バレー・陸上、部活動へ拡大",
+  "2000年代から専門店、数年前に低価格の量販店",
+  "野球用品を専門的に扱い、少年野球チームの高い評価",
+  "汎用品を量販店で買いたい保護者、勧めにくい監督",
+  "買い替えの負担で、野球をやめる子どもも",
+  "子どもの確保とSNS募集、女子メンバーの不足",
+  "チームとメンバーのデータ管理の相談（スマホ）",
+  "長男が戻るのを機に見直し：野球と提案力の強化",
+  "監督と密に連携、買い替えに応える売り方",
+  "女子チームの開拓、HP・SNS・アプリの活用"
+ ],
+ "lesson": [
+  "3C（150字）は顧客・競合・自社に分け、自社は強みと弱みの両方を書く。後の設問の根拠（保護者の負担、部員の確保、チームとの関係）を優先し、長男が戻るのを機に決めた見直しの方針（今後のこと）は入れない。",
+  "設問文だけにある条件を守る（第2問：プライシングの新しい流れを踏まえ、割賦販売を除く）。分割払いではなく、定額制や下取りで出費そのものを抑える。",
+  "「誰に」を答えさせる設問（第4問）は、与件の重要な顧客を名指しし、相手ごとの対応と長期の効果まで書く。",
+  "設問の役割を分ける：新しい顧客（女子チーム）は第3問、既存の重要な顧客（監督・保護者）は第4問。第2問の売り方と第4問の体格の記録をつなぐ。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 30,
+   "ask": "B社の現状を、3C（顧客・競合・自社）の観点で分析する。150字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "3C",
+     "limit": 150
+    }
+   ],
+   "model": {
+    "a": "顧客は野球熱の高い地域の少年野球チームと保護者で、保護者は買い替えが負担で汎用品は量販店を望む声もあり、チームは女子など部員の確保に悩む。競合は品揃えで勝る専門店と低価格の大型量販店。自社は有名ブランドの品揃えや加工技術、体格に応じた提案力でチームの評価が高いが、価格で劣りネット活用はHP程度。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "顧客：野球熱の高い地域の少年野球チーム",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "顧客：保護者の買い替え負担と量販店志向",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "顧客：女子など部員の確保に悩む",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "競合：品揃えで勝る専門店",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "競合：低価格の大型量販店",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "自社：品揃え・加工技術・提案力",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "自社：チームの評価が高い",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "自社：価格で劣り、ネットはHP程度",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "河川敷に野球場が多く、強豪の社会人チームも練習し、住民の野球熱が高い"
+    ],
+    [
+     5,
+     "少年野球チームの指定業者として、買い替え需要と、チームを通さない個人の客を取り込んできた"
+    ],
+    [
+     7,
+     "サッカー・バスケの専門店に品揃えで劣る。車で15分の量販店は駐車場が広く低価格で、価格では対抗できない"
+    ],
+    [
+     8,
+     "有名ブランドの品揃え、加工技術、確実な納品、オリジナル用品、体格や技術に応じた提案力をチームが評価し、購入を勧める"
+    ],
+    [
+     9,
+     "保護者は価格の利点から、汎用品を量販店で買いたがることがある"
+    ],
+    [
+     10,
+     "成長やより良い用品への買い替えが、保護者の負担になっている"
+    ],
+    [
+     11,
+     "子どもの確保が各チームの課題。どのチームも女子メンバーの獲得に苦しむ"
+    ],
+    [
+     15,
+     "ネットの利用は、店を紹介するHPを設けた程度"
+    ]
+   ],
+   "shushi": "社内と社外の経営環境を分析する力をみる。",
+   "e": "・**題意**：B社の今の姿を、顧客・競合・自社の3つで150字（出題の趣旨も社内と社外の経営環境の分析）。時点の指定はないが、問うのは現状なので、長男が戻るのを機に決めた見直しの方針（これから行うこと）は入れない。\n**3Cの要素と使う設問**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 369\" role=\"img\" aria-label=\"3Cの要素と使う設問\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"22.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">3C</text><text x=\"157.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"315.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">使う設問</text><text x=\"22.0\" y=\"53.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">野球熱の高い地域。</text><text x=\"50\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">少年野球チームの指定業者で、</text><text x=\"50\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">チームがB社での購入を勧める</text><text x=\"276\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">第4問</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"98.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">保護者は買い替えが負担。</text><text x=\"50\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">汎用品は量販店で買いたい声も</text><text x=\"276\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">第2問</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"143.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">チームは子どもの確保が課題で、</text><text x=\"50\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">女子メンバーの獲得に苦しむ。</text><text x=\"50\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">SNSでの募集も求められる</text><text x=\"276\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"188.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">チームやメンバーのデータを</text><text x=\"50\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">スマホで管理したいという相談</text><text x=\"276\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">第4問</text><path d=\"M1 203.2L359 203.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"225.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">競合</text><text x=\"50\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">サッカー・バスケの専門店</text><text x=\"50\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">（品揃えで勝る）</text><text x=\"276\" y=\"225.9\" font-size=\"11\" style=\"fill:currentColor\">—</text><path d=\"M1 240.6L359 240.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"263.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">競合</text><text x=\"50\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">車で15分の大型量販店</text><text x=\"50\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">（駐車場が広く、低価格）</text><text x=\"276\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">第2問（価格で</text><text x=\"276\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">競わない）</text><path d=\"M1 278.0L359 278.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"308.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">自社</text><text x=\"50\" y=\"293.1\" font-size=\"11\" style=\"fill:currentColor\">強み：有名ブランドの品揃え、</text><text x=\"50\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">加工技術、確実な納品、オリジナル用品、</text><text x=\"50\" y=\"323.5\" font-size=\"11\" style=\"fill:currentColor\">体格や技術に応じた提案力</text><text x=\"276\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">第2〜4問</text><path d=\"M1 330.6L359 330.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"353.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">自社</text><text x=\"50\" y=\"345.7\" font-size=\"11\" style=\"fill:currentColor\">弱み：価格で対抗できない。</text><text x=\"50\" y=\"360.9\" font-size=\"11\" style=\"fill:currentColor\">ネットの利用は店を紹介するHP程度</text><text x=\"276\" y=\"353.3\" font-size=\"11\" style=\"fill:currentColor\">第2問・第4問</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M44 0L44 367.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M270 0L270 367.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"367.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】後の設問の根拠になる要素を優先した。自社は強みと弱みの両方を書く。\n・**組み立て**：顧客＝地域（野球熱）と主な顧客（少年野球チームと保護者）、その悩み（買い替えの負担と量販店志向、部員の確保）。競合＝専門店（品揃え）と大型量販店（価格）。自社＝強み（品揃え・加工技術・提案力→チームの評価）と弱み（価格、ネットの活用）。\n・**別の答え方**：顧客に「女子の軟式野球が盛んになりつつある」「チームはSNSでの募集を求められ、スマホでのデータ管理の相談もある」。自社に「公立小中学校の体操服を納める」「確実な納品とオリジナル用品への対応」「野球以外の品揃えは専門店に劣る」。\n【ひっかけ注意】4つの方針（野球の強化、監督との連携、女子チームの開拓、ネットの活用）は今後のことで、現状の分析には入れない（ネットが店の紹介のHP程度という今の状態は入れてよい）。河川敷の野球場や地域の野球熱は自社の強みではなく、顧客（市場）の側に書く。\n【2次】j2.base.anal|現状分析の設問（SWOT・3C）\n【1次】kigyo.3.2.1|企業の競争市場戦略（3C分析とKFS）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "前提（設問文）：低学年から野球をする子どもは、成長や、より良い用品を求める気持ちから、ユニフォーム・バット・グラブ・スパイクなどを何度か買い替えるので、保護者はその出費を抑えたい。B社が応える販売方法を、プライシングの新しい流れを踏まえて助言する。割賦販売で手に入れる方法は除く。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "販売方法",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "成長に応じサイズや上位品へ交換できる定額制のサブスクリプションと、使った用品の下取りを導入する。体格や技術に合う用品を提案して保護者の負担を抑え、野球を続けやすくし、量販店に流れず長く利用してもらう。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "定額制で成長に応じて交換できる",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "使った用品の下取り",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "体格や技術に合う用品の提案",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "負担を抑え野球を続けやすくする",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "量販店に流れず長く利用",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     5,
+     "成長に伴うユニフォーム・バット・グラブ・スパイクの買い替え需要を取り込んできた"
+    ],
+    [
+     7,
+     "量販店の低価格には、価格で対抗できない"
+    ],
+    [
+     8,
+     "子どもの体格や技術に応じた用品の提案力が評価されている"
+    ],
+    [
+     9,
+     "保護者は価格の利点から、汎用品を量販店で買いたがることがある"
+    ],
+    [
+     10,
+     "ほかの習い事もあり、買い替えの負担を理由に野球をやめる子どももいる。B社はこの相談を受けていた"
+    ],
+    [
+     14,
+     "買い替えをはじめ、さまざまなニーズに合う売り方をいくつか入れる方針"
+    ]
+   ],
+   "shushi": "顧客のニーズに応える販売方法を、プライシングの観点から助言する力をみる。",
+   "e": "・**題意**：保護者の悩み（成長やより良い用品への買い替えの出費）に応える販売方法。条件は2つで、プライシングの新しい流れを踏まえることと、割賦販売で手に入れる方法を除くこと（どちらも設問文にある）。出題の趣旨も、顧客のニーズに応える販売方法をプライシングの観点から。\n**売り方と保護者の出費**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 257\" role=\"img\" aria-label=\"売り方と保護者の出費\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"42.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">売り方</text><text x=\"140.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">保護者の出費</text><text x=\"242.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">B社にとって</text><text x=\"324.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">この設問</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">その都度買う</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">（今）</text><text x=\"90\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">成長のたびに全額。</text><text x=\"90\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">安い量販店へ</text><text x=\"90\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">流れやすい</text><text x=\"202\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">一度に</text><text x=\"202\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">売れるが、</text><text x=\"202\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">客が離れやすい</text><text x=\"324.0\" y=\"53.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">悩みの元</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">分割払い</text><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">（割賦販売）</text><text x=\"90\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">払いを</text><text x=\"90\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">分けるだけで、</text><text x=\"90\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">総額は減らない</text><text x=\"202\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">代金の</text><text x=\"202\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">回収が長い</text><text x=\"324.0\" y=\"106.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">除く</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">定額制</text><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">（サブスク</text><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">リプション）</text><text x=\"90\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">月々一定。成長に</text><text x=\"90\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">応じてサイズや</text><text x=\"90\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">上位品に交換</text><text x=\"202\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">続く収入と、</text><text x=\"202\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">体格の記録</text><text x=\"324.0\" y=\"158.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">中心</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">下取り</text><text x=\"90\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">次の購入が安くなる</text><text x=\"202\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">再来店。</text><text x=\"202\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">中古の品揃え</text><text x=\"324.0\" y=\"196.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">組み</text><text x=\"324.0\" y=\"211.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">合わせる</text><path d=\"M1 218.4L359 218.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">中古・</text><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">レンタル</text><text x=\"90\" y=\"241.1\" font-size=\"11\" style=\"fill:currentColor\">安く使える</text><text x=\"202\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">返却品を</text><text x=\"202\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">再び使える</text><text x=\"324.0\" y=\"241.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">別の答え方</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M84 0L84 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M196 0L196 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M288 0L288 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"254.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】分割払いは払い方を分けるだけで、総額は減らない（設問が除いた）。定額制は「持つ」から「使う」への流れ（1次のリキッド消費のアクセス・ベース）に当たる。\n・**組み立て**：何を（成長に応じサイズや上位品へ交換できる定額制のサブスクリプション＋使った用品の下取り）→強み（体格や技術に合う用品の提案）→効果（保護者の負担を抑え、野球を続けやすくする→量販店に流れず、B社を長く利用してもらう）。\n・**別の答え方**：「返却品や下取り品を整備し、低学年向けに中古やレンタルとして安く出す」「チーム単位の定額契約で、ユニフォームのサイズ交換とネームの加工を付ける」「上位の用品を一定の期間試せる貸出」。下取りした用品を中古として売るなど、古物の売買を営業として行うには、原則として古物商の許可が要る（1次の運営管理）。中心は定額制で、下取りは与件に直接の根拠がないので観点の配分を軽くした。期間で払うレンタルでも、成長に合わせて取り替えられる点が書けていれば、観点の1つ目に近い。\n【ひっかけ注意】分割払いで買ってもらう方法は、設問が除いている。値引きやポイントだけでは新しい流れとは言いにくく、量販店との価格の競争になる。B社の売上だけで結ぶと、保護者のニーズに応える題意からそれる。\n【2次】j2.mix.price|価格と販路\n【1次】kigyo.3.8.4|価格戦略分類（サブスクリプション）\n【1次】kigyo.3.12.1|リキッド消費とシェアリング\n【1次】unei.2.2.1|商品販売計画（古物営業法）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "前提（設問文）：女子の軟式野球チームは部員集めに苦しんでおり、B社は部員を増やすことに協力することになった。B社がとるべきプロモーションやイベントを助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "施策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "体操服を納める小学校を通じたチラシとSNSで女子と保護者に告知し、河川敷の野球場で女子選手が教える親子の体験会を開く。体格に合う用品を貸して試してもらい、入団を促し、女子チームを新規顧客とする。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "小学校を通じたチラシとSNSで告知",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "河川敷で女子選手が教える体験会",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "体格に合う用品を貸して試す",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "入団を促し女子チームを新規顧客に",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "河川敷に野球場や多目的広場があり、野球場の数が多い。地域の野球熱が高い"
+    ],
+    [
+     3,
+     "近隣の公立小中学校の体操服と運動靴を納める（学校とのつながり）"
+    ],
+    [
+     8,
+     "子どもの体格や技術に応じた提案力"
+    ],
+    [
+     11,
+     "チームはポスター・チラシに加え、SNSでの募集も求められる。女子の軟式野球は広がりつつあるが、希望者が少ない"
+    ],
+    [
+     15,
+     "女子メンバー集めに苦しむチームを支え、女子向け用品の提案力を高めて、女子チームを新規顧客にする方針"
+    ]
+   ],
+   "shushi": "新しい顧客の開拓に向けたプロモーションの戦略と、イベントの実施を助言する力をみる。",
+   "e": "・**題意**：女子の軟式野球チームの部員を増やすことに、B社が協力する（設問文の前提）。答えるのは、B社がとるプロモーションやイベント。出題の趣旨は、新しい顧客を開拓するプロモーションの戦略と、イベントの実施。女子チームは、与件の方針でもB社の新しい顧客。\n**プロモーションとイベントの要素**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 288\" role=\"img\" aria-label=\"プロモーションとイベントの要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"29.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">要素</text><text x=\"137.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">B社の施策（解答例）</text><text x=\"288.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">誰に</text><text x=\"64\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">小学校に通う女子と保護者</text><text x=\"222\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">女子の野球は</text><text x=\"222\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">広がりつつあるが、</text><text x=\"222\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">希望者が少ない</text><rect x=\"1\" y=\"75.8\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">告知</text><text x=\"64\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">体操服を納める小学校を</text><text x=\"64\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">通じたチラシ。SNSでの発信</text><text x=\"222\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">学校の体操服の納品。</text><text x=\"222\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">チームはSNSでの</text><text x=\"222\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">募集も求められる</text><rect x=\"1\" y=\"128.4\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">体験会</text><text x=\"64\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">河川敷の野球場で、</text><text x=\"64\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">女子選手が教える</text><text x=\"64\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">親子の体験会</text><text x=\"222\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">河川敷に野球場が多く、</text><text x=\"222\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">地域の野球熱が高い</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">試す</text><text x=\"64\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">体格に合う用品を</text><text x=\"64\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">貸して試してもらう</text><text x=\"222\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">体格や技術に応じた</text><text x=\"222\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">提案力。女子向け用品の</text><text x=\"222\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">提案力を高める方針</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">効果</text><text x=\"64\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">入団を促して部員を増やし、</text><text x=\"64\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">女子チームをB社の</text><text x=\"64\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">新しい顧客にする</text><text x=\"222\" y=\"256.3\" font-size=\"11\" style=\"fill:currentColor\">女子チームを新規顧</text><text x=\"222\" y=\"271.5\" font-size=\"11\" style=\"fill:currentColor\">客として開拓する方針</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M58 0L58 285.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M216 0L216 285.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"285.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】色の付いた2行（告知＝プロモーション、体験会＝イベント）が、設問の求めるもの。体験の場で用品を試してもらい、入団と購入につなぐ。\n・**組み立て**：誰に（小学校に通う女子と保護者）→告知（体操服を納める小学校を通じたチラシ、SNS。チームがSNSでの募集を求められていることにも応える）→体験会（河川敷の野球場で、女子選手が教える親子の体験会。体格に合う用品を貸す）→効果（入団を促して部員を増やし、女子チームをB社の新しい顧客にする）。学校を通じた配布は、学校の決まりに従い、チームの部員募集として頼む。\n・**別の答え方**：「取引のある少年野球チームと合同で体験会を開き、友だちを誘ってもらう」「店で女子向け用品の相談会・試着会を開く」「加工技術で女子チームのオリジナルのユニフォームやグッズを作り、入団の魅力にする」「入団時の用品は第2問の定額制で始めやすくする」。強豪の社会人チームの選手を招く案は、与件にB社とのつながりが書かれていないので一つの案にとどまる。\n【ひっかけ注意】女子チームに用品を売る話だけでは、部員を増やす協力にならない。プロモーションかイベントの片方だけで終わらせない（出題の趣旨はイベントの実施も挙げた）。既存の少年野球チームとの関係づくりは第4問の役割。\n【2次】j2.mix.promo|販促とコミュニケーション\n【2次】j2.rel.collab|協業と地域の資源\n【1次】kigyo.3.9.1|コミュニケーションの基礎概念（AIDMA・AISAS）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 30,
+   "ask": "社長は、HP・SNS・スマホのアプリの開発なども含めたオンラインのコミュニケーションで関係を強め、長期的に売上げを伸ばしたい。誰に、どのような対応をとるべきかを助言する。150字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "誰に・対応",
+     "limit": 150
+    }
+   ],
+   "model": {
+    "a": "取引のある少年野球チームの監督と保護者に、長男の知見を生かしたアプリで対応する。監督にはメンバーの出欠や成績、体格の記録と連絡を一元管理できるようにし、保護者には体格の記録から買い替えの時期と合う用品を知らせ、相談に応じる。これにより信頼を深め、量販店への流出を防ぎ、成長に伴う購入を長く取り込む。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "誰に：取引のある監督と保護者",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "監督：アプリで記録と連絡を一元管理",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "保護者：体格の記録で買い替えを案内",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "保護者の相談に応じる",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "信頼を深め流出を防ぎ長く取り込む",
+     "w": 6
+    }
+   ],
+   "basis": [
+    [
+     8,
+     "少年野球チームがB社を評価し、メンバーや保護者に購入を勧める（重要な顧客）"
+    ],
+    [
+     9,
+     "保護者が汎用品を量販店で買いたいと望むと、監督は強く勧められない"
+    ],
+    [
+     12,
+     "チームやメンバーのデータをスマホで管理する方法の相談を受けていた"
+    ],
+    [
+     13,
+     "長男はICT企業に勤める30代で、承継を決めて戻る"
+    ],
+    [
+     14,
+     "監督と密に連携し、各チームのデータを管理し、メンバーと保護者の要望をつかみ、相談に助言する方針"
+    ],
+    [
+     15,
+     "今はHP程度。HPの情報と機能、SNSやアプリの使い方を考え、顧客との関係を強める方針"
+    ]
+   ],
+   "shushi": "重要な顧客との関係を強める、オンラインのコミュニケーションの戦略を助言する力をみる。",
+   "e": "・**題意**：「誰に」と「どのような対応」の両方を答える。手段はHP・SNS・アプリの開発などのオンラインのコミュニケーション、狙いは関係の強化と長期的な売上げ。出題の趣旨は、重要な顧客との関係を強めるオンラインのコミュニケーションの戦略。\n**誰に・どのように・効果**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 198\" role=\"img\" aria-label=\"誰に・どのように・効果\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"29.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">誰に</text><text x=\"138.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">オンラインの対応</text><text x=\"289.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">関係と売上げへの効果</text><text x=\"6\" y=\"53.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">監督</text><text x=\"64\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">アプリで、</text><text x=\"64\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">メンバーの出欠・成績・</text><text x=\"64\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">体格の記録と連絡を一元管理</text><text x=\"224\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">手間が減り、</text><text x=\"224\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">B社への信頼が深まる。</text><text x=\"224\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">指定業者の取引が続く</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">保護者</text><text x=\"64\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">体格の記録から、</text><text x=\"64\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">買い替えの時期と合う用品を</text><text x=\"64\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">知らせる。相談に応じる</text><text x=\"224\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">量販店に流れず、成長に</text><text x=\"224\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">伴う購入がB社に残る</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">担い手</text><text x=\"64\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">ICT企業で働く長男</text><text x=\"64\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">（承継のため戻る）</text><text x=\"64\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">がアプリを整え、</text><text x=\"64\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">記録を提案に生かす</text><text x=\"224\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">少ない人数でも</text><text x=\"224\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">続けられる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M58 0L58 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"195.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：誰に＝重要な顧客（B社を評価し、メンバーや保護者に購入を勧めてくれる少年野球チーム。窓口は監督で、汎用品などを個別に買うのは保護者）。対応＝監督にはデータ管理と連絡のアプリ（与件の相談と、監督との連携の方針。出欠・成績は例で、与件はデータの管理とだけ書く）、保護者には体格の記録に基づく買い替えの案内と相談（要望の把握と相談の方針）。効果＝信頼が深まり、量販店への流出を防ぎ、成長に伴う購入を長く取り込む（顧客生涯価値）。\n・**別の答え方**：「HPに有名ブランドの品揃えやカスタマイズの事例、加工の注文の機能を載せる」「各チームの部員募集をSNSで手伝う（チームの課題）」「アプリから一括注文や第2問の定額制の交換を申し込めるようにする」「中学の部活動に進んでも記録を引き継ぎ、提案を続ける」。\n【ひっかけ注意】「SNSで情報を発信する」だけで、誰に何を伝えるかがない答え。新しい客（女子チーム）を集める施策は第3問の役割で、既存の重要な顧客との関係の強化からそれる。アプリを作るだけで、関係や売上げへの効果がない答え。\n【2次】j2.rel.digital|デジタルの活用\n【2次】j2.rel.crm|顧客との関係づくり\n【1次】kigyo.3.4.1|リレーションシップ・マーケティング（CRM・LTV）"
+  }
+ ]
+}
