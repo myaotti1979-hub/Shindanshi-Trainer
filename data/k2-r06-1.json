@@ -1,0 +1,361 @@
+{
+ "id": "k2-r06-1",
+ "y": 6,
+ "j": 1,
+ "theme": "物流業（運送・倉庫）の首都圏開拓と3PLへの体制づくり",
+ "gist": [
+  "1975年創業、規制下の貸切輸送で効率が低い",
+  "約10年後：運送部と協力会、運営は非一族幹部",
+  "1990年規制緩和：価格競争を避け地元密着へ",
+  "協力会の選別と荷主ニーズの共有で信頼を得る",
+  "2000年：倉庫事業に参入、組織は旧態依然",
+  "同じ頃：X社の店舗配送を長期受託し能力向上",
+  "紙伝票の非効率、地元志向、新規開拓力の弱さ",
+  "2010年頃：長女をリーダーに首都圏開拓のチーム",
+  "2011年：首都圏事業部（車両・倉庫を持たない）",
+  "Y社で店舗在庫管理の知見、両事業部の連携は乏しい",
+  "2020年：長女が2代目、県内は古参幹部に一任",
+  "2代目の長男を情報システム部長、提案力で首都圏営業",
+  "Z社の県内進出の案件、県内事業部が対応できず",
+  "2024年：幹部を専務に、長男を運送・倉庫の統括へ",
+  "課題（大手3PL・2024年問題・処遇）と相談"
+ ],
+ "lesson": [
+  "「2000年当時」の時点の指定：それより後の首都圏事業部や長男の知見は、第1問に入れない。",
+  "1つの欄で「理由」（当時の組織の状況）と「狙い」（任命で期待した効果）を書き分ける（第2問）。",
+  "取引先が主語の「なぜ」は、相手の必要（県内進出）とA社の資源を結びつけて答える（第3問）。",
+  "第3問で挙げた資源と、第4問の狙い・施策（両事業部の連携と情報システム）を矛盾なくつなぐ。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "A社の2000年時点の強みと弱み。欄は別々で、各30字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "強み",
+     "limit": 30
+    },
+    {
+     "k": "b",
+     "label": "弱み",
+     "limit": 30
+    }
+   ],
+   "model": {
+    "a": "協力会と連携し地元荷主の信頼を得た輸送と、流通加工できる倉庫",
+    "b": "紙伝票に頼る旧態依然の管理と、地元志向で新規開拓力が弱い点"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "協力会と連携し地元荷主の信頼を得た輸送",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "流通加工などができる自社の倉庫",
+     "w": 5
+    },
+    {
+     "f": "b",
+     "t": "紙伝票に頼る旧態依然の管理体質",
+     "w": 5
+    },
+    {
+     "f": "b",
+     "t": "地元志向で新規顧客の開拓力が弱い",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "協力会を選別し、幹部が荷主のニーズを共有して地元の生産者・食品卸の信頼を得た"
+    ],
+    [
+     5,
+     "保管機能のない競合に対し、流通加工・温湿度管理の倉庫。一方、組織は旧態依然"
+    ],
+    [
+     6,
+     "X社の店舗配送で、保管・流通加工の力が高まった"
+    ],
+    [
+     7,
+     "紙伝票の受注管理が非効率。地元志向で、新規顧客の開拓力が弱い"
+    ]
+   ],
+   "shushi": "2000年時点のA社の内部の状況（内部環境）を読み解く力をみる。",
+   "e": "・**題意**：時点は2000年当時。A社の内部の特徴を、強みと弱みに分けて各30字で（出題の趣旨も内部環境の分析）。\n・**組み立て**：強み＝1990年代に協力会と築いた地元密着の輸送と荷主の信頼＋2000年の倉庫（競合にない保管・流通加工）。弱み＝管理の古さ（紙伝票）＋地元志向による新規開拓力の弱さ。各欄に2つの要素。\n**2000年当時に使える根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 316\" role=\"img\" aria-label=\"2000年当時に使える根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時期</text><text x=\"178.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の出来事（要約）</text><text x=\"326.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第1問</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">創業期</text><text x=\"70\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">規制で区域が限られ、</text><text x=\"70\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">1社に1台の貸切輸送。積載効率が低い</text><text x=\"326.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">背景</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">約10年後</text><text x=\"70\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">運送部をつくり、協力会を組織。</text><text x=\"70\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">運営は非一族の幹部</text><text x=\"326.0\" y=\"83.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">背景</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">1990年〜</text><text x=\"70\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">価格競争を避け、協力会を選別。荷主の</text><text x=\"70\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">ニーズを共有し、地元の荷主の信頼を得る</text><text x=\"326.0\" y=\"120.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.1\" font-size=\"11\" style=\"fill:currentColor\">2000年</text><text x=\"70\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">倉庫に参入。保管・流通加工・</text><text x=\"70\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">温湿度管理（競合の拠点は保管なし）</text><text x=\"326.0\" y=\"158.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 172.8L359 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">2000年</text><text x=\"70\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">組織は旧態依然の管理体質のまま</text><text x=\"326.0\" y=\"187.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 195.0L359 195.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"217.7\" font-size=\"11\" style=\"fill:currentColor\">同じ頃</text><text x=\"70\" y=\"210.1\" font-size=\"11\" style=\"fill:currentColor\">X社の店舗配送を長期で受託。</text><text x=\"70\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">保管・流通加工の力が高まる</text><text x=\"326.0\" y=\"217.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 232.4L359 232.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"255.1\" font-size=\"11\" style=\"fill:currentColor\">同じ頃</text><text x=\"70\" y=\"247.5\" font-size=\"11\" style=\"fill:currentColor\">紙伝票の受注管理が非効率。</text><text x=\"70\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">地元志向で、新規開拓力が弱い</text><text x=\"326.0\" y=\"255.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 269.8L359 269.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"284.9\" font-size=\"11\" style=\"fill:currentColor\">2010年〜</text><text x=\"70\" y=\"284.9\" font-size=\"11\" style=\"fill:currentColor\">長女のチーム、首都圏事業部、Y社の知見</text><text x=\"326.0\" y=\"284.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">使わない</text><path d=\"M1 292.0L359 292.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"307.1\" font-size=\"11\" style=\"fill:currentColor\">2020年〜</text><text x=\"70\" y=\"307.1\" font-size=\"11\" style=\"fill:currentColor\">長男の登用、Z社の案件、配置転換</text><text x=\"326.0\" y=\"307.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">使わない</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 313.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M292 0L292 313.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"313.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】与件を時期の順に並べ、第1問に使うものを色で分けた。\n・**別の答え方**：強みに「X社の店舗配送で高めた保管・流通加工の力」「地域の物流をまとめるコーディネーター役」。弱みに「従業員の地元志向」を独立した要素として書く形もある。\n【ひっかけ注意】2010年以降の出来事（首都圏事業部、Y社の知見、長男のシステムの力）は使わない。規制緩和や価格競争は外部環境で、強み・弱みではない。\n【2次】j1.over.company|与件のA社の姿と時点\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "首都圏の新市場を開拓するにあたり、プロジェクトチームという形をとった理由と、長女（のちの2代目）をリーダーにした狙い。1つの欄に合わせて100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "理由と狙い",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "理由は、地元志向が強く新規開拓力の弱い既存組織から切り離し、首都圏の開拓に専念させるため。狙いは、大手物流企業での企画・営業の経験を生かし、権限を持たせ迅速に判断させ、実績を積ませ後継者に育てること。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "地元志向で開拓力の弱い既存組織",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "既存組織から切り離し新市場に専念",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "大手物流での企画・営業の経験を生かす",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "権限を持たせ迅速に判断させる",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "実績を積ませ後継者に育てる",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     5,
+     "組織は旧態依然の管理体質のまま"
+    ],
+    [
+     7,
+     "地元志向が強く、既存顧客に強いが新規顧客の開拓力が弱い"
+    ],
+    [
+     8,
+     "長女は大手物流企業で企画と営業を経験し、首都圏の需要に着目。若手と首都圏で採用した社員との3名"
+    ],
+    [
+     11,
+     "長女はのちに2代目に就任"
+    ]
+   ],
+   "shushi": "地元を離れて新しい市場を開拓する場面で、既存の組織から独立した組織をつくる意義と、一族をその責任者にする理由をみる。",
+   "e": "・**題意**：2つの問いを1つの欄で答える。「なぜチームか」は理由（当時の組織の状況）、「なぜ長女か」は狙い（任命で期待した効果）。出題の趣旨も、独立した組織をつくる意義と一族を任命する理由。\n**理由と狙いの書き分け**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 145\" role=\"img\" aria-label=\"理由と狙いの書き分け\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"38.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"147.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">理由（なぜチームか）</text><text x=\"289.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">狙い（なぜ長女か）</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"82\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">地元志向が強く、</text><text x=\"82\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">新規顧客の開拓力が</text><text x=\"82\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">弱い。管理は旧態依然</text><text x=\"224\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">大手物流企業で企画と</text><text x=\"224\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">営業を経験。首都圏の</text><text x=\"224\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">需要に着目。のちの2代目</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">答えの要素</text><text x=\"82\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">既存の組織から</text><text x=\"82\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">切り離し、首都圏の</text><text x=\"82\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">開拓に専念させる</text><text x=\"224\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">経験を生かす。</text><text x=\"224\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">権限を持たせ速く</text><text x=\"224\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">判断させる。実績を</text><text x=\"224\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">積ませ後継者に育てる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M76 0L76 142.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 142.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"142.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：前半（約45字）は既存組織の弱さ→切り離して専念。後半（約55字）は長女の経験の活用＋一族ならではの効果（中心は後継者の育成。権限と速い判断は、一族に任せるときの一般的な理由で、与件に直接の記述はない）。\n・**別の答え方**：理由に「スポットの受託から小さく始め、本業への影響を抑える」「首都圏で採用した人を加え、社内にない人材を集める」。狙いに「社内外に後継者として示す」「本人が見出した需要を任せ、意欲を引き出す」。\n【ひっかけ注意】Y社の受託や首都圏事業部への改組（2011年）は任命の結果で、狙いの根拠にはしない（のちに2代目になったことは、後継者の候補として任命したと読む手がかりにはなる）。狙いを長女の経歴の説明だけで終わらせない。\n【2次】j1.ans.reason|過去の判断を問う設問の答え方\n【2次】j1.org.structure|組織構造と権限\n【1次】kigyo.2.1.5|横断的関係（プロジェクト・チーム）\n【1次】kigyo.1.7.2|事業承継"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "Z社がA社に案件を持ちかけた理由（Z社の立場から）。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "理由",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "A社は①県内に倉庫と協力会の輸送網を持ち地元荷主の信頼が厚く、②X社の店舗配送で温度管理や流通加工の力を培い、③Y社で得た店舗在庫管理の知見と物流システムの提案力があり、県内進出を支えられるため。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "県内の倉庫と協力会の輸送網・信頼",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "X社で培った店舗配送・温度管理の力",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "Y社で得た店舗在庫管理の知見",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "物流システムの提案力",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "協力会との連携、地元の荷主の信頼"
+    ],
+    [
+     5,
+     "保管・流通加工・温湿度管理のできる自社の倉庫"
+    ],
+    [
+     6,
+     "X社の店舗配送で、保管・流通加工の力"
+    ],
+    [
+     10,
+     "Y社で受注処理と店舗在庫管理の知見"
+    ],
+    [
+     12,
+     "長男の物流システムの提案力で、首都圏の企業に営業"
+    ],
+    [
+     13,
+     "首都圏の大手スーパーのZ社が、県内への進出で案件を持ち込む"
+    ]
+   ],
+   "shushi": "Z社の県内での事業の展開に、A社がどのように貢献できるかをみる。",
+   "e": "・**題意**：主語はZ社。県内に進出するZ社にとって、A社の何が役立つか（出題の趣旨も、A社がどう貢献できるか）。\n**Z社の必要とA社の資源**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 189\" role=\"img\" aria-label=\"Z社の必要とA社の資源\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"52.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">Z社が要るもの</text><text x=\"52.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">（推測）</text><text x=\"200.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">A社の資源（与件）</text><text x=\"328.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時期</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">県内の物流の</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">拠点と輸送</text><text x=\"110\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">自社の倉庫と運送部、</text><text x=\"110\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">協力会の輸送網。地元の荷主の信頼</text><text x=\"328.0\" y=\"61.1\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1990年〜</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">スーパーの</text><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">店舗への配送</text><text x=\"110\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">X社の店舗配送で高めた保管・</text><text x=\"110\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">流通加工・温度管理の力</text><text x=\"328.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2000年〜</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">店舗ごとの</text><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">在庫の管理</text><text x=\"110\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">Y社で得た受注処理と</text><text x=\"110\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">店舗在庫管理の知見</text><text x=\"328.0\" y=\"135.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2011年〜</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">仕組みの提案</text><text x=\"110\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">長男の物流システムの提案力、</text><text x=\"110\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">情報システム部</text><text x=\"328.0\" y=\"173.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2020年〜</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M104 0L104 187.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M296 0L296 187.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"187.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】左の列はZ社の立場からの推測（与件は、Z社がA社のどこを評価したかを書いていない）。中の列が答えの根拠。\n・**組み立て**：県内の基盤（倉庫・協力会・地元の信頼）、スーパーの物流の経験（X社）、首都圏事業部の知見（Y社の店舗在庫管理、システムの提案力）の3つを挙げ、「県内進出を支えられる」で結ぶ。\n・**別の答え方**：「首都圏と県内の両方に拠点があり、首都圏の企業の求めが分かる」「地元の生産者や食品卸とのつながり」。\n【ひっかけ注意】取引の後の出来事（県内事業部が在庫管理と補充に対応できなかった）は理由ではなく、第4問設問2の根拠。A社が受けたい理由（売上を増やすなど）を書くと、主語がずれる。\n【2次】j1.strat.growth|成長と事業の領域\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q4a",
+   "h": "第4問（設問1）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提：A社が今後3PL事業者になるための事業展開。2024年に創業経営者の助言で行った配置転換の狙い。80字以内。配点は第4問で計40点（設問ごとの内訳は示されていない。20点は目安）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "狙い",
+     "limit": 80
+    }
+   ],
+   "model": {
+    "a": "狙いは、①長男のシステムの知見で県内の在庫管理を高度化し、両事業部を連携させ3PL化を進める、②専務の下で現場を学ばせ、独断を改め将来の経営者に育てること。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "長男の知見で県内の在庫管理を高度化",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "両事業部を連携させ3PL化を進める",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "専務の下で現場を学ばせる",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "独断を改め将来の経営者に育てる",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     10,
+     "両事業部の業務の連携はほとんどない"
+    ],
+    [
+     11,
+     "県内事業部は年功的で古い慣習が残り、古参の幹部に一任"
+    ],
+    [
+     12,
+     "2代目の長男は物流システムの構築の経験と提案力を持つ。小さな首都圏事業部の判断は2代目と長男の間で行われ、長男はやや独断的"
+    ],
+    [
+     13,
+     "Z社の店舗の適正在庫と機動的な補充に、県内事業部が対応できない"
+    ],
+    [
+     14,
+     "幹部を専務にして2代目を支え、長男をその直下の運送部・倉庫部の統括に"
+    ],
+    [
+     15,
+     "3PL事業者としての展開を目指す"
+    ]
+   ],
+   "shushi": "今後の事業展開に合わせた配置転換で、A社が何を目的としたかをみる。",
+   "e": "・**題意**：「狙い」なので期待した効果で結ぶ。与件の配置転換は2つ（経営幹部が専務となり2代目を支える体制、2代目の長男をその直下の運送部・倉庫部の統括へ）で、両方の意味を踏まえる。第4問の前提（3PL事業者となるための事業展開）に沿わせる（出題の趣旨：今後の事業展開に伴う配置転換の目的）。配点は第4問で40点（設問ごとは示されていない。20点ずつは目安）。\n**配置転換の前と後**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"配置転換の前と後\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"135.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">配置転換の前</text><text x=\"280.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">2024年の配置転換の後</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">経営幹部</text><text x=\"76\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">県内事業部を</text><text x=\"76\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">一任される</text><text x=\"206\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">専務取締役として</text><text x=\"206\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">2代目を支える。</text><text x=\"206\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">運送部と倉庫部はその直下</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">長男</text><text x=\"76\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">首都圏事業部の</text><text x=\"76\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">情報システム部長</text><text x=\"206\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">運送部と倉庫部の統括</text><text x=\"206\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">マネージャー（専務の直下）</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">両事業部</text><text x=\"76\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">業務の</text><text x=\"76\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">連携はほとんどない</text><text x=\"206\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">長男が首都圏の知見を</text><text x=\"206\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">県内の現場へ（狙い）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 149.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M200 0L200 149.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"149.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：事業の効果（長男の知見を県内の運送・倉庫に入れ、在庫管理の高度化と両事業部の連携→3PL）＋人の効果（専務の下で現場を学ぶ→将来の経営を担う人材に）。与件に「後継者」の言葉はないが、長男は2代目の子（一族の次の世代）で、創業経営者の助言による異動なので、育成も狙いとして書ける。専務の就任の側は、解答例では「専務の下で」として長男の育成に結びつけた。\n・**別の答え方**：「専務が2代目を支え、2代目と長男の間で決めてきた首都圏事業部の判断を補う」「年功的な県内事業部の抵抗を、古参の幹部の後ろ盾で抑えて改革を進める」。\n【ひっかけ注意】設問2の施策（チームや情報システムをつくる）ではなく、2024年に行った異動の狙いを書く。長男を情報システムに専念させる向きの答えは、異動の向きと逆。\n【2次】j1.hr.staffing|採用・配置と定着\n【2次】j1.strat.succession|事業承継と後継者の育成\n【1次】kigyo.2.8.2|雇用管理（採用・配置・人事異動・資格制度）"
+  },
+  {
+   "k": "q4b",
+   "h": "第4問（設問2）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提と配点の扱い（20点は目安）は設問1と同じ。Z社との取引関係を強めていくのに必要な施策の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "施策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "①長男を中心に両事業部でZ社専任の横断チームを作り、首都圏の店舗在庫管理の知見を県内に移す。②Z社店舗の在庫情報を共有するシステムを構築する。これにより適正在庫と機動的な補充に応え、受託を広げる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "長男を中心に両事業部でZ社専任チーム",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "首都圏の店舗在庫管理の知見を県内へ",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "店舗の在庫情報を共有するシステム",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "適正在庫と補充に応え受託を広げる",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     6,
+     "X社の店舗配送の経験（県内の倉庫・運送）"
+    ],
+    [
+     10,
+     "Y社で店舗在庫管理の知見。両事業部の連携はほとんどない"
+    ],
+    [
+     12,
+     "情報システム部（長男と専門職）"
+    ],
+    [
+     13,
+     "Z社の店舗の適正在庫と機動的な補充に対応できず、受託は一部にとどまる"
+    ],
+    [
+     14,
+     "長男が運送部・倉庫部の統括に"
+    ],
+    [
+     15,
+     "3PL事業者としての展開。物流の多様化・複雑化への対応"
+    ]
+   ],
+   "shushi": "Z社との取引関係を強める対応策の助言をみる。県内と首都圏の両事業部の連携、情報システムの構築などが論点。",
+   "e": "・**題意**：助言。目的はZ社との取引関係の強化（第4問の前提：3PL事業者となるための事業展開）。出題の趣旨は、両事業部の連携と情報システムの構築などを論点に挙げた。\n**両事業部の持つものと課題**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 205\" role=\"img\" aria-label=\"両事業部の持つものと課題\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"142.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">県内事業部</text><text x=\"287.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">首都圏事業部</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">持つもの</text><text x=\"76\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">運送部・倉庫部と協力会</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（車両と倉庫がある）</text><text x=\"221\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">車両と倉庫は持たず、</text><text x=\"221\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">外部の委託先を調整する</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">知見</text><text x=\"76\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">保管・流通加工・温度管理</text><text x=\"76\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">（X社の店舗配送）</text><text x=\"221\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">受注処理と店舗在庫管理</text><text x=\"221\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">（Y社）、情報システム部</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">課題</text><text x=\"76\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">年功的で古い慣習。</text><text x=\"76\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">Z社の店舗の適正在庫と</text><text x=\"76\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">補充に対応できない</text><text x=\"221\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">委託先の運送事業者の</text><text x=\"221\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">人手不足（2024年問題）</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">答えの施策</text><text x=\"76\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">統括の長男を中心に、</text><text x=\"76\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">首都圏の知見を受け入れる</text><text x=\"221\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">Z社専任のチームに</text><text x=\"221\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">加わり、在庫情報の</text><text x=\"221\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">システムをつくる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M215 0L215 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"202.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：取引が一部にとどまった原因（県内事業部が店舗の適正在庫と補充に対応できない、両事業部の連携が乏しい）→ 施策（組織：運送・倉庫を統括する長男を中心に、両事業部でZ社専任のチーム／仕組み：在庫情報を共有するシステム）→ 効果（Z社の求めに応え、受託を広げる。3PLとしての一括の受託へ）。\n・**別の答え方**：「専門人材の処遇を見直し、システムを担う人を定着させる」「Z社との窓口を一本にする」「県内の運送部と協力会で、委託先の人手不足（2024年問題）に備えた輸送力を示す」。\n【ひっかけ注意】設問1の配置転換（長男の異動）を繰り返すだけでは施策にならない。異動した長男に何をさせるかまで書く。大手3PLとの価格の競争を書くと、Z社との関係の強化からそれる。\n【2次】j1.org.structure|組織構造と権限\n【2次】j1.ans.elements|助言の設問の解答の要素\n【1次】kigyo.2.1.5|横断的関係（プロジェクト・チーム）\n【1次】unei.2.3.3|物流センター管理（3PL）"
+  }
+ ]
+}
