@@ -1,0 +1,382 @@
+{
+ "id": "k2-r04-3",
+ "y": 4,
+ "j": 3,
+ "theme": "業務用金属製品の製造：新規品の短納期化・小ロット・新取引",
+ "gist": [
+  "金属製品の製造業、60名。プレス7割・板金3割",
+  "プレス品は繰返受注、板金品は個別受注。卸売2社へ",
+  "板金の受託で創業。金型の技術を磨き、提案できる",
+  "観光需要で伸びた受注が、コロナ禍で減少",
+  "生産部門8課。プレス品は金型製作と量産の2工程",
+  "金型設計：仕様確認の遅れ・変更、板金設計と兼務",
+  "金型組立・仕上のベテランが高齢化、若手養成は検討",
+  "量産は前月中旬の依頼で月度計画、月1回の納品",
+  "プレスが能力の制約。長い段取りを一人で行う",
+  "計画はプレスだけ。基準日程のロットで加工",
+  "発注ロットが減り、確定受注を超える分は在庫",
+  "各業務でパソコン、業務の間の情報共有は紙",
+  "X社が品質を評価。PBの委託先をC社に替える検討",
+  "社長は積極的。アウトドア用PB、高価格にも期待",
+  "X社：週次に発注点で発注、7日後納品、小ロット"
+ ],
+ "lesson": [
+  "第1問は「課題」を販売面と生産面の両方で書く。2020年以降の外部の変化（コロナ禍の受注減、発注の小ロット化、X社の引合い）を起点にし、問題点の形で終わらせない。",
+  "第2問は、出題の趣旨の2つの工程（金型製作工程と製品量産工程）に分けて長くなる要因を拾い、課題と対応策を対にする。",
+  "第3問（小ロット化への生産面の対応：段取り・ロット・計画）と第4問（情報のデジタル化と社内の進め方）を書き分ける。",
+  "第5問は「可能性」。出題の趣旨の製品・市場・業績の切り口で書き、第1問の課題と第3問の体制につなげる。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "2020年から今までに起きた外部環境の変化を踏まえ、C社が販売面と生産面のそれぞれで取り組むべき課題（両方を答える）。80字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "販売面・生産面の課題",
+     "limit": 80
+    }
+   ],
+   "model": {
+    "a": "販売面は、コロナ禍で業務用の受注が減る中、X社など新たな販路を開拓すること。生産面は、新規品の立上げを早め、小ロット・短納期の発注に在庫を増やさず応えること。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "販売面：X社など新たな販路の開拓",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "業務用の受注減（コロナ禍）を補う",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "生産面：小ロット・短納期に応える",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "新規品の立上げを早める",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "在庫を増やさない",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "製品はホテル・旅館・外食の調理場で使われ、販売先は業務用食器・什器の卸売企業2社"
+    ],
+    [
+     4,
+     "観光需要で毎年増えていた受注が、2020年からの入国規制と外食の営業自粛で減っている"
+    ],
+    [
+     6,
+     "新規品の金型設計は、発注元との仕様の確認の遅れや変更の要請で長引く"
+    ],
+    [
+     11,
+     "発注元が在庫を減らす方針で発注ロットが小さくなったが、C社は基準のロットで作り、余りを社内に在庫"
+    ],
+    [
+     13,
+     "X社はコロナ禍でも売上が堅調。海外委託のPBは納品が滞り、仕入れ価格の上昇も懸念され、委託先をC社に替える検討"
+    ],
+    [
+     15,
+     "X社の発注は週ごとで、納期は発注日の7日後、1回のロットはかなり小さい"
+    ]
+   ],
+   "shushi": "パンデミックや急激な円安などの外部環境の変化を受けて、C社の販売面と生産面に生じている課題を分析する力をみる。",
+   "e": "・**題意**：2020年以降、今に至るまでの外部の経営環境の変化を受けて、C社に生じている「課題」を、販売面と生産面の両方で（80字）。出題の趣旨は変化の例にパンデミックと急激な円安を挙げた。与件に円安の語はない。X社が懸念する海外委託品の仕入れ価格の高騰が、これと結びつく（与件は高騰の原因を書いていない）。\n・**組み立て**：外部の変化 → C社への影響 → 課題（「〜すること」）の順に、販売面と生産面を1文ずつ。販売面：コロナ禍で業務用の受注が減り、販売先は卸売企業2社 → X社など新たな販路。生産面：発注元の小ロット化、X社の小ロットと7日後の納品 → 在庫を増やさず小ロット・短納期に応える。新規品の立上げ（第2問）も短く入れた。\n**外部の変化と課題**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 333\" role=\"img\" aria-label=\"外部の変化と課題\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"26.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">面</text><text x=\"150.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">外部の変化とC社への影響</text><text x=\"304.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課題（解答例）</text><text x=\"26.0\" y=\"53.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">販売面</text><text x=\"58\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">コロナ禍の入国規制と外食の</text><text x=\"58\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">営業自粛で、業務用（調理場向け）</text><text x=\"58\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">の受注が減る。販売先は卸売企業2社</text><text x=\"254\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">X社など新たな</text><text x=\"254\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">販路を開拓する</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"113.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">販売面</text><text x=\"58\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">X社は海外委託のPBの納品が滞り、</text><text x=\"58\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">仕入れ価格の上昇も懸念される。</text><text x=\"58\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">委託先をC社に</text><text x=\"58\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">替えることを双方で検討</text><text x=\"254\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">（機会）</text><text x=\"254\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">新たな販路の候補</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"181.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">生産面</text><text x=\"58\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">発注元が在庫を減らす方針で、</text><text x=\"58\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">発注ロットが小さくなる。</text><text x=\"58\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">X社はさらに小ロットで、</text><text x=\"58\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">発注日の7日後に納品</text><text x=\"254\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">小ロット・短納期の</text><text x=\"254\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">発注に、在庫を</text><text x=\"254\" y=\"196.7\" font-size=\"11\" style=\"fill:currentColor\">増やさず応える</text><path d=\"M1 211.4L359 211.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"249.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">生産面</text><text x=\"58\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">プレス加工製品では短納期の</text><text x=\"58\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">生産が一般的。新規品は初回の</text><text x=\"58\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">納品まで長くかかることがある</text><text x=\"58\" y=\"272.1\" font-size=\"11\" style=\"fill:currentColor\">（どちらも第2問の設問文）</text><text x=\"254\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">新規品の</text><text x=\"254\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">立上げを早める</text><path d=\"M1 279.2L359 279.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"309.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">内部</text><text x=\"58\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">ベテランの高齢化、</text><text x=\"58\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">業務の間の情報の共有は紙</text><text x=\"58\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">（外部の変化ではない）</text><text x=\"254\" y=\"301.9\" font-size=\"11\" style=\"fill:currentColor\">第2問・</text><text x=\"254\" y=\"317.1\" font-size=\"11\" style=\"fill:currentColor\">第4問で扱う</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M52 0L52 330.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M248 0L248 330.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"330.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の4行が外部の変化から出る課題。一番下の行は内部の弱みで、外部の変化と結びつけにくいので、第2問・第4問の対応策に回した。\n・**別の答え方**：販売面「業務用に偏る製品を、一般消費者向けのアウトドア用品へ広げること」「X社との取引を足場に受注量を回復すること」。生産面「段取りと計画を見直し、生産リードタイムを短くすること」「X社の週ごとの発注データに応えられるよう、生産業務の情報の共有をデジタル化すること」（第4問の設問文は、X社との取引をデジタル化のきっかけとする）。\n【ひっかけ注意】問われたのは「課題」。「受注が減っている」「在庫が多い」のように問題点だけを書くと、問われ方とずれる。販売面と生産面の片方だけにしない。第2〜5問の対応策を先に詳しく書くと、80字に収まらない。\n【2次】jc.solve.question|設問の読み方\n【2次】j3.over.company|与件のC社の姿と生産の形\n【1次】kigyo.1.1.4|外部環境分析"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "設問文の前提：主力のプレス加工製品では、新しい引合いを受けてから量産品を初めて納めるまでに時間がかかることがある。一方で、プレス加工製品では短い納期で作ることが一般的になっている。新規受注の納期を短くするための課題と、その対応策（両方を答える）。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "課題と対応策",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "①金型設計の短縮が課題で、3次元CADで発注元と仕様を早く確定し、金型と板金の設計担当を分ける。②金型組立・仕上の能力確保が課題で、作業を標準化し若手を育成する。③量産の早期着手が課題で、金型製作中に初回分を計画し資材を先行手配する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "設計短縮：発注元と仕様を早く確定",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "金型と板金の設計担当を分ける",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "組立・仕上を標準化し若手を育成",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "初回分を前倒しで計画・資材手配",
+     "w": 6
+    }
+   ],
+   "basis": [
+    [
+     5,
+     "プレス加工製品は金型製作工程と製品量産工程の2つ。金型製作は短くて約2週間、長くて約1か月"
+    ],
+    [
+     6,
+     "金型設計は設計課が2次元CADで行う。仕様の確認の遅れや設計・仕様の変更の要請で遅れ、板金加工製品の設計も受け持つため混乱し、金型製作の期間に響く"
+    ],
+    [
+     7,
+     "金型組立・仕上は、プレス加工の技術にも通じるベテラン技能者が担い、高齢化が進む。修理・改善も兼ねる。品質と製造コストに響く技能のため、若手の養成を検討中"
+    ],
+    [
+     8,
+     "金型の完成後、発注元が納品月の前月中旬に生産依頼数と納品指定日を知らせ、前月末までに月度計画を作って資材を発注する。納品は通常月1回"
+    ],
+    [
+     9,
+     "プレス加工は能力に制約があり、全体の生産の進み具合に影響する"
+    ]
+   ],
+   "shushi": "金型製作と製品量産の2つの工程で、新規受注のときに期間が長くなる要因を整理し、短納期化の課題と対応策を助言する力をみる。",
+   "e": "・**題意**：設問文の前提（新規の引合いから量産品の初回納品まで長くかかることがある。プレス加工製品では短納期の生産が一般的）のもとで、新規受注を短納期にする「課題」と「対応策」（120字）。出題の趣旨は、金型製作工程と製品量産工程の2つで、長くなる要因を整理することを求めた。\n・**組み立て**：引合いから初回納品までの流れ（仕様確認 → 金型設計 → 部品加工・組立・仕上 → 試作の確認 → 発注元の品質確認 → 量産の依頼 → 月度計画 → 加工 → 納品）に沿って時間のかかる所を拾い、課題と対応策を対にする。①金型設計（仕様の確認の遅れと変更、板金との兼務）、②金型組立・仕上（ベテランが担い高齢化、修理・改善も兼務）、③量産の着手（月1回の依頼と計画を待つ）。\n**工程ごとの要因と課題・対応策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 333\" role=\"img\" aria-label=\"工程ごとの要因と課題・対応策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"33.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">工程</text><text x=\"146.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">長くなる要因（与件）</text><text x=\"293.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課題と対応策（解答例）</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">金型設計</text><text x=\"72\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">発注元との仕様の確認が</text><text x=\"72\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">遅れ、設計や仕様の変更の</text><text x=\"72\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">要請もある。設計は2次元CAD</text><text x=\"232\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">①設計の短縮：</text><text x=\"232\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">3次元CADで形を示し、</text><text x=\"232\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">仕様を早く確定</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">金型設計</text><text x=\"72\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">設計課は板金加工製品の</text><text x=\"72\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">製品設計も受け持ち、</text><text x=\"72\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">混乱して金型製作の</text><text x=\"72\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">期間に響く</text><text x=\"232\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">①設計の短縮：金型と</text><text x=\"232\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">板金の設計担当を分ける</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">金型組立</text><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">金型仕上</text><text x=\"72\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">ベテラン技能者が担い、</text><text x=\"72\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">高齢化が進む。</text><text x=\"72\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">金型の修理・改善も兼ねる。</text><text x=\"72\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">若手の養成は検討の段階</text><text x=\"232\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">②能力の確保：作業を</text><text x=\"232\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">標準化し、若手を育成</text><path d=\"M1 211.4L359 211.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">量産の</text><text x=\"6\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">着手</text><text x=\"72\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">金型の完成後、前月中旬の</text><text x=\"72\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">依頼 → 前月末までに</text><text x=\"72\" y=\"256.9\" font-size=\"11\" style=\"fill:currentColor\">月度計画と資材発注</text><text x=\"72\" y=\"272.1\" font-size=\"11\" style=\"fill:currentColor\">→ 通常は月1回の納品</text><text x=\"232\" y=\"234.1\" font-size=\"11\" style=\"fill:currentColor\">③早期の着手：</text><text x=\"232\" y=\"249.3\" font-size=\"11\" style=\"fill:currentColor\">金型製作中に初回分を</text><text x=\"232\" y=\"264.5\" font-size=\"11\" style=\"fill:currentColor\">計画し、資材を先行手配</text><path d=\"M1 279.2L359 279.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"301.9\" font-size=\"11\" style=\"fill:currentColor\">プレス</text><text x=\"6\" y=\"317.1\" font-size=\"11\" style=\"fill:currentColor\">加工</text><text x=\"72\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">能力に制約があり、</text><text x=\"72\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">全体の進捗に響く。</text><text x=\"72\" y=\"324.7\" font-size=\"11\" style=\"fill:currentColor\">長い段取りを一人で行う</text><text x=\"232\" y=\"301.9\" font-size=\"11\" style=\"fill:currentColor\">別の答え</text><text x=\"232\" y=\"317.1\" font-size=\"11\" style=\"fill:currentColor\">（第3問の中心）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M66 0L66 330.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M226 0L226 330.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"330.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】②と③は、与件が遅れの原因とは直接に書いていない。担い手と兼務の状況（②）、月1回の依頼・計画・納品の流れ（③）から、長くなる要因として読んだ。観点の配分は、与件が遅れを直接に書く①を最も重くし、与件が若手の養成の理由に品質と製造コストを挙げる（期間ではない）②を軽く、趣旨が挙げる製品量産工程の③をその間にした。\n・**別の答え方**：「過去の金型の設計データを整理し、似た形の設計を流用する」「修理・改善の作業を分け、ベテランを新しい金型に充てる」「プレスの段取りを短くして初回分を早く流す」（段取りは第3問の中心なので、書くなら短く）。\n【ひっかけ注意】長くなる原因は工場の中だけではない。発注元との仕様の確認（設計の前の段階）も原因になる。趣旨は2つの工程を挙げたので、金型の工程だけ、量産の工程だけに偏らない。3次元CADは与件にない手段で、要は「仕様を早く確定し、変更を減らす」こと。\n【2次】j3.link.design|設計・開発と営業の連携\n【2次】j3.prod.skill|作業の標準化と技能の継承\n【1次】unei.1.2.4|製品開発・製品設計（コンカレントエンジニアリング）\n【1次】unei.1.3.1|作業管理（標準作業・標準時間・多能工化）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "販売先の卸売企業（業務用食器・什器）の発注ロットが小さくなっており、X社との新規取引では1回に発注される量がさらに小さくなる。この発注の仕方の変化に応える、生産面の対応策（課題は問われていない）。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "生産面の対応策",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "①次の金型と材料の準備を加工中に行う外段取りに移し、段取りを標準化して複数人で行い時間を短縮する。②加工ロットを確定受注量に合わせ、計画を週次にして組付・仕上を含む全工程で立てる。これにより在庫を抑え、小ロット・短納期に対応する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "外段取り化・複数人で段取りを短縮",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "ロットを確定受注量に合わせる",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "週次で全工程の計画を立てる",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "在庫を抑え小ロット・短納期に対応",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     8,
+     "月度の計画を前月末までに作り、通常は月1回納品する"
+    ],
+    [
+     9,
+     "プレス加工は能力に制約がある。製品の切替えの金型交換や材料準備などの長い段取りを、担当の作業員が一人で行う"
+    ],
+    [
+     10,
+     "計画はプレス加工だけで、組付・仕上はプレスが終わった順に行う。製品ごとの1日の加工数量から基準日程を決める"
+    ],
+    [
+     11,
+     "以前は発注元がC社の加工ロットで発注し全量を引き取っていたが、近年は在庫を減らす方針で発注ロットが減った。C社は基準日程のロットで作り続け、確定受注量を超える分を社内に在庫"
+    ],
+    [
+     15,
+     "X社は毎週月曜に各店舗の発注を集計し、発注点に達した製品を発注する。納期は発注日の7日後、ロットはかなり小さい"
+    ]
+   ],
+   "shushi": "顧客の発注ロットの小口化に対し、製品量産工程の課題を整理して、対応策を助言する力をみる。",
+   "e": "・**題意**：販売先の卸売企業の発注ロットが小さくなり、X社との取引ではさらにかなり小さくなる。この発注の仕方の変化に応える「生産面の対応策」（120字。課題は問われていない）。出題の趣旨は、製品量産工程の課題を整理して対応策を助言すること。\n・**組み立て**：小ロットになると、段取りの回数が増えて能力に制約のあるプレスがさらに詰まる。基準のロットで作り続けると在庫が増える。月度の計画と月1回の納品では、週ごとの発注と7日後の納品に合わない。解答例の①で段取りを短くし（外段取り化・標準化・複数人）、②でロットと計画（確定受注量のロット、週次、全工程）を直し、効果で締めた。\n**今のやり方と対応策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 318\" role=\"img\" aria-label=\"今のやり方と対応策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"28.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"133.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今のやり方（与件）</text><text x=\"285.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">対応策（解答例）</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">段取り</text><text x=\"62\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">製品の切替えの金型交換・</text><text x=\"62\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">材料準備などの</text><text x=\"62\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">長い段取りを、</text><text x=\"62\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">担当の作業員が一人で行う</text><text x=\"216\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">①次の金型と材料を</text><text x=\"216\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">加工中に準備</text><text x=\"216\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（外段取り）。手順を</text><text x=\"216\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">標準化し、複数人で行う</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">ロット</text><text x=\"62\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">基準日程のロットで</text><text x=\"62\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">作り続け、確定受注量を</text><text x=\"62\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">超える分を社内に在庫</text><text x=\"216\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">②確定受注量に</text><text x=\"216\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">合わせたロットで加工</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">計画の</text><text x=\"6\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">期間</text><text x=\"62\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">月度の計画、月1回の納品。</text><text x=\"62\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">X社は週ごとの発注で、</text><text x=\"62\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">発注日の7日後に納品</text><text x=\"216\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">②週次で計画する</text><path d=\"M1 196.2L359 196.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">計画の</text><text x=\"6\" y=\"234.1\" font-size=\"11\" style=\"fill:currentColor\">範囲</text><text x=\"62\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">プレス加工だけを計画。</text><text x=\"62\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">組付・仕上はプレスが</text><text x=\"62\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">終わった順に行う</text><text x=\"216\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">②組付・</text><text x=\"216\" y=\"234.1\" font-size=\"11\" style=\"fill:currentColor\">仕上を含む全工程を計画</text><path d=\"M1 248.8L359 248.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"286.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">効果</text><text x=\"62\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">小ロットのままでは</text><text x=\"62\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">段取りの回数と在庫が</text><text x=\"62\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">増え、能力に制約のある</text><text x=\"62\" y=\"309.5\" font-size=\"11\" style=\"fill:currentColor\">プレスが詰まる</text><text x=\"216\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">在庫を抑え、小ロット・</text><text x=\"216\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">短納期に応える</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M56 0L56 315.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M210 0L210 315.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"315.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「X社の月販売予測をもとに、材料と金型を前もって準備する」「金型と材料の置き場を決め、運ぶ時間を減らす（5S）」「プレスの作業員を多能工化し、段取りを応援し合う」「プレス加工の技術にも通じる金型のベテランが、金型交換の手順を標準書にして教える」（第2問のベテランの負荷と両立させる）。\n【ひっかけ注意】「在庫を持って小ロットの発注に応える」は、発注元が減らした在庫をC社が抱える今のやり方（確定受注量を超える分の社内在庫）と同じで、生産面の対応にならない。段取りを短くしないままロットだけを小さくすると、プレスの能力がさらに足りなくなる（2つを組み合わせる）。金型の設計・製作の話（新規受注の立上げ）は第2問で書く。\n【2次】j3.prod.flow|ボトルネック・段取りと納期\n【2次】j3.link.material|資材・在庫・外注と原価\n【1次】unei.1.2.1|JITシステム（平準化・段取り）\n【1次】unei.1.2.9|スケジューリング（日程計画・負荷計画）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 20,
+   "ask": "設問文の前提：社長は、X社との新規取引をきっかけとして、生産業務の情報のやり取りと共有をデジタル化し、生産業務を速めたいと考えている。C社が優先して進めるデジタル化の中身と、それを実現する社内の活動の進め方（両方を答える）。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "デジタル化の内容と進め方",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "優先して、X社の発注データと生産計画・資材発注・進捗・在庫の情報をデータベースで一元管理し、全課で即時共有する。進め方は、社長主導で各課の代表がチームを作り、紙の帳票を見直して項目を標準化し、教育して段階導入する。これにより生産を速める。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "X社の発注データを取り込む",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "計画・資材・進捗・在庫を一元管理",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "全課で即時に共有する",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "社長主導で各課の代表のチーム",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "帳票を見直し項目を標準化",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "教育し段階的に導入",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     8,
+     "発注元の依頼を受けて前月末までに月度計画を作り、資材を発注する"
+    ],
+    [
+     10,
+     "生産計画はプレス加工だけについて作る"
+    ],
+    [
+     11,
+     "確定受注量を超える分を社内に在庫している"
+    ],
+    [
+     12,
+     "受注から納品までの各業務でパソコンを使うが、業務の間の情報の交換と共有は紙で行う"
+    ],
+    [
+     15,
+     "X社は四半期ごとに商品企画と月販売予測を知らせ、週ごとに発注点に達した製品の発注データを送る。納期は発注日の7日後"
+    ]
+   ],
+   "shushi": "生産業務を速め、生産リードタイムを短くするために生産業務の課題を整理し、優先するデジタル化の対象と業務内容、構築に要る社内活動を助言する力をみる。",
+   "e": "・**題意**：設問文の前提（社長は、X社との取引をきっかけに生産業務の情報の交換と共有をデジタル化し、生産業務を速めたい）のもとで、「優先すべきデジタル化の内容」と「社内活動の進め方」の両方（120字）。出題の趣旨は生産リードタイムの短縮も目的に挙げ、優先するデジタル化の対象と業務内容、構築に要る社内活動を問うた。\n・**組み立て**：優先するもの → X社との取引で速さが要る情報の流れ（週ごとの発注データ → 計画 → 資材 → 加工の進捗 → 納品。納期は発注日の7日後）。今は業務ごとにパソコンを使うが、業務の間は紙でつなぐ → データベースで一元管理し、全課で即時に共有。進め方 → 社長が主導するチーム（各課の代表）、帳票の見直しと項目の標準化、教育、段階的な導入。\n**情報ごとの今とデジタル化**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 295\" role=\"img\" aria-label=\"情報ごとの今とデジタル化\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"28.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">情報</text><text x=\"137.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今（与件）</text><text x=\"289.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">デジタル化（解答例）</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">X社の</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">発注</text><text x=\"62\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">毎週月曜の集計で発注点に</text><text x=\"62\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">達した製品の発注データが</text><text x=\"62\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">届く。納期は発注日の7日後</text><text x=\"224\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">データで取り込み、</text><text x=\"224\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">計画と資材発注に直結</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">生産計画</text><text x=\"62\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">月度の計画を、</text><text x=\"62\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">プレス加工だけについて作る</text><text x=\"224\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">データベースで作り、</text><text x=\"224\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">全課が即時に見る</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">資材</text><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">在庫</text><text x=\"62\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">月度計画の後に資材を発注。</text><text x=\"62\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">確定受注量を超える</text><text x=\"62\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">分は社内に在庫</text><text x=\"224\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">発注と在庫の</text><text x=\"224\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">状況を一元管理</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">進捗</text><text x=\"62\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">各業務はパソコンを使うが、</text><text x=\"62\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">業務の間の情報の交換・</text><text x=\"62\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">共有は紙</text><text x=\"224\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">実績を入力し、</text><text x=\"224\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">即時に共有</text><path d=\"M1 218.4L359 218.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">X社の</text><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">予測</text><text x=\"62\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">四半期ごとに商品企画と</text><text x=\"62\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">月販売予測が届く</text><text x=\"224\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">別の答え：</text><text x=\"224\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">資材の準備と計画に使う</text><path d=\"M1 255.8L359 255.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">金型</text><text x=\"6\" y=\"286.1\" font-size=\"11\" style=\"fill:currentColor\">設計</text><text x=\"62\" y=\"278.5\" font-size=\"11\" style=\"fill:currentColor\">設計課が2次元CADで設計</text><text x=\"224\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">別の答え：</text><text x=\"224\" y=\"286.1\" font-size=\"11\" style=\"fill:currentColor\">3次元CAD（第2問）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M56 0L56 292.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 292.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"292.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の4行が解答例の内容。下の2行は別の答え（X社の予測の利用、金型設計のCAD）。\n・**進め方の手順（一例）**：①社長がリーダーになり、各課の代表でチームを作る → ②紙の帳票と業務の流れを洗い出し、情報の項目とコードをそろえる → ③入力の担当と時期を決め、教育する → ④X社向けの製品から始め、効果を確かめて全製品に広げる。\n【ひっかけ注意】「生産管理システムを導入する」だけでは、何の情報を誰と共有するかが分からない。内容と進め方の片方だけにしない。「優先」を問われているので、対象を広げすぎず、X社との取引で速さが要る生産の情報に絞る。\n【2次】j3.link.it|ITとデータの活用\n【1次】unei.1.2.2|生産技術・情報システム（CIM・ERP）\n【1次】joho.2.1.2|経営革新と情報システム（BPR・EDI）"
+  },
+  {
+   "k": "q5",
+   "h": "第5問",
+   "dai": 5,
+   "pts": 20,
+   "ask": "社長が前向きに取り組みたいX社との新規取引について、それに応えることでC社の今後の戦略にどんな可能性が開けるかを、中小企業診断士として助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "可能性",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "金型技術を生かしたアウトドア用PB製品で一般消費者向けの成長市場に参入でき、卸売2社に限る販路が広がり受注と業績が回復する。将来は高価格帯製品へ拡大でき、小ロット短納期の体制は既存顧客にも生かせる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "製品：アウトドア用・高価格帯へ",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "市場：一般消費者向けの成長市場",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "業績：受注と業績の回復",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "金型技術を生かす",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "小ロット短納期の体制を既存顧客に",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     1,
+     "売上の7割がアルミとステンレス製のプレス加工製品"
+    ],
+    [
+     2,
+     "製品はホテル・旅館・外食の調理場向けで、販売先は卸売企業2社"
+    ],
+    [
+     3,
+     "難易度の高い金型の製作技術とノウハウを蓄え、コスト低減や生産性向上につながる提案ができる"
+    ],
+    [
+     4,
+     "コロナ禍で受注量が減っている"
+    ],
+    [
+     11,
+     "発注元の発注ロットが小さくなっている"
+    ],
+    [
+     13,
+     "数年前の商談会でX社がC社の品質を評価。X社は海外委託のPBの納品の停滞と仕入れ価格の上昇の懸念から、委託先をC社に替えることを検討"
+    ],
+    [
+     14,
+     "社長は市場の成長性と自社の強みを考え、積極的に取り組む。X社の要請はアウトドア用PBの中価格帯のアルミ製プレス加工品。高価格の製品への拡大も期待"
+    ],
+    [
+     15,
+     "X社の発注は小ロットで、納期は発注日の7日後"
+    ]
+   ],
+   "shushi": "X社との新規取引に応じることで、今後の戦略に関わる製品・市場・業績などに生まれる新たな可能性を助言する力をみる。",
+   "e": "・**題意**：社長が積極的に取り組みたいX社との新規取引に応えることが、C社の今後の戦略にもたらす「可能性」を、中小企業診断士として助言する（100字）。出題の趣旨は、製品・市場・業績などに生まれる新たな可能性を挙げた。\n・**組み立て**：趣旨の3つの切り口で1つずつ書き、強み（金型の技術）と結ぶ。製品：業務用の鍋・トレーなどから、アウトドア用の食器セット・鍋へ。将来は高価格の製品へ（社長の期待）。市場：業務用（卸売企業2社）から、ホームセンターを通じた一般消費者向けへ（社長は市場の成長性を見た）。業績：コロナ禍で減った受注の回復。加えて、X社向けに整える小ロット・短納期の体制は、卸売企業の小ロット化にも使える（第3問とつながる）。\n**取引でひらける可能性**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 288\" role=\"img\" aria-label=\"取引でひらける可能性\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"26.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">観点</text><text x=\"127.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今のC社（与件）</text><text x=\"281.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">X社との取引でひらける可能性</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">製品</text><text x=\"58\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">業務用の鍋・トレー・</text><text x=\"58\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">ポット（プレス）、</text><text x=\"58\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">調理台・ワゴン（板金）</text><text x=\"208\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">アウトドア用の食器セット・</text><text x=\"208\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">鍋など。将来は高価格の</text><text x=\"208\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">製品へ（社長の期待）</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">市場</text><text x=\"58\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">ホテル・旅館・</text><text x=\"58\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">外食の調理場向け。</text><text x=\"58\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">販売先は卸売企業2社</text><text x=\"208\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">ホームセンターを通じて、</text><text x=\"208\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">成長するアウトドア用品の</text><text x=\"208\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">一般消費者の市場へ</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">業績</text><text x=\"58\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">コロナ禍で受注量が減る</text><text x=\"208\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">受注の回復。</text><text x=\"208\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">四半期の予測をもとに</text><text x=\"208\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">計画的に生産（別の答え）</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">仕組み</text><text x=\"58\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">基準のロットで</text><text x=\"58\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">作って在庫し、</text><text x=\"58\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">通常は月1回の納品</text><text x=\"208\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">小ロット・</text><text x=\"208\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">短納期の体制を、卸売企業の</text><text x=\"208\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">小ロット化にも生かす</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">強み</text><text x=\"58\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">難易度の高い金型の</text><text x=\"58\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">技術とノウハウ。</text><text x=\"58\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">X社が品質を評価</text><text x=\"208\" y=\"256.3\" font-size=\"11\" style=\"fill:currentColor\">強みを生かして</text><text x=\"208\" y=\"271.5\" font-size=\"11\" style=\"fill:currentColor\">PBの生産に入る</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M52 0L52 285.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M202 0L202 285.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"285.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】成長ベクトルで見ると、似たプレス加工品を新しい市場へ出す新市場開拓が中心（一つの見方）。食器セットなど新しい品目や高価格の製品が増えるほど、多角化に近づく。\n・**別の答え方**：「X社から届く商品企画と販売予測の情報で消費者の求めを学び、将来の製品の提案に生かす」「海外委託品を国内で作る役を担い、続く取引の土台にする」「金型の技術で、コスト低減の提案をX社にも行う」。\n【ひっかけ注意】問われたのは「可能性」。リスク（X社への依存、価格の要求）や課題を中心に書くと題意とずれる。「アウトドアの市場に出る」だけで終わらせず、強み（金型の技術・品質）と業績への効果まで書く。\n【2次】j3.strat.future|新規事業と今後の戦略\n【1次】kigyo.1.2.2|多角化（成長ベクトル）\n【1次】kigyo.3.6.3|ブランド・マネジメント（PB）"
+  }
+ ]
+}

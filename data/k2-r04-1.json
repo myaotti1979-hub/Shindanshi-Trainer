@@ -1,0 +1,383 @@
+{
+ "id": "k2-r04-1",
+ "y": 4,
+ "j": 1,
+ "theme": "農業法人の人材の定着、大手中食業者との取引と世代交代",
+ "gist": [
+  "野菜と苺の農業法人、従業員40名（パート10名）",
+  "1970年代初頭に苺を始め、贈答用で売上を伸ばす",
+  "バブル後、こだわりの野菜へ品目を広げパートを雇う",
+  "1990年代後半、弟が常務として販売・管理を担う",
+  "人と環境に優しい方針、販売業者の助言、有機JAS等",
+  "菓子メーカーとサツマイモの洋菓子、地域の特産品に",
+  "業容拡大で経営が複雑化、見て盗め・役割が不明確",
+  "季節の繁閑で需給調整に苦労、品質と出荷の安定を要求",
+  "人が定着せず、新規就農者の確保も難しかった",
+  "2000年代半ば、事業譲渡を受けて株式会社化",
+  "大手中食業者と直接取引、依存が年々高まる",
+  "対応に追われ、新しい品種の生産が進まない",
+  "常務を中心に直営店・加工へ、工場で総菜などを製造",
+  "後継者（常務の娘）が直営店、若手の提案でカフェ",
+  "人手不足、新分野への挑戦、世代交代の検討"
+ ],
+ "lesson": [
+  "「法人化の前」の時点の指定：株式会社化（2000年代半ば）より後の取引・工場・直営店・後継者は第1問に入れない。時期の書かれていない段落は、書かれた位置と時制で判断する。",
+  "「獲得し、定着させる」のように目的が2つある助言は、両方に施策を当て、与件が挙げた理由を1つずつ解く（第2問）。",
+  "大口の取引先との関係は、続けて強める面と、依存・新しい分野の面の両方から書く（第3問。出題の趣旨も関係の強化と新しい分野の探索）。",
+  "第4問は設問1（組織の構造）と設問2（権限委譲と人員配置）を書き分け、同じ部門と人の並びで矛盾なくつなぐ。5年程度という期間は設問の条件。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "株式会社化（法人化）より前の、A社の強みと弱み。1つの欄に合わせて100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "強みと弱み",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "強みは、高品質な苺とこだわり野菜の栽培技術、有機JAS・JGAPの認証、生産と販売を分けた二人三脚の経営。弱みは、見て盗めに頼る育成と不明確な役割分担、繁閑による需給調整の難しさ、従業員の定着の悪さ。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "高品質な苺とこだわり野菜の栽培技術",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "有機JAS・JGAPの認証",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "生産と販売を分けた二人三脚の経営",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "見て盗めに頼る育成と不明確な役割分担",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "繁閑による需給調整の難しさ",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "従業員の定着の悪さ",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "糖度が高く大粒で形と色のよい苺。地元百貨店で贈答用に売り、県外の需要でハウスを増設"
+    ],
+    [
+     3,
+     "作り方にこだわった野菜。経験豊富な従業員が連携し、サツマイモから品目を広げた"
+    ],
+    [
+     4,
+     "首都圏の大手流通業出身の弟が常務に。経営者は生産、常務は販売と経営管理を担う二人三脚"
+    ],
+    [
+     5,
+     "販売業者の助言で最終消費者が求める野菜を作る。有機JASとJGAPの認証は2000年代前半"
+    ],
+    [
+     7,
+     "経営者は職人気質で「見て盗め」。従業員の役割分担が明確でない"
+    ],
+    [
+     8,
+     "天候と収穫期で繁閑があり、繁忙期は人手が足りず閑散期は余る。取引先は品質と出荷の安定を求めた"
+    ],
+    [
+     9,
+     "定時で終わりにくい仕事や休日の突発対応、地域に溶け込みにくいことが定着を妨げ、中途・新卒の採用でも長く働く人を得にくかった"
+    ],
+    [
+     10,
+     "株式会社化は2000年代半ば。ここより前が第1問の範囲"
+    ]
+   ],
+   "shushi": "法人化より前のA社の内部の状況（内部環境）を分析する力をみる。",
+   "e": "・**題意**：時点は株式会社化（法人化）の前で、与件では2000年代半ばより前。強みと弱みを1つの欄に合わせて100字（出題の趣旨も、法人化前の内部環境の分析）。\n・**組み立て**：強み＝苺と野菜の栽培技術（品質）、有機JAS・JGAPの認証、生産と販売を分けた二人三脚の経営。弱み＝見て盗めに頼る育成と不明確な役割分担、繁閑による需給調整の難しさ、従業員の定着の悪さ。後の設問（第2問の採用と定着、第4問の組織）につながる弱みを選んだ。\n**法人化の前に使える根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 436\" role=\"img\" aria-label=\"法人化の前に使える根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"37.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時期</text><text x=\"183.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の出来事（要約）</text><text x=\"326.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第1問</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">1970〜</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">80年代</text><text x=\"80\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">糖度が高く大粒の苺。地元百貨店で</text><text x=\"80\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">贈答用に。県外の需要でハウスを増設</text><text x=\"326.0\" y=\"45.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">1990年代</text><text x=\"80\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">バブル崩壊で贈答用の苺が不振。</text><text x=\"80\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">価格競争の影響</text><text x=\"326.0\" y=\"83.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">外部環境</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">1990年</text><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">代後半</text><text x=\"80\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">作り方にこだわった野菜。</text><text x=\"80\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">経験豊富な従業員が連携して品目を拡大</text><text x=\"326.0\" y=\"120.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">1990年</text><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">代後半</text><text x=\"80\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">弟が常務に。経営者は生産、</text><text x=\"80\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">常務は販売・経営管理（二人三脚）</text><text x=\"326.0\" y=\"158.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 172.8L359 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">2000年</text><text x=\"6\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">代前半</text><text x=\"80\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">販売業者の助言で消費者が求める野菜。</text><text x=\"80\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">有機JAS・JGAPの認証</text><text x=\"326.0\" y=\"195.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 210.2L359 210.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"232.9\" font-size=\"11\" style=\"fill:currentColor\">記述なし※</text><text x=\"80\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">菓子メーカーとサツマイモの</text><text x=\"80\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">洋菓子を共同開発</text><text x=\"326.0\" y=\"232.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 247.6L359 247.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"270.3\" font-size=\"11\" style=\"fill:currentColor\">記述なし※</text><text x=\"80\" y=\"262.7\" font-size=\"11\" style=\"fill:currentColor\">経営者は見て盗め。</text><text x=\"80\" y=\"277.9\" font-size=\"11\" style=\"fill:currentColor\">役割分担が明確でない</text><text x=\"326.0\" y=\"270.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 285.0L359 285.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"307.7\" font-size=\"11\" style=\"fill:currentColor\">記述なし※</text><text x=\"80\" y=\"300.1\" font-size=\"11\" style=\"fill:currentColor\">季節の繁閑で人手の過不足。</text><text x=\"80\" y=\"315.3\" font-size=\"11\" style=\"fill:currentColor\">需給調整の問題</text><text x=\"326.0\" y=\"307.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 322.4L359 322.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"345.1\" font-size=\"11\" style=\"fill:currentColor\">記述なし※</text><text x=\"80\" y=\"337.5\" font-size=\"11\" style=\"fill:currentColor\">人が定着せず、</text><text x=\"80\" y=\"352.7\" font-size=\"11\" style=\"fill:currentColor\">新規就農者の確保も難しい</text><text x=\"326.0\" y=\"345.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 359.8L359 359.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"374.9\" font-size=\"11\" style=\"fill:currentColor\">2000年</text><text x=\"6\" y=\"390.1\" font-size=\"11\" style=\"fill:currentColor\">代半ば</text><text x=\"80\" y=\"374.9\" font-size=\"11\" style=\"fill:currentColor\">事業譲渡を受けて株式会社化</text><text x=\"80\" y=\"390.1\" font-size=\"11\" style=\"fill:currentColor\">（ここが区切り）</text><text x=\"326.0\" y=\"382.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">区切り</text><path d=\"M1 397.2L359 397.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"419.9\" font-size=\"11\" style=\"fill:currentColor\">それ以後</text><text x=\"80\" y=\"412.3\" font-size=\"11\" style=\"fill:currentColor\">大手中食業者との取引、</text><text x=\"80\" y=\"427.5\" font-size=\"11\" style=\"fill:currentColor\">自社工場、直営店、後継者の入社</text><text x=\"326.0\" y=\"419.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">使わない</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M74 0L74 433.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M292 0L292 433.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"433.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】与件を時期の順に並べ、第1問に使うものを色で分けた。※は時期の記述がないが、株式会社化の段落より前に、過去の形で書かれている。\n・**別の答え方**：強みに「百貨店の贈答用の販路」「販売業者の助言で、最終消費者が求める野菜を作れること」「菓子メーカーと組んだ商品開発（洋菓子が地域の特産品に）」。洋菓子も、弱みに使った段落と同じく、株式会社化の段落より前に過去の形で書かれているので使える（解答例は100字に収めるため、品質・認証・分担の3つに絞った）。\n【ひっかけ注意】大手中食業者との取引、自社工場、直営店、後継者の入社は株式会社化より後なので使わない。バブル崩壊と価格競争は外部環境で、強み・弱みではない。\n【2次】j1.over.company|与件のA社の姿と時点\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "新規就農者の獲得と定着に必要な施策の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "施策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "人と環境に優しい農業の方針と仕事の実態を伝えて共感する人を採り、指導役を付け計画的に育てる。台風時などの対応は当番制で休日を確保し、経営者が地域の農業関係者に引き合わせ、帰属意識を高めて定着させる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "方針と仕事の実態を伝え共感する人を採用",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "指導役を付けた計画的な育成",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "突発対応の当番制と休日の確保",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "地域の農業関係者との関係づくり",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "帰属意識を高めて定着させる",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "戦前から代々続く地元の水稲農家。経営者は幼い頃から農業に親しむ"
+    ],
+    [
+     5,
+     "人と環境に配慮した農業を、新しい収益の柱のコンセプトにした。有機JASとJGAPの認証"
+    ],
+    [
+     7,
+     "経営者は職人気質で「見て盗め」。従業員の役割分担が明確でない"
+    ],
+    [
+     9,
+     "定時で終わりにくく、台風時などは休日も対応が要る。新参者は地域の農業関係者と関係を築きにくい。未経験者にも広げた中途採用では帰属意識の高い人を得られず、農業大学校などの新卒でも長く働く人を得にくかった"
+    ]
+   ],
+   "shushi": "基盤となる事業で、人材を採用し定着させる方法を助言する力をみる。",
+   "e": "・**題意**：助言。目的は2つ（新規就農者を獲得する、定着させる）で、両方に施策を書く。出題の趣旨は、基盤事業での人材の採用と定着の方法（基盤事業は、与件の「地域に根ざした農業」と読める）。定着の段落は法人化の前に過去の形で書かれている（第1問の弱み）が、解決したとの記述はなく、いまも直営店の段落で人手不足が目立つので、今の課題として使う。\n・**組み立て**：与件が挙げた定着しない理由（定時で終わらず台風時は休日も対応、地域の農業関係者に溶け込みにくい、帰属意識の高い人が採れない）と、見て盗めに頼る育成に、施策を1つずつ当てる。獲得＝方針と仕事の実態を伝えて採る（入社後のずれを防ぐ）。定着＝育成・働き方・地域。最後を「帰属意識を高めて定着させる」で結ぶ。\n**与件の問題と施策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 174\" role=\"img\" aria-label=\"与件の問題と施策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"67.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の問題</text><text x=\"217.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">施策（解答例）</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">目的</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">帰属意識の高い人や、</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">長く働く人が採れない</text><text x=\"140\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">人と環境に優しい農業の</text><text x=\"140\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">方針と仕事の実態を伝え、</text><text x=\"140\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">共感する人を採る</text><text x=\"330.0\" y=\"53.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">獲得</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">見て盗めに頼る育成</text><text x=\"140\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">指導役を付けて計画的に育てる</text><text x=\"330.0\" y=\"90.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">定着</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">定時で終わらず、</text><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">台風時は休日も対応</text><text x=\"140\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">当番制にして休日を確保する</text><text x=\"330.0\" y=\"120.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">定着</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">新参者は地域の農業関</text><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">係者と関係を築きにくい</text><text x=\"140\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">経営者が地域の</text><text x=\"140\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">関係者に引き合わせる</text><text x=\"330.0\" y=\"158.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">定着</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M134 0L134 171.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 171.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"171.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「農業大学校と組んだ就農体験」「閑散期は加工や直営店の仕事も任せ、通年で仕事を安定させる」「若手の提案（トマトジュースやカフェ）を評価に結びつける」「技能の段階を示し処遇につなげる」。\n【ひっかけ注意】「給与を上げる」「求人を増やす」だけの一般論にしない。与件が挙げた理由に結びつける。部門の新設など組織の構造は、第4問で書く。\n【2次】j1.hr.staffing|採用・配置と定着\n【1次】kigyo.2.3.2|組織文化と経営戦略（組織社会化とRJP）\n【1次】kigyo.2.8.4|人材育成（能力開発・キャリア開発・メンタリング）\n【1次】kigyo.2.4.3|組織コミットメント"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "大手中食業者との今後の取引関係のあり方の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "取引関係",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "安定収益源の大手中食業者とは取引を続けつつ、要求に追われる受け身から提案型の関係に変える。消費者の声や栽培方法が見える強みを生かし新品種を使う商品を共同開発して信頼を深め、依存を抑えて新分野を探る。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "安定収益源として取引を続ける",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "受け身から提案型の関係へ",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "消費者の声と栽培方法が見える強み",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "新品種を使う商品の共同開発",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "依存を抑えて新分野を探る",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     6,
+     "菓子メーカーと組んでサツマイモの洋菓子を共同開発した経験"
+    ],
+    [
+     11,
+     "事業譲渡を機に大手中食業者と直接取引。厳しい要求に応えて対応力と信頼を得て、売上での依存が年々高まる。コロナ禍でも堅調"
+    ],
+    [
+     12,
+     "対応に追われ、新しい品種の生産が思うように進まない"
+    ],
+    [
+     13,
+     "自社工場で自社の野菜や果物を使って総菜などを作り、大手中食業者などいくつかの業者へ卸す。作り手や栽培方法の見える商品が人気"
+    ],
+    [
+     14,
+     "カフェで消費者の声を聞けるようになった"
+    ],
+    [
+     15,
+     "地域に根ざした農業を基盤に、新しい分野に挑戦したい"
+    ]
+   ],
+   "shushi": "主要な取引先との関係を強めることと、新しい分野を探ることを助言する力をみる。",
+   "e": "・**題意**：助言。大手中食業者と今後どういう取引関係を築くか。出題の趣旨は、主要取引先との関係の強化と、新しい分野の探索の両方。\n・**組み立て**：今の関係（安定収益源で信頼もあるが、依存が年々高まり、対応に追われて新品種が進まない）→ これからの関係（取引は続け、受け身から提案型へ）→ 中身（カフェで得た消費者の声と、作り手や栽培方法が見える商品の人気を生かし、新品種を使う商品を共同開発）→ 効果（信頼を深める。新品種と新商品は直営店やほかの業者にも広げられ、依存を抑えて新分野を探れる）。新品種の生産を、中食業者との取引の妨げから、取引を深める材料に変える筋。\n**今の関係とこれからの関係**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 189\" role=\"img\" aria-label=\"今の関係とこれからの関係\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"142.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今の関係（与件）</text><text x=\"287.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">これからの関係（解答例）</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">位置づけ</text><text x=\"76\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">安定収益源。</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">売上での依存が年々高まる</text><text x=\"221\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">安定収益源として</text><text x=\"221\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">取引を続ける</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">A社の動き</text><text x=\"76\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">厳しい要求への</text><text x=\"76\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">対応に追われる</text><text x=\"221\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">消費者の</text><text x=\"221\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">声をもとに提案する</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">商品</text><text x=\"76\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">野菜。工場の総菜や</text><text x=\"76\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">サンドイッチも卸す</text><text x=\"221\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">栽培方法が見える</text><text x=\"221\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">強みと新品種を生かし、</text><text x=\"221\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">共同開発する</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">新しい分野</text><text x=\"76\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">新しい品種の</text><text x=\"76\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">生産が進まない</text><text x=\"221\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">信頼を深め、</text><text x=\"221\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">依存を抑えて新分野を探る</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 187.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M215 0L215 187.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"187.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「生産の計画を共有して作付けを平準化し、新品種に回す余力をつくる」「自社工場のサンドイッチや総菜の供給を増やす」「取引の割合に目安を設け、直営店やほかの業者の販路も育てる」。\n【ひっかけ注意】取引を減らす・やめるは、コロナ禍でも堅調だった安定収益源を手放すことになり、関係の強化という趣旨に反する。逆に、要求に応え続けるだけでは、新品種が進まない問題が残る。\n【2次】j1.strat.growth|成長と事業の領域\n【1次】kigyo.2.6.1|資源依存\n【1次】kigyo.1.2.6|戦略的提携"
+  },
+  {
+   "k": "q4a",
+   "h": "第4問（設問1）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提：A社の今後の戦略展開。今後の事業の展開に向けて、どのような組織の構造をつくるべきかの助言。50字以内。配点は第4問で計40点（設問ごとの内訳は示されていない。20点は目安）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "組織構造",
+     "limit": 50
+    }
+   ],
+   "model": {
+    "a": "生産、加工、直営店・飲食の部門を設けて専任の責任者と人員を置き、兼任を解き役割と責任を明確にする。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "生産・加工・直営店の部門に分ける",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "各部門に専任の責任者と人員",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "兼任を解き役割と責任を明確化",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "業容の拡大で経営が複雑化し、従業員の役割分担が明確でない"
+    ],
+    [
+     13,
+     "直営店と加工は常務が中心で、生産の若手5名とパート5名が兼任で担う"
+    ],
+    [
+     14,
+     "直営店は後継者が担当。若手の提案でカフェ形式の飲食も始めた"
+    ],
+    [
+     15,
+     "直営店の売上は伸びるが、生産と兼務の人だけでは手が回らなくなりつつある。農業を基盤に新分野へ挑戦したい"
+    ]
+   ],
+   "shushi": "経営戦略を進めるうえで望ましい組織の構造を助言する力をみる。",
+   "e": "・**題意**：助言。第4問の前提（今後の戦略展開）のもと、今後の事業の展開に合う組織の構造を50字で。出題の趣旨は、経営戦略を進めるうえで望ましい組織の構造。配点は第4問で40点（設問ごとは示されていない。20点ずつは目安。字数が設問2の半分なので、15点・25点と見る見方もある）。\n・**組み立て**：今の問題（役割分担が明確でない、生産の若手とパートが直営店・加工を兼任し、手が回らなくなりつつある）→ 構造（生産・加工・直営店の部門に分け、専任の責任者と人員を置く）→ 効果（役割と責任がはっきりし、基盤の農業と新しい分野の両方に手を打てる）。50字なので要素は2〜3つ。\n**いまの体制と解答例の体制**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 212\" role=\"img\" aria-label=\"いまの体制と解答例の体制\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"40.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">部門</text><text x=\"162.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">いま（与件）</text><text x=\"302.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">解答例</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">農業生産</text><text x=\"86\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">経営者が担当。</text><text x=\"86\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">生産の若手とパートが加工・</text><text x=\"86\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">直営店も兼ねる</text><text x=\"250\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">専任の責任者と人員</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">食品加工</text><text x=\"86\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">常務が中心。生産の人が兼任</text><text x=\"250\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">専任の責任者と人員</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">直営店・飲食</text><text x=\"86\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">後継者が担当。売上は</text><text x=\"86\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">伸びるが、兼務の人だけでは</text><text x=\"86\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">手が回らなくなりつつある</text><text x=\"250\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">専任の責任者と人員</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">販売・</text><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">経営管理</text><text x=\"86\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">常務が担当</text><text x=\"250\" y=\"173.3\" font-size=\"11\" style=\"fill:currentColor\">設問2で後継者へ</text><path d=\"M1 188.0L359 188.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">全体</text><text x=\"86\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">役割分担が明確でない</text><text x=\"250\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">役割と責任を明確に</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M80 0L80 209.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M244 0L244 209.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"209.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「農業の事業と、加工・直営店の事業に分ける事業部制にし、利益の責任を持たせる」。ただし40名の規模では任せられる管理者が少なく、人が重なる点に注意。「経営管理（総務・経理）を担う部門を置く」も書ける。\n【ひっかけ注意】誰に権限を移し、誰をどこに置くかは設問2で書く。設問1は構造（部門の分け方と責任者）に絞り、2つの設問で同じ部門を使う。\n【2次】j1.org.structure|組織構造と権限\n【1次】kigyo.2.2.2|職能部門組織\n【1次】kigyo.2.2.1|事業部制組織"
+  },
+  {
+   "k": "q4b",
+   "h": "第4問（設問2）",
+   "dai": 4,
+   "pts": 20,
+   "ask": "第4問の前提と配点の扱い（20点は目安）は設問1と同じ。今後5年程度で後継者を中心とした組織体制へ移るときの、権限委譲と人員配置の進め方の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "権限委譲と人員配置",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "権限は段階的に委譲し、後継者にまず直営店と加工、次に常務の販売と経営管理を任せる。人員は、経験のある従業員を生産の責任者とし経営者の技術を継がせ、若手を部門の長に登用し、経営者と常務は相談役で支える。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "権限を段階的に後継者へ委譲",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "まず直営店と加工、次に販売・管理",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "経験のある従業員を生産の責任者に",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "経営者の技術を継がせる",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "若手を部門の長に登用",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "経営者と常務は相談役で支える",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "農業経験の豊富な従業員が、経営者と連携して品目を広げた"
+    ],
+    [
+     4,
+     "経営者は生産、常務は販売と経営管理"
+    ],
+    [
+     7,
+     "経営者は職人気質で「見て盗め」"
+    ],
+    [
+     13,
+     "直営店と加工は常務が中心"
+    ],
+    [
+     14,
+     "後継者は常務の娘。飲食サービスの業界で店舗の運営と商品開発を経験し、農業は未経験。昨年40歳で入社し直営店を担当。若手の提案で商品やカフェが生まれた"
+    ],
+    [
+     15,
+     "経営者と常務は2人とも60歳代後半。世代交代を本格的に考える時期"
+    ]
+   ],
+   "shushi": "次の世代の経営体制へ円滑に移る過程を助言する力をみる。",
+   "e": "・**題意**：助言。期間は今後5年程度（設問の条件。与件に期間の記述はない）。後継者を中心とした体制へ移るときの、権限委譲と人員配置の両方を書く。出題の趣旨は、次の世代の経営体制へ円滑に移る過程。\n・**組み立て**：権限委譲＝順序を示す。後継者の経験（飲食サービスの業界での店舗の運営と商品開発）が生きる直営店と加工から（与件では、直営店は後継者の担当で、直営店と加工の中心は常務）。次に常務の販売と経営管理。人員配置＝後継者は農業が未経験なので、生産は経験のある従業員（与件では1990年代後半に、経験豊富な従業員が連携して品目を広げた。いまの生産の顔ぶれは書かれていないので、この要素は配分を軽くした）を責任者にし、見て盗めの経営者の技術を言葉にして継がせる。提案で商品やカフェを生んだ若手を部門の長に。経営者と常務は相談役で支える。\n**5年の移行の例**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 188\" role=\"img\" aria-label=\"5年の移行の例\" font-size=\"12\"><text x=\"68\" y=\"25.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">後継者</text><path d=\"M74 36L352 36\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"74.0\" y=\"10\" width=\"111.2\" height=\"22\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"129.6\" y=\"25.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">直営店・加工</text><rect x=\"185.2\" y=\"10\" width=\"111.2\" height=\"22\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"240.8\" y=\"25.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">販売・管理も</text><rect x=\"296.4\" y=\"10\" width=\"55.6\" height=\"22\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"324.2\" y=\"25.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">全体</text><text x=\"68\" y=\"55.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">常務</text><path d=\"M74 66L352 66\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"74.0\" y=\"40\" width=\"111.2\" height=\"22\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"129.6\" y=\"55.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">販売・管理</text><rect x=\"185.2\" y=\"40\" width=\"111.2\" height=\"22\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"240.8\" y=\"55.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">引き継ぐ</text><rect x=\"296.4\" y=\"40\" width=\"55.6\" height=\"22\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"324.2\" y=\"55.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">相談役</text><text x=\"68\" y=\"85.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">経営者</text><path d=\"M74 96L352 96\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"74.0\" y=\"70\" width=\"222.4\" height=\"22\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"185.2\" y=\"85.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">生産の技術を伝える</text><rect x=\"296.4\" y=\"70\" width=\"55.6\" height=\"22\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"324.2\" y=\"85.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">相談役</text><text x=\"68\" y=\"108.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">生産の</text><text x=\"68\" y=\"121.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">責任者</text><path d=\"M74 126L352 126\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"129.6\" y=\"100\" width=\"222.4\" height=\"22\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"240.8\" y=\"115.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">経験のある従業員を任命</text><text x=\"68\" y=\"145.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">若手</text><path d=\"M74 156L352 156\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"129.6\" y=\"130\" width=\"222.4\" height=\"22\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"240.8\" y=\"145.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">部門の長に登用</text><path d=\"M74 6L74 156\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M74 156L352 156\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M74.0 156L74.0 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"74.0\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">0</text><path d=\"M129.6 156L129.6 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"129.6\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">1</text><path d=\"M185.2 156L185.2 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"185.2\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">2</text><path d=\"M240.8 156L240.8 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"240.8\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">3</text><path d=\"M296.4 156L296.4 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"296.4\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">4</text><path d=\"M352.0 156L352.0 159\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"352.0\" y=\"170\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">5</text><text x=\"352\" y=\"183\" text-anchor=\"end\" font-size=\"10\" style=\"fill:currentColor\">（年目）</text></svg>\n【図】移行の一例（年は目安で、与件に計画はない）。設問1の部門に人を当てた。\n・**別の答え方**：「生産の若手から責任者を育て、経営者が技術を言葉にして伝える」「後継者に生産の現場も経験させ、地域の農業関係者や大手中食業者との関係を、経営者と常務から引き継ぐ」「直営店の専任の人を採用する」。\n【ひっかけ注意】一度にすべてを任せる、経営者と常務がすぐに退く、は円滑な移行にならない。権限を移す順序がない答えも、過程の助言として弱い。\n【2次】j1.strat.succession|事業承継と後継者の育成\n【1次】kigyo.1.7.2|事業承継\n【1次】kigyo.2.1.4|権限と責任\n【1次】kigyo.1.4.4|知識経営（暗黙知と形式知）"
+  }
+ ]
+}

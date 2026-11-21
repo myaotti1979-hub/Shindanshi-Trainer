@@ -1,0 +1,339 @@
+{
+ "id": "k2-r04-2",
+ "y": 4,
+ "j": 2,
+ "theme": "食肉の卸と加工：県産品の新商品・直営店・ネットの協業",
+ "gist": [
+  "食肉と加工品の製造・販売、従業者45名",
+  "大都市近郊・IC近く、周辺に2つの住民層",
+  "1955年に食肉小売店で開業、60年代に納入も",
+  "品質に定評、仕入先の信頼、3つの売り方",
+  "スーパーは大手卸へ、近隣の3店と取引なし",
+  "1990年代初め、社長が危機感から3点を見直す",
+  "①県内と隣県のホテル・旅館・飲食店を開拓",
+  "X県：都市と自然、産業の均衡、山海の幸と観光",
+  "②自社工場と職人：自社ブランド品と受託製造",
+  "③取引先の調理に合わせた加工と提案",
+  "2019年度は卸9割、宿泊向けが好調で在庫増",
+  "コロナで売上半減、モールのページは埋もれる",
+  "巣ごもりで直営店だけ急伸、手は打ってこず",
+  "取引は収束後もすぐには戻らないと見る",
+  "承継を前に、最終消費者と結びつく領域へ"
+ ],
+ "lesson": [
+  "3C（150字）は顧客・競合・自社に分け、自社は強みと弱みの両方を書く。顧客は「主力の取引先の激減」と「直営店の新しい客」の両方。社長の今後の考え（最終消費者と結びつく領域の強化）は方針なので入れず、今の弱み（卸売依存）として書く。",
+  "依頼した者と目的を答えに映す（第2問：県の依頼→地元の第一次産業の生産者と組み、B社の加工技術で県産品の価値を高める）。コンセプトと販路の両方を書く。",
+  "時点の条件でニーズの変化を読む（第3問：アフターコロナ→巣ごもりが細っても来てもらえる客層と品揃え）。",
+  "設問文の調査の数値も根拠になる（第4問：献立の考案が最多→献立と食材を届ける事業者）。1つの欄の2つの問い（誰と組むか、長く成功させる提案）に両方答える。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 30,
+   "ask": "B社の現状を、3C（顧客・競合・自社）の観点から述べる。150字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "3C",
+     "limit": 150
+    }
+   ],
+   "model": {
+    "a": "顧客は主力のホテル・旅館や飲食店との取引がコロナ禍で激減し早期回復も見込めない一方、直営店に料理に目覚めた客や揚げ物を求める客が増えた。競合は大手食肉卸や近隣の全国チェーンのスーパー、ネットの同業者。自社は品質の定評と仕入先の信頼、職人の加工技術と提案力が強みだが、卸売依存で売上が他社に左右される。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "顧客：主力の宿泊・飲食の取引が激減",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "顧客：直営店に料理好き・揚げ物の客",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "競合：大手食肉卸と近隣のスーパー",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "競合：ネット上の多くの同業者",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "自社：品質の定評と仕入先の信頼",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "自社：職人の加工技術と提案力",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "自社：卸売依存で売上が他社に左右",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "百貨店・スーパーとの取引を通じて品質に定評。仕入先の信頼が厚く、良い肉を仕入れられる"
+    ],
+    [
+     5,
+     "1980年代後半からスーパーは大手食肉卸と取引し、B社の納入は減った。周辺5km圏の全国チェーンのスーパー3店とは取引がない"
+    ],
+    [
+     9,
+     "高い技術の職人を招いた自社工場で、最高級のハム・ソーセージ・ローストビーフを自社ブランドで作る"
+    ],
+    [
+     10,
+     "取引先の調理に合わせたカット、指定の個数でのパッキング、途中までの調理。飲食店へのメニュー提案も増えた"
+    ],
+    [
+     11,
+     "2019年度の売上は、卸売が9割、直営小売が1割"
+    ],
+    [
+     12,
+     "コロナで2020年度の売上は前年度の約半分。大手モールでは同業者が多く、B社のページが埋もれた"
+    ],
+    [
+     13,
+     "巣ごもりで直営店の販売だけが急伸。料理を楽しむようになった客や、揚げたての総菜を求める客が来るようになった"
+    ],
+    [
+     14,
+     "ホテル・旅館の取引の激減と飲食店の閉店を見て、収束後もすぐ元の水準には戻らないと考える"
+    ],
+    [
+     15,
+     "卸売を主軸にしてきたため、売上が取引先の動きに左右されると気づいた"
+    ]
+   ],
+   "shushi": "社内と社外の両面から、B社の経営環境を分析する力をみる。",
+   "e": "・**題意**：B社の今の姿を、顧客・競合・自社の3つの観点で150字（出題の趣旨も、内と外の経営環境の分析）。時点の指定はない。\n**3Cの要素と使う設問**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 376\" role=\"img\" aria-label=\"3Cの要素と使う設問\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"22.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">3C</text><text x=\"157.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"315.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">使う設問</text><text x=\"22.0\" y=\"53.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">主力のホテル・旅館・</text><text x=\"50\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">飲食店（卸売が9割）。</text><text x=\"50\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">コロナで激減し、すぐには戻らない</text><text x=\"276\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">第4問（最終</text><text x=\"276\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">消費者へ）</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"98.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">直営店に、料理を楽しむようになった</text><text x=\"50\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">客と、揚げたての総菜を求める客</text><text x=\"276\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"135.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">顧客</text><text x=\"50\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">周辺に、田畑を持つ古くからの住民と、</text><text x=\"50\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">現役世代の家族の集合住宅</text><text x=\"276\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"165.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">競合</text><text x=\"50\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">大手食肉卸（スーパーとの取引が移った）</text><text x=\"276\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">—</text><path d=\"M1 172.8L359 172.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"203.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">競合</text><text x=\"50\" y=\"195.5\" font-size=\"11\" style=\"fill:currentColor\">周辺5km圏の全国チェーンのスーパー3店</text><text x=\"50\" y=\"210.7\" font-size=\"11\" style=\"fill:currentColor\">（食肉も扱い、B社と取引なし）</text><text x=\"276\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><text x=\"276\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">（専門店の</text><text x=\"276\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">品揃え）</text><path d=\"M1 225.4L359 225.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"248.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">競合</text><text x=\"50\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">大手モールの多くの食肉販売業者</text><text x=\"50\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">（B社のページが埋もれた）</text><text x=\"276\" y=\"240.5\" font-size=\"11\" style=\"fill:currentColor\">第4問（単独で</text><text x=\"276\" y=\"255.7\" font-size=\"11\" style=\"fill:currentColor\">売らない）</text><path d=\"M1 262.8L359 262.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"285.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">自社</text><text x=\"50\" y=\"277.9\" font-size=\"11\" style=\"fill:currentColor\">強み：品質の定評、仕入先の信頼</text><text x=\"50\" y=\"293.1\" font-size=\"11\" style=\"fill:currentColor\">（良い肉を仕入れられる）</text><text x=\"276\" y=\"285.5\" font-size=\"11\" style=\"fill:currentColor\">第2〜4問</text><path d=\"M1 300.2L359 300.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"322.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">自社</text><text x=\"50\" y=\"315.3\" font-size=\"11\" style=\"fill:currentColor\">強み：職人の加工技術、取引先の</text><text x=\"50\" y=\"330.5\" font-size=\"11\" style=\"fill:currentColor\">調理に合わせた加工とメニュー提案</text><text x=\"276\" y=\"322.9\" font-size=\"11\" style=\"fill:currentColor\">第2〜4問</text><path d=\"M1 337.6L359 337.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"22.0\" y=\"360.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">自社</text><text x=\"50\" y=\"352.7\" font-size=\"11\" style=\"fill:currentColor\">弱み：卸売に依存し、</text><text x=\"50\" y=\"367.9\" font-size=\"11\" style=\"fill:currentColor\">売上が取引先の動きに左右される</text><text x=\"276\" y=\"360.3\" font-size=\"11\" style=\"fill:currentColor\">第3問・第4問</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M44 0L44 374.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M270 0L270 374.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"374.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】後の設問の根拠になる要素を優先した。自社は強みと弱みの両方を書く。\n・**組み立て**：顧客＝主力の取引先（ホテル・旅館・飲食店）の激減と回復の遅れ、直営店に来るようになった新しい客。競合＝卸の相手（大手食肉卸）、小売の相手（近隣の全国チェーンのスーパー）、ネットの相手（モールの同業者）。自社＝強み（品質の定評と仕入先の信頼、職人の加工技術、調理に合わせた加工と提案）と弱み（卸売依存）。\n・**別の答え方**：顧客に「直営店の周辺に、古くからの住民と現役世代の家族が住む」。自社に「相手先ブランドの加工品の製造も請け負える」「直営店は開業以来、手を打ってこなかった」「コロナで売上が前年度の約半分」「事業承継を控える」。\n【ひっかけ注意】近隣の全国チェーンのスーパーは、今はB社の取引先ではない（直営店から見た競合）。大手モールでの販売はうまくいかなかったので強みにしない。社長の今後の考え（最終消費者と直に結びつく事業を強める）は方針なので、現状の分析には入れない（卸売依存という今の弱みとして書く）。\n【2次】j2.base.anal|現状分析の設問（SWOT・3C）\n【1次】kigyo.3.2.1|企業の競争市場戦略（3C分析とKFS）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "前提（設問文）：B社はX県から、地元の事業者と組んで第一次産業を立て直し、県の社会経済の活動を後押ししてほしいと頼まれ、自社の製造加工の技術力を生かした新商品を開発することにした。商品コンセプトと販路をはっきりさせて助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "新商品",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "コンセプトは、県産の畜産物や野菜・果物を生かし職人がハムなどに仕上げた、県の味を楽しむ高級な土産・贈答品。地元の生産者と共同開発し、道の駅や高速道路の土産物店で観光客に売り、第一次産業を活性化する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "県産の畜産物・野菜・果物を使う",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "職人の技でハムなどに加工",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "県の味の高級な土産・贈答品",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "地元の生産者と共同開発",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "販路：道の駅・高速道路の土産物店",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "第一次産業の活性化",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "百貨店向けに、贈答用を含む最高級の品を扱ってきた"
+    ],
+    [
+     8,
+     "X県は農業（野菜・果物・畜産など）、漁業、工業、商業、観光が均衡して育つ。山の幸・海の幸の特産品と、四季の見どころのある観光地・大規模な集客施設がある"
+    ],
+    [
+     9,
+     "職人による最高級のハム・ソーセージ・ローストビーフ（自社ブランド）。詰め合わせで贈答品になる。販売先は直営店・高速道路の土産物店・道の駅"
+    ],
+    [
+     10,
+     "取引先ごとに、調理に合わせたカットや途中までの調理など、細かな加工に応じられる"
+    ]
+   ],
+   "shushi": "自社の強みを生かして地域の課題を解くための、商品戦略と流通戦略を助言する力をみる。",
+   "e": "・**題意**：X県の依頼（地元の事業者と組み、第一次産業を立て直し、県の社会経済の活動を進める）に応える新商品。B社の製造加工の技術力を生かす。答えるのは商品コンセプトと販路の両方。出題の趣旨は、自社の強みで地域の課題を解く商品戦略と流通戦略。\n**新商品の組み立て**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 234\" role=\"img\" aria-label=\"新商品の組み立て\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"33.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">要素</text><text x=\"140.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">解答例</text><text x=\"287.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">組む相手</text><text x=\"72\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">地元の生産者（畜産農家、</text><text x=\"72\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">野菜・果物の農家）</text><text x=\"220\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">X県の農業は野菜・</text><text x=\"220\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">果物・畜産など。漁業も</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">素材</text><text x=\"72\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">県産の畜産物、野菜・果物</text><text x=\"220\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">山の幸・海の幸の特産品</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"105.5\" font-size=\"11\" style=\"fill:currentColor\">B社の技術</text><text x=\"72\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">職人がハム・</text><text x=\"72\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">ソーセージなどに加工</text><text x=\"220\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">職人を招いた自社工場。</text><text x=\"220\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">最高級の自社ブランド品</text><rect x=\"1\" y=\"120.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 120.2L359 120.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">コン</text><text x=\"6\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">セプト</text><text x=\"72\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">県の味を楽しむ</text><text x=\"72\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">高級な土産・贈答品</text><text x=\"220\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">詰め合わせで贈答品に。</text><text x=\"220\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">百貨店向けの最高級品</text><rect x=\"1\" y=\"157.6\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 157.6L359 157.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.3\" font-size=\"11\" style=\"fill:currentColor\">販路</text><text x=\"72\" y=\"172.7\" font-size=\"11\" style=\"fill:currentColor\">道の駅、高速道路の</text><text x=\"72\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">土産物店（観光客）</text><text x=\"220\" y=\"172.7\" font-size=\"11\" style=\"fill:currentColor\">すでに加工品を置く販路。</text><text x=\"220\" y=\"187.9\" font-size=\"11\" style=\"fill:currentColor\">四季の観光地</text><path d=\"M1 195.0L359 195.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"217.7\" font-size=\"11\" style=\"fill:currentColor\">効果</text><text x=\"72\" y=\"210.1\" font-size=\"11\" style=\"fill:currentColor\">県産品の需要が増え、</text><text x=\"72\" y=\"225.3\" font-size=\"11\" style=\"fill:currentColor\">第一次産業が活気づく</text><text x=\"220\" y=\"217.7\" font-size=\"11\" style=\"fill:currentColor\">県の依頼（設問文）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M66 0L66 231.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M214 0L214 231.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"231.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】色の付いた2行が設問の指定（コンセプトと販路）で、観点の配分もこの2つに重く置いた（販路は1つの要素で6点）。与件は、X県の農業の例として野菜・果物・畜産を挙げている。\n・**組み立て**：誰と（地元の生産者＝第一次産業）→何を（県産の畜産物や野菜・果物を生かし、職人の技でハムなどに仕上げる。B社の技術と県の素材の掛け合わせ）→コンセプト（県の味を楽しむ高級な土産・贈答品。最高級品と詰め合わせの実績）→どこで（道の駅と高速道路の土産物店。B社の加工品がすでに並ぶ販路で、車で来る観光客に会える）→効果（県産品の需要が増え、生産者の売り先と付加価値が広がる）。\n・**別の答え方**：「生産者のブランドで加工品を受託製造する（相手先ブランドの製造の力）」「四季の観光地や集客施設で、季節ごとの限定品を売る」「県内のホテル・旅館の料理や売店で使ってもらう」「海の幸（漁業）と組んだ詰め合わせ」。\n【ひっかけ注意】コンセプトだけ・販路だけで終わらない。B社の売上だけで結ぶと、県の依頼（第一次産業の再活性化）からそれる。組む相手が今の取引先（ホテル・旅館・飲食店）だけで県の素材が出てこない答えや、県外から素材を仕入れる商品では、第一次産業の立て直しにつながらない。\n【2次】j2.mix.product|商品・サービス（何を）\n【2次】j2.rel.collab|協業と地域の資源\n【2次】j2.mix.price|価格と販路（販路の選び方）\n【1次】kigyo.3.5.3|新製品開発（製品コンセプト）\n【1次】chusho.2.1.5|商業・地域サポート（農商工等連携）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "B社は、アフターコロナを見すえ、直営する食肉の小売店の販売力を強めたい。顧客ターゲットと品揃えの2つの観点で助言する。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "施策",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "ターゲットは巣ごもりで料理好きになった客と、近隣の現役世代の家族。品揃えは、料理好きには調理法に合うカットの肉、忙しい家族には下味付きの肉や半調理品、作りたての総菜を揃え、コロナ後も固定客にする。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "ターゲット：料理好きになった客",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "ターゲット：近隣の現役世代の家族",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "料理好きに調理法に合うカットの肉",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "家族に下味付きの肉・半調理品",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "作りたての総菜",
+     "w": 2
+    },
+    {
+     "f": "a",
+     "t": "コロナ後も固定客にする",
+     "w": 2
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "工業団地があり、現役世代の家族が住む集合住宅も多い。古くからの住民もいる。車で来やすい"
+    ],
+    [
+     3,
+     "開業のときから、肉の端材を使った揚げたてのコロッケなどの総菜を扱う"
+    ],
+    [
+     4,
+     "直営店は対面の接客で、買物客のニーズに合わせて売る"
+    ],
+    [
+     5,
+     "周辺5km圏に全国チェーンのスーパーが3店（食肉も扱う）"
+    ],
+    [
+     10,
+     "取引先向けに、調理に合わせたカットや途中までの調理をこなす加工の技術がある"
+    ],
+    [
+     13,
+     "巣ごもりで直営店の販売だけが急伸。料理を楽しむようになった客、揚げたての総菜を求める客。開業以来、手は打ってこなかった"
+    ]
+   ],
+   "shushi": "伸びている自社の事業（直営店）を強めるための、ターゲティングの戦略を助言する力をみる。",
+   "e": "・**題意**：アフターコロナを見すえ、直営する食肉の小売店の販売力を強める。答えるのは顧客ターゲットと品揃えの2つ。出題の趣旨は、成長している自社の事業を強めるターゲティングの戦略。\n**客層と品揃え**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 182\" role=\"img\" aria-label=\"客層と品揃え\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">客層（与件）</text><text x=\"158.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">コロナの後に</text><text x=\"158.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">求めるもの（推測）</text><text x=\"288.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">品揃え（解答例）</text><rect x=\"1\" y=\"38.4\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">料理を楽しむ</text><text x=\"6\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">ようになった客</text><text x=\"106\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">専門店の肉で、</text><text x=\"106\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">家の料理を</text><text x=\"106\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">楽しみ続けたい</text><text x=\"222\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">調理法に合うカットの肉</text><text x=\"222\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（取引先向けの</text><text x=\"222\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">カットの技術）</text><rect x=\"1\" y=\"91.0\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">近隣の現役世代の</text><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">家族（集合住宅）</text><text x=\"106\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">仕事に戻り、平日は</text><text x=\"106\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">調理の時間が少ない</text><text x=\"222\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">下味付きの肉、</text><text x=\"222\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">半調理品、作りたての総菜</text><text x=\"222\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">（揚げ物を買う客にも）</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">田畑を持つ</text><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">古くからの住民</text><text x=\"106\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">与件に需要の</text><text x=\"106\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">記述はない</text><text x=\"222\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">別の答え方：贈答用の</text><text x=\"222\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">加工品の詰め合わせなど</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 180.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M216 0L216 180.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"180.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】色の付いた2行を選んだ。与件の客層から、コロナの後も来てもらえる2つを選び、それぞれに品揃えを合わせた（差別型）。真ん中の列は推測（与件に書かれているのは客層まで）。\n・**組み立て**：時点（巣ごもりの需要は細り、現役世代は仕事に戻る）→誰に（巣ごもりで料理好きになった客、近隣の現役世代の家族）→品揃え（料理好きには調理法に合うカット、忙しい家族には下味付きの肉・半調理品・作りたての総菜。取引先向けに培ったカットと途中までの調理の技術を店で生かす）→効果（コロナの後も通う固定客。近隣のスーパーとは専門店の品揃えで差をつける）。\n・**別の答え方**：「古くからの住民に、自社ブランドのハム・ソーセージ・ローストビーフの詰め合わせを贈答用に」「IC近くで車で来やすいので、週末のまとめ買いの家族に焼肉・ステーキ用の肉」「対面の接客で、部位や調理法を提案する（品揃えを生かす接客）」。\n【ひっかけ注意】「巣ごもりの需要に応える」だけでは、アフターコロナの条件に答えていない。ターゲットか品揃えの片方だけ、オンラインや卸の施策を混ぜる、近隣のスーパーと安さで競う、はいずれも題意からそれる。「忙しい」は与件の「現役世代」とアフターコロナからの推測なので、それ以上の属性（共働きなど）は足さない。\n【2次】j2.mix.target|ターゲット（誰に）\n【2次】j2.mix.product|商品・サービス（何を：品揃え）\n【1次】kigyo.3.2.2|マーケティング・マネジメント（STPと4P）\n【1次】unei.2.2.1|商品販売計画（商品構成：品揃えの幅と奥行き）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 30,
+   "ask": "前提（設問文）：社長は、新しい事業として、最終消費者に向けたオンラインの販売チャネルを開きたい。大手のネットショッピングモールで自社だけで売ってうまくいかなかったので、オンライン販売の事業者と協業して進めたいと考えている。設問文の調査（家庭の食の家事で最も簡便にしたい工程）では、献立の考案が約3割で最も多い。問いは2つ：どんな事業者と組むべきか、協業を長く成功させるためにB社は何を提案すべきか。150字以内。配点は第4問で30点（2つの問いの内訳は示されていない）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "協業先と提案",
+     "limit": 150
+    }
+   ],
+   "model": {
+    "a": "献立や調理の手間を省きたい消費者に、献立と食材を届けるミールキットの宅配事業者と協業する。提案は、①献立に合わせカット・下味付け・小分けした肉や半調理品を安定供給、②季節の献立を共同開発、③協業先のサイトで食肉専門店B社の品質と職人の技を発信、④利用者の声を共有して改良し、長く選ばれるキットにする。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "献立と食材を届けるミールキット事業者",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "カット・下味・小分けの肉と半調理品",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "季節の献立の共同開発",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "協業先のサイトでB社の品質を発信",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "利用者の声を共有し改良を続ける",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "品質に定評。仕入先の信頼が厚く、良い肉を仕入れられる（安定した供給の裏づけ）"
+    ],
+    [
+     9,
+     "職人による自社ブランドの加工品。取引先の求めで、相手先ブランドの製造も請け負える"
+    ],
+    [
+     10,
+     "取引先の調理に合わせたカット、指定の個数でのパッキング、途中までの調理。飲食店へのメニュー提案"
+    ],
+    [
+     12,
+     "大手モールに出店して焼肉・ステーキ用の冷凍肉を売ったが、同業者が多くページが埋もれた"
+    ],
+    [
+     15,
+     "今後は、最終消費者と直に結びつく事業の領域を強めるべきだと考えた"
+    ]
+   ],
+   "shushi": "新しい市場に入るのに要る取引関係づくりと商品戦略、協業先が行うべきコミュニケーションの戦略の提案を助言する力をみる。",
+   "e": "・**題意**：1つの欄で2つの問いに答える。①どのようなオンライン販売の事業者と協業するか、②協業を長く成功させるためのB社の提案。前提（大手モールに単独で出てうまくいかなかったこと〔与件にもある〕、消費者の調査）は設問文にある。出題の趣旨は、新しい市場に入るための取引関係づくりと商品戦略、協業先が行うべきコミュニケーションの戦略。\n**調査：最も簡便にしたい家事の工程（％）**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"最も簡便にしたい家事の工程\" font-size=\"12\"><path d=\"M40 168L350 168\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 168L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">％</text><rect x=\"47.1\" y=\"30.5\" width=\"30.1\" height=\"137.5\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"62.1\" y=\"26.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">29.4</text><text x=\"62.1\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">献立の</text><text x=\"62.1\" y=\"193\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">考案</text><rect x=\"91.4\" y=\"75.4\" width=\"30.1\" height=\"92.6\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"106.4\" y=\"71.4\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">19.8</text><text x=\"106.4\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">調理</text><rect x=\"135.7\" y=\"82.9\" width=\"30.1\" height=\"85.1\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"150.7\" y=\"78.9\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">18.2</text><text x=\"150.7\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">後片付け</text><rect x=\"179.9\" y=\"118.0\" width=\"30.1\" height=\"50.0\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"195.0\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">10.7</text><text x=\"195.0\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">食材の</text><text x=\"195.0\" y=\"193\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">購入</text><rect x=\"224.2\" y=\"128.2\" width=\"30.1\" height=\"39.8\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"239.3\" y=\"124.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">8.5</text><text x=\"239.3\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">容器</text><text x=\"239.3\" y=\"193\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">のごみ</text><rect x=\"268.5\" y=\"152.6\" width=\"30.1\" height=\"15.4\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"283.6\" y=\"148.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">3.3</text><text x=\"283.6\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">盛り付け</text><text x=\"283.6\" y=\"193\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">配膳</text><rect x=\"312.8\" y=\"119.8\" width=\"30.1\" height=\"48.2\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"327.9\" y=\"115.8\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">10.3</text><text x=\"327.9\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">特にない</text></svg>\n【図】設問文が文で示した調査（日本政策金融公庫、令和4年1月）の数値を図にした。色の付いた上位3つ（献立の考案・調理・後片付け）に、協業先とB社の提案で応える。\n**協業先と提案**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 272\" role=\"img\" aria-label=\"協業先と提案\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"144.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">提案の中身（解答例）</text><text x=\"289.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件・設問の根拠</text><text x=\"6\" y=\"61.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">協業先</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">献立と食材を届ける</text><text x=\"76\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">ミールキットの宅配事業者</text><text x=\"224\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">設問の調査：</text><text x=\"224\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">献立の考案が最多。</text><text x=\"224\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">大手モールでは埋もれた</text><text x=\"224\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">（与件）</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">商品</text><text x=\"76\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">献立に合わせたカット・</text><text x=\"76\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">下味付け・</text><text x=\"76\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">小分けの肉、半調理品</text><text x=\"224\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">取引先向けのカット、</text><text x=\"224\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">個数のパッキング、</text><text x=\"224\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">途中までの調理</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">取引関係</text><text x=\"76\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">季節の献立の共同開発。</text><text x=\"76\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">良い肉の安定供給</text><text x=\"224\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">飲食店へのメニュー</text><text x=\"224\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">提案。仕入先の信頼</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">協業先の</text><text x=\"6\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">発信</text><text x=\"76\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">食肉専門店B社の品質と</text><text x=\"76\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">職人の技をサイトで伝える</text><text x=\"224\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">品質の定評と職人。</text><text x=\"224\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">最終消費者と</text><text x=\"224\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">結びつきたい</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">続ける</text><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">仕組み</text><text x=\"76\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">利用者の声を共有し、</text><text x=\"76\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">改良を続ける</text><text x=\"224\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">長く成功させる</text><text x=\"224\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">（設問文）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M218 0L218 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"270.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】協業先の発信は、出題の趣旨が名指しした論点（協業先がとるコミュニケーション）。続ける仕組みは与件に直接の根拠がなく、設問の長期の成功の条件に応える要素なので、配分を軽くした。\n・**組み立て**：誰と（献立の考案が最多→献立と食材を届けるミールキットの宅配事業者。集客は協業先が担う）→商品（取引先向けの技術：調理に合わせたカット、個数のパッキング、途中までの調理→下味付き・人数分の小分け・半調理品で、調理と後片付けの手間も減らす）→取引関係（メニュー提案の力で季節の献立を共同開発。良い肉を安定して供給）→協業先の発信（食肉専門店B社の品質と職人の技を伝え、キットの差別化とB社の認知を両立）→続ける仕組み（利用者の声を共有して改良）。\n・**別の答え方**：「料理のレシピのサイトと組み、献立の提案から肉の注文へつなぐ」「自社ブランドのローストビーフなどを、献立の主菜や特別な日のキットに組み込む」「キットに直営店の案内を同梱し、店にも来てもらう」。ネットスーパーと組む案は、食材の購入（約1割）には応えるが、最も多い献立の考案には応えにくい。相手先ブランドだけで供給する案は、B社の名が消費者に届かず、最終消費者と結びつきたい社長の考えとは合いにくい。\n【ひっかけ注意】協業先の種類だけ書いて、長く成功させる提案（2つ目の問い）を落とさない。大手モールへの再出店や自社サイトだけの販売は、自社単独なので設問の前提に合わない。冷凍在庫をさばくような一時の取引では、長期の成功にならない。第3問の直営店の品揃えと同じ書き方にせず、献立とのセット・小分け・宅配の形で書く。\n【2次】j2.rel.collab|協業と地域の資源（組む相手と、両方が得るもの）\n【2次】j2.rel.digital|デジタルの活用\n【2次】j2.mix.price|価格と販路（ネット販売の事業者）\n【1次】kigyo.1.2.6|戦略的提携（提携のメリットとリスク、OEM）\n【1次】kigyo.3.6.3|ブランド・マネジメント（PBとダブルチョップ）"
+  }
+ ]
+}
