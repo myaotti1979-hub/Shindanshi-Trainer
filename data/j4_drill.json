@@ -7169,6 +7169,637 @@
    },
    "e": "【考え方】振替価格は事業部間の取引の価格で、全社の利益は変えずに、事業部の間で利益を分ける。全部原価に利潤を加える方法は計算しやすいが、製造事業部の原価がそのまま（利潤を付けて）小売事業部に回るので、製造事業部の効率の良し悪しが製造事業部の利益に出にくい。\n【設問1】当期の変動製造原価の上昇（600円×16,000足＝9,600千円）は製造事業部の非効率によるものだが、小売事業部への供給分は利潤を加えた720円の値上げとして転嫁され、小売事業部の営業利益が7,200千円減った。製造事業部は、供給の分ではかえって利益が1,200千円増え、卸の分（△3,600千円）と合わせて2,400千円しか減っていない。\n【設問2】小売事業部にとっての仕入原価は振替価格11,520円だが、全社にとって製造事業部で作る原価は、固定製造原価が変わらないので変動製造原価6,600円だけ。外部から10,500円で買うと、小売事業部の利益は増えるが、全社では1足3,900円の損になる。\n【設問3】製造事業部は原価を下げなくても利益が出る（原価低減の意欲が弱まる）。小売事業部は管理できない製造事業部の原価で業績が左右され、全社に不利な判断（外部からの仕入れ）を選びうる。改善策の例：実際の原価でなく標準原価（予定の原価）を基準にして、原価の差異は製造事業部に負わせる。外部に市場がある製品は、市価（卸の価格から内部の取引で不要になる販売費を引いた額）を基準にする。製造事業部に余力がある場合の外部からの仕入れは、全社の差額（変動製造原価と外部の価格の差）で本社が判断する。\n【本試験での注意】令和6年度第4問設問1は、全部原価に一定の利潤を上乗せした価格で事業部間の取引を行っていることについて、事業部の業績評価上の問題点を80字以内で問うた（数値はなく記述だけ）。振替価格の設問は、①供給する側の原価の効率、②受け入れる側の業績の公正さ、③全社の利益との一致、の3つの観点で整理するとよい。\n【図】上は、1足当たりの振替価格の内訳。中は、当期の原価の上昇を、どの事業部が負ったか。下は、外部から仕入れた場合の、事業部ごとと全社の営業利益の増減。",
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">振替価格の内訳（1足当たり。単位：円）。変動製造原価の上昇600円に利潤が加わり、振替価格は720円上がる</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"振替価格の内訳（1足当たり）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1足当たり（円）</text><text x=\"185.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">前期</text><text x=\"255.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当期</text><text x=\"325.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">増減</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">変動製造原価</text><text x=\"214\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6,000</text><text x=\"284\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6,600</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋600</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">固定製造原価</text><text x=\"214\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,000</text><text x=\"284\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,000</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">全部原価</text><text x=\"214\" y=\"82.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">9,000</text><text x=\"284\" y=\"82.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">9,600</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＋600</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">利潤（全部原価の20%）</text><text x=\"214\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,800</text><text x=\"284\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,920</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋120</text><rect x=\"1\" y=\"112.0\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 112.0L359 112.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">振替価格</text><text x=\"214\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">10,800</text><text x=\"284\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">11,520</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＋720</text><path d=\"M1 134.2L359 134.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"149.3\" font-size=\"11\" style=\"fill:currentColor\">小売の</text><text x=\"6\" y=\"164.5\" font-size=\"11\" style=\"fill:currentColor\">販売価格−変動販売費</text><text x=\"214\" y=\"156.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20,900</text><text x=\"284\" y=\"156.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20,900</text><text x=\"354\" y=\"156.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0</text><path d=\"M1 171.6L359 171.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"186.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">小売の1足当たりの</text><text x=\"6\" y=\"201.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">限界利益</text><text x=\"214\" y=\"194.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">10,100</text><text x=\"284\" y=\"194.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">9,380</text><text x=\"354\" y=\"194.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">△720</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M220 0L220 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 208.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"208.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">当期の原価の上昇（600円×16,000足＝9,600千円）を、どの事業部が負ったか（単位：千円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 154\" role=\"img\" aria-label=\"当期の原価の上昇を、どの事業部が負ったか（千円）\" font-size=\"12\"><rect x=\"253.0\" y=\"16.0\" width=\"45.0\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"170\" y=\"20.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">製造事業部：卸の分</text><text x=\"170\" y=\"35.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（600円×6,000足）</text><text x=\"356\" y=\"28.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－3,600</text><rect x=\"253.0\" y=\"56.0\" width=\"15.0\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"170\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">製造事業部：供給の分（利潤の</text><text x=\"170\" y=\"75.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">上乗せ120円×10,000足）</text><text x=\"356\" y=\"68.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋1,200</text><path d=\"M253.0 32.0L253.0 56.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"178.0\" y=\"96.0\" width=\"90.0\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"170\" y=\"100.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">小売事業部（振替価格の</text><text x=\"170\" y=\"115.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">上昇720円×10,000足）</text><text x=\"356\" y=\"108.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－7,200</text><path d=\"M268.0 72.0L268.0 96.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"178.0\" y=\"129.0\" width=\"120.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"170\" y=\"141.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">全社の営業利益の増減</text><text x=\"356\" y=\"141.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－9,600</text><path d=\"M178.0 112.0L178.0 129.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M298.0 2L298.0 150\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問2：外部から4,000足を仕入れた場合の営業利益の増減（小売事業部は振替価格11,520円と外部の10,500円の差で得をするが、全社では変動製造原価6,600円で作れる靴を10,500円で買う）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"外部から仕入れた場合の営業利益の増減\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\"></text><text x=\"180.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1足当たり（円）</text><text x=\"300.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">4,000足（千円）</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">小売事業部</text><text x=\"234\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">＋1,020</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">＋4,080</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">製造事業部</text><text x=\"234\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△4,920</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△19,680</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">D社全体</text><text x=\"234\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">△3,900</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">△15,600</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M240 0L240 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"91.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-lp-01",
+   "cat": "lp",
+   "lv": 2,
+   "min": 18,
+   "src": "R4-第2問（設問1：制約1つ〈直接作業時間〉の組み合わせ、設問2：材料の消費量の上限を加えた制約2つの組み合わせ。利益と計算過程）",
+   "title": "無垢材の家具：作業時間の制約に、木材の制約が加わった組み合わせ",
+   "lead": "D社は、地方都市で無垢材の家具を作る工房で、職人が仕上げた本棚とダイニングテーブル（以下、テーブル）を、家具店と自社のウェブサイトで販売している。職人は正社員の10人で、作業時間は月1,600時間（1人160時間）が上限である。職人の給与は固定費で、残業はしない。\n製品のデータは次の表のとおりである。需要の上限は、家具店からの受注と自社サイトでの販売の見込みを合わせた月間の販売可能な数量で、これを超えて作っても売れない。木材は乾燥済みの国産の広葉樹で、1m³当たり150,000円で仕入れている。固定費（職人の給与、工房の賃借料、減価償却費など）は月6,000,000円で、生産量によって変わらない。",
+   "tables": [
+    {
+     "cap": "製品のデータ（1台当たり）",
+     "unit": "",
+     "head": [
+      "項目",
+      "本棚",
+      "テーブル"
+     ],
+     "rows": [
+      [
+       "販売価格（円）",
+       "58,000",
+       "160,000"
+      ],
+      [
+       "木材の使用量（m³）",
+       "0.12",
+       "0.30"
+      ],
+      [
+       "その他の変動費（円）",
+       "10,000",
+       "25,000"
+      ],
+      [
+       "職人の作業時間（時間）",
+       "6",
+       "20"
+      ],
+      [
+       "月間の需要の上限（台）",
+       "120",
+       "56"
+      ]
+     ],
+     "note": "その他の変動費は、金具・塗料・梱包材・配送の費用である。作ったものは、需要の上限までならすべて販売できる。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "木材は必要なだけ仕入れられるものとする。営業利益が最大となる本棚とテーブルの月間の生産・販売量と、そのときの営業利益（円）を求めよ。生産・販売量は整数とする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "x1",
+       "type": "num",
+       "label": "本棚の生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 120
+      },
+      {
+       "k": "y1",
+       "type": "num",
+       "label": "テーブルの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 44
+      },
+      {
+       "k": "op1",
+       "type": "num",
+       "label": "営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 1560000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "1台当たりの限界利益：本棚＝58,000−木材0.12×150,000−10,000＝30,000円、テーブル＝160,000−0.30×150,000−25,000＝90,000円",
+      "制約は作業時間だけなので、作業時間1時間当たりの限界利益で順位を決める：本棚30,000÷6＝5,000円＞テーブル90,000÷20＝4,500円 → 本棚を優先",
+      "本棚を需要の上限120台まで作る（作業時間720時間）。残り1,600−720＝880時間でテーブルを880÷20＝44台（需要の上限56台以内）",
+      "営業利益＝30,000×120＋90,000×44−固定費6,000,000＝3,600,000＋3,960,000−6,000,000＝1,560,000円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "今期は、木材の産地で伐採が減ったため、D社が仕入れられる木材は月27m³に限られることになった。そのほかの条件は設問1と同じとする。営業利益が最大となる本棚とテーブルの月間の生産・販売量と、そのときの営業利益（円）を求めよ。生産・販売量は整数とする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "x2",
+       "type": "num",
+       "label": "本棚の生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 100
+      },
+      {
+       "k": "y2",
+       "type": "num",
+       "label": "テーブルの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 50
+      },
+      {
+       "k": "op2",
+       "type": "num",
+       "label": "営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 1500000
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "設問1の組み合わせ（本棚120台・テーブル44台）では、木材が0.12×120＋0.30×44＝27.6m³必要で、27m³を超えるので作れない",
+      "本棚をx台、テーブルをy台とする。制約：作業時間 6x＋20y≦1,600、木材 0.12x＋0.30y≦27、x≦120、y≦56",
+      "作業時間と木材の交点：木材の式を50倍すると6x＋15y＝1,350。作業時間の式から引くと5y＝250 → y＝50、x＝（1,600−20×50）÷6＝100（需要の上限以内）",
+      "ほかの端点：木材と本棚の上限の交点（x＝120、y＝（27−0.12×120）÷0.30＝42）、作業時間とテーブルの上限の交点（y＝56、x＝（1,600−20×56）÷6＝80）",
+      "限界利益の合計：（100, 50）7,500,000円、（120, 42）7,380,000円、（80, 56）7,440,000円 → 交点（100台, 50台）が最大",
+      "営業利益＝7,500,000−6,000,000＝1,500,000円"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "社長は、「木材が足りない今期も、作業時間1時間当たりの限界利益が大きい本棚を優先して作り、残りでテーブルを作ればよい」と考えている。設問1・2の結果を踏まえ、この考えの問題点を60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "木材当たりでは限界利益の順位が逆で、本棚優先では木材が先に尽き作業時間が余る。営業利益は最適より120,000円少ない。",
+       "points": [
+        "木材1m³当たりでは限界利益の順位が逆になり、作業時間当たりの順では決まらない（端点を比べる）",
+        "本棚を優先すると木材が先に尽き、作業時間が余る（本棚120台・テーブル42台）",
+        "営業利益が最適（本棚100台・テーブル50台）より120,000円少ない"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "x1": "よくある誤り：80台は、1台当たりの限界利益が大きいテーブルを先に需要の上限まで作った場合（営業利益1,440,000円）。制約が1つのときは、制約の資源（作業時間）1時間当たりの限界利益で順位を決める。266台は、需要の上限を忘れて本棚だけを作った場合で、本棚は120台しか売れない。",
+    "y1": "よくある誤り：56台は、テーブルを先に需要の上限まで作った場合。テーブルは1台当たりの限界利益は大きいが、作業時間1時間当たりでは本棚より小さい。",
+    "op1": "よくある誤り：1,440,000円は、テーブルを先に作った場合。1,980,000円は、需要の上限を忘れて本棚を266台作った場合。7,560,000円は、固定費を差し引いていない（限界利益の合計）。",
+    "x2": "よくある誤り：120台は、設問1と同じく作業時間当たりの限界利益が大きい本棚を優先した場合（テーブル42台。木材が先に尽き、作業時間が40時間余る）。80台は、木材1m³当たりの限界利益が大きいテーブルを優先した場合（テーブル56台）。制約が2つのときは、どちらの順でも決まらないので端点を比べる。",
+    "y2": "よくある誤り：42台は本棚を優先した場合、56台はテーブルを優先した場合、44台は設問1のまま（木材が27.6m³必要で作れない）。",
+    "op2": "よくある誤り：1,380,000円は本棚を優先した場合、1,440,000円はテーブルを優先した場合で、どちらも最適より小さい。1,560,000円は木材の制約を入れていない（設問1のまま）。7,500,000円は、固定費を差し引いていない。"
+   },
+   "e": "【考え方】資源の制約が1つなら、その資源1単位当たりの限界利益が大きい製品から、需要の上限まで作る（1台当たりの限界利益の順ではない）。制約が2つになると、資源ごとの順位が食い違うことがあり、どちらの順でも決まらない。その場合は、制約の直線が作る範囲の角（端点）の限界利益を比べる（線形計画法）。固定費は組み合わせによって変わらないので、組み合わせは限界利益で決め、最後に固定費を差し引いて営業利益を出す。\n【設問1】作業時間1時間当たりの限界利益は本棚5,000円・テーブル4,500円で、本棚を上限の120台まで作り、残りの880時間でテーブル44台。営業利益は1,560,000円。1台当たりの限界利益の大きいテーブルを先に作ると、営業利益は1,440,000円に下がる。\n【設問2】木材1m³当たりの限界利益はテーブル（300,000円）が本棚（250,000円）より大きく、作業時間当たりとは順位が逆になる。本棚を優先すると（ア）木材が先に尽きて作業時間が40時間余り、テーブルを優先すると（ウ）作業時間が先に尽きる。作業時間と木材の両方を使い切る交点（イ：本棚100台・テーブル50台）が最大で、営業利益は1,500,000円。\n【設問3】社長の考え（本棚を優先）はアの組み合わせで、営業利益は1,380,000円と、最適より120,000円少ない。制約が2つのときは、1つの資源当たりの順で決めず、端点を比べることを、計算結果を添えて書く。\n【本試験での注意】令和4年度第2問は、設問1で直接作業時間だけの制約（作業時間当たりの限界利益の大きい製品だけを作る）、設問2で材料の消費量の上限を加えた2つの制約の組み合わせを、利益と計算過程とともに問うた（共通固定費は利益から差し引く）。計算過程では、制約の式、端点の数量、端点ごとの利益を順に示す。2本の制約の式の交点は、一方の式を何倍かして引くと速く求まる。最適な数量が端点で整数になるかも確かめる。\n【図】上は、1台・作業時間・木材のどれ当たりで比べるかで順位が入れ替わること。中は、設問2の制約の直線と作れる範囲（緑）で、角のア・イ・ウのうちイが最適。白抜きの点（設問1の最適）は、木材の線の外にあり作れない。下は、端点ごとの営業利益。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">1台当たりの限界利益と、制約となる資源1単位当たりの限界利益</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"何当たりで比べるかで、順位が入れ替わる\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"54.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1台当たり</text><text x=\"151.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">本棚</text><text x=\"237.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">テーブル</text><text x=\"320.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">大きい方</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">限界利益</text><text x=\"188\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">30,000円</text><text x=\"274\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">90,000円</text><text x=\"320.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">テーブル</text><rect x=\"1\" y=\"46.8\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">作業時間当たり</text><text x=\"188\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,000円</text><text x=\"274\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">4,500円</text><text x=\"320.0\" y=\"62.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">本棚</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">木材1m³当たり</text><text x=\"188\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">250,000円</text><text x=\"274\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">300,000円</text><text x=\"320.0\" y=\"85.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">テーブル</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M108 0L108 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M194 0L194 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M280 0L280 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"91.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問2の制約と作れる範囲（緑の部分。点線は需要の上限）。白抜きの点は設問1の最適（木材が27.6m³必要で、27m³を超える）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 290\" role=\"img\" aria-label=\"設問2の制約と作れる範囲\" font-size=\"12\"><path d=\"M48.0 250.0 L286.4 250.0 L286.4 156.8 L246.7 139.0 L206.9 125.7 L48.0 125.7 Z\" style=\"fill:var(--good);fill-opacity:0.14;stroke:none\"/><path d=\"M48.0 250.0L348.0 250.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M48.0 250.0L48.0 22\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"43.0\" y=\"264.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><path d=\"M147.3 250.0L147.3 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"147.3\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><path d=\"M246.7 250.0L246.7 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"246.7\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><path d=\"M346.0 250.0L346.0 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"346.0\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><path d=\"M45.0 205.6L48.0 205.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"209.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><path d=\"M45.0 161.2L48.0 161.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"165.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M45.0 116.8L48.0 116.8\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"120.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><path d=\"M45.0 72.4L48.0 72.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"76.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">80</text><path d=\"M45.0 28.0L48.0 28.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"32.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"346.0\" y=\"283.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">本棚（台）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">テーブル（台）</text><path d=\"M48.0 72.4L346.0 172.3\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M48.0 50.2L346.0 183.4\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M286.4 250.0L286.4 28.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 125.7L346.0 125.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><circle cx=\"286.4\" cy=\"156.8\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"206.9\" cy=\"125.7\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"246.7\" cy=\"139.0\" r=\"5\" style=\"fill:var(--good)\"/><circle cx=\"286.4\" cy=\"152.3\" r=\"3.6\" style=\"fill:var(--sheet);stroke:var(--drop)\" stroke-width=\"1.8\"/><text x=\"286.4\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">本棚の上限 120</text><text x=\"344.0\" y=\"120.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">テーブルの上限 56</text><text x=\"237.7\" y=\"154.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">イ 最適</text><text x=\"280.4\" y=\"171.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ア</text><text x=\"211.9\" y=\"116.7\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ウ</text><text x=\"293.4\" y=\"147.3\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">設問1</text><text x=\"71.8\" y=\"210.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">設問2で作れる範囲</text><text x=\"57.9\" y=\"89.7\" font-weight=\"bold\" transform=\"rotate(18.53 57.9 75.7)\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">作業時間 1,600時間</text><text x=\"57.9\" y=\"49.6\" font-weight=\"bold\" transform=\"rotate(24.08 57.9 54.6)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">木材 27m³</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">設問2の端点ごとの営業利益（単位：円。原点などほかの端点は利益が小さい）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 122\" role=\"img\" aria-label=\"設問2の端点ごとの営業利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"18.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">端点</text><text x=\"57.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">本棚</text><text x=\"104.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">テーブル</text><text x=\"172.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業利益</text><text x=\"287.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">どう決まるか</text><text x=\"18.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">ア</text><text x=\"72\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">120</text><text x=\"124\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">42</text><text x=\"208\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,380,000</text><text x=\"220\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">本棚を優先</text><text x=\"220\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（木材が先に尽きる）</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"18.0\" y=\"75.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">イ</text><text x=\"72\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">100</text><text x=\"124\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">50</text><text x=\"208\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,500,000</text><text x=\"220\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">作業時間と木材の交点</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"18.0\" y=\"105.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">ウ</text><text x=\"72\" y=\"105.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">80</text><text x=\"124\" y=\"105.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">56</text><text x=\"208\" y=\"105.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,440,000</text><text x=\"220\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">テーブルを優先</text><text x=\"220\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">（作業時間が尽きる）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M36 0L36 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M78 0L78 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M130 0L130 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M214 0L214 119.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"119.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-lp-02",
+   "cat": "lp",
+   "lv": 3,
+   "min": 20,
+   "src": "R6-第2問（直接作業時間と機械運転時間の上限と需要の上限のもとで営業利益が最大となる生産量〈設問1〉、取引先の最低数量の希望を満たす販売価格の下限〈設問2〉。どちらも計算過程）",
+   "title": "電子機器の受託製造：2つの資源と需要の上限、要望を満たす価格",
+   "lead": "D社は、地方都市にある電子機器の受託製造の会社で、表面実装ライン（以下、実装ライン）で電子部品を基板に取り付け、パートタイマーが組立と検査を行っている。主な取引先は2社で、X社（計測器メーカー）向けには基板ユニット、Y社（産業機械メーカー）向けには、基板を組み込んで配線と検査まで済ませた制御ボックスを製造している。\nパートタイマーの作業時間は月3,200時間、実装ラインの稼働時間は月3,400時間が上限である。パートタイマーの賃金は作業時間1時間当たり1,500円で、作業した時間に応じて支払う（変動費）。固定費は月7,000,000円で、生産量によって変わらない。\nX社・Y社とも、表の月間の需要の上限の範囲で、D社が提示した数量をそのまま発注することで合意している。製品のデータは次の表のとおりである。",
+   "tables": [
+    {
+     "cap": "製品のデータ（1台当たり）",
+     "unit": "",
+     "head": [
+      "項目",
+      "X社向け",
+      "Y社向け"
+     ],
+     "rows": [
+      [
+       "販売価格（円）",
+       "8,000",
+       "16,000"
+      ],
+      [
+       "部品・材料費（円）",
+       "5,100",
+       "9,400"
+      ],
+      [
+       "パートタイマーの作業時間（時間）",
+       "0.4",
+       "2.0"
+      ],
+      [
+       "実装ラインの稼働時間（時間）",
+       "0.8",
+       "1.5"
+      ],
+      [
+       "月間の需要の上限（台）",
+       "3,500",
+       "1,500"
+      ]
+     ],
+     "note": "X社向けは基板ユニット、Y社向けは制御ボックスである。部品・材料費とパートタイマーの賃金のほかに、生産量に応じて発生する費用はない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "営業利益が最大となるX社向けとY社向けの月間の生産・販売量と、そのときの営業利益（円）を求めよ。生産・販売量は整数とする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "x1",
+       "type": "num",
+       "label": "X社向けの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 3500
+      },
+      {
+       "k": "y1",
+       "type": "num",
+       "label": "Y社向けの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 400
+      },
+      {
+       "k": "op1",
+       "type": "num",
+       "label": "営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 2490000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "1台当たりの限界利益：X社向け＝8,000−5,100−賃金0.4×1,500＝2,300円、Y社向け＝16,000−9,400−2.0×1,500＝3,600円",
+      "資源1時間当たりの限界利益：作業時間 X社向け5,750円・Y社向け1,800円、実装ライン X社向け2,875円・Y社向け2,400円 → どちらの資源でもX社向けが大きい",
+      "X社向けをx台、Y社向けをy台とする。制約：作業時間 0.4x＋2.0y≦3,200、実装ライン 0.8x＋1.5y≦3,400、x≦3,500、y≦1,500",
+      "X社向けを需要の上限3,500台まで作ると、作業時間1,400時間・実装ライン2,800時間。残りでY社向けは、作業時間（3,200−1,400）÷2.0＝900台、実装ライン（3,400−2,800）÷1.5＝400台 → 400台（実装ラインが先に尽きる）",
+      "端点の確認（限界利益の合計）：（3,500, 400）9,490,000円、2つの資源の交点（2,000, 1,200）8,920,000円、作業時間とY社の上限の交点（500, 1,500）6,550,000円 → （3,500, 400）が最大",
+      "営業利益＝2,300×3,500＋3,600×400−7,000,000＝8,050,000＋1,440,000−7,000,000＝2,490,000円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "Y社から、来月以降は制御ボックスを毎月1,000台以上納めてほしいとの要望があった。Y社は、その代わりに制御ボックスの販売価格の引き上げに応じるとしている。D社は、まず販売価格を決め、そのうえで設問1と同じ条件（需要の上限を含む）のもとで営業利益が最大となる生産・販売量を選ぶ方針であり、この方針で選ばれる生産・販売量がY社の要望を満たすようにしたい。X社向けの価格など、そのほかの条件は設問1と同じとする。\n(1) 制御ボックスの販売価格を1台何円以上にする必要があるか。計算の途中では端数を処理せず、円未満の端数は切り上げること。計算過程も示すこと。\n(2) (1)で求めた価格のときに、営業利益が最大となるX社向けとY社向けの月間の生産・販売量を求めよ。",
+     "fields": [
+      {
+       "k": "pr",
+       "type": "num",
+       "label": "(1) 制御ボックスの販売価格",
+       "unit": "円",
+       "dp": 0,
+       "ans": 16713
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(1) 計算過程"
+      },
+      {
+       "k": "x2",
+       "type": "num",
+       "label": "(2) X社向けの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 2000
+      },
+      {
+       "k": "y2",
+       "type": "num",
+       "label": "(2) Y社向けの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 1200
+      }
+     ],
+     "steps": [
+      "設問1の組み合わせ（Y社向け400台）は要望の1,000台に届かない。Y社向けを増やすには、実装ラインの線の上で、X社向けを減らしてY社向けを増やすことになる",
+      "実装ラインの線の上を進むと、作業時間の線との交点（X社向け2,000台・Y社向け1,200台。要望を満たす）に着く。交点は、0.4x＋2.0y＝3,200 と 0.8x＋1.5y＝3,400 を解いて求める",
+      "そちらへ移るのが有利になるのは、実装ライン1時間当たりの限界利益で、Y社向けがX社向け（2,300÷0.8＝2,875円）を上回るとき：Y社向けの限界利益÷1.5＞2,875 → Y社向けの限界利益＞4,312.5円",
+      "(1) 販売価格＞部品・材料費9,400＋賃金3,000＋4,312.5＝16,712.5円 → 16,713円以上（切り上げ）",
+      "検算：16,713円（限界利益4,313円）なら、交点（2,000, 1,200）の限界利益の合計9,775,600円＞（3,500, 400）の9,775,200円。16,712円では9,774,400円＜9,774,800円で、設問1の組み合わせのまま",
+      "(2) X社向け2,000台、Y社向け1,200台（営業利益は2,775,600円）。この組み合わせは、価格が23,900円を超えるまで最適のまま"
+     ]
+    }
+   ],
+   "ce": {
+    "x1": "よくある誤り：500台は、1台当たりの限界利益が大きいY社向けを先に上限まで作った場合（営業利益△450,000円）。2,000台は、2つの資源の交点を最適とした場合（営業利益1,920,000円）。4,250台は、需要の上限を忘れた場合（X社は3,500台までしか発注しない）。",
+    "y1": "よくある誤り：1,500台はY社向けを先に作った場合、1,200台は2つの資源の交点とした場合、900台は実装ラインの制約を忘れ、作業時間だけで残りを計算した場合（実装ラインが4,150時間必要になり、上限を超える）。",
+    "op1": "よくある誤り：△450,000円はY社向けを先に作った場合、1,920,000円は2つの資源の交点とした場合、4,290,000円は実装ラインの制約を忘れた場合、2,775,000円は需要の上限を忘れた場合、9,490,000円は固定費を差し引いていない。",
+    "pr": "よくある誤り：16,428円は、要望を条件として入れた場合（X社向け2,375台・Y社向け1,000台）に減る限界利益427,500円を1,000台で割り、今の価格に足した値。この価格では、方針どおりに営業利益が最大となる生産量を選ぶと、Y社向けは400台のままで要望を満たさない。23,900円は、作業時間の線の傾きで比べた値（設問1の最適では、作業時間は余っている）。16,712円（切り捨て）では、設問1の組み合わせのほうが有利で、要望を満たさない。14,838円は、賃金を変動費に入れずに限界利益を計算した値。",
+    "x2": "よくある誤り：3,500台は、価格を上げても設問1の組み合わせのままとした場合。2,375台は、Y社向けを要望ちょうどの1,000台にした場合で、価格を上げた後は、交点まで移るほうが営業利益が大きい。",
+    "y2": "よくある誤り：400台は設問1のまま、1,000台は要望ちょうど、1,500台はY社向けを上限まで作った場合（この価格では、作業時間の線の上では、まだX社向けの方が1時間当たりの限界利益が大きい）。"
+   },
+   "e": "【考え方】制約が2つあるときも、まず資源ごとに1時間当たりの限界利益を比べる。どちらの資源でも同じ製品が大きいなら、その製品を需要の上限まで作り、残りでもう一方を作る。ただし、残りを計算するときは、すべての資源で何台作れるかを調べ、最も少ない台数にする（先に尽きる資源が効く）。最後に端点の限界利益を比べて確かめる。\n【設問1】X社向けは1台当たりの限界利益（2,300円）はY社向け（3,600円）より小さいが、作業時間当たりでも実装ライン当たりでも大きい。X社向けを上限の3,500台まで作ると、残りの実装ラインでY社向けは400台しか作れない（作業時間は1,000時間余る）。営業利益は2,490,000円。2つの資源の交点（イ）は、作業時間を使い切るが、営業利益は1,920,000円で小さい。\n【設問2】最適な組み合わせは、価格が変わって、限界利益の比が、効いている制約の線の傾きの比を超えたときに、隣の端点へ移る。アからイへの辺は実装ラインの線なので、実装ライン1時間当たりの限界利益で、Y社向けがX社向けの2,875円を上回る必要がある。Y社向けの限界利益は2,875×1.5＝4,312.5円を超える必要があり、価格は16,713円以上（切り上げ）。そのとき最適な組み合わせはイ（X社向け2,000台・Y社向け1,200台）で、要望を満たす。\n【注意】要望を条件にして（Y社向け1,000台以上）今の価格で最適化すると、営業利益は427,500円減る。これを1,000台で割って値上げしても（16,428円）、方針どおりに生産量を選ぶと、Y社向けは400台のままになる。問われているのが「選ばれる生産量が要望を満たす価格」なのか「要望を受けても営業利益が減らない価格」なのかを、問題文で確かめる。\n【本試験での注意】令和6年度第2問は、直接作業時間と機械運転時間の上限と両社の需要の上限のもとで、営業利益が最大となる生産量と営業利益を、計算過程とともに問い（設問1）、一方の取引先の最低数量の希望を満たすための販売価格の下限を問うた（設問2）。出題の趣旨は「線形計画法を用いて最適な生産数量を算出する能力」。効いていない制約（ここでは作業時間）があることも、端点の確認で分かる。\n【図】上は、1台当たりと資源1時間当たりの限界利益。中は、制約と作れる範囲で、設問1の最適はア、設問2の価格ではイに移る。下は、端点ごとの営業利益を、2つの価格で比べたもの。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">1台当たりと、資源1時間当たりの限界利益（設問1の価格では、どちらの資源でもX社向けが大きい）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 133\" role=\"img\" aria-label=\"資源1時間当たりの限界利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"59.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1台当たり</text><text x=\"159.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">X社向け</text><text x=\"242.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">Y社向け</text><text x=\"322.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">大きい方</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">限界利益</text><text x=\"194\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,300円</text><text x=\"278\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,600円</text><text x=\"322.0\" y=\"39.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">Y社向け</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">作業時間当たり</text><text x=\"194\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,750円</text><text x=\"278\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,800円</text><text x=\"322.0\" y=\"62.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">X社向け</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">実装ライン当たり</text><text x=\"194\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,875円</text><text x=\"278\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,400円</text><text x=\"322.0\" y=\"85.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">X社向け</text><rect x=\"1\" y=\"92.6\" width=\"358\" height=\"38.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">実装ライン当たり</text><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">（16,713円）</text><text x=\"194\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,875円</text><text x=\"278\" y=\"116.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,875.3…円</text><text x=\"322.0\" y=\"116.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">Y社向け</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M118 0L118 130.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M200 0L200 130.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M284 0L284 130.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"130.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">制約と作れる範囲（緑の部分。灰色の点線は需要の上限、緑の点線はY社の要望。実装ラインの上限は3,400時間）。アは実装ラインとX社の上限の交点、イは2つの資源の交点</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 290\" role=\"img\" aria-label=\"制約と作れる範囲\" font-size=\"12\"><path d=\"M48.0 250.0 L308.8 250.0 L308.8 197.8 L197.0 93.3 L85.2 54.1 L48.0 54.1 Z\" style=\"fill:var(--good);fill-opacity:0.14;stroke:none\"/><path d=\"M48.0 250.0L348.0 250.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M48.0 250.0L48.0 22\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"43.0\" y=\"264.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><path d=\"M122.5 250.0L122.5 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"122.5\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M197.0 250.0L197.0 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"197.0\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2,000</text><path d=\"M271.5 250.0L271.5 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"271.5\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3,000</text><path d=\"M346.0 250.0L346.0 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"346.0\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4,000</text><path d=\"M45.0 184.7L48.0 184.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"188.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M45.0 119.4L48.0 119.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"123.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M45.0 54.1L48.0 54.1\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"58.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,500</text><text x=\"346.0\" y=\"283.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">X社向け（台）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">Y社向け（台）</text><path d=\"M48.0 41.1L346.0 145.5\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M127.2 28.0L346.0 232.6\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M308.8 250.0L308.8 28.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 54.1L346.0 54.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 119.4L346.0 119.4\" style=\"stroke:var(--good)\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\" fill=\"none\"/><circle cx=\"308.8\" cy=\"197.8\" r=\"5\" style=\"fill:var(--good)\"/><circle cx=\"197.0\" cy=\"93.3\" r=\"5\" style=\"fill:var(--drop)\"/><circle cx=\"85.2\" cy=\"54.1\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"300.8\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">X社の上限 3,500</text><text x=\"344.0\" y=\"49.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">Y社の上限 1,500</text><text x=\"54.0\" y=\"114.4\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">Y社の要望 1,000</text><text x=\"300.8\" y=\"213.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ア 設問1</text><text x=\"189.0\" y=\"109.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">イ 設問2</text><text x=\"89.2\" y=\"71.1\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ウ</text><text x=\"70.3\" y=\"210.8\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">作れる範囲</text><text x=\"215.6\" y=\"93.8\" font-weight=\"bold\" transform=\"rotate(19.32 215.6 99.8)\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">作業時間 3,200時間</text><text x=\"131.4\" y=\"26.0\" font-weight=\"bold\" transform=\"rotate(43.07 131.4 32.0)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">実装ライン 3,400</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">端点ごとの営業利益（単位：円。右の2列は、Y社向けの価格が今の16,000円の場合と16,713円の場合）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 91\" role=\"img\" aria-label=\"端点ごとの営業利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"18.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">端点</text><text x=\"69.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">X社向け</text><text x=\"133.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">Y社向け</text><text x=\"213.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今の価格</text><text x=\"311.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">16,713円</text><text x=\"18.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">ア</text><text x=\"96\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,500</text><text x=\"158\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">400</text><text x=\"256\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,490,000</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,775,200</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"18.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">イ</text><text x=\"96\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,000</text><text x=\"158\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,200</text><text x=\"256\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,920,000</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,775,600</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"18.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">ウ</text><text x=\"96\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">500</text><text x=\"158\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,500</text><text x=\"256\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△450,000</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">619,500</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M36 0L36 88.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M102 0L102 88.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M164 0L164 88.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M262 0L262 88.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"88.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-lp-03",
+   "cat": "lp",
+   "lv": 3,
+   "min": 22,
+   "src": "R6-第2問・R4-第2問設問2（2つの制約の最適な組み合わせ）を発展。制約の資源を増やす価値は R1〜R6 に出題なし（外部の能力を借りるかの判断と記述）",
+   "title": "自転車：2つの制約が効くときの、ブースを借りる価値",
+   "lead": "D社は、地方都市で自転車を製造している。製品は、子ども用自転車（完成車）と、ロードバイクのオーダーメイドのフレーム（以下、フレーム）である。どちらも、溶接・組立の工程と塗装の工程を通る。溶接・組立は正社員の職人が行い、作業時間は月1,600時間が上限である。塗装は自社の塗装ブースで行い、ブースの稼働時間は月500時間が上限である。職人の給与や工場の経費などの固定費は月10,000,000円で、生産量によって変わらない。\n製品のデータは次の表のとおりである。",
+   "tables": [
+    {
+     "cap": "製品のデータ（1台当たり）",
+     "unit": "",
+     "head": [
+      "項目",
+      "子ども用自転車",
+      "フレーム"
+     ],
+     "rows": [
+      [
+       "販売価格（円）",
+       "45,000",
+       "98,000"
+      ],
+      [
+       "変動費（円）",
+       "25,000",
+       "57,000"
+      ],
+      [
+       "溶接・組立の作業時間（時間）",
+       "2",
+       "5"
+      ],
+      [
+       "塗装ブースの稼働時間（時間）",
+       "1",
+       "1"
+      ],
+      [
+       "月間の需要の上限（台）",
+       "400",
+       "300"
+      ]
+     ],
+     "note": "変動費は、部品・材料・塗料などの費用である。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "営業利益が最大となる完成車とフレームの月間の生産・販売量と、そのときの営業利益（円）を求めよ。生産・販売量は整数とする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "x1",
+       "type": "num",
+       "label": "完成車の生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 300
+      },
+      {
+       "k": "y1",
+       "type": "num",
+       "label": "フレームの生産・販売量",
+       "unit": "台",
+       "dp": 0,
+       "ans": 200
+      },
+      {
+       "k": "op1",
+       "type": "num",
+       "label": "営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 4200000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "1台当たりの限界利益：完成車20,000円、フレーム41,000円。作業時間当たりは完成車10,000円＞フレーム8,200円、ブース当たりはフレーム41,000円＞完成車20,000円で、順位が食い違う",
+      "完成車をx台、フレームをy台とする。制約：作業時間 2x＋5y≦1,600、ブース x＋y≦500、x≦400、y≦300",
+      "作業時間とブースの交点：ブースの式を2倍して作業時間の式から引くと3y＝600 → y＝200、x＝500−200＝300",
+      "端点の限界利益の合計：交点（300, 200）14,200,000円、フレームを優先（50, 300）13,300,000円、完成車を優先（400, 100）12,100,000円 → 交点が最大",
+      "営業利益＝20,000×300＋41,000×200−10,000,000＝4,200,000円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "近くの塗装会社から、塗装ブースを1時間4,000円（運搬費を含む）で、月80時間まで（1時間単位で）貸すとの申し出があった。借りたブースでも、自社のブースと同じ時間・品質で塗装できる。借り賃のほかに増える固定費はなく、そのほかの条件は設問1と同じとする。\n(1) 営業利益を最大にするには、ブースを月何時間借りればよいか。また、そのときの営業利益の増加額（借り賃を差し引いた後の、設問1と比べた額）を求めよ。生産・販売量は整数とする。計算過程も示すこと。\n(2) ブースの借り賃が1時間当たり何円を超えると、何時間借りても、借りない場合より営業利益が小さくなるか。",
+     "fields": [
+      {
+       "k": "hr",
+       "type": "num",
+       "label": "(1) 借りる時間",
+       "unit": "時間",
+       "dp": 0,
+       "ans": 60
+      },
+      {
+       "k": "inc",
+       "type": "num",
+       "label": "(1) 営業利益の増加額",
+       "unit": "円",
+       "dp": 0,
+       "ans": 120000
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(1) 計算過程"
+      },
+      {
+       "k": "rent",
+       "type": "num",
+       "label": "(2) 借り賃の境目（1時間当たり）",
+       "unit": "円",
+       "dp": 0,
+       "ans": 6000
+      }
+     ],
+     "steps": [
+      "作業時間もブースも上限まで使っているので、借りたブースでフレームを増やすことはできない（フレームを1台増やすには作業時間が5時間要る）。作業時間を変えずにブースの時間を使うには、完成車を増やしフレームを減らす組み替えになる",
+      "ブースをt時間借りると、交点は 2x＋5y＝1,600、x＋y＝500＋t → x＝300＋5t/3、y＝200−2t/3",
+      "ブース1時間当たりの限界利益の増加＝20,000×5/3−41,000×2/3＝（100,000−82,000）÷3＝6,000円",
+      "完成車が需要の上限400台に達するのは、300＋5t/3＝400 → t＝60時間（フレーム160台）。それより多く借りても、完成車は増やせず、フレームは作業時間が足りず増やせない",
+      "(1) 6,000円＞借り賃4,000円なので、60時間借りる。営業利益の増加＝（6,000−4,000）×60＝120,000円（80時間すべて借りると6,000×60−4,000×80＝40,000円にとどまる）",
+      "(2) ブース1時間の価値は6,000円なので、借り賃が6,000円を超えると、何時間借りても借りない場合より営業利益が小さくなる（6,000円ちょうどなら、60時間借りても増減0）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "社長は、「フレームは塗装ブース1時間当たりの限界利益が41,000円もあるので、借り賃が4,000円なら、80時間すべて借りてフレームを増やすべきだ」と考えている。設問2の結果を踏まえ、この考えの誤りを60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "作業時間も上限でフレームは増やせず、完成車を増やしフレームを減らすしかない。その価値は1時間6,000円で60時間まで。",
+       "points": [
+        "作業時間も上限なので、借りた時間でフレームは増やせない",
+        "借りた時間は、完成車を増やしフレームを減らす組み替えに使われる",
+        "ブース1時間の価値は6,000円で、60時間（完成車の需要の上限）を超える分は使えない"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "x1": "よくある誤り：50台は、1台当たり・ブース1時間当たりの限界利益が大きいフレームを先に上限まで作った場合（営業利益3,300,000円）。400台は、作業時間1時間当たりの限界利益が大きい完成車を先に上限まで作った場合（営業利益2,100,000円）。2つの資源で順位が食い違うので、端点を比べる。",
+    "y1": "よくある誤り：300台はフレームを優先した場合、100台は完成車を優先した場合。",
+    "op1": "よくある誤り：3,300,000円はフレームを優先した場合、2,100,000円は完成車を優先した場合、14,200,000円は固定費を差し引いていない。",
+    "hr": "よくある誤り：80時間（すべて借りる）では、60時間を超える分は使えず、借り賃だけがかかる（営業利益の増加は40,000円）。0時間（借りない）は、ブース1時間の価値（6,000円）が借り賃を上回ることを見落としている。",
+    "inc": "よくある誤り：40,000円は、80時間すべて借りた場合。360,000円は、借り賃を差し引いていない。2,960,000円は、借りた時間でフレームを80台増やせるとした場合で、作業時間が足りないことを見落としている。1,280,000円は、完成車を80台増やせるとした場合（同じく作業時間が足りない）。",
+    "rent": "よくある誤り：41,000円はフレームの、20,000円は完成車の、ブース1時間当たりの限界利益。作業時間が上限なので、どちらか一方だけを増やすことはできない。33,333円は、完成車の増加（5/3台）だけを見て、フレームの減少（2/3台）を忘れた値。"
+   },
+   "e": "【考え方】制約の資源を外から足す（ブースを借りる、残業する、外注する）価値は、その資源1時間で最適な組み合わせがどう変わり、限界利益がいくら増えるかで決まる。ほかの制約（ここでは作業時間）も効いているときは、足した資源でどちらかの製品を単純に増やすことはできず、作業時間を変えない組み替えになる。その価値が借りる費用を上回れば借りる。ただし、組み替えが需要の上限などに当たると、それ以上は価値がなくなる。\n【設問1】作業時間当たりでは完成車（10,000円）、ブース当たりではフレーム（41,000円）が大きく、順位が食い違う。端点を比べると、作業時間とブースの交点（完成車300台・フレーム200台）が最大で、営業利益は4,200,000円。フレームを優先すると3,300,000円、完成車を優先すると2,100,000円にとどまる。\n【設問2】ブースを1時間足すと、作業時間の線の上で、完成車が5/3台増え、フレームが2/3台減る。限界利益は20,000×5/3−41,000×2/3＝6,000円増える（ブース1時間の価値）。完成車が上限の400台に達する60時間までがこの価値で、それを超えると価値は0になる。借り賃4,000円との差2,000円×60時間＝120,000円の増益。すべての80時間を借りると40,000円に減る。借り賃が6,000円を超えるなら借りない。\n【設問3】社長の考えは、ブース1時間でフレームが1台増えると見ている。フレームは作業時間を5時間使うので、作業時間が上限のままでは増やせない。借りた時間の価値は、組み替えで生じる6,000円で、60時間を超える分は使えないことを書く。参考に、作業時間を1時間足せる場合の価値は7,000円（フレームを増やし完成車を減らす組み替え）。\n【本試験での注意】令和元〜6年度に、制約の資源を増やす価値を問う設問はない。令和4・6年度の2つの制約の最適化を解いたうえで、「残業・外注・設備の借用で能力を増やすべきか」「いくらまでなら払えるか」を問う形は、計算のあとに判断を伴う設問として出うる。資源を増やしたら、もう一度端点を求め直し（交点が動く）、需要の上限などに当たる点で区切って計算する。\n【図】上は、限界利益と、ブースを1時間足したときの生産の変化。中は、制約と作れる範囲で、ブースを借りるとアからイへ作業時間の線の上を動く（ウ・エは一方の製品を優先した場合）。下は、借りる時間と、限界利益の増加・借り賃の関係で、差（営業利益の増加）は60時間で最大になる。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">限界利益（1台当たり・資源1時間当たり）と、ブースを1時間足したときの生産の変化（右の列。作業時間は増やせないので組み替えになる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 84\" role=\"img\" aria-label=\"限界利益と、ブース1時間を足したときの生産の変化\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"46.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">製品</text><text x=\"125.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1台当たり</text><text x=\"192.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">作業時間</text><text x=\"192.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当たり</text><text x=\"259.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">ブース</text><text x=\"259.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">当たり</text><text x=\"326.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">ブースを</text><text x=\"326.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1時間足す</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">子ども用自転車</text><text x=\"152\" y=\"53.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20,000円</text><text x=\"220\" y=\"53.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">10,000円</text><text x=\"286\" y=\"53.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20,000円</text><text x=\"354\" y=\"53.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋5/3台</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">フレーム</text><text x=\"152\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">41,000円</text><text x=\"220\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">8,200円</text><text x=\"286\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">41,000円</text><text x=\"354\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">−2/3台</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M92 0L92 81.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M158 0L158 81.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M226 0L226 81.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M292 0L292 81.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"81.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">制約と作れる範囲（緑の部分）。ブースを60時間借りると、アから作業時間の線の上をイ（完成車400台・フレーム160台）まで動く。ウはフレーム、エは完成車を優先した場合</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 290\" role=\"img\" aria-label=\"制約と、ブースを借りたときの最適な組み合わせの動き\" font-size=\"12\"><path d=\"M48.0 250.0 L312.9 250.0 L312.9 186.6 L246.7 123.1 L81.1 59.7 L48.0 59.7 Z\" style=\"fill:var(--good);fill-opacity:0.14;stroke:none\"/><path d=\"M48.0 250.0L348.0 250.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M48.0 250.0L48.0 22\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"43.0\" y=\"264.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><path d=\"M114.2 250.0L114.2 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"114.2\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><path d=\"M180.4 250.0L180.4 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"180.4\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><path d=\"M246.7 250.0L246.7 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"246.7\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">300</text><path d=\"M312.9 250.0L312.9 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"312.9\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">400</text><path d=\"M45.0 186.6L48.0 186.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"190.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><path d=\"M45.0 123.1L48.0 123.1\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"127.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><path d=\"M45.0 59.7L48.0 59.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"63.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">300</text><text x=\"346.0\" y=\"283.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">子ども用自転車＝完成車（台）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">フレーム（台）</text><path d=\"M48.0 47.0L346.0 161.2\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M147.3 28.0L346.0 218.3\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M187.1 28.0L346.0 180.2\" style=\"stroke:var(--warn)\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M312.9 250.0L312.9 28.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 59.7L346.0 59.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M252.0 125.2L307.6 146.5\" style=\"stroke:var(--drop)\" stroke-width=\"1.8\" fill=\"none\"/><path d=\"M307.6 146.5L300.6 147.1L302.8 141.4Z\" style=\"fill:var(--drop);stroke:none\"/><circle cx=\"246.7\" cy=\"123.1\" r=\"5\" style=\"fill:var(--good)\"/><circle cx=\"312.9\" cy=\"148.5\" r=\"5\" style=\"fill:var(--drop)\"/><circle cx=\"81.1\" cy=\"59.7\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"312.9\" cy=\"186.6\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"302.9\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">完成車の上限 400</text><text x=\"344.0\" y=\"54.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">フレームの上限 300</text><text x=\"238.7\" y=\"139.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ア 今の最適</text><text x=\"318.9\" y=\"141.5\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">イ</text><text x=\"86.1\" y=\"75.7\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ウ</text><text x=\"306.9\" y=\"200.6\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">エ</text><text x=\"74.5\" y=\"211.9\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">今の作れる範囲</text><text x=\"114.2\" y=\"86.4\" font-weight=\"bold\" transform=\"rotate(20.96 114.2 72.4)\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">作業時間 1,600時間</text><text x=\"155.3\" y=\"29.6\" font-weight=\"bold\" transform=\"rotate(43.77 155.3 35.6)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ブース 500時間</text><text x=\"197.7\" y=\"32.1\" font-weight=\"bold\" transform=\"rotate(43.77 197.7 38.1)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">560時間（借りた後）</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">借りる時間と、限界利益の増加（緑）・借り賃（赤の点線）。単位：千円。差が営業利益の増加で、60時間で最大の120千円</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"借りる時間と営業利益の増加\" font-size=\"12\"><path d=\"M56.0 190.0L348.0 190.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M56.0 190.0L56.0 18\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M128.5 190.0L128.5 193.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"128.5\" y=\"205.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><path d=\"M201.0 190.0L201.0 193.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"201.0\" y=\"205.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M273.5 190.0L273.5 193.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"273.5\" y=\"205.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><path d=\"M346.0 190.0L346.0 193.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"346.0\" y=\"205.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">80</text><path d=\"M53.0 148.5L56.0 148.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"50.0\" y=\"152.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><path d=\"M53.0 107.0L56.0 107.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"50.0\" y=\"111.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><path d=\"M53.0 65.5L56.0 65.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"50.0\" y=\"69.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">300</text><path d=\"M53.0 24.0L56.0 24.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"50.0\" y=\"28.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">400</text><text x=\"346.0\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">借りる時間（時間）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">千円</text><path d=\"M273.5 22L273.5 190.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M56.0 190.0 L273.5 40.6 L346.0 40.6\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M56.0 190.0 L346.0 57.2\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linejoin=\"round\"/><circle cx=\"273.5\" cy=\"40.6\" r=\"3.6\" style=\"fill:var(--good)\"/><circle cx=\"273.5\" cy=\"90.4\" r=\"3.6\" style=\"fill:var(--drop)\"/><circle cx=\"346.0\" cy=\"57.2\" r=\"3.6\" style=\"fill:var(--drop)\"/><text x=\"63.2\" y=\"53.1\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">限界利益の増加（1時間6,000円）</text><text x=\"157.5\" y=\"169.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">借り賃（1時間4,000円）</text><text x=\"278.5\" y=\"71.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">差 120</text><text x=\"343.0\" y=\"51.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">差 40</text></svg>"
+  },
+  {
+   "id": "d4-lp-04",
+   "cat": "lp",
+   "lv": 2,
+   "min": 20,
+   "src": "R6-第2問設問2（取引先の最低数量）・R4-第2問（共通固定費を配賦しない組み合わせ）を発展。取引先との約束による需要の下限は R1〜R6 に出題なし",
+   "title": "陶磁器の窯元：取引先との約束（需要の下限）と、赤字に見える製品",
+   "lead": "D社は、陶磁器の産地にある窯元で、ろくろで成形した器に絵付けをして焼き上げている。製品は、ホテルチェーンに納める業務用の皿（以下、皿）と、百貨店や器の専門店で販売する作家物の器（以下、器）である。成形と絵付けはそれぞれ専任の職人が行い、作業時間の上限は成形が月1,200時間、絵付けが月900時間である。窯の能力には余裕がある。\nホテルチェーンとは年間契約を結んでおり、皿を毎月2,000枚以上納める約束である。ホテルチェーンは、月2,400枚までなら、D社が納める枚数をそのまま引き取る。器の月間の需要の上限は1,000個である。\nD社は、固定費（職人の給与、窯の減価償却費など月4,200,000円）を、成形の作業時間1時間当たり3,500円で製品に配賦しており、製品のデータは次の表のとおりである。",
+   "tables": [
+    {
+     "cap": "製品のデータ（1枚・1個当たり）",
+     "unit": "",
+     "head": [
+      "項目",
+      "業務用の皿",
+      "作家物の器"
+     ],
+     "rows": [
+      [
+       "販売価格（円）",
+       "1,400",
+       "8,000"
+      ],
+      [
+       "変動費（円）",
+       "600",
+       "3,000"
+      ],
+      [
+       "固定費の配賦額（円）",
+       "875",
+       "3,500"
+      ],
+      [
+       "全部原価（円）",
+       "1,475",
+       "6,500"
+      ],
+      [
+       "1枚・1個当たりの損益（円）",
+       "△75",
+       "1,500"
+      ],
+      [
+       "成形の作業時間（時間）",
+       "0.25",
+       "1.00"
+      ],
+      [
+       "絵付けの作業時間（時間）",
+       "0.05",
+       "1.00"
+      ]
+     ],
+     "note": "変動費は、粘土・釉薬・窯の燃料・包装材などの費用である。販売費及び一般管理費は、固定費に含めている。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "ホテルチェーンとの契約の条件のもとで、営業利益が最大となる皿と器の月間の生産・販売量と、そのときの営業利益（円）を求めよ。生産・販売量は整数とする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "x1",
+       "type": "num",
+       "label": "皿の生産・販売量",
+       "unit": "枚",
+       "dp": 0,
+       "ans": 2000
+      },
+      {
+       "k": "y1",
+       "type": "num",
+       "label": "器の生産・販売量",
+       "unit": "個",
+       "dp": 0,
+       "ans": 700
+      },
+      {
+       "k": "op1",
+       "type": "num",
+       "label": "営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 900000
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "1個当たりの限界利益：皿＝1,400−600＝800円、器＝8,000−3,000＝5,000円（固定費の配賦額は、生産量を変えても固定費の総額が変わらないので含めない）",
+      "皿をx枚、器をy個とする。制約：成形 0.25x＋y≦1,200、絵付け 0.05x＋y≦900、2,000≦x≦2,400（契約）、y≦1,000",
+      "成形1時間当たりの限界利益は器5,000円＞皿3,200円。皿を増やすほど成形の時間が器から奪われるので、皿は下限の2,000枚にする",
+      "x＝2,000のとき、器（1個に成形・絵付けとも1時間）は、成形の残り1,200−0.25×2,000＝700時間で700個、絵付けの残り900−0.05×2,000＝800時間で800個、需要の上限1,000個 → 700個（成形が先に尽きる）",
+      "端点の確認：（2,000, 700）の限界利益5,100,000円、皿を上限まで納める（2,400, 600）4,920,000円 → （2,000, 700）が最大",
+      "営業利益＝800×2,000＋5,000×700−4,200,000＝1,600,000＋3,500,000−4,200,000＝900,000円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "社長は、表のとおり皿は1枚当たり75円の赤字であるとして、ホテルチェーンとの契約をやめ、器に集中することを考えている。契約をやめると皿の販売はなくなり、職人の人数は変えないので、固定費の総額は変わらない。\n(1) 契約をやめた場合に、営業利益が最大となる生産・販売量のもとでの営業利益（円）を求めよ。\n(2) D社は営業利益が大きくなる方を選ぶ方針である。契約を続けるべきかを答えよ。",
+     "fields": [
+      {
+       "k": "op2",
+       "type": "num",
+       "label": "(1) 契約をやめた場合の営業利益",
+       "unit": "円",
+       "dp": 0,
+       "ans": 300000
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "(2) 契約",
+       "opts": [
+        "続けるべきである",
+        "やめるべきである"
+       ],
+       "ans": "続けるべきである"
+      }
+     ],
+     "steps": [
+      "契約をやめると x＝0。器は、成形1,200時間で1,200個、絵付け900時間で900個、需要の上限1,000個 → 900個（絵付けが先に尽きる）",
+      "(1) 営業利益＝5,000×900−4,200,000＝300,000円",
+      "(2) 契約を続ける場合（900,000円）より600,000円少ない → 続けるべきである",
+      "皿の「1枚75円の赤字」は、配賦された固定費875円を含めた損益。固定費は契約をやめても減らず、皿の限界利益800円×2,000枚＝1,600,000円は固定費の回収に役立っている。やめると器は700個から900個に増えるが、絵付けの時間が足りず、増える限界利益は1,000,000円にとどまる"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社が契約を続ける場合に、次の契約の更新でホテルチェーンに求めるべき条件とその理由を、契約の下限がない場合の最適な組み合わせと比べて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "下限を1,500枚以下に下げるよう求める。1,500枚を超える皿は成形の時間を器から奪い、1枚450円の減益になるため。",
+       "points": [
+        "皿の下限の引き下げ（1,500枚以下。下限がなければ最適は皿1,500枚・器825個）",
+        "1,500枚を超える皿は、制約である成形の時間を器から奪う（器が減る）",
+        "超える皿1枚当たり450円の減益（今の下限2,000枚では月225,000円）"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "x1": "よくある誤り：1,500枚は、契約の下限を入れずに最適化した場合（営業利益1,125,000円）。契約で2,000枚以上を納める約束なので、下限を制約に入れる。2,400枚は、上限まで納めた場合（器は600個に減る）。",
+    "y1": "よくある誤り：825個は下限を入れない場合、800個は成形の制約を見落とし、絵付けだけで器の数を決めた場合（成形が1,300時間必要になり、上限を超える）、600個は皿を上限まで納めた場合。",
+    "op1": "よくある誤り：1,125,000円は下限を入れていない、1,400,000円は成形の制約を見落とした、720,000円は皿を上限まで納めた場合、5,100,000円は固定費を差し引いていない。",
+    "op2": "よくある誤り：1,050,000円は、皿の赤字（1枚75円×2,000枚）がなくなるとした値。配賦された固定費は契約をやめても減らない。800,000円は、絵付けの制約を見落とし、器を需要の上限1,000個まで作るとした値。△700,000円は、器を増やせることを見落とし、皿の限界利益だけが減るとした値。4,500,000円は、固定費を差し引いていない。",
+    "ch": "よくある誤り：やめるべきとする。全部原価の損益では皿は赤字だが、限界利益は1枚800円のプラスで、契約をやめると営業利益は900,000円から300,000円に減る。"
+   },
+   "e": "【考え方】取引先との約束による最低数量（需要の下限）は、「x≧下限」という制約として加える。下限の線より左は作れなくなり、作れる範囲の角（端点）が変わる。製品の採否や組み合わせは、全部原価の損益（配賦された固定費を含む）ではなく、限界利益と制約の資源で判断する。固定費の配賦額は、生産量を変えても固定費の総額が変わらないので、判断には入れない。\n【設問1】成形1時間当たりの限界利益は器（5,000円）が皿（3,200円）より大きい。成形が効いているので、皿を増やすほど器が減る。皿は下限の2,000枚にし、残りの成形の時間で器を700個作る（イ）。営業利益は900,000円。\n【設問2】契約をやめると、器は絵付けの時間（900時間）の限りの900個までしか増えない（ウ）。皿の限界利益1,600,000円を失い、器の限界利益は1,000,000円しか増えないので、営業利益は300,000円に減る。皿の「1枚75円の赤字」は配賦額875円を含めた見かけの損益で、契約をやめても固定費は減らない。全部原価で考えると、営業利益が1,050,000円に増えるように見えて、判断を誤る。\n【設問3】下限がなければ、最適は成形と絵付けの交点（ア：皿1,500枚・器825個。営業利益1,125,000円）。下限の2,000枚までの500枚は、成形の時間を器から奪う。皿1枚で成形0.25時間を使い、器0.25個分（限界利益1,250円）を失うので、1枚当たり1,250−800＝450円の減益で、月225,000円になる。契約を続けるなら、下限を1,500枚以下に下げるか、その枚数を超える分の単価を450円以上上げるよう求める（解答はどちらか一方を、理由とともに書けばよい）。\n【本試験での注意】令和元〜6年度に、需要の下限を制約として入れる設問はないが、令和6年度第2問設問2は、取引先の最低数量の希望を価格で満たす形で問うた（この分野の2問目と同じ型）。下限は「≧」の制約で、作れる範囲を狭める。令和4年度第2問のように、共通固定費は製品に配賦せず、限界利益で組み合わせを決めてから差し引く。表に配賦後の損益があっても、意思決定には限界利益を使う。\n【図】上は、1個当たりの損益（全部原価）と限界利益。中は、制約と作れる範囲で、緑が契約のもとで作れる範囲（イが最適）、ウは契約をやめた場合、アは下限がない場合。下は、案ごとの営業利益。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">1個当たりの損益（全部原価）と限界利益（単位：円）。皿は配賦額を含めると赤字に見えるが、限界利益はプラス</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 186\" role=\"img\" aria-label=\"1個当たりの損益と限界利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"88.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1個当たり</text><text x=\"222.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">業務用の皿</text><text x=\"314.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">作家物の器</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">販売価格</text><text x=\"262\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,400</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8,000</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">変動費</text><text x=\"262\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">600</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,000</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">限界利益</text><text x=\"262\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">800</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">固定費の配賦額</text><text x=\"262\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">875</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,500</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">損益（全部原価）</text><text x=\"262\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△75</text><text x=\"354\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,500</text><path d=\"M1 138.4L359 138.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-size=\"11.5\" style=\"fill:currentColor\">成形1時間当たりの限界利益</text><text x=\"262\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,200</text><text x=\"354\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">絵付け1時間当たりの限界利益</text><text x=\"262\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16,000</text><text x=\"354\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M176 0L176 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M268 0L268 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"183.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">制約と作れる範囲（灰色は下限がない場合、緑は契約の下限2,000枚以上・上限2,400枚以下のとき）。イが契約のもとでの最適、ウは契約をやめた場合、エは皿を上限まで納めた場合</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 290\" role=\"img\" aria-label=\"制約と、契約のもとで作れる範囲\" font-size=\"12\"><path d=\"M48.0 250.0 L323.1 250.0 L323.1 147.5 L219.9 109.1 L48.0 96.3 Z\" style=\"fill:var(--ink-3);fill-opacity:0.12;stroke:none\"/><path d=\"M277.2 250.0 L323.1 250.0 L323.1 147.5 L277.2 130.5 Z\" style=\"fill:var(--good);fill-opacity:0.24;stroke:none\"/><path d=\"M48.0 250.0L348.0 250.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M48.0 250.0L48.0 22\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"43.0\" y=\"264.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><path d=\"M105.3 250.0L105.3 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"105.3\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M162.6 250.0L162.6 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"162.6\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M219.9 250.0L219.9 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"219.9\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,500</text><path d=\"M277.2 250.0L277.2 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"277.2\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2,000</text><path d=\"M334.5 250.0L334.5 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"334.5\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2,500</text><path d=\"M45.0 207.3L48.0 207.3\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"211.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><path d=\"M45.0 164.6L48.0 164.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"168.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M45.0 121.9L48.0 121.9\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"125.9\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">750</text><path d=\"M45.0 79.2L48.0 79.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"83.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M45.0 36.5L48.0 36.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"40.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,250</text><text x=\"346.0\" y=\"283.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">業務用の皿（枚）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">作家物の器（個）</text><path d=\"M48.0 45.1L346.0 156.1\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M48.0 96.3L346.0 118.5\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M277.2 250.0L277.2 28.0\" style=\"stroke:var(--good)\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M323.1 250.0L323.1 28.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 79.2L346.0 79.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><circle cx=\"277.2\" cy=\"130.5\" r=\"5\" style=\"fill:var(--good)\"/><circle cx=\"48.0\" cy=\"96.3\" r=\"5\" style=\"fill:var(--drop)\"/><circle cx=\"219.9\" cy=\"109.1\" r=\"4\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.8\"/><circle cx=\"323.1\" cy=\"147.5\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"274.2\" y=\"20.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">下限 2,000</text><text x=\"323.1\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">上限</text><text x=\"344.0\" y=\"74.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">器の需要の上限 1,000</text><text x=\"269.2\" y=\"146.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">イ 契約あり</text><text x=\"54.0\" y=\"90.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ウ</text><text x=\"211.9\" y=\"126.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ア 下限なし</text><text x=\"328.1\" y=\"141.5\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">エ</text><text x=\"280.7\" y=\"193.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">契約の</text><text x=\"280.7\" y=\"215.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">範囲</text><text x=\"61.8\" y=\"205.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">下限がない場合の範囲</text><text x=\"54.9\" y=\"41.6\" font-weight=\"bold\" transform=\"rotate(20.43 54.9 47.6)\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">成形 1,200時間</text><text x=\"65.2\" y=\"111.6\" font-weight=\"bold\" transform=\"rotate(4.26 65.2 97.6)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">絵付け 900時間</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">案ごとの営業利益（単位：円。皿は枚、器は個）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 106\" role=\"img\" aria-label=\"案ごとの営業利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"77.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">案</text><text x=\"181.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">皿</text><text x=\"233.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">器</text><text x=\"309.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業利益</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">イ 契約を続ける</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（下限2,000枚）</text><text x=\"202\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,000</text><text x=\"252\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">700</text><text x=\"354\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">900,000</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">ウ 契約をやめる</text><text x=\"202\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0</text><text x=\"252\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">900</text><text x=\"354\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">300,000</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">ア（参考）下限がない</text><text x=\"202\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,500</text><text x=\"252\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">825</text><text x=\"354\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,125,000</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M154 0L154 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M208 0L208 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M258 0L258 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"104.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
   }
  ]
 }
