@@ -8624,6 +8624,506 @@
    },
    "e": "【考え方】取引先との約束による最低数量（需要の下限）は、「x≧下限」という制約として加える。下限の線より左は作れなくなり、作れる範囲の角（端点）が変わる。製品の採否や組み合わせは、全部原価の損益（配賦された固定費を含む）ではなく、限界利益と制約の資源で判断する。固定費の配賦額は、生産量を変えても固定費の総額が変わらないので、判断には入れない。\n【設問1】成形1時間当たりの限界利益は器（5,000円）が皿（3,200円）より大きい。成形が効いているので、皿を増やすほど器が減る。皿は下限の2,000枚にし、残りの成形の時間で器を700個作る（イ）。営業利益は900,000円。\n【設問2】契約をやめると、器は絵付けの時間（900時間）の限りの900個までしか増えない（ウ）。皿の限界利益1,600,000円を失い、器の限界利益は1,000,000円しか増えないので、営業利益は300,000円に減る。皿の「1枚75円の赤字」は配賦額875円を含めた見かけの損益で、契約をやめても固定費は減らない。全部原価で考えると、営業利益が1,050,000円に増えるように見えて、判断を誤る。\n【設問3】下限がなければ、最適は成形と絵付けの交点（ア：皿1,500枚・器825個。営業利益1,125,000円）。下限の2,000枚までの500枚は、成形の時間を器から奪う。皿1枚で成形0.25時間を使い、器0.25個分（限界利益1,250円）を失うので、1枚当たり1,250−800＝450円の減益で、月225,000円になる。契約を続けるなら、下限を1,500枚以下に下げるか、その枚数を超える分の単価を450円以上上げるよう求める（解答はどちらか一方を、理由とともに書けばよい）。\n【本試験での注意】令和元〜6年度に、需要の下限を制約として入れる設問はないが、令和6年度第2問設問2は、取引先の最低数量の希望を価格で満たす形で問うた（この分野の2問目と同じ型）。下限は「≧」の制約で、作れる範囲を狭める。令和4年度第2問のように、共通固定費は製品に配賦せず、限界利益で組み合わせを決めてから差し引く。表に配賦後の損益があっても、意思決定には限界利益を使う。\n【図】上は、1個当たりの損益（全部原価）と限界利益。中は、制約と作れる範囲で、緑が契約のもとで作れる範囲（イが最適）、ウは契約をやめた場合、アは下限がない場合。下は、案ごとの営業利益。",
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">1個当たりの損益（全部原価）と限界利益（単位：円）。皿は配賦額を含めると赤字に見えるが、限界利益はプラス</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 186\" role=\"img\" aria-label=\"1個当たりの損益と限界利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"88.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1個当たり</text><text x=\"222.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">業務用の皿</text><text x=\"314.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">作家物の器</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">販売価格</text><text x=\"262\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,400</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8,000</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">変動費</text><text x=\"262\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">600</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,000</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">限界利益</text><text x=\"262\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">800</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">固定費の配賦額</text><text x=\"262\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">875</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,500</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">損益（全部原価）</text><text x=\"262\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△75</text><text x=\"354\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,500</text><path d=\"M1 138.4L359 138.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-size=\"11.5\" style=\"fill:currentColor\">成形1時間当たりの限界利益</text><text x=\"262\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">3,200</text><text x=\"354\" y=\"154.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">絵付け1時間当たりの限界利益</text><text x=\"262\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">16,000</text><text x=\"354\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5,000</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M176 0L176 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M268 0L268 183.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"183.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">制約と作れる範囲（灰色は下限がない場合、緑は契約の下限2,000枚以上・上限2,400枚以下のとき）。イが契約のもとでの最適、ウは契約をやめた場合、エは皿を上限まで納めた場合</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 290\" role=\"img\" aria-label=\"制約と、契約のもとで作れる範囲\" font-size=\"12\"><path d=\"M48.0 250.0 L323.1 250.0 L323.1 147.5 L219.9 109.1 L48.0 96.3 Z\" style=\"fill:var(--ink-3);fill-opacity:0.12;stroke:none\"/><path d=\"M277.2 250.0 L323.1 250.0 L323.1 147.5 L277.2 130.5 Z\" style=\"fill:var(--good);fill-opacity:0.24;stroke:none\"/><path d=\"M48.0 250.0L348.0 250.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M48.0 250.0L48.0 22\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"43.0\" y=\"264.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><path d=\"M105.3 250.0L105.3 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"105.3\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M162.6 250.0L162.6 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"162.6\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M219.9 250.0L219.9 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"219.9\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1,500</text><path d=\"M277.2 250.0L277.2 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"277.2\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2,000</text><path d=\"M334.5 250.0L334.5 253.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"334.5\" y=\"265.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2,500</text><path d=\"M45.0 207.3L48.0 207.3\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"211.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><path d=\"M45.0 164.6L48.0 164.6\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"168.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">500</text><path d=\"M45.0 121.9L48.0 121.9\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"125.9\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">750</text><path d=\"M45.0 79.2L48.0 79.2\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"83.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,000</text><path d=\"M45.0 36.5L48.0 36.5\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"42.0\" y=\"40.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1,250</text><text x=\"346.0\" y=\"283.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">業務用の皿（枚）</text><text x=\"4\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">作家物の器（個）</text><path d=\"M48.0 45.1L346.0 156.1\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M48.0 96.3L346.0 118.5\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M277.2 250.0L277.2 28.0\" style=\"stroke:var(--good)\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M323.1 250.0L323.1 28.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><path d=\"M48.0 79.2L346.0 79.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\" fill=\"none\"/><circle cx=\"277.2\" cy=\"130.5\" r=\"5\" style=\"fill:var(--good)\"/><circle cx=\"48.0\" cy=\"96.3\" r=\"5\" style=\"fill:var(--drop)\"/><circle cx=\"219.9\" cy=\"109.1\" r=\"4\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.8\"/><circle cx=\"323.1\" cy=\"147.5\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"274.2\" y=\"20.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">下限 2,000</text><text x=\"323.1\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">上限</text><text x=\"344.0\" y=\"74.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">器の需要の上限 1,000</text><text x=\"269.2\" y=\"146.5\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">イ 契約あり</text><text x=\"54.0\" y=\"90.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ウ</text><text x=\"211.9\" y=\"126.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">ア 下限なし</text><text x=\"328.1\" y=\"141.5\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor;stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">エ</text><text x=\"280.7\" y=\"193.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">契約の</text><text x=\"280.7\" y=\"215.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">範囲</text><text x=\"61.8\" y=\"205.6\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--ink-3);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">下限がない場合の範囲</text><text x=\"54.9\" y=\"41.6\" font-weight=\"bold\" transform=\"rotate(20.43 54.9 47.6)\" font-size=\"10.5\" style=\"fill:var(--drop);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">成形 1,200時間</text><text x=\"65.2\" y=\"111.6\" font-weight=\"bold\" transform=\"rotate(4.26 65.2 97.6)\" font-size=\"10.5\" style=\"fill:var(--warn);stroke:var(--sheet);stroke-width:3.4px;paint-order:stroke;stroke-linejoin:round\">絵付け 900時間</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">案ごとの営業利益（単位：円。皿は枚、器は個）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 106\" role=\"img\" aria-label=\"案ごとの営業利益\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"77.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">案</text><text x=\"181.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">皿</text><text x=\"233.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">器</text><text x=\"309.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">営業利益</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">イ 契約を続ける</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（下限2,000枚）</text><text x=\"202\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2,000</text><text x=\"252\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">700</text><text x=\"354\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">900,000</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">ウ 契約をやめる</text><text x=\"202\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0</text><text x=\"252\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">900</text><text x=\"354\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">300,000</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">ア（参考）下限がない</text><text x=\"202\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,500</text><text x=\"252\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">825</text><text x=\"354\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1,125,000</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M154 0L154 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M208 0L208 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M258 0L258 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"104.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-risk-01",
+   "cat": "risk",
+   "lv": 2,
+   "min": 18,
+   "src": "H26-第4問（為替リスクを軽減する手段と、円安・円高のメリット・デメリット）・R4-第4問（ドル建ての新事業の財務的リスクとマネジメント）",
+   "title": "釣り具メーカー：ドル建ての売掛金の為替予約と通貨オプション",
+   "lead": "D社は、地方都市で、ルアー（疑似餌）や釣り竿などの釣り具を製造・販売している。国内の釣具店への販売が中心だが、3年前から米国の販売代理店への輸出を始めた。輸出はドル建てで、製品を船積みした日の3か月後に、代理店から代金をドルで受け取る。D社には、ほかにドル建ての収入や支出はない。\n本日、代理店から受けた注文の製品（代金250,000ドル）を船積みした。この製品の製造原価は31,600千円、運賃・保険料などの輸出の諸費用は1,900千円で、いずれも円で支払っている。本日の直物レートは1ドル150.00円である。D社は、3か月後に受け取るドルについて、次の3つの方法を検討している（条件は表のとおり）。\n① 何もしない：3か月後の決済日に、その日の直物レートでドルを円に換える。\n② 為替予約：3か月後の決済日に1ドル148.60円でドルを売る予約を、本日、取引銀行と結ぶ。手数料はかからない。\n③ 通貨オプション：3か月後の決済日に1ドル147.00円でドルを売る権利（プット・オプション）を、本日、取引銀行から買う。オプション料は1ドル当たり2.20円で、本日、円で支払う。権利は決済日にだけ使え、使うかどうかは決済日の直物レートを見て決める。\n取引の利益は、円での受取額から、製造原価・輸出の諸費用・オプション料（③の場合）を差し引いた額とする。オプション料の支払いと代金の受取りの時期の違いによる金利と、税金は考えない。",
+   "tables": [
+    {
+     "cap": "輸出の取引と為替の条件",
+     "unit": "",
+     "head": [
+      "項目",
+      "条件"
+     ],
+     "rows": [
+      [
+       "代金（3か月後の決済日にドルで受け取る）",
+       "250,000ドル"
+      ],
+      [
+       "製造原価（円で支払い済み）",
+       "31,600千円"
+      ],
+      [
+       "輸出の諸費用（運賃・保険料など。円で支払い済み）",
+       "1,900千円"
+      ],
+      [
+       "本日（船積みの日）の直物レート",
+       "1ドル150.00円"
+      ],
+      [
+       "② 為替予約のレート（決済日にドルを売る）",
+       "1ドル148.60円"
+      ],
+      [
+       "③ 通貨オプションの権利行使価格（決済日にドルを売る権利）",
+       "1ドル147.00円"
+      ],
+      [
+       "③ オプション料（本日、円で支払う）",
+       "1ドル当たり2.20円"
+      ]
+     ],
+     "note": "代金のドルの額は、注文のときに決まっており、変わらない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "決済日の直物レートが、(a)1ドル132.00円（円高）の場合と、(b)1ドル158.00円（円安）の場合について、①〜③の方法ごとに取引の利益を求めよ（②は(a)(b)のどちらでも同じ値になる）。単位は千円とし、計算の途中では端数を処理しないこと（千円未満の端数は生じない）。マイナスの場合は△を付けること。",
+     "fields": [
+      {
+       "k": "n_lo",
+       "type": "num",
+       "label": "① 何もしない：(a) 132.00円",
+       "unit": "千円",
+       "dp": 0,
+       "ans": -500
+      },
+      {
+       "k": "n_hi",
+       "type": "num",
+       "label": "① 何もしない：(b) 158.00円",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 6000
+      },
+      {
+       "k": "fwd",
+       "type": "num",
+       "label": "② 為替予約：(a)(b)とも",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 3650
+      },
+      {
+       "k": "o_lo",
+       "type": "num",
+       "label": "③ 通貨オプション：(a) 132.00円",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 2700
+      },
+      {
+       "k": "o_hi",
+       "type": "num",
+       "label": "③ 通貨オプション：(b) 158.00円",
+       "unit": "千円",
+       "dp": 0,
+       "ans": 5450
+      }
+     ],
+     "steps": [
+      "費用の合計＝製造原価31,600＋輸出の諸費用1,900＝33,500千円。オプション料＝2.20円×250,000ドル＝550千円",
+      "① 何もしない：(a) 132.00×250千ドル＝33,000、33,000−33,500＝△500。(b) 158.00×250＝39,500、39,500−33,500＝6,000",
+      "② 為替予約：148.60×250＝37,150、37,150−33,500＝3,650（決済日のレートにかかわらず同じ）",
+      "③ (a) 132.00円は権利行使価格147.00円より円高 → 権利を使って147.00円で売る：147.00×250＝36,750、36,750−550−33,500＝2,700",
+      "③ (b) 158.00円は147.00円より円安 → 権利を使わず直物で売る：39,500−550−33,500＝5,450"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "(1) ③通貨オプションを使う場合の取引の利益が、②為替予約をする場合を上回るのは、決済日の直物レートが1ドル何円を超えるときか。\n(2) ①何もしない場合に取引の利益がマイナスになるのは、決済日の直物レートが1ドル何円を下回るときか。\nいずれも単位は円とし、小数第2位まで示すこと（それより下の端数は生じない）。(1)は計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "sx",
+       "type": "num",
+       "label": "(1) オプションが予約を上回る直物レート",
+       "unit": "円",
+       "dp": 2,
+       "ans": 150.8
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(1) 計算過程"
+      },
+      {
+       "k": "be",
+       "type": "num",
+       "label": "(2) 何もしない場合に赤字になる直物レート",
+       "unit": "円",
+       "dp": 2,
+       "ans": 134.0
+      }
+     ],
+     "steps": [
+      "(1) 権利行使価格147.00円より円安なら、オプションの利益＝（直物レート−オプション料2.20円）×250千ドル−33,500",
+      "予約の利益3,650と等しくなるのは、直物レート−2.20＝予約のレート148.60 のとき → 直物レート＝148.60＋2.20＝150.80円",
+      "検算：150.80円なら（150.80−2.20）×250−33,500＝3,650 で予約と同じ。これより円安ならオプションの方が大きい",
+      "(2) 費用の合計33,500÷250千ドル＝134.00円（採算レート）。これを下回る円高で赤字"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "3か月後の決済日の直物レートは、1ドル158.00円であった。D社は、船積みの日に②の為替予約を結んでいたとする。社長は「予約をしなければ、もっと利益が出ていた。為替予約は損なので、今後の輸出では為替予約をやめたい」と述べている。\n(1) 結果から見て、今回、為替予約を結んだことは誤りだったといえるか。\n(2) 設問1・2の結果を踏まえ、社長に対する助言を80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "(1) 為替予約を結んだこと",
+       "opts": [
+        "誤りだったといえる",
+        "誤りだったとはいえない"
+       ],
+       "ans": "誤りだったとはいえない"
+      },
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "(2) 助言",
+       "limit": 80,
+       "model": "予約は円高による採算割れを防ぎ利益を3,650千円に確定する手段で、結果の差損で得失を判断すべきでない。円安の利益も残すならオプション料を払いオプションを使う。",
+       "points": [
+        "為替予約は、円高による採算割れを防ぎ、取引の利益を3,650千円に確定する手段である",
+        "結果として生じた差損（機会損失）だけで、予約の得失を判断すべきでない",
+        "円安の利益も残したいなら、オプション料を払って通貨オプションを使う"
+       ]
+      }
+     ],
+     "steps": [
+      "予約をしなければ（158.00円）6,000千円、予約をした場合は3,650千円。差の2,350千円は、円安になった結果から見た機会損失（予約の差損）",
+      "予約を結んだのは、決済日のレートが分からない船積みの日。そのとき、何もしなければ134.00円を下回る円高で赤字になり、132.00円なら△500千円だった",
+      "為替予約は、取引の利益を3,650千円に確定し、円高による採算割れを防ぐ手段 → 結果の差損だけでは、誤りだったとはいえない",
+      "円安の利益も残したいなら通貨オプション。ただしオプション料550千円がかかり、150.80円を超える円安でなければ予約より利益が小さい（円高なら950千円少ない）"
+     ]
+    }
+   ],
+   "ce": {
+    "n_lo": "よくある誤り：33,000千円は、円の受取額のままで、製造原価と輸出の諸費用を差し引いていない。1,400千円は、製造原価だけを差し引き、輸出の諸費用1,900千円を差し引いていない。",
+    "n_hi": "よくある誤り：39,500千円は、円の受取額のまま。7,900千円は、輸出の諸費用1,900千円を差し引いていない。",
+    "fwd": "よくある誤り：4,000千円は、予約のレート148.60円でなく、船積みの日の直物レート150.00円で換算した値（予約で決まるのは、3か月後に受け渡すレート）。37,150千円は、円の受取額のまま。3,100千円は、為替予約なのにオプション料550千円まで差し引いた値。",
+    "o_lo": "よくある誤り：3,250千円は、オプション料550千円を差し引いていない。△1,050千円は、円高なのに権利を使わず、132.00円で売った値（権利行使価格147.00円で売れる）。",
+    "o_hi": "よくある誤り：6,000千円は、オプション料550千円を差し引いていない値で、①何もしない場合と同じになる。オプション料は、権利を使わなくても戻らない。",
+    "sx": "よくある誤り：146.40円は、オプション料を逆に差し引いた。149.20円は、予約のレートでなく権利行使価格147.00円にオプション料を足した値（比べる相手は予約の148.60円）。148.60円は、オプション料を考えていない（予約のレートを超えても、オプション料の分を取り戻すまでは予約の方が大きい）。",
+    "be": "よくある誤り：126.40円は、製造原価だけを割った値（輸出の諸費用1,900千円を含めていない）。136.20円は、何もしない場合なのにオプション料550千円まで含めた値。",
+    "ch": "よくある誤り：「誤りだったといえる」とするのは、予約のレート148.60円と決済日の直物レート158.00円の差（2,350千円の差損）だけを見た判断。予約は、レートが分からない船積みの日に、円高による赤字（132.00円なら△500千円）を防ぐために結ぶもので、結果の差損で得失を判断しない。"
+   },
+   "e": "【考え方】ドル建ての売掛金は、円高になるほど円の受取額が減る（為替の変動リスク）。為替予約は、受け取る円の額を予約の時点で確定させる。通貨オプション（ドルを売る権利）は、オプション料を払って円高のときの下限（147.00円−2.20円＝144.80円）を確保し、円安のときは権利を使わずに直物レートで売れる。\n【設問1】何もしない場合は、(a)132.00円で500千円の赤字、(b)158.00円で6,000千円の利益と、レートで結果が大きく変わる。為替予約は148.60円で確定し、利益は3,650千円。オプションは、(a)では権利を使って147.00円で売り2,700千円、(b)では権利を使わずに直物で売り5,450千円。どちらもオプション料550千円を差し引く。\n【設問2】オプションが予約を上回るのは、直物レートからオプション料を引いた値が予約のレートを超えるときで、148.60＋2.20＝150.80円を超える円安のとき。それまでは予約の方が大きく、円高のときは950千円少ない（オプション料550千円と、権利行使価格が予約のレートより1.60円低い分の400千円）。何もしない場合の採算レートは134.00円で、これを下回る円高では赤字になる。\n【設問3】予約を結ぶのは、決済日のレートが分からない船積みの日である。予約は、134.00円を下回る円高で赤字になるおそれをなくし、利益を3,650千円に確定した。円安になった結果から見た差（6,000−3,650＝2,350千円）は機会損失で、これだけで予約を誤りとするのは、円高のときの損失を考えない判断である。円安の利益も残したいなら、オプション料（550千円）を払ってオプションを使う。\n【本試験での注意】令和元〜6年度に、為替予約・通貨オプションの計算は出ていない。令和4年度第4問は、販売価格がドル建てで示された海外向けの新事業（中古車販売事業）について、実行する際に考えられるリスクを財務的観点から2点指摘し、それらのマネジメントを100字以内で助言させた。為替の変動をリスクに挙げるなら、対応の手段（為替予約・通貨オプションなど）と、その効果まで書く。平成26年度第4問は、原料の輸入（コーヒー豆の現地での買付け）の為替リスクを軽減する手段を挙げ、円安・円高のときのメリットとデメリットを述べさせた。輸入は輸出の逆で、円安になると円の支払額が増えるので、ドルを買う予約や、ドルを買う権利（コール・オプション）で備える。\n【図】上は、決済日の直物レートと取引の利益。予約は水平な線、オプションは147.00円より円高では水平（2,700千円）、円安では何もしない場合を550千円下回る線になる。中は(a)(b)の結果。下は、円高・円安のときの手段ごとの影響と、輸入の場合。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">決済日の直物レートと取引の利益（縦軸は取引の利益で、単位は千円。点は(a)132.00円と(b)158.00円のときの値。破線は①何もしない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 270\" role=\"img\" aria-label=\"決済日の直物レートと取引の利益\" font-size=\"12\"><path d=\"M94.4 18L94.4 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M246.5 18L246.5 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 230.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 188.4L350.0 188.4\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"192.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"262.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">決済日の直物レート（円）</text><text x=\"58.1\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">130</text><text x=\"103.4\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">135</text><text x=\"148.7\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">140</text><text x=\"194.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">145</text><text x=\"239.3\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"284.6\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">155</text><text x=\"329.9\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">160</text><text x=\"36.0\" y=\"150.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">2,000</text><text x=\"36.0\" y=\"109.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">4,000</text><text x=\"36.0\" y=\"67.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">6,000</text><path d=\"M40.0 219.6 L348.0 42.8\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 112.5 L348.0 112.5\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 132.2 L212.1 132.2 L348.0 54.2\" fill=\"none\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"76.2\" cy=\"198.8\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"311.8\" cy=\"63.6\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"76.2\" cy=\"132.2\" r=\"3.4\" style=\"fill:var(--warn)\"/><circle cx=\"311.8\" cy=\"75.0\" r=\"3.4\" style=\"fill:var(--warn)\"/><circle cx=\"76.2\" cy=\"112.5\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"311.8\" cy=\"112.5\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"94.4\" cy=\"188.4\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"246.5\" cy=\"112.5\" r=\"3.4\" style=\"fill:var(--warn)\"/><text x=\"94.4\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">採算 134.00円</text><text x=\"246.5\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">150.80円</text><text x=\"49.1\" y=\"105.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">② 為替予約 3,650</text><text x=\"49.1\" y=\"148.9\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">③ オプション 2,700</text><text x=\"260.1\" y=\"42.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">① 何もしない</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">決済日の直物レートごとの取引の利益（網掛けは、レートにかかわらず同じ為替予約）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 149\" role=\"img\" aria-label=\"決済日の直物レートごとの取引の利益（千円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"38.8\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"56.0\" y=\"23.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">千円</text><text x=\"174.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">(a) 132.00円</text><text x=\"174.0\" y=\"31.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">（円高）</text><text x=\"298.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">(b) 158.00円</text><text x=\"298.0\" y=\"31.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">（円安）</text><text x=\"6\" y=\"55.4\" font-size=\"11.5\" style=\"fill:currentColor\">① 何もしない</text><text x=\"174.0\" y=\"55.4\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">△500</text><text x=\"298.0\" y=\"55.4\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">6,000</text><rect x=\"1\" y=\"62.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 62.7L359 62.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">② 為替予約</text><text x=\"174.0\" y=\"78.3\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">3,650</text><text x=\"298.0\" y=\"78.3\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">3,650</text><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">③ 通貨オプション</text><text x=\"174.0\" y=\"101.2\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">2,700</text><text x=\"298.0\" y=\"101.2\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">5,450</text><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"132.0\" font-size=\"11.5\" style=\"fill:currentColor\">③の権利</text><text x=\"174.0\" y=\"124.1\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">使う</text><text x=\"174.0\" y=\"140.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（147.00円で売る）</text><text x=\"298.0\" y=\"124.1\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">使わない</text><text x=\"298.0\" y=\"140.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（直物で売る）</text><path d=\"M1 39.8L359 39.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M112 0L112 146.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M236 0L236 146.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"146.3\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">円高・円安のときの手段ごとの影響（輸出は円高、輸入は円安で困る）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 213\" role=\"img\" aria-label=\"円高・円安のときの手段ごとの影響（輸出の場合と輸入の場合）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"56.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"174.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">円高のとき</text><text x=\"298.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">円安のとき</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">② 為替予約</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（ドルを売る予約）</text><text x=\"118\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">148.60円で確定し、</text><text x=\"118\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">損失を防ぐ</text><text x=\"242\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">差益を得られない</text><text x=\"242\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（機会損失）</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">③ 通貨オプション</text><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">（ドルを売る権利）</text><text x=\"118\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">権利を使い</text><text x=\"118\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">147.00円で売る。</text><text x=\"118\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">オプション</text><text x=\"118\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">料もかかり、予約より</text><text x=\"118\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">950千円少ない</text><text x=\"242\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">権利を使わず直物で</text><text x=\"242\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">売り、差益を得る</text><text x=\"242\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">（オプション料の</text><text x=\"242\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">分は減る）</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">輸入（ドルで</text><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">支払う）の場合</text><text x=\"118\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">支払額が</text><text x=\"118\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">減るので困らない</text><text x=\"242\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">支払額が増える。</text><text x=\"242\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">ドルを買う予約や、</text><text x=\"242\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">ドルを買う権利</text><text x=\"242\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">（コール）で備える</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M112 0L112 210.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M236 0L236 210.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"210.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-risk-02",
+   "cat": "risk",
+   "lv": 2,
+   "min": 20,
+   "src": "H20-第4問（資金調達を全額負債に依存した場合の問題点・過半数を超える出資を受けても経営権を維持する方法）。ROEの比較と無差別点は1次の財務・会計の標準的な論点",
+   "title": "ロボットシステムインテグレーター：借入れと増資（財務レバレッジとROEの振れ幅）",
+   "lead": "D社は、産業用ロボットを使った自動化設備の設計・組立て・据付け（ロボットシステムインテグレーター）を営んでいる。受注は、取引先の製造業の設備投資の動きに左右されるため、営業利益の変動が大きく、過去10年間では、最も多い年で75百万円、最も少ない年で7百万円だった。\nD社は、受注の増加に対応するため、組立て・試験を行う新工場（投資額300百万円）を建設する。現在の貸借対照表の要約と、資金調達の2つの案は次のとおりである。\nA案：投資額の全額300百万円を、取引銀行から年利3%で借り入れる。\nB案：150百万円は、中小企業向けの投資会社を引受先とする第三者割当増資（1株当たり50,000円で3,000株を発行）で調達し、残りの150百万円を年利3%で借り入れる。社長は現在、発行済株式6,000株のすべてを保有しており、B案でも持株比率は3分の2を保てる。\n新工場の稼働後の営業利益は、受注が好調な場合は72百万円、不調な場合は8百万円と見込まれる。営業外の損益は支払利息だけで、特別損益はない。支払利息は、投資後の借入金の残高に年利率を掛けて求める（返済は考えない）。法人税等の税率は30%で、税引前当期純利益がマイナスの場合、法人税等はゼロとする。\n社長は、受注が落ち込む年でも当期純損失（最終赤字）は避けたいと考えている。また、取引銀行からは、自己資本比率を同業他社の平均（50%）以上に保つよう助言されている。",
+   "tables": [
+    {
+     "cap": "D社の貸借対照表の要約（現在）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "資産合計",
+       "500"
+      ],
+      [
+       "借入金（年利2%）",
+       "100"
+      ],
+      [
+       "買掛金・未払金など（利子は付かない）",
+       "100"
+      ],
+      [
+       "純資産",
+       "300"
+      ],
+      [
+       "負債・純資産合計",
+       "500"
+      ]
+     ],
+     "note": "新工場の投資額300百万円は、どちらの案でも、そのまま資産に加わる（投資後の資産合計は800百万円）。買掛金などの額は変わらない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "A案とB案のそれぞれについて、受注が好調な場合と不調な場合の自己資本利益率（ROE）を求めよ。ROEは、当期純利益÷投資後の自己資本（当期純利益による増加は考えない）とする。単位は%とし、計算の途中では端数を処理せず、小数第3位を四捨五入して小数第2位まで示すこと。マイナスの場合は△を付けること。",
+     "fields": [
+      {
+       "k": "rAg",
+       "type": "num",
+       "label": "A案：好調な場合",
+       "unit": "%",
+       "dp": 2,
+       "ans": 14.23
+      },
+      {
+       "k": "rAb",
+       "type": "num",
+       "label": "A案：不調な場合",
+       "unit": "%",
+       "dp": 2,
+       "ans": -1.0
+      },
+      {
+       "k": "rBg",
+       "type": "num",
+       "label": "B案：好調な場合",
+       "unit": "%",
+       "dp": 2,
+       "ans": 10.19
+      },
+      {
+       "k": "rBb",
+       "type": "num",
+       "label": "B案：不調な場合",
+       "unit": "%",
+       "dp": 2,
+       "ans": 0.23
+      }
+     ],
+     "steps": [
+      "支払利息：A案＝100×2%＋300×3%＝2＋9＝11、B案＝2＋150×3%＝2＋4.5＝6.5",
+      "投資後の自己資本：A案300、B案300＋150＝450",
+      "A案・好調：（72−11）×（1−0.3）＝42.7、42.7÷300＝14.23%",
+      "A案・不調：8−11＝△3（税引前が赤字なので法人税等はゼロ）、△3÷300＝△1.00%",
+      "B案・好調：（72−6.5）×0.7＝45.85、45.85÷450＝10.19%",
+      "B案・不調：（8−6.5）×0.7＝1.05、1.05÷450＝0.23%"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "(1) A案とB案のROEが等しくなる営業利益の額と、(2) そのときのROEを求めよ。(1)は百万円単位とし、百万円未満の端数が生じる場合は四捨五入すること。(2)は%で、小数第3位を四捨五入して小数第2位まで示すこと。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "xs",
+       "type": "num",
+       "label": "(1) ROEが等しくなる営業利益",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 20
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      },
+      {
+       "k": "rs",
+       "type": "num",
+       "label": "(2) そのときのROE",
+       "unit": "%",
+       "dp": 2,
+       "ans": 2.1
+      }
+     ],
+     "steps": [
+      "営業利益をXとする（両案とも税引前が黒字の範囲）。A案のROE＝（X−11）×0.7÷300、B案のROE＝（X−6.5）×0.7÷450",
+      "（X−11）÷300＝（X−6.5）÷450 → 450（X−11）＝300（X−6.5） → 150X＝4,950−1,950 → X＝20百万円",
+      "(2) （20−11）×0.7÷300＝2.10%（B案も（20−6.5）×0.7÷450＝2.10%）",
+      "このROEは、追加の借入れの利率3%×（1−0.3）と同じ。営業利益が20を超えればA案、下回ればB案のROEが高い"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "社長は、好調な場合のROEが高いA案で調達したいと考えている。設問1・2の結果と与件を踏まえ、(1) D社に勧める案を答え、(2) 社長に対する助言を80字以内で述べよ。",
+     "fields": [
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "(1) 勧める案",
+       "opts": [
+        "A案",
+        "B案"
+       ],
+       "ans": "B案"
+      },
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "(2) 助言",
+       "limit": 80,
+       "model": "A案は営業利益が20百万円を超えればROEが高いが、不調時は最終赤字となり振れ幅も大きく、自己資本比率も37.5%に下がる。変動の大きいD社にはB案を勧める。",
+       "points": [
+        "営業利益が20百万円を超えればA案のROEが高いが、不調時は最終赤字となり、ROEの振れ幅が大きい",
+        "A案は自己資本比率が37.5%に下がり、安全性が低下する",
+        "営業利益の変動が大きいD社には、B案を勧める"
+       ]
+      }
+     ],
+     "steps": [
+      "自己資本比率：A案＝300÷800＝37.5%（同業他社の平均50%を下回る）、B案＝450÷800＝56.25%",
+      "財務レバレッジ（総資本÷自己資本）：A案2.67倍、B案1.78倍",
+      "ROEの振れ幅（好調−不調）：A案14.23−（△1.00）＝15.23ポイント、B案10.19−0.23＝9.96ポイント",
+      "営業利益が20を下回るとA案のROEはB案より低い。当期純損失にならない営業利益の下限は支払利息と同じで、A案11・B案6.5。不調の場合（8）はA案だけが当期純損失になる。過去10年の最低は7で、不調の年は起こりうるが、その水準でもB案は黒字を保つ",
+      "社長の方針（最終赤字を避ける）と取引銀行の助言（自己資本比率50%以上）を満たすのはB案 → B案を勧める"
+     ]
+    }
+   ],
+   "ce": {
+    "rAg": "よくある誤り：5.34%は、分母に総資本800（負債を含む）を使った。13.13%は、営業利益に（1−0.3）を掛けてから支払利息を引いた値で、支払利息の節税効果が入っていない。20.33%は、税引前当期純利益を自己資本で割った（分子は税引後の当期純利益）。14.70%は、既存の借入金100の利息2を入れていない。",
+    "rAb": "よくある誤り：△0.70%は、税引前の赤字△3にも30%の税の軽減があるとした値（問題文では、税引前がマイナスなら法人税等はゼロ）。△1.80%は、営業利益に（1−0.3）を掛けてから支払利息を引いた値。",
+    "rBg": "よくある誤り：15.28%は、増資前の自己資本300で割った（B案の投資後の自己資本は450）。5.73%は、分母に総資本800を使った。9.76%は、支払利息の節税効果が入っていない。",
+    "rBb": "よくある誤り：△0.20%は、営業利益に（1−0.3）を掛けてから支払利息を引いた値（支払利息の節税効果が入らず、赤字に見える）。0.35%は、増資前の自己資本300で割った。0.13%は、分母に総資本を使った。",
+    "xs": "よくある誤り：24百万円は、総資本営業利益率（営業利益÷総資本800）が借入れの利率3%と等しくなる点とした値（既存の借入金の利率は2%で、買掛金などの利子の付かない負債もあるので、この点では等しくならない）。18百万円は、既存の借入金100の利息を入れていない。",
+    "rs": "よくある誤り：3.00%は、税引前当期純利益を自己資本で割った（分子は税引後の当期純利益）。2.50%は、総資本営業利益率（20÷800）で、ROEではない。",
+    "ch": "よくある誤り：A案とするのは、好調な場合のROE（14.23%）だけを見た判断。不調な場合は△1.00%（当期純損失）で、自己資本比率も37.5%と、社長の方針と取引銀行の助言を満たさない。"
+   },
+   "e": "【考え方】借入れで賄った資金が、その利率を上回る利益を生むときはROEが高まり、下回るときはROEが下がる（財務レバレッジの効果）。固定費が多いと営業利益が振れやすい（経営レバレッジ）のと同じく、支払利息は営業利益の増減にかかわらず一定なので、借入れが多いほど、当期純利益とROEの振れ幅が大きくなる。\n【設問1】支払利息はA案11・B案6.5、自己資本はA案300・B案450。好調な場合のROEはA案14.23%・B案10.19%でA案が高いが、不調な場合はA案△1.00%（最終赤字）・B案0.23%で逆になる。税引前が赤字の年は法人税等がかからないので、赤字の額がそのまま当期純損失になる。\n【設問2】ROEが等しくなるのは営業利益20百万円のときで、ROEは2.10%。これは、A案が増資の代わりに借り入れる150百万円の税引後の利率（3%×（1−0.3））と同じで、ROEがこの利率を上回る（営業利益が無差別点を超える）なら借入れがROEを高め、下回るなら低める。1株当たり当期純利益（EPS）で比べても、新株の発行価格が1株当たり純資産（50,000円）と同じなので、同じ営業利益で等しくなる（どちらも1,050円）。\n【設問3】A案はROEの振れ幅が15.23ポイントで、B案（9.96ポイント）より大きく、不調の年は最終赤字になる。自己資本比率も37.5%に下がり、取引銀行の助言を満たさない。営業利益が大きく変動するD社にはB案を勧める。増資には、配当や株主への説明の負担、持株比率の低下があるが、返済の必要がなく、次の投資のための借入余力を残せる。\n【本試験での注意】令和元〜6年度に、資金調達の方法でROEを比べる設問はない。平成20年度第4問は、設備の更新の資金について、資金調達を全額負債に依存した場合の問題点（60字）と、過半数を超える出資を受け入れながら経営権を維持する方法（40字）を問うた。借入れに頼る問題点は、安全性（自己資本比率）の低下、利息と返済の負担、利益の振れ幅の拡大、追加の借入余力の低下。過半数を超える出資を受けても経営権を保つには、議決権を制限した株式（議決権のない株式など）を発行する方法がある。資本構成と資本コスト・企業価値の関係は、企業価値・資本コストの分野で練習する。\n【図】上は、営業利益とROE。A案の線の方が傾きが大きく（財務レバレッジが高い）、営業利益20百万円で交わる。下は、A案とB案の比較。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">営業利益とROE（縦軸はROEで、単位は%。点は不調・好調のときの値（下の表）。ROEは営業利益20百万円で等しくなり、それより上ではA案、下ではB案が高い。線が折れるのは、税引前が赤字だと法人税等がかからないため）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 270\" role=\"img\" aria-label=\"営業利益とROE（A案とB案）\" font-size=\"12\"><path d=\"M70.8 18L70.8 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M117.0 18L117.0 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M317.2 18L317.2 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 230.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 184.8L350.0 184.8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"188.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"262.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">営業利益（百万円）</text><text x=\"40.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"117.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"194.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><text x=\"271.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><text x=\"348.0\" y=\"244.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">80</text><text x=\"36.0\" y=\"143.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"36.0\" y=\"98.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><text x=\"36.0\" y=\"53.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">15</text><path d=\"M40.0 217.9 L82.3 184.8 L348.0 39.2\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 197.8 L65.0 184.8 L348.0 81.4\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"70.8\" cy=\"193.8\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"70.8\" cy=\"182.7\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"317.2\" cy=\"56.1\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"317.2\" cy=\"92.6\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"117.0\" cy=\"165.8\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"70.8\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">不調 8</text><text x=\"117.0\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"317.2\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">好調 72</text><text x=\"122.8\" y=\"180.3\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">2.10%</text><text x=\"147.8\" y=\"103.4\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">A案（借入れ）</text><text x=\"194.0\" y=\"166.7\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">B案（増資＋借入れ）</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">A案とB案の比較（網掛けは、安全性と振れ幅）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 263\" role=\"img\" aria-label=\"A案とB案の比較\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">百万円</text><text x=\"202.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">A案</text><text x=\"307.5\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">B案</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">借入金（投資後）</text><text x=\"249\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">400</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">250</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">支払利息</text><text x=\"249\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">11</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.5</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本（投資後）</text><text x=\"249\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">300</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">450</text><rect x=\"1\" y=\"92.6\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">自己資本比率</text><text x=\"249\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">37.5%</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">56.25%</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">財務レバレッジ</text><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">（総資本÷自己資本）</text><text x=\"249\" y=\"139.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.67倍</text><text x=\"354\" y=\"139.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.78倍</text><path d=\"M1 154.3L359 154.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.9\" font-size=\"11.5\" style=\"fill:currentColor\">ROE（好調）</text><text x=\"249\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">14.23%</text><text x=\"354\" y=\"169.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">10.19%</text><rect x=\"1\" y=\"177.2\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 177.2L359 177.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"192.8\" font-size=\"11.5\" style=\"fill:currentColor\">ROE（不調）</text><text x=\"249\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△1.00%</text><text x=\"354\" y=\"192.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0.23%</text><rect x=\"1\" y=\"200.1\" width=\"358\" height=\"38.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 200.1L359 200.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"215.7\" font-size=\"11.5\" style=\"fill:currentColor\">ROEの振れ幅</text><text x=\"6\" y=\"231.6\" font-size=\"11.5\" style=\"fill:currentColor\">（好調−不調）</text><text x=\"249\" y=\"223.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">15.23ポイント</text><text x=\"354\" y=\"223.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">9.96ポイント</text><path d=\"M1 238.9L359 238.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"254.5\" font-size=\"11.5\" style=\"fill:currentColor\">社長の持株比率</text><text x=\"249\" y=\"254.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">100%</text><text x=\"354\" y=\"254.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">66.7%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 260.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M255 0L255 260.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"260.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-risk-03",
+   "cat": "risk",
+   "lv": 2,
+   "min": 20,
+   "src": "R4-第4問（新規事業を実行する際の財務的リスク2点とマネジメント、100字）・H27-第4問設問1（大口の取引先がいることのデメリット）",
+   "title": "電気工事業：太陽光発電のPPA（金利の変動と需要家の信用のリスク）",
+   "lead": "D社は、地方都市で、工場や商業施設の電気設備の工事を営んでいる。D社は新たな事業として、電気を使う企業（需要家）の工場の屋根に太陽光発電の設備を設置して自社で所有し、発電した電気を需要家に長期間販売する事業（オンサイトPPA）を検討している。\n最初の案件は、取引先の食品工場1社との17年間の契約である。需要家は電気代の削減を目的としており、電気の販売単価は17年間変わらない。発電量は安定しており、設備の故障には保険で備える。この案件の計画は次の表のとおりである。\n投資額は全額を借り入れる。金利は、変動金利（半年ごとに見直す。現在は年1.5%）と、固定金利（17年間、年2.5%）から選べる。社長は、いまは変動金利の方が低いので、変動金利で借りるつもりである。支払利息は、各年度の期首の借入金の残高に年利率を掛けた額とする。\n現在の契約案には、需要家が途中で工場を閉鎖したり倒産したりして契約が終わった場合の取決めがない。その場合、D社は設備を撤去して売却することになり、5年度末に売却すると、売却収入（撤去の費用を差し引いた額）は50百万円と見込まれる。なお、D社の本業が生む資金（フリー・キャッシュ・フロー）は年間30百万円程度である。税金は考えない。",
+   "tables": [
+    {
+     "cap": "最初の案件の計画",
+     "unit": "",
+     "head": [
+      "項目",
+      "計画"
+     ],
+     "rows": [
+      [
+       "設備の投資額（1年度の期首に支払う）",
+       "340百万円"
+      ],
+      [
+       "減価償却の期間（定額法、残存価額ゼロ）",
+       "17年"
+      ],
+      [
+       "電気の販売収入（毎年）",
+       "44百万円"
+      ],
+      [
+       "保守費・保険料など（毎年）",
+       "6百万円"
+      ],
+      [
+       "借入金（投資額の全額）",
+       "340百万円"
+      ],
+      [
+       "借入金の返済（17年間、毎年度末に同じ額）",
+       "20百万円"
+      ]
+     ],
+     "note": "D社は、設備を有形固定資産として計上し、減価償却する。販売収入と保守費などは17年間変わらず、保守費などは、いずれも現金の支出を伴う。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "(1) 変動金利（年1.5%）で借りた場合と、(2) 固定金利（年2.5%）で借りた場合の、この事業の1年度の経常利益を求めよ。(3) 変動金利が年何%を超えると、1年度の経常利益がマイナスになるか。\n(1)(2)は百万円単位、(3)は%で、いずれも計算の途中では端数を処理せず、小数第2位を四捨五入して小数第1位まで示すこと。",
+     "fields": [
+      {
+       "k": "cv",
+       "type": "num",
+       "label": "(1) 変動金利の場合の1年度の経常利益",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 12.9
+      },
+      {
+       "k": "cf",
+       "type": "num",
+       "label": "(2) 固定金利の場合の1年度の経常利益",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 9.5
+      },
+      {
+       "k": "be",
+       "type": "num",
+       "label": "(3) 1年度の経常利益がマイナスになる金利",
+       "unit": "%",
+       "dp": 1,
+       "ans": 5.3
+      }
+     ],
+     "steps": [
+      "減価償却費＝340÷17＝20、営業利益＝販売収入44−保守費など6−減価償却費20＝18",
+      "(1) 支払利息＝期首の残高340×1.5%＝5.1、経常利益＝18−5.1＝12.9",
+      "(2) 支払利息＝340×2.5%＝8.5、経常利益＝18−8.5＝9.5",
+      "(3) 支払利息が営業利益18を超える金利：18÷340＝0.05294… → 5.3%"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "需要家が5年度末で工場を閉鎖し、契約が終わった場合を考える。D社は変動金利で借り、金利は5年度末まで年1.5%のままだったとする。(1) 5年度末に設備を売却したときの固定資産売却損と、(2) 1年度から5年度までのこの事業の経常利益の合計から、(1)の売却損を差し引いた損益の合計を求めよ。単位は百万円とし、小数第2位を四捨五入して小数第1位まで示すこと。マイナスの場合は△を付けること。(2)は計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "loss",
+       "type": "num",
+       "label": "(1) 固定資産売却損",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 190.0
+      },
+      {
+       "k": "tot",
+       "type": "num",
+       "label": "(2) 損益の合計",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": -122.5
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(2) 計算過程"
+      }
+     ],
+     "steps": [
+      "(1) 5年度末の帳簿価額＝340−20×5＝240、売却損＝240−売却収入50＝190.0",
+      "(2) 各年度の期首の残高：340、320、300、280、260（毎年度末に20返済）",
+      "支払利息の合計＝（340＋320＋300＋280＋260）×1.5%＝1,500×1.5%＝22.5",
+      "経常利益の合計＝営業利益18×5年−22.5＝67.5",
+      "損益の合計＝67.5−190.0＝△122.5",
+      "参考：5年度末の借入金の残高も240。売却収入50を返済に充てても190残り、本業の資金（年30程度）の6年分を超える"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "この事業を実行する際に考えられる財務的なリスクを2つ挙げ、それぞれへの対応を、設問1・2の結果を踏まえて100字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 100,
+       "model": "①販売単価は固定なのに変動金利が上がると利益が減るので、固定金利で支払利息を確定する。②需要家の撤退や倒産で収入が途絶え借入金が残るので、与信審査と中途解約時の設備買取り条項で備える。",
+       "points": [
+        "販売単価が固定のまま変動金利が上がると、支払利息が増えて利益が減る（金利の変動リスク）",
+        "固定金利にして支払利息を確定する（金利スワップで固定してもよい）",
+        "需要家の撤退や倒産で収入が途絶え、借入金が残る（需要家の信用リスク）",
+        "与信審査と、中途解約のときに需要家が設備を買い取る条項で備える"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "cv": "よくある誤り：32.9百万円は、減価償却費20を差し引いていない（減価償却費は現金が出ていかないが、費用として経常利益を減らす）。13.2百万円は、1年度末の返済後の残高320で利息を計算した（問題文では期首の残高）。",
+    "cf": "よくある誤り：29.5百万円は、減価償却費を差し引いていない。10.0百万円は、返済後の残高320で利息を計算した。",
+    "be": "よくある誤り：11.2%は、営業利益に減価償却費を足し戻した38を、借入金340で割った（経常利益は減価償却費を差し引いた後の利益）。10.6%は、借入金の平均の残高170で割った（問われているのは、残高が最も多い1年度）。",
+    "loss": "よくある誤り：240.0百万円は、帳簿価額のままで、売却収入50を差し引いていない。290.0百万円は、減価償却を考えずに投資額から売却収入を引いた。170.0百万円は、減価償却を6年分した値（5年度末までは5年分）。",
+    "tot": "よくある誤り：△125.5百万円は、毎年、当初の残高340で利息を計算した（残高は毎年20ずつ減る）。67.5百万円は、売却損を差し引いていない。△72.5百万円は、売却収入50をさらに足した値（売却損は、売却収入を差し引いた後の額なので、二重に数えている）。"
+   },
+   "e": "【考え方】PPAは、販売単価が17年間固定される一方、設備の資金は借入れで賄う。このため、①資金を借りる側の金利の変動と、②収入を1社の需要家に頼ることが、財務的なリスクになる。\n【設問1】営業利益は44−6−20＝18百万円。1年度の経常利益は、変動金利なら12.9、固定金利なら9.5。変動金利は、いまは固定金利より1ポイント低いが、5.29…%を超えると1年度から経常赤字になり、販売単価を上げて取り戻すこともできない。固定金利にすれば、1年度の利益は3.4百万円少なくなるが、17年間の支払利息が確定する。\n【設問2】5年度末の帳簿価額は240、売却損は190。1〜5年度の経常利益の合計67.5から売却損を差し引くと、損益の合計は△122.5。借入金も240残り、売却収入50を返済に充てても190残る。これは本業の資金（年30程度）の6年分を超え、本業の資金繰りを圧迫する。\n【設問3】リスクは「何が起きると、何が悪化するか」と「対応」を対にして書く。金利には、固定金利への切替え（金利スワップ）、自己資金を入れて借入れを減らす。需要家の信用には、与信審査、中途解約のときに需要家が設備を残りの価額で買い取る（違約金を払う）条項、複数の需要家への分散。\n【本試験での注意】令和4年度第4問は、新規事業（中古車販売事業）を実行する際に考えられるリスクを、財務的観点から2点指摘し、それらのマネジメントについて100字以内で助言させた（20点）。出題の趣旨は、新規事業の諸特性を理解し、付随する財務的リスクを指摘し、そのリスクマネジメントを助言する能力を問うとしている。リスクは、与件の事業の特徴（収入は固定か変動か、どの通貨か、取引先は何社か、在庫を持つか、資金をどう調達するか）から探す。平成27年度第4問も、大口の取引先がいることのデメリットを問うた。\n【図】上は、金利と1年度の経常利益。中は、需要家が5年度末で工場を閉鎖した場合の損益。下は、財務的なリスクと主な対応の一覧（ほかの事業のリスクを探すときにも使える）。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">金利と1年度の経常利益（縦軸は1年度の経常利益で、単位は百万円。金利が5.29…%を超えると、1年度から経常赤字になる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"金利と1年度の経常利益\" font-size=\"12\"><path d=\"M117.0 18L117.0 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M168.3 18L168.3 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M311.8 18L311.8 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 170.3L350.0 170.3\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"174.3\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">金利（年%）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"91.3\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"142.7\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2</text><text x=\"194.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3</text><text x=\"245.3\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4</text><text x=\"296.7\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">6</text><text x=\"36.0\" y=\"137.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"36.0\" y=\"100.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><text x=\"36.0\" y=\"63.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">15</text><path d=\"M40.0 36.8 L348.0 188.1\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"117.0\" cy=\"74.7\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"168.3\" cy=\"99.9\" r=\"3.4\" style=\"fill:var(--warn)\"/><circle cx=\"311.8\" cy=\"170.3\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"121.1\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">変動 1.5%</text><text x=\"164.2\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">固定 2.5%</text><text x=\"311.8\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">5.29…%</text><text x=\"123.2\" y=\"65.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">12.9</text><text x=\"174.5\" y=\"91.0\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">9.5</text><text x=\"46.2\" y=\"32.4\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">営業利益 18</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">需要家が5年度末で工場を閉鎖した場合の損益（単位：百万円。変動金利は1.5%のまま）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"需要家が5年度末で工場を閉鎖した場合の損益（百万円）\" font-size=\"12\"><rect x=\"235.3\" y=\"9.0\" width=\"62.7\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1〜5年度の営業利益</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">90.0</text><rect x=\"282.3\" y=\"35.0\" width=\"15.7\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息（年1.5%）</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－22.5</text><path d=\"M298.0 25.0L298.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"235.3\" y=\"61.0\" width=\"47.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1〜5年度の経常利益</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">67.5</text><path d=\"M282.3 51.0L282.3 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"87.0\" width=\"132.3\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"142\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">固定資産売却損</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－190.0</text><path d=\"M282.3 77.0L282.3 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"113.0\" width=\"85.3\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">損益の合計</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－122.5</text><path d=\"M150.0 103.0L150.0 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M235.3 2L235.3 134\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">財務的なリスクと主な対応（網掛けは、この事業で大きいもの）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 257\" role=\"img\" aria-label=\"財務的なリスクと主な対応\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"39.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">リスク</text><text x=\"141.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">何が起きるか</text><text x=\"282.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">主な対応</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">金利の変動</text><text x=\"84\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">変動金利が上がり、</text><text x=\"84\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">支払利息が増える</text><text x=\"210\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">固定金利・金利スワップで</text><text x=\"210\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">確定する、借入れを減らす</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">取引先の信用</text><text x=\"84\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">倒産・</text><text x=\"84\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">解約で収入が止まる、</text><text x=\"84\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">代金を回収できない</text><text x=\"210\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">与信審査、担保・</text><text x=\"210\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">保証、契約の条項、</text><text x=\"210\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">取引先の分散、取引信用保険</text><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">為替の変動</text><text x=\"84\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">外貨建ての受取額の</text><text x=\"84\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">減少、支払額の増加</text><text x=\"210\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">為替予約、通貨オプション、</text><text x=\"210\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">円建ての取引、外貨の</text><text x=\"210\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">受取りと支払いをそろえる</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">価格の</text><text x=\"6\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">変動・在庫</text><text x=\"84\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">仕入価格の上昇、</text><text x=\"84\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">在庫の値下がり・</text><text x=\"84\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">売れ残り</text><text x=\"210\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">価格を見直す取決め、適正な</text><text x=\"210\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">在庫、受注に合わせた生産</text><path d=\"M1 218.4L359 218.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"241.1\" font-size=\"11\" style=\"fill:currentColor\">資金繰り</text><text x=\"84\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">支払いや返済の</text><text x=\"84\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">資金が足りなくなる</text><text x=\"210\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">手元資金、当座貸越の枠、</text><text x=\"210\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">使い道に合わせた返済期間</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M78 0L78 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 254.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"254.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
   }
  ]
 }
