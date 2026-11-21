@@ -255,6 +255,8 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .tx-case,.tx-point,.tx-trap{border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75;display:flex;flex-direction:column;gap:2px}
 .tx-case{background:var(--sheet);border:1px solid var(--guide)}
 .tx-point{background:var(--good-soft)}
+.tx-link{display:inline-flex;align-items:center;gap:6px;margin:4px 0 10px;padding:6px 12px;border-radius:999px;border:1.5px solid var(--guide);background:var(--paper);color:var(--ink);font:inherit;font-size:13px;font-weight:700;cursor:pointer;text-align:left}
+.tx-link::before{content:'↗';color:var(--drop)}
 .tx-trap{background:var(--warn-soft)}
 .tx-case b,.tx-point b,.tx-trap b{font-size:12px;letter-spacing:.06em}
 .tx-fig{margin:6px 0 0;overflow-x:auto}.tx-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;color:var(--ink)}.tx-figcap{font-size:12.5px;line-height:1.6;color:var(--ink-2);text-align:left;margin-top:2px}
@@ -516,7 +518,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v57';   // sw.js の VER と同じ値にする
+var APP_VER='v58';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -621,7 +623,7 @@ function renderContent(src){
 }
 function openText(s,ch,sec,fromSess){
   var T=DATA.text[s];if(!T)return;if(!ch&&sec)ch=T.secCh[sec];if(!ch)return;
-  UI.reader={s:s,ch:ch,sec:sec||null,fromSess:!!fromSess};$('#reader').hidden=false;renderReader();
+  UI.reader={s:s,ch:ch,sec:sec||null,fromSess:!!fromSess,from2:fromSess===2};$('#reader').hidden=false;renderReader();
   var sc=$('#reader .p-scroll'),tg=sec?document.getElementById('sec-'+sec.replace(/\./g,'-')):null;
   if(sc){sc.scrollTop=0;if(tg)sc.scrollTop=Math.max(0,tg.getBoundingClientRect().top-sc.getBoundingClientRect().top-8);}
 }
@@ -634,7 +636,7 @@ function renderReader(){
   h+=c.sections.map(function(x){return '<section class="tx-sec'+(r.sec===x.id?' tx-hl':'')+'" id="sec-'+x.id.replace(/\./g,'-')+'"><h3>'+esc(x.title)+'</h3>'+renderContent(x.content)+'</section>';}).join('');
   h+='<div class="tx-nav">'+(i>0?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i-1].id+'">← '+esc(chs[i-1].title)+'</button>':'<span></span>')+(i<chs.length-1?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i+1].id+'">'+esc(chs[i+1].title)+' →</button>':'')+'</div>';
   h+='<p class="fine">公式の出題範囲にそって書き下ろしたテキストです。誤りに気づいたら、Claudeに節の名前を伝えてください。</p></div></div>';
-  h+='<div class="p-foot gut">'+(r.fromSess?'<button class="btn primary wide" type="button" data-act="rd-close">演習に戻る</button>':(nq?'<button class="btn primary wide" type="button" data-act="rd-drill" data-g="'+c.id+'">この章の演習（'+nq+'問）</button>':'<button class="btn ghost wide" type="button" data-act="rd-close">閉じる</button>'))+'</div>';
+  h+='<div class="p-foot gut">'+(r.fromSess?'<button class="btn primary wide" type="button" data-act="rd-close">'+(r.from2?'2次のテキストに戻る':'演習に戻る')+'</button>':(nq?'<button class="btn primary wide" type="button" data-act="rd-drill" data-g="'+c.id+'">この章の演習（'+nq+'問）</button>':'<button class="btn ghost wide" type="button" data-act="rd-close">閉じる</button>'))+'</div>';
   el.innerHTML=h;
 }
 function loadData(){
@@ -1542,6 +1544,19 @@ function viewJEx(){
   return h;
 }
 
+/* 2次のテキストの本文：1次のテキストと同じ書き方（renderContent：・の箇条、【図】【事例】【試験のポイント】【ひっかけ注意】、1行の SVG）。
+   「- 」の箇条（初めの版の書き方）は「・」として読む。「【1次】<節のid>|<見出し>」の行は、1次のテキストのその節を開くボタンにする */
+function renderJ2(src){
+  var out=[],buf=[];
+  function flush(){if(buf.length){out.push(renderContent(buf.join('\n')));buf=[];}}
+  String(src||'').split('\n').forEach(function(l){
+    var m=l.trim().match(/^【1次】([a-z]+)(\.[0-9.]+)\|(.+)$/);
+    if(m){flush();var sid=m[1]+m[2],ok=DATA.text[m[1]]&&DATA.text[m[1]].secCh[sid];
+      out.push(ok?'<button class="tx-link" type="button" data-act="jt-1ji" data-s="'+esc(m[1])+'" data-sec="'+esc(sid)+'">1次テキスト：'+esc(m[3])+'</button>':'<p class="fine">1次テキスト：'+esc(m[3])+'</p>');return;}
+    buf.push(l.replace(/^- /,'・'));
+  });
+  flush();return out.join('');
+}
 function viewJText(){
   var order=['j_common','j1','j2','j3','j4_text'];
   var labels={'j_common':'共通','j1':'事例Ⅰ 組織・人事','j2':'事例Ⅱ マーケティング','j3':'事例Ⅲ 生産・技術','j4_text':'事例Ⅳ 財務・会計'};
@@ -1552,7 +1567,7 @@ function viewJText(){
     order.forEach(function(fk){var d=DATA2.text[fk];if(!d)return;d.chapters.forEach(function(ch){ch.sections.forEach(function(sec){if(sec.id===UI.jtSec)found={sec:sec,ch:ch,fk:fk};});});});
     if(found){
       h+='<section class="sec"><div class="sec-h"><span>'+esc(found.ch.title)+'</span></div>';
-      h+='<div class="sheet"><div class="tx-sec"><h3>'+esc(found.sec.title)+'</h3>'+renderJContent(found.sec.content)+'</div>';
+      h+='<div class="sheet"><div class="tx-sec"><h3>'+esc(found.sec.title)+'</h3>'+renderJ2(found.sec.content)+'</div>';
       // Prev/Next nav
       var allSecs=[];
       order.forEach(function(fk2){var d=DATA2.text[fk2];if(!d)return;d.chapters.forEach(function(ch2){ch2.sections.forEach(function(s2){allSecs.push(s2.id);});});});
@@ -1885,6 +1900,7 @@ document.addEventListener('click',function(ev){
     /* 2次テキスト */
     case 'jt-sec':UI.jtSec=b.dataset.sec;$('#main').scrollTop=0;render();break;
     case 'jt-back':UI.jtSec=null;$('#main').scrollTop=0;render();break;
+    case 'jt-1ji':openText(b.dataset.s,null,b.dataset.sec,2);break;   // 2次のテキストから、1次のテキストの節を開く
     /* 事例Ⅳドリル */
     case 'j4-cat':UI.j4cat=b.dataset.cat;UI.j4i=null;UI.j4sel=null;UI.j4ans=null;UI.d4chk=false;$('#main').scrollTop=0;render();break;
     case 'j4-cats':UI.j4cat=null;UI.j4i=null;UI.d4chk=false;$('#main').scrollTop=0;render();break;

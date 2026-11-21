@@ -5246,6 +5246,389 @@
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新店だけを見た正味現在価値から、D社全体の正味現在価値へ（単位：百万円。差額CFの現在価値で増減を示す）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"新店だけを見た正味現在価値から、D社全体の正味現在価値へ（百万円）\" font-size=\"12\"><rect x=\"175.2\" y=\"9.0\" width=\"124.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">新店だけを見たNPV</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">60.79</text><rect x=\"191.1\" y=\"35.0\" width=\"108.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXの限界利益の減少</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－53.07</text><path d=\"M300.0 25.0L300.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"61.0\" width=\"29.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">賃貸収入の喪失（機会費用）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－14.15</text><path d=\"M191.1 51.0L191.1 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"94.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"154\" y=\"98.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">調査費・本社費の配賦</text><text x=\"154\" y=\"113.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（含めない）</text><text x=\"356\" y=\"106.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋0.00</text><path d=\"M162.0 77.0L162.0 94.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"127.0\" width=\"13.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社全体のNPV</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－6.44</text><path d=\"M162.0 110.0L162.0 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M175.2 2L175.2 148\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">クラブXから移る会員数と正味現在価値（単位：百万円。1人移るごとに0.353808下がる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"移る会員数と正味現在価値\" font-size=\"12\"><path d=\"M202.4 18L202.4 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M224.8 18L224.8 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 119.1L350.0 119.1\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"123.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"45.0\" y=\"24\" font-size=\"11\" style=\"fill:currentColor\">正味現在価値</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXから移る会員数（人）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"101.6\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"163.2\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"224.8\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"286.4\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"187.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−40</text><text x=\"36.0\" y=\"155.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"90.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"58.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M40.0 43.6 L348.0 186.8\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"202.4\" cy=\"119.1\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"224.8\" cy=\"129.5\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"40.0\" cy=\"43.6\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"198.7\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">上限 131人</text><text x=\"228.5\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">見込み 150人</text><text x=\"229.7\" y=\"44.7\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">NPV △6.44</text><text x=\"64.6\" y=\"38.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0人なら 46.63</text></svg>"
   },
   {
+   "id": "d4-inv-07",
+   "cat": "inv",
+   "lv": 3,
+   "min": 25,
+   "src": "R4-第3問（期首の在庫投資と販売期間の終了時の取崩し）",
+   "title": "ベビーカーの輸入販売：期首の在庫投資（1か月分）と終了時の取崩し",
+   "lead": "D社は、地方都市で子ども用品の専門店を2店舗営み、ベビーカー・チャイルドシート・ベビーベッドなどを販売している。D社は、北欧のベビーカーのメーカー（以下、X社）から、日本での販売代理店にならないかと持ち掛けられた。契約の期間は5年間で、D社は、自社の通信販売のサイトで、X社のベビーカーを全国に販売する計画である。\nX社からは、月に1回の船便でまとめて仕入れる。そのため、各年度の期首に、その年度の月間の販売台数の1か月分の在庫を用意しておく必要がある。在庫は仕入価格で評価し、年度の途中は、毎月、販売した台数と同じ台数を仕入れて補充する。契約が終わる5年度末に事業を終え、5年度の最後の月は補充をせずに在庫を販売して、在庫をすべて取り崩す。\n事業を始めるには、倉庫の内装と検品の設備、通信販売のサイトの構築に、合わせて2,400万円の投資が必要である。投資額は1年度の期首に支払い、定額法（耐用年数5年、残存価額ゼロ）で減価償却する。5年度末の処分価額はゼロと見込む。事業の見込みは次の表のとおりである。\n法人税等の税率は30%で、D社は全社的に黒字であり、今後もその見込みである（この事業で損失が出ても、その30%だけ全社の法人税等が減る）。販売代金と仕入代金は、販売と仕入れの時点で現金で受け払いする（売掛金・買掛金は生じない）。投資額と1年度の期首の在庫の代金は1年度の期首（以下、投資時点）に、2年度の期首に在庫を積み増す代金は2年度の期首に支払う。それ以外のキャッシュ・フロー（在庫の取崩しを含む）は、各年度末にまとめて生じるものとする。",
+   "tables": [
+    {
+     "cap": "ベビーカーの販売事業の見込み",
+     "unit": "",
+     "head": [
+      "項目",
+      "見込み"
+     ],
+     "rows": [
+      [
+       "販売価格（1台）",
+       "7万円"
+      ],
+      [
+       "仕入価格（1台。輸送費・関税を含む）",
+       "5万円"
+      ],
+      [
+       "販売に伴う変動費（1台。決済手数料・配送料）",
+       "0.5万円"
+      ],
+      [
+       "月間の販売台数（1年度）",
+       "80台"
+      ],
+      [
+       "月間の販売台数（2〜5年度）",
+       "120台"
+      ],
+      [
+       "現金支出を伴う固定費（毎年）",
+       "1,250万円"
+      ]
+     ],
+     "note": "固定費は、人件費・倉庫の賃借料・広告費などである。"
+    },
+    {
+     "cap": "現価係数（割引率7%）",
+     "unit": "",
+     "head": [
+      "年",
+      "複利現価係数",
+      "年金現価係数"
+     ],
+     "rows": [
+      [
+       "1年",
+       "0.935",
+       "0.935"
+      ],
+      [
+       "2年",
+       "0.873",
+       "1.808"
+      ],
+      [
+       "3年",
+       "0.816",
+       "2.624"
+      ],
+      [
+       "4年",
+       "0.763",
+       "3.387"
+      ],
+      [
+       "5年",
+       "0.713",
+       "4.100"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "投資時点から5年度末までの時点ごとに、その時点に生じるキャッシュ・フローを合計した額を、(1)投資時点（1年度の期首）、(2)1年度末、(3)2年度末、(4)5年度末について求めよ。2年度の期首は、1年度末と同じ時点とする。単位は万円とし、マイナスの場合は△を付けること。",
+     "fields": [
+      {
+       "k": "c0",
+       "type": "num",
+       "label": "(1) 投資時点",
+       "unit": "万円",
+       "dp": 0,
+       "ans": -2800
+      },
+      {
+       "k": "c1",
+       "type": "num",
+       "label": "(2) 1年度末",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 77
+      },
+      {
+       "k": "c2",
+       "type": "num",
+       "label": "(3) 2年度末",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 781
+      },
+      {
+       "k": "c5",
+       "type": "num",
+       "label": "(4) 5年度末",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 1381
+      }
+     ],
+     "steps": [
+      "1台当たりの限界利益＝7−5−0.5＝1.5万円。限界利益：1年度 80台×12か月×1.5＝1,440、2〜5年度 120台×12か月×1.5＝2,160",
+      "減価償却費＝2,400÷5＝480、その節税効果＝480×0.3＝144",
+      "営業CF＝（限界利益−固定費1,250）×（1−0.3）＋144：1年度 190×0.7＋144＝277、2〜5年度 910×0.7＋144＝781",
+      "（1年度は税引前利益が△290の赤字だが、全社の法人税等が87減るので、その分もCFに入る）",
+      "在庫（仕入価格で評価）：1年度の期首 80台×5＝400、2年度の期首 120台×5＝600（積み増し200）、5年度末に600を取り崩す",
+      "(1) 投資時点＝設備など△2,400＋在庫△400＝△2,800",
+      "(2) 1年度末＝営業CF 277−2年度の期首の積み増し200＝77",
+      "(3) 2年度末＝781（3・4年度末も同じ）",
+      "(4) 5年度末＝781＋在庫の取崩し600＝1,381（取崩しは費用にも収益にもならないので、税金はかからない）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "D社は、正味現在価値が正であれば事業を始める方針である。割引率を7%として、この事業の正味現在価値を求め、事業を始めるべきかを答えよ。割引には表の係数を用いること。正味現在価値は、計算の途中では端数を処理せず、万円未満を四捨五入して示すこと。マイナスの場合は△を付けること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "npv",
+       "type": "num",
+       "label": "正味現在価値",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 172
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "事業の判断",
+       "opts": [
+        "事業を始めるべきである",
+        "事業を始めるべきでない"
+       ],
+       "ans": "事業を始めるべきである"
+      }
+     ],
+     "steps": [
+      "1年度末：77×0.935＝71.995",
+      "2〜4年度末：781×（4年の年金現価係数3.387−1年の0.935＝2.452）＝1,915.012",
+      "5年度末：1,381×0.713＝984.653",
+      "正味現在価値＝71.995＋1,915.012＋984.653−2,800＝171.66≒172万円",
+      "正味現在価値が正なので、事業を始めるべきである"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社は、X社に船便を月2回に増やしてもらうことも検討している。月2回にすると、各年度の期首に用意する在庫は、その年度の月間の販売台数の半月分で済む。ただし、船便の手配の手数料が年間50万円増える（現金支出を伴う費用で、各年度末に支払う）。そのほかの条件は設問2と同じとする。月2回の船便にした場合の正味現在価値を求め、月2回に変えるべきかを答えよ。端数の処理と符号は設問2と同じとする。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "npv3",
+       "type": "num",
+       "label": "月2回の船便にした場合の正味現在価値",
+       "unit": "万円",
+       "dp": 0,
+       "ans": 108
+      },
+      {
+       "k": "p3",
+       "type": "proc",
+       "label": "計算過程"
+      },
+      {
+       "k": "ch3",
+       "type": "choice",
+       "label": "船便の回数",
+       "opts": [
+        "月2回に変えるべきである",
+        "月2回に変えるべきでない"
+       ],
+       "ans": "月2回に変えるべきでない"
+      }
+     ],
+     "steps": [
+      "在庫は半月分：1年度の期首 40台×5＝200、2年度の期首 60台×5＝300（積み増し100）、5年度末に300を取り崩す",
+      "手数料の増加の税引後＝50×（1−0.3）＝35（毎年）。営業CF：1年度 277−35＝242、2〜5年度 781−35＝746",
+      "時点ごとのCF：投資時点 △2,400−200＝△2,600、1年度末 242−100＝142、2〜4年度末 746、5年度末 746＋300＝1,046",
+      "正味現在価値＝142×0.935＋746×2.452＋1,046×0.713−2,600＝132.77＋1,829.192＋745.798−2,600＝107.76≒108万円",
+      "差で求めても同じ：在庫を減らす得 200＋100×0.935−300×0.713＝79.6、手数料 △35×4.100＝△143.5 → 171.66＋79.6−143.5＝107.76",
+      "172万円から108万円に下がるので、月2回に変えるべきでない"
+     ]
+    }
+   ],
+   "ce": {
+    "c0": "よくある誤り：△2,400万円は、在庫への投資を入れていない（販売を始める前に1か月分の在庫が必要）。△3,000万円は、1年度の期首の在庫を2年度の台数（120台）で計算した。△2,960万円は、在庫を販売価格（7万円）で評価した（在庫は仕入価格で評価する）。",
+    "c1": "よくある誤り：277万円は、2年度の期首の積み増し200を入れていない（2年度の期首は1年度末と同じ時点）。△10万円は、1年度の赤字（税引前利益△290）に法人税等がかからないとして、税引前の現金収支190をそのままCFにした（全社が黒字なので、損失の30%の87だけ法人税等が減る）。△3万円は、積み増しを販売価格で評価した。△67万円は、減価償却費の節税効果144を入れていない。",
+    "c2": "よくある誤り：581万円は、2年度の期首の積み増し200を2年度末に入れた（2年度の期首は1年度末と同じ時点）。637万円は、減価償却費の節税効果144を入れていない。301万円は、税引後利益で、減価償却費を足し戻していない。",
+    "c5": "よくある誤り：781万円は、在庫の取崩し600を入れていない（最後の月は補充せずに販売するので、在庫に投じた資金が戻る）。1,181万円は、取崩しを1年度の期首の400だけにした（積み増した200も戻る）。1,201万円は、取崩しに課税した（在庫の取崩しは利益ではないので、税金はかからない）。1,621万円は、在庫を販売価格で評価した。",
+    "npv": "よくある誤り：△256万円は、5年度末の在庫の取崩し600を入れていない値で、事業を始めるべきでないという逆の判断になる。184万円は、2年度の期首の積み増しを2年度末に置いた。216万円は、積み増し（と、その取崩し）を入れていない。331万円は、在庫をまったく入れていない。43万円は、取崩しに課税した。90万円は、1年度の赤字の節税を入れていない。",
+    "ch": "よくある誤り：事業を始めるべきでないとする。在庫の取崩しを入れ忘れると正味現在価値は△256万円になるが、正しくは172万円で正。",
+    "npv3": "よくある誤り：322万円は、投資時点と1年度末の在庫の減少（200＋93.5）だけを足し、5年度末に戻る在庫も300減ることを引いていない（月2回に変えるべきという逆の判断になる）。46万円は、手数料の増加に節税効果を入れていない。28万円は、在庫を半月分にしていない（手数料だけ増やした）。251万円は、手数料の増加を入れていない。",
+    "ch3": "よくある誤り：月2回に変えるべきとする。在庫は5年度末に全額戻るので、在庫を半分にする得は、寝ていた資金の時間価値（79.6万円）だけ。手数料の増加（税引後の現在価値143.5万円）の方が大きく、正味現在価値は172万円から108万円に下がる。"
+   },
+   "e": "【考え方】在庫への投資は、費用ではなく資金を寝かせること（運転資本）。仕入れて在庫として持つ間は現金が出たままで、売れて初めて戻る。法人税等は売れた分の売上原価で計算するので、在庫の積み増しは費用にならず（節税はない）、取崩しも利益にならない（課税されない）。\n【時点】1か月分の在庫は、販売を始める前（投資時点）に80台×5万円＝400万円を用意し、販売台数が増える2年度の期首に200万円を積み増す。2年度の期首は1年度末と同じ時点（投資時点の1年後）なので、1年の複利現価係数で割り引く。5年度の最後の月は補充せずに売り切るので、在庫の600万円がすべて現金に戻る（取崩し）。\n【設問1・2】営業CFは1年度277万円、2〜5年度781万円（1年度は税引前利益が赤字だが、全社の法人税等が減る分もCFに入る）。時点ごとのCFは、△2,800、77、781（3・4年度末も同じ）、1,381。正味現在価値は172万円で正なので、事業を始めるべきである。取崩しを入れ忘れると△256万円となり、逆の判断になる。\n【設問3】在庫を半月分にすると、投資時点と1年度末の支出は減るが、5年度末に戻る額も減る。差し引きの得は、在庫に寝ていた資金の時間価値の79.6万円だけ。手数料の増加（税引後35万円×5年の年金現価係数4.100＝143.5万円）の方が大きいので、正味現在価値は108万円に下がり、変えるべきでない。在庫の減少を「浮いた資金」とだけ見て、戻る額が減ることを忘れると、変えるべきという逆の判断になる。\n【本試験での注意】令和4年度第3問は、新規事業で、期首に販売台数の1か月分の在庫投資が必要という前提を置き、工場の拡張で増える在庫の分を設備投資とともに2年目の期首に支出する形で、年間のキャッシュ・フローと回収期間、投資時点の正味現在価値を問うた（正味現在価値の設問では、5年間の販売期間が終わると、増加した在庫がすべて取り崩されるとした）。在庫の評価額の指示はなかったが、在庫は取得原価（仕入れの価額）で評価するのが会計の原則。問題文で、在庫の量（何か月分）、評価、積み増しの時点（期首）、取崩しの時点を確かめ、時間軸に書き出してから割り引く。\n【図】1つ目は、時点ごとのCFの内訳。2つ目は、在庫の残高の推移で、期首に用意して積み増し、5年度末に取り崩すと全額が戻る。3つ目は、月2回の船便にした場合の正味現在価値の増減。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">時点ごとのキャッシュ・フロー（設問1。単位：万円。網掛けは在庫の動きがある時点）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 117\" role=\"img\" aria-label=\"時点ごとのキャッシュ・フロー（万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"40.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">時点</text><text x=\"113.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">設備など</text><text x=\"179.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">在庫</text><text x=\"245.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">営業CF</text><text x=\"319.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">合計</text><rect x=\"1\" y=\"23.9\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">投資時点</text><text x=\"140\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△2,400</text><text x=\"206\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△400</text><text x=\"272\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△2,800</text><rect x=\"1\" y=\"46.8\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">1年度末</text><text x=\"140\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"206\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">△200</text><text x=\"272\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">277</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">77</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">2〜4年度末</text><text x=\"140\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"206\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"272\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">781</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">781</text><rect x=\"1\" y=\"92.6\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">5年度末</text><text x=\"140\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"206\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">＋600</text><text x=\"272\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">781</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,381</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M80 0L80 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M146 0L146 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M212 0L212 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M278 0L278 114.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"114.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">在庫の残高の推移（単位：万円。期首に用意して積み増し、5年度末に取り崩すと全額が現金に戻る）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"在庫の残高の推移\" font-size=\"12\"><path d=\"M40.0 190.0L40.0 10\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 190.0L350.0 190.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"45.0\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">在庫の残高（万円）</text><text x=\"348.0\" y=\"222.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">投資時点からの年数</text><text x=\"40.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"101.6\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"163.2\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">2</text><text x=\"224.8\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">3</text><text x=\"286.4\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">4</text><text x=\"348.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"36.0\" y=\"149.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"36.0\" y=\"105.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">400</text><text x=\"36.0\" y=\"60.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">600</text><path d=\"M40.0 101.0 L101.6 101.0 L101.6 56.5 L348.0 56.5 L348.0 190.0\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"40.0\" cy=\"101.0\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"101.6\" cy=\"56.5\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"348.0\" cy=\"190.0\" r=\"3.4\" style=\"fill:var(--good)\"/><text x=\"46.2\" y=\"117.7\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">投資時点 △400</text><text x=\"107.8\" y=\"49.8\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">1年度末に積み増し △200</text><text x=\"341.8\" y=\"123.2\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">5年度末に取崩し</text><text x=\"341.8\" y=\"138.8\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">＋600</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">月2回の船便にした場合の正味現在価値の増減（設問3。単位：万円。在庫を減らす得は、寝ていた資金の時間価値の分だけ）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 192\" role=\"img\" aria-label=\"月2回の船便にした場合の正味現在価値の増減（万円）\" font-size=\"12\"><rect x=\"170.0\" y=\"9.0\" width=\"47.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">月1回の船便（設問2）</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">171.66</text><rect x=\"217.2\" y=\"35.0\" width=\"55.0\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">投資時点の在庫が減る</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋200</text><path d=\"M217.2 25.0L217.2 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"272.3\" y=\"68.0\" width=\"25.7\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"72.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">1年度末の積み増しが減る</text><text x=\"162\" y=\"87.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（100×0.935）</text><text x=\"356\" y=\"80.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋93.5</text><path d=\"M272.3 51.0L272.3 68.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"239.1\" y=\"108.0\" width=\"58.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">5年度末に戻る額が減る</text><text x=\"162\" y=\"127.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（300×0.713）</text><text x=\"356\" y=\"120.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－213.9</text><path d=\"M298.0 84.0L298.0 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"199.7\" y=\"141.0\" width=\"39.5\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"153.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">手数料の増加（35×4.100）</text><text x=\"356\" y=\"153.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－143.5</text><path d=\"M239.1 124.0L239.1 141.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"170.0\" y=\"167.0\" width=\"29.7\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"179.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">月2回の船便（設問3）</text><text x=\"356\" y=\"179.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">107.76</text><path d=\"M199.7 157.0L199.7 167.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
+   "id": "d4-inv-08",
+   "cat": "inv",
+   "lv": 3,
+   "min": 22,
+   "src": "R2-第2問設問2（不採算店の継続・業態転換・閉店して売却の比較）",
+   "title": "DVDのレンタル店：営業の継続・業態転換・閉店して売却をNPVの期待値で比べる",
+   "lead": "D社は、地方都市で書店を3店舗と、DVDやCDのレンタル店（以下、R店）を1店舗営んでいる。R店は、動画の配信サービスの普及で客が減り、2期連続で営業損失となった。R店の土地と建物はD社が所有しており、帳簿価額は合わせて72百万円である。\nD社は、次期の期首（以下、時点0）に、R店について次の3つの案のどれかを選ぶ。\n①営業を続ける案：店内の一部を、中古のゲームソフトやトレーディングカードの買取り・販売の売場に改め、会員向けの広告とイベント（以下、販促）を行う。販促費は、営業する各年度の期首に2百万円ずつ支払う。1年度の業績が好調（確率60%）であれば5年度末まで営業を続け、5年度末に閉店して土地と建物を48百万円で売却する。1年度の業績が不振（確率40%）であれば、1年度末に閉店して55百万円で売却する。\n②業態を転換する案：時点0に40百万円をかけて店舗を改装し、トランクルーム（収納スペースの貸出し）に転換する。改装の工事のため、1年度の最初の4か月は営業できない。5年度末に閉店して、土地と建物（改装した設備を含む）を52百万円で売却する。\n③閉店して売却する案：時点0に閉店して、土地と建物を60百万円で売却する。\n各案の営業キャッシュ・フロー（税引後）の見込みは次の表のとおりである。土地と建物の売却による収入は、売却損益にかかる税金の影響を反映した後の手取りの額で、販促費は税引後の金額である。営業キャッシュ・フローは各年度末に生じ、販促費・改装費・売却による収入は、文中の時点に生じるものとする。",
+   "tables": [
+    {
+     "cap": "R店の営業キャッシュ・フロー（税引後）の見込み",
+     "unit": "百万円",
+     "head": [
+      "案と場合",
+      "確率",
+      "各年度の金額"
+     ],
+     "rows": [
+      [
+       "①好調",
+       "60%",
+       "11（1〜5年度）"
+      ],
+      [
+       "①不振",
+       "40%",
+       "△6（1年度）"
+      ],
+      [
+       "②需要が順調に推移する",
+       "50%",
+       "21（1〜5年度）"
+      ],
+      [
+       "②需要が順調に推移しない",
+       "50%",
+       "9（1〜5年度）"
+      ]
+     ],
+     "note": "①の金額は販促費を含まない。②の金額は、改装費の減価償却費による節税効果を含み、12か月営業した場合の金額である（1年度は営業する8か月分として、12分の8にする）。△はマイナスを表す。"
+    },
+    {
+     "cap": "現価係数（割引率6%）",
+     "unit": "",
+     "head": [
+      "年",
+      "複利現価係数",
+      "年金現価係数"
+     ],
+     "rows": [
+      [
+       "1年",
+       "0.943",
+       "0.943"
+      ],
+      [
+       "2年",
+       "0.890",
+       "1.833"
+      ],
+      [
+       "3年",
+       "0.840",
+       "2.673"
+      ],
+      [
+       "4年",
+       "0.792",
+       "3.465"
+      ],
+      [
+       "5年",
+       "0.747",
+       "4.212"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "①と②のそれぞれについて、正味現在価値の期待値を求めよ。各案の正味現在価値は、時点0を基準として、その案で生じるキャッシュ・フロー（売却による収入を含む）を割り引いて合計した額とする（③の正味現在価値は、時点0の売却による収入60百万円である）。割引率は6%とし、割引には表の係数を用いること。百万円単位で、計算の途中では端数を処理せず、小数第3位を四捨五入して小数第2位まで示すこと。計算過程も示すこと。\nまた、3つの案のうち、正味現在価値（①と②は期待値）が最も大きい案を答えよ。",
+     "fields": [
+      {
+       "k": "e1",
+       "type": "num",
+       "label": "①の正味現在価値の期待値",
+       "unit": "百万円",
+       "dp": 2,
+       "ans": 61.64
+      },
+      {
+       "k": "e2",
+       "type": "num",
+       "label": "②の正味現在価値の期待値",
+       "unit": "百万円",
+       "dp": 2,
+       "ans": 57.31
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "最も大きい案",
+       "opts": [
+        "① 営業を続ける",
+        "② 業態を転換する",
+        "③ 閉店して売却する"
+       ],
+       "ans": "① 営業を続ける"
+      }
+     ],
+     "steps": [
+      "①好調（60%）：時点0の販促費△2。1〜4年後は営業CF11−翌年度の販促費2＝9、5年後は11＋売却48＝59",
+      "　現在価値＝△2＋9×3.465（4年の年金現価係数）＋59×0.747＝△2＋31.185＋44.073＝73.258",
+      "①不振（40%）：時点0の販促費△2。1年後は営業CF△6＋売却55＝49。現在価値＝△2＋49×0.943＝44.207",
+      "①の期待値＝73.258×0.6＋44.207×0.4＝43.9548＋17.6828＝61.6376",
+      "②：1年度は4か月休業し、営業CFは12分の8（順調21→14、順調でない9→6）。2〜4年後の係数＝0.890＋0.840＋0.792＝2.522",
+      "②順調：△40＋14×0.943＋21×2.522＋（21＋52）×0.747＝△40＋13.202＋52.962＋54.531＝80.695",
+      "②順調でない：△40＋6×0.943＋9×2.522＋（9＋52）×0.747＝△40＋5.658＋22.698＋45.567＝33.923",
+      "②の期待値＝80.695×0.5＋33.923×0.5＝57.309≒57.31",
+      "③＝60（時点0の売却収入。割り引かない）。①61.64＞③60.00＞②57.31 → ①"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "②が、3つの案のうちで正味現在価値（①と②は期待値）が最も大きい案になるのは、需要が順調に推移する確率が何%以上のときか。そのほかの条件は設問1と同じとする。計算の途中では端数を処理せず、%未満の端数は切り上げて整数で答えること。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "q",
+       "type": "num",
+       "label": "需要が順調に推移する確率",
+       "unit": "%以上",
+       "dp": 0,
+       "ans": 60
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "②の期待値を、順調の確率qで表す：80.695×q＋33.923×（1−q）＝33.923＋46.772×q",
+      "最も大きい案になるには、①（61.6376）と③（60）の両方を上回る必要がある。①の方が大きいので、33.923＋46.772×q＞61.6376",
+      "q＞（61.6376−33.923）÷46.772＝27.7146÷46.772＝0.59254… → 59.25…% → 60%以上（切り上げ）",
+      "検算：60%なら33.923＋46.772×0.6＝61.9862（①を上回る）、59%なら61.51848（①を下回る）"
+     ]
+    }
+   ],
+   "ce": {
+    "e1": "よくある誤り：61.99百万円は、販促費を各年度末に払うとして割り引いた（期首の支払いは、1年度分が時点0、2〜5年度分が1〜4年後）。63.90百万円は、不振の場合の1年度の営業CF（△6）を入れていない（閉店は1年度末なので、1年度の営業の結果は生じる）。44.62百万円は、不振でも5年度末まで営業を続けるとした（不振なら1年度末に閉店して売却する）。63.64百万円は、時点0の販促費を引いていない。",
+    "e2": "よくある誤り：62.02百万円は、休業を入れずに、1年度も12か月分の営業CFとした。54.95百万円は、1年度の営業CFを半分（6か月分）にした（休業は4か月）。97.31百万円は、改装費40を引いていない。",
+    "ch": "よくある誤り：②を選ぶ（休業を入れ忘れると②の期待値は62.02百万円で、①の61.64百万円を上回って見える）。③を選ぶ（不振でも5年度末まで営業を続けるとすると①が44.62百万円になり、③の60百万円を下回って見える）。",
+    "q": "よくある誤り：56%は、③（60百万円）とだけ比べた（最も大きい案になるには、③より大きい①の61.64百万円を上回る必要がある）。59%は、端数を切り捨てた（59%では②の期待値は61.52百万円で、①に届かない）。50%は、休業を入れずに計算した。"
+   },
+   "e": "【考え方】3つの案を、同じ時点（時点0）の価値にそろえて比べる。③の売却収入60百万円は、①・②を選ぶと手放す価値（機会費用）でもある。土地と建物の帳簿価額72百万円は過去の支出の結果で、どの案を選んでも変わらない（売却収入は税引後の手取りで与えられている）ので、判断には使わない。\n【①】販促費は営業する各年度の期首に払う。好調なら時点0から4年後までの5回（2〜5年度の分は1〜4年後なので、4年の年金現価係数3.465で割り引く）、不振なら時点0の1回だけ。不振なら1年度末に閉店して売却するので、損失は1年で止まる。期待値＝73.258×0.6＋44.207×0.4＝61.64百万円。\n【②】1年度は4か月休業し、営業CFは12分の8。時点0に改装費40を払う。期待値＝80.695×0.5＋33.923×0.5＝57.31百万円。\n【設問1】①61.64＞③60.00＞②57.31 なので、①を選ぶ。①が有利なのは、不振のときに1年で撤退できる（損失を限れる）からで、不振でも5年間続けるとすると44.62百万円に下がる。②は、休業を入れ忘れると62.02百万円となり、最も大きく見える。\n【設問2】②の期待値は確率qの1次式（33.923＋46.772×q）。最も大きい案になるには、③だけでなく①も上回る必要がある。①（61.64）を上回るのはq＞59.25…%なので、60%以上。③（60）とだけ比べると56%となり誤り。\n【本試験での注意】令和2年度第2問設問2は、2期連続で営業損失の店舗について、①広告をして営業を続ける、②業態を転換する、③すぐに閉店して売却する、の3案を正味現在価値で比べ、最適な案を選ばせた。広告料を期首に払う、改装の間は休業して初年度の営業CFが半分になる、効果の有無で閉店の時点と売却の価額が変わる、といった条件を読み落とさないことが差になった。案と場合ごとに時間軸（時点0・1年後…）を書き出し、期首の支払いと期末のCFの時点を分けてから割り引く。税金や時点の扱いが問題文にないときは、自分の置いた前提を計算過程に書く。\n【図】1つ目は意思決定の木。2つ目は、場合ごとの時点ごとのCFと現在価値。3つ目は、順調の確率と②の期待値の関係で、①の線を上回る確率から②が最も大きくなる。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">意思決定の木（単位：百万円。①は1年度の結果を見て、不振なら1年度末に閉店できる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 275\" role=\"img\" aria-label=\"意思決定の木\" font-size=\"12\"><rect x=\"176\" y=\"2\" width=\"182\" height=\"50.5\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"267.0\" y=\"17.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">好調（60%）</text><text x=\"267.0\" y=\"31.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5年度末まで営業</text><text x=\"267.0\" y=\"44.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5年度末に48で売却</text><rect x=\"176\" y=\"60.5\" width=\"182\" height=\"50.5\" rx=\"5\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"267.0\" y=\"76.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">不振（40%）</text><text x=\"267.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1年度末に閉店</text><text x=\"267.0\" y=\"103.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">55で売却</text><rect x=\"65\" y=\"38.0\" width=\"102\" height=\"37.0\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"116.0\" y=\"53.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">①営業を続ける</text><text x=\"116.0\" y=\"67.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">期待値 61.64</text><path d=\"M167 56.5H171.5V27.2H176\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M167 56.5H171.5V85.8H176\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"176\" y=\"119.0\" width=\"182\" height=\"50.5\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"267.0\" y=\"134.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">順調（50%）</text><text x=\"267.0\" y=\"148.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">毎年21（1年度は14）</text><text x=\"267.0\" y=\"161.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5年度末に52で売却</text><rect x=\"176\" y=\"177.5\" width=\"182\" height=\"50.5\" rx=\"5\" style=\"fill:var(--drop);fill-opacity:0.16;stroke:var(--drop)\" stroke-width=\"1.1\"/><text x=\"267.0\" y=\"193.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">順調でない（50%）</text><text x=\"267.0\" y=\"206.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">毎年9（1年度は6）</text><text x=\"267.0\" y=\"220.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5年度末に52で売却</text><rect x=\"65\" y=\"155.0\" width=\"102\" height=\"37.0\" rx=\"5\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"116.0\" y=\"170.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">②業態を転換</text><text x=\"116.0\" y=\"184.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">期待値 57.31</text><path d=\"M167 173.5H171.5V144.2H176\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M167 173.5H171.5V202.8H176\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"65\" y=\"236.0\" width=\"102\" height=\"37.0\" rx=\"5\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.1\"/><text x=\"116.0\" y=\"251.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">③閉店して売却</text><text x=\"116.0\" y=\"265.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">60.00</text><rect x=\"2\" y=\"137.0\" width=\"54\" height=\"37.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"29.0\" y=\"152.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">時点0の</text><text x=\"29.0\" y=\"166.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">選択</text><path d=\"M56 155.5H60.5V56.5H65\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M56 155.5H60.5V173.5H65\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M56 155.5H60.5V254.5H65\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">場合ごとのキャッシュ・フローと現在価値（単位：百万円。①の1〜4年後は翌年度の販促費2を差し引いた額。②の1年後は8か月分）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 151\" role=\"img\" aria-label=\"場合ごとの時点ごとのキャッシュ・フローと現在価値（百万円）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"44.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">案・場合</text><text x=\"110.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時点0</text><text x=\"155.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1年後</text><text x=\"207.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">2〜4年後</text><text x=\"259.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">5年後</text><text x=\"321.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">現在価値</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">①好調 60%</text><text x=\"126\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△2</text><text x=\"172\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9</text><text x=\"230\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9</text><text x=\"276\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">59</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">73.258</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">①不振 40%</text><text x=\"126\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△2</text><text x=\"172\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">49</text><text x=\"230\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－</text><text x=\"276\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">44.207</text><rect x=\"1\" y=\"67.6\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">②順調 50%</text><text x=\"126\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△40</text><text x=\"172\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14</text><text x=\"230\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">21</text><text x=\"276\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">73</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">80.695</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">②順調でない</text><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">50%</text><text x=\"126\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△40</text><text x=\"172\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">6</text><text x=\"230\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">9</text><text x=\"276\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">61</text><text x=\"354\" y=\"112.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">33.923</text><path d=\"M1 127.2L359 127.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.3\" font-size=\"11\" style=\"fill:currentColor\">③売却</text><text x=\"126\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">60</text><text x=\"172\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－</text><text x=\"230\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－</text><text x=\"276\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－</text><text x=\"354\" y=\"142.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">60</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M88 0L88 148.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M132 0L132 148.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M178 0L178 148.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M236 0L236 148.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M282 0L282 148.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"148.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">順調の確率と②の正味現在価値の期待値（単位：百万円。中ほどの●は確率50%（設問1）の57.31。①の61.64を上回るのは59.25%から）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"順調の確率と②の正味現在価値の期待値\" font-size=\"12\"><path d=\"M161.3 18L161.3 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M188.3 18L188.3 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 200.0L350.0 200.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">需要が順調に推移する確率（%）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><text x=\"117.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"194.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><text x=\"271.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">70</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">80</text><text x=\"36.0\" y=\"168.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">55</text><text x=\"36.0\" y=\"132.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><text x=\"36.0\" y=\"97.2\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">65</text><text x=\"36.0\" y=\"61.6\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">70</text><text x=\"36.0\" y=\"26.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">75</text><path d=\"M40.0 181.3 L348.0 48.1\" fill=\"none\" style=\"stroke:var(--warn)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 117.1 L348.0 117.1\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 128.8 L348.0 128.8\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"161.3\" cy=\"128.8\" r=\"3.4\" style=\"fill:var(--ink-3)\"/><circle cx=\"188.3\" cy=\"117.1\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"117.0\" cy=\"148.0\" r=\"3.4\" style=\"fill:var(--warn)\"/><text x=\"158.2\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--ink-3)\">③と同じ 55.75%</text><text x=\"191.3\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">①と同じ 59.25%</text><text x=\"344.2\" y=\"112.9\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">① 61.64</text><text x=\"344.2\" y=\"143.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--ink-3)\">③ 60.00</text><text x=\"93.9\" y=\"181.5\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--warn)\">②の期待値</text></svg>"
+  },
+  {
    "id": "d4-value-01",
    "cat": "value",
    "lv": 2,
@@ -9548,6 +9931,171 @@
    },
    "e": "【考え方】財務的効果・利点は、①損益（売上・費用→収益性）、②資産と資金（在庫・借入金→効率性・安全性）、③リスク（利益の変動）に分けて探し、「施策で何が変わる→財務諸表のどの科目が変わる→どの指標が良くなる」とつなぐ。設問2と設問3は、どちらも季節に関わるが、効く仕組みが違う。\n【設問1】1か月当たりの売上原価は1,260÷12＝105。在庫の平均残高は105×4.0＝420から105×3.0＝315になり、105減る。経常利益の増加は、人件費8＋値引き・評価損の減少15（30の半分）＋支払利息の減少2.1（105×2.0%）−利用料9＝16.1。在庫の減少105そのものは利益ではない（在庫が現金に戻り、借入金の返済に回る＝貸借対照表の効果）。\n【設問2】効果は3つ。受注の入力作業がなくなり人件費が減る。店頭の在庫と予約に合わせて生産するので、売れ残りの値引き・評価損が減る（この2つで収益性が高まる）。在庫が減り（棚卸資産回転率が高まる）、浮いた資金で短期借入金を返すので支払利息も減る（安全性も高まる）。利用料を差し引いても、経常利益は年16.1百万円増える。\n【設問3】利点は2つ。稼働率が3割程度の1〜6月の生産ラインと、共通のエンジン・走行部、同じ販売店を使うので、追加の投資と費用が小さく、草刈り機の限界利益で工場の固定費を回収できる（利益が増え、損益分岐点比率が下がる）。売れる時期が除雪機と逆なので、雪の量に左右される売上と利益の変動を分散できる（雪の少ない年に営業損失となるリスクを抑える）。機械化の需要の伸びで売上を伸ばせる点を加えてもよい。\n【要素の選び方】与件の文を設問ごとに振り分ける（3つ目の図）。設問2（新しい仕組み）には、受注の手入力、店頭の状況が分からず見込みを多めにした生産、値引き・評価損、在庫の資金は短期借入金、の文を使う。設問3（草刈り機）には、1〜6月の稼働率、共通の部品と生産ライン、同じ販売店、雪の量による売上の変動、の文を使う。\n【よくある失点】設問2：「業務の効率化」「販売店との関係の強化」など財務の言葉がない。在庫の減少を「利益が増える」と書く。在庫だけ・人件費だけと、効果を1つしか書かない。設問3：「ブランドの向上」「新たな顧客の獲得」などマーケティングの利点だけ。季節の平準化や固定費の回収を設問2に書く（新しい仕組みの効果ではない）。\n【本試験での注意】令和元年度第4問設問2は、EDIを導入することによって期待できる財務的効果を60字以内で問うた（EDIは検討中）。出題の趣旨は、EDIの導入を検討する際の財務的な効果について助言する能力を問うとしている。令和5年度第4問設問2は、新たな製品分野として製品を開発し販売することには、財務的にどのような利点があるかを50字以内で問うた。出題の趣旨は、新たな製品分野に進出する財務的利点について問う問題としている。同じ年の設問1はOEM生産の財務的利点（50字）で、その利点のうち、固定費が少なく売上高の変動に強いことは、CVP分析の分野のクラフトビールの問題（設備を借りて内製するリスクの記述）の裏返しとして練習できる。もう一つの典型の要素は、生産の設備に投資しないので、資産と資金の調達を抑えられること（総資本回転率などの資産効率が高い）である。\n【図】1つ目は経常利益の年間の増加額の内訳。2つ目は月ごとの生産と販売の時期。3つ目は与件の根拠と記述の要素の対応。",
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">経常利益の年間の増加額の内訳（設問1(2)。単位：百万円。在庫の減少105そのものは利益ではない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"経常利益の年間の増加額の内訳（百万円）\" font-size=\"12\"><rect x=\"170.0\" y=\"9.0\" width=\"43.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"21.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">受注の入力作業の人件費</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋8.0</text><rect x=\"213.3\" y=\"42.0\" width=\"81.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"46.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">値引き・評価損の減少</text><text x=\"162\" y=\"61.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（30の半分）</text><text x=\"356\" y=\"54.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋15.0</text><path d=\"M213.3 25.0L213.3 42.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"294.6\" y=\"75.0\" width=\"11.4\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"162\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">支払利息の減少（105×2.0%）</text><text x=\"356\" y=\"87.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋2.1</text><path d=\"M294.6 58.0L294.6 75.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"257.2\" y=\"101.0\" width=\"48.8\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"162\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">新しい仕組みの利用料</text><text x=\"356\" y=\"113.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－9.0</text><path d=\"M306.0 91.0L306.0 101.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"170.0\" y=\"127.0\" width=\"87.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"162\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">経常利益の年間の増加額</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">16.1</text><path d=\"M257.2 117.0L257.2 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">月ごとの生産と販売の時期（網掛けは生産ラインの稼働率が低い1〜6月）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 162\" role=\"img\" aria-label=\"月ごとの生産と販売の時期\" font-size=\"12\"><rect x=\"86.0\" y=\"6\" width=\"134.0\" height=\"120\" style=\"fill:var(--warn);fill-opacity:0.12;stroke:none\" stroke-width=\"1\"/><text x=\"80\" y=\"25.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">除雪機の生産</text><path d=\"M86 36L354 36\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"221.0\" y=\"11\" width=\"132.0\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"287.0\" y=\"25.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">見込みで生産</text><text x=\"80\" y=\"55.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">除雪機の販売</text><path d=\"M86 66L354 66\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"310.3\" y=\"41\" width=\"42.7\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><rect x=\"87.0\" y=\"41\" width=\"20.3\" height=\"20\" rx=\"3\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1\"/><text x=\"80\" y=\"85.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">草刈り機の生産</text><path d=\"M86 96L354 96\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"109.3\" y=\"71\" width=\"87.3\" height=\"20\" rx=\"3\" style=\"fill:var(--good);fill-opacity:0.32;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"153.0\" y=\"85.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">空いたラインで</text><text x=\"80\" y=\"115.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">草刈り機の販売</text><path d=\"M86 126L354 126\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"154.0\" y=\"101\" width=\"109.7\" height=\"20\" rx=\"3\" style=\"fill:var(--good);fill-opacity:0.32;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"208.8\" y=\"115.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">同じ販売店で</text><path d=\"M86 6L86 126\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M86 126L354 126\" style=\"stroke:currentColor\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"97.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">1</text><text x=\"119.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">2</text><text x=\"141.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">3</text><text x=\"164.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">4</text><text x=\"186.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">5</text><text x=\"208.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">6</text><text x=\"231.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">7</text><text x=\"253.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">8</text><text x=\"275.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">9</text><text x=\"298.2\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">10</text><text x=\"320.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">11</text><text x=\"342.8\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">12</text><text x=\"354\" y=\"155\" text-anchor=\"end\" font-size=\"10\" style=\"fill:currentColor\">（月）</text><text x=\"153.0\" y=\"155\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:var(--warn)\">1〜6月はラインの稼働率が3割程度</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">与件の根拠と記述の要素（網掛けは模範解答の要素）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 378\" role=\"img\" aria-label=\"与件の根拠と記述の要素\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"229.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">財務への影響</text><text x=\"334.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">設問</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">注文を事務員が</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">手作業で入力している</text><text x=\"156\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">入力の人件費が減る</text><text x=\"156\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（収益性）</text><text x=\"334.0\" y=\"45.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">店頭の在庫・</text><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">予約が分からず、</text><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">見込みを多めにして生産</text><text x=\"156\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">売れ残りの値引き・</text><text x=\"156\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">評価損が減る（収益性）</text><text x=\"334.0\" y=\"90.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"113.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">在庫の資金は</text><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">短期借入金で賄っている</text><text x=\"156\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">在庫が減り、</text><text x=\"156\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">借入金と支払利息が減る</text><text x=\"156\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">（効率性・安全性）</text><text x=\"334.0\" y=\"143.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問2</text><rect x=\"1\" y=\"165.8\" width=\"358\" height=\"67.8\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">1〜6月は生産ラインの</text><text x=\"6\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">稼働率が3割程度。</text><text x=\"6\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">固定費は年間を</text><text x=\"6\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">通じて生じる</text><text x=\"156\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">空いたラインで作り、</text><text x=\"156\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">固定費を回収できる</text><text x=\"156\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">（利益の増加）</text><text x=\"334.0\" y=\"203.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><rect x=\"1\" y=\"233.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">エンジンと走行部が共通。</text><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">追加の設備は金型など。</text><text x=\"6\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">同じ販売店で売れる</text><text x=\"156\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">追加の投資と費用が少ない</text><text x=\"334.0\" y=\"263.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><rect x=\"1\" y=\"286.2\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 286.2L359 286.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"308.9\" font-size=\"11\" style=\"fill:currentColor\">雪の少ない年は売上高が</text><text x=\"6\" y=\"324.1\" font-size=\"11\" style=\"fill:currentColor\">平年の6割で、営業損失</text><text x=\"156\" y=\"301.3\" font-size=\"11\" style=\"fill:currentColor\">売れる時期が逆の製品で、</text><text x=\"156\" y=\"316.5\" font-size=\"11\" style=\"fill:currentColor\">売上と利益の</text><text x=\"156\" y=\"331.7\" font-size=\"11\" style=\"fill:currentColor\">変動を分散できる</text><text x=\"334.0\" y=\"316.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><path d=\"M1 338.8L359 338.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"353.9\" font-size=\"11\" style=\"fill:currentColor\">農家の高齢化で、草刈りの</text><text x=\"6\" y=\"369.1\" font-size=\"11\" style=\"fill:currentColor\">機械化の需要が伸びている</text><text x=\"156\" y=\"361.5\" font-size=\"11\" style=\"fill:currentColor\">売上を伸ばせる（別解）</text><text x=\"334.0\" y=\"361.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">設問3</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 375.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M308 0L308 375.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"375.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-desc-04",
+   "cat": "desc",
+   "lv": 2,
+   "min": 15,
+   "src": "R5-第4問設問1（OEM生産の財務的利点、50字）",
+   "title": "ヘッドホンの企画・販売：自社生産と比べたOEM生産の財務的利点（資産効率）",
+   "lead": "D社は、ヘッドホンとイヤホンを企画・開発し、自社のブランドで家電量販店と自社の通信販売のサイトで販売している。D社の従業員は、商品の企画、音響の設計、品質の管理、営業の担当者が中心で、工場は持っていない。製品の生産は、すべて国内外の電子機器メーカーに委託している（OEM生産）。\n近年、高価格帯のヘッドホンの売上が伸びている。社長は、OEM先に支払う代金にはOEM先の加工費と利益が含まれていることから、自社で生産すれば利益率を高められると考えている。そこで、組立と検査のラインを新設して、すべての製品を自社生産に切り替える案（B案）を、現状のままOEM生産を続ける案（A案）と比べることにした。\nB案では、次期の期首にライン（取得原価800百万円）を取得し、定額法（耐用年数5年、残存価額ゼロ）で減価償却する。また、材料・部品と仕掛品の在庫を持つ必要があり、次期末の在庫は160百万円と見込まれる。ラインと在庫の資金は、長期借入金で賄う。次期の損益の見込みは次の表のとおりで、売上高と販売費及び一般管理費は、両案で同じである。",
+   "tables": [
+    {
+     "cap": "次期の損益の見込み",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "A案（OEM生産）",
+      "B案（自社生産）"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "2,000",
+       "2,000"
+      ],
+      [
+       "OEM先からの仕入れ",
+       "1,300",
+       "－"
+      ],
+      [
+       "材料費・部品費",
+       "－",
+       "900"
+      ],
+      [
+       "製造の人件費",
+       "－",
+       "160"
+      ],
+      [
+       "そのほかの製造経費",
+       "－",
+       "40"
+      ],
+      [
+       "販売費及び一般管理費",
+       "560",
+       "560"
+      ]
+     ],
+     "note": "B案の売上原価は、材料費・部品費、製造の人件費、そのほかの製造経費と、ラインの減価償却費からなる。OEM先からの仕入れと材料費・部品費は売上高に比例する変動費で、それ以外の費用は固定費である。"
+    },
+    {
+     "cap": "当期末の貸借対照表の要約",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "資産（現金預金・売掛金・製品・備品など）",
+       "800"
+      ],
+      [
+       "負債",
+       "400"
+      ],
+      [
+       "純資産",
+       "400"
+      ]
+     ],
+     "note": "A案の次期末の総資本は、当期末と同じ800百万円と見込む。B案の次期末の総資本は、これにラインの次期末の帳簿価額と次期末の在庫を加えた額とする（増えた資産は長期借入金で賄う）。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "次期について、A案とB案のそれぞれの(1)売上高営業利益率、(2)総資本回転率、(3)総資本営業利益率を求めよ。総資本は次期末の値を用いること。小数第3位を四捨五入して小数第2位まで示し、単位は、比率は%、回転率は回とする。",
+     "fields": [
+      {
+       "k": "mA",
+       "type": "num",
+       "label": "(1) A案の売上高営業利益率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 7.0
+      },
+      {
+       "k": "mB",
+       "type": "num",
+       "label": "(1) B案の売上高営業利益率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 9.0
+      },
+      {
+       "k": "tA",
+       "type": "num",
+       "label": "(2) A案の総資本回転率",
+       "unit": "回",
+       "dp": 2,
+       "ans": 2.5
+      },
+      {
+       "k": "tB",
+       "type": "num",
+       "label": "(2) B案の総資本回転率",
+       "unit": "回",
+       "dp": 2,
+       "ans": 1.25
+      },
+      {
+       "k": "rA",
+       "type": "num",
+       "label": "(3) A案の総資本営業利益率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 17.5
+      },
+      {
+       "k": "rB",
+       "type": "num",
+       "label": "(3) B案の総資本営業利益率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 11.25
+      }
+     ],
+     "steps": [
+      "A案：営業利益＝2,000−1,300−560＝140。(1) 140÷2,000＝7.00%、(2) 2,000÷800＝2.50回、(3) 140÷800＝17.50%",
+      "B案：ラインの減価償却費＝800÷5＝160。売上原価＝900＋160＋40＋160＝1,260、営業利益＝2,000−1,260−560＝180",
+      "B案の次期末の総資本＝800＋ラインの帳簿価額（800−160＝640）＋在庫160＝1,600",
+      "B案：(1) 180÷2,000＝9.00%、(2) 2,000÷1,600＝1.25回、(3) 180÷1,600＝11.25%",
+      "検算：総資本営業利益率＝売上高営業利益率×総資本回転率（A案 7.00%×2.50＝17.50%、B案 9.00%×1.25＝11.25%）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "設問1の結果を踏まえ、自社生産（B案）と比べたOEM生産（A案）の財務的利点を50字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "解答",
+       "limit": 50,
+       "model": "設備投資が不要で資産が少なく総資本回転率と総資本営業利益率が高い。製造の固定費もなく売上減少に強い。",
+       "points": [
+        "生産設備への投資が不要で、設備・在庫などの資産が少ない",
+        "総資本回転率が高く、利益率は低くても総資本営業利益率で自社生産を上回る（資産効率が高い）",
+        "製造の固定費（人件費・減価償却費）がなく、売上高が減っても利益が減りにくい（損益分岐点が低い）"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "mA": "よくある誤り：35.00%は売上総利益率（売上総利益700÷売上高）。営業利益は販売費及び一般管理費も差し引く。",
+    "mB": "よくある誤り：17.00%は、ラインの減価償却費160を入れていない。△23.00%は、ラインの取得原価800を全額その年の費用にした（定額法で5年に分けて費用にする）。",
+    "tB": "よくある誤り：1.14回は、ラインを取得原価800のまま総資本に加えた（次期末の帳簿価額は640）。1.39回は、材料・部品と仕掛品の在庫160を加えていない。2.50回は、総資本をA案と同じ800にした。",
+    "rB": "よくある誤り：10.23%は、ラインを取得原価のまま加えた総資本1,760で割った。12.50%は、在庫を加えていない総資本1,440で割った。22.50%は、総資本をA案と同じ800にした。"
+   },
+   "e": "【考え方】OEM生産は、生産の設備と製造の人員を持たず、生産をOEM先に任せる形。財務の面では、①設備と在庫を持たないので資産が少なく、資産効率（総資本回転率）が高い、②製造の固定費がなく、費用の多くが仕入れ（変動費）なので、売上高が減っても利益が減りにくい、③設備の資金を借りなくてよく、安全性を保てる。その代わり、OEM先の加工費と利益を払うので、利益率は自社生産より低くなりやすい。\n【設問1】A案は売上高営業利益率7.00%、総資本回転率2.50回、総資本営業利益率17.50%。B案は、ラインの減価償却費160を含めて営業利益180（9.00%）。総資本は、ラインの帳簿価額640と在庫160が加わって1,600になり、回転率は1.25回に半減し、総資本営業利益率は11.25%に下がる。\n【分解】総資本営業利益率＝売上高営業利益率×総資本回転率。B案は利益率が2ポイント上がるが、回転率が半分になるので、資産に対する利益の効率はA案が上回る。\n【設問2】OEM生産の利点は、資産効率の高さ（設備投資が不要で資産が少なく、総資本回転率と総資本営業利益率が高い）と、固定費の小ささ（売上の減少に強い）。B案の損益分岐点比率は83.64%で、A案の80.00%より高い。安全性で書くなら、B案は借入れで自己資本比率が50.00%から25.00%に下がる。50字では、資産効率の要素を主にして、固定費か安全性の要素を1つ添える。\n【よくある失点】「コストが下がる」「利益率が高い」と書く（利益率は自社生産の方が高い）。品質の安定や企画・開発への集中など、財務の利点ではない要素だけを書く。固定費の小ささだけを書いて、資産効率に触れない。\n【本試験での注意】令和5年度第4問設問1は、企画・開発・販売に特化し、生産をOEM先に委託している会社について、OEM生産の財務的利点を50字以内で問うた（計算はない）。出題の趣旨は、OEM生産の財務的な特性を問うとしている。同じ年の第3問では、新製品を自社で生産するための設備投資の正味現在価値が問われた。固定費の側は、CVP分析の分野のクラフトビールの問題（設備を借りて内製するリスクの記述）の裏返しとしても練習できる。\n【図】1つ目はA案とB案の比較、2つ目は次期末の貸借対照表（同じ縮尺）、3つ目は総資本営業利益率の分解、4つ目は記述の要素と根拠。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">A案とB案の比較（単位：百万円。網掛けは資産効率の指標。参考の2行は解説用）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 254\" role=\"img\" aria-label=\"A案とB案の比較\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"74.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">百万円</text><text x=\"201.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">A案（OEM生産）</text><text x=\"307.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">B案（自社生産）</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">売上高</text><text x=\"248\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,000</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2,000</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">売上原価</text><text x=\"248\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,300</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,260</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">うち製造の固定費</text><text x=\"248\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">360</text><path d=\"M1 92.6L359 92.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"108.2\" font-size=\"11.5\" style=\"fill:currentColor\">営業利益</text><text x=\"248\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">140</text><text x=\"354\" y=\"108.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">180</text><path d=\"M1 115.5L359 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.1\" font-size=\"11.5\" style=\"fill:currentColor\">次期末の総資本</text><text x=\"248\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">800</text><text x=\"354\" y=\"131.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,600</text><path d=\"M1 138.4L359 138.4\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"154.0\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">売上高営業利益率</text><text x=\"248\" y=\"154.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">7.00%</text><text x=\"354\" y=\"154.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">9.00%</text><rect x=\"1\" y=\"161.3\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 161.3L359 161.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"176.9\" font-size=\"11.5\" style=\"fill:currentColor\">総資本回転率</text><text x=\"248\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.50回</text><text x=\"354\" y=\"176.9\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.25回</text><rect x=\"1\" y=\"184.2\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 184.2L359 184.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"199.8\" font-size=\"11.5\" style=\"fill:currentColor\">総資本営業利益率</text><text x=\"248\" y=\"199.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">17.50%</text><text x=\"354\" y=\"199.8\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">11.25%</text><path d=\"M1 207.1L359 207.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"222.7\" font-size=\"11.5\" style=\"fill:currentColor\">（参考）損益分岐点比率</text><text x=\"248\" y=\"222.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">80.00%</text><text x=\"354\" y=\"222.7\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">83.64%</text><path d=\"M1 230.0L359 230.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"245.6\" font-size=\"11.5\" style=\"fill:currentColor\">（参考）自己資本比率</text><text x=\"248\" y=\"245.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">50.00%</text><text x=\"354\" y=\"245.6\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">25.00%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M148 0L148 251.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M254 0L254 251.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"251.9\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">次期末の貸借対照表（単位：百万円。同じ縮尺で、B案は資産が倍になる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"次期末の貸借対照表（同じ縮尺）\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">A案（OEM生産）</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"115.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"76.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">既存の資産</text><text x=\"41.8\" y=\"91.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">800</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"57.5\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"47.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">負債</text><text x=\"125.2\" y=\"62.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">400</text><rect x=\"84.5\" y=\"79.5\" width=\"81.5\" height=\"57.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"105.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"125.2\" y=\"120.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">400</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">B案（自社生産）</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"115.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"76.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">既存の資産</text><text x=\"234.8\" y=\"91.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">800</text><rect x=\"194.0\" y=\"137.0\" width=\"81.5\" height=\"92.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"180.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ライン</text><text x=\"234.8\" y=\"195.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">640</text><rect x=\"194.0\" y=\"229.0\" width=\"81.5\" height=\"23.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"244.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">在庫 160</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"57.5\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"47.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">負債</text><text x=\"318.2\" y=\"62.8\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">400</text><rect x=\"277.5\" y=\"79.5\" width=\"81.5\" height=\"115.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"134.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">借入金の増加</text><text x=\"318.2\" y=\"149.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">800</text><rect x=\"277.5\" y=\"194.5\" width=\"81.5\" height=\"57.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"220.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">純資産</text><text x=\"318.2\" y=\"235.2\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">400</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">総資本営業利益率の分解（B案は利益率で勝るが、回転率が半分になり、全体で劣る）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 106\" role=\"img\" aria-label=\"総資本営業利益率の分解\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">総資本営業利益率</text><text x=\"180.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">＝ 売上高営業利益率</text><text x=\"300.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">× 総資本回転率</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">A案 17.50%</text><text x=\"180.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">7.00%</text><text x=\"300.0\" y=\"38.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2.50回</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">B案 11.25%</text><text x=\"180.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">9.00%</text><text x=\"300.0\" y=\"60.5\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1.25回</text><rect x=\"1\" y=\"67.6\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"90.3\" font-size=\"11\" style=\"fill:currentColor\">優れる案</text><text x=\"180.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">B案（OEM先の</text><text x=\"180.0\" y=\"97.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">利益を取り込む）</text><text x=\"300.0\" y=\"82.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">A案（設備も</text><text x=\"300.0\" y=\"97.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">在庫も持たない）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M240 0L240 104.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"104.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">記述の要素と根拠（網掛けは模範解答の要素）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 189\" role=\"img\" aria-label=\"記述の要素と根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">記述の要素</text><text x=\"255.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">根拠（設問1・与件）</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">設備投資が不要で</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">資産が少ない</text><text x=\"156\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">B案はラインの帳簿価額640と在庫160が</text><text x=\"156\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">加わり、総資本が800から1,600に倍増</text><rect x=\"1\" y=\"60.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">総資本回転率と</text><text x=\"6\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">総資本営業利益率が高い</text><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">（資産効率）</text><text x=\"156\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">2.50回と1.25回、17.50%と11.25%</text><rect x=\"1\" y=\"113.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 113.2L359 113.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">製造の固定費がなく、</text><text x=\"6\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">売上の減少に強い</text><text x=\"156\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">B案は製造の固定費360が加わる</text><text x=\"156\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">（損益分岐点比率80.00%→83.64%）</text><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">（別解）</text><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">設備資金の借入れが不要</text><text x=\"156\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">B案は借入金が800増え、</text><text x=\"156\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">自己資本比率が50.00%→25.00%</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 187.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"187.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
   }
  ]
 }
