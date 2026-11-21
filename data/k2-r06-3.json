@@ -1,0 +1,353 @@
+{
+ "id": "k2-r06-3",
+ "y": 6,
+ "j": 3,
+ "theme": "搬送機器の受託製造：生産能力・工程管理・価格交渉・新事業",
+ "gist": [
+  "搬送機器の製造業、従業員70名・4部門",
+  "コンベヤを工作機械・物流機器メーカーから受託",
+  "社長はX社で設備レイアウトと改善提案を担当",
+  "X社の特注品から始め、提案で取引先が拡大",
+  "工業団地に工場、NC加工機を入れ技術者を採用",
+  "取引先8社、X社が6割超。国内回帰で受注増",
+  "見積は過去の契約額を参考に、営業部長が決裁",
+  "コスト高に契約金額が追いついていない",
+  "受注番号を入力、設計部が製作図面と部品構成表",
+  "製造部5課、フレームは製缶・駆動部は機械加工",
+  "大日程計画で調達・生産を指示、資材は部品表で",
+  "週末の生産会議で週次計画、工数は課長の経験",
+  "受注増と短納期要請で工程管理が混乱、IT検討",
+  "製缶課だけ残業・休日出勤、計画変更が常態化",
+  "最終検査・納品、X社向けの保守は営業部"
+ ],
+ "lesson": [
+  "「進め方」を問う設問が3つ（第2・3・5問）。「まず〜、次に〜」や①②③で手順を示し、最後に効果を書く。",
+  "第2問（工程を改善して能力を上げる）と第3問（計画と統制の業務を直す）を書き分ける。同じ製缶課の残業を、第2問はボトルネック、第3問は計画の変更の常態化として使う。",
+  "第4問は「社内の事前の対策」。交渉の場の話し方ではなく、原価の把握と見積・決裁の仕組みを整える（出題の趣旨：原価管理と契約のプロセス）。",
+  "第5問は、新事業に足りない経営資源（提案の営業、製品の企画・設計、据付・保守）を、第1問の強みで補う進め方にする。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "C社の強み。観点や部門の指定はない。80字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "強み",
+     "limit": 80
+    }
+   ],
+   "model": {
+    "a": "①X社で培った社長の設備レイアウト設計と搬送機能の提案力、②設計から機械加工・製缶・組立までの一貫生産体制、③工作機械・物流機器メーカー8社との取引基盤。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "社長の設備レイアウト設計・搬送の提案力",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "設計から製缶・組立までの一貫生産体制",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "工作機械・物流機器メーカー8社の取引",
+     "w": 5
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "社長はX社で、搬送機器を含む工場の設備のレイアウト設計を担い、生産性向上を提案した"
+    ],
+    [
+     4,
+     "社長の搬送機能の提案もあって、X社以外の工作機械・物流機器メーカーからも特注品を受託"
+    ],
+    [
+     5,
+     "工業団地の工場にNC加工機などを入れ、設計と製造の技術者を中心に採用"
+    ],
+    [
+     6,
+     "工作機械メーカー5社・物流機器メーカー3社と取引"
+    ],
+    [
+     9,
+     "設計部が、顧客の仕様と図面から製作図面と部品構成表を作る"
+    ],
+    [
+     10,
+     "フレームは製缶課、駆動部と搬送体は機械加工課が内製し、組立課が最終組立"
+    ]
+   ],
+   "shushi": "与件からC社の強みを読み取り、分析する力をみる。",
+   "e": "・**題意**：C社の今の強み。観点や部門の指定はない（出題の趣旨も強みの分析）。80字なので要素は2〜3つ。\n・**組み立て**：人（社長の提案力）・仕組み（設計から製造までの一貫生産）・取引（2つの業界のメーカー8社）の3つの切り口で、与件の言葉を名詞でまとめる。\n**強みの候補と与件の根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 354\" role=\"img\" aria-label=\"強みの候補と与件の根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">候補</text><text x=\"193.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">答え</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">搬送の提案力</text><text x=\"92\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">社長はX社で設備のレイアウト設計と</text><text x=\"92\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">生産性向上の提案を担当。</text><text x=\"92\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">C社でも社長の搬送の提案もあって、</text><text x=\"92\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">X社以外に取引先が広がった</text><text x=\"330.0\" y=\"61.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">入れる</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">一貫生産体制</text><text x=\"92\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">設計部が製作図面と部品構成表を作り、</text><text x=\"92\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">機械加工・製缶・組立を内製。</text><text x=\"92\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">NC加工機と技術者</text><text x=\"330.0\" y=\"121.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">入れる</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">取引基盤</text><text x=\"92\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">工作機械メーカー5社・</text><text x=\"92\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">物流機器メーカー3社と取引</text><text x=\"330.0\" y=\"166.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">入れる</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">保守の経験</text><text x=\"92\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">X社向けは、</text><text x=\"92\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">据付の後の保守を営業部が担う</text><text x=\"330.0\" y=\"203.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 218.4L359 218.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"241.1\" font-size=\"11\" style=\"fill:currentColor\">データの活用</text><text x=\"92\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">部品構成表をデータで持ち、</text><text x=\"92\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">発注と在庫管理に使う</text><text x=\"330.0\" y=\"241.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 255.8L359 255.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"278.5\" font-size=\"11\" style=\"fill:currentColor\">受注の増加</text><text x=\"92\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">X社が中国への生産の</text><text x=\"92\" y=\"286.1\" font-size=\"11\" style=\"fill:currentColor\">委託を国内に移した</text><text x=\"330.0\" y=\"278.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">機会</text><path d=\"M1 293.2L359 293.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">X社への依存</text><text x=\"92\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">受注金額の6割超がX社</text><text x=\"330.0\" y=\"308.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 315.4L359 315.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"330.5\" font-size=\"11\" style=\"fill:currentColor\">見積と</text><text x=\"6\" y=\"345.7\" font-size=\"11\" style=\"fill:currentColor\">工程管理</text><text x=\"92\" y=\"330.5\" font-size=\"11\" style=\"fill:currentColor\">見積は過去の契約金額が基準。</text><text x=\"92\" y=\"345.7\" font-size=\"11\" style=\"fill:currentColor\">受注増で工程管理が混乱</text><text x=\"330.0\" y=\"338.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 351.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 351.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"351.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】答えに入れるもの、字数の都合で外したもの（別の答え）、強みにならないもの（機会・弱み）に分けた。\n・**別の答え方**：「NC加工機などの設備と、設計・製造の技術者」「X社向けに据付の後の保守も担う関係」「部品構成表をデータで持ち、発注と在庫管理に使う仕組み」。\n【ひっかけ注意】X社の国内回帰による受注の増加は外部環境（機会）で、C社の内部の強みではない。受注の6割超がX社なのは依存（弱み）。工程管理が混乱しているので、「短納期への対応力」は強みに書きにくい。\n【2次】j3.over.company|与件のC社の姿と生産の形\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 20,
+   "ask": "コロナ禍以降に増えている受注に対応するため、製造部が工程を改善して生産能力を高めたい。その進め方の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "進め方",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "まず製缶工程の作業を工程分析・稼働分析し、ECRSでムダを省き標準作業を定める。次に余力のある機械加工課と組立課の作業者を多能工化し製缶を応援させる。これによりボトルネックの能力を高め受注増に応える。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "製缶工程の作業を分析する",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "ムダを省き標準作業を定める",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "余力ある前後の課を多能工化し応援",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "製缶の能力を高め受注増に応える",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     6,
+     "X社の国内回帰で、近年は受注が増えている"
+    ],
+    [
+     10,
+     "フレームは主に製缶課、駆動部と搬送体は機械加工課、最終組立は組立課"
+    ],
+    [
+     12,
+     "週次の計画の工数は課長の経験で見積もる（標準時間の記述はない）"
+    ],
+    [
+     13,
+     "受注増と短納期の要請で、工程管理が混乱"
+    ],
+    [
+     14,
+     "製缶課だけ残業・休日出勤が多い。前工程の機械加工課と後工程の組立課は、不適合品などの時を除き残業がない"
+    ]
+   ],
+   "shushi": "コロナ禍以降の受注増に対し、製造工程の課題を整理して、生産能力を高める工程改善の進め方を助言する力をみる。",
+   "e": "・**題意**：製造部が工程を改善して生産能力を高める「進め方」。目的は増え続ける受注への対応。出題の趣旨は、製造工程の課題を整理して進め方を助言すること。\n・**組み立て**：課題（製缶工程に負荷が集中するボトルネック）→ 手順（まず製缶の作業を分析・改善して標準作業に、次に余力のある前後の課から応援）→ 効果（全体の能力が上がり、受注増に応える）。\n**課ごとの負荷**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 198\" role=\"img\" aria-label=\"課ごとの負荷と第2問での扱い\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"56.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課（受け持ち）</text><text x=\"168.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">残業・休日出勤</text><text x=\"168.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">（与件）</text><text x=\"292.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">第2問での扱い</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">機械加工課</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（駆動部・搬送体）</text><text x=\"6\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">製缶の前工程</text><text x=\"118\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">不適合品などの</text><text x=\"118\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">特別な時だけ</text><text x=\"230\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">余力あり：多能工化して</text><text x=\"230\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">製缶を応援する</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">製缶課</text><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">（フレーム）</text><text x=\"118\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">多い。週次の</text><text x=\"118\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">計画の変更が常態化</text><text x=\"230\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">ボトルネック：</text><text x=\"230\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">作業を分析し、ムダを</text><text x=\"230\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">省いて標準作業にする</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">組立課</text><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">（最終組立）</text><text x=\"6\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">製缶の後工程</text><text x=\"118\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">不適合品などの</text><text x=\"118\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">特別な時だけ</text><text x=\"230\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">余力あり：多能工化して</text><text x=\"230\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">製缶を応援する</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M112 0L112 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M224 0L224 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"195.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】残業・休日出勤は製缶課だけ。前後の課は特別な時を除いて残業がない＝余力がある。全体の生産能力は製缶課で決まる。\n・**別の答え方**：「フレームの加工の一部を、NC加工機のある機械加工課へ移す」（与件はフレームを「主に」製缶課とする）「フレームの一部を外注する」「製缶の設備や治具を足す」。どれも製缶の負荷を減らすか、能力を足す手。\n【ひっかけ注意】計画の作り方やITの利用（工程管理の業務）は第3問で書く。標準時間は、標準作業と合わせて第2問で定める書き方もあるが、それを工数の見積と負荷の計画に使う話は第3問。与件に製缶の作業の中身（溶接など）は書かれていないので、作業の名前を足さず「分析して改善する」手順で書く。\n【2次】j3.prod.flow|ボトルネック・段取りと納期\n【1次】unei.1.3.2|分析手法（工程分析・稼働分析）\n【1次】unei.1.3.3|作業の改善（ECRS）\n【1次】unei.1.3.1|作業管理（標準作業・標準時間・多能工化）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "受注の増加と納期短縮の要請で製造部の工程管理が混乱している。工程管理の業務をどう改善するか、その進め方の助言。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "進め方",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "まず各工程の標準時間を定め、課長の経験に頼らず工数を見積もり負荷を平準化する。次に受注管理システムと連携し、製造番号ごとの進捗と設計・納期の変更を日々共有して計画を見直す。これにより納期遅延を防ぐ。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "標準時間を定め工数を見積もる",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "工程の負荷を平準化する",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "ITで進捗と設計・納期の変更を日々共有",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "計画を見直し納期遅延を防ぐ",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     9,
+     "受注番号（製造番号）で受注管理システムに入力。部品構成表はデジタルデータ"
+    ],
+    [
+     11,
+     "生産管理課が工程ごとの工数計画と、顧客の納期を基準に製造番号ごとの大日程計画を作る"
+    ],
+    [
+     12,
+     "週末の生産会議で進捗と資材の納品を確かめ、翌週の週次計画を作る。工数は課長の経験。変更は設計担当者が必要に応じて会議で伝える"
+    ],
+    [
+     13,
+     "受注増と短納期の要請で大日程・週次の計画が混乱。今は納期を守れているが、今後は遅れのおそれ。製造部はITの利用も検討"
+    ],
+    [
+     14,
+     "製缶課の週次の計画の変更が常態化"
+    ]
+   ],
+   "shushi": "受注増と納期短縮の要請で混乱する製造部の工程管理業務の課題を整理し、改善の進め方を助言する力をみる。",
+   "e": "・**題意**：製造部の工程管理の業務（計画と統制）を直す「進め方」。前提は、受注の増加と納期短縮の要請による混乱（出題の趣旨も、工程管理の課題の整理と進め方）。\n・**組み立て**：混乱の原因を2つに分ける。①計画の基準がない（工数を課長の経験で見積もる）→ 標準時間（第2問の標準作業がもと）と負荷の平準化。②統制が週1回（進捗と変更を週末の会議で確かめる）→ 今の受注管理システムと連携して日々共有し、計画を見直す。効果は納期遅延の防止。\n**今の工程管理と改善の手**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 242\" role=\"img\" aria-label=\"今の工程管理と改善の手\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"26.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"130.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今の工程管理（与件）</text><text x=\"284.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">改善の手</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">工数</text><text x=\"58\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">週次の計画の工数を、</text><text x=\"58\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">課長の経験で見積もる</text><text x=\"214\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">標準時間を定めて見積もる</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">負荷</text><text x=\"58\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">製缶に負荷が集まり、</text><text x=\"58\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">週次の計画の変更が常態化</text><text x=\"214\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">工程ごとの負荷を</text><text x=\"214\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">山積みし、平準化する</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">統制</text><text x=\"58\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">進捗と資材の納品は、週末の</text><text x=\"58\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">生産会議で週1回確かめる</text><text x=\"214\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">作業の実績を日々入れ、</text><text x=\"214\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">計画と比べて見直す</text><path d=\"M1 135.4L359 135.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">変更</text><text x=\"58\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">設計・納期の変更は、</text><text x=\"58\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">設計担当者が必要に</text><text x=\"58\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">応じて会議で伝える</text><text x=\"214\" y=\"150.5\" font-size=\"11\" style=\"fill:currentColor\">受注管理システムと</text><text x=\"214\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">連携し、</text><text x=\"214\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">すぐ全課に共有する</text><path d=\"M1 188.0L359 188.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">IT</text><text x=\"58\" y=\"203.1\" font-size=\"11\" style=\"fill:currentColor\">受注管理システムと</text><text x=\"58\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">部品構成表のデータはある。</text><text x=\"58\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">工程管理のITは検討中</text><text x=\"214\" y=\"210.7\" font-size=\"11\" style=\"fill:currentColor\">今あるデータを</text><text x=\"214\" y=\"225.9\" font-size=\"11\" style=\"fill:currentColor\">生かして入れる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M52 0L52 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M208 0L208 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"239.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の2行が計画の基準、下の3行が統制と情報の伝え方。解答例は、計画の基準を「まず」、統制と情報の共有を「次に」の手順にした。\n・**別の答え方**：「大日程計画と週次計画の間に、日々の作業の計画を置く」「週1回の生産会議に加え、短い打合せを毎日行う」「部品構成表のデータで、資材と外注品の納品の遅れを早くつかむ」。\n【ひっかけ注意】第2問の作業の改善や多能工化を繰り返さない。「生産管理システムを導入する」だけでは、何の情報を誰と共有し何が良くなるかが分からない。製造部がITの利用を検討していること（与件）は、ここで使う。\n【2次】j3.prod.plan|生産計画と生産統制\n【2次】j3.link.it|ITとデータの活用\n【1次】unei.1.2.10|生産統制（現品・余力・進捗管理）\n【1次】unei.1.3.1|作業管理（標準作業・標準時間・多能工化）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 20,
+   "ask": "材料費・人件費が上がり、契約金額がコストの上昇に追いついていない。顧客企業との価格交渉を円滑にするための、社内の事前の対策の助言。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "事前の対策",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "①製造番号ごとに材料費・外注費と工数の実績を集計し原価を把握する。②見積時に設計部が部品構成表を作り、最新の単価と標準時間で原価を積み上げ、製造部も確認して決裁する。これにより根拠ある価格を示して交渉を円滑にし、契約金額を適正化する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "製造番号ごとに原価の実績を把握",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "最新の単価と標準時間で積み上げ",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "見積時に設計部が部品構成表を作る",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "根拠ある価格で交渉を円滑に",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     7,
+     "見積は過去の契約金額を参考に、材料費・社内加工費・その他経費を合計。見積と最終の契約金額は営業部長が決裁"
+    ],
+    [
+     8,
+     "材料費・人件費の高騰で見直したが、契約金額が今のコスト高に追いついていない"
+    ],
+    [
+     9,
+     "契約の後に、設計部が製作図面と部品構成表（デジタルデータ）を作る。受注番号は製造部で製造番号として使う"
+    ],
+    [
+     12,
+     "工数は課長の経験で見積もる（標準時間の記述はない）。顧客の設計変更や納期変更がある"
+    ],
+    [
+     13,
+     "受注の増加と顧客からの納期短縮の要請で、工程管理が混乱"
+    ]
+   ],
+   "shushi": "材料費・人件費の高騰を受け、原価管理と契約のプロセスなどの課題を整理し、価格交渉を円滑にする社内の事前の対策を助言する力をみる。",
+   "e": "・**題意**：顧客企業との価格交渉を円滑にするための「社内の事前の対策」。交渉の場での話し方ではなく、交渉の前に社内で整える仕組み。出題の趣旨は、原価管理と契約のプロセスなどの課題を挙げた。\n・**組み立て**：問題（見積は過去の契約金額が基準で、今のコストを映さない。部品構成表は契約の後に作るので、見積に使えない。決裁は営業部長だけ）→ 対策（原価管理：受注ごとの原価の実績をつかむ／契約のプロセス：見積の段階で設計部が部品構成表を作り、今の単価と標準時間で積み上げ、製造部も確かめて決裁）→ 効果（根拠を示して交渉し、契約金額を適正にする）。\n**見積と契約の今と対策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 272\" role=\"img\" aria-label=\"見積と契約の今と対策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"140.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">今（与件）</text><text x=\"285.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">社内の事前の対策</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">原価の把握</text><text x=\"76\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">受注ごとの実際の原価を</text><text x=\"76\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">つかんでいる記述はない</text><text x=\"216\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">製造番号ごとに材料費・</text><text x=\"216\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">外注費・</text><text x=\"216\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">工数の実績を集める</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">部品構成表</text><text x=\"76\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">契約の後に</text><text x=\"76\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">設計部が作る。</text><text x=\"76\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">見積は営業部員が作る</text><text x=\"216\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">見積の段階で設計部が</text><text x=\"216\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">作り、材料の量をつかむ</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">見積の基準</text><text x=\"76\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">過去の契約金額を</text><text x=\"76\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">参考に、材料費・</text><text x=\"76\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">社内加工費・</text><text x=\"76\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">その他経費を合計</text><text x=\"216\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">最新の単価と、標準時間</text><text x=\"216\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">×賃率で積み上げる</text><path d=\"M1 196.2L359 196.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">決裁</text><text x=\"76\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">見積と最終の契約金額は</text><text x=\"76\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">営業部長が決める</text><text x=\"216\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">製造部も工数と原価を</text><text x=\"216\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">確かめてから決裁</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"256.3\" font-size=\"11\" style=\"fill:currentColor\">交渉の材料</text><text x=\"76\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">見直したが、契約金額が</text><text x=\"76\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">コスト高に追いつかない</text><text x=\"216\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">原価の内訳と</text><text x=\"216\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">上昇の根拠を示す</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M210 0L210 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"270.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**別の答え方**：「設計変更や短納期の対応で増える費用の扱いを、見積と契約の条件に入れる」「材料単価や賃金の上昇を示す資料をそろえる」「見積と実績の原価の差を受注ごとに確かめ、見積の精度を上げる」。\n【ひっかけ注意】「値上げを強く求める」「X社以外の顧客を増やす」は社内の事前の対策ではない。仕入先から材料を安く買う話は、交渉の相手（顧客企業）とずれる。\n・（参考）2026年1月から取適法で、委託する側（発注元）が、価格の協議を求められたのに、協議に応じなかったり必要な説明をしなかったりして、一方的に代金を決めることが禁止された（対象の取引は1次のテキスト）。協議では、受託する側にも原価の根拠が要る。令和6年度の本試験は施行の前で、設問も社内の事前の対策を問うので、法の話は答えの要素にしない。\n【2次】j3.link.material|資材・在庫・外注と原価\n【1次】zaimu.1.4.2|原価計算の種類と方法（個別原価計算）\n【1次】unei.1.5.2|調達（外注管理・取適法）"
+  },
+  {
+   "k": "q5",
+   "h": "第5問",
+   "dai": 5,
+   "pts": 20,
+   "ask": "社長は、小規模の工場施設や物流施設を新設・更新する計画の企業と直接に契約し、自社企画の製品を設計・製造して事業を広げたい。この新事業を成功させる推進の仕方の助言。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "推進の仕方",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "①社長と営業部・設計部でチームを作り、レイアウト設計の知見で施設の計画段階から搬送を提案する。②受託の知見で小規模施設向けの製品を標準化し設計する。③X社向けの保守の経験を生かし据付・保守まで担う。これによりX社依存を下げ事業を拡大する。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "社長と営業・設計のチームで提案",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "小規模施設向け製品を標準化し設計",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "保守の経験を生かし据付・保守まで",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "X社依存を下げ事業を拡大",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "取引先の設備に組み込むコンベヤを受託生産している（自社の製品の記述はない）"
+    ],
+    [
+     3,
+     "社長はX社で、設備のレイアウト設計と生産性向上の提案を担った"
+    ],
+    [
+     4,
+     "社長の搬送機能の提案もあって、取引先が広がった"
+    ],
+    [
+     6,
+     "X社が受注金額の6割超"
+    ],
+    [
+     9,
+     "設計部は顧客の仕様と図面から製作図面を作る（製品そのものを企画する記述はない）"
+    ],
+    [
+     14,
+     "製缶工程に負荷が集中している"
+    ],
+    [
+     15,
+     "据付は顧客が行う。X社向けは、据付の後の保守をC社の営業部が担う"
+    ]
+   ],
+   "shushi": "直接の契約で自社企画の製品を設計・製造する社長の構想について、経営資源の課題などを整理し、成功させる推進の仕方を助言する力をみる。",
+   "e": "・**題意**：社長の構想（施設を新設・更新する企業と直接に契約し、自社企画の製品を設計・製造する）を成功させる「推進の仕方」。出題の趣旨は、経営資源の課題などを整理して進め方を助言すること。\n・**組み立て**：新事業で要るもの（顧客への提案、製品の企画と設計、据付と保守）と、C社の今の資源を比べ、足りないところを強み（第1問の提案力と一貫生産）で補う手順にする。チームは、社長だけにある提案の知見を営業・設計の担当者に移す場でもある（人を育てると書いた答えも、1つ目の観点に当たる）。効果は事業の拡大と、X社への依存の低下。\n**新事業で要るものとC社の資源**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 242\" role=\"img\" aria-label=\"新事業で要るものとC社の資源\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"38.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">要るもの</text><text x=\"144.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">C社の今（与件）</text><text x=\"286.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">推進の手（例）</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">顧客への</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">提案</text><text x=\"82\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">受託は引き</text><text x=\"82\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">合いから始まる。</text><text x=\"82\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">提案の知見は社長にある</text><text x=\"218\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">社長と営業・</text><text x=\"218\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">設計のチームで、</text><text x=\"218\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">施設の計画段階から提案</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">製品の</text><text x=\"6\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">企画・設計</text><text x=\"82\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">設計部は顧客の仕様と</text><text x=\"82\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">図面から製作図面を作る</text><text x=\"218\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">受託の知見で、</text><text x=\"218\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">小規模施設向けの</text><text x=\"218\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">製品を標準化</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"151.1\" font-size=\"11\" style=\"fill:currentColor\">据付・保守</text><text x=\"82\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">据付は顧客が行う。</text><text x=\"82\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">X社向けの保守は営業部</text><text x=\"218\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">保守の経験を生かし、</text><text x=\"218\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">据付・保守まで担う</text><path d=\"M1 165.8L359 165.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"188.5\" font-size=\"11\" style=\"fill:currentColor\">生産能力</text><text x=\"82\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">製缶に負荷が集中。</text><text x=\"82\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">工程管理が混乱</text><text x=\"218\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">第2問・第3問の改善で</text><text x=\"218\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">能力を確保（別の答え）</text><path d=\"M1 203.2L359 203.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"225.9\" font-size=\"11\" style=\"fill:currentColor\">価格</text><text x=\"82\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">見積は過去の</text><text x=\"82\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">契約金額が基準</text><text x=\"218\" y=\"218.3\" font-size=\"11\" style=\"fill:currentColor\">第4問の原価の仕組みで</text><text x=\"218\" y=\"233.5\" font-size=\"11\" style=\"fill:currentColor\">価格を決める（別の答え）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M76 0L76 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M212 0L212 239.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"239.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】左の列は新事業で要るもの（推測。新事業は第5問の設問にだけ書かれ、与件に記述はない）。解答例は上の3行の手を入れ、下の2行は別の答えにした。\n・**別の答え方**：「第2問・第3問の改善で生産能力を確保してから、小さく始めて広げる」「第4問の原価の仕組みで、自社企画の製品の価格を決める」「社長の提案の知見を手順書にまとめ、営業の担当者を育てる」「今の取引先（物流機器メーカー）と競合しないよう、売り先の範囲を決める」。\n【ひっかけ注意】「受託をやめて新事業に移る」は、X社の国内回帰で増える受注と合わない。何を作るか（戦略）だけで終わらせず、誰が・どの順に進めるかを書く。\n【2次】j3.strat.future|新規事業と今後の戦略\n【2次】j3.link.design|設計・開発と営業の連携\n【1次】kigyo.3.4.5|生産財マーケティング\n【1次】unei.1.2.4|製品開発・製品設計（標準化・モジュール化）"
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "id": "k2-r06-2",
+ "y": 6,
+ "j": 2,
+ "theme": "陶磁器の産地問屋：返礼品・新規事業・店舗とEC",
+ "gist": [
+  "1953年創業の陶磁器卸、3代目が6年前に戻る",
+  "X市：大消費地に近い日用品の産地「X焼」",
+  "陶土屋・型屋・生地屋・窯元の分業と集積",
+  "窯元は約50軒・1〜2人に零細化、新しい作り手も",
+  "産地問屋の機能：集荷・受注・企画・自社店舗",
+  "贈答と輸出の時代から、安価な輸入品と人口減へ",
+  "1990年代半ばから低迷、産地問屋は4社に",
+  "陶磁器祭りに愛好家20万人、発信と販路は細る",
+  "帰郷後の営業で「新鮮味もない」と断られる",
+  "ホテルの食器を企画し、料理に合う器で高評価",
+  "宿・飲食店から依頼、窯元も3代目に好意的",
+  "コロナ禍の動画：盛り付けに若者・海外が反響",
+  "郷土料理と直火の器の動画に、再現したい声",
+  "店舗を建て直しカフェ併設、HP刷新とEC開設",
+  "将来を賭けて診断士への相談を続ける"
+ ],
+ "lesson": [
+  "第1問のSWOTは、後の設問で使う要素を優先して選ぶ。窯元の零細化や産地問屋の減少はB社の外（T）、B社の業績の低迷は内（W）。",
+  "設問が枠組みを指定したら、その言葉で両方を入れる（第2問：感覚価値と観念価値）。目的（目立つ、市とX焼のファン）で結ぶ。",
+  "設問文に、与件の本文にない前提がある（返礼品の状況、愛好家の収納の悩み、ECの新規客）。設問文の前提も根拠として読む。",
+  "「両方」の条件を片方で終わらせない（第3問：B社と窯元の事業機会、第4問：店舗とECの両方を使う客）。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "B社の現状をSWOT分析で。強み・弱み・機会・脅威を、①〜④の欄に各40字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "①強み（S）",
+     "limit": 40
+    },
+    {
+     "k": "b",
+     "label": "②弱み（W）",
+     "limit": 40
+    },
+    {
+     "k": "c",
+     "label": "③機会（O）",
+     "limit": 40
+    },
+    {
+     "k": "d",
+     "label": "④脅威（T）",
+     "limit": 40
+    }
+   ],
+   "model": {
+    "a": "ホテルで評価された3代目の器の企画・提案力と、企画品を託せる窯元との信頼関係。",
+    "b": "既存商品は新鮮味も価格の優位もなく卸に断られ、業績も長く低迷している点。",
+    "c": "愛好家20万人が集う祭り、動画への若者や海外の反響、郷土料理を家で作りたい声。",
+    "d": "安価でデザイン性の高い外国製品と、人口減による需要の飽和、窯元の零細化。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "3代目の器の企画・提案力",
+     "w": 3
+    },
+    {
+     "f": "a",
+     "t": "企画品を託せる窯元との信頼関係",
+     "w": 2
+    },
+    {
+     "f": "b",
+     "t": "既存商品に新鮮味も価格の優位もない",
+     "w": 3
+    },
+    {
+     "f": "b",
+     "t": "業績が長く低迷",
+     "w": 2
+    },
+    {
+     "f": "c",
+     "t": "祭りに食器愛好家が20万人",
+     "w": 3
+    },
+    {
+     "f": "c",
+     "t": "動画への若者・海外の反響と要望",
+     "w": 2
+    },
+    {
+     "f": "d",
+     "t": "安価でデザイン性の高い外国製品",
+     "w": 2
+    },
+    {
+     "f": "d",
+     "t": "人口減による需要の飽和",
+     "w": 2
+    },
+    {
+     "f": "d",
+     "t": "窯元の零細化",
+     "w": 1
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "窯元は約50軒に減り、1窯元1〜2人に零細化。川上の事業者にも影響"
+    ],
+    [
+     5,
+     "市内の複数の窯元から集めて売り、注文を取りまとめ、オリジナル商品を窯元に委託"
+    ],
+    [
+     6,
+     "安価でデザイン性の高い外国製品と100円ショップ。人口減で新規・買い替えの需要が見込めない"
+    ],
+    [
+     7,
+     "1990年代半ばから業績が低迷し、2000年代から悪化"
+    ],
+    [
+     8,
+     "大型連休の陶磁器祭りに、幅広い年代の食器愛好家が20万人前後"
+    ],
+    [
+     9,
+     "窯元の商品とオリジナル商品の見本を、似た品があり新鮮味もなく安くもないと断られる"
+    ],
+    [
+     10,
+     "3代目がホテルの食器を企画し、料理長と盛り付けや季節の料理に合う色・形を詰めて高い評価"
+    ],
+    [
+     11,
+     "窯元や地場産業の関係者が3代目に温かく接する。宿泊施設・飲食店から提案の依頼"
+    ],
+    [
+     12,
+     "盛り付けの動画が想定以上に再生され、若者とみられる視聴者や海外から驚きや感動の声"
+    ],
+    [
+     13,
+     "旅先で味わった料理を家で再現したいという問い合わせが相次ぐ"
+    ]
+   ],
+   "shushi": "B社の内部と外部の経営環境を読み解く力をみる（内部環境と外部環境の分析）。",
+   "e": "・**題意**：B社の今の姿をSWOTで、4つの欄に各40字（出題の趣旨も内部と外部の環境の分析）。時点の指定はない。配点は大問で20点（欄ごとは示されていない。各5点は目安）。\n**SWOTの要素と使う設問**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 316\" role=\"img\" aria-label=\"SWOTの要素と使う設問\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"20.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"146.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"306.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">使う設問</text><text x=\"20.0\" y=\"45.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">S</text><text x=\"46\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">3代目の器の企画・提案力</text><text x=\"46\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">（ホテルの食器で高い評価）</text><text x=\"258\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">第2〜4問</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"83.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">S</text><text x=\"46\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">複数の窯元とのつながりと信頼</text><text x=\"46\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">（企画品を委託できる）</text><text x=\"258\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">第2問・第3問</text><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"113.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">W</text><text x=\"46\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">既存の商品に新鮮味も価格の優位もない</text><text x=\"258\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">第2問（差別化）</text><path d=\"M1 120.2L359 120.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"135.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">W</text><text x=\"46\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">1990年代半ばから業績が低迷</text><text x=\"258\" y=\"135.3\" font-size=\"11\" style=\"fill:currentColor\">—</text><path d=\"M1 142.4L359 142.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"157.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">O</text><text x=\"46\" y=\"157.5\" font-size=\"11\" style=\"fill:currentColor\">陶磁器祭りに食器愛好家が20万人前後</text><text x=\"258\" y=\"157.5\" font-size=\"11\" style=\"fill:currentColor\">第3問・第4問</text><path d=\"M1 164.6L359 164.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"187.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">O</text><text x=\"46\" y=\"179.7\" font-size=\"11\" style=\"fill:currentColor\">動画の反響（若者・海外、</text><text x=\"46\" y=\"194.9\" font-size=\"11\" style=\"fill:currentColor\">郷土料理を家で再現したい声）</text><text x=\"258\" y=\"187.3\" font-size=\"11\" style=\"fill:currentColor\">第2問・第4問</text><path d=\"M1 202.0L359 202.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"224.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">T</text><text x=\"46\" y=\"217.1\" font-size=\"11\" style=\"fill:currentColor\">安価でデザイン性の高い外国製品、</text><text x=\"46\" y=\"232.3\" font-size=\"11\" style=\"fill:currentColor\">100円ショップ</text><text x=\"258\" y=\"217.1\" font-size=\"11\" style=\"fill:currentColor\">第2問（価格で</text><text x=\"258\" y=\"232.3\" font-size=\"11\" style=\"fill:currentColor\">競わない）</text><path d=\"M1 239.4L359 239.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"262.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">T</text><text x=\"46\" y=\"254.5\" font-size=\"11\" style=\"fill:currentColor\">人口減で、</text><text x=\"46\" y=\"269.7\" font-size=\"11\" style=\"fill:currentColor\">新しい需要も買い替えも伸びない</text><text x=\"258\" y=\"254.5\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><text x=\"258\" y=\"269.7\" font-size=\"11\" style=\"fill:currentColor\">（需要の創出）</text><path d=\"M1 276.8L359 276.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"20.0\" y=\"299.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">T</text><text x=\"46\" y=\"291.9\" font-size=\"11\" style=\"fill:currentColor\">窯元の零細化、</text><text x=\"46\" y=\"307.1\" font-size=\"11\" style=\"fill:currentColor\">産地問屋の減少で発信が滞る</text><text x=\"258\" y=\"291.9\" font-size=\"11\" style=\"fill:currentColor\">第3問</text><text x=\"258\" y=\"307.1\" font-size=\"11\" style=\"fill:currentColor\">（窯元の機会）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M40 0L40 313.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M252 0L252 313.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"313.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】後の設問の根拠になる要素を優先した。40字の1つの欄に要素は2〜3つ（S・Wは2つ、O・Tは3つ）。\n・**組み立て**：S＝3代目の企画・提案力と窯元とのつながり（第2〜4問の土台）。W＝商品力の弱さと業績の低迷。O＝祭りの愛好家と動画の反響（第2〜4問の根拠。動画の視聴者は与件では「若者と見られる」人で、答えでは「若者」と縮めてよい）。T＝安価な外国製品、需要の飽和、窯元の零細化（第3問の背景）。\n・**別の答え方**：Sに「動画で反響を得た発信の力」「カフェを併設した自社の店舗」。Wに「卸売中心で、消費者への発信が乏しかった（2代目のホームページの考え）」（ただし、HPの刷新とEC開設より前の姿なので、現状のWとしては弱い）。Oに「宿泊施設・飲食店からの依頼」「大消費地に近い」「作風が自由で新しい作り手が移ってくる」。Tに「産地問屋の減少で、X焼の発信と販路が細る」。\n【ひっかけ注意】窯元の零細化や産地問屋の減少はB社の外のことなのでT（B社の業績の低迷はW）。動画の反響は顧客の反応なのでO。Sに書くなら「発信の力」とする。Sに発信の力を入れたら、Wに「発信が弱い」と書くと食い違う。\n【ひっかけ注意】返礼品の状況・収納の悩み・ECの新規客は、第2〜4問の設問文だけにある前提。第1問は与件の本文から書き、設問文の前提はその設問で使う。\n【2次】j2.base.anal|現状分析の設問（SWOT・3C）\n【1次】kigyo.1.1.3|戦略策定プロセス（SWOT分析とクロスSWOT）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 25,
+   "ask": "X市からの依頼：X焼は市のふるさと納税の返礼品に入っているが、全国の数多い返礼品の中で目立たない。返礼品の中で際立ち、市とX焼のファンを増やす企画を、ブランドの価値構造の感覚価値と観念価値を意識して提案。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "企画",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "直火で使えるX焼の器と地元の発酵調味料で、郷土料理を家で作れる返礼品とする。炙る香りや料理が映える色形の感覚価値と、産地の歴史や窯元の物語を動画で伝える観念価値で目立たせ、市とX焼のファンを増やす。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "直火の器と調味料で郷土料理を作れる",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "炙る香り・映える色形＝感覚価値",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "産地の歴史・窯元の物語＝観念価値",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "目立たせ市とX焼のファンを増やす",
+     "w": 6
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "古くから為政者の主導で産業化された産地。日用品として長い歴史を持つ"
+    ],
+    [
+     3,
+     "陶土屋・型屋・生地屋・窯元の分業でつくる地場産業"
+    ],
+    [
+     4,
+     "作風に決まりがなく、移住した作り手の窯元もある（窯元ごとの個性）"
+    ],
+    [
+     10,
+     "料理長と、盛り付け・写真映え・季節の料理に合う色や形を詰めて食器を企画"
+    ],
+    [
+     12,
+     "家庭料理を器でおいしく見せる盛り付けの動画"
+    ],
+    [
+     13,
+     "B社の器を直火にかけ、炙った食材と地元の発酵調味料の郷土料理を実演。家で再現したい声"
+    ]
+   ],
+   "shushi": "B社の強みとX市の課題をつかみ、B社の商品企画（ここでは返礼品）を助言する力をみる。",
+   "e": "・**題意**：X市の依頼による、ふるさと納税の返礼品の企画（X焼を生かす）。目的は、全国の返礼品の中で目立つことと、市とX焼のファンを増やすこと。感覚価値と観念価値の両方を入れる。出題の趣旨は、B社の強みとX市の課題をつかんだ商品企画。\n**価値の層と返礼品の中身**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 205\" role=\"img\" aria-label=\"価値の層と返礼品の中身\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">価値</text><text x=\"134.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">返礼品の中身（解答例）</text><text x=\"282.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠</text><text x=\"6\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">基本価値</text><text x=\"70\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">日用の器として使える</text><text x=\"210\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">日用品として</text><text x=\"210\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">作られてきた長い歴史</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"83.3\" font-size=\"11\" style=\"fill:currentColor\">便宜価値</text><text x=\"70\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">調味料が付き、家で</text><text x=\"70\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">郷土料理を手軽に作れる</text><text x=\"210\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">2本目の動画：家庭でも</text><text x=\"210\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">手軽に作れると示した</text><rect x=\"1\" y=\"98.0\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 98.0L359 98.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">感覚価値</text><text x=\"70\" y=\"120.7\" font-size=\"11\" style=\"fill:currentColor\">炙る香り。</text><text x=\"70\" y=\"135.9\" font-size=\"11\" style=\"fill:currentColor\">料理が映える色や形</text><text x=\"210\" y=\"113.1\" font-size=\"11\" style=\"fill:currentColor\">ホテルの食器</text><text x=\"210\" y=\"128.3\" font-size=\"11\" style=\"fill:currentColor\">（季節の料理に合う色・</text><text x=\"210\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">形）、盛り付けの動画</text><rect x=\"1\" y=\"150.6\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 150.6L359 150.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">観念価値</text><text x=\"70\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">産地の歴史、</text><text x=\"70\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">分業の職人と窯元の</text><text x=\"70\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">物語、郷土の食文化</text><text x=\"210\" y=\"165.7\" font-size=\"11\" style=\"fill:currentColor\">為政者が育てた産地、</text><text x=\"210\" y=\"180.9\" font-size=\"11\" style=\"fill:currentColor\">陶土屋から窯元までの分業、</text><text x=\"210\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">窯元ごとの個性</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M204 0L204 202.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"202.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】色の付いた2つが設問の指定。感覚価値と観念価値は客観的に比べにくく、価格で競わずに目立つ源になる（1次のブランドの節）。\n・**組み立て**：何を（直火にかけられるB社の器＋地元の発酵調味料＝郷土料理を家で作れる組み合わせ。2本目の動画の反響が根拠）→感覚価値（炙る香り、料理が映える色や形：ホテルの食器と盛り付けの動画で示した力）→観念価値（為政者が育てた産地の歴史、分業の職人と窯元の物語。B社の動画で伝える）→効果（目立つ、市とX焼のファン）。\n・**別の答え方**：「季節ごとに窯元が替わる器の定期便（季節の料理に合う色や形）」「陶磁器祭りの時期の窯元めぐりや絵付けの体験を付け、来訪につなぐ」「器ごとに作り手の窯元の紹介を添える」。\n【ひっかけ注意】「デザイン性の高い器」「高品質な器」だけでは、感覚価値の中身が分からず、観念価値もない。安さで目立たせる案は、安価な外国製品と同じ土俵になる。B社の売上だけで結ぶと、市の依頼（市とX焼のファン）からそれる。別の答え方の定期便を書くなら、第3問の季節ごとの貸出と同じ中身にしない。\n【2次】j2.mix.product|商品・サービス（何を）\n【2次】j2.rel.collab|協業と地域の資源\n【1次】kigyo.3.6.1|ブランドの基礎概念（ブランドの価値構造）\n【1次】kigyo.3.12.1|地域ブランド"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 25,
+   "ask": "3代目は、消費者がさまざまな窯元の器を手に取れる機会をつくりたい。ターゲットは、陶磁器祭りで欲しい器があっても、家に置き場所がなく今の食器も捨てられないため、買うのをためらう食器愛好家。そのニーズを満たし、B社と窯元の事業機会を広げる新規事業の中身を提案。100字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "事業の内容",
+     "limit": 100
+    }
+   ],
+   "model": {
+    "a": "様々な窯元の器を季節ごとに届け、返却して入れ替える定額制の貸出事業を行い、気に入れば購入もできる。手持ちを捨てず収納も増やさず多様な器を楽しむ需要を生み、B社の継続収入と窯元の販路拡大につなげる。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "多様な窯元の器を定額で貸し入れ替え",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "手持ちを捨てず収納を増やさない",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "気に入った器は購入できる",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "B社の継続収入と窯元の販路拡大",
+     "w": 7
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "窯元は零細化。作風が自由で、窯元ごとに個性がある"
+    ],
+    [
+     5,
+     "産地問屋として、市内の複数の窯元から器を集めて売る"
+    ],
+    [
+     6,
+     "人口減で、新しい需要も買い替えの需要も見込めない（市場の飽和）"
+    ],
+    [
+     8,
+     "祭りに食器愛好家が20万人。窯元は零細で、商品の情報をこまめに発信できない"
+    ],
+    [
+     10,
+     "3代目は季節や月ごとの料理に合う器の色や形を提案できる（季節ごとの器選び）"
+    ],
+    [
+     14,
+     "自社の店舗とECサイト（申し込み・返却・購入の窓口になる）"
+    ]
+   ],
+   "shushi": "需要が飽和した市場で、新しい需要を呼び起こす新規事業を助言する力をみる。",
+   "e": "・**題意**：設問がターゲットを決めている（器は欲しいが、置き場所がなく今の食器も捨てられないので買わない愛好家）。答えるのは、さまざまな窯元の器を手に取れる機会をつくる新規事業の中身。そのニーズを満たし、B社と窯元の両方の事業機会を広げること。出題の趣旨は、飽和した市場で新しい需要を生む新規事業。\n**3者の状況と、事業で得るもの**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 228\" role=\"img\" aria-label=\"3者の状況と、事業で得るもの\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"30.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\"></text><text x=\"110.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">食器愛好家</text><text x=\"210.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">B社</text><text x=\"310.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">窯元</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">いまの</text><text x=\"6\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">状況</text><text x=\"66\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">欲しい</text><text x=\"66\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">器があっても</text><text x=\"66\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">置き場所がなく、</text><text x=\"66\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">今の食器も</text><text x=\"66\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">捨てられない</text><text x=\"166\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">人口減で、</text><text x=\"166\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">新しい需要も買い</text><text x=\"166\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">替えも伸びない</text><text x=\"266\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">零細で、作品の</text><text x=\"266\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">情報をこまめに</text><text x=\"266\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">発信できない</text><path d=\"M1 106.2L359 106.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">貸出の</text><text x=\"6\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">事業</text><text x=\"66\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">季節ごとに多様な</text><text x=\"66\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">器を使い、返して</text><text x=\"66\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">入れ替える。</text><text x=\"66\" y=\"166.9\" font-size=\"11\" style=\"fill:currentColor\">気に入れば買う</text><text x=\"166\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">多くの窯元から</text><text x=\"166\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">器を集めて貸す</text><text x=\"166\" y=\"159.3\" font-size=\"11\" style=\"fill:currentColor\">（産地問屋の力）</text><text x=\"266\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">多くの</text><text x=\"266\" y=\"144.1\" font-size=\"11\" style=\"fill:currentColor\">愛好家に作品を</text><text x=\"266\" y=\"159.3\" font-size=\"11\" style=\"fill:currentColor\">使ってもらえる</text><rect x=\"1\" y=\"174.0\" width=\"358\" height=\"52.6\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 174.0L359 174.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">得るもの</text><text x=\"66\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">収納を増やさず、</text><text x=\"66\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">捨てずに多様な</text><text x=\"66\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">器を楽しめる</text><text x=\"166\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">定額の継続収入。</text><text x=\"166\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">利用の記録で</text><text x=\"166\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">好みが分かる</text><text x=\"266\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">購入・</text><text x=\"266\" y=\"204.3\" font-size=\"11\" style=\"fill:currentColor\">指名が増え、</text><text x=\"266\" y=\"219.5\" font-size=\"11\" style=\"fill:currentColor\">販路が広がる</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M60 0L60 225.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M160 0L160 225.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M260 0L260 225.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"225.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：ニーズを読み替える（器は欲しいが、持つ量は増やせない→持たずに使う）。事業＝産地問屋の力（多くの窯元から集める）で器をそろえ、季節ごとに貸して、返却で入れ替える定額制。気に入れば買える。効果＝B社（継続収入・購入）と窯元（作品を知ってもらう・販路）の両方で結ぶ。\n・**別の答え方**：「手持ちの食器を下取り・引き取りし、捨てずに次の使い手へ回す（購入の後押し）」「器を預かって保管し、季節ごとに入れ替える」「店舗のカフェで窯元ごとの器を使い比べてもらう」。貸出では、割れたときの取り決めと洗浄の手間に留意する。\n【ひっかけ注意】祭りや店舗で器を見せる・売るだけでは、置き場所の悩みが解けず買ってもらえない。B社の売上だけで結ぶと、窯元の事業機会の条件が欠ける。設問が決めた愛好家以外（若者・海外など）への事業にしない。\n【2次】j2.mix.price|価格と販路\n【2次】j2.mix.target|ターゲット（誰に）\n【2次】j2.rel.collab|協業と地域の資源（両方が得るもの）\n【1次】kigyo.3.12.1|リキッド消費とシェアリング\n【1次】kigyo.3.8.4|価格戦略分類（サブスクリプション）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 30,
+   "ask": "設問の前提：ECサイトで新しい客は増えたが、顔を見て売れない寂しさがある。地元の店舗とECサイトの両方を使う客を増やすための、具体的な施策を提案。150字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "施策",
+     "limit": 150
+    }
+   ],
+   "model": {
+    "a": "EC購入者に、店舗のカフェで使える招待券と陶磁器祭りの案内を同梱し、来店時に3代目が器や盛り付けを提案して顔の見える関係を築く。来店客には会員登録を勧め、店で選んだ器に合う品をECで買い足せるようにする。店とECの購入履歴を一元管理して季節の器を個別に案内し、両方を使う客を増やす。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "EC客に来店の招待と祭りの案内",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "来店時に3代目が器や盛り付けを提案",
+     "w": 7
+    },
+    {
+     "f": "a",
+     "t": "来店客を会員にしECで買い足し",
+     "w": 8
+    },
+    {
+     "f": "a",
+     "t": "購入履歴を一元管理し個別に案内",
+     "w": 8
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "X市は大消費地に比較的近い（来店してもらいやすい）"
+    ],
+    [
+     8,
+     "大型連休の陶磁器祭りに20万人前後（来店のきっかけ）"
+    ],
+    [
+     10,
+     "3代目の、料理に合う器や盛り付けを提案する力"
+    ],
+    [
+     12,
+     "動画に若者とみられる視聴者や海外から反響（ECの客になりうる層）"
+    ],
+    [
+     14,
+     "明るい店舗にX焼で軽食を出すカフェを併設。ホームページを刷新しECを開設"
+    ]
+   ],
+   "shushi": "顧客との接点を強める施策を、チャネル戦略の観点から助言する力をみる。",
+   "e": "・**題意**：設問文の前提は、ECで新しい客は増えたが、顔を見て売れないこと。狙いは、地元の店舗とECの両方を使う客を増やすこと。具体的な施策を150字で。出題の趣旨は、顧客との接点を強める施策を、チャネル戦略の観点から。\n**チャネルの向きと施策**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 198\" role=\"img\" aria-label=\"チャネルの向きと施策\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"31.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">向き</text><text x=\"153.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">施策（解答例）</text><text x=\"302.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">チャネルの考え方</text><text x=\"6\" y=\"61.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">EC→店舗</text><text x=\"68\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">EC購入者にカフェの招待券と</text><text x=\"68\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">陶磁器祭りの案内を同梱。</text><text x=\"68\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">来店時に3代目が</text><text x=\"68\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">器や盛り付けを提案</text><text x=\"250\" y=\"45.9\" font-size=\"11\" style=\"fill:currentColor\">ネットから店へ</text><text x=\"250\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">（O2O）。</text><text x=\"250\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">顔の見える接点</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"121.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">店舗→EC</text><text x=\"68\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">来店客に会員登録を勧め、</text><text x=\"68\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">店で選んだ器に合う品を</text><text x=\"68\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">ECで買い足せるようにする</text><text x=\"250\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">店の体験を、</text><text x=\"250\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">帰った後のEC購入へ</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.3\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">両方を</text><text x=\"6\" y=\"181.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">つなぐ</text><text x=\"68\" y=\"166.3\" font-size=\"11\" style=\"fill:currentColor\">店とECの購入履歴を一元管理し、</text><text x=\"68\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">季節の器を一人ひとりに案内</text><text x=\"250\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">顧客の情報の統合</text><text x=\"250\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">（オムニチャネル・</text><text x=\"250\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">CRM）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M62 0L62 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M244 0L244 195.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"195.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n・**組み立て**：①ECから店舗へ（来店のきっかけ：カフェ、陶磁器祭り。X市は大消費地に近い）、②店舗からECへ（会員登録、帰った後の買い足し）、③両方をつなぐ情報（購入履歴の一元管理と一人ひとりへの案内）。3代目の提案力を店頭の接客で生かし、顔の見える関係にする。\n・**別の答え方**：「ECの客向けに、3代目が盛り付けを配信して質問に答える（オンラインで顔の見える接点）」「店舗で盛り付けの教室や窯元との交流会を開き、参加者をECの会員にする」「店で選んだ器を自宅に届け、追加はECで受ける」。\n【ひっかけ注意】ECの新規客を増やす施策（広告・SNS）や、店舗だけの集客では、両方を使う客にならない。第3問の貸出の事業を繰り返さない。「オムニチャネル化する」だけでは具体的な施策にならない。\n【2次】j2.rel.digital|デジタルの活用\n【2次】j2.rel.crm|顧客との関係づくり\n【1次】kigyo.3.11.3|デジタル化と流通（オムニチャネル・O2O・OMO）\n【1次】kigyo.3.4.1|リレーションシップ・マーケティング（CRM）"
+  }
+ ]
+}
