@@ -5246,6 +5246,830 @@
    "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">新店だけを見た正味現在価値から、D社全体の正味現在価値へ（単位：百万円。差額CFの現在価値で増減を示す）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 152\" role=\"img\" aria-label=\"新店だけを見た正味現在価値から、D社全体の正味現在価値へ（百万円）\" font-size=\"12\"><rect x=\"175.2\" y=\"9.0\" width=\"124.8\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">新店だけを見たNPV</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">60.79</text><rect x=\"191.1\" y=\"35.0\" width=\"108.9\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXの限界利益の減少</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－53.07</text><path d=\"M300.0 25.0L300.0 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"61.0\" width=\"29.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"154\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">賃貸収入の喪失（機会費用）</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－14.15</text><path d=\"M191.1 51.0L191.1 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"94.0\" width=\"2\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"154\" y=\"98.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">調査費・本社費の配賦</text><text x=\"154\" y=\"113.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">（含めない）</text><text x=\"356\" y=\"106.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋0.00</text><path d=\"M162.0 77.0L162.0 94.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"162.0\" y=\"127.0\" width=\"13.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"154\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">D社全体のNPV</text><text x=\"356\" y=\"139.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">－6.44</text><path d=\"M162.0 110.0L162.0 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><path d=\"M175.2 2L175.2 148\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">クラブXから移る会員数と正味現在価値（単位：百万円。1人移るごとに0.353808下がる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"移る会員数と正味現在価値\" font-size=\"12\"><path d=\"M202.4 18L202.4 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M224.8 18L224.8 200.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 200.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 119.1L350.0 119.1\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"36.0\" y=\"123.1\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"45.0\" y=\"24\" font-size=\"11\" style=\"fill:currentColor\">正味現在価値</text><text x=\"348.0\" y=\"232.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">クラブXから移る会員数（人）</text><text x=\"40.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"101.6\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"163.2\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">100</text><text x=\"224.8\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">150</text><text x=\"286.4\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"348.0\" y=\"214.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"187.8\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−40</text><text x=\"36.0\" y=\"155.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">−20</text><text x=\"36.0\" y=\"90.7\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"36.0\" y=\"58.4\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><path d=\"M40.0 43.6 L348.0 186.8\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"202.4\" cy=\"119.1\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"224.8\" cy=\"129.5\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"40.0\" cy=\"43.6\" r=\"3.4\" style=\"fill:currentColor\"/><text x=\"198.7\" y=\"14\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">上限 131人</text><text x=\"228.5\" y=\"14\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">見込み 150人</text><text x=\"229.7\" y=\"44.7\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">NPV △6.44</text><text x=\"64.6\" y=\"38.2\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">0人なら 46.63</text></svg>"
   },
   {
+   "id": "d4-value-01",
+   "cat": "value",
+   "lv": 2,
+   "min": 20,
+   "src": "H30-第2問（WACC・増加した資産に要求されるCF・企業価値の向上の記述・成長率）",
+   "title": "警備業：WACCと、事業の譲受けが企業価値を高めたかの判定",
+   "lead": "D社は、地方都市で、商業施設やオフィスビルへの警備員の常駐（施設警備）と、工事現場などの交通誘導警備を営んでいる。警備員の確保が年々難しくなる中、D社は、センサーと監視センターで異常を見つけて警備員が駆け付ける機械警備をサービスに加えるため、当期の期首に、同じ県内で機械警備を営むF社から、機械警備の事業（監視センターの設備、取り付けたセンサー、顧客との契約）を譲り受けた。譲受けの対価は250百万円で、全額を当期の期首に現金で支払った。\nD社は、当期の実績をもとに、この事業の譲受けが企業価値の向上につながったかを評価したい。D社の当期末の負債と純資産、資本コストに関する資料、譲り受けた事業の当期の損益は次のとおりである。法人税等の税率は30%とする。",
+   "tables": [
+    {
+     "cap": "D社の当期末の負債と純資産（貸借対照表の金額）",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "未払金・未払費用",
+       "180"
+      ],
+      [
+       "未払法人税等",
+       "30"
+      ],
+      [
+       "短期借入金",
+       "150"
+      ],
+      [
+       "長期借入金",
+       "450"
+      ],
+      [
+       "負債合計",
+       "810"
+      ],
+      [
+       "純資産合計",
+       "590"
+      ],
+      [
+       "負債・純資産合計",
+       "1,400"
+      ]
+     ],
+     "note": "未払金・未払費用と未払法人税等には、利子が付かない。"
+    },
+    {
+     "cap": "資本コストに関する資料",
+     "unit": "",
+     "head": [
+      "項目",
+      "値"
+     ],
+     "rows": [
+      [
+       "借入金の利子率（負債コスト）",
+       "2.0%"
+      ],
+      [
+       "株主資本コスト",
+       "8.5%"
+      ],
+      [
+       "株主資本の時価（取引銀行による株式の評価額）",
+       "900百万円"
+      ]
+     ],
+     "note": "借入金の時価は、貸借対照表の金額と等しいものとする。"
+    },
+    {
+     "cap": "譲り受けた事業の当期の損益",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "売上高（機械警備の警備料）",
+       "160"
+      ],
+      [
+       "現金支出を伴う費用（人件費・通信費など）",
+       "132"
+      ],
+      [
+       "減価償却費",
+       "10"
+      ],
+      [
+       "営業利益",
+       "18"
+      ]
+     ],
+     "note": "譲受けの対価のうち150百万円は長期借入金（利子率2.0%）で賄っており、その支払利息3百万円は上の損益に含めていない。譲り受けた設備は、毎年、減価償却費と同額の更新投資を行えば、今の規模の事業を続けられる。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "D社の加重平均資本コスト（WACC）を求めよ。加重平均の重みには時価を用いること。単位は%とし、小数第3位を四捨五入して小数第2位まで示すこと。\nまた、譲受けの対価に対して、資金の提供者（債権者と株主）が要求する年間のキャッシュ・フローを、このWACCを用いて求めよ。単位は百万円とし、小数第3位を四捨五入して小数第2位まで示すこと。いずれも計算の途中では端数を処理しないこと。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "wacc",
+       "type": "num",
+       "label": "WACC",
+       "unit": "%",
+       "dp": 2,
+       "ans": 5.66
+      },
+      {
+       "k": "req",
+       "type": "num",
+       "label": "要求される年間のキャッシュ・フロー",
+       "unit": "百万円",
+       "dp": 2,
+       "ans": 14.15
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "有利子負債＝短期借入金150＋長期借入金450＝600（時価＝貸借対照表の金額）。未払金・未払費用と未払法人税等は利子が付かないので、資本に含めない",
+      "株主資本は時価900を用いる（純資産の帳簿価額590ではない）。資本の合計＝600＋900＝1,500、構成比は有利子負債40%・株主資本60%",
+      "税引後の負債コスト＝2.0%×（1−0.3）＝1.40%（支払利息は損金になり、法人税等が減る）",
+      "WACC＝1.40%×0.4＋8.5%×0.6＝0.56%＋5.10%＝5.66%",
+      "要求される年間のキャッシュ・フロー＝対価250×5.66%＝14.15百万円"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "ここでは、譲り受けた事業の年間のフリー・キャッシュ・フロー（FCF）を、営業利益×（1−税率）＋減価償却費−更新投資の額とする（運転資本の増減は考えない）。当期の実績をもとに、譲り受けた事業の年間のFCFを求めよ（単位：百万円。計算の途中では端数を処理せず、小数第3位を四捨五入して小数第2位まで）。\nまた、譲り受けた事業が今後も当期と同じFCFを永続的に生むとした場合、この譲受けは企業価値の向上につながったといえるかを答え、その理由を、設問1の結果を用いて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "fcf",
+       "type": "num",
+       "label": "譲り受けた事業の年間のFCF",
+       "unit": "百万円",
+       "dp": 2,
+       "ans": 12.6
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "企業価値の向上に",
+       "opts": [
+        "つながった",
+        "つながっていない"
+       ],
+       "ans": "つながっていない"
+      },
+      {
+       "k": "t2",
+       "type": "text",
+       "label": "理由",
+       "limit": 60,
+       "model": "事業のFCF12.60百万円が、対価×WACCの要求CF14.15百万円を下回り、資本の提供者が求める収益を賄えない。",
+       "points": [
+        "事業のFCF（12.60百万円）が、要求される年間のCF（14.15百万円＝対価×WACC）を下回る",
+        "資本の提供者（債権者と株主）が求める収益（資本コスト）を賄えていない"
+       ]
+      }
+     ],
+     "steps": [
+      "FCF＝営業利益18×（1−0.3）＋減価償却費10−更新投資10＝12.6＋10−10＝12.60百万円（更新投資が減価償却費と同額なので、税引後の営業利益と等しい）",
+      "支払利息3は差し引かない（借入金のコストは、比べる相手のWACCに入っている）",
+      "FCF12.60＜要求されるCF14.15 → 企業価値の向上につながっていない（毎年1.55百万円足りない）",
+      "別の見方：FCFが永続するとした価値＝12.6÷5.66%＝222.61…百万円で、対価250を下回る"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "譲受けの時点（当期の期首）から見て、譲り受けた事業のFCFは、1年目（当期）は設問2で求めた額で、2年目（来年度）からは毎年一定の率で成長するものとする。このFCFの譲受けの時点の現在価値の合計が、譲受けの対価と等しくなる成長率を求めよ。割引率には設問1のWACCを用い、FCFは各年度末に生じるものとする。単位は%とし、計算の途中では端数を処理せず、小数第3位を四捨五入して小数第2位まで示すこと。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "g",
+       "type": "num",
+       "label": "成長率",
+       "unit": "%",
+       "dp": 2,
+       "ans": 0.62
+      },
+      {
+       "k": "p3",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "譲受けの時点の、一定の率で成長するFCFの現在価値の合計＝1年目（当期）のFCF÷（WACC−成長率）（対価を支払った時点で比べる）",
+      "12.6÷（5.66%−成長率）＝250 → 5.66%−成長率＝12.6÷250＝5.04%",
+      "成長率＝5.66%−5.04%＝0.62%",
+      "検算：12.6÷（5.66%−0.62%）＝12.6÷5.04%＝250"
+     ]
+    }
+   ],
+   "ce": {
+    "wacc": "よくある誤り：5.90%は、負債コストを税引前の2.0%のまま使った（支払利息の節税効果を入れる）。4.92%は、株主資本の重みに純資産の帳簿価額590を使った（重みは時価900）。5.14%は、利子の付かない未払金・未払費用と未払法人税等も負債に含めた（負債合計810）。4.39%は、その両方の誤り。",
+    "req": "よくある誤り：14.75百万円は、税引前の負債コストで求めたWACC（5.90%）を掛けた。12.30百万円は、簿価の重みのWACC（4.92%）を掛けた。この値で比べるとFCF12.60の方が大きく、「つながった」という逆の判断になる。12.84百万円は、負債合計を負債の重みにした。",
+    "fcf": "よくある誤り：10.50百万円は、支払利息3を差し引いた（WACCと比べるのに支払利息を引くと、借入金のコストを二重に差し引く）。18.00百万円は、税引前の営業利益のまま。22.60百万円は、更新投資を差し引いていない（更新しなければ事業を続けられない）。2.60百万円は、減価償却費を足し戻さずに更新投資だけを差し引いた。",
+    "ch": "よくある誤り：「つながった」とする。税引前の営業利益18や、更新投資を引かない22.60と比べたり、簿価の重みのWACCで要求CFを12.30と低く見積もったりすると、要求CFを上回るように見える。正しくは、FCF12.60が要求CF14.15に届かない。",
+    "g": "よくある誤り：0.59%は、分子を当期のFCF×（1＋成長率）とした（譲受けの時点から見ると、当期のFCFが1年目のFCFなので、そのまま分子にする）。1.46%は、支払利息を差し引いたFCF10.50を使った。0.86%は、税引前の負債コストのWACC（5.90%）を使った。△0.12%（マイナス）は、簿価の重みのWACC（4.92%）を使い、成長しなくても対価に見合うという誤った結論になる。"
+   },
+   "e": "【考え方】WACCは、資金の提供者（債権者と株主）が求める収益率を、資本の構成比で加重平均したもの。事業に投じた資金がWACC以上のCFを生めば企業価値は高まり、下回れば損なわれる。\n【設問1】①重みは時価：株主資本は株式の評価額900（純資産の帳簿価額590ではない）。②負債は利子の付く借入金600だけ（未払金などには資本コストがない）。③負債コストは、支払利息の節税効果を差し引いた税引後の1.40%。WACC＝5.66%、要求されるCF＝250×5.66%＝14.15百万円。\n【設問2】FCFは12.60百万円で、要求されるCF14.15百万円に毎年1.55百万円届かない。永続するとした価値は222.6…百万円で、対価250百万円を下回るので、企業価値の向上につながったとはいえない。支払利息は差し引かない（借入金のコストはWACCに入っている）。\n【設問3】対価を支払った譲受けの時点で比べるので、当期のFCFが1年目のFCFになり、一定の率で成長するFCFの現在価値の合計は「1年目のFCF÷（WACC−成長率）」。対価250と等しくなる成長率は0.62%で、契約数の増加などで年0.62%以上の成長を続けられれば、対価に見合う事業になる。\n【資本構成とWACC】借入金の税引後のコスト（1.40%）は株主資本コストより低いが、借入れを増やすと財務リスクが高まり、株主資本コストも上がる（この分野の4問目）。また、この譲受けの資金の一部は借入金だが、評価には資金の出どころのコストではなく、全社のWACCを使う（譲り受けた事業のリスクが全社と同程度とみなす場合。リスクが大きく異なれば、その事業のリスクに見合う割引率を使う）。\n【本試験での注意】平成30年度第2問は、吸収合併の効果を、WACCと合併で増加した資産に要求されるCF、合併で増加したCFを比べて評価させ（企業価値の向上につながったかを70字）、さらにCFが毎年一定率で成長するとき、現在価値の合計が増加した資産額と一致する成長率を求めさせた。このときは重みを簿価と時価のどちらで取るか、負債を有利子負債に限るかの指示がなかった。指示がなければ、与えられた資料で計算できる方法をとり、計算過程にその前提を書く。\n【図】1つ目はWACCの計算。2つ目は重みの取り方による違い（簿価の重みだと要求CFが事業のFCFを下回り、判断が逆になる）。3つ目は要求CFと事業のFCFの比較。4つ目は成長率とFCFの現在価値の合計の関係で、成長率0.62%で対価250に届く。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">WACCの計算（単位：百万円。重みは時価。未払金などの利子の付かない負債は含めない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"WACCの計算\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">資本</text><text x=\"113.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">時価</text><text x=\"169.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">構成比</text><text x=\"244.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">税引後のコスト</text><text x=\"325.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">加重</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">有利子負債</text><text x=\"134\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">600</text><text x=\"192\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">40%</text><text x=\"284\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.40%</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0.56%</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">株主資本</text><text x=\"134\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">900</text><text x=\"192\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">60%</text><text x=\"284\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8.50%</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">5.10%</text><rect x=\"1\" y=\"69.7\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 69.7L359 69.7\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">合計（WACC）</text><text x=\"134\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1,500</text><text x=\"192\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">100%</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">5.66%</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M140 0L140 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M198 0L198 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M290 0L290 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"91.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">重みの取り方で変わるWACCと要求されるCF（要求されるCF＝対価250×WACC。単位：百万円）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 129\" role=\"img\" aria-label=\"重みの取り方とWACC\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"98.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">重みの取り方</text><text x=\"232.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">WACC</text><text x=\"314.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">要求されるCF</text><rect x=\"1\" y=\"23.2\" width=\"358\" height=\"37.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">時価・有利子負債・</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">税引後（正しい）</text><text x=\"262\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">5.66%</text><text x=\"354\" y=\"45.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14.15</text><path d=\"M1 60.6L359 60.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"75.7\" font-size=\"11\" style=\"fill:currentColor\">負債コストを税引前のまま</text><text x=\"262\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">5.90%</text><text x=\"354\" y=\"75.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">14.75</text><path d=\"M1 82.8L359 82.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"97.9\" font-size=\"11\" style=\"fill:currentColor\">未払金なども負債に含める</text><text x=\"262\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">5.14%</text><text x=\"354\" y=\"97.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.84</text><path d=\"M1 105.0L359 105.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"11\" style=\"fill:currentColor\">株主資本を簿価（純資産590）で</text><text x=\"262\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">4.92%</text><text x=\"354\" y=\"120.1\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">12.30</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M196 0L196 126.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M268 0L268 126.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"126.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">要求されるCFと事業のFCF（単位：百万円。点線は事業のFCF。簿価の重みだと要求CFを低く見積もり、判断を誤る）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"要求されるCFと事業のFCF\" font-size=\"12\"><path d=\"M40 168L350 168\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 168L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">百万円</text><rect x=\"56.5\" y=\"30.5\" width=\"70.3\" height=\"137.5\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"91.7\" y=\"26.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">14.15</text><text x=\"91.7\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">要求されるCF</text><rect x=\"159.9\" y=\"45.6\" width=\"70.3\" height=\"122.4\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"195.0\" y=\"41.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">12.60</text><text x=\"195.0\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">事業のFCF</text><rect x=\"263.2\" y=\"48.5\" width=\"70.3\" height=\"119.5\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"298.3\" y=\"61.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">12.30</text><text x=\"298.3\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">簿価の重みの要求CF</text><path d=\"M40 45.6L350 45.6\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-dasharray=\"5 3\" fill=\"none\"/><text x=\"350\" y=\"40.6\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">FCF 12.60</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">成長率と、譲受けの時点のFCFの現在価値の合計（単位：百万円。1年目（当期）のFCF12.6÷（WACC−成長率）。点線は対価250）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"成長率とFCFの現在価値の合計\" font-size=\"12\"><path d=\"M199.1 18L199.1 190.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\" fill=\"none\"/><path d=\"M40.0 190.0L40.0 20\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 190.0L350.0 190.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"45.0\" y=\"24\" font-size=\"11\" style=\"fill:currentColor\">百万円</text><text x=\"348.0\" y=\"222.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">成長率（%）</text><text x=\"40.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"117.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0.3</text><text x=\"194.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0.6</text><text x=\"271.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0.9</text><text x=\"348.0\" y=\"204.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1.2</text><text x=\"36.0\" y=\"194.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">200</text><text x=\"36.0\" y=\"152.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">225</text><text x=\"36.0\" y=\"110.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">250</text><text x=\"36.0\" y=\"68.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">275</text><text x=\"36.0\" y=\"26.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">300</text><path d=\"M40.0 152.0 L52.8 148.7 L65.7 145.3 L78.5 141.8 L91.3 138.3 L104.2 134.7 L117.0 131.1 L129.8 127.4 L142.7 123.6 L155.5 119.7 L168.3 115.8 L181.2 111.8 L194.0 107.7 L206.8 103.5 L219.7 99.2 L232.5 94.9 L245.3 90.4 L258.2 85.9 L271.0 81.3 L283.8 76.6 L296.7 71.8 L309.5 66.8 L322.3 61.8 L335.2 56.6 L348.0 51.4\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40.0 106.0 L348.0 106.0\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"199.1\" cy=\"106.0\" r=\"3.4\" style=\"fill:var(--drop)\"/><circle cx=\"40.0\" cy=\"152.0\" r=\"3.4\" style=\"fill:var(--good)\"/><text x=\"199.1\" y=\"14\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">成長率 0.62%</text><text x=\"342.9\" y=\"99.3\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">対価 250</text><text x=\"50.3\" y=\"167.1\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">成長0なら 222.6</text></svg>"
+  },
+  {
+   "id": "d4-value-02",
+   "cat": "value",
+   "lv": 3,
+   "min": 25,
+   "src": "H24-第3問（事業承継のためのDCF法の企業価値・オーナーへの給与の扱い）・R4-第3問設問3（継続するCFの価値と割引の時点）",
+   "title": "葬祭業：DCF法による事業価値・株主価値と、株式の譲渡価格",
+   "lead": "D社は、地方都市で葬儀会館を3か所運営する葬祭業者である。創業者の社長（D社の全株式を保有）は70歳を超えたが、親族にも社内にも後継者がいないため、県内外で葬儀会館を展開するZ社への株式の譲渡（事業承継）を検討している。Z社からは、株式の譲受け価格として650百万円の提示を受けた。\n社長は、提示額が妥当かを判断するため、中小企業診断士に、D社の株主価値の算定を依頼した。地域では高齢化で葬儀の件数は増えているが、家族葬の広がりで1件当たりの単価は下がっている。D社の今後3年間の事業計画と、貸借対照表の一部の資料は次のとおりである。法人税等の税率は30%とする。",
+   "tables": [
+    {
+     "cap": "今後3年間の事業計画",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "1年度",
+      "2年度",
+      "3年度"
+     ],
+     "rows": [
+      [
+       "売上高",
+       "940",
+       "970",
+       "990"
+      ],
+      [
+       "営業利益",
+       "60",
+       "66",
+       "70"
+      ],
+      [
+       "減価償却費",
+       "32",
+       "34",
+       "36"
+      ],
+      [
+       "設備投資額",
+       "64",
+       "30",
+       "36"
+      ],
+      [
+       "運転資本の増加額",
+       "4",
+       "2",
+       "3"
+      ],
+      [
+       "支払利息",
+       "6",
+       "6",
+       "6"
+      ]
+     ],
+     "note": "営業利益は、いまの社長の役員報酬（年36百万円）を差し引いた後の額である。1年度の設備投資額には、会館1か所を家族葬向けの小さなホールに改装する費用を含む。"
+    },
+    {
+     "cap": "貸借対照表の資料（当期末）",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "帳簿価額",
+      "時価"
+     ],
+     "rows": [
+      [
+       "長期借入金",
+       "300",
+       "300"
+      ],
+      [
+       "遊休地（会館の用地として取得したが、計画を取りやめた土地）",
+       "100",
+       "70"
+      ]
+     ],
+     "note": "有利子負債は長期借入金だけである。遊休地は事業に使っておらず、時価で売却できる（売却に伴う税金は考えない）。そのほかの資産と負債は、すべて事業に使っている。"
+    },
+    {
+     "cap": "複利現価係数（割引率7%）",
+     "unit": "",
+     "head": [
+      "年",
+      "1年",
+      "2年",
+      "3年",
+      "4年"
+     ],
+     "rows": [
+      [
+       "複利現価係数",
+       "0.935",
+       "0.873",
+       "0.816",
+       "0.763"
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "株式の譲渡後は、Z社から派遣される経営者がD社を経営し、その役員報酬は年16百万円となる（いまの社長の役員報酬36百万円は不要になる）。株主価値の算定では、営業利益を譲渡後の役員報酬に置き換えた額を用いる。\nここでは、フリー・キャッシュ・フロー（FCF）を、営業利益×（1−税率）＋減価償却費−設備投資額−運転資本の増加額とする。1年度から3年度までの各年度のFCFを求めよ。単位は百万円とし、計算の途中では端数を処理せず、小数第2位を四捨五入して小数第1位まで示すこと。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "f1",
+       "type": "num",
+       "label": "1年度のFCF",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 20.0
+      },
+      {
+       "k": "f2",
+       "type": "num",
+       "label": "2年度のFCF",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 62.2
+      },
+      {
+       "k": "f3",
+       "type": "num",
+       "label": "3年度のFCF",
+       "unit": "百万円",
+       "dp": 1,
+       "ans": 60.0
+      },
+      {
+       "k": "p1",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "役員報酬の置き換え：営業利益が36−16＝20増える → 1年度80、2年度86、3年度90",
+      "1年度：80×0.7＋32−64−4＝56＋32−64−4＝20.0",
+      "2年度：86×0.7＋34−30−2＝60.2＋34−30−2＝62.2",
+      "3年度：90×0.7＋36−36−3＝63＋36−36−3＝60.0",
+      "支払利息は差し引かない（FCFは債権者と株主の両方に帰属するCFで、借入金のコストは割引率のWACCに入っている）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "D社の加重平均資本コスト（WACC）は7%とする。4年度以降のFCFは、3年度のFCFから毎年1%ずつ成長して永続するものとする。FCFは各年度末に生じるものとし、割引には表の複利現価係数を用いること。\n(1) 3年度末の時点の継続価値（4年度以降のFCFの、3年度末の時点の価値）を求めよ。\n(2) D社の事業価値（1〜3年度のFCFの現在価値と、継続価値の現在価値の合計）を求めよ。\n(3) 事業価値に占める、継続価値の現在価値の割合を求めよ。\nいずれも計算の途中では端数を処理しないこと。(1)(2)は百万円単位で百万円未満を四捨五入し、(3)は%で小数第2位を四捨五入して小数第1位まで示すこと。計算過程も示すこと。",
+     "fields": [
+      {
+       "k": "tv",
+       "type": "num",
+       "label": "(1) 3年度末の継続価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 1010
+      },
+      {
+       "k": "ev",
+       "type": "num",
+       "label": "(2) 事業価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 946
+      },
+      {
+       "k": "sh",
+       "type": "num",
+       "label": "(3) 継続価値の現在価値の割合",
+       "unit": "%",
+       "dp": 1,
+       "ans": 87.1
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "計算過程"
+      }
+     ],
+     "steps": [
+      "4年度のFCF＝60.0×（1＋1%）＝60.6",
+      "(1) 継続価値（3年度末）＝60.6÷（7%−1%）＝1,010百万円（4年度のFCF÷（WACC−成長率））",
+      "1〜3年度のFCFの現在価値：20.0×0.935＝18.7、62.2×0.873＝54.3006、60.0×0.816＝48.96（計121.9606）",
+      "継続価値の現在価値＝1,010×0.816＝824.16（継続価値は3年度末の時点の価値なので、3年の係数で割り引く）",
+      "(2) 事業価値＝121.9606＋824.16＝946.1206≒946百万円",
+      "(3) 824.16÷946.1206＝87.10…%≒87.1%"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "(1) D社の株主価値を求めよ。事業価値に、事業に使っていない資産の時価を加え、有利子負債を差し引いて求めること。単位は百万円とし、計算の途中では端数を処理せず、百万円未満を四捨五入して示すこと。\n(2) Z社の提示額（650百万円）について、設問1〜3の結果を踏まえ、社長に80字以内で助言せよ。",
+     "fields": [
+      {
+       "k": "eq",
+       "type": "num",
+       "label": "(1) 株主価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 716
+      },
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "(2) 助言",
+       "limit": 80,
+       "model": "株主価値は約716百万円で提示額を約66百万円上回る。根拠を示し引上げを交渉すべきだが、価値の87%は継続価値で、成長率や割引率の前提で大きく変わる点に留意。",
+       "points": [
+        "株主価値（約716百万円）は提示額（650百万円）を上回る",
+        "算定の根拠（役員報酬の置き換え・計画・継続価値）を示して、価格の引上げを交渉する",
+        "価値の大半（87.1%）は継続価値で、成長率・割引率の前提で大きく変わる（前提の幅を示す）"
+       ]
+      }
+     ],
+     "steps": [
+      "株主価値＝事業価値946.1206＋遊休地の時価70−長期借入金300＝716.1206≒716百万円",
+      "遊休地は帳簿価額100でなく時価70で加える。利子の付かない負債（未払金など）は運転資本としてFCFに入っているので差し引かない",
+      "株主価値716＞提示額650（差は約66百万円）"
+     ]
+    }
+   ],
+   "ce": {
+    "f1": "よくある誤り：15.8百万円は、支払利息6（税引後4.2）を差し引いた（WACCで割り引くFCFからは、支払利息を差し引かない）。14.0百万円は、支払利息を税引前のまま差し引いた。6.0百万円は、役員報酬を置き換えていない（税引後で14少ない）。44.0百万円は、税金を差し引いていない。28.0百万円は、運転資本の増加を足した。",
+    "f2": "よくある誤り：58.0百万円は支払利息（税引後）を差し引いた。48.2百万円は役員報酬を置き換えていない。88.0百万円は税金を差し引いていない。66.2百万円は運転資本の増加を足した。",
+    "f3": "よくある誤り：55.8百万円は支払利息（税引後）を差し引いた。46.0百万円は役員報酬を置き換えていない。87.0百万円は税金を差し引いていない。66.0百万円は運転資本の増加を足した。",
+    "tv": "よくある誤り：1,000百万円は、分子に3年度のFCF60.0をそのまま使った（継続価値の分子は4年度のFCF＝3年度×1.01）。857百万円は、成長を考えずWACCで割った。866百万円は、4年度のFCFをWACCで割り、成長率を分母から引いていない。",
+    "ev": "よくある誤り：893百万円は、継続価値を4年の係数0.763で割り引いた（継続価値は4年度以降のFCFを3年度末の時点にまとめた値なので、3年分だけ割り引く）。1,132百万円は、継続価値を割り引かずに足した。938百万円は、継続価値の分子に3年度のFCFを使った。877百万円は、支払利息を差し引いたFCFで求めた。717百万円は、役員報酬を置き換えていない。",
+    "sh": "よくある誤り：89.2%は、割り引く前の継続価値と、それを足した事業価値で割合を求めた。86.3%は、継続価値を4年の係数で割り引いた。",
+    "eq": "よくある誤り：646百万円は、遊休地を加えていない（事業に使わない資産はFCFを生まないので、別に時価で加える）。この値は提示額650を下回り、判断を誤る。746百万円は、遊休地を帳簿価額100で加えた。1,016百万円は、借入金を差し引いていない（事業価値は債権者の取り分を含む）。"
+   },
+   "e": "【考え方】DCF法は、事業が将来生むFCFを、債権者と株主の両方が求める収益率（WACC）で割り引いて事業価値を求め、そこから株主の取り分（株主価値）を出す。\n【設問1】①オーナーへの報酬の置き換え：譲渡後に不要になる報酬は、買い手から見ればD社の利益になる（36→16で営業利益が20増える）。②FCFは税引後の営業利益が出発点で、支払利息は差し引かない。③運転資本の増加はFCFのマイナス。\n【設問2】継続価値は、4年度以降のFCFを「4年度のFCF÷（WACC−成長率）」で3年度末の時点にまとめた値（1,010）。3年度末の値なので、3年の係数0.816で割り引く。事業価値946百万円のうち、87.1%を継続価値が占める。\n【設問3】株主価値＝事業価値＋事業に使っていない資産（時価）−有利子負債＝716百万円で、提示額650百万円を上回る。算定の根拠を示して引上げを交渉する余地があるが、継続価値の割合が大きく、成長率や割引率を1%変えるだけで株主価値は大きく動く（3つ目の図）。交渉では前提の幅を示し、時価純資産など別の方法による値とも比べる。\n【企業価値の考え方】企業価値は、目先の利益ではなく、将来にわたって生むCFの現在価値で決まる。令和3年度第4問設問2は、不採算の事業を続けても企業価値は必ずしも下がらないと経営者が考える理由を推測させた（40字）。いまは赤字の事業でも、地域での信頼やほかの事業の将来のCFにつながるなら、続ける意味がある、という見方につながる。\n【本試験での注意】平成24年度第3問は、売却を伴う事業承継のため、DCF法で企業価値を求めさせた（オーナー夫妻への給与が不要になる点を反映し、CFは今年度の水準が継続する）。令和4年度第3問設問3は、当初5年間の後も年間150万円のCFが継続的に生じるとして正味現在価値を求めさせた（5年の係数だけが与えられ、継続価値を5年分割り引く）。継続価値を「いつの時点の価値か」で割り引く年数を決めることと、FCFから支払利息を差し引かないことが差のつくところ。\n【図】1つ目は現在価値の計算。2つ目は事業価値から株主価値への積み上げ。3つ目は、割引率と成長率を変えたときの株主価値。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">現在価値の計算（単位：百万円。継続価値は4年度以降のFCFの3年度末の時点の価値なので、3年の複利現価係数で割り引く）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 136\" role=\"img\" aria-label=\"現在価値の計算\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"31.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">時点</text><text x=\"121.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">FCFなど</text><text x=\"210.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">割引</text><text x=\"300.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">現在価値</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">1年度末</text><text x=\"174\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">20.0</text><text x=\"234\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0.935</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">18.7</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">2年度末</text><text x=\"174\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">62.2</text><text x=\"234\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0.873</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">54.3006</text><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">3年度末</text><text x=\"174\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">60.0</text><text x=\"234\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0.816</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">48.96</text><rect x=\"1\" y=\"89.8\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">3年度末</text><text x=\"174\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">継続価値 1,010</text><text x=\"234\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0.816</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">824.16</text><path d=\"M1 112.0L359 112.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">合計</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">946.1206</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M62 0L62 133.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M180 0L180 133.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M240 0L240 133.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"133.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">事業価値から株主価値へ（単位：百万円。各値は小数第2位に丸めて示した）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 216\" role=\"img\" aria-label=\"事業価値から株主価値へ（百万円）\" font-size=\"12\"><rect x=\"136.0\" y=\"9.0\" width=\"2.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"128\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1年度のFCFの現在価値</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">18.70</text><rect x=\"138.9\" y=\"35.0\" width=\"8.3\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">2年度</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋54.30</text><path d=\"M138.9 25.0L138.9 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"147.2\" y=\"61.0\" width=\"7.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3年度</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋48.96</text><path d=\"M147.2 51.0L147.2 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"154.7\" y=\"87.0\" width=\"126.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">継続価値の現在価値</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋824.16</text><path d=\"M154.7 77.0L154.7 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"136.0\" y=\"113.0\" width=\"145.3\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"128\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">事業価値</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">946.12</text><path d=\"M281.3 103.0L281.3 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"281.3\" y=\"139.0\" width=\"10.7\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"128\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">遊休地（時価）</text><text x=\"356\" y=\"151.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋70.00</text><path d=\"M281.3 129.0L281.3 139.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"245.9\" y=\"165.0\" width=\"46.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"128\" y=\"177.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">長期借入金</text><text x=\"356\" y=\"177.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－300.00</text><path d=\"M292.0 155.0L292.0 165.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"136.0\" y=\"191.0\" width=\"109.9\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"128\" y=\"203.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">株主価値</text><text x=\"356\" y=\"203.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">716.12</text><path d=\"M245.9 181.0L245.9 191.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">前提を変えたときの株主価値（単位：百万円。網掛けが本問の前提。Z社の提示額は650）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 94\" role=\"img\" aria-label=\"前提を変えたときの株主価値\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"48.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">WACC＼成長率</text><text x=\"140.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">0%</text><text x=\"228.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">1%</text><text x=\"316.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">2%</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">6%</text><text x=\"178\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">735</text><text x=\"266\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">913</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,180</text><rect x=\"1\" y=\"46.8\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">7%</text><text x=\"178\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">591</text><text x=\"266\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">716</text><text x=\"354\" y=\"62.4\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">891</text><path d=\"M1 69.7L359 69.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"85.3\" font-size=\"11.5\" style=\"fill:currentColor\">8%</text><text x=\"178\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">485</text><text x=\"266\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">577</text><text x=\"354\" y=\"85.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">699</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M96 0L96 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M184 0L184 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M272 0L272 91.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"91.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
+  },
+  {
+   "id": "d4-value-03",
+   "cat": "value",
+   "lv": 2,
+   "min": 20,
+   "src": "R2-第3問（買収での純資産額と買収価格の差異の会計処理・買収のリスクの助言）・H29-第4問（子会社化と連結）",
+   "title": "造園業：株式の取得による買収（時価純資産とのれん、シナジー、リスク）",
+   "lead": "D社は、県内で、公園や道路の緑地の維持管理（主に自治体からの受注）と、住宅や事業所の庭の施工・手入れを営む造園業者である。D社は、同じ県内の同業のE社の社長（E社の全株式を保有）から、後継者がいないため株式を譲りたいとの打診を受けた。E社は、植木を育てる圃場を持ち、熟練の職人も多い。\nD社は、E社の全株式を取得して子会社とすることを検討している（D社は連結財務諸表を作成している）。E社の社長は、株式の譲渡価格として200百万円を希望しており、D社は買収の資金を借入れで賄う予定である。E社の当期末の貸借対照表と、D社が調べた資産の時価、買収した場合の見込みは次のとおりである。法人税等の税率は30%とする。",
+   "tables": [
+    {
+     "cap": "E社の当期末の貸借対照表と資産の時価",
+     "unit": "百万円",
+     "head": [
+      "科目",
+      "帳簿価額",
+      "時価"
+     ],
+     "rows": [
+      [
+       "現金預金",
+       "40",
+       "40"
+      ],
+      [
+       "完成工事未収入金",
+       "60",
+       "60"
+      ],
+      [
+       "植木（棚卸資産）",
+       "90",
+       "60"
+      ],
+      [
+       "土地（圃場）",
+       "50",
+       "90"
+      ],
+      [
+       "車両・重機",
+       "60",
+       "60"
+      ],
+      [
+       "資産合計",
+       "300",
+       "310"
+      ],
+      [
+       "工事未払金",
+       "30",
+       "30"
+      ],
+      [
+       "借入金",
+       "120",
+       "120"
+      ],
+      [
+       "負債合計",
+       "150",
+       "150"
+      ],
+      [
+       "純資産合計",
+       "150",
+       "－"
+      ]
+     ],
+     "note": "植木は需要の落ち込みで一部が売れ残っており、時価は売却できる見込みの価額である。土地の時価は、近隣の取引事例に基づく評価額である。評価差額に係る税効果は考えない。現金預金は、すべて事業の運営に必要な額である。"
+    },
+    {
+     "cap": "E社の事業と買収した場合の見込み",
+     "unit": "百万円",
+     "head": [
+      "項目",
+      "金額"
+     ],
+     "rows": [
+      [
+       "E社の営業利益（毎年）",
+       "27"
+      ],
+      [
+       "E社の減価償却費（毎年。同額の更新投資が必要）",
+       "15"
+      ],
+      [
+       "シナジー①：重機・車両の共同利用による費用の減少（毎年）",
+       "4"
+      ],
+      [
+       "シナジー②：受注の増加による限界利益の増加（毎年）",
+       "3"
+      ],
+      [
+       "統合のための費用（買収のときに1回）",
+       "10"
+      ]
+     ],
+     "note": "営業利益とシナジーは、今後毎年同額が永続するものとする（シナジーの額は税引前）。統合のための費用には、税の影響を考えない。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "(1) E社の時価純資産（時価で評価した資産から負債を差し引いた額）を求めよ（単位：百万円。(2)も同じ）。\n(2) 希望価格の200百万円でE社の全株式を取得した場合に、D社の連結財務諸表で生じる、取得の対価と時価純資産との差額を求めよ。\n(3) (2)の差額について、D社が連結財務諸表で行う会計処理を40字以内で述べよ。",
+     "fields": [
+      {
+       "k": "nav",
+       "type": "num",
+       "label": "(1) E社の時価純資産",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 160
+      },
+      {
+       "k": "gw",
+       "type": "num",
+       "label": "(2) 取得の対価と時価純資産との差額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 40
+      },
+      {
+       "k": "t1",
+       "type": "text",
+       "label": "(3) 会計処理",
+       "limit": 40,
+       "model": "のれんとして無形固定資産に計上し、20年以内の効果の及ぶ期間で規則的に償却する。",
+       "points": [
+        "差額40百万円を、のれん（無形固定資産）として連結貸借対照表に計上する",
+        "20年以内の、その効果の及ぶ期間にわたって規則的に償却する（償却額は販売費及び一般管理費）"
+       ]
+      }
+     ],
+     "steps": [
+      "時価の資産合計＝40＋60＋60＋90＋60＝310",
+      "(1) 時価純資産＝310−負債150＝160百万円（帳簿価額の純資産150に、土地の含み益＋40と植木の評価損△30を加えた額）",
+      "(2) 差額＝取得の対価200−時価純資産160＝40百万円（取得の対価の方が大きいので、のれん）"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "E社の事業のリスクに見合う割引率（WACC）は7%とする。ここでは、E社の事業のフリー・キャッシュ・フロー（FCF）を、営業利益×（1−税率）＋減価償却費−更新投資の額とする。\nFCFとシナジーは各年度末に生じるものとする。\n(1) シナジーと統合のための費用を含めた、D社にとってのE社の株式の価値（D社が支払ってよい価格の上限）を求めよ。単位は百万円とし、計算の途中では端数を処理せず、百万円未満を四捨五入して示すこと。計算過程も示すこと。\n(2) 希望価格の200百万円でE社を買収すべきかを答えよ。",
+     "fields": [
+      {
+       "k": "mx",
+       "type": "num",
+       "label": "(1) D社にとってのE社の株式の価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 210
+      },
+      {
+       "k": "p2",
+       "type": "proc",
+       "label": "(1) 計算過程"
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "(2) 希望価格での買収",
+       "opts": [
+        "買収すべきである",
+        "買収すべきでない"
+       ],
+       "ans": "買収すべきである"
+      }
+     ],
+     "steps": [
+      "E社のFCF＝27×（1−0.3）＋15−15＝18.9、E社単独の事業価値＝18.9÷7%＝270",
+      "シナジーの税引後の額＝（4＋3）×（1−0.3）＝4.9、その価値＝4.9÷7%＝70",
+      "D社にとっての事業価値＝270＋70−統合のための費用10＝330",
+      "(1) 株式の価値＝330−E社の借入金120＝210百万円（工事未払金は運転資本としてFCFに入っているので差し引かない）",
+      "(2) 希望価格200≦上限210 → 買収すべきである（ただし余裕は10百万円。シナジーがなければ株式の価値は150で、希望価格を下回る）"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "D社の社長から、買収を決める前に、この買収のリスクとその対応について助言を求められた。設問1・2の結果を踏まえ、60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t3",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "シナジーがないと価値は150百万円で希望価格を下回り、のれんの減損や借入返済の負担が生じる。簿外債務も買収前に精査する。",
+       "points": [
+        "シナジーが実現しないと、株式の価値は150百万円で希望価格を下回る（上限との差は10百万円しかない）",
+        "のれんの減損（特別損失）や、借入金の返済の負担が生じるおそれがある",
+        "デューデリジェンスで簿外債務・偶発債務や前提（職人の引継ぎ・受注）を確かめ、価格や契約の条件に反映する"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "nav": "よくある誤り：150百万円は、帳簿価額の純資産のまま（時価で評価し直していない）。190百万円は、土地の含み益だけを反映し、植木の評価損を反映していない。120百万円は、植木の評価損だけを反映した。310百万円は、負債を差し引いていない。",
+    "gw": "よくある誤り：50百万円は、帳簿価額の純資産150と比べた（連結では子会社の資産・負債を時価で評価し直してから比べる）。10百万円・80百万円は、時価の評価の一部だけを反映した。",
+    "mx": "よくある誤り：240百万円は、シナジーを税引前のまま割り引いた（シナジーで増える利益にも税がかかる）。220百万円は、統合のための費用を差し引いていない。330百万円は、E社の借入金を差し引いていない（事業価値のうち債権者の取り分）。180百万円は、工事未払金も差し引いた（運転資本はFCFに入っている）。150百万円は、シナジーを入れていない（E社単独の株式の価値）。",
+    "ch": "よくある誤り：「買収すべきでない」とする。工事未払金も差し引くと上限は180、シナジーを入れないと150となり、どちらも希望価格を下回るように見えるが、D社にとっての上限は210で、希望価格200以上である。"
+   },
+   "e": "【考え方】株式を取得して子会社にすると、連結財務諸表では、子会社の資産と負債を時価で評価し直し、取得の対価との差額をのれんとする。のれんは、時価純資産を超えて支払った、将来の収益力やシナジーへの期待の対価である。\n【設問1】時価純資産＝時価の資産310−負債150＝160（帳簿価額の純資産150に、土地の含み益＋40と植木の評価損△30を反映）。のれん＝200−160＝40。のれんは無形固定資産に計上し、20年以内のその効果の及ぶ期間にわたって規則的に償却する（償却額は連結の営業利益を減らす）。期待した収益が見込めなくなれば、減損損失を計上する。\n【設問2】E社単独の事業価値は18.9÷7%＝270で、借入金を差し引いた株式の価値は150（時価純資産160にも届かない）。D社にとっては、シナジー（税引後4.9）の価値70から統合のための費用10を差し引いた60が加わり、上限は210。希望価格200は上限以下なので買収してよいが、余裕は10しかない。\n【設問3】支払う200のうち50（＝200−150）は、シナジーへの期待に払う部分。シナジーが実現しなければ払い過ぎになり、のれんの減損や、借入金の返済の負担が生じる。簿外債務（未払いの残業代・保証債務など）や、職人の引継ぎ、自治体からの受注の見通しは、買収前の調査（デューデリジェンス）で確かめ、価格の調整や契約の条項（表明保証）で手当てする。\n【本試験での注意】令和2年度第3問は、買収で生じる純資産額と買収価格の差異についての会計処理（40字）と、買収のリスクについての助言（60字）を問うた。そのときは時価の純資産が買収価格を上回っており、その差額は負ののれんとして、生じた事業年度の利益（特別利益）に計上する。どちらも、純資産を帳簿価額でなく時価で比べるのが出発点。平成29年度第4問も、関連会社の子会社化が連結の財務指標に与える影響を問うた（子会社化すると子会社の資産と負債が連結に加わるので、負債比率や自己資本比率などが変わる）。\n【図】1つ目は時価純資産とのれんの関係。2つ目は、D社にとってのE社の株式の価値の積み上げ。3つ目は、価格の比較。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">時価純資産とのれん（単位：百万円。同じ縮尺。取得の対価が時価純資産を上回る分がのれん）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"時価純資産とのれん\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">E社の時価の貸借対照表</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"61.3\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"42.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">現金預金・</text><text x=\"41.8\" y=\"56.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">未収入金</text><text x=\"41.8\" y=\"71.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">100</text><rect x=\"1.0\" y=\"83.3\" width=\"81.5\" height=\"36.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"98.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">植木</text><text x=\"41.8\" y=\"113.7\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">60</text><rect x=\"1.0\" y=\"120.1\" width=\"81.5\" height=\"55.2\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"144.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">土地</text><text x=\"41.8\" y=\"159.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">90</text><rect x=\"1.0\" y=\"175.2\" width=\"81.5\" height=\"36.8\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"190.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">車両・重機</text><text x=\"41.8\" y=\"205.6\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">60</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"91.9\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"65.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">負債</text><text x=\"125.2\" y=\"80.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">150</text><rect x=\"84.5\" y=\"113.9\" width=\"81.5\" height=\"98.1\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"160.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">時価純資産</text><text x=\"125.2\" y=\"175.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">160</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">取得の対価の内訳</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"98.1\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"68.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">時価純資産</text><text x=\"234.8\" y=\"83.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">160</text><rect x=\"194.0\" y=\"120.1\" width=\"81.5\" height=\"24.5\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"136.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">のれん 40</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"122.6\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"80.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">取得の対価</text><text x=\"318.2\" y=\"95.3\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">200</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">D社にとってのE社の株式の価値（単位：百万円。事業価値＝FCF÷WACC。工事未払金は運転資本なので差し引かない）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 138\" role=\"img\" aria-label=\"D社にとってのE社の株式の価値（百万円）\" font-size=\"12\"><rect x=\"132.0\" y=\"9.0\" width=\"138.2\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"124\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">E社単独の事業価値</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">270</text><rect x=\"270.2\" y=\"35.0\" width=\"35.8\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"124\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">シナジーの価値</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋70</text><path d=\"M270.2 25.0L270.2 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"300.9\" y=\"61.0\" width=\"5.1\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"124\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">統合のための費用</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－10</text><path d=\"M306.0 51.0L306.0 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"239.5\" y=\"87.0\" width=\"61.4\" height=\"16\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"124\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">E社の借入金</text><text x=\"356\" y=\"99.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">－120</text><path d=\"M300.9 77.0L300.9 87.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"132.0\" y=\"113.0\" width=\"107.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"124\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">株式の価値（上限）</text><text x=\"356\" y=\"125.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">210</text><path d=\"M239.5 103.0L239.5 113.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">価格の比較（単位：百万円。シナジーがなければ、希望価格は払い過ぎになる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"価格の比較\" font-size=\"12\"><path d=\"M40 168L350 168\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40 168L40 8\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"44\" y=\"12\" font-size=\"10\" style=\"fill:currentColor\">百万円</text><rect x=\"52.4\" y=\"69.8\" width=\"52.7\" height=\"98.2\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"78.8\" y=\"65.8\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">150</text><text x=\"78.8\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">単独の</text><text x=\"78.8\" y=\"193\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">株式の価値</text><rect x=\"129.9\" y=\"63.2\" width=\"52.7\" height=\"104.8\" style=\"fill:var(--ink-3);fill-opacity:0.18;stroke:currentColor\" stroke-width=\"1\"/><text x=\"156.2\" y=\"59.2\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">160</text><text x=\"156.2\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">時価純資産</text><rect x=\"207.4\" y=\"37.0\" width=\"52.7\" height=\"131.0\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"233.8\" y=\"33.0\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">200</text><text x=\"233.8\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">希望価格</text><rect x=\"284.9\" y=\"30.5\" width=\"52.7\" height=\"137.5\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"311.2\" y=\"26.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">210</text><text x=\"311.2\" y=\"181\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">シナジーを</text><text x=\"311.2\" y=\"193\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">含む上限</text></svg>"
+  },
+  {
+   "id": "d4-value-04",
+   "cat": "value",
+   "lv": 2,
+   "min": 18,
+   "src": "H20-第3問設問2（負債の節税効果の現在価値）・第4問設問1（全額を負債に頼る場合の問題点）",
+   "title": "ゴルフ練習場：資本構成とWACC（借入れによる自己株式の取得の提案）",
+   "lead": "D社は、郊外で打席数80のゴルフ練習場を2か所営んでいる。創業以来、借入金のない経営を続けている。来場者数は天候や季節に左右され、数年後には、ネットと照明の大規模な更新が必要になる見込みである。\nD社の事業は、毎年63.7百万円のフリー・キャッシュ・フロー（FCF）を永続的に生むと見込まれ、借入れの有無によってこのFCFは変わらないものとする。D社は、取引銀行から「借入金で自己株式を取得し（相続で株式を持つことになった、経営に関わらない親族から買い取る）、資本構成を変えれば、支払利息の節税効果で資本コストが下がり、企業価値が高まる」との提案を受けた。提案には2つの案があり、現在と各案の資本構成と、取引銀行が見積もった資本コストは次のとおりである。法人税等の税率は30%とする。",
+   "tables": [
+    {
+     "cap": "現在と2つの案の資本構成と資本コスト",
+     "unit": "",
+     "head": [
+      "項目",
+      "現在",
+      "A案",
+      "B案"
+     ],
+     "rows": [
+      [
+       "有利子負債：株主資本（時価）",
+       "0：10",
+       "3：7",
+       "6：4"
+      ],
+      [
+       "負債コスト（税引前）",
+       "－",
+       "2.0%",
+       "4.0%"
+      ],
+      [
+       "株主資本コスト",
+       "7.0%",
+       "8.5%",
+       "13.0%"
+      ]
+     ],
+     "note": "B案は借入れが多いので、取引銀行は利子率を高く見積もっている。株主資本コストは、借入れが増えるほど株主の負う財務リスクが大きくなるので高くなる。"
+    }
+   ],
+   "parts": [
+    {
+     "h": "設問1",
+     "q": "A案とB案のそれぞれについて、加重平均資本コスト（WACC）を求めよ。単位は%とし、小数第3位を四捨五入して小数第2位まで示すこと。",
+     "fields": [
+      {
+       "k": "wA",
+       "type": "num",
+       "label": "A案のWACC",
+       "unit": "%",
+       "dp": 2,
+       "ans": 6.37
+      },
+      {
+       "k": "wB",
+       "type": "num",
+       "label": "B案のWACC",
+       "unit": "%",
+       "dp": 2,
+       "ans": 6.88
+      }
+     ],
+     "steps": [
+      "現在：借入金がないので、WACC＝株主資本コスト7.00%",
+      "A案：2.0%×（1−0.3）×0.3＋8.5%×0.7＝0.42%＋5.95%＝6.37%",
+      "B案：4.0%×（1−0.3）×0.6＋13.0%×0.4＝1.68%＋5.20%＝6.88%"
+     ]
+    },
+    {
+     "h": "設問2",
+     "q": "D社の企業価値（FCFの現在価値の合計）を、現在、A案、B案のそれぞれについて求めよ。割引率にはそれぞれのWACCを用い、FCFは各年度末に生じるものとする。単位は百万円とし、計算の途中では端数を処理せず、百万円未満を四捨五入して示すこと。また、企業価値が最も大きくなるのはどれかを答えよ。",
+     "fields": [
+      {
+       "k": "v0",
+       "type": "num",
+       "label": "現在の企業価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 910
+      },
+      {
+       "k": "vA",
+       "type": "num",
+       "label": "A案の企業価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 1000
+      },
+      {
+       "k": "vB",
+       "type": "num",
+       "label": "B案の企業価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 926
+      },
+      {
+       "k": "ch",
+       "type": "choice",
+       "label": "企業価値が最も大きくなるもの",
+       "opts": [
+        "現在のまま",
+        "A案",
+        "B案"
+       ],
+       "ans": "A案"
+      }
+     ],
+     "steps": [
+      "現在：63.7÷7.00%＝910百万円",
+      "A案：63.7÷6.37%＝1,000百万円",
+      "B案：63.7÷6.88%＝925.87…≒926百万円",
+      "最も大きいのはA案（現在より90増える）。B案は借入れが多いのに、A案より74小さい"
+     ]
+    },
+    {
+     "h": "設問3",
+     "q": "A案で企業価値が増える理由を確かめる。A案の有利子負債の額（A案の企業価値×有利子負債の割合）を求めよ。また、この借入れを今後も同じ額で続けるとして、支払利息による法人税等の減少額（節税効果）の現在価値を求めよ。節税効果は毎年度末に生じ、負債コスト（税引前）で割り引くものとする。単位は百万円とし、計算の途中では端数を処理せず、百万円未満を四捨五入して示すこと。",
+     "fields": [
+      {
+       "k": "dA",
+       "type": "num",
+       "label": "A案の有利子負債の額",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 300
+      },
+      {
+       "k": "ts",
+       "type": "num",
+       "label": "節税効果の現在価値",
+       "unit": "百万円",
+       "dp": 0,
+       "ans": 90
+      }
+     ],
+     "steps": [
+      "A案の有利子負債＝1,000×0.3＝300百万円",
+      "毎年の節税効果＝支払利息（300×2.0%＝6）×30%＝1.8",
+      "節税効果の現在価値＝1.8÷2.0%＝90百万円（＝有利子負債300×税率30%）",
+      "A案の企業価値の増加（1,000−910＝90）と一致する。増えた価値は節税効果によるもの"
+     ]
+    },
+    {
+     "h": "設問4",
+     "q": "B案はA案よりも借入れが多いのに、企業価値はA案より小さくなる。その理由と、D社が借入れを増やすときの留意点を、与件を踏まえて60字以内で述べよ。",
+     "fields": [
+      {
+       "k": "t4",
+       "type": "text",
+       "label": "解答",
+       "limit": 60,
+       "model": "借入れが多いと倒産の危険で資本コストが上がり、節税効果を上回る。CFが天候で変動し、設備更新も控えるので借入余力を残す。",
+       "points": [
+        "借入れが増えると財務リスク（倒産の危険）が高まり、負債コストと株主資本コストが上がる",
+        "コストの上昇が節税効果を上回ると、WACCが上がり企業価値が下がる（B案）",
+        "CFが天候・季節で変動し、設備の大規模な更新も控えるので、返済できる範囲・借入余力を残す水準にとどめる"
+       ]
+      }
+     ]
+    }
+   ],
+   "ce": {
+    "wA": "よくある誤り：6.55%は、負債コストを税引前のまま使った。5.32%は、株主資本コストを現在の7.0%のままにした（借入れが増えると株主の負う財務リスクが大きくなり、株主資本コストは8.5%に上がる）。",
+    "wB": "よくある誤り：7.60%は、負債コストを税引前のまま使った。4.48%は、株主資本コストを現在の7.0%のままにした。6.04%は、負債コストをA案の2.0%のままにした（B案の負債コストは4.0%）。",
+    "v0": "よくある誤り：637百万円は、FCF（税引後の値）にもう一度（1−0.3）を掛けた。",
+    "vA": "よくある誤り：973百万円は、税引前の負債コストのWACC（6.55%）で割った。1,197百万円は、株主資本コストが上がらないとしたWACC（5.32%）で割った。",
+    "vB": "よくある誤り：838百万円は、税引前の負債コストのWACC（7.60%）で割った。1,422百万円は、株主資本コストが上がらないとしたWACC（4.48%）で割り、借入れを増やすほど企業価値が上がるという誤った結論になる。",
+    "ch": "よくある誤り：B案とする。借入れを増やすほど節税効果は大きくなるが、B案では負債コスト（4.0%）と株主資本コスト（13.0%）が大きく上がり、WACCは6.88%でA案の6.37%より高い。",
+    "ts": "よくある誤り：2百万円は、1年分の節税額1.8だけ。28百万円は、WACC（6.37%）で割り引いた（問題文の指示は負債コスト）。6百万円は、支払利息の額そのもので、税率を掛けていない。"
+   },
+   "e": "【考え方】借入金の支払利息は損金になり、法人税等が減る（節税効果）。このため、借入れを増やすとWACCは下がり、企業価値は節税効果の分だけ高まる。ただし、借入れが増えると株主の負う財務リスクが大きくなって株主資本コストが上がり、さらに増やすと倒産の危険から負債コストも上がる。\n【設問1・2】A案はWACCが7.00%→6.37%に下がり、企業価値は910→1,000に増える。B案はWACCが6.88%で、A案より高く、企業価値は926にとどまる。株主資本コストが上がらないと考えると、B案の企業価値は1,422と大きく見え、判断を誤る。\n【設問3】A案の有利子負債300の支払利息6による節税は毎年1.8で、借入れを続けるとその現在価値は1.8÷2.0%＝90（＝有利子負債×税率）。企業価値の増加90と一致し、A案で増えた価値は節税効果によるものと分かる。\n【設問4】B案では、借入れの増加による負債コストと株主資本コストの上昇が節税効果を上回り、WACCが上がる。D社は、天候や季節で来場者数が変わりCFが安定しないうえ、設備の大規模な更新を控えるので、返済の負担と借入余力を考えて借入れの水準を決める。なお、自己株式の取得には、会社法の分配可能額の範囲内という制約もある。\n【本試験での注意】平成20年度は、設備資金を全額借入れで調達した場合の負債の節税効果の現在価値（第3問設問2）と、設備更新の資金を全額負債に頼る場合の問題点（第4問設問1・60字）を問うた。そのときの借入金は3年後と6年後に半額ずつ返済する予定で、各年度の支払利息×税率を年度ごとに割り引いて合計する形だった（有利子負債×税率で求められるのは、本問のように同じ額の借入れを続け、負債コストで割り引く場合だけ）。また「最大額」として問うている。節税効果は、支払利息を差し引ける課税所得があるときに得られ、赤字の年度があれば小さくなる。借入れを増やすとROE（自己資本利益率）が上下に振れやすくなる財務レバレッジの効果は、財務リスクと資金調達の分野で練習する。\n【図】1つ目は有利子負債の割合とWACCの関係（下がってから上がる）。2つ目は資本構成とWACC・企業価値。3つ目は、A案で増える企業価値が節税効果の現在価値と一致すること。",
+   "x": "<div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">有利子負債の割合とWACC（借入れを増やすとWACCは下がるが、増やし過ぎると上がる）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"有利子負債の割合とWACC\" font-size=\"12\"><path d=\"M40.0 180.0L40.0 10\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 180.0L350.0 180.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"45.0\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">WACC（%）</text><text x=\"348.0\" y=\"212.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">有利子負債の割合（時価。%）</text><text x=\"40.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">0</text><text x=\"84.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><text x=\"128.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">20</text><text x=\"172.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">30</text><text x=\"216.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">40</text><text x=\"260.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">50</text><text x=\"304.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">60</text><text x=\"348.0\" y=\"194.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">70</text><text x=\"36.0\" y=\"184.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">6.0</text><text x=\"36.0\" y=\"136.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">6.4</text><text x=\"36.0\" y=\"88.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">6.8</text><text x=\"36.0\" y=\"40.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">7.2</text><path d=\"M40.0 60.0 L172.0 135.6 L304.0 74.4\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"40.0\" cy=\"60.0\" r=\"3.4\" style=\"fill:currentColor\"/><circle cx=\"172.0\" cy=\"135.6\" r=\"3.4\" style=\"fill:var(--good)\"/><circle cx=\"304.0\" cy=\"74.4\" r=\"3.4\" style=\"fill:var(--drop)\"/><text x=\"48.8\" y=\"50.4\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">現在 7.00%</text><text x=\"172.0\" y=\"151.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">A案 6.37%</text><text x=\"304.0\" y=\"64.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">B案 6.88%</text></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">資本構成とWACC・企業価値（単位：百万円。企業価値＝毎年のFCF63.7÷WACC）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 156\" role=\"img\" aria-label=\"資本構成とWACC・企業価値\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.9\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"60.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\"></text><text x=\"160.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">現在</text><text x=\"240.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">A案</text><text x=\"320.0\" y=\"15.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">B案</text><text x=\"6\" y=\"39.5\" font-size=\"11.5\" style=\"fill:currentColor\">負債の割合</text><text x=\"194\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">0%</text><text x=\"274\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">30%</text><text x=\"354\" y=\"39.5\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">60%</text><path d=\"M1 46.8L359 46.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"62.4\" font-size=\"11.5\" style=\"fill:currentColor\">負債コスト</text><text x=\"6\" y=\"78.3\" font-size=\"11.5\" style=\"fill:currentColor\">（税引後）</text><text x=\"194\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">－</text><text x=\"274\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1.40%</text><text x=\"354\" y=\"70.3\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">2.80%</text><path d=\"M1 85.6L359 85.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"101.2\" font-size=\"11.5\" style=\"fill:currentColor\">株主資本コスト</text><text x=\"194\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">7.0%</text><text x=\"274\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">8.5%</text><text x=\"354\" y=\"101.2\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">13.0%</text><rect x=\"1\" y=\"108.5\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 108.5L359 108.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.1\" font-size=\"11.5\" style=\"fill:currentColor\">WACC</text><text x=\"194\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">7.00%</text><text x=\"274\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.37%</text><text x=\"354\" y=\"124.1\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">6.88%</text><rect x=\"1\" y=\"131.4\" width=\"358\" height=\"22.9\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.0\" font-size=\"11.5\" style=\"fill:currentColor\">企業価値</text><text x=\"194\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">910</text><text x=\"274\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">1,000</text><text x=\"354\" y=\"147.0\" text-anchor=\"end\" font-size=\"11.5\" style=\"fill:currentColor\">926</text><path d=\"M1 23.9L359 23.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M120 0L120 153.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M200 0L200 153.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M280 0L280 153.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"153.3\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg><div style=\"height:12px\"></div><div style=\"font-size:12.5px;font-weight:700;color:var(--ink-2);margin:0 2px 6px;line-height:1.5\">A案で増える企業価値（単位：百万円。増加額は、借入金の支払利息の節税効果の現在価値に等しい）</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 86\" role=\"img\" aria-label=\"A案で増える企業価値（百万円）\" font-size=\"12\"><rect x=\"150.0\" y=\"9.0\" width=\"136.5\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">現在の企業価値</text><text x=\"356\" y=\"21.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">910</text><rect x=\"286.5\" y=\"35.0\" width=\"13.5\" height=\"16\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"142\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">借入金300の節税効果</text><text x=\"356\" y=\"47.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋90</text><path d=\"M286.5 25.0L286.5 35.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/><rect x=\"150.0\" y=\"61.0\" width=\"150.0\" height=\"16\" style=\"fill:var(--ink-3);fill-opacity:0.22;stroke:var(--ink-3)\" stroke-width=\"1\"/><text x=\"142\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">A案の企業価値</text><text x=\"356\" y=\"73.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">1,000</text><path d=\"M300.0 51.0L300.0 61.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\" fill=\"none\"/></svg>"
+  },
+  {
    "id": "d4-cost-01",
    "cat": "cost",
    "lv": 2,
