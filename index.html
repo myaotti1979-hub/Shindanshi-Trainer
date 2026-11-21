@@ -474,6 +474,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .d4-row input{width:9.5em;flex:none}
 .d4-row select{width:auto;max-width:100%;flex:1 1 12em}
 .d4-u{font-size:13px;color:var(--ink-2);font-weight:700;min-width:1em}
+.d4-pm{font:inherit;font-size:15px;font-weight:700;min-width:36px;min-height:36px;border-radius:8px;border:1.5px solid var(--guide);background:var(--paper);color:var(--ink-2);cursor:pointer}
 .d4-mk{font-size:13px;font-weight:700;flex-basis:100%}
 .d4-mk.ok{color:var(--good)}
 .d4-mk.ng{color:var(--bad)}
@@ -515,7 +516,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v49';   // sw.js の VER と同じ値にする
+var APP_VER='v50';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1656,7 +1657,9 @@ function d4Field(p,f,v,chk){
   var k=f.k,id=' data-d4="'+esc(p.id)+'" data-k="',h='<div class="field d4-f">';
   function mk(ok,ng){return chk?'<span class="d4-mk '+(ok?'ok':'ng')+'">'+(ok?'○ 正解':'× '+esc(ng))+'</span>':'';}
   if(f.type==='num'){
-    h+='<span>'+esc(f.label)+'</span><div class="d4-row"><input type="text" inputmode="decimal" autocomplete="off"'+id+esc(k)+'" value="'+esc(v[k]||'')+'" aria-label="'+esc(f.label)+'"><span class="d4-u">'+esc(f.unit||'')+'</span>'+mk(chk&&chk[k],'正解は '+d4Fmt(f.ans,f.dp)+(f.unit||''))+'</div>';
+    h+='<span>'+esc(f.label)+'</span><div class="d4-row"><input type="text" inputmode="decimal" autocomplete="off"'+id+esc(k)+'" value="'+esc(v[k]||'')+'" aria-label="'+esc(f.label)+'">'
+      +'<button class="d4-pm" type="button" data-act="d4-pm" data-d4p="'+esc(p.id)+'" data-k="'+esc(k)+'" aria-label="符号（マイナス）を付ける・外す">±</button>'   // スマホの数字キーに「−」がないとき用
+      +'<span class="d4-u">'+esc(f.unit||'')+'</span>'+mk(chk&&chk[k],'正解は '+d4Fmt(f.ans,f.dp)+(f.unit||''))+'</div>';
   } else if(f.type==='ind'){
     var nm=v[k+'_n']||'',inds=(DATA2.j4&&DATA2.j4.inds)||[];
     h+='<span>'+esc(f.label)+'</span><div class="d4-row"><select'+id+esc(k)+'_n" aria-label="'+esc(f.label)+'の指標"><option value="">指標を選ぶ</option>'+inds.map(function(n){return '<option'+(n===nm?' selected':'')+'>'+esc(n)+'</option>';}).join('')+'</select>'
@@ -1903,6 +1906,11 @@ document.addEventListener('click',function(ev){
       dr4.chk={at:now4,res:res4};dr4.at=now4;
       ST2.log[uid('d4')]={k:'d4',p:dp4.id,at:now4,ok:ks4.filter(function(x){return res4[x];}).length,n:ks4.length,sec:UI.d4sec};
       UI.d4chk=true;save2();render();break;
+    }
+    case 'd4-pm':{   // 数値の欄の符号を付け外しする（入力の保存は input の処理に任せる）
+      var pin=document.querySelector('[data-d4="'+b.dataset.d4p+'"][data-k="'+b.dataset.k+'"]');if(!pin)break;
+      var pv=pin.value.trim();pin.value=/^[-−－▲△]/.test(pv)?pv.replace(/^[-−－▲△]\s*/,''):'-'+pv;
+      pin.dispatchEvent(new Event('input',{bubbles:true}));break;
     }
     case 'd4-reset':{
       var rp4=j4List(UI.j4cat)[UI.j4i];if(!rp4)break;
