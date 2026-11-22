@@ -1,0 +1,378 @@
+{
+ "id": "k2-r03-3",
+ "y": 3,
+ "j": 3,
+ "theme": "革製バッグの受託と自社ブランド：工程の効率化・開発・直営店",
+ "gist": [
+  "革製バッグの製造販売、50名（製造40名）",
+  "X社の下請から一貫受託へ、海外委託で減産",
+  "4社10アイテムを受託、量は多いが低価格中心",
+  "デザイン部門を新設、雑誌で手作りの高級品に注目",
+  "小売店とネット販売、25アイテムで売上の約2割",
+  "天然なめし革の高級品を熟練職人が作り、修理も行う",
+  "社長は直営店を検討、企画経験に不安、製造に懸念",
+  "月1回の計画が、受注の変動と特急品で月内に変更",
+  "受託品は小ロット化、多めのロットで作り在庫",
+  "自社品は予測で見込生産、欠品と過剰在庫",
+  "5工程、裁断は型で抜き最も機械化",
+  "裁断リーダーが資材を発注、欠品で計画変更",
+  "縫製に熟練6名、修理も担い負荷が最大",
+  "仕上げも手作業、熟練職人が高齢化し退職予定",
+  "若手は細分化した分担、検品で手直し"
+ ],
+ "lesson": [
+  "C社には2つの生産の形がある：受託品は受注生産、自社ブランド品は見込生産。第2問は受託品だけ、第3・4問は自社ブランド品。小ロット化と多めの生産は受託品、欠品と過剰在庫は自社品の話として分けて使う。",
+  "第2問は (a) 課題2つ（各20字）と (b) 対応策（各80字）を1対1の対にする。課題は「〜化」「〜すること」の形で、計画（管理）と作業（現場）のように切り口を分ける。",
+  "第3問は「課題」だけを問う（対応策の形で書かない）。製品企画面と生産面の両方をそろえ、社長の不安（企画開発の経験）と懸念（製造部門）を、与件の生産の現状で具体にする。",
+  "第4問は二択。選ぶ理由をC社の経営資源（評価された手作り感、熟練職人）と直営店の客層から示し、選んだ方向の弱点（Aなら熟練職人の人数と高齢化）への社内の対応を書く。第2・3問の答えとつなげる。"
+ ],
+ "qs": [
+  {
+   "k": "q1",
+   "h": "第1問",
+   "dai": 1,
+   "pts": 20,
+   "ask": "革製バッグの業界の中での、C社の強みと弱み。欄は別々で各40字以内。配点は第1問で20点（欄ごとの内訳は示されていない）。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "(a) 強み",
+     "limit": 40
+    },
+    {
+     "k": "b",
+     "label": "(b) 弱み",
+     "limit": 40
+    }
+   ],
+   "model": {
+    "a": "熟練職人の手縫いで手作り感ある高級品を作る技術と、完成品まで一貫受託できる体制。",
+    "b": "受託は低価格品中心で、企画開発の経験が少なく、熟練職人の技能承継が進まない点。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "熟練職人の手縫いによる高級品の技術",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "完成品まで一貫して受託できる体制",
+     "w": 5
+    },
+    {
+     "f": "b",
+     "t": "受託は低価格品が中心",
+     "w": 4
+    },
+    {
+     "f": "b",
+     "t": "企画開発の経験が少ない",
+     "w": 3
+    },
+    {
+     "f": "b",
+     "t": "熟練職人の技能承継が進まない",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     2,
+     "X社の縫製の一部の下請から始め、加工の工程と技術を広げて、X社のデザイン品を完成品になるまで一貫で受託できるようになった"
+    ],
+    [
+     3,
+     "今の受託先はメーカー4社、品目は合わせて10アイテム。受注の量は多いが、主に低価格品"
+    ],
+    [
+     4,
+     "雑誌の特集で、手作りの風合いを持つ高級な仕様が評判を呼び、高価格でも生産能力を超える注文を受けた"
+    ],
+    [
+     6,
+     "天然のなめし革を素材に、熟練職人が縫製と仕上げを手がける高級品。修理も行う"
+    ],
+    [
+     7,
+     "製品デザイン部門は、新製品を企画・開発した経験が少なく、社長は不安に思っている"
+    ],
+    [
+     13,
+     "自社品は1人の熟練職人が製品ごとに、ほとんど手縫いで作る"
+    ],
+    [
+     14,
+     "縫製と仕上げの熟練職人が高齢化し、今後退職する予定"
+    ],
+    [
+     15,
+     "若手は細かく分けた作業の分担で、1人で製品にするための全体の技術が身についていない"
+    ]
+   ],
+   "shushi": "事業の内容をもとに、革製バッグの業界でのC社の強み・弱みを分析する力をみる。",
+   "e": "・**題意**：革製バッグの業界の中での、C社の強みと弱み。欄は別々で各40字（出題の趣旨も、事業の内容をつかんで業界の中での強み・弱みを分析すること）。時点の指定はない。配点は大問で20点（欄ごとは示されていない。各10点は目安）。\n・**組み立て**：強み＝技術（熟練職人の手縫いによる高級品）＋生産の範囲（下請から広げた、完成品までの一貫受託）。受託と自社ブランドの両方の事業から1つずつ。弱み＝事業（低価格の受託品が中心）＋企画（デザイン部門の経験が少ない）＋人（熟練職人の技能が若手に受け継がれていない）。多くは第2〜4問の根拠にもなる。\n**強み・弱みの候補と与件の根拠**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 437\" role=\"img\" aria-label=\"強み・弱みの候補と与件の根拠\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">候補</text><text x=\"193.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の根拠（要約）</text><text x=\"330.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">答え</text><text x=\"6\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">手縫いの</text><text x=\"6\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">高級品</text><text x=\"92\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">天然のなめし革を熟練職人がほぼ</text><text x=\"92\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">手縫いで仕上げる。雑誌の特集で</text><text x=\"92\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">「手作り感のある高級仕様」</text><text x=\"92\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">が評判を呼び、</text><text x=\"92\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">高価格でも能力を超える注文が来た</text><text x=\"330.0\" y=\"68.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 106.2L359 106.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">一貫受託</text><text x=\"92\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">縫製の一部の下請から、加工の</text><text x=\"92\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">範囲と技術を広げて完成品まで受託。</text><text x=\"92\" y=\"151.7\" font-size=\"11\" style=\"fill:currentColor\">今はメーカー4社から10アイテム</text><text x=\"330.0\" y=\"136.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">強み</text><path d=\"M1 158.8L359 158.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"181.5\" font-size=\"11\" style=\"fill:currentColor\">修理の対応</text><text x=\"92\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">愛着を持って長く使えるバッグを</text><text x=\"92\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">企画の基本にし、自社品の修理も行う</text><text x=\"330.0\" y=\"181.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 196.2L359 196.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">ネット販売</text><text x=\"92\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">自社サイトの販売が自社品の売り方の</text><text x=\"92\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">中心。その情報を新製品の企画に使う</text><text x=\"330.0\" y=\"218.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">低価格の受託</text><text x=\"92\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">受託は量が多いが、低価格品が中心</text><text x=\"330.0\" y=\"248.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 255.8L359 255.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">企画開発の</text><text x=\"6\" y=\"286.1\" font-size=\"11\" style=\"fill:currentColor\">経験</text><text x=\"92\" y=\"270.9\" font-size=\"11\" style=\"fill:currentColor\">デザイン部門は、新製品を企画・</text><text x=\"92\" y=\"286.1\" font-size=\"11\" style=\"fill:currentColor\">開発した経験が少ない（社長の不安）</text><text x=\"330.0\" y=\"278.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 293.2L359 293.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"323.5\" font-size=\"11\" style=\"fill:currentColor\">技能の承継</text><text x=\"92\" y=\"308.3\" font-size=\"11\" style=\"fill:currentColor\">熟練職人が高齢化し退職の予定。</text><text x=\"92\" y=\"323.5\" font-size=\"11\" style=\"fill:currentColor\">若手は細かく分けた作業だけで、</text><text x=\"92\" y=\"338.7\" font-size=\"11\" style=\"fill:currentColor\">1人で製品にする技術がない</text><text x=\"330.0\" y=\"323.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">弱み</text><path d=\"M1 345.8L359 345.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"368.5\" font-size=\"11\" style=\"fill:currentColor\">生産管理</text><text x=\"92\" y=\"360.9\" font-size=\"11\" style=\"fill:currentColor\">計画が月内に何度も変わる。</text><text x=\"92\" y=\"376.1\" font-size=\"11\" style=\"fill:currentColor\">自社品で欠品と過剰在庫</text><text x=\"330.0\" y=\"368.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え</text><path d=\"M1 383.2L359 383.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"413.5\" font-size=\"11\" style=\"fill:currentColor\">海外への委託</text><text x=\"92\" y=\"398.3\" font-size=\"11\" style=\"fill:currentColor\">X社がコストを下げるため</text><text x=\"92\" y=\"413.5\" font-size=\"11\" style=\"fill:currentColor\">東南アジアの企業に生産を移し、</text><text x=\"92\" y=\"428.7\" font-size=\"11\" style=\"fill:currentColor\">C社の生産量が減った</text><text x=\"330.0\" y=\"413.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">脅威</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 434.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M300 0L300 434.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"434.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】答えに入れたもの、字数の都合で外したもの（別の答え）、外部の変化（脅威）に分けた。\n・**別の答え方**：強みに「長く使えるバッグというコンセプトと、自社品の修理まで手がける体制」「ネット販売が中心の自社の販路と、その情報を企画に使う仕組み」「4社から10アイテムを受ける取引の基盤」。弱みに「自社ブランド品は売上の約2割で、小売店との取引も少量」「計画が月内に何度も変わり、見込生産で欠品と過剰在庫が出る生産管理」。\n【ひっかけ注意】X社が東南アジアへ生産を移したのは外部の変化（脅威）で、C社の弱みではない。雑誌の特集で注文が集まったのは過去の出来事なので、強みは「手縫いで高級品を作る技術」のように、C社の内部の力の形で書く。熟練職人の技術を強みに、その承継の遅れを弱みに書くのは食い違いではない（今の力と、これからの危うさ）。\n【2次】j3.over.company|与件のC社の姿と生産の形\n【1次】kigyo.1.1.5|内部環境分析（VRIO）"
+  },
+  {
+   "k": "q2",
+   "h": "第2問",
+   "dai": 2,
+   "pts": 30,
+   "ask": "バッグメーカーから受託して作る製品について、製造工程の効率化に要る課題を2つ（(a) 各20字以内）と、課題ごとの対応策（(b) 各80字以内）の助言。配点は第2問で計30点（4つの欄ごとの内訳は示されていない）。",
+   "fields": [
+    {
+     "k": "a1",
+     "label": "(a) 課題①",
+     "limit": 20
+    },
+    {
+     "k": "a2",
+     "label": "(a) 課題②",
+     "limit": 20
+    },
+    {
+     "k": "b1",
+     "label": "(b) 課題①の対応策",
+     "limit": 80
+    },
+    {
+     "k": "b2",
+     "label": "(b) 課題②の対応策",
+     "limit": 80
+    }
+   ],
+   "model": {
+    "a1": "生産計画の短サイクル化とロット適正化",
+    "a2": "熟練に頼る縫製・仕上げの標準化と多能工化",
+    "b1": "月1回の計画を週次にし、受注の変動や特急品を週ごとに反映する。ロットを受注量に合わせ、長納期の資材は先行手配する。これにより計画変更と作りすぎの在庫を減らす。",
+    "b2": "受託品の全体縫製と仕上げの手順を標準書にし、若手をOJTで多能工化する。これにより負荷が最大の縫製の能力を高め、熟練職人が自社品に移っても滞らず、手直しも減る。"
+   },
+   "points": [
+    {
+     "f": "a1",
+     "t": "生産計画の短サイクル化とロット適正化",
+     "w": 4
+    },
+    {
+     "f": "a2",
+     "t": "縫製・仕上げの標準化と多能工化",
+     "w": 4
+    },
+    {
+     "f": "b1",
+     "t": "週次の計画で変動・特急品を反映",
+     "w": 5
+    },
+    {
+     "f": "b1",
+     "t": "ロットを受注量に合わせる",
+     "w": 3
+    },
+    {
+     "f": "b1",
+     "t": "長納期の資材を先行手配する",
+     "w": 3
+    },
+    {
+     "f": "b2",
+     "t": "全体縫製と仕上げの手順を標準書に",
+     "w": 4
+    },
+    {
+     "f": "b2",
+     "t": "若手をOJTで多能工化する",
+     "w": 4
+    },
+    {
+     "f": "b2",
+     "t": "縫製の能力を高め滞りと手直しを減らす",
+     "w": 3
+    }
+   ],
+   "basis": [
+    [
+     3,
+     "受託はメーカー4社の10アイテム。受注の量は多いが、主に低価格品"
+    ],
+    [
+     8,
+     "生産管理担当者が3つの販路の注文と修理の受付を兼ね、製造と修理の計画を月1回作り、月末の会議で工程ごとのリーダーに知らせる。受注内容の変動や特急品で、月の途中でもそのつど変わる"
+    ],
+    [
+     9,
+     "1回の受注量は年々小さくなる。繰り返しの受注を見込み、受注の量を上回るロットで計画して、納めた残りは在庫にする"
+    ],
+    [
+     12,
+     "裁断のリーダーが計画をもとに資材を発注・管理。届くまで1か月を超える資材があり、欠品すると計画を変える"
+    ],
+    [
+     13,
+     "全体縫製は部分縫製より熟練が要る。自社品の計画が入ると、熟練職人は受託品から自社品の作業へ移る。割当はリーダーが熟練度で決める。修理も受け持ち、負荷が最も大きい"
+    ],
+    [
+     14,
+     "仕上げも手作業が多く熟練が要る。縫製・仕上げの熟練職人は高齢化し、退職の予定"
+    ],
+    [
+     15,
+     "若手は細かく分けた作業を受け持ち、全体の技術が身についていない。出来栄えのばらつきは検品で手直し"
+    ]
+   ],
+   "shushi": "受託品を受注生産する工程について、効率化に要る課題を整理し、対応策を助言する力をみる。",
+   "e": "・**題意**：受託品（受注生産）の製造工程の効率化。(a) 課題を2つ（各20字）と、(b) 課題ごとの対応策（各80字）。受託品は量が多いが低価格品が中心で、受注の小ロット化も進む（効率化が要る背景）。自社ブランド品（見込生産）の話は第3・4問。出題の趣旨も、効率化に要る課題の整理と、対応策の助言。配点は大問で30点（4つの欄ごとは示されていない。観点の配分は目安）。\n・**組み立て**：受託品の流れ（受注 → 月1回の計画 → 資材 → 裁断 → 縫製 → 仕上げ → 検品）の上で、停滞とムダが出る所を拾い、管理（計画）と現場（作業）の2つに分ける。①計画は月1回で、受注内容の変動・特急品・資材の欠品で月内に変わる。受注が小ロット化しているのに多めに作って在庫にする → 計画を週次に短くし、ロットを受注に合わせ、長納期の資材を先に手配する。②縫製は社内で最も負荷が大きく時間のかかる工程（ボトルネック）。全体縫製と仕上げは熟練が要るのに、熟練職人は自社品の計画が入ると受託品から離れる。若手は細かく分けた作業だけで、出来栄えのばらつきを検品で手直し → 手順を標準化し、若手を多能工化して縫製の能力を高める。\n**受託品の工程と課題**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 369\" role=\"img\" aria-label=\"受託品の工程と課題\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"37.4\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">受託品の</text><text x=\"35.0\" y=\"30.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">流れ</text><text x=\"181.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の今の姿</text><text x=\"326.0\" y=\"22.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課題</text><text x=\"6\" y=\"76.3\" font-size=\"11\" style=\"fill:currentColor\">受注・計画</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">生産管理担当者が受付を兼ね、</text><text x=\"76\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">月1回の計画を作って月末の</text><text x=\"76\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">会議で伝える。受注内容の変動と</text><text x=\"76\" y=\"99.1\" font-size=\"11\" style=\"fill:currentColor\">特急品で月内に何度も変わる</text><text x=\"326.0\" y=\"76.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">①計画</text><path d=\"M1 106.2L359 106.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">ロット</text><text x=\"76\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">1回の受注量は年々小さい。繰り返しを</text><text x=\"76\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">見込んで多めに作り、納めた残りは在庫</text><text x=\"326.0\" y=\"128.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">①計画</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">資材</text><text x=\"76\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">裁断のリーダーが計画をもとに発注。</text><text x=\"76\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">届くまで1か月を超える資材があり、</text><text x=\"76\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">欠品で計画を変える</text><text x=\"326.0\" y=\"173.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">①計画</text><path d=\"M1 196.2L359 196.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">裁断</text><text x=\"76\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">型で抜く。社内で最も機械化</text><text x=\"76\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">（問題の記述はない）</text><text x=\"326.0\" y=\"218.9\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">―</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">縫製</text><text x=\"76\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">全体縫製は熟練が要る。自社品の計画が</text><text x=\"76\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">入ると熟練職人は受託品から移る。</text><text x=\"76\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">修理も受け持ち、負荷が最大</text><text x=\"326.0\" y=\"263.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">②作業</text><path d=\"M1 286.2L359 286.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"301.3\" font-size=\"11\" style=\"fill:currentColor\">仕上げ</text><text x=\"76\" y=\"301.3\" font-size=\"11\" style=\"fill:currentColor\">手作業が多く、熟練が要る</text><text x=\"326.0\" y=\"301.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">②作業</text><path d=\"M1 308.4L359 308.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"331.1\" font-size=\"11\" style=\"fill:currentColor\">人</text><text x=\"76\" y=\"323.5\" font-size=\"11\" style=\"fill:currentColor\">熟練職人は高齢化し退職の予定。</text><text x=\"76\" y=\"338.7\" font-size=\"11\" style=\"fill:currentColor\">若手は細かく分けた作業だけ</text><text x=\"326.0\" y=\"331.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">②作業</text><path d=\"M1 345.8L359 345.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"360.9\" font-size=\"11\" style=\"fill:currentColor\">検品</text><text x=\"76\" y=\"360.9\" font-size=\"11\" style=\"fill:currentColor\">出来栄えのばらつきを手直しする</text><text x=\"326.0\" y=\"360.9\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">②作業</text><path d=\"M1 38.4L359 38.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 367.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M292 0L292 367.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"367.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】右の列は、解答例の課題①（計画）と課題②（作業）のどちらの根拠か。課題と対応策は同じ番号どうしで対にする。\n・**別の答え方**：「生産管理担当者が受付の窓口（3つの販路と修理）と計画を兼ねる → 受付を分け、計画と資材の手配に専念させる（資材の発注と在庫の管理は今は裁断のリーダー）」「縫製が受け持つ自社品の修理を専任の担当に分けるか、受託品の負荷が小さい時期に回す（修理の計画は今も生産管理担当者が立てている）」。ロットを受注量に合わせる策は、多めのロットが段取りの回数を減らす面もあるので割れうる（与件に段取りの記述はない）。ただ、多めに作った分も負荷が最大の縫製を通るので、受注に合わせれば縫製の時間を注文のある品に回せる。\n【ひっかけ注意】課題 (a) は「〜化」「〜すること」の形にし、問題点（「計画が変わる」）のまま書かない。課題①の対応策に②の話を混ぜない。自社品の欠品と過剰在庫は見込生産の話で、受託品の第2問では使わない（第3問の生産面）。\n【2次】j3.prod.plan|生産計画と生産統制\n【2次】j3.prod.skill|作業の標準化と技能の継承\n【2次】j3.prod.flow|ボトルネック・段取りと納期\n【2次】j3.link.material|資材・在庫・外注と原価\n【1次】unei.1.2.9|スケジューリング（日程計画・PERT・負荷計画）\n【1次】unei.1.3.1|作業管理（標準作業・標準時間・多能工化）"
+  },
+  {
+   "k": "q3",
+   "h": "第3問",
+   "dai": 3,
+   "pts": 20,
+   "ask": "設問文の前提：社長は、自社ブランドの製品の開発を強めることを検討している（設問はこれを計画と呼ぶ）。その計画の実現に必要な課題を、製品企画面と生産面の両方から。問うのは課題（対応策ではない）。120字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "課題",
+     "limit": 120
+    }
+   ],
+   "model": {
+    "a": "企画面は、①経験の少ないデザイン部門の企画開発力を高めること、②ネット販売の情報で顧客の要望を企画に生かすこと。生産面は、①熟練職人の技能を若手に承継し受託品と両立する生産能力を確保すること、②受注予測の精度を高め欠品と過剰在庫を防ぐこと。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "経験の少ない企画開発力を高める",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "ネット販売の情報を企画に生かす",
+     "w": 5
+    },
+    {
+     "f": "a",
+     "t": "技能を若手に承継し生産能力を確保",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "予測の精度を高め欠品と過剰在庫を防ぐ",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     5,
+     "自社品はネット販売が中心で、売上の約2割。収益に貢献"
+    ],
+    [
+     6,
+     "愛着を持って長く使えることが企画・開発の基本。修理も行い、新製品の企画にネット販売の情報などを使う"
+    ],
+    [
+     7,
+     "デザイン部門は、新製品を企画・開発した経験が少なく、社長は不安。製造部門の対応にも懸念"
+    ],
+    [
+     10,
+     "自社品は受注予測で見込生産し、注文に在庫から引き当てる。欠品と過剰在庫が出ることがある"
+    ],
+    [
+     13,
+     "自社品は1人の熟練職人が製品ごとに、ほとんど手縫いで縫製から仕上げまで担う。計画が入ると受託品から移る。縫製は修理も受け持つ"
+    ],
+    [
+     14,
+     "縫製と仕上げの熟練職人が高齢化し、退職の予定"
+    ],
+    [
+     15,
+     "若手は1人で製品にする技術が身についていない"
+    ]
+   ],
+   "shushi": "自社ブランド製品の開発を強める計画の実現に向け、製品企画面と生産面から課題を助言する力をみる。",
+   "e": "・**題意**：社長が検討する自社ブランド製品の開発の強化（設問文の前提。設問はこれを計画と呼ぶ）を実現するための課題を、製品企画面と生産面の両方で120字。問うのは課題で、対応策ではない。出題の趣旨も、企画面と生産面の課題。\n・**組み立て**：社長の不安と懸念（与件）を2つの面に分け、今の姿から課題を立てる。企画面：デザイン部門は企画・開発の経験が少ない → 企画開発力を高める。新製品の企画にネット販売の情報を使っている → 顧客の要望を企画に生かす。生産面：自社品は熟練職人が1人で手縫いで作り、熟練職人は高齢化して退職の予定、若手は全体の技術がない。自社品の計画が入ると受託品から人が移る → 技能の承継と、受託品と両立する生産能力。見込生産で欠品と過剰在庫 → 受注予測の精度。\n**企画面と生産面の今の姿と課題**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 272\" role=\"img\" aria-label=\"企画面と生産面の今の姿と課題\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"26.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">面</text><text x=\"150.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">与件の今の姿</text><text x=\"304.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">課題（解答例）</text><text x=\"26.0\" y=\"53.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">企画面</text><text x=\"58\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">デザイン部門は、新製品を企画・</text><text x=\"58\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">開発した経験が少ない</text><text x=\"58\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">（社長の不安）</text><text x=\"254\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">企画開発力を高める</text><path d=\"M1 75.8L359 75.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"106.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">企画面</text><text x=\"58\" y=\"90.9\" font-size=\"11\" style=\"fill:currentColor\">新製品の企画にネット販売の</text><text x=\"58\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">情報などを使う。愛着を持って</text><text x=\"58\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">長く使えるバッグが企画の基本</text><text x=\"254\" y=\"98.5\" font-size=\"11\" style=\"fill:currentColor\">顧客の要望を</text><text x=\"254\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">企画に生かす</text><path d=\"M1 128.4L359 128.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"158.7\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">生産面</text><text x=\"58\" y=\"143.5\" font-size=\"11\" style=\"fill:currentColor\">自社品は熟練職人が1人でほぼ</text><text x=\"58\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">手縫い。熟練職人は高齢化し退職の</text><text x=\"58\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">予定、若手は1人で製品にできない</text><text x=\"254\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">技能の承継</text><path d=\"M1 181.0L359 181.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"211.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">生産面</text><text x=\"58\" y=\"196.1\" font-size=\"11\" style=\"fill:currentColor\">自社品の計画が入ると</text><text x=\"58\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">熟練職人が受託品から移る。</text><text x=\"58\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">縫製は修理も受け持ち、負荷が最大</text><text x=\"254\" y=\"203.7\" font-size=\"11\" style=\"fill:currentColor\">受託品と</text><text x=\"254\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">両立する能力</text><path d=\"M1 233.6L359 233.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"26.0\" y=\"256.3\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">生産面</text><text x=\"58\" y=\"248.7\" font-size=\"11\" style=\"fill:currentColor\">受注予測で見込生産し、</text><text x=\"58\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">欠品と過剰在庫が出る</text><text x=\"254\" y=\"256.3\" font-size=\"11\" style=\"fill:currentColor\">予測の精度</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M52 0L52 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M248 0L248 270.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"270.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】上の2行が企画面、下の3行が生産面。解答例は各面2つにまとめた（生産面の上の2行を1つの課題にした）。\n・**別の答え方**：企画面に「愛着を持って長く使えるというコンセプトに沿った製品の企画」「修理で分かる傷み方や使われ方、小売店の声も企画に生かす」「デザイン部門と製造部門が試作の段階から連携し、作りやすさと品質を確かめる」。生産面に「縫製の負荷（修理も受け持つ）を減らし、新製品の生産と試作の時間を確保する」「自社品の生産計画を、受託品の計画と合わせて立てる」。\n【ひっかけ注意】「〜する」と対応策の形で書くと、課題を問う題意とずれる（「〜すること」「〜の確保」の形）。直営店をどちらの方向で進めるか（二択）は第4問で書く。第2問の受託品の作業の標準化と重ねず、第3問は自社ブランド品を作る力に絞る。\n【2次】j3.link.design|設計・開発と営業の連携\n【2次】jc.solve.question|設問の読み方（課題の答えの形）\n【1次】kigyo.3.5.3|新製品開発\n【1次】unei.1.2.7|需要予測（指数平滑・移動平均）"
+  },
+  {
+   "k": "q4",
+   "h": "第4問",
+   "dai": 4,
+   "pts": 30,
+   "ask": "設問文の前提：社長は直営店の事業を進めるのに、A：熟練職人の手作りによって高級感を打ち出すか、B：若手職人も加えて分業と標準化を進め、自社ブランド品のアイテムを増やすかで迷っている。C社の経営資源を有効に使い、最大の効果を得るにはどちらを選び、どう対応すべきかの助言。140字以内。",
+   "fields": [
+    {
+     "k": "a",
+     "label": "方向と対応",
+     "limit": 140
+    }
+   ],
+   "model": {
+    "a": "熟練職人の手作りによる高級路線を選ぶ。高価格でも注文が集まった手作り感ある高級仕様を生かせ、百貨店等の客層に合うため。対応は、①熟練職人を自社品に専念させ受託品は標準化して若手に任せる、②若手を熟練職人と組ませ1人で製品化できるよう育てる。これによりブランド価値と収益を高める。"
+   },
+   "points": [
+    {
+     "f": "a",
+     "t": "熟練職人の手作り・高級感を選ぶ",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "評価された手作り感の高級品を生かす",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "百貨店等の直営店の客層に合う",
+     "w": 4
+    },
+    {
+     "f": "a",
+     "t": "熟練職人を自社品に、受託品は若手に",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "若手を1人で製品化できる職人に育てる",
+     "w": 6
+    },
+    {
+     "f": "a",
+     "t": "ブランド価値と収益を高める",
+     "w": 4
+    }
+   ],
+   "basis": [
+    [
+     4,
+     "雑誌の特集で手作りの風合いの高級な仕様が評判を呼び、高価格でも生産能力を超える注文を受けた。自社ブランド化を進めるきっかけ"
+    ],
+    [
+     5,
+     "自社品は25アイテムで売上の約2割、収益に貢献"
+    ],
+    [
+     6,
+     "天然のなめし革を素材に、熟練職人が縫製と仕上げを手がける高級品。長く使えるバッグが企画の基本で、修理も行う"
+    ],
+    [
+     7,
+     "社長は、大都市の百貨店・商業ビルに直営店を出して、自社品の販売を広げることを検討。デザイン部門の経験の少なさに不安、製造部門の対応に懸念"
+    ],
+    [
+     13,
+     "縫製の熟練職人は6名（工程の中で最も多い）。自社品は1人で製品ごとに、ほとんど手縫いで担い、計画が入ると受託品から移る"
+    ],
+    [
+     14,
+     "熟練職人が高齢化し、退職の予定"
+    ],
+    [
+     15,
+     "若手は細かく分けた作業の分担で、1人で製品にする技術が身についていない"
+    ]
+   ],
+   "shushi": "直営店事業を計画するC社に、経営資源を生かして効果を最大にする自社ブランド製品の戦略と、そのための社内の対応を助言する力をみる。",
+   "e": "・**題意**：直営店の事業に向けて、社長が迷う2つの方向（A：熟練職人の手作りによる高級感、B：若手も入れた分業化・標準化でアイテムを増やす。どちらも設問文の前提）のどちらを選び、どう対応するか（140字）。判断の基準は、C社の経営資源を有効に使って最大の効果を得ること。出題の趣旨は、自社ブランド製品の戦略と、そのための社内の対応。\n・**組み立て**：選ぶ方向 → 理由（経営資源と顧客）→ 社内の対応（選んだ方向の弱点を補う）→ 効果。Aの理由：「手作り感のある高級仕様」が評価され、高価格でも能力を超える注文が来た。長く使えるバッグというコンセプトと修理にも合う。直営店は大都市の百貨店・商業ビルで、高級品の客層に合う（与件に客層の記述はなく、推測）。Aの弱点は熟練職人の人数と高齢化 → 熟練職人を自社品に回し、受託品は第2問の標準化で若手に任せる。若手を熟練職人と組ませて、1人で製品にできる職人に育てる（第3問の生産面の課題への対応）。\n**2つの方向の比べ方**\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 325\" role=\"img\" aria-label=\"2つの方向の比べ方\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">観点</text><text x=\"142.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">A 熟練職人の手作り</text><text x=\"287.5\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">B 分業化・標準化</text><text x=\"6\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">評価された</text><text x=\"6\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">価値</text><text x=\"76\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">「手作り感のある</text><text x=\"76\" y=\"53.5\" font-size=\"11\" style=\"fill:currentColor\">高級仕様」をそのまま</text><text x=\"76\" y=\"68.7\" font-size=\"11\" style=\"fill:currentColor\">生かす。高価格でも能力を</text><text x=\"76\" y=\"83.9\" font-size=\"11\" style=\"fill:currentColor\">超える注文があった</text><text x=\"221\" y=\"61.1\" font-size=\"11\" style=\"fill:currentColor\">手作り感が薄れるおそれ</text><path d=\"M1 91.0L359 91.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">直営店</text><text x=\"76\" y=\"106.1\" font-size=\"11\" style=\"fill:currentColor\">大都市の百貨店・</text><text x=\"76\" y=\"121.3\" font-size=\"11\" style=\"fill:currentColor\">商業ビルの客層に合う</text><text x=\"76\" y=\"136.5\" font-size=\"11\" style=\"fill:currentColor\">（推測）</text><text x=\"221\" y=\"113.7\" font-size=\"11\" style=\"fill:currentColor\">アイテムが増え、</text><text x=\"221\" y=\"128.9\" font-size=\"11\" style=\"fill:currentColor\">品ぞろえが広がる</text><path d=\"M1 143.6L359 143.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">熟練職人</text><text x=\"76\" y=\"158.7\" font-size=\"11\" style=\"fill:currentColor\">技術を生かせる。</text><text x=\"76\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">人数（縫製に6名）</text><text x=\"76\" y=\"189.1\" font-size=\"11\" style=\"fill:currentColor\">と高齢化が弱点</text><text x=\"221\" y=\"173.9\" font-size=\"11\" style=\"fill:currentColor\">退職に備えやすい</text><path d=\"M1 196.2L359 196.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">若手職人</text><text x=\"76\" y=\"211.3\" font-size=\"11\" style=\"fill:currentColor\">受託品を担い、</text><text x=\"76\" y=\"226.5\" font-size=\"11\" style=\"fill:currentColor\">熟練職人の下で1人で</text><text x=\"76\" y=\"241.7\" font-size=\"11\" style=\"fill:currentColor\">作れるよう育てる</text><text x=\"221\" y=\"218.9\" font-size=\"11\" style=\"fill:currentColor\">細かく分けた作業の</text><text x=\"221\" y=\"234.1\" font-size=\"11\" style=\"fill:currentColor\">習熟を生かせる</text><path d=\"M1 248.8L359 248.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">企画と在庫</text><text x=\"76\" y=\"271.5\" font-size=\"11\" style=\"fill:currentColor\">今の品目の数で、少量・</text><text x=\"76\" y=\"286.7\" font-size=\"11\" style=\"fill:currentColor\">高価格を保つ（推測）</text><text x=\"221\" y=\"263.9\" font-size=\"11\" style=\"fill:currentColor\">経験の少ない企画の</text><text x=\"221\" y=\"279.1\" font-size=\"11\" style=\"fill:currentColor\">負担と、見込生産の</text><text x=\"221\" y=\"294.3\" font-size=\"11\" style=\"fill:currentColor\">在庫が増えるおそれ</text><path d=\"M1 301.4L359 301.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"316.5\" font-size=\"11\" style=\"fill:currentColor\">解答例</text><text x=\"76\" y=\"316.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">選ぶ</text><text x=\"221\" y=\"316.5\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--ink-3)\">別の答え（判断が割れる）</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 322.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M215 0L215 322.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"322.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】「推測」の印は、与件に直接の記述がない読み。Bの列の「おそれ」は、Aを選ぶ理由の裏側。\n・**別の答え方（判断が割れる）**：Bを選ぶ答えも成り立つ。理由は、熟練職人は高齢化して退職の予定があり、手作りだけでは直営店に要る量と品ぞろえを作れない、若手は細かく分けた作業に習熟していて分業に向く、など。対応は、熟練職人の作業を分けて標準化して若手を配置し、熟練職人は仕上げと出来栄えの確認を担う、デザイン部門がネット販売の情報で品目を企画する、など。ただし手作り感が薄れると、評価された高級感と高価格を保ちにくい。自己採点では、Bを選んだ答えは、選択と理由が与件と合っていれば1〜3つ目、熟練職人と若手の役割の分け方と育成が与件と合っていれば4・5つ目の観点に当たるとみる（目安）。\n【ひっかけ注意】どちらかを選ぶ。両方を少しずつ、は題意に答えていない。選んだ方向の弱点（Aなら熟練職人の人数と承継、Bなら高級感）への対応を書く。第2問（受託品の標準化と多能工化）・第3問（技能の承継・受注予測）の答えと食い違わせない。\n【2次】j3.strat.future|新規事業と今後の戦略\n【1次】kigyo.1.3.2|競争優位の戦略（差別化・集中）\n【1次】kigyo.2.8.4|人材育成（能力開発・OJT）"
+  }
+ ]
+}

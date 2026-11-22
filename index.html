@@ -546,6 +546,41 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .k2-sbar{flex:none;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;border-top:1px solid var(--guide)}
 .k2-sbar .fine{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .k2-empty{margin:auto;max-width:440px;padding:24px;display:flex;flex-direction:column;gap:12px}
+
+/* 模擬試験の結果：論点ごとの得点率（レーダーチャート）と所要時間 */
+.radar{width:100%;max-width:420px;height:auto;display:block;margin:0 auto;overflow:visible}
+.rd-ring{fill:none;stroke:var(--guide-soft);stroke-width:1}
+.rd-pass{fill:none;stroke:var(--warn);stroke-width:1.4;stroke-dasharray:4 3}
+.rd-ax{stroke:var(--guide-soft);stroke-width:1}
+.rd-poly{fill:var(--drop);fill-opacity:.16;stroke:var(--drop);stroke-width:2;stroke-linejoin:round}
+.rd-dot{stroke:var(--sheet);stroke-width:1.5}
+.rd-dot.lo{fill:var(--bad)}.rd-dot.mid{fill:var(--warn)}.rd-dot.hi{fill:var(--good)}
+.rd-lab text{font-size:10.5px;font-weight:700;fill:var(--ink-2)}
+.rd-lab.go{cursor:pointer}
+.rd-lab.go text.rd-nm{fill:var(--drop)}
+.rd-lab text.rd-pc{font-size:11px;font-weight:900}
+.rd-lab text.rd-pc.lo{fill:var(--bad)}.rd-lab text.rd-pc.mid{fill:var(--warn)}.rd-lab text.rd-pc.hi{fill:var(--good)}
+.rd-lab.go:hover text.rd-nm,.rd-lab.go:focus text.rd-nm{text-decoration:underline}
+.rd-hit{fill:transparent}
+.rd-60{font-size:9.5px;font-weight:700;fill:var(--warn)}
+.rd-part{margin:6px 0 0;font-size:13px;font-weight:700;color:var(--ink)}
+.rd-tbl td.lo{color:var(--bad);font-weight:700}.rd-tbl td.mid{color:var(--warn);font-weight:700}.rd-tbl td.hi{color:var(--good);font-weight:700}
+.rd-tbl td:last-child{padding-right:0}
+.rd-list summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--ink-2);padding-block:4px}
+.rd-bars{display:flex;flex-direction:column;gap:8px}
+.rd-bar{appearance:none;display:grid;grid-template-columns:minmax(0,1fr) 3.6em;gap:4px 8px;align-items:center;width:100%;background:none;border:0;padding:0;font:inherit;color:var(--ink);text-align:left;cursor:pointer}
+.rd-bar span{font-size:13px;font-weight:700;color:var(--drop)}
+.rd-bar i{grid-column:1/-1;height:8px;border-radius:4px;background:var(--guide-soft);overflow:hidden;display:block}
+.rd-bar i b{display:block;height:100%}
+.rd-bar i b.lo{background:var(--bad)}.rd-bar i b.mid{background:var(--warn)}.rd-bar i b.hi{background:var(--good)}
+.rd-bar em{font-style:normal;font-size:13px;font-weight:900;text-align:right;font-variant-numeric:tabular-nums}
+.m-time{margin:0;font-size:15px;font-weight:700}
+.m-time b{font-size:22px;font-weight:900;font-variant-numeric:tabular-nums}
+.pc small{font-size:9.5px;font-weight:500;color:var(--ink-3);line-height:1}
+.pc.has{grid-template-rows:auto auto;align-content:center;row-gap:2px}
+.pc.has span{line-height:1}
+.mrec td small,.mrec th small{display:block;font-size:10.5px;color:var(--ink-3);font-weight:400}
+.mrec td.lo{color:var(--bad);font-weight:700}.mrec td.hi{color:var(--good);font-weight:700}
 </style>
 </head>
 <body>
@@ -579,7 +614,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v71';   // sw.js の VER と同じ値にする
+var APP_VER='v72';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1369,13 +1404,22 @@ function viewMock(){
   mRounds().forEach(function(rd){var tot=0,n=0,low=0;
     h+='<tr><th scope="row">第'+rd.r+'回<small>'+md(parseYmd(rd.sat))+'〜</small></th>';
     SUBJ.forEach(function(x){var a=mFirst(rd.r,x.k),set=mSet(x.k,rd.r),run=ST.mockRun&&ST.mockRun.r===rd.r&&ST.mockRun.s===x.k,txt,cls='pc',ok=!!a||(set&&set.ready);
-      if(a){txt=a.score;tot+=a.score;n++;if(a.score<CUT)low++;cls+=a.score<CUT?' low':a.score>=PASS?' good':'';}
+      if(a){txt='<span>'+a.score+'</span><small>'+a.mins+'分</small>';tot+=a.score;n++;if(a.score<CUT)low++;cls+=' has'+(a.score<CUT?' low':a.score>=PASS?' good':'');}
       else if(run){txt='中';cls+=' none';}
       else if(set&&set.ready){txt=todayKey()>=rd.sat?'受験':'—';cls+=' none';}
       else{txt='準備';cls+=' na';}
-      h+='<td><button class="'+cls+'" type="button" data-act="mk-open" data-s="'+x.k+'" data-r="'+rd.r+'"'+(ok?'':' disabled')+' aria-label="'+esc('第'+rd.r+'回 '+x.n+(a?' '+a.score+'点':''))+'">'+txt+'</button></td>';});
+      h+='<td><button class="'+cls+'" type="button" data-act="mk-open" data-s="'+x.k+'" data-r="'+rd.r+'"'+(ok?'':' disabled')+' aria-label="'+esc('第'+rd.r+'回 '+x.n+(a?' '+a.score+'点・'+a.mins+'分':''))+'">'+txt+'</button></td>';});
     h+='<td class="mt">'+(n===7?'<b class="'+(tot>=420&&!low?'good':'bad')+'">'+tot+'</b>':n?'<small>'+n+'/7</small>':'')+'</td></tr>';});
-  return h+'</tbody></table></div><div class="legend"><span>数字＝得点</span><span>受験・— ＝受けられる（—は予定日の前）</span><span>準備＝問題を作成中</span><span>合計の緑＝420点以上かつ40点未満なし</span></div></section>';
+  h+='</tbody></table></div><div class="legend"><span>数字＝得点（下は所要時間）</span><span>受験・— ＝受けられる（—は予定日の前）</span><span>準備＝問題を作成中</span><span>合計の緑＝420点以上かつ40点未満なし</span></div></section>';
+  // 受験の記録：毎回の所要時間と得点（2回目からも残す。この回の得点として数えるのは1回目）
+  var recs=ST.mock.slice().sort(function(x,y){return y.at-x.at;});
+  if(recs.length){
+    var nth={};ST.mock.slice().sort(function(x,y){return x.at-y.at;}).forEach(function(a){var k=a.s+'-'+a.r;nth[k]=(nth[k]||0)+1;a._n=nth[k];});
+    h+='<section class="sec"><div class="sec-h"><span>受験の記録（所要時間と得点）</span></div><div class="d4-tw"><table class="d4-tbl mrec"><thead><tr><th scope="col">日付</th><th scope="col">回</th><th scope="col">科目</th><th scope="col">得点</th><th scope="col">所要時間</th></tr></thead><tbody>'
+      +recs.map(function(a){var lim=mLim(a.s,a.r);return '<tr><th scope="row">'+md(new Date(a.at))+'</th><td>第'+a.r+'回'+(a._n>1?'<small>'+a._n+'回目</small>':'')+'</td><td>'+esc(SN[a.s]?SN[a.s].sh:a.s)+'</td><td class="'+(a.score<CUT?'lo':a.score>=PASS?'hi':'')+'">'+a.score+'点</td><td>'+a.mins+'分<small>制限'+lim+'分'+(a.auto?'・時間切れ':'')+'</small></td></tr>';}).join('')
+      +'</tbody></table></div></section>';
+  }
+  return h;
 }
 function loadMockSet(s,r){
   var k=s+'-'+r;if(DATA.mset[k])return Promise.resolve(DATA.mset[k]);
@@ -1455,18 +1499,91 @@ function renderMock(){
     el.innerHTML=h;return;
   }
   // 結果
-  var wrongG={};its.forEach(function(it){if(a.ans[it.no]!==it.a&&it.t){var g=groupOf(it.t);wrongG[g]=(wrongG[g]||0)+it.p;}});
-  var wg=Object.keys(wrongG).sort(function(x,y){return wrongG[y]-wrongG[x];});
+  var GA=mGroupStats(its,a.ans,m.s);
   h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut">'
    +'<div class="score"><b>'+a.score+'</b><span>/ 100点（'+a.ok+'/'+a.total+'問正解）</span></div>'
    +'<p class="note">'+(a.score>=PASS?'60点以上です。':a.score>=CUT?'40点以上ですが、60点に'+(PASS-a.score)+'点届いていません。':'40点未満です。本試験では足切りになります。')+'</p>'
-   +'<p class="fine">'+md(new Date(a.at))+'に受験・'+a.mins+'分'+(a.auto?'（時間切れで提出）':'')+'。問題を押すと、解説を見られます。</p>';
-  if(wg.length)h+='<section class="sec"><div class="sec-h"><span>失点の多い論点</span></div><ul class="list">'+wg.slice(0,8).map(function(g){var G=DATA.groups[g],nq=(DATA.q[m.s]||[]).filter(function(q){return groupOf(q.t)===g;}).length;
-    return '<li class="todo"><div class="todo-t"><b>'+esc(G?G.g.n:g)+'</b><span>'+wrongG[g]+'点の失点'+(nq?'・演習'+nq+'問':'')+'</span></div>'+(nq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g+'">演習</button>':'')+'</li>';}).join('')+'</ul></section>';
+   +'<p class="m-time">所要時間 <b>'+a.mins+'</b>分<span class="fine">（制限'+lim+'分'+(a.auto?'・時間切れで提出':'・残り'+Math.max(0,lim-a.mins)+'分')+'）</span></p>'
+   +'<p class="fine">'+md(new Date(a.at))+'に受験。問題を押すと、解説を見られます。</p>';
+  if(GA.length)h+=mRadarSec(GA);
   h+='<section class="sec"><div class="sec-h"><span>問題ごとの結果</span></div><div>'+its.map(function(it,i){var mk=a.ans[it.no],good=mk===it.a;
     return '<button class="mres" type="button" data-act="mk-rv" data-i="'+i+'"><span class="ms-n">'+mNo(it.no).replace('（',' <small>').replace('）','</small>')+'</span><span class="mres-a">あなた '+(mk==null?'－':LT[mk])+'・正解 '+LT[it.a]+'</span><span class="mres-p">'+it.p+'点</span><b class="'+(good?'ok':'ng')+'">'+(good?'○':'×')+'</b></button>';}).join('')+'</div></section>';
   h+='</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-close">閉じる</button><button class="btn primary" type="button" data-act="mk-tab">模擬試験の一覧</button></div>';
   el.innerHTML=h;
+}
+
+/* 模擬試験の結果：論点（グループ）ごとの得点率をレーダーチャートで示し、論点名を押すとその論点の演習を始める */
+function mGroupStats(its,ans,s){
+  var M={},L=[];
+  its.forEach(function(it){if(!it.t)return;var g=groupOf(it.t);if(!M[g]){M[g]={g:g,got:0,poss:0};L.push(M[g]);}M[g].poss+=it.p;if(ans[it.no]===it.a)M[g].got+=it.p;});
+  var ord={},i=0;DATA.syl.subjects.forEach(function(sub){sub.parts.forEach(function(pt){pt.groups.forEach(function(gr){ord[gr.id]=i++;});});});
+  L.forEach(function(x){var G=DATA.groups[x.g];x.name=G?G.g.n:x.g;x.part=G?G.part:'';x.rate=x.poss?x.got/x.poss:0;x.nq=(DATA.q[s]||[]).filter(function(q){return groupOf(q.t)===x.g;}).length;});
+  return L.sort(function(a,b){return (ord[a.g]==null?1e9:ord[a.g])-(ord[b.g]==null?1e9:ord[b.g]);});
+}
+function rdLev(r){return r<0.4?'lo':r<0.6?'mid':'hi';}
+var RD_SHORT={'その他経済学・経済政策に関する事項':'その他','その他財務・会計に関する事項':'その他','その他経営戦略論に関する事項':'その他','その他組織論に関する事項':'その他','その他マーケティング論に関する事項':'その他','その他生産管理に関する事項':'その他','その他店舗・販売管理に関する事項':'その他','その他経営法務に関する事項':'その他','その他中小企業経営・中小企業政策に関する事項':'その他',
+  'マーケティング計画とマーケティング戦略':'マーケティング計画・戦略','各分野に展開したマーケティング':'分野別のマーケティング','商品仕入・販売（マーチャンダイジング）':'商品仕入・販売','事業開始、会社設立及び倒産等に関する知識':'事業開始・設立・倒産','知的財産権に関する知識':'知的財産権','取引関係に関する法務知識':'取引関係の法務','企業活動に関する法律知識':'企業活動の法律','資本市場へのアクセスと手続':'資本市場と手続','経済・産業における中小企業の役割、位置づけ':'中小企業の役割・位置づけ','中小企業に関する法規と政策':'中小企業の法規と政策','経済指標の見方や読み方':'経済指標の読み方'};
+function rdShort(n){return RD_SHORT[n]||n;}   // 図の中の論点名（長い名前は縮める。表には正式の名前）
+function rdKana(ch){return /[ァ-ヶー]/.test(ch||'');}
+function rdWrap(t,w,max){   // 図の論点名を、1行 w 字・max 行までに折り返す（・の・と などの切れ目と、カタカナの語の切れ目を優先）
+  var c=Array.from(String(t)),L=[],i=0;
+  while(i<c.length&&L.length<max){
+    var rest=c.length-i;
+    if(rest<=w){L.push(c.slice(i).join(''));i=c.length;break;}
+    if(max-L.length===1){L.push(c.slice(i,i+w-1).join('')+'…');i=c.length;break;}
+    var lines=Math.min(max-L.length,Math.ceil(rest/w)),tgt=Math.min(w,Math.ceil(rest/lines)),cut=i+tgt,best=-1;
+    for(var j=Math.min(i+w,c.length-1);j>=i+2;j--){var a=c[j-1],nx=c[j];if(('・、のとや）'.indexOf(a)>=0||nx==='（')&&(Math.abs(j-cut)<=2||j-i>=tgt-1)){best=j;break;}}
+    if(best>0)cut=best;
+    else if(rdKana(c[cut-1])&&rdKana(c[cut])){var e=cut;while(e<c.length&&rdKana(c[e]))e++;var st=cut;while(st>i&&rdKana(c[st-1]))st--;cut=(e-i<=w)?e:(st-i>=2?st:cut);}
+    L.push(c.slice(i,cut).join(''));i=cut;
+  }
+  return L;
+}
+function rdNum(i){return '①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳'.charAt(i)||String(i+1);}
+function radarSVG(A,num,off){
+  var n=A.length,W=360,H=num?290:340,cx=W/2,cy=H/2,R=num?104:84,LR=R+(num?13:15),f=function(v){return Math.round(v*10)/10;};
+  function ang(i){return -Math.PI/2+i*2*Math.PI/n;}
+  function pt(i,r){return [cx+r*Math.cos(ang(i)),cy+r*Math.sin(ang(i))];}
+  function poly(k){return A.map(function(x,i){return pt(i,typeof k==='number'?R*k:R*x.rate).map(f).join(',');}).join(' ');}
+  var s='<svg class="radar" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="論点ごとの得点率のレーダーチャート"><g>';
+  [0.2,0.4,0.8,1].forEach(function(k){s+='<polygon class="rd-ring" points="'+poly(k)+'"/>';});
+  s+='<polygon class="rd-pass" points="'+poly(0.6)+'"/>';
+  A.forEach(function(x,i){var p=pt(i,R);s+='<line class="rd-ax" x1="'+cx+'" y1="'+cy+'" x2="'+f(p[0])+'" y2="'+f(p[1])+'"/>';});
+  s+='</g><polygon class="rd-poly" points="'+poly(null)+'"/>';
+  A.forEach(function(x,i){var p=pt(i,R*x.rate);s+='<circle class="rd-dot '+rdLev(x.rate)+'" cx="'+f(p[0])+'" cy="'+f(p[1])+'" r="4"/>';});
+  var p6=pt(0,R*0.6);s+='<text class="rd-60" x="'+f(p6[0]+5)+'" y="'+f(p6[1]+11)+'">60%</text>';
+  A.forEach(function(x,i){
+    var p=pt(i,LR),c=Math.cos(ang(i)),sn=Math.sin(ang(i)),anc=c>0.3?'start':c<-0.3?'end':'middle';
+    var nm=num?[rdNum((off||0)+i)]:rdWrap(rdShort(x.name),7,3),lh=13,lines=nm.length+1,bh=lines*lh;
+    var y0=sn<-0.3?p[1]-bh+lh-2:sn>0.3?p[1]+lh-1:p[1]-bh/2+lh-3;
+    var wch=num?2:Math.max.apply(null,nm.map(function(t){return Array.from(t).length;})),bw=Math.max(wch*10.8,30)+6;
+    var rx=anc==='start'?p[0]-3:anc==='end'?p[0]-bw+3:p[0]-bw/2;
+    var go=x.nq>0;
+    s+='<g class="rd-lab'+(go?' go':'')+'"'+(go?' data-act="drill-group" data-g="'+esc(x.g)+'" role="button" tabindex="0" aria-label="'+esc(x.name+' '+Math.round(x.rate*100)+'%。演習を始める')+'"':'')+'>'
+      +'<rect class="rd-hit" x="'+f(rx)+'" y="'+f(y0-lh+1)+'" width="'+f(bw)+'" height="'+f(bh+4)+'"/>';
+    nm.forEach(function(t,j){s+='<text class="rd-nm" x="'+f(p[0])+'" y="'+f(y0+j*lh)+'" text-anchor="'+anc+'">'+esc(t)+'</text>';});
+    s+='<text class="rd-pc '+rdLev(x.rate)+'" x="'+f(p[0])+'" y="'+f(y0+nm.length*lh)+'" text-anchor="'+anc+'">'+Math.round(x.rate*100)+'%</text></g>';
+  });
+  return s+'</svg>';
+}
+function rdBars(A){
+  return '<div class="rd-bars">'+A.map(function(x){var pc=Math.round(x.rate*100);
+    return '<button class="rd-bar" type="button"'+(x.nq?' data-act="drill-group" data-g="'+esc(x.g)+'"':' disabled')+'><span>'+esc(x.name)+'</span><em class="'+rdLev(x.rate)+'">'+pc+'%</em><i><b class="'+rdLev(x.rate)+'" style="width:'+pc+'%"></b></i></button>';}).join('')+'</div>';
+}
+function rdTable(A,num){
+  return '<div class="d4-tw"><table class="d4-tbl rd-tbl"><thead><tr><th scope="col">論点</th><th scope="col">得点</th><th scope="col"></th></tr></thead><tbody>'
+    +A.map(function(x,i){return '<tr><th scope="row">'+(num?rdNum(i)+' ':'')+esc(x.name)+'</th><td class="'+rdLev(x.rate)+'">'+x.got+'/'+x.poss+'点（'+Math.round(x.rate*100)+'%）</td><td>'+(x.nq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+esc(x.g)+'">演習</button>':'')+'</td></tr>';}).join('')+'</tbody></table></div>';
+}
+function mRadarSec(GA){
+  var h='<section class="sec"><div class="sec-h"><span>論点ごとの得点率</span></div><p class="fine">論点名を押すと、その論点の演習を始めます。点線は60％（合格の目安）。</p>';
+  var parts=[];if(GA.length>12){var pm={};GA.forEach(function(x){if(!pm[x.part]){pm[x.part]=[];parts.push({n:x.part,A:pm[x.part]});}pm[x.part].push(x);});}else parts=[{n:'',A:GA}];
+  var off=0;
+  parts.forEach(function(P){
+    if(P.n&&parts.length>1)h+='<p class="rd-part">'+esc(P.n)+'</p>';
+    if(P.A.length>=3){var num=P.A.length>8;h+=radarSVG(P.A,num,0);h+='<details class="rd-list"'+(num?' open':'')+'><summary>論点ごとの得点（表）</summary>'+rdTable(P.A,num)+'</details>';}
+    else h+=rdBars(P.A);
+  });
+  return h+'</section>';
 }
 function startMock(){
   var m=UI.mock;if(!m)return;
