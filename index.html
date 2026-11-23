@@ -581,6 +581,30 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 .pc.has span{line-height:1}
 .mrec td small,.mrec th small{display:block;font-size:10.5px;color:var(--ink-3);font-weight:400}
 .mrec td.lo{color:var(--bad);font-weight:700}.mrec td.hi{color:var(--good);font-weight:700}
+.gt-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,150px) 3.4em;align-items:center;gap:8px;padding-block:7px;border-bottom:1px dashed var(--guide)}
+.gt-row.gt-ax{padding-block:2px 0;border-bottom:0}
+.gt-axl{display:flex;justify-content:space-between;font-size:10.5px;color:var(--ink-2)}
+.gt-n{min-width:0;font-size:13.5px;line-height:1.35;display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+.gt-n small{font-size:11px;color:var(--ink-2)}
+.gt-st{font-size:10.5px;font-weight:700;border-radius:999px;padding:0 7px;line-height:1.7}
+.gt-st.weak{background:var(--bad-soft);color:var(--bad)}.gt-st.fixed{background:var(--good-soft);color:var(--good)}
+.gt-svg{width:100%;height:auto;display:block;overflow:visible}
+.gt-v{text-align:right;font-variant-numeric:tabular-nums;line-height:1.25}
+.gt-v b{display:block;font-size:15px}
+.gt-v small{font-size:11px;font-weight:700}
+.gt-lo{color:var(--bad)}.gt-hi{color:var(--good)}.gt-up{color:var(--good)}.gt-dn{color:var(--bad)}.gt-mu{color:var(--ink-2)}
+.gt-line{fill:none;stroke:var(--mark);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+.gt-pt{fill:var(--mark)}.gt-pre{fill:var(--sheet);stroke:var(--ink-3);stroke-width:1.4}
+.gt-mk{fill:var(--drop)}
+.gt-pass{stroke:var(--warn);stroke-width:1;stroke-dasharray:3 3}
+.gt-base{stroke:var(--guide-soft);stroke-width:1}
+.wk-row{display:grid;grid-template-columns:minmax(0,1fr) 128px auto;align-items:center;gap:8px;padding-block:8px;border-bottom:1px dashed var(--guide)}
+.wk-n{min-width:0;display:flex;flex-direction:column;font-size:13.5px;line-height:1.35}
+.wk-n small{font-size:11px;color:var(--ink-2)}
+.wk-b{display:flex;flex-direction:column;gap:1px;font-size:11.5px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.3}
+.wk-b svg{width:100%;height:auto;display:block;overflow:visible}
+.wk-seg{stroke-width:2.4;stroke-linecap:round}.wk-seg.up{stroke:var(--good)}.wk-seg.mid{stroke:var(--warn)}.wk-seg.dn{stroke:var(--bad)}
+.wk-a.up{fill:var(--good)}.wk-a.dn{fill:var(--bad)}
 </style>
 </head>
 <body>
@@ -614,7 +638,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v72';   // sw.js の VER と同じ値にする
+var APP_VER='v73';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1057,6 +1081,7 @@ function viewDrill(){
   SUBJ.forEach(function(x){var p=progIndex(x.k).sub;per[x.k]=p;Object.keys(all).forEach(function(f){all[f]+=p[f];});});
   var h='<section class="sheet"><div class="sec-h"><span>演習の進み具合</span></div>'+pblock(all)
    +'<p class="fine">「不正解」は、最後に解いたときに間違えた問題です。科目名を押すと、論点ごとの進み具合と問題の一覧を開き、未回答の問題だけを解けます。</p></section>';
+  h+=weakSec();
   h+='<section class="sec"><div class="sec-h"><span>科目と論点表</span></div><p class="fine">「学習中」の科目から、新しい問題が1日'+ST.settings.newPerDay+'問まで「今日」の演習に出ます。復習はすべての科目から出ます。</p><div class="subjs">';
   SUBJ.forEach(function(x){var st=subjStats(x.k),p=per[x.k],on=ST.settings.active.indexOf(x.k)>=0;
     h+='<div class="subj"><button class="subj-n" type="button" data-act="open-syl" data-s="'+x.k+'">'+esc(x.n)+'</button>'
@@ -1075,6 +1100,7 @@ function viewSyllabus(k){
    +(p.ng?'<button class="btn" type="button" data-act="drill-ng" data-s="'+k+'">間違えた問題<small>'+p.ng+'問</small></button>':'')
    +((DATA.q[k]||[]).length?'<button class="btn'+(p.nw||p.ng?' ghost':' primary')+'" type="button" data-act="drill-subj" data-s="'+k+'">科目全体から<small>10問</small></button>':'')+'</div>'
    +'<p class="fine">論点の「問題の一覧」を開くと、細目ごとに、どの問題を解いたかが分かります（●正解・×不正解・○未回答）。問題を押すと、その問題から解き始めます。テキスト'+cv.withT+'/'+cv.items+'細目・試験時間'+sub.min+'分・100点。</p></section>';
+  h+=gTrendSec(k);
   sub.parts.forEach(function(pt){
     h+='<section class="sec">'+(pt.n?'<div class="sec-h"><span>'+esc(pt.n)+'</span></div>':'');
     pt.groups.forEach(function(g){var gp=ix.g[g.id]||blankP(),a=acc[g.id],ht=chapterHas(k,g.id);
@@ -1084,6 +1110,136 @@ function viewSyllabus(k){
     h+='</section>';
   });
   h+='<p class="fine">出典：'+esc(DATA.syl.source)+'</p>';
+  return h;
+}
+/* ---------- 論点ごとの正答率の推移（弱点の補強ができているか） ----------
+   ・演習：日ごと・論点ごとに [解いた数, 正解, 解き直しの数, 解き直しの正解] を ST.days[日付].g に記録する（端末ごとの記録として同期する）。
+     同じ回の中の解き直し（間違えた直後にもう一度出る分）は、推移の正答率に入れない。
+   ・記録を始める前の分は、問題ごとの累計（srs）から記録した分を引いて、「以前」の1点にする。
+   ・模試：受けたときに、論点ごとの [得点, 配点] を a.g に保存する。前の版で受けた分は、問題を読み込めたときに計算して保存する。
+     問題を作り直した回（mock.json の rev より前に受けた分）は計算しない。 */
+var WK=7*DAY,GT_W=12,GT_PASS=0.6;
+function bumpG(g,ok,retry){if(!g)return;var k=todayKey(),cur=ST.days[k]||{min:0,ans:0,cor:0,nw:0},G=cur.g||(cur.g={}),e=G[g]||(G[g]=[0,0,0,0]);if(retry){e[2]++;if(ok)e[3]++;}else{e[0]++;if(ok)e[1]++;}ST.days[k]=cur;}
+function gLogs(){var L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});return L;}
+function gAgg(){   // 論点ごとに、日ごと・週ごと（月曜はじまり）の [解いた数, 正解] と、記録の合計
+  var A={};
+  gLogs().forEach(function(D){Object.keys(D||{}).forEach(function(k){var G=D[k]&&D[k].g;if(!G)return;var w=weekStart(parseYmd(k)).getTime();
+    Object.keys(G).forEach(function(g){var v=G[g]||[],o=A[g]||(A[g]={W:{},D:{},tot:[0,0,0,0]}),x=o.W[w]||(o.W[w]=[0,0]),y=o.D[k]||(o.D[k]=[0,0]);
+      x[0]+=v[0]||0;x[1]+=v[1]||0;y[0]+=v[0]||0;y[1]+=v[1]||0;for(var i=0;i<4;i++)o.tot[i]+=v[i]||0;});});});
+  return A;
+}
+function gPre(A){   // 記録を始める前の分（問題ごとの累計 − 記録した分）
+  var m={};allQ().forEach(function(q){var r=ST.srs[q.id];if(!r||!r.att)return;var g=groupOf(q.t),o=m[g]||(m[g]=[0,0]);o[0]+=r.att;o[1]+=r.cor||0;});
+  var out={};Object.keys(m).forEach(function(g){var t=(A[g]&&A[g].tot)||[0,0,0,0],n=m[g][0]-t[0]-t[2],c=m[g][1]-t[1]-t[3];if(n>0)out[g]=[n,Math.max(0,Math.min(n,c))];});
+  return out;
+}
+function mStale(a){var ms=mSet(a.s,a.r);return !!(ms&&ms.rev&&a.at<Date.parse(ms.rev));}
+function mGOf(a){   // 模試の論点ごとの [得点, 配点]
+  if(a.g)return a.g;var set=DATA.mset[a.s+'-'+a.r];if(!set||mStale(a))return null;
+  var o={};mGroupStats(set.items,a.ans||{},a.s).forEach(function(x){o[x.g]=[x.got,x.poss];});a.g=o;save();return o;
+}
+var MG_LOAD={};
+function mGNeed(k){   // 論点ごとの得点がまだない模試の問題を読み込み、読み込めたら描き直す
+  ST.mock.forEach(function(a){if((k&&a.s!==k)||a.g||mStale(a))return;var key=a.s+'-'+a.r;if(DATA.mset[key]||MG_LOAD[key])return;MG_LOAD[key]=1;
+    loadMockSet(a.s,a.r).then(function(){schedRender();},function(){});});
+}
+function gPc(r){return Math.round(r*100);}
+function gSubj(k){   // 科目の論点ごとの推移（週の軸は科目で共通）
+  var sub=DATA.syl.subjects.filter(function(x){return x.k===k;})[0];if(!sub)return null;
+  var A=gAgg(),P=gPre(A),now=weekStart(Date.now()).getTime(),first=now,G=[];
+  sub.parts.forEach(function(pt){pt.groups.forEach(function(g){G.push(g);});});
+  var mk=ST.mock.filter(function(a){return a.s===k;}).sort(function(a,b){return a.at-b.at;}).map(function(a){return {a:a,g:mGOf(a)};}).filter(function(x){return x.g;});
+  G.forEach(function(g){var o=A[g.id];if(o)Object.keys(o.W).forEach(function(w){first=Math.min(first,+w);});});
+  mk.forEach(function(x){first=Math.min(first,weekStart(x.a.at).getTime());});
+  var nW=Math.max(4,Math.min(GT_W,Math.round((now-first)/WK)+1)),w0=now-(nW-1)*WK,hasPre=false;
+  var rows=G.map(function(g){
+    var o=A[g.id]||{W:{},D:{}},pre=(P[g.id]||[0,0]).slice(),pts=[],acc=[0,0],rec=[0,0],prv=[0,0],ms=[];
+    Object.keys(o.W).forEach(function(w){if(+w<w0){pre[0]+=o.W[w][0];pre[1]+=o.W[w][1];}});   // 軸より前の週は「以前」にまとめる
+    for(var i=0;i<nW;i++){var x=o.W[w0+i*WK];
+      if(x){acc[0]+=x[0];acc[1]+=x[1];if(i>=nW-4){rec[0]+=x[0];rec[1]+=x[1];}else if(i>=nW-8){prv[0]+=x[0];prv[1]+=x[1];}}
+      if(acc[0]>=4||(i===nW-1&&acc[0]>0)){pts.push({i:i,n:acc[0],r:acc[1]/acc[0]});acc=[0,0];}}   // 4問たまるごとに1点（少ない週は次の週とまとめる）
+    mk.forEach(function(x){var v=x.g[g.id];if(!v||!v[1])return;var i=Math.round((weekStart(x.a.at).getTime()-w0)/WK);ms.push({i:Math.max(-1,i),r:v[0]/v[1],at:x.a.at,rd:x.a.r});});
+    if(pre[0]>=3)hasPre=true;
+    var rr=rec[0]>=3?rec[1]/rec[0]:null,rp=prv[0]>=3?prv[1]/prv[0]:(pre[0]>=3?pre[1]/pre[0]:null);
+    var M=[];if(pre[0]>=3)M.push({i:-1,k:0,r:pre[1]/pre[0]});ms.forEach(function(m){M.push({i:m.i,k:1,r:m.r});});pts.forEach(function(p){M.push({i:p.i,k:2,r:p.r});});
+    M.sort(function(a,b){return a.i-b.i||a.k-b.k;});
+    var last=rr!=null?rr:M.length?M[M.length-1].r:null,wasWeak=M.slice(0,-1).some(function(m){return m.r<GT_PASS;});
+    return {g:g,pre:pre,pts:pts,ms:ms,rec:rec,rr:rr,rp:rp,last:last,st:last==null?'none':last<GT_PASS?'weak':wasWeak?'fixed':'ok'};
+  });
+  return {k:k,nW:nW,w0:w0,hasPre:hasPre,rows:rows};
+}
+function gAria(row){var a=[];
+  if(row.rr!=null)a.push('直近4週の演習 '+gPc(row.rr)+'%（'+row.rec[0]+'問）');else if(row.last!=null)a.push('いま '+gPc(row.last)+'%');
+  if(row.ms.length){var m=row.ms[row.ms.length-1];a.push('模試 '+gPc(m.r)+'%（'+md(new Date(m.at))+'）');}
+  if(row.pre[0]>=3)a.push('記録を始める前 '+gPc(row.pre[1]/row.pre[0])+'%');
+  return row.g.n+'。'+(a.join('、')||'記録なし');}
+function gSpark(T,row){
+  var W=150,H=40,L=7,R=7,Y0=5,Y1=35,off=T.hasPre?1:0,slots=T.nW+off,dx=(W-L-R)/Math.max(1,slots-1);
+  function X(i){return L+(Math.max(i,-off)+off)*dx;}function Yv(r){return Y1-(Y1-Y0)*r;}
+  var s='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y1+'" y2="'+Y1+'" class="gt-base"/><line x1="'+L+'" x2="'+(W-R)+'" y1="'+Yv(GT_PASS).toFixed(1)+'" y2="'+Yv(GT_PASS).toFixed(1)+'" class="gt-pass"/>';
+  var P=[];if(T.hasPre&&row.pre[0]>=3)P.push({x:X(-1),y:Yv(row.pre[1]/row.pre[0]),pre:1});
+  row.pts.forEach(function(p){P.push({x:X(p.i),y:Yv(p.r)});});
+  if(P.length>1)s+='<polyline class="gt-line" points="'+P.map(function(p){return p.x.toFixed(1)+','+p.y.toFixed(1);}).join(' ')+'"/>';
+  P.forEach(function(p,j){s+=p.pre?'<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="2.6" class="gt-pre"/>':'<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="'+(j===P.length-1?3:2.2)+'" class="gt-pt"/>';});
+  row.ms.forEach(function(m){var x=X(m.i),y=Yv(m.r);s+='<path d="M'+x.toFixed(1)+' '+(y-3.8).toFixed(1)+'l3.8 3.8l-3.8 3.8l-3.8-3.8z" class="gt-mk"/>';});
+  return '<svg class="gt-svg" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(gAria(row))+'">'+s+'</svg>';
+}
+function gRowHTML(T,row){
+  var d=row.rr!=null&&row.rp!=null?Math.round((row.rr-row.rp)*100):null;
+  var sub=row.rr!=null?'直近4週 '+row.rec[0]+'問':row.ms.length&&row.ms[row.ms.length-1].i>=T.nW-4?'直近は模試だけ':'直近4週は未回答';
+  return '<div class="gt-row"><div class="gt-n"><span>'+esc(row.g.n)+'</span><small>'+sub+'</small>'+(row.st==='weak'?'<span class="gt-st weak">要補強</span>':row.st==='fixed'?'<span class="gt-st fixed">補強できた</span>':'')+'</div>'
+   +gSpark(T,row)
+   +'<div class="gt-v"><b class="'+(row.last<GT_PASS?'gt-lo':'gt-hi')+'">'+gPc(row.last)+'%</b>'+(d?'<small class="'+(d>0?'gt-up':'gt-dn')+'">'+(d>0?'▲':'▼')+Math.abs(d)+'</small>':'')+'</div></div>';
+}
+function gTrendSec(k){
+  mGNeed(k);
+  var T=gSubj(k);if(!T)return '';
+  var R=T.rows.filter(function(r){return r.st!=='none';}),none=T.rows.length-R.length,ord={weak:0,fixed:1,ok:2};
+  var h='<section class="sec" id="gtrend"><div class="sec-h"><span>論点ごとの正答率の推移</span></div>';
+  if(!R.length)return h+'<p class="fine">演習を解くと、論点ごとの正答率の推移をここに出します。</p></section>';
+  R.sort(function(a,b){return ord[a.st]-ord[b.st]||a.last-b.last;});
+  var wk=R.filter(function(r){return r.st==='weak';}).length,fx=R.filter(function(r){return r.st==='fixed';}).length;
+  return h+'<p class="fine">'+(wk?'60%未満の論点が'+wk+'つあります（弱い順）。':'いま60%未満の論点はありません。')+(fx?'以前は60%未満だった論点のうち'+fx+'つが、60%以上になりました。':'')+'</p>'
+   +'<div class="gt-row gt-ax" aria-hidden="true"><span></span><div class="gt-axl"><span>'+(T.hasPre?'以前':md(new Date(T.w0))+'の週')+'</span><span>今週</span></div><span></span></div>'
+   +R.map(function(r){return gRowHTML(T,r);}).join('')
+   +'<div class="legend"><span>● 演習の正答率（4問ずつ）</span><span>◆ 模試の得点率</span>'+(T.hasPre?'<span>○ 記録を始める前の累計</span>':'')+'<span>点線＝60%</span><span>右の数字＝直近4週の演習（なければ最新の記録）。▲▼は前の4週との差</span></div>'
+   +(none?'<p class="fine">まだ記録のない論点：'+none+'</p>':'')+'</section>';
+}
+/* 弱点の補強：前回の模試（模試がまだの科目は、4週より前の演習）で60%未満だった論点の、その後の演習の正答率 */
+function weakRows(){
+  var A=gAgg(),P=gPre(A),cut=ymd(new Date(Date.now()-28*DAY)),rows=[],any=false;
+  SUBJ.forEach(function(sx){var k=sx.k,sub=DATA.syl.subjects.filter(function(x){return x.k===k;})[0];if(!sub)return;
+    var mk=ST.mock.filter(function(a){return a.s===k;}).map(function(a){return {a:a,g:mGOf(a)};}).filter(function(x){return x.g;}).sort(function(a,b){return b.a.at-a.a.at;})[0];
+    sub.parts.forEach(function(pt){pt.groups.forEach(function(g){var o=A[g.id]||{D:{}},B,n=0,c=0;
+      if(mk){var v=mk.g[g.id];if(!v||!v[1])return;any=true;B=v[0]/v[1];var d0=ymd(new Date(mk.a.at));Object.keys(o.D).forEach(function(d){if(d>=d0){n+=o.D[d][0];c+=o.D[d][1];}});}
+      else{var pre=P[g.id]||[0,0],bn=pre[0],bc=pre[1];Object.keys(o.D).forEach(function(d){if(d<cut){bn+=o.D[d][0];bc+=o.D[d][1];}else{n+=o.D[d][0];c+=o.D[d][1];}});
+        if(bn+n)any=true;if(bn<3)return;B=bc/bn;}
+      if(B>=GT_PASS)return;
+      rows.push({s:k,g:g,B:B,src:mk?'m':'d',rd:mk?mk.a.r:null,A:n>=3?c/n:null,n:n});});});
+  });
+  function rk(r){return r.A==null?1:r.A<GT_PASS?0:2;}   // 解いても60%未満 → まだ解いていない → 補強できた の順
+  rows.sort(function(a,b){return rk(a)-rk(b)||a.B-b.B;});
+  return {rows:rows,any:any};
+}
+function wkBar(r){
+  var W=120,H=22,L=6,R=6,y=11,X=function(v){return (L+(W-L-R)*v).toFixed(1);};
+  var s='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+y+'" y2="'+y+'" class="gt-base"/><line x1="'+X(GT_PASS)+'" x2="'+X(GT_PASS)+'" y1="3" y2="19" class="gt-pass"/>';
+  if(r.A!=null)s+='<line x1="'+X(r.B)+'" x2="'+X(r.A)+'" y1="'+y+'" y2="'+y+'" class="wk-seg '+(r.A>=GT_PASS?'up':r.A>r.B?'mid':'dn')+'"/>';
+  s+=r.src==='m'?'<path d="M'+X(r.B)+' '+(y-4)+'l4 4l-4 4l-4-4z" class="gt-mk"/>':'<circle cx="'+X(r.B)+'" cy="'+y+'" r="3.4" class="gt-pre"/>';
+  if(r.A!=null)s+='<circle cx="'+X(r.A)+'" cy="'+y+'" r="4" class="wk-a '+(r.A>=GT_PASS?'up':'dn')+'"/>';
+  var t=gPc(r.B)+'% → '+(r.A!=null?gPc(r.A)+'%（'+r.n+'問）':'未回答');
+  return '<div class="wk-b"><svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc((r.src==='m'?'模試 ':'以前の演習 ')+t)+'">'+s+'</svg><span class="'+(r.A==null?'gt-mu':r.A>=GT_PASS?'gt-hi':'gt-lo')+'">'+t+'</span></div>';
+}
+function weakSec(){
+  mGNeed();
+  var W=weakRows(),R=W.rows,h='<section class="sec" id="weak"><div class="sec-h"><span>弱点の補強</span></div>';
+  if(!R.length)return h+'<p class="fine">'+(W.any?'60%未満の論点はありません。':'演習を解いたり模擬試験を受けたりすると、60%未満だった論点が、その後の演習で補強できているかをここに出します。')+'</p></section>';
+  var fx=R.filter(function(r){return r.A!=null&&r.A>=GT_PASS;}).length,MAX=12;
+  h+='<div class="kpis"><div class="stat"><span class="k">補強できた</span><span class="v">'+fx+'<small>論点</small></span><span class="fine">その後の演習で60%以上</span></div><div class="stat"><span class="k">まだ</span><span class="v">'+(R.length-fx)+'<small>論点</small></span><span class="fine">60%未満、または未回答</span></div></div>'
+   +'<p class="fine">前回の模擬試験（模試がまだの科目は、4週より前の演習）で60%未満だった論点と、その後の演習の正答率です（3問以上解いた論点）。科目の論点表を開くと、論点ごとの推移を見られます。</p>'
+   +R.slice(0,MAX).map(function(r){return '<div class="wk-row"><div class="wk-n"><small>'+esc(SN[r.s].sh)+(r.src==='m'?'・第'+r.rd+'回の模試':'・以前の演習')+'</small><span>'+esc(r.g.n)+'</span></div>'+wkBar(r)+'<button class="btn small" type="button" data-act="drill-group" data-g="'+r.g.id+'">演習</button></div>';}).join('')
+   +(R.length>MAX?'<p class="fine">ほか'+(R.length-MAX)+'論点（弱い順に'+MAX+'まで表示）</p>':'')
+   +'<div class="legend"><span>◆ 模試</span><span>○ 以前の演習</span><span>● その後の演習</span><span>点線＝60%</span></div></section>';
   return h;
 }
 function groupAcc(k){
@@ -1291,7 +1447,7 @@ function answerConf(conf){
   var ok=correctOf(q,s.pick),g=!ok?1:conf==='sure'?3:conf==='unsure'?2:1,prev=ST.srs[id],now=Date.now();
   var rec=Object.assign(fsrs(prev,g,now),{att:((prev&&prev.att)||0)+1,cor:((prev&&prev.cor)||0)+(ok?1:0),cw:((prev&&prev.cw)||0)+(!ok&&conf==='sure'?1:0),lc:conf,ok:ok});
   if(!prev)s.newCount++;
-  ST.srs[id]=rec;save();
+  ST.srs[id]=rec;bumpG(groupOf(q.t),ok,!!s.requeued[id]);save();
   s.res.push({id:id,ok:ok});
   if(!ok&&!s.requeued[id]){s.requeued[id]=1;s.q.push(id);}
   s.phase='reveal';renderSession();
@@ -1303,7 +1459,7 @@ function finishSession(){
   if(n)bumpDay({min:mins,ans:n,cor:cor,nw:s.newCount});
   s.mins=mins;s.phase='done';renderSession();schedRender();
 }
-function bumpDay(d){var k=todayKey(),cur=ST.days[k]||{};ST.days[k]={min:Math.max(0,(cur.min||0)+(d.min||0)),ans:(cur.ans||0)+(d.ans||0),cor:(cur.cor||0)+(d.cor||0),nw:(cur.nw||0)+(d.nw||0)};save();}
+function bumpDay(d){var k=todayKey(),cur=ST.days[k]||{};ST.days[k]=Object.assign({},cur,{min:Math.max(0,(cur.min||0)+(d.min||0)),ans:(cur.ans||0)+(d.ans||0),cor:(cur.cor||0)+(d.cor||0),nw:(cur.nw||0)+(d.nw||0)});save();}
 
 /* ---------- 過去問のマークシート ---------- */
 function openSheet(s,y){
@@ -1596,6 +1752,7 @@ function submitMock(auto){
   var maxP=mMaxPts(set);if(maxP>0&&maxP!==100)score=Math.round(score*100/maxP);
   var end=Math.min(Date.now(),run.t0+mLim(run.s,run.r)*60000),mins=Math.max(1,Math.round((end-run.t0)/60000));
   var at={id:uid('m'),r:run.r,s:run.s,at:Date.now(),score:score,ok:ok,total:set.items.length,ans:Object.assign({},run.ans),flag:Object.assign({},run.flag||{}),mins:mins,auto:!!auto,early:!!run.early};
+  var G0={};mGroupStats(set.items,at.ans,run.s).forEach(function(x){G0[x.g]=[x.got,x.poss];});at.g=G0;   // 論点ごとの [得点, 配点]（推移のグラフに使う）
   ST.mock.push(at);ST.mockRun=null;if(!ST.timer)bumpDay({min:mins});save();
   m.phase='result';m.att=at;m.confirm=false;renderMock();schedRender();
   if(auto)toast('時間になったので提出しました');
