@@ -631,7 +631,7 @@
 "id": "zaimu-120",
 "type": "combo",
 "t": "zaimu.1.2.3",
-"q": "キャッシュ・フロー計算書に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "キャッシュ・フロー計算書に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 0,
 "e": "設備投資や有価証券の取得・売却は投資活動、借入れと返済・社債・株式の発行・配当金の支払いは財務活動。現金同等物に含まれる定期預金は、取得日から3か月以内に満期となるもの（決算日から数えるのではない）。",
 "st": "ok",
@@ -643,18 +643,18 @@
 "取得日から満期日までの期間が6か月の定期預金は、現金同等物に含まれる。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
 "○",
-"× cは誤り",
-"× dは誤り",
-"× dは誤り",
-"× cとdは誤り"
+"× bは正しい、cは誤り",
+"× bは正しい、dは誤り",
+"× aは正しい、dは誤り",
+"× aとbは正しい、cとdは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 262\" role=\"img\" aria-label=\"3つの区分への振り分け\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"98.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">取引</text><text x=\"278.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">記載する区分</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">商品の販売・仕入れ、</text><text x=\"6\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">給料の支払いなど</text><text x=\"202\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">営業活動</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">法人税等の支払い</text><text x=\"202\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">営業活動</text><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">有形固定資産・</text><text x=\"6\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">有価証券の取得と売却、貸付けと回収</text><text x=\"202\" y=\"102.3\" font-size=\"10.5\" style=\"fill:currentColor\">投資活動</text><path d=\"M1 116.5L359 116.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.0\" font-size=\"10.5\" style=\"fill:currentColor\">借入れと返済、社債の発行と償還、</text><text x=\"6\" y=\"145.5\" font-size=\"10.5\" style=\"fill:currentColor\">株式の発行、自己株式の取得</text><text x=\"202\" y=\"138.3\" font-size=\"10.5\" style=\"fill:currentColor\">財務活動</text><path d=\"M1 152.5L359 152.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"167.0\" font-size=\"10.5\" style=\"fill:currentColor\">配当金の支払い</text><text x=\"202\" y=\"167.0\" font-size=\"10.5\" style=\"fill:currentColor\">財務活動</text><rect x=\"1\" y=\"174.0\" width=\"358\" height=\"50.5\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 174.0L359 174.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"203.0\" font-size=\"10.5\" style=\"fill:currentColor\">利息・配当金の受取り、利息の支払い</text><text x=\"202\" y=\"188.5\" font-size=\"10.5\" style=\"fill:currentColor\">営業活動か、</text><text x=\"202\" y=\"203.0\" font-size=\"10.5\" style=\"fill:currentColor\">受取りは投資活動・</text><text x=\"202\" y=\"217.5\" font-size=\"10.5\" style=\"fill:currentColor\">支払利息は財務活動（選択）</text><rect x=\"1\" y=\"224.5\" width=\"358\" height=\"36.0\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 224.5L359 224.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"246.3\" font-size=\"10.5\" style=\"fill:currentColor\">有形固定資産の後払いでの購入</text><text x=\"202\" y=\"239.0\" font-size=\"10.5\" style=\"fill:currentColor\">代金を支払った期の投資活動</text><text x=\"202\" y=\"253.5\" font-size=\"10.5\" style=\"fill:currentColor\">（未払いの額は記載しない）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M196 0L196 259.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"259.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"現金及び現金同等物の範囲\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"120.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">預金の種類</text><text x=\"300.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">資金の範囲</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">普通預金・当座預金・</text><text x=\"6\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">通知預金（外貨建ても含む）</text><text x=\"300.0\" y=\"44.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">含む（要求払預金）</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">取得日から3か月以内に満期となる定期預金</text><text x=\"300.0\" y=\"73.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">含む（現金同等物）</text><rect x=\"1\" y=\"80.5\" width=\"358\" height=\"36.0\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">預入期間が3か月を超える定期預金</text><text x=\"6\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">（決算日の時点で満期まで3か月以内でも）</text><text x=\"300.0\" y=\"102.3\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">含まない</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M240 0L240 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"115.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -754,7 +754,7 @@
 "id": "zaimu-125",
 "type": "combo",
 "t": "zaimu.1.2.5",
-"q": "会計の原則とルールに関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "会計の原則とルールに関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 2,
 "e": "一般原則は、真実性、正規の簿記、資本取引・損益取引区分、明瞭性、継続性、保守主義、単一性の7つ。重要性の原則は一般原則には含まれない（正規の簿記の原則などに関わる）。中小会計要領は中小指針より簡便。会社法の計算書類は会社計算規則に従い、財務諸表等規則は金融商品取引法の財務諸表に使う。",
 "st": "ok",
@@ -766,18 +766,18 @@
 "重要性の原則は、企業会計原則の7つの一般原則の1つである。"
 ],
 "ch": [
-"aとc",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとdは誤り",
+"× cは正しい、aは誤り",
+"× bは正しい、aは誤り",
 "○",
-"× dは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× bは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 262\" role=\"img\" aria-label=\"企業会計原則の一般原則（7つ）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"64.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">一般原則</text><text x=\"244.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">要点</text><text x=\"6\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">真実性の原則</text><text x=\"134\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">真実な報告をする</text><text x=\"134\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">（絶対的ではなく、相対的な真実）</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.8\" font-size=\"10.5\" style=\"fill:currentColor\">正規の簿記の原則</text><text x=\"134\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">正確な会計帳簿を作る。</text><text x=\"134\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">重要性の乏しいものは簡便な処理も可</text><path d=\"M1 95.0L359 95.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">資本取引・</text><text x=\"6\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">損益取引区分の原則</text><text x=\"134\" y=\"116.8\" font-size=\"10.5\" style=\"fill:currentColor\">資本剰余金と利益剰余金を混同しない</text><path d=\"M1 131.0L359 131.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"145.5\" font-size=\"10.5\" style=\"fill:currentColor\">明瞭性の原則</text><text x=\"134\" y=\"145.5\" font-size=\"10.5\" style=\"fill:currentColor\">会計事実を明瞭に表示し、判断を誤らせない</text><path d=\"M1 152.5L359 152.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"174.3\" font-size=\"10.5\" style=\"fill:currentColor\">継続性の原則</text><text x=\"134\" y=\"167.0\" font-size=\"10.5\" style=\"fill:currentColor\">正当な理由なく、処理の原則・</text><text x=\"134\" y=\"181.5\" font-size=\"10.5\" style=\"fill:currentColor\">手続きを変更しない</text><path d=\"M1 188.5L359 188.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"210.3\" font-size=\"10.5\" style=\"fill:currentColor\">保守主義の原則</text><text x=\"134\" y=\"203.0\" font-size=\"10.5\" style=\"fill:currentColor\">不利な影響に備え、</text><text x=\"134\" y=\"217.5\" font-size=\"10.5\" style=\"fill:currentColor\">健全な処理をする（過度は不可）</text><path d=\"M1 224.5L359 224.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"246.3\" font-size=\"10.5\" style=\"fill:currentColor\">単一性の原則</text><text x=\"134\" y=\"239.0\" font-size=\"10.5\" style=\"fill:currentColor\">目的別に形式の違う財務諸表は可。</text><text x=\"134\" y=\"253.5\" font-size=\"10.5\" style=\"fill:currentColor\">ただし実質は1つ（形式の多元、実質の一元）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M128 0L128 259.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"259.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 176\" role=\"img\" aria-label=\"中小企業の会計のルール\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"38.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\"></text><text x=\"152.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">中小指針</text><text x=\"294.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">中小会計要領</text><text x=\"6\" y=\"44.8\" font-size=\"10.5\" style=\"fill:currentColor\">性格</text><text x=\"82\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">中小企業が拠ることが望ま</text><text x=\"82\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">しい会計処理や注記を示す</text><text x=\"234\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">中小指針より簡便な</text><text x=\"234\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">会計処理を示す</text><path d=\"M1 59.0L359 59.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.8\" font-size=\"10.5\" style=\"fill:currentColor\">想定する会社</text><text x=\"82\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">とくに会計参与設置会社は、</text><text x=\"82\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">拠ることが適当とされる</text><text x=\"234\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">簡便な会計処理が適当と</text><text x=\"234\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">考えられる中小企業</text><path d=\"M1 95.0L359 95.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"131.3\" font-size=\"10.5\" style=\"fill:currentColor\">対象から</text><text x=\"6\" y=\"145.8\" font-size=\"10.5\" style=\"fill:currentColor\">除く会社</text><text x=\"82\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">金融商品取引法の適用会社</text><text x=\"82\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">とその子会社・関連会社、</text><text x=\"82\" y=\"138.5\" font-size=\"10.5\" style=\"fill:currentColor\">会計監査人設置会社</text><text x=\"82\" y=\"153.0\" font-size=\"10.5\" style=\"fill:currentColor\">（任意に置く会社を含む）</text><text x=\"82\" y=\"167.5\" font-size=\"10.5\" style=\"fill:currentColor\">とその子会社</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M76 0L76 173.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M228 0L228 173.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"173.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -902,17 +902,17 @@
 "t": "zaimu.1.3.2",
 "q": "消費税に関する記述として、最も適切なものはどれか。",
 "a": 1,
-"e": "消費税は、売上に係る消費税額から仕入れに係る消費税額を差し引いて納める。税抜方式では、払った消費税を仮払消費税、受け取った消費税を仮受消費税とし、決算で相殺して差額を未払消費税とする。納税義務は、基準期間の課税売上高が1,000万円を超えるかなどで判定する。",
+"e": "消費税は、売上に係る消費税額から仕入れに係る消費税額を差し引いて納める。仕入れに係る消費税額は、商品が売れたかどうかに関係なく、課税仕入れを行った期に控除する。税抜方式では、払った消費税を仮払消費税、受け取った消費税を仮受消費税とし、決算で相殺して差額を未払消費税とする。納税義務は、基準期間の課税売上高が1,000万円を超えるかなどで判定する。",
 "st": "ok",
 "n": 1693,
 "ch": [
-"仕入税額控除の対象は、その期に売れた商品の仕入れに係る消費税額に限られる。",
+"仕入税額控除では、期末に売れ残った商品の仕入れに係る消費税額は、その期には控除せず、商品が売れた期に控除する。",
 "税抜方式では、決算で仮受消費税と仮払消費税を相殺し、差額を未払消費税とする。",
 "従業員への給料の支払いや、土地の購入でも、仮払消費税が生じる。",
 "免税事業者に当たるかどうかは、原則として、当期の課税売上高で判定する。"
 ],
 "ce": [
-"× 売れたかどうかに関係なく、その期の課税仕入れに係る消費税額が対象",
+"× 売れたかどうかに関係なく、課税仕入れを行った期に、その消費税額を控除する",
 "○ 還付を受ける場合は未収消費税",
 "× 給料は不課税、土地の譲渡は非課税なので、仮払消費税は生じない",
 "× 原則として基準期間（前々事業年度）の課税売上高で判定する"
@@ -1110,21 +1110,21 @@
 "type": "single",
 "t": "zaimu.1.4.3",
 "q": "原価情報を使った意思決定と原価管理に関する記述として、最も適切なものはどれか。",
-"a": 2,
+"a": 1,
 "e": "特別注文や内外製の判断は、差額原価（変動費や回避可能な固定費）で比べ、変わらない固定費は考えない。原価企画は、目標売価－目標利益＝目標原価を設計の段階で作り込む手法。品質原価計算では、予防原価と評価原価をかけることで、内部失敗原価と外部失敗原価を減らす。",
 "st": "ok",
 "n": 1702,
 "ch": [
-"遊休の生産能力がある場合でも、特別注文の価格が製品1個当たりの全部原価を下回るなら、必ず断るべきである。",
 "品質原価計算では、予防原価と評価原価をかけるほど、内部失敗原価と外部失敗原価も増える。",
 "原価企画では、目標売価から目標利益を差し引いて目標原価を定め、企画・設計の段階で原価を作り込む。",
-"内製か外注かの判断では、どちらの案でも変わらない共通固定費の配賦額も比較に含める。"
+"内製か外注かの判断では、どちらの案でも変わらない共通固定費の配賦額も比較に含める。",
+"遊休の生産能力があり固定費が変わらない場合、特別注文を引き受けるかどうかは、注文の価格を製品1個当たりの全部原価と比べて判断する。"
 ],
 "ce": [
-"× 遊休の能力があり固定費が変わらないなら、価格が単位当たりの変動費を上回れば引き受けると利益が増える",
 "× 予防と評価にかけると、失敗原価は減る",
 "○ 原価の多くは設計の段階で決まる",
-"× どちらでも変わらない共通固定費は比べない（差額原価で比べる）"
+"× どちらでも変わらない共通固定費は比べない（差額原価で比べる）",
+"× 固定費が変わらないなら、価格を単位当たりの変動費（差額原価）と比べる。価格が変動費を上回れば、引き受けると利益が増える"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 113\" role=\"img\" aria-label=\"特別注文を引き受けるか\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"110.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">項目</text><text x=\"290.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">金額</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">差額収益：700円×1,000個</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">700,000</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">差額原価（変動費）：600円×1,000個</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">600,000</text><rect x=\"1\" y=\"67.6\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">差額利益</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">＋100,000</text><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">固定費</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">変わらないので考えない</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M220 0L220 111.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"111.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】テキストの例。遊休の能力があり固定費が変わらないなら、価格が変動費を上回る特別注文は利益を増やす\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"原価企画\" font-size=\"12\"><text x=\"83.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">目標原価の設定</text><rect x=\"1.0\" y=\"22\" width=\"81.5\" height=\"200.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"41.8\" y=\"119.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">目標売価</text><text x=\"41.8\" y=\"134.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">10,000</text><rect x=\"84.5\" y=\"22\" width=\"81.5\" height=\"160.0\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"99.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">目標原価</text><text x=\"125.2\" y=\"114.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">8,000</text><rect x=\"84.5\" y=\"182.0\" width=\"81.5\" height=\"40.0\" style=\"fill:var(--warn);fill-opacity:0.2;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"125.2\" y=\"199.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">目標利益</text><text x=\"125.2\" y=\"214.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">2,000</text><text x=\"276.5\" y=\"15\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">原価の作り込み</text><rect x=\"194.0\" y=\"22\" width=\"81.5\" height=\"190.0\" style=\"fill:var(--ink-3);fill-opacity:0.2;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"234.8\" y=\"107.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">設計の</text><text x=\"234.8\" y=\"121.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">見積原価</text><text x=\"234.8\" y=\"136.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">9,500</text><rect x=\"277.5\" y=\"22\" width=\"81.5\" height=\"160.0\" style=\"fill:var(--good);fill-opacity:0.2;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"99.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">目標原価</text><text x=\"318.2\" y=\"114.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">8,000</text><rect x=\"277.5\" y=\"182.0\" width=\"81.5\" height=\"30.0\" style=\"fill:var(--drop);fill-opacity:0.2;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"318.2\" y=\"194.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">低減目標</text><text x=\"318.2\" y=\"209.0\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">1,500</text></svg>\n【図】テキストの例。目標売価－目標利益＝目標原価を、設計の段階で作り込む"
 },
@@ -1456,7 +1456,7 @@
 "id": "zaimu-155",
 "type": "combo",
 "t": "zaimu.1.7.1",
-"q": "資金調達の形態に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "資金調達の形態に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 4,
 "e": "企業の内部で生み出した資金（内部留保、減価償却）が内部金融、外部から調達する資金が外部金融。外部金融のうち、株式・社債・コマーシャル・ペーパーなどを投資家が直接買うのが直接金融、銀行などが預金を貸し出すのが間接金融。企業間信用は、金融機関を通さないが外部からの短期の金融である。",
 "st": "ok",
@@ -1468,17 +1468,17 @@
 "コマーシャル・ペーパーの発行による資金調達は、直接金融にあたる。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aとbは誤り",
-"× aは誤り",
-"× bは誤り",
-"× bは誤り",
+"× cとdは正しい、aとbは誤り",
+"× dは正しい、aは誤り",
+"× dは正しい、bは誤り",
+"× cは正しい、bは誤り",
 "○"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 235\" role=\"img\" aria-label=\"資金調達の分類\" font-size=\"12\"><rect x=\"158\" y=\"2\" width=\"200\" height=\"37.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"258.0\" y=\"17.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">内部留保：利益のうち、</text><text x=\"258.0\" y=\"31.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">配当などで社外に出さない部分</text><rect x=\"158\" y=\"47.0\" width=\"200\" height=\"37.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"258.0\" y=\"62.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">減価償却：費用だが現金の</text><text x=\"258.0\" y=\"76.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">支出がない分が、企業内に残る</text><rect x=\"76\" y=\"29.0\" width=\"70\" height=\"28\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"111.0\" y=\"47.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">内部金融</text><path d=\"M146 43.0H152.0V20.5H158\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M146 43.0H152.0V65.5H158\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"158\" y=\"92.0\" width=\"200\" height=\"37.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"258.0\" y=\"107.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">直接金融：株式・社債・</text><text x=\"258.0\" y=\"121.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">CPを発行し、投資家が買う</text><rect x=\"158\" y=\"137.0\" width=\"200\" height=\"50.5\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"258.0\" y=\"152.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">間接金融：銀行などから借り入れる</text><text x=\"258.0\" y=\"166.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">（証書借入、手形借入、</text><text x=\"258.0\" y=\"179.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">当座借越、手形割引）</text><rect x=\"158\" y=\"195.5\" width=\"200\" height=\"37.0\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"258.0\" y=\"211.2\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">企業間信用：買掛金・支払手形で、</text><text x=\"258.0\" y=\"224.8\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">支払いを猶予してもらう</text><rect x=\"76\" y=\"148.2\" width=\"70\" height=\"28\" rx=\"5\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"111.0\" y=\"166.2\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">外部金融</text><path d=\"M146 162.2H152.0V110.5H158\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M146 162.2H152.0V162.2H158\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M146 162.2H152.0V214.0H158\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"88.6\" width=\"62\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"33.0\" y=\"106.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">資金調達</text><path d=\"M64 102.6H70.0V43.0H76\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M64 102.6H70.0V162.2H76\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/></svg>"
@@ -1771,13 +1771,13 @@
 "st": "ok",
 "n": 1730,
 "ch": [
-"互いに排他的な投資案では、IRRの高い案を選べば、常に企業価値が最大になる。",
+"互いに排他的な投資案で、IRR法とNPV法の結論が異なるときは、IRRの高い案を選ぶ。",
 "IRR法は、途中のキャッシュ・フローがIRRで再投資されるという前提を置いている。",
 "収益性指数が1を下回る投資案は、NPVがプラスである。",
 "回収期間法は、貨幣の時間価値を考え、回収期間の後のキャッシュ・フローも評価に含める。"
 ],
 "ce": [
-"× 規模の違いなどでNPV法と結論が異なることがあり、その場合はNPVの大きい案を選ぶ",
+"× 規模の違いなどで結論が異なるときは、企業価値の増加額を直接示すNPVの大きい案を選ぶ",
 "○ NPV法は資本コストで再投資される前提",
 "× 収益性指数が1を下回るなら、NPVはマイナス",
 "× 貨幣の時間価値を考えず、回収期間の後のキャッシュ・フローも考えない"
@@ -1927,7 +1927,7 @@
 "id": "zaimu-175",
 "type": "combo",
 "t": "zaimu.1.9.2",
-"q": "資本市場の理論に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "資本市場の理論に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 1,
 "e": "効率的市場仮説は、ウィーク型（過去の価格）、セミストロング型（公開情報）、ストロング型（内部情報を含むすべて）の順に範囲が広く、外側の型が成り立てば内側の型も成り立つ（逆は成り立たない）。CAPMでは、期待収益率に反映されるのは市場リスク（β）だけで、β＝0の資産の期待収益率は無リスク利子率に等しい。",
 "st": "ok",
@@ -1939,18 +1939,18 @@
 "βが0の資産の期待収益率は、無リスク利子率に等しい。"
 ],
 "ch": [
-"aとb",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× bは誤り",
+"× dは正しい、bは誤り",
 "○",
-"× bとcは誤り",
-"× bは誤り",
-"× cは誤り"
+"× aとdは正しい、bとcは誤り",
+"× aは正しい、bは誤り",
+"× aは正しい、cは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"効率的市場仮説の3つの型\" font-size=\"12\"><rect x=\"4\" y=\"4\" width=\"352\" height=\"192\" rx=\"8\" style=\"fill:var(--drop);fill-opacity:0.1;stroke:var(--drop)\" stroke-width=\"1.3\"/><text x=\"14\" y=\"22\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">ストロング型：内部情報を含むすべての情報</text><text x=\"14\" y=\"38\" font-size=\"10.5\" style=\"fill:currentColor\">インサイダー情報でも超過収益は得られない</text><rect x=\"20\" y=\"50\" width=\"320\" height=\"140\" rx=\"8\" style=\"fill:var(--warn);fill-opacity:0.1;stroke:var(--warn)\" stroke-width=\"1.3\"/><text x=\"30\" y=\"68\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">セミストロング型：公開されているすべての情報</text><text x=\"30\" y=\"84\" font-size=\"10.5\" style=\"fill:currentColor\">ファンダメンタル分析でも得られない</text><rect x=\"36\" y=\"96\" width=\"288\" height=\"88\" rx=\"8\" style=\"fill:var(--good);fill-opacity:0.1;stroke:var(--good)\" stroke-width=\"1.3\"/><text x=\"46\" y=\"114\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">ウィーク型：過去の価格の情報</text><text x=\"46\" y=\"130\" font-size=\"10.5\" style=\"fill:currentColor\">テクニカル分析では得られない</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"資本市場線と証券市場線\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"32.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\"></text><text x=\"138.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">資本市場線（CML）</text><text x=\"286.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">証券市場線（SML）</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">横軸</text><text x=\"70\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">標準偏差（総リスク）</text><text x=\"218\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">β（市場リスク）</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"66.3\" font-size=\"10.5\" style=\"fill:currentColor\">対象</text><text x=\"70\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">効率的な</text><text x=\"70\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">ポートフォリオだけ</text><text x=\"218\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">個別の証券を</text><text x=\"218\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">含むすべての資産</text><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"102.3\" font-size=\"10.5\" style=\"fill:currentColor\">表すもの</text><text x=\"70\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">無リスク資産と市場</text><text x=\"70\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">ポートフォリオの組合せ</text><text x=\"218\" y=\"95.0\" font-size=\"10.5\" style=\"fill:currentColor\">CAPM</text><text x=\"218\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">（βと期待収益率の関係）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M64 0L64 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M212 0L212 115.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"115.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -2312,13 +2312,13 @@
 "ch": [
 "長期金利が短期金利を下回る状態を、逆イールドという。",
 "名目金利が3％、予想物価上昇率が4％のとき、実質金利は＋7％である。",
-"日本銀行のマイナス金利政策は、デフレーションに備えるための政策で、すべての預金に適用された。",
+"日本銀行のマイナス金利政策は、家計や企業が民間の銀行に預ける預金に、－0.1％の金利を適用する政策であった。",
 "変動金利の借入れは、金利が上昇しても利息は増えない。"
 ],
 "ce": [
 "○ 長期金利が短期金利より高い通常の状態が順イールド",
 "× 実質金利＝名目金利－予想物価上昇率＝－1％",
-"× デフレからの脱却をめざす政策で、金融機関が日本銀行に預ける当座預金の一部に適用された（2024年3月に解除）",
+"× －0.1％を適用したのは、金融機関が日本銀行に預ける当座預金の一部。家計や企業の預金ではない（2024年3月に解除）",
 "× 金利が上昇すると利息は増える。増えないのは固定金利"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"イールド・カーブ（形は模式的）\" font-size=\"12\"><path d=\"M40.0 170.0L40.0 10\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><path d=\"M40.0 170.0L350.0 170.0\" style=\"stroke:currentColor\" stroke-width=\"1.3\" fill=\"none\"/><text x=\"45.0\" y=\"14\" font-size=\"11\" style=\"fill:currentColor\">金利（％）</text><text x=\"348.0\" y=\"202.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">残存期間（年）</text><text x=\"69.3\" y=\"184.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">1</text><text x=\"186.7\" y=\"184.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">5</text><text x=\"333.3\" y=\"184.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">10</text><path d=\"M47.3 142.8 L54.7 137.9 L62.0 133.5 L69.3 129.4 L76.7 125.6 L84.0 122.2 L91.3 119.0 L98.7 116.0 L106.0 113.3 L113.3 110.8 L120.7 108.5 L128.0 106.4 L135.3 104.5 L142.7 102.7 L150.0 101.1 L157.3 99.6 L164.7 98.2 L172.0 96.9 L179.3 95.7 L186.7 94.7 L194.0 93.7 L201.3 92.7 L208.7 91.9 L216.0 91.1 L223.3 90.4 L230.7 89.8 L238.0 89.2 L245.3 88.6 L252.7 88.1 L260.0 87.6 L267.3 87.2 L274.7 86.8 L282.0 86.4 L289.3 86.1 L296.7 85.8 L304.0 85.5 L311.3 85.2 L318.7 85.0 L326.0 84.8 L333.3 84.6\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M47.3 41.8 L54.7 45.1 L62.0 48.0 L69.3 50.8 L76.7 53.3 L84.0 55.6 L91.3 57.7 L98.7 59.7 L106.0 61.5 L113.3 63.1 L120.7 64.7 L128.0 66.1 L135.3 67.4 L142.7 68.6 L150.0 69.6 L157.3 70.7 L164.7 71.6 L172.0 72.4 L179.3 73.2 L186.7 73.9 L194.0 74.6 L201.3 75.2 L208.7 75.8 L216.0 76.3 L223.3 76.8 L230.7 77.2 L238.0 77.6 L245.3 78.0 L252.7 78.3 L260.0 78.6 L267.3 78.9 L274.7 79.2 L282.0 79.4 L289.3 79.6 L296.7 79.8 L304.0 80.0 L311.3 80.2 L318.7 80.4 L326.0 80.5 L333.3 80.7\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"333.3\" y=\"110.4\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">順イールド（長期＞短期）</text><text x=\"333.3\" y=\"68.7\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">逆イールド（長期＜短期）</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 111\" role=\"img\" aria-label=\"日本銀行のマイナス金利政策\" font-size=\"12\"><path d=\"M6 33 L354 33\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M354 33L347.6 35.9L347.6 30.1Z\" style=\"fill:currentColor;stroke:none\"/><circle cx=\"44.0\" cy=\"33\" r=\"4.2\" style=\"fill:var(--drop)\"/><text x=\"44.0\" y=\"23\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--drop)\">2016年2月</text><text x=\"44.0\" y=\"52\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">当座預金の一部に</text><text x=\"44.0\" y=\"67\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">－0.1％を適用</text><circle cx=\"308.0\" cy=\"33\" r=\"4.2\" style=\"fill:var(--good)\"/><text x=\"308.0\" y=\"23\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:var(--good)\">2024年3月</text><text x=\"308.0\" y=\"52\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">マイナス金利</text><text x=\"308.0\" y=\"67\" text-anchor=\"middle\" font-size=\"11\" style=\"fill:currentColor\">政策を解除</text><path d=\"M44.0 78V83H308.0V78\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.3\"/><text x=\"176.0\" y=\"98\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">マイナス金利政策の期間</text></svg>"
@@ -2374,20 +2374,20 @@
 "type": "single",
 "t": "zaimu.1.2.2",
 "q": "会社法に基づく株主資本の計数の変動と剰余金の配当に関する記述として、最も適切なものはどれか。",
-"a": 2,
-"e": "剰余金の配当は、その都度、株主総会の決議で行うことができ、回数の制限はない。取締役会設置会社は、定款に定めれば、1事業年度の途中で1回に限り、取締役会の決議で金銭による中間配当ができる。配当をするときは、準備金の合計が資本金の4分の1に達するまで、配当額の10分の1を準備金として積み立てるが、役員賞与は費用なので積み立てない。その他資本剰余金は、配当の財源になるほか、株主総会の決議によって欠損（繰越利益剰余金のマイナス）の補てんにも使える。",
+"a": 1,
+"e": "剰余金の配当は、その都度、株主総会の決議で行うことができ、回数の制限はないが、純資産額が300万円を下回る場合はすることができない（会社法458条）。取締役会設置会社は、定款に定めれば、1事業年度の途中で1回に限り、取締役会の決議で金銭による中間配当ができる。配当をするときは、準備金の合計が資本金の4分の1に達するまで、配当額の10分の1を準備金として積み立てるが、役員賞与は費用なので積み立てない。その他資本剰余金は、配当の財源になるほか、株主総会の決議によって欠損（繰越利益剰余金のマイナス）の補てんにも使える。",
 "st": "ok",
 "n": 1756,
 "ch": [
-"株式会社が株主総会の決議によって剰余金の配当をすることができるのは、1事業年度につき1回に限られる。",
 "株主総会の決議で役員賞与の支給を決めた場合は、剰余金の配当と同じく、支給額の10分の1を利益準備金として積み立てなければならない。",
 "株主総会の決議によって、その他資本剰余金を減少させ、その額で繰越利益剰余金の負の残高（欠損）を補てんすることができる。",
+"株式会社は、純資産額が300万円を下回る場合でも、株主総会の決議によって剰余金の配当をすることができる。",
 "取締役会設置会社は、定款に定めがあれば、1事業年度の途中で1回に限り、取締役会の決議によって、自社製品を配当財産とする中間配当をすることができる。"
 ],
 "ce": [
-"× 剰余金の配当は、その都度、株主総会の決議で定めればよく、回数の制限はない（会社法454条1項）",
 "× 役員賞与は剰余金の配当ではなく、発生した期の費用として処理する（企業会計基準第4号）。準備金を積み立てるのは、剰余金の配当をする場合である（会社法445条4項）",
 "○ 剰余金の処分のうちの損失の処理（会社法452条）。払込資本に生じた欠損を埋めるもので、資本剰余金と利益剰余金の混同にはあたらないとされる",
+"× 純資産額が300万円を下回る場合は、剰余金の配当をすることができない（会社法458条）",
 "× 中間配当は、配当財産が金銭であるものに限られる（会社法454条5項）。定款の定め・1回に限ること・取締役会の決議の部分は正しい"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 48\" role=\"img\" aria-label=\"欠損の補てん（株主総会の決議による損失の処理）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"90\" y=\"16\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">借方</text><text x=\"270\" y=\"16\" text-anchor=\"middle\" font-weight=\"bold\" style=\"fill:currentColor\">貸方</text><text x=\"8\" y=\"39\" style=\"fill:currentColor\">その他資本剰余金</text><text x=\"172\" y=\"39\" text-anchor=\"end\" style=\"fill:currentColor\">500</text><text x=\"188\" y=\"39\" style=\"fill:currentColor\">繰越利益剰余金</text><text x=\"352\" y=\"39\" text-anchor=\"end\" style=\"fill:currentColor\">500</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M180 1L180 47\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"46\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 136\" role=\"img\" aria-label=\"欠損の補てんの前後（純資産の合計は変わらない）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"80.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">純資産の部</text><text x=\"210.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">補てんの前</text><text x=\"310.0\" y=\"15.1\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">補てんの後</text><text x=\"6\" y=\"38.3\" font-size=\"11\" style=\"fill:currentColor\">資本金</text><text x=\"254\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,000</text><text x=\"354\" y=\"38.3\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">3,000</text><path d=\"M1 45.4L359 45.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"60.5\" font-size=\"11\" style=\"fill:currentColor\">資本準備金</text><text x=\"254\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">400</text><text x=\"354\" y=\"60.5\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">400</text><rect x=\"1\" y=\"67.6\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 67.6L359 67.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"82.7\" font-size=\"11\" style=\"fill:currentColor\">その他資本剰余金</text><text x=\"254\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">800</text><text x=\"354\" y=\"82.7\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">300</text><rect x=\"1\" y=\"89.8\" width=\"358\" height=\"22.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 89.8L359 89.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"104.9\" font-size=\"11\" style=\"fill:currentColor\">繰越利益剰余金</text><text x=\"254\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">△500</text><text x=\"354\" y=\"104.9\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">0</text><path d=\"M1 112.0L359 112.0\" style=\"stroke:currentColor\" stroke-width=\"1\" fill=\"none\"/><text x=\"6\" y=\"127.1\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">純資産の合計</text><text x=\"254\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">3,700</text><text x=\"354\" y=\"127.1\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">3,700</text><path d=\"M1 23.2L359 23.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M160 0L160 133.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M260 0L260 133.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"133.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】その他資本剰余金500で、繰越利益剰余金のマイナス500を埋める例。純資産の部の中の振替なので、純資産の合計は変わらない\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 253\" role=\"img\" aria-label=\"剰余金の配当と処分の決まり\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">手続</text><text x=\"135.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">決める機関</text><text x=\"272.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">要点</text><text x=\"6\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">剰余金の配当</text><text x=\"92\" y=\"43.9\" font-size=\"10\" style=\"fill:currentColor\">株主総会</text><text x=\"92\" y=\"57.7\" font-size=\"10\" style=\"fill:currentColor\">（その都度）</text><text x=\"190\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">回数の制限はない。</text><text x=\"190\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">配当額の10分の1を準備金に</text><text x=\"190\" y=\"64.6\" font-size=\"10\" style=\"fill:currentColor\">（資本金の4分の1に達するまで）</text><path d=\"M1 71.4L359 71.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"99.2\" font-size=\"10\" style=\"fill:currentColor\">中間配当</text><text x=\"92\" y=\"92.3\" font-size=\"10\" style=\"fill:currentColor\">取締役会（定款の</text><text x=\"92\" y=\"106.1\" font-size=\"10\" style=\"fill:currentColor\">定めが必要）</text><text x=\"190\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">取締役会設置会社が、</text><text x=\"190\" y=\"99.2\" font-size=\"10\" style=\"fill:currentColor\">1事業年度の途中で1回に限り。</text><text x=\"190\" y=\"113.0\" font-size=\"10\" style=\"fill:currentColor\">金銭による配当だけ</text><rect x=\"1\" y=\"119.8\" width=\"358\" height=\"48.4\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 119.8L359 119.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"133.8\" font-size=\"10\" style=\"fill:currentColor\">損失の処理</text><text x=\"6\" y=\"147.6\" font-size=\"10\" style=\"fill:currentColor\">（欠損の</text><text x=\"6\" y=\"161.4\" font-size=\"10\" style=\"fill:currentColor\">補てん）</text><text x=\"92\" y=\"147.6\" font-size=\"10\" style=\"fill:currentColor\">株主総会</text><text x=\"190\" y=\"140.7\" font-size=\"10\" style=\"fill:currentColor\">その他資本剰余金で、</text><text x=\"190\" y=\"154.5\" font-size=\"10\" style=\"fill:currentColor\">繰越利益剰余金のマイナスを埋める</text><path d=\"M1 168.2L359 168.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"196.0\" font-size=\"10\" style=\"fill:currentColor\">準備金の減少</text><text x=\"92\" y=\"196.0\" font-size=\"10\" style=\"fill:currentColor\">株主総会</text><text x=\"190\" y=\"182.2\" font-size=\"10\" style=\"fill:currentColor\">減らせるのは準備金の額まで</text><text x=\"190\" y=\"196.0\" font-size=\"10\" style=\"fill:currentColor\">（マイナスにはできない）。</text><text x=\"190\" y=\"209.8\" font-size=\"10\" style=\"fill:currentColor\">資本金に組み入れることもできる</text><path d=\"M1 216.6L359 216.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"237.5\" font-size=\"10\" style=\"fill:currentColor\">役員賞与</text><text x=\"92\" y=\"230.6\" font-size=\"10\" style=\"fill:currentColor\">株主総会</text><text x=\"92\" y=\"244.4\" font-size=\"10\" style=\"fill:currentColor\">（報酬等の決議）</text><text x=\"190\" y=\"230.6\" font-size=\"10\" style=\"fill:currentColor\">発生した期の費用。</text><text x=\"190\" y=\"244.4\" font-size=\"10\" style=\"fill:currentColor\">準備金の積立ては不要</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 250.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M184 0L184 250.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"250.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n【図】配当・中間配当・損失の処理・準備金の減少・役員賞与の決まり"

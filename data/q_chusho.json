@@ -96,7 +96,7 @@
 "id": "chusho-102",
 "type": "combo",
 "t": "chusho.1.1.1",
-"q": "中小企業の数と構成（2021年）に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の数と構成（2021年）に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 0,
 "e": "業種別の中小企業数は小売業が最も多く、建設業、宿泊業・飲食サービス業が続く。中小企業の約半数、小規模企業の5割超が個人事業者で、中規模企業では約2割である。中小企業の従業者数（約3,310万人）は、大企業（約1,438万人）を大きく上回る。",
 "st": "ok",
@@ -108,18 +108,18 @@
 "業種別の中小企業数は、製造業が最も多い。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正"
 ],
 "ce": [
 "○",
-"× cは誤り",
-"× cは誤り",
-"× dは誤り",
-"× cとdは誤り"
+"× bは正しい、cは誤り",
+"× bは正しい、dは誤り",
+"× aは正しい、cは誤り",
+"× aは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 110\" role=\"img\" aria-label=\"企業数と従業者数（2021年）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\"></text><text x=\"165.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">企業数</text><text x=\"295.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">従業者数</text><rect x=\"1\" y=\"23\" width=\"358\" height=\"21.5\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">中小企業</text><text x=\"224\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">336.5万者（99.7％）</text><text x=\"354\" y=\"37.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">約3,310万人（69.7％）</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">うち小規模企業</text><text x=\"224\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">285.3万者（84.5％）</text><text x=\"354\" y=\"59.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">約973万人（20.5％）</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">大企業</text><text x=\"224\" y=\"80.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">1.0万者（0.3％）</text><text x=\"354\" y=\"80.5\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">約1,438万人（30.3％）</text><path d=\"M1 87.5L359 87.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"102.0\" font-size=\"10.5\" style=\"fill:currentColor\">合計</text><text x=\"224\" y=\"102.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">337.5万者</text><text x=\"354\" y=\"102.0\" text-anchor=\"end\" font-size=\"10.5\" style=\"fill:currentColor\">約4,748万人</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M230 0L230 108.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"108.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 98\" role=\"img\" aria-label=\"会社と個人事業者の内訳（企業数、2021年）\" font-size=\"12\"><text x=\"62\" y=\"26.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.0\" style=\"fill:currentColor\">中小企業</text><rect x=\"70\" y=\"2\" width=\"149.8\" height=\"40\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"144.9\" y=\"25.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">会社 52％</text><rect x=\"219.8\" y=\"2\" width=\"138.2\" height=\"40\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"288.9\" y=\"25.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">個人事業者 48％</text><text x=\"62\" y=\"78.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11.0\" style=\"fill:currentColor\">小規模企業</text><rect x=\"70\" y=\"54\" width=\"135.4\" height=\"40\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"137.7\" y=\"77.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">会社 47％</text><rect x=\"205.4\" y=\"54\" width=\"152.6\" height=\"40\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"281.7\" y=\"77.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">個人事業者 53％</text></svg>"
 },
@@ -359,7 +359,7 @@
 "id": "chusho-113",
 "type": "combo",
 "t": "chusho.1.2.1",
-"q": "中小企業の財務の特徴に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の財務の特徴に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 3,
 "e": "中小企業は大企業より固定費比率が高く、変動費比率が低いので、売上高が変わると利益が大きく振れやすい。付加価値額に占める営業純益の割合は、中小企業が9.5％、大企業が36.0％で、中小企業は付加価値のほとんどが人件費に回っている。",
 "st": "ok",
@@ -371,18 +371,18 @@
 "付加価値比率は、中小企業のほうが大企業より高い。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとcは誤り",
-"× cは誤り",
+"× dは正しい、aは誤り",
+"× bとdは正しい、aとcは誤り",
+"× dは正しい、cは誤り",
 "○",
-"× cは誤り"
+"× bは正しい、cは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 294\" role=\"img\" aria-label=\"中小企業の財務の特徴\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"48.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">論点</text><text x=\"228.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">中小企業の特徴（出題された内容）</text><text x=\"6\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">規模による違い</text><text x=\"102\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">売上高経常利益率・自己資本比率・</text><text x=\"102\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">労働生産性は大企業のほうが高く、付加価値比率・</text><text x=\"102\" y=\"64.6\" font-size=\"10\" style=\"fill:currentColor\">労働分配率・固定費比率は中小企業のほうが高い</text><path d=\"M1 71.4L359 71.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"92.3\" font-size=\"10\" style=\"fill:currentColor\">固定費と変動費</text><text x=\"102\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">大企業より固定費比率が高く、変動費比率が低い。</text><text x=\"102\" y=\"99.2\" font-size=\"10\" style=\"fill:currentColor\">売上高が変わると利益が大きく振れやすい</text><path d=\"M1 106.0L359 106.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.1\" font-size=\"10\" style=\"fill:currentColor\">付加価値比率</text><text x=\"102\" y=\"120.1\" font-size=\"10\" style=\"fill:currentColor\">中小企業のほうが大企業より高い</text><path d=\"M1 127.0L359 127.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.8\" font-size=\"10\" style=\"fill:currentColor\">平均値と中央値</text><text x=\"102\" y=\"141.0\" font-size=\"10\" style=\"fill:currentColor\">売上高・営業利益・総資産・</text><text x=\"102\" y=\"154.8\" font-size=\"10\" style=\"fill:currentColor\">純資産とも、中央値が平均値を下回る</text><text x=\"102\" y=\"168.6\" font-size=\"10\" style=\"fill:currentColor\">（一部の大きな企業が平均を押し上げる）</text><path d=\"M1 175.4L359 175.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"196.3\" font-size=\"10\" style=\"fill:currentColor\">小規模企業の業績</text><text x=\"102\" y=\"189.4\" font-size=\"10\" style=\"fill:currentColor\">1社当たり売上高は横ばい。売上高経常利益率は</text><text x=\"102\" y=\"203.2\" font-size=\"10\" style=\"fill:currentColor\">改善傾向で、経常利益は足下でも増加</text><path d=\"M1 210.0L359 210.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"230.9\" font-size=\"10\" style=\"fill:currentColor\">経常利益が</text><text x=\"6\" y=\"244.7\" font-size=\"10\" style=\"fill:currentColor\">増えた理由</text><text x=\"102\" y=\"224.0\" font-size=\"10\" style=\"fill:currentColor\">2009→2015年度に、大企業は売上高の増加で、</text><text x=\"102\" y=\"237.8\" font-size=\"10\" style=\"fill:currentColor\">中小企業は売上高が減る中で変動費の</text><text x=\"102\" y=\"251.6\" font-size=\"10\" style=\"fill:currentColor\">削減などで経常利益を増やした</text><path d=\"M1 258.4L359 258.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"279.3\" font-size=\"10\" style=\"fill:currentColor\">総資本営業利益率</text><text x=\"102\" y=\"272.4\" font-size=\"10\" style=\"fill:currentColor\">1980年度と比べ2020年度は、</text><text x=\"102\" y=\"286.2\" font-size=\"10\" style=\"fill:currentColor\">大企業・中小企業とも低下</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M96 0L96 292.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"292.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 90\" role=\"img\" aria-label=\"付加価値額に占める営業純益の割合（％）\" font-size=\"12\"><rect x=\"90.0\" y=\"7.0\" width=\"224.0\" height=\"14\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"82\" y=\"18.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">大企業</text><text x=\"319.0\" y=\"18.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">36.0％</text><rect x=\"90.0\" y=\"31.0\" width=\"59.1\" height=\"14\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"82\" y=\"42.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">中小企業</text><text x=\"154.1\" y=\"42.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">9.5％</text><path d=\"M90.0 0L90.0 52\" style=\"stroke:currentColor\" stroke-width=\"1.1\" fill=\"none\"/><text x=\"4\" y=\"66\" font-size=\"10.5\" style=\"fill:currentColor\">中小企業は、付加価値のほとんどが人件費に回り、</text><text x=\"4\" y=\"80\" font-size=\"10.5\" style=\"fill:currentColor\">営業純益（利益として残る部分）は1割未満</text></svg>"
 },
@@ -551,7 +551,7 @@
 "id": "chusho-121",
 "type": "combo",
 "t": "chusho.1.2.4",
-"q": "中小企業の資金調達に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の資金調達に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 4,
 "e": "中小企業向けの貸出は、国内銀行（信託勘定を含む）が約7割強、信用金庫が約15％を占める。エクイティ・ファイナンスは、事業の内容や将来性の評価に基づき、株式の発行の対価として出資を受けるもので、返済が不要である。小規模企業の資金調達は、運転資金も設備資金も銀行借入が最も多い。",
 "st": "ok",
@@ -563,17 +563,17 @@
 "ABLは、在庫や売掛債権、機械設備などを担保にする融資である。"
 ],
 "ch": [
-"aとb",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aとbは誤り",
-"× aは誤り",
-"× bは誤り",
-"× bは誤り",
+"× cとdは正しい、aとbは誤り",
+"× cは正しい、aは誤り",
+"× dは正しい、bは誤り",
+"× cは正しい、bは誤り",
 "○"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"中小企業向け貸出残高（2025年12月、兆円）\" font-size=\"12\"><rect x=\"100.0\" y=\"7.0\" width=\"147.4\" height=\"14\" style=\"fill:var(--good);fill-opacity:0.3;stroke:var(--good)\" stroke-width=\"1\"/><text x=\"92\" y=\"18.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">国内銀行</text><text x=\"252.4\" y=\"18.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">272.1</text><rect x=\"100.0\" y=\"31.0\" width=\"30.2\" height=\"14\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"92\" y=\"42.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">信用金庫</text><text x=\"135.2\" y=\"42.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">55.8</text><rect x=\"100.0\" y=\"55.0\" width=\"14.4\" height=\"14\" style=\"fill:var(--drop);fill-opacity:0.3;stroke:var(--drop)\" stroke-width=\"1\"/><text x=\"92\" y=\"66.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">政府系金融機関</text><text x=\"119.4\" y=\"66.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">26.6</text><rect x=\"100.0\" y=\"79.0\" width=\"8.0\" height=\"14\" style=\"fill:var(--warn);fill-opacity:0.3;stroke:var(--warn)\" stroke-width=\"1\"/><text x=\"92\" y=\"90.0\" text-anchor=\"end\" font-size=\"11\" style=\"fill:currentColor\">信用組合</text><text x=\"113.0\" y=\"90.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--warn)\">14.8</text><rect x=\"100.0\" y=\"103.0\" width=\"200.0\" height=\"14\" style=\"fill:var(--ink-3);fill-opacity:0.3;stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"92\" y=\"114.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">合計</text><text x=\"305.0\" y=\"114.0\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">369.3</text><path d=\"M100.0 0L100.0 124\" style=\"stroke:currentColor\" stroke-width=\"1.1\" fill=\"none\"/><text x=\"4\" y=\"138\" font-size=\"10.5\" style=\"fill:currentColor\">国内銀行（信託勘定を含む）が約7割強、</text><text x=\"4\" y=\"152\" font-size=\"10.5\" style=\"fill:currentColor\">信用金庫が約15％。政府系金融機関等（白書の区分）</text><text x=\"4\" y=\"166\" font-size=\"10.5\" style=\"fill:currentColor\">は商工組合中央金庫と日本政策金融公庫。</text><text x=\"4\" y=\"180\" font-size=\"10.5\" style=\"fill:currentColor\">商工中金は2025年6月に政府保有株式がすべて売却された</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 211\" role=\"img\" aria-label=\"資金調達と財務の課題\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"55.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">方法・論点</text><text x=\"235.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">内容</text><text x=\"6\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">小規模企業の</text><text x=\"6\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">資金調達</text><text x=\"116\" y=\"43.9\" font-size=\"10\" style=\"fill:currentColor\">運転資金も設備資金も、銀行借入が最も多い</text><path d=\"M1 57.6L359 57.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"71.6\" font-size=\"10\" style=\"fill:currentColor\">ABL（動産・</text><text x=\"6\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">売掛金担保融資）</text><text x=\"116\" y=\"78.5\" font-size=\"10\" style=\"fill:currentColor\">在庫、売掛債権、機械設備などを担保にする融資</text><path d=\"M1 92.2L359 92.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.2\" font-size=\"10\" style=\"fill:currentColor\">クラウドファ</text><text x=\"6\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">ンディング</text><text x=\"116\" y=\"106.2\" font-size=\"10\" style=\"fill:currentColor\">インターネットを通じて、</text><text x=\"116\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">不特定多数の人から資金を集める</text><path d=\"M1 126.8L359 126.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"147.7\" font-size=\"10\" style=\"fill:currentColor\">エクイティ・</text><text x=\"6\" y=\"161.5\" font-size=\"10\" style=\"fill:currentColor\">ファイナンス</text><text x=\"116\" y=\"140.8\" font-size=\"10\" style=\"fill:currentColor\">事業の内容や将来性の評価に基づき、株式の</text><text x=\"116\" y=\"154.6\" font-size=\"10\" style=\"fill:currentColor\">発行の対価として出資を受ける。返済が不要で、</text><text x=\"116\" y=\"168.4\" font-size=\"10\" style=\"fill:currentColor\">新規事業・事業拡大・事業再生などの資金に使う</text><path d=\"M1 175.2L359 175.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"196.1\" font-size=\"10\" style=\"fill:currentColor\">債務超過の中小企業</text><text x=\"116\" y=\"189.2\" font-size=\"10\" style=\"fill:currentColor\">50万社前後で推移。</text><text x=\"116\" y=\"203.0\" font-size=\"10\" style=\"fill:currentColor\">再生が必要な段階の企業は約40万者（2024年度）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M110 0L110 208.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"208.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -682,7 +682,7 @@
 "id": "chusho-126",
 "type": "combo",
 "t": "chusho.1.2.6",
-"q": "中小企業の設備投資と成長に向けた取組に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の設備投資と成長に向けた取組に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 1,
 "e": "中小企業のソフトウェア投資比率は上昇傾向だが、大企業を一貫して下回る。設備投資額は、足下では大企業・中規模企業・小規模企業ともに増加傾向にある（2026年版白書）。2026年版白書は、設備投資・AI・人材育成・価格転嫁・M&A・直接輸出を「稼ぐ力」を高める取組として分析している。",
 "st": "ok",
@@ -694,18 +694,18 @@
 "中小企業のソフトウェア投資比率は、大企業を上回っている。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× bは誤り",
+"× cは正しい、bは誤り",
 "○",
-"× bは誤り",
-"× bとdは誤り",
-"× dは誤り"
+"× aは正しい、bは誤り",
+"× aとcは正しい、bとdは誤り",
+"× aは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 211\" role=\"img\" aria-label=\"設備投資の動向\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"48.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">論点</text><text x=\"228.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">内容</text><text x=\"6\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">設備投資の目的</text><text x=\"102\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">2007→2017年度は「維持更新」が増え「能力拡大」</text><text x=\"102\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">が減った（守りの投資）。2017→2022年度は逆に、</text><text x=\"102\" y=\"64.6\" font-size=\"10\" style=\"fill:currentColor\">維持更新が減り、能力拡大と質的向上が増えた</text><path d=\"M1 71.4L359 71.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"92.3\" font-size=\"10\" style=\"fill:currentColor\">設備の老朽化</text><text x=\"102\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">設備年齢は大企業・中小企業とも上昇し、</text><text x=\"102\" y=\"99.2\" font-size=\"10\" style=\"fill:currentColor\">差は拡大（1990→2016年度）</text><path d=\"M1 106.0L359 106.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"126.9\" font-size=\"10\" style=\"fill:currentColor\">設備投資額</text><text x=\"102\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">大企業・中規模企業・小規模企業とも増加傾向。</text><text x=\"102\" y=\"133.8\" font-size=\"10\" style=\"fill:currentColor\">非製造業では設備の不足感が続く</text><path d=\"M1 140.6L359 140.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"161.5\" font-size=\"10\" style=\"fill:currentColor\">無形資産への投資</text><text x=\"102\" y=\"154.6\" font-size=\"10\" style=\"fill:currentColor\">製造業では、無形固定資産への投資額は有形固定資産を</text><text x=\"102\" y=\"168.4\" font-size=\"10\" style=\"fill:currentColor\">下回るが、2015年からの増加率は無形のほうが大きい</text><path d=\"M1 175.2L359 175.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"189.2\" font-size=\"10\" style=\"fill:currentColor\">ソフトウェア</text><text x=\"6\" y=\"203.0\" font-size=\"10\" style=\"fill:currentColor\">投資比率</text><text x=\"102\" y=\"196.1\" font-size=\"10\" style=\"fill:currentColor\">中小企業は上昇傾向だが、大企業を一貫して下回る</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M96 0L96 208.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"208.8\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 178\" role=\"img\" aria-label=\"取組と付加価値額の増加率（2019年→2024年）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"65.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">取組</text><text x=\"187.5\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">取り組んだ企業</text><text x=\"302.5\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">取り組まない企業</text><text x=\"6\" y=\"37.1\" font-size=\"10\" style=\"fill:currentColor\">成長に向けた設備投資</text><text x=\"187.5\" y=\"37.1\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">22.0％</text><text x=\"302.5\" y=\"37.1\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">15.2％</text><path d=\"M1 44L359 44\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"58.1\" font-size=\"10\" style=\"fill:currentColor\">成長に向けたAIの活用</text><text x=\"187.5\" y=\"58.1\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">23.0％</text><text x=\"302.5\" y=\"58.1\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">17.9％</text><path d=\"M1 65L359 65\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"79.0\" font-size=\"10\" style=\"fill:currentColor\">人材育成</text><text x=\"6\" y=\"92.8\" font-size=\"10\" style=\"fill:currentColor\">（OJTとOFF-JTの両方）</text><text x=\"187.5\" y=\"85.9\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">22.6％</text><text x=\"302.5\" y=\"79.0\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">15.4％</text><text x=\"302.5\" y=\"92.8\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">（どちらもなし）</text><path d=\"M1 99.6L359 99.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.5\" font-size=\"10\" style=\"fill:currentColor\">価格転嫁</text><text x=\"187.5\" y=\"113.6\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">21.1％</text><text x=\"187.5\" y=\"127.4\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">（75％以上転嫁）</text><text x=\"302.5\" y=\"120.5\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">13.2％（転嫁できず）</text><path d=\"M1 134.2L359 134.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"148.3\" font-size=\"10\" style=\"fill:currentColor\">M&amp;A（買収）</text><text x=\"187.5\" y=\"148.3\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">22.8％</text><text x=\"302.5\" y=\"148.3\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">18.5％</text><path d=\"M1 155.2L359 155.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"169.3\" font-size=\"10\" style=\"fill:currentColor\">直接輸出</text><text x=\"187.5\" y=\"169.3\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">23.0％</text><text x=\"302.5\" y=\"169.3\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">18.7％</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M130 0L130 175.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M245 0L245 175.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"175.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -759,7 +759,7 @@
 "id": "chusho-129",
 "type": "combo",
 "t": "chusho.1.2.7",
-"q": "中小企業の賃上げと新たな経営課題に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の賃上げと新たな経営課題に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 2,
 "e": "正社員の賃上げを実施した割合は、中規模企業が約9割、小規模事業者が約5割（2025年度）。防衛的賃上げは、賃上げした企業の過半数（全体の4割超）を占める。GXへの協力の要請を受けた割合は12.0％（2024年）から15.8％（2025年）に増えたが、少数にとどまる。",
 "st": "ok",
@@ -771,18 +771,18 @@
 "業績の改善によらない賃上げ（防衛的賃上げ）は、賃上げした企業の1割未満にとどまる。"
 ],
 "ch": [
-"aとc",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとdは誤り",
+"× bは正しい、aは誤り",
+"× bとcは正しい、aとdは誤り",
 "○",
-"× dは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× bは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 163\" role=\"img\" aria-label=\"賃上げの動向\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">項目</text><text x=\"255.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">値</text><text x=\"6\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">春季労使交渉の賃上げ率</text><text x=\"6\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">（2025年）</text><text x=\"156\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">全体5.25％、中小企業4.65％</text><text x=\"156\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">（約30年ぶりの高い水準が続く）</text><path d=\"M1 57.6L359 57.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"71.6\" font-size=\"10\" style=\"fill:currentColor\">最低賃金（2025年度、</text><text x=\"6\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">全国加重平均）</text><text x=\"156\" y=\"71.6\" font-size=\"10\" style=\"fill:currentColor\">1,121円（前年度から66円、</text><text x=\"156\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">6.3％の引上げで過去最高）</text><path d=\"M1 92.2L359 92.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"106.2\" font-size=\"10\" style=\"fill:currentColor\">賃上げを実施した割合</text><text x=\"6\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">（2025年度）</text><text x=\"156\" y=\"106.2\" font-size=\"10\" style=\"fill:currentColor\">正社員では、中規模企業が約9割、</text><text x=\"156\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">小規模事業者が約5割</text><path d=\"M1 126.8L359 126.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"140.8\" font-size=\"10\" style=\"fill:currentColor\">業績の改善によらない賃上げ</text><text x=\"6\" y=\"154.6\" font-size=\"10\" style=\"fill:currentColor\">（防衛的賃上げ）</text><text x=\"156\" y=\"147.7\" font-size=\"10\" style=\"fill:currentColor\">賃上げした企業の過半数（全体の4割超）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 160.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"160.4\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 174\" role=\"img\" aria-label=\"中小企業に求められる「共通価値」\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"174.0\" height=\"172.0\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.1;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"88.0\" y=\"21.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--good)\">取引先から求められる対応</text><path d=\"M8 28.6L168.0 28.6\" style=\"stroke:var(--good)\" stroke-width=\"0.8\" fill=\"none\"/><text x=\"6\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"16\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">脱炭素化（GX）：</text><text x=\"16\" y=\"59.2\" font-size=\"10\" style=\"fill:currentColor\">取引先から協力の要請を受けた</text><text x=\"16\" y=\"72.8\" font-size=\"10\" style=\"fill:currentColor\">割合は12.0％（2024年）</text><text x=\"16\" y=\"86.4\" font-size=\"10\" style=\"fill:currentColor\">→15.8％（2025年）</text><text x=\"6\" y=\"104.0\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"16\" y=\"104.0\" font-size=\"10\" style=\"fill:currentColor\">経済安全保障：</text><text x=\"16\" y=\"117.6\" font-size=\"10\" style=\"fill:currentColor\">要請はサイバーセキュリティ・</text><text x=\"16\" y=\"131.2\" font-size=\"10\" style=\"fill:currentColor\">技術情報の管理の強化が3割超</text><text x=\"6\" y=\"148.8\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"16\" y=\"148.8\" font-size=\"10\" style=\"fill:currentColor\">人権：取組の要請を</text><text x=\"16\" y=\"162.4\" font-size=\"10\" style=\"fill:currentColor\">受けた企業は13.3％</text><rect x=\"185.0\" y=\"1\" width=\"174.0\" height=\"172.0\" rx=\"6\" style=\"fill:var(--drop);fill-opacity:0.1;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"272.0\" y=\"21.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">BCP（事業継続計画）</text><path d=\"M192.0 28.6L352.0 28.6\" style=\"stroke:var(--drop)\" stroke-width=\"0.8\" fill=\"none\"/><text x=\"190.0\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"200.0\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">中小企業の策定率は</text><text x=\"200.0\" y=\"59.2\" font-size=\"10\" style=\"fill:currentColor\">上昇傾向だが、大企業を下回る</text><text x=\"190.0\" y=\"76.8\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"200.0\" y=\"76.8\" font-size=\"10\" style=\"fill:currentColor\">2019〜2021年の調査では、</text><text x=\"200.0\" y=\"90.4\" font-size=\"10\" style=\"fill:currentColor\">毎回半数近くが</text><text x=\"200.0\" y=\"104.0\" font-size=\"10\" style=\"fill:currentColor\">「策定していない」</text></svg>"
 },
@@ -1082,7 +1082,7 @@
 "id": "chusho-142",
 "type": "combo",
 "t": "chusho.2.1.3",
-"q": "中小企業金融に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業金融に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 4,
 "e": "経営者保証に関するガイドライン（2014年2月）は、法的な拘束力はなく、金融機関・中小企業・保証人が自主的に尊重し守ることが期待されるルールである。資本性劣後ローンは、期限一括償還、業績に連動する金利、ほかの債権より後順位（劣後）という特徴を持ち、金融検査で自己資本とみなせる。",
 "st": "ok",
@@ -1094,17 +1094,17 @@
 "商工組合中央金庫（商工中金）は、2025年6月に政府が保有する株式がすべて売却された。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aとbは誤り",
-"× aは誤り",
-"× aは誤り",
-"× bは誤り",
+"× cとdは正しい、aとbは誤り",
+"× dは正しい、aは誤り",
+"× cは正しい、aは誤り",
+"× cは正しい、bは誤り",
 "○"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 288\" role=\"img\" aria-label=\"経営者保証\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"174.0\" height=\"285.1\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.1;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"88.0\" y=\"20.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.0\" style=\"fill:var(--good)\">経営者保証に関するガイドライン</text><text x=\"88.0\" y=\"33.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.0\" style=\"fill:var(--good)\">（2014年2月）</text><path d=\"M8 40.8L168.0 40.8\" style=\"stroke:var(--good)\" stroke-width=\"0.8\" fill=\"none\"/><text x=\"6\" y=\"57.3\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"15.5\" y=\"57.3\" font-size=\"9.5\" style=\"fill:currentColor\">法的な拘束力はなく、金融機関・</text><text x=\"15.5\" y=\"70.2\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業・保証人が自主的に</text><text x=\"15.5\" y=\"83.1\" font-size=\"9.5\" style=\"fill:currentColor\">尊重し守ることが期待されるルール</text><text x=\"6\" y=\"100.0\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"15.5\" y=\"100.0\" font-size=\"9.5\" style=\"fill:currentColor\">保証に頼らない融資の要件：</text><text x=\"15.5\" y=\"112.9\" font-size=\"9.5\" style=\"fill:currentColor\">①法人と経営者の資産・</text><text x=\"15.5\" y=\"125.8\" font-size=\"9.5\" style=\"fill:currentColor\">経理の明確な分離　②財務基盤の</text><text x=\"15.5\" y=\"138.7\" font-size=\"9.5\" style=\"fill:currentColor\">強化　③適時適切な</text><text x=\"15.5\" y=\"151.6\" font-size=\"9.5\" style=\"fill:currentColor\">情報開示による経営の透明性</text><text x=\"6\" y=\"168.5\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"15.5\" y=\"168.5\" font-size=\"9.5\" style=\"fill:currentColor\">保証債務の整理：</text><text x=\"15.5\" y=\"181.4\" font-size=\"9.5\" style=\"fill:currentColor\">早期に事業再生や廃業を決めれば、</text><text x=\"15.5\" y=\"194.3\" font-size=\"9.5\" style=\"fill:currentColor\">自由財産99万円に加えて生活費や</text><text x=\"15.5\" y=\"207.2\" font-size=\"9.5\" style=\"fill:currentColor\">「華美でない」</text><text x=\"15.5\" y=\"220.1\" font-size=\"9.5\" style=\"fill:currentColor\">自宅を残せることがあり、</text><text x=\"15.5\" y=\"233.0\" font-size=\"9.5\" style=\"fill:currentColor\">返しきれない残額は原則として免除</text><text x=\"6\" y=\"249.9\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"15.5\" y=\"249.9\" font-size=\"9.5\" style=\"fill:currentColor\">事業承継のときは、新旧の経営者の</text><text x=\"15.5\" y=\"262.8\" font-size=\"9.5\" style=\"fill:currentColor\">両方から保証を取る二重徴求を</text><text x=\"15.5\" y=\"275.7\" font-size=\"9.5\" style=\"fill:currentColor\">原則として禁止（2020年4月から）</text><rect x=\"185.0\" y=\"1\" width=\"174.0\" height=\"285.1\" rx=\"6\" style=\"fill:var(--warn);fill-opacity:0.1;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"272.0\" y=\"20.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.0\" style=\"fill:var(--warn)\">経営者保証を不要にする仕組み</text><path d=\"M192.0 27.9L352.0 27.9\" style=\"stroke:var(--warn)\" stroke-width=\"0.8\" fill=\"none\"/><text x=\"190.0\" y=\"44.4\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"199.5\" y=\"44.4\" font-size=\"9.5\" style=\"fill:currentColor\">信用保証の保証料に0.25％か</text><text x=\"199.5\" y=\"57.3\" font-size=\"9.5\" style=\"fill:currentColor\">0.45％を上乗せすれば、</text><text x=\"199.5\" y=\"70.2\" font-size=\"9.5\" style=\"fill:currentColor\">経営者保証を外せる保証</text><text x=\"199.5\" y=\"83.1\" font-size=\"9.5\" style=\"fill:currentColor\">（2024年3月から）</text><text x=\"190.0\" y=\"100.0\" font-size=\"9.5\" style=\"fill:currentColor\">・</text><text x=\"199.5\" y=\"100.0\" font-size=\"9.5\" style=\"fill:currentColor\">事業性融資推進法の企業価値担保権</text><text x=\"199.5\" y=\"112.9\" font-size=\"9.5\" style=\"fill:currentColor\">（2026年5月施行）：</text><text x=\"199.5\" y=\"125.8\" font-size=\"9.5\" style=\"fill:currentColor\">のれんなどを含む事業全体を</text><text x=\"199.5\" y=\"138.7\" font-size=\"9.5\" style=\"fill:currentColor\">担保にでき、経営者保証による</text><text x=\"199.5\" y=\"151.6\" font-size=\"9.5\" style=\"fill:currentColor\">権利行使は原則として制限される</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 269\" role=\"img\" aria-label=\"政府系金融機関と投資の支援\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"55.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">機関</text><text x=\"235.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">内容</text><text x=\"6\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">日本政策金融公庫</text><text x=\"116\" y=\"36.5\" font-size=\"9.5\" style=\"fill:currentColor\">2008年10月に国民生活金融公庫・</text><text x=\"116\" y=\"49.6\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業金融公庫などを統合して発足。</text><text x=\"116\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">国民生活事業・中小企業事業・</text><text x=\"116\" y=\"75.8\" font-size=\"9.5\" style=\"fill:currentColor\">農林水産事業の融資のほか、信用保証協会の保証の保険</text><text x=\"116\" y=\"88.9\" font-size=\"9.5\" style=\"fill:currentColor\">（信用保険）と危機対応の業務も行う</text><path d=\"M1 95.5L359 95.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"115.5\" font-size=\"9.5\" style=\"fill:currentColor\">商工組合中央金庫</text><text x=\"6\" y=\"128.6\" font-size=\"9.5\" style=\"fill:currentColor\">（商工中金）</text><text x=\"116\" y=\"109.0\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業組合とその構成員などに融資。</text><text x=\"116\" y=\"122.1\" font-size=\"9.5\" style=\"fill:currentColor\">2025年6月に政府が保有株式をすべて売却した</text><text x=\"116\" y=\"135.2\" font-size=\"9.5\" style=\"fill:currentColor\">（危機対応の業務は続ける）</text><path d=\"M1 141.8L359 141.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業投資</text><text x=\"6\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">育成株式会社</text><text x=\"116\" y=\"155.3\" font-size=\"9.5\" style=\"fill:currentColor\">原則として資本金3億円以下の株式会社に投資</text><text x=\"116\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">（計画の承認・認定などがあれば3億円超も可）。</text><text x=\"116\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">株式、新株予約権、新株予約権付社債を引き受け、</text><text x=\"116\" y=\"194.6\" font-size=\"9.5\" style=\"fill:currentColor\">長期の安定株主になる。東京・名古屋・大阪の3社</text><path d=\"M1 201.2L359 201.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"214.7\" font-size=\"9.5\" style=\"fill:currentColor\">地域経済活性化支</text><text x=\"6\" y=\"227.8\" font-size=\"9.5\" style=\"fill:currentColor\">援機構（REVIC）</text><text x=\"116\" y=\"214.7\" font-size=\"9.5\" style=\"fill:currentColor\">過大な債務を抱えた事業者の事業再生（債権の買取り・</text><text x=\"116\" y=\"227.8\" font-size=\"9.5\" style=\"fill:currentColor\">出資など）や、地域活性化ファンドの運営</text><path d=\"M1 234.4L359 234.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"247.9\" font-size=\"9.5\" style=\"fill:currentColor\">中小機構の</text><text x=\"6\" y=\"261.0\" font-size=\"9.5\" style=\"fill:currentColor\">ファンド出資</text><text x=\"116\" y=\"247.9\" font-size=\"9.5\" style=\"fill:currentColor\">民間のベンチャーキャピタルなどが運営するファンドに</text><text x=\"116\" y=\"261.0\" font-size=\"9.5\" style=\"fill:currentColor\">出資（起業支援ファンドは総額の2分の1以内）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M110 0L110 266.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"266.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -1205,7 +1205,7 @@
 "id": "chusho-147",
 "type": "combo",
 "t": "chusho.2.1.4",
-"q": "事業承継とM&Aの支援に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "事業承継とM&Aの支援に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 1,
 "e": "遺留分の特例は、経済産業大臣の確認と家庭裁判所の許可で効力が生じる（金融支援、事業承継税制の前提、所在不明株主の特例は都道府県知事の認定）。中小会計要領（2012年）は多くの中小企業向けの簡便な処理で、会計参与設置会社などを想定するのは中小会計指針（2005年）である。",
 "st": "ok",
@@ -1217,18 +1217,18 @@
 "経営承継円滑化法の遺留分に関する民法の特例は、都道府県知事の認定によって効力が生じる。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× bは誤り",
+"× cは正しい、bは誤り",
 "○",
-"× dは誤り",
-"× bとdは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× aとcは正しい、bとdは誤り",
+"× aは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 195\" role=\"img\" aria-label=\"経営承継円滑化法の4つの支援\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"33.2\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"48.0\" y=\"13.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">経営承継円滑化法の</text><text x=\"48.0\" y=\"26.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">措置</text><text x=\"181.0\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">内容</text><text x=\"313.0\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">手続</text><text x=\"6\" y=\"54.2\" font-size=\"9.5\" style=\"fill:currentColor\">①遺留分に関する</text><text x=\"6\" y=\"67.3\" font-size=\"9.5\" style=\"fill:currentColor\">民法の特例</text><text x=\"102\" y=\"47.7\" font-size=\"9.5\" style=\"fill:currentColor\">除外合意・固定合意で、自社株式を</text><text x=\"102\" y=\"60.8\" font-size=\"9.5\" style=\"fill:currentColor\">遺留分の争いから切り離す</text><text x=\"102\" y=\"73.9\" font-size=\"9.5\" style=\"fill:currentColor\">（個人事業者は除外合意のみ）</text><text x=\"272\" y=\"47.7\" font-size=\"9.5\" style=\"fill:currentColor\">経済産業大臣の</text><text x=\"272\" y=\"60.8\" font-size=\"9.5\" style=\"fill:currentColor\">確認と</text><text x=\"272\" y=\"73.9\" font-size=\"9.5\" style=\"fill:currentColor\">家庭裁判所の許可</text><path d=\"M1 80.5L359 80.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"100.5\" font-size=\"9.5\" style=\"fill:currentColor\">②金融支援</text><text x=\"102\" y=\"94.0\" font-size=\"9.5\" style=\"fill:currentColor\">信用保険の特例（別枠の保証）、</text><text x=\"102\" y=\"107.1\" font-size=\"9.5\" style=\"fill:currentColor\">日本政策金融公庫などの特例</text><text x=\"272\" y=\"94.0\" font-size=\"9.5\" style=\"fill:currentColor\">都道府県知事の</text><text x=\"272\" y=\"107.1\" font-size=\"9.5\" style=\"fill:currentColor\">認定</text><path d=\"M1 113.7L359 113.7\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"127.2\" font-size=\"9.5\" style=\"fill:currentColor\">③事業承継税制の</text><text x=\"6\" y=\"140.3\" font-size=\"9.5\" style=\"fill:currentColor\">前提の認定</text><text x=\"102\" y=\"127.2\" font-size=\"9.5\" style=\"fill:currentColor\">相続税・贈与税の</text><text x=\"102\" y=\"140.3\" font-size=\"9.5\" style=\"fill:currentColor\">納税猶予を受けるための認定</text><text x=\"272\" y=\"127.2\" font-size=\"9.5\" style=\"fill:currentColor\">都道府県知事の</text><text x=\"272\" y=\"140.3\" font-size=\"9.5\" style=\"fill:currentColor\">認定</text><path d=\"M1 146.9L359 146.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"166.9\" font-size=\"9.5\" style=\"fill:currentColor\">④所在不明株主の</text><text x=\"6\" y=\"180.0\" font-size=\"9.5\" style=\"fill:currentColor\">特例</text><text x=\"102\" y=\"160.4\" font-size=\"9.5\" style=\"fill:currentColor\">会社法の「5年」の期間を</text><text x=\"102\" y=\"173.5\" font-size=\"9.5\" style=\"fill:currentColor\">「1年」に縮め、所在不明の</text><text x=\"102\" y=\"186.6\" font-size=\"9.5\" style=\"fill:currentColor\">株主の株式を早く処理できる</text><text x=\"272\" y=\"166.9\" font-size=\"9.5\" style=\"fill:currentColor\">都道府県知事の</text><text x=\"272\" y=\"180.0\" font-size=\"9.5\" style=\"fill:currentColor\">認定</text><path d=\"M1 34.2L359 34.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M96 0L96 192.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M266 0L266 192.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"192.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 262\" role=\"img\" aria-label=\"事業承継・M&amp;Aの支援\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"50.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">支援</text><text x=\"230.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">内容</text><text x=\"6\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">事業承継・引継ぎ</text><text x=\"6\" y=\"75.8\" font-size=\"9.5\" style=\"fill:currentColor\">支援センター</text><text x=\"106\" y=\"36.5\" font-size=\"9.5\" style=\"fill:currentColor\">全都道府県に置かれ、全国本部は中小企業基盤整備機構。</text><text x=\"106\" y=\"49.6\" font-size=\"9.5\" style=\"fill:currentColor\">親族内承継から第三者への引継ぎ（M&amp;A）</text><text x=\"106\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">まで無料で相談に乗る。後継者人材バンクで、</text><text x=\"106\" y=\"75.8\" font-size=\"9.5\" style=\"fill:currentColor\">後継者のいない事業者と起業を志す個人を引き合わせる。</text><text x=\"106\" y=\"88.9\" font-size=\"9.5\" style=\"fill:currentColor\">2021年4月に事業引継ぎ支援センターと事業承継</text><text x=\"106\" y=\"102.0\" font-size=\"9.5\" style=\"fill:currentColor\">ネットワークを統合。相談者数・成約件数とも増加傾向</text><path d=\"M1 108.6L359 108.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"135.2\" font-size=\"9.5\" style=\"fill:currentColor\">中小M&amp;A</text><text x=\"6\" y=\"148.3\" font-size=\"9.5\" style=\"fill:currentColor\">ガイドライン</text><text x=\"106\" y=\"122.1\" font-size=\"9.5\" style=\"fill:currentColor\">2020年3月に初版、2024年8月に第3版。手数料の目安、</text><text x=\"106\" y=\"135.2\" font-size=\"9.5\" style=\"fill:currentColor\">仲介者の利益相反の防止など。契約終了後の取引にも</text><text x=\"106\" y=\"148.3\" font-size=\"9.5\" style=\"fill:currentColor\">手数料がかかるテール条項は限定的に運用（最長でも</text><text x=\"106\" y=\"161.4\" font-size=\"9.5\" style=\"fill:currentColor\">2〜3年）。セカンド・オピニオンは原則として認める</text><path d=\"M1 168.0L359 168.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">M&amp;A支援機関</text><text x=\"6\" y=\"194.6\" font-size=\"9.5\" style=\"fill:currentColor\">登録制度</text><text x=\"106\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">2021年8月に創設。補助金でFA・</text><text x=\"106\" y=\"194.6\" font-size=\"9.5\" style=\"fill:currentColor\">仲介の費用を払えるのは、登録した支援機関の分だけ</text><path d=\"M1 201.2L359 201.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"227.8\" font-size=\"9.5\" style=\"fill:currentColor\">中小PMI</text><text x=\"6\" y=\"240.9\" font-size=\"9.5\" style=\"fill:currentColor\">ガイドライン</text><text x=\"106\" y=\"214.7\" font-size=\"9.5\" style=\"fill:currentColor\">2022年3月。PMIを経営統合・信頼関係構築・</text><text x=\"106\" y=\"227.8\" font-size=\"9.5\" style=\"fill:currentColor\">業務統合の3つの領域に分ける。</text><text x=\"106\" y=\"240.9\" font-size=\"9.5\" style=\"fill:currentColor\">準備はM&amp;Aの検討の段階から始める。成立後おおむね</text><text x=\"106\" y=\"254.0\" font-size=\"9.5\" style=\"fill:currentColor\">1年の集中実施期の後も、継続して取り組む</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M100 0L100 259.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"259.6\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -1259,7 +1259,7 @@
 "id": "chusho-149",
 "type": "combo",
 "t": "chusho.2.1.5",
-"q": "商業・地域の支援に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "商業・地域の支援に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 3,
 "e": "高度化事業は、中小企業組合などが共同で行う事業に、都道府県と中小企業基盤整備機構が協調して資金を貸し付ける制度で、設備資金の貸付割合は原則80％以内、期間20年以内（据置3年以内）、無利子または低利。商店街活性化事業計画は、経済産業大臣が認定する（期間3〜5年）。",
 "st": "ok",
@@ -1271,18 +1271,18 @@
 "中小企業地域資源活用促進法は、2020年10月に廃止され、地域未来投資促進法の地域経済牽引事業計画に統合された。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとcは誤り",
-"× aは誤り",
+"× dは正しい、aは誤り",
+"× bとdは正しい、aとcは誤り",
+"× bは正しい、aは誤り",
 "○",
-"× cは誤り"
+"× bは正しい、cは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 177\" role=\"img\" aria-label=\"高度化事業\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"40.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">項目</text><text x=\"220.0\" y=\"14.6\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">高度化事業（高度化融資）</text><text x=\"6\" y=\"43.9\" font-size=\"10\" style=\"fill:currentColor\">仕組み</text><text x=\"86\" y=\"37.0\" font-size=\"10\" style=\"fill:currentColor\">中小企業組合などが共同で行う事業に、都道府県と</text><text x=\"86\" y=\"50.8\" font-size=\"10\" style=\"fill:currentColor\">中小企業基盤整備機構が協調して資金を貸し付ける</text><path d=\"M1 57.6L359 57.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"78.5\" font-size=\"10\" style=\"fill:currentColor\">条件</text><text x=\"86\" y=\"71.6\" font-size=\"10\" style=\"fill:currentColor\">設備資金。貸付割合は原則80％以内、</text><text x=\"86\" y=\"85.4\" font-size=\"10\" style=\"fill:currentColor\">期間20年以内（据置3年以内）、無利子または低利</text><path d=\"M1 92.2L359 92.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">事業の例</text><text x=\"86\" y=\"106.2\" font-size=\"10\" style=\"fill:currentColor\">集積区域整備事業（商店街のアーケード・</text><text x=\"86\" y=\"120.0\" font-size=\"10\" style=\"fill:currentColor\">カラー舗装・駐車場）、集団化事業</text><text x=\"86\" y=\"133.8\" font-size=\"10\" style=\"fill:currentColor\">（工場団地など）、施設集約化事業、共同施設事業</text><path d=\"M1 140.6L359 140.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"154.6\" font-size=\"10\" style=\"fill:currentColor\">ほかの</text><text x=\"6\" y=\"168.4\" font-size=\"10\" style=\"fill:currentColor\">法律との関係</text><text x=\"86\" y=\"154.6\" font-size=\"10\" style=\"fill:currentColor\">地域商店街活性化法、物流総合効率化法</text><text x=\"86\" y=\"168.4\" font-size=\"10\" style=\"fill:currentColor\">（総合効率化計画）などの認定を受けると使える</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M80 0L80 174.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"174.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 102\" role=\"img\" aria-label=\"廃止された法律（過去に出題）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358.0\" height=\"100.0\" rx=\"6\" style=\"fill:var(--ink-3);fill-opacity:0.1;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"21.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--ink-3)\">中小企業地域資源活用促進法（2007〜2020年）</text><path d=\"M8 28.6L352.0 28.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.8\" fill=\"none\"/><text x=\"6\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"16\" y=\"45.6\" font-size=\"10\" style=\"fill:currentColor\">地域産業資源（農林水産物、鉱工業品とその生産技術、</text><text x=\"16\" y=\"59.2\" font-size=\"10\" style=\"fill:currentColor\">観光資源）を生かす中小企業の計画を国が認定していた</text><text x=\"6\" y=\"76.8\" font-size=\"10\" style=\"fill:currentColor\">・</text><text x=\"16\" y=\"76.8\" font-size=\"10\" style=\"fill:currentColor\">2020年10月の中小企業成長促進法で廃止され、</text><text x=\"16\" y=\"90.4\" font-size=\"10\" style=\"fill:currentColor\">地域未来投資促進法の地域経済牽引事業計画に統合</text></svg>"
 },
@@ -1359,30 +1359,30 @@
 "id": "chusho-153",
 "type": "combo",
 "t": "chusho.2.1.6",
-"q": "中小企業の組合に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業の組合に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 1,
-"e": "事業協同組合と企業組合（中小企業等協同組合法）は、協業組合とともに、中小企業団体の組織に関する法律の規定により株式会社に組織変更できるが、商店街振興組合はできない。企業組合では、従事者の3分の1以上が組合員である必要もある。LLPの損益の分配は、出資比率によらず組合員の合意で決められ、構成員課税（組合に法人税はかからない）である。",
+"e": "事業協同組合と企業組合（中小企業等協同組合法）は、協業組合とともに、中小企業団体の組織に関する法律の規定により株式会社に組織変更できるが、商店街振興組合はできない。企業組合では、従事者の3分の1以上が組合員である必要もある。LLPの損益の分配は、出資比率によらず組合員の合意で決められる。課税は構成員課税（パススルー課税）で、組合に法人税はかからず、損益を組合員に帰属させて組合員の段階で課税する。",
 "st": "ok",
 "n": 1052,
 "stm": [
 "企業組合では、組合員の2分の1以上が組合の事業に従事しなければならない。",
 "商店街振興組合は、株式会社に組織変更することができる。",
 "事業協同組合は、4人以上の事業者が発起人となって設立し、議決権は出資額にかかわらず1人1票である。",
-"有限責任事業組合（LLP）の損益の分配は、必ず出資比率に従わなければならない。"
+"有限責任事業組合（LLP）の利益には、組合員への分配の前に、組合の段階で法人税が課される。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× bは誤り",
+"× cは正しい、bは誤り",
 "○",
-"× dは誤り",
-"× bとdは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× aとcは正しい、bとdは誤り",
+"× aは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 486\" role=\"img\" aria-label=\"組合などの連携組織\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">組織</text><text x=\"131.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">根拠法</text><text x=\"268.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">特徴</text><text x=\"6\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">事業協同組合</text><text x=\"92\" y=\"56.1\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業等</text><text x=\"92\" y=\"69.2\" font-size=\"9.5\" style=\"fill:currentColor\">協同組合法</text><text x=\"182\" y=\"36.5\" font-size=\"9.5\" style=\"fill:currentColor\">4人以上の事業者が発起人。</text><text x=\"182\" y=\"49.6\" font-size=\"9.5\" style=\"fill:currentColor\">組合員の事業を助ける共同事業</text><text x=\"182\" y=\"62.7\" font-size=\"9.5\" style=\"fill:currentColor\">（共同購買・共同販売など）。</text><text x=\"182\" y=\"75.8\" font-size=\"9.5\" style=\"fill:currentColor\">議決権は出資額にかかわらず1人1票。</text><text x=\"182\" y=\"88.9\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業組合で最も数が多い</text><path d=\"M1 95.5L359 95.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"128.6\" font-size=\"9.5\" style=\"fill:currentColor\">企業組合</text><text x=\"92\" y=\"122.1\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業等</text><text x=\"92\" y=\"135.2\" font-size=\"9.5\" style=\"fill:currentColor\">協同組合法</text><text x=\"182\" y=\"109.0\" font-size=\"9.5\" style=\"fill:currentColor\">個人が集まり、組合そのものが1つの</text><text x=\"182\" y=\"122.1\" font-size=\"9.5\" style=\"fill:currentColor\">企業として事業を行う。組合員の</text><text x=\"182\" y=\"135.2\" font-size=\"9.5\" style=\"fill:currentColor\">2分の1以上が組合の事業に従事し、</text><text x=\"182\" y=\"148.3\" font-size=\"9.5\" style=\"fill:currentColor\">従事者の3分の1以上が組合員</text><path d=\"M1 154.9L359 154.9\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"174.9\" font-size=\"9.5\" style=\"fill:currentColor\">協業組合</text><text x=\"92\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業団体の</text><text x=\"92\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">組織に関する法律</text><text x=\"182\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業者が事業の一部や全部を</text><text x=\"182\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">統合して、規模の利益を得る</text><path d=\"M1 188.1L359 188.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"260.5\" font-size=\"9.5\" style=\"fill:currentColor\">商店街振興組合</text><text x=\"92\" y=\"260.5\" font-size=\"9.5\" style=\"fill:currentColor\">商店街振興組合法</text><text x=\"182\" y=\"201.6\" font-size=\"9.5\" style=\"fill:currentColor\">地区内で小売商業・サービス業を</text><text x=\"182\" y=\"214.7\" font-size=\"9.5\" style=\"fill:currentColor\">営む30人以上が近接していることが</text><text x=\"182\" y=\"227.8\" font-size=\"9.5\" style=\"fill:currentColor\">必要で、発起人は7人以上</text><text x=\"182\" y=\"240.9\" font-size=\"9.5\" style=\"fill:currentColor\">（事業協同組合は4人以上）。</text><text x=\"182\" y=\"254.0\" font-size=\"9.5\" style=\"fill:currentColor\">組合員の2分の1以上が小売商業または</text><text x=\"182\" y=\"267.1\" font-size=\"9.5\" style=\"fill:currentColor\">サービス業を営む。地区内の資格者の</text><text x=\"182\" y=\"280.2\" font-size=\"9.5\" style=\"fill:currentColor\">3分の2以上が加入。1つの地区に</text><text x=\"182\" y=\"293.3\" font-size=\"9.5\" style=\"fill:currentColor\">1つの組合。議決権は1人1票。</text><text x=\"182\" y=\"306.4\" font-size=\"9.5\" style=\"fill:currentColor\">名称に「商店街振興組合」を使う。</text><text x=\"182\" y=\"319.5\" font-size=\"9.5\" style=\"fill:currentColor\">株式会社への組織変更はできない</text><path d=\"M1 326.1L359 326.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"352.7\" font-size=\"9.5\" style=\"fill:currentColor\">技術研究組合</text><text x=\"92\" y=\"352.7\" font-size=\"9.5\" style=\"fill:currentColor\">技術研究組合法</text><text x=\"182\" y=\"339.6\" font-size=\"9.5\" style=\"fill:currentColor\">試験研究を共同で行う。</text><text x=\"182\" y=\"352.7\" font-size=\"9.5\" style=\"fill:currentColor\">株式会社などへの組織変更ができる</text><text x=\"182\" y=\"365.8\" font-size=\"9.5\" style=\"fill:currentColor\">（特許料の免除はない）</text><path d=\"M1 372.4L359 372.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"425.2\" font-size=\"9.5\" style=\"fill:currentColor\">有限責任事業</text><text x=\"6\" y=\"438.3\" font-size=\"9.5\" style=\"fill:currentColor\">組合（LLP）</text><text x=\"92\" y=\"425.2\" font-size=\"9.5\" style=\"fill:currentColor\">有限責任事</text><text x=\"92\" y=\"438.3\" font-size=\"9.5\" style=\"fill:currentColor\">業組合契約法</text><text x=\"182\" y=\"385.9\" font-size=\"9.5\" style=\"fill:currentColor\">組合員は出資の範囲で責任を負う。</text><text x=\"182\" y=\"399.0\" font-size=\"9.5\" style=\"fill:currentColor\">損益の分配は出資比率によらず組合員の</text><text x=\"182\" y=\"412.1\" font-size=\"9.5\" style=\"fill:currentColor\">合意で決められる。重要な業務の決定は</text><text x=\"182\" y=\"425.2\" font-size=\"9.5\" style=\"fill:currentColor\">原則として総組合員の同意。構成員課税</text><text x=\"182\" y=\"438.3\" font-size=\"9.5\" style=\"fill:currentColor\">（組合に法人税はかからず、損益は</text><text x=\"182\" y=\"451.4\" font-size=\"9.5\" style=\"fill:currentColor\">組合員に直接帰属する。損失は出資の</text><text x=\"182\" y=\"464.5\" font-size=\"9.5\" style=\"fill:currentColor\">範囲でほかの所得と通算できる）。</text><text x=\"182\" y=\"477.6\" font-size=\"9.5\" style=\"fill:currentColor\">取締役会などの機関は不要</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 483.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M176 0L176 483.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"483.2\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -1460,19 +1460,19 @@
 "type": "single",
 "t": "chusho.2.1.9",
 "q": "中小企業の施策の活用に関する記述として、最も適切なものはどれか。",
-"a": 0,
+"a": 1,
 "e": "補助金は、GビズIDプライムを取り、jGrantsで電子申請し、採択・交付決定の後に発注・支払を行い、実績報告と確定検査を経て入金される。最近の大型の補助金は賃上げを要件にし、達成できないと返還を求めるものが多い。",
 "st": "ok",
 "n": 1056,
 "ch": [
+"経営力向上計画は、本社の所在地の市区町村に申請し、市区町村の認定を受ける。",
 "補助金は、事業の実施後に実績報告と確定検査を経て支払われる精算払いが原則である。",
-"計画の認定を受ければ、日本政策金融公庫の融資は必ず受けられる。",
 "補助金は、交付決定の前に発注・支払った経費も、原則として補助の対象になる。",
 "先端設備等導入計画の認定を受けると、中小企業経営強化税制の即時償却を受けられる。"
 ],
 "ce": [
+"× 経営力向上計画は、事業を所管する大臣（主務大臣）が認定する。市区町村が認定するのは先端設備等導入計画",
 "○ 事業の間の資金は自分で用意する",
-"× 認定は支援の入口で、融資は公庫の審査を経て決まる",
 "× 交付決定の前に発注・支払った経費は、原則として対象にならない",
 "× 先端設備等導入計画は固定資産税の特例。中小企業経営強化税制は経営力向上計画の認定が入口"
 ],
@@ -1505,7 +1505,7 @@
 "id": "chusho-159",
 "type": "combo",
 "t": "chusho.2.2.1",
-"q": "中小企業政策の歴史に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "中小企業政策の歴史に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 2,
 "e": "「中小企業構造の高度化」（設備の近代化、経営管理の合理化など）は、旧基本法の政策の考え方。中小企業庁は1948年に経済産業省（当時は商工省）の外局として設置された。2024年には、産業競争力強化法の改正で中堅企業者の定義ができた。",
 "st": "ok",
@@ -1517,18 +1517,18 @@
 "1999年改正後の中小企業基本法の政策の柱には、「中小企業構造の高度化」が含まれる。"
 ],
 "ch": [
-"aとb",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとdは誤り",
+"× cは正しい、aは誤り",
+"× bは正しい、aは誤り",
 "○",
-"× dは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× bは正しい、dは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"中小企業基本法の理念の転換\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"40.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\"></text><text x=\"145.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">1963年の旧基本法</text><text x=\"285.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">1999年の改正後</text><text x=\"6\" y=\"43.0\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業の見方</text><text x=\"86\" y=\"43.0\" font-size=\"9.5\" style=\"fill:currentColor\">過小過多で、画一的な弱者</text><text x=\"216\" y=\"36.5\" font-size=\"9.5\" style=\"fill:currentColor\">多様で活力ある、市場競争の</text><text x=\"216\" y=\"49.6\" font-size=\"9.5\" style=\"fill:currentColor\">苗床・イノベーションの担い手</text><rect x=\"1\" y=\"56.2\" width=\"358\" height=\"33.2\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><path d=\"M1 56.2L359 56.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"76.2\" font-size=\"9.5\" style=\"fill:currentColor\">理念</text><text x=\"86\" y=\"76.2\" font-size=\"9.5\" style=\"fill:currentColor\">大企業との諸格差の是正</text><text x=\"216\" y=\"69.7\" font-size=\"9.5\" style=\"fill:currentColor\">独立した中小企業の</text><text x=\"216\" y=\"82.8\" font-size=\"9.5\" style=\"fill:currentColor\">多様で活力ある成長発展</text><path d=\"M1 89.4L359 89.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"142.2\" font-size=\"9.5\" style=\"fill:currentColor\">政策の目標・柱</text><text x=\"86\" y=\"116.0\" font-size=\"9.5\" style=\"fill:currentColor\">生産性の向上と取引条件の</text><text x=\"86\" y=\"129.1\" font-size=\"9.5\" style=\"fill:currentColor\">向上。中小企業構造の</text><text x=\"86\" y=\"142.2\" font-size=\"9.5\" style=\"fill:currentColor\">高度化（設備の近代化、</text><text x=\"86\" y=\"155.3\" font-size=\"9.5\" style=\"fill:currentColor\">経営管理の合理化など）</text><text x=\"86\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">と事業活動の不利の補正</text><text x=\"216\" y=\"102.9\" font-size=\"9.5\" style=\"fill:currentColor\">①経営の革新と創業の</text><text x=\"216\" y=\"116.0\" font-size=\"9.5\" style=\"fill:currentColor\">促進　②経営基盤の</text><text x=\"216\" y=\"129.1\" font-size=\"9.5\" style=\"fill:currentColor\">強化　③経済的社会的環境の</text><text x=\"216\" y=\"142.2\" font-size=\"9.5\" style=\"fill:currentColor\">変化への適応の円滑化</text><text x=\"216\" y=\"155.3\" font-size=\"9.5\" style=\"fill:currentColor\">（セーフティネット）</text><text x=\"216\" y=\"168.4\" font-size=\"9.5\" style=\"fill:currentColor\">④資金の供給の円滑化と</text><text x=\"216\" y=\"181.5\" font-size=\"9.5\" style=\"fill:currentColor\">自己資本の充実</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M80 0L80 187.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M210 0L210 187.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"187.1\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"中小企業政策の変遷\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"35.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">年</text><text x=\"215.0\" y=\"14.4\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"9.5\" style=\"fill:currentColor\">出来事</text><text x=\"6\" y=\"36.9\" font-size=\"9.5\" style=\"fill:currentColor\">1948年</text><text x=\"76\" y=\"36.9\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業庁を設置</text><path d=\"M1 44L359 44\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"64.0\" font-size=\"9.5\" style=\"fill:currentColor\">1950年代</text><text x=\"76\" y=\"57.5\" font-size=\"9.5\" style=\"fill:currentColor\">信用保険・信用保証協会、政府系金融機関、</text><text x=\"76\" y=\"70.6\" font-size=\"9.5\" style=\"fill:currentColor\">下請代金支払遅延等防止法（1956年）などの基盤を整える</text><path d=\"M1 77.2L359 77.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"91.1\" font-size=\"9.5\" style=\"fill:currentColor\">1963年</text><text x=\"76\" y=\"91.1\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業基本法を制定（大企業との格差の是正）</text><path d=\"M1 98.2L359 98.2\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"118.2\" font-size=\"9.5\" style=\"fill:currentColor\">1999年</text><text x=\"76\" y=\"111.7\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業基本法を全面改正（多様で活力ある</text><text x=\"76\" y=\"124.8\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業の成長発展）。定義の資本金を引き上げた</text><path d=\"M1 131.4L359 131.4\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"151.4\" font-size=\"9.5\" style=\"fill:currentColor\">2010年</text><text x=\"76\" y=\"144.9\" font-size=\"9.5\" style=\"fill:currentColor\">中小企業憲章を閣議決定</text><text x=\"76\" y=\"158.0\" font-size=\"9.5\" style=\"fill:currentColor\">（中小企業は経済を牽引する力であり、社会の主役）</text><path d=\"M1 164.6L359 164.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"178.5\" font-size=\"9.5\" style=\"fill:currentColor\">2013年</text><text x=\"76\" y=\"178.5\" font-size=\"9.5\" style=\"fill:currentColor\">小規模企業活性化法（基本法に小規模企業の意義を追加）</text><path d=\"M1 185.6L359 185.6\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"205.6\" font-size=\"9.5\" style=\"fill:currentColor\">2014年</text><text x=\"76\" y=\"199.1\" font-size=\"9.5\" style=\"fill:currentColor\">小規模企業振興基本法、</text><text x=\"76\" y=\"212.2\" font-size=\"9.5\" style=\"fill:currentColor\">小規模事業者支援法の改正（経営発達支援計画）</text><path d=\"M1 218.8L359 218.8\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"238.8\" font-size=\"9.5\" style=\"fill:currentColor\">2016〜</text><text x=\"6\" y=\"251.9\" font-size=\"9.5\" style=\"fill:currentColor\">2020年</text><text x=\"76\" y=\"232.3\" font-size=\"9.5\" style=\"fill:currentColor\">経営力向上計画（2016年）、事業承継税制の特例措置</text><text x=\"76\" y=\"245.4\" font-size=\"9.5\" style=\"fill:currentColor\">（2018年）、事業継続力強化計画</text><text x=\"76\" y=\"258.5\" font-size=\"9.5\" style=\"fill:currentColor\">（2019年）、中小企業成長促進法（2020年）</text><path d=\"M1 265.1L359 265.1\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"278.6\" font-size=\"9.5\" style=\"fill:currentColor\">2024〜</text><text x=\"6\" y=\"291.7\" font-size=\"9.5\" style=\"fill:currentColor\">2026年</text><text x=\"76\" y=\"278.6\" font-size=\"9.5\" style=\"fill:currentColor\">中堅企業者の定義（2024年）、商工中金の政府保有株の売却</text><text x=\"76\" y=\"291.7\" font-size=\"9.5\" style=\"fill:currentColor\">（2025年）、取適法の施行（2026年1月）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M70 0L70 297.3\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"297.3\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },

@@ -353,7 +353,7 @@
 "id": "unei-106",
 "type": "combo",
 "t": "unei.1.2.1",
-"q": "JITシステムに関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "JITシステムに関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 3,
 "e": "引取りかんばん（運搬指示かんばん）が、後工程が前工程から引き取る品目と数量を指示する。生産指示かんばん（仕掛けかんばん）は、前工程に何をいくつ作るかを指示する。平準化や1個流しでは品種を細かく切り替えるので、段取り替えの回数が増え、段取り時間の短縮が欠かせない。",
 "st": "ok",
@@ -365,18 +365,18 @@
 "自働化とは、異常が起きたら機械やラインが自動的に止まり、不良品を後工程に流さない仕組みである。"
 ],
 "ch": [
-"aとc",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aとcは誤り",
-"× aは誤り",
-"× cは誤り",
+"× dは正しい、aは誤り",
+"× bは正しい、aは誤り",
+"× dは正しい、cは誤り",
 "○",
-"× cは誤り"
+"× bは正しい、cは誤り"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"トヨタ生産方式の2本の柱\" font-size=\"12\"><path d=\"M20 58L180 8L340 58Z\" style=\"fill:var(--warn);fill-opacity:0.18;stroke:var(--warn)\" stroke-width=\"1.4\"/><text x=\"180\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"13\" style=\"fill:currentColor\">トヨタ生産方式</text><rect x=\"30\" y=\"64\" width=\"140\" height=\"82\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.3\"/><text x=\"100\" y=\"84\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ジャスト・イン・タイム</text><text x=\"100\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">必要なものを、必要なとき、</text><text x=\"100\" y=\"121\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">必要な量だけ</text><rect x=\"190\" y=\"64\" width=\"140\" height=\"82\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.3\"/><text x=\"260\" y=\"84\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">自働化</text><text x=\"260\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">異常で止まり、</text><text x=\"260\" y=\"121\" text-anchor=\"middle\" font-size=\"10\" style=\"fill:currentColor\">不良を後工程に流さない</text><rect x=\"20\" y=\"150\" width=\"320\" height=\"34\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:currentColor\" stroke-width=\"1.3\"/><text x=\"180\" y=\"172\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">土台：平準化（量と品種の組合せを均等にする）</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"かんばん方式\" font-size=\"12\"><rect x=\"4\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"50\" y=\"83.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">前工程</text><rect x=\"134\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"180\" y=\"76.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">ストア</text><text x=\"180\" y=\"90.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（部品置き場）</text><rect x=\"264\" y=\"54\" width=\"92\" height=\"50\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"310\" y=\"83.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">後工程</text><path d=\"M98 72 L132 72\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M132 72L126.5 74.4L126.5 69.6Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M228 72 L262 72\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M262 72L256.5 74.4L256.5 69.6Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"180\" y=\"46\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">部品の流れ →</text><path d=\"M262 92 L228 92\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\" stroke-linejoin=\"round\"/><path d=\"M228 92L233.5 89.6L233.5 94.4Z\" style=\"fill:var(--drop);stroke:none\"/><path d=\"M132 92 L98 92\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\" stroke-linejoin=\"round\"/><path d=\"M98 92L103.5 89.6L103.5 94.4Z\" style=\"fill:var(--drop);stroke:none\"/><text x=\"246\" y=\"124\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">引取りかんばん</text><text x=\"246\" y=\"138\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:var(--drop)\">（何をいくつ引き取るか）</text><text x=\"115\" y=\"124\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:var(--drop)\">生産指示かんばん</text><text x=\"115\" y=\"138\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:var(--drop)\">（何をいくつ作るか）</text><text x=\"4\" y=\"22\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">後工程が引き取った分だけ、前工程が作る（プル方式）</text><text x=\"4\" y=\"162\" font-size=\"10\" style=\"fill:currentColor\">かんばんは工程の間を繰り返し循環する。枚数を減らすと在庫が減る</text></svg>"
 },
@@ -438,14 +438,14 @@
 "ch": [
 "マテリアルフローコスト会計（MFCA）では、マテリアルロス（負の製品）にも、材料費や加工費などのコストを配分する。",
 "循環型社会形成推進基本法では、処理の優先順位として、再生利用（リサイクル）が最も優先される。",
-"カーボンフットプリントの対象はCO2だけで、メタンなどほかの温室効果ガスは含まない。",
-"LCA（ライフサイクル・アセスメント）は、製品の製造の段階だけを対象に、環境への負荷を評価する手法である。"
+"カーボンフットプリントは、製品の製造の工程で排出される温室効果ガスの量を、CO2に換算して表示するものである。",
+"LCA（ライフサイクル・アセスメント）は、インベントリ分析、目的と調査範囲の設定、影響評価、解釈の順に進める。"
 ],
 "ce": [
 "○ 見えにくかった損失を明らかにする",
 "× 最も優先されるのは発生抑制（リデュース）。再使用、再生利用、熱回収、適正処分の順",
-"× メタンなどほかの温室効果ガスも含め、CO2に換算して数値にする",
-"× 原材料の採取から、製造、輸送、使用、廃棄までの全過程で評価する"
+"× 原材料の調達から、製造、流通、使用、廃棄・リサイクルまでのライフサイクル全体で排出される温室効果ガスを、CO2に換算して表示する",
+"× 目的と調査範囲の設定、インベントリ分析、影響評価、解釈の順に進める（ISO14040）。原材料の採取から廃棄までの全過程で評価する"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 154\" role=\"img\" aria-label=\"循環型社会形成推進基本法の優先順位\" font-size=\"12\"><path d=\"M2.0 2L358.0 2L331.3 30L28.7 30Z\" style=\"fill:var(--good);fill-opacity:0.22;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"20.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">①発生抑制（リデュース）</text><path d=\"M28.7 32L331.3 32L304.6 60L55.4 60Z\" style=\"fill:var(--good);fill-opacity:0.22;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"50.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">②再使用（リユース）</text><path d=\"M55.4 62L304.6 62L277.9 90L82.1 90Z\" style=\"fill:var(--warn);fill-opacity:0.22;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"80.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">③再生利用（リサイクル）</text><path d=\"M82.1 92L277.9 92L251.2 120L108.8 120Z\" style=\"fill:var(--warn);fill-opacity:0.22;stroke:var(--warn)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"110.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">④熱回収</text><path d=\"M108.8 122L251.2 122L224.5 150L135.5 150Z\" style=\"fill:var(--drop);fill-opacity:0.22;stroke:var(--drop)\" stroke-width=\"1.2\"/><text x=\"180.0\" y=\"140.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:currentColor\">⑤適正処分</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 118\" role=\"img\" aria-label=\"LCAの4段階（ISO14040）\" font-size=\"12\"><rect x=\"2.0\" y=\"2\" width=\"167.0\" height=\"44\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"85.5\" y=\"20.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">①目的と</text><text x=\"85.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">調査範囲の設定</text><rect x=\"191.0\" y=\"2\" width=\"167.0\" height=\"44\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"274.5\" y=\"20.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">②インベントリ分析</text><text x=\"274.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">資源・排出物の量を集計</text><rect x=\"2.0\" y=\"72\" width=\"167.0\" height=\"44\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"85.5\" y=\"98.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">③影響評価</text><rect x=\"191.0\" y=\"72\" width=\"167.0\" height=\"44\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"274.5\" y=\"98.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">④解釈</text><path d=\"M171.0 24.0 L189.0 24.0\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M189.0 24.0L183.5 26.4L183.5 21.6Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M274.5 47 L274.5 59.0 L85.5 59.0 L85.5 70\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M85.5 70L83.1 64.5L87.9 64.5Z\" style=\"fill:currentColor;stroke:none\"/><path d=\"M171.0 94.0 L189.0 94.0\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M189.0 94.0L183.5 96.4L183.5 91.6Z\" style=\"fill:currentColor;stroke:none\"/></svg>"
 },
@@ -901,14 +901,14 @@
 "ch": [
 "トヨタ生産方式では、標準作業の3要素として、タクトタイム、作業の順序、標準手持ちを挙げる。",
 "余裕のうち、朝礼、打合せ、材料待ちなどによる遅れは、人的余裕に当たる。",
-"標準作業は、熟練者だけが実施できる最善の方法として定める。",
-"TWIのJR（Job Relations）は、監督者が部下に仕事の手順を正しく教えるための、仕事の教え方の訓練である。"
+"TWIのJR（Job Relations）は、監督者が部下に仕事の手順を正しく教えるための、仕事の教え方の訓練である。",
+"標準時間は、作業者が正常な作業のペースで作業をしたときの正味時間で、余裕時間を加えずに設定する。"
 ],
 "ce": [
 "○ 標準手持ちは、工程内に必要な最小限の仕掛品",
 "× 職場余裕で、管理余裕に当たる。人的余裕は、用達余裕（水飲み、用便など）と疲労余裕",
-"× 熟練者だけでなく、普通の作業者が実施できるものとする",
-"× JRは人の扱い方。仕事の教え方はJI、改善の仕方はJM"
+"× JRは人の扱い方。仕事の教え方はJI、改善の仕方はJM",
+"× 標準時間は、正味時間に余裕時間を加えて設定する"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 140\" role=\"img\" aria-label=\"余裕の種類\" font-size=\"12\"><rect x=\"146\" y=\"2\" width=\"216\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"254.0\" y=\"20.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">作業余裕：材料の補充、工具の調整など</text><rect x=\"146\" y=\"38\" width=\"216\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"254.0\" y=\"56.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">職場余裕：朝礼、打合せ、材料待ちなど</text><rect x=\"64\" y=\"20.0\" width=\"70\" height=\"28\" rx=\"5\" style=\"fill:var(--warn);fill-opacity:0.16;stroke:var(--warn)\" stroke-width=\"1.1\"/><text x=\"99.0\" y=\"38.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">管理余裕</text><path d=\"M134 34.0H140.0V16.0H146\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M134 34.0H140.0V52.0H146\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"146\" y=\"74\" width=\"216\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"254.0\" y=\"92.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">用達余裕：水飲み、用便など</text><rect x=\"146\" y=\"110\" width=\"216\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"254.0\" y=\"128.0\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">疲労余裕：疲労を回復するための遅れ</text><rect x=\"64\" y=\"92.0\" width=\"70\" height=\"28\" rx=\"5\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.1\"/><text x=\"99.0\" y=\"110.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">人的余裕</text><path d=\"M134 106.0H140.0V88.0H146\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M134 106.0H140.0V124.0H146\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"56.0\" width=\"50\" height=\"28\" rx=\"5\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.1\"/><text x=\"27.0\" y=\"74.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">余裕</text><path d=\"M52 70.0H58.0V34.0H64\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/><path d=\"M52 70.0H58.0V106.0H64\" fill=\"none\" style=\"stroke:var(--ink-3)\" stroke-width=\"1.2\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 89\" role=\"img\" aria-label=\"TWI\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"75.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">TWI（監督者の訓練）</text><text x=\"255.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">内容</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">JI（Job Instruction）</text><text x=\"156\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">仕事の教え方</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">JM（Job Methods）</text><text x=\"156\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">改善の仕方</text><path d=\"M1 66.0L359 66.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">JR（Job Relations）</text><text x=\"156\" y=\"80.5\" font-size=\"10.5\" style=\"fill:currentColor\">人の扱い方</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M150 0L150 86.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"86.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -1226,13 +1226,13 @@
 "減債基金係数は、現在の金額を、n年間の毎年の均等な額に直す係数である。",
 "資本回収係数は、年金現価係数の逆数である。",
 "追加の注文の採否を判断するときは、すでに支出した設備の取得費も、判断に含める。",
-"排反案では、正味現価がプラスの案をすべて採用する。"
+"排反案では、投資額に対する正味現価の比率が最も大きい案を選ぶ。"
 ],
 "ce": [
 "× それは資本回収係数。減債基金係数は、n年後の金額を毎年の均等な積立額に直す",
 "○",
 "× すでに支出した費用（埋没原価）は判断に含めない",
-"× それは資金の制約がない場合の独立案。排反案は1つしか選べないので、正味現価（または正味年価）の最も大きい案を選ぶ"
+"× 排反案は1つしか選べないので、正味現価（または正味年価）の最も大きい案を選ぶ。正味現価がプラスの案をすべて採用するのは、資金の制約がない独立案"
 ],
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"お金の時間価値の係数\" font-size=\"12\"><rect x=\"14\" y=\"18\" width=\"92\" height=\"44\" rx=\"8\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.3\"/><text x=\"60\" y=\"38\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:currentColor\">現価 P</text><text x=\"60\" y=\"53\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">現在の価値</text><rect x=\"254\" y=\"18\" width=\"92\" height=\"44\" rx=\"8\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.3\"/><text x=\"300\" y=\"38\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:currentColor\">終価 F</text><text x=\"300\" y=\"53\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">n年後の価値</text><rect x=\"134\" y=\"138\" width=\"92\" height=\"44\" rx=\"8\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.3\"/><text x=\"180\" y=\"158\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"12\" style=\"fill:currentColor\">年価 A</text><text x=\"180\" y=\"173\" text-anchor=\"middle\" font-size=\"9.5\" style=\"fill:currentColor\">毎年の均等額</text><path d=\"M108 32 L252 32\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252 32L246.5 34.4L246.5 29.6Z\" style=\"fill:var(--drop);stroke:none\"/><text x=\"180.0\" y=\"26.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">①</text><path d=\"M252 50 L108 50\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M108 50L113.5 47.6L113.5 52.4Z\" style=\"fill:var(--good);stroke:none\"/><text x=\"180.0\" y=\"64.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">②</text><path d=\"M72 64 L146 140\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M146 140L140.4 137.8L143.9 134.4Z\" style=\"fill:var(--drop);stroke:none\"/><text x=\"121.0\" y=\"100.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">③</text><path d=\"M134 148 L56 64\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M56 64L61.5 66.3L57.9 69.7Z\" style=\"fill:var(--good);stroke:none\"/><text x=\"83.0\" y=\"114.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">④</text><path d=\"M290 64 L216 140\" fill=\"none\" style=\"stroke:var(--drop)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M216 140L218.1 134.4L221.6 137.8Z\" style=\"fill:var(--drop);stroke:none\"/><text x=\"241.0\" y=\"100.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--drop)\">⑤</text><path d=\"M226 148 L304 64\" fill=\"none\" style=\"stroke:var(--good)\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M304 64L302.1 69.7L298.5 66.3Z\" style=\"fill:var(--good);stroke:none\"/><text x=\"277.0\" y=\"114.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11\" style=\"fill:var(--good)\">⑥</text><text x=\"4\" y=\"200\" font-size=\"9.5\" style=\"fill:var(--drop)\">①終価係数（P→F）＝（1＋i）^n</text><text x=\"184\" y=\"200\" font-size=\"9.5\" style=\"fill:var(--good)\">②現価係数（F→P）＝1÷（1＋i）^n</text><text x=\"4\" y=\"215\" font-size=\"9.5\" style=\"fill:var(--drop)\">③資本回収係数（P→A）</text><text x=\"184\" y=\"215\" font-size=\"9.5\" style=\"fill:var(--good)\">④年金現価係数（A→P）</text><text x=\"4\" y=\"230\" font-size=\"9.5\" style=\"fill:var(--drop)\">⑤減債基金係数（F→A）</text><text x=\"184\" y=\"230\" font-size=\"9.5\" style=\"fill:var(--good)\">⑥年金終価係数（A→F）</text><text x=\"4\" y=\"246\" font-weight=\"bold\" font-size=\"10\" style=\"fill:currentColor\">資本回収係数＝1÷年金現価係数＝減債基金係数＋i</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"投資案の関係と選び方\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"65.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">案の関係</text><text x=\"245.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">選び方</text><text x=\"6\" y=\"73.8\" font-size=\"10.5\" style=\"fill:currentColor\">独立案</text><text x=\"6\" y=\"88.3\" font-size=\"10.5\" style=\"fill:currentColor\">（いくつでも選べる）</text><text x=\"136\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">資金に制約がなければ、正味現価が</text><text x=\"136\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">プラスの案をすべて選ぶ。制約があれば、</text><text x=\"136\" y=\"66.5\" font-size=\"10.5\" style=\"fill:currentColor\">予算内でできる案の組合せのうち、</text><text x=\"136\" y=\"81.0\" font-size=\"10.5\" style=\"fill:currentColor\">正味現価の合計が最も大きいもの</text><text x=\"136\" y=\"95.5\" font-size=\"10.5\" style=\"fill:currentColor\">（投資額当たりの効率の順に選ぶと、</text><text x=\"136\" y=\"110.0\" font-size=\"10.5\" style=\"fill:currentColor\">案を分けられないときは</text><text x=\"136\" y=\"124.5\" font-size=\"10.5\" style=\"fill:currentColor\">最適にならないことがある）</text><path d=\"M1 131.5L359 131.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"146.0\" font-size=\"10.5\" style=\"fill:currentColor\">排反案</text><text x=\"6\" y=\"160.5\" font-size=\"10.5\" style=\"fill:currentColor\">（1つしか選べない）</text><text x=\"136\" y=\"146.0\" font-size=\"10.5\" style=\"fill:currentColor\">正味現価（または正味年価）の最も大きい</text><text x=\"136\" y=\"160.5\" font-size=\"10.5\" style=\"fill:currentColor\">案を選ぶ。寿命の異なる案は年価で比べる</text><path d=\"M1 167.5L359 167.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"182.0\" font-size=\"10.5\" style=\"fill:currentColor\">混合案</text><text x=\"136\" y=\"182.0\" font-size=\"10.5\" style=\"fill:currentColor\">独立案と排反案が組み合わさったもの</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M130 0L130 188.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"188.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
 },
@@ -1288,17 +1288,17 @@
 "t": "unei.1.5.2",
 "q": "2026年1月1日に施行された中小受託取引適正化法（取適法）に関する記述として、最も適切なものはどれか。",
 "a": 1,
-"e": "下請代金支払遅延等防止法（下請法）が改正されて取適法となり、親事業者は委託事業者、下請事業者は中小受託事業者と呼ばれる。発荷主が運送を委託する取引（特定運送委託）も対象に加わった。受領の拒否、代金の支払いの遅延・減額、買いたたきなどが禁止されている。",
+"e": "下請代金支払遅延等防止法（下請法）が改正されて取適法となり、親事業者は委託事業者、下請事業者は中小受託事業者と呼ばれる。適用の対象かどうかは、資本金の基準に加えて、従業員の数の基準でも判断するようになり、発荷主が運送事業者に運送を委託する取引（特定運送委託）も対象に加わった。受領の拒否、代金の支払いの遅延・減額、買いたたきなどが禁止されている。",
 "st": "ok",
 "n": 1609,
 "ch": [
-"適用の対象となるかどうかは、取引の当事者の資本金の基準だけで判断し、従業員の数の基準は使わない。",
+"新たに対象に加わった特定運送委託は、運送事業者が、荷主から引き受けた運送を、ほかの運送事業者に再委託する取引である。",
 "中小受託事業者から価格の協議を求められたのに協議に応じず、一方的に代金を決めることが禁止された。",
 "代金を手形で支払うことは、原則として認められている。",
 "支払期日は、物品などを受領した日から起算して90日以内のできる限り短い期間内で定めればよい。"
 ],
 "ce": [
-"× 資本金の基準に加えて、従業員の基準でも適用される",
+"× 特定運送委託は、物品の販売や製造などをする事業者（発荷主）が、取引の相手方に物品を届ける運送を、運送事業者に委託する取引。運送事業者の再委託は役務提供委託にあたる",
 "○ 必要な説明をしないで一方的に代金を決めることも禁止",
 "× 手形による支払いは禁止された",
 "× 受領の日から60日以内"
@@ -1656,19 +1656,19 @@
 "type": "single",
 "t": "unei.2.1.1",
 "q": "まちづくりに関する法律の記述として、最も適切なものはどれか。",
-"a": 1,
+"a": 0,
 "e": "まちづくり三法は、都市計画法、大規模小売店舗立地法、中心市街地活性化法。2006年に都市計画法と中心市街地活性化法が改正され、郊外への大規模な集客施設の立地を抑え、中心市街地に都市の機能を集める方向に見直された。立地適正化計画（都市再生特別措置法）は、原則として、居住誘導区域の中に都市機能誘導区域を定める。",
 "st": "ok",
 "n": 1625,
 "ch": [
-"市街化調整区域には、用途地域を必ず定める。",
 "中心市街地活性化法では、市町村が基本計画を作り、内閣総理大臣が認定する。",
+"市街化区域には原則として用途地域を定めず、市街化調整区域には少なくとも用途地域を定める。",
 "立地適正化計画は都道府県が作る計画で、居住誘導区域は市街化調整区域にも定められる。",
 "床面積1万㎡を超える大規模集客施設は、工業地域にも建てられる。"
 ],
 "ce": [
-"× 市街化調整区域には、原則として用途地域を定めない。市街化区域には少なくとも用途地域を定める",
 "○ 認定された計画の事業は、国の支援を受けられる",
+"× 逆。市街化区域には少なくとも用途地域を定め、市街化調整区域には原則として用途地域を定めない",
 "× 立地適正化計画を作るのは市町村。居住誘導区域は、市街化調整区域には定めない",
 "× 建てられるのは、原則として、近隣商業地域、商業地域、準工業地域に限られる"
 ],
@@ -1707,13 +1707,13 @@
 "st": "ok",
 "n": 1627,
 "ch": [
-"景観計画区域は、都市計画区域の中にだけ定められる。",
+"景観計画は国土交通大臣が定める計画で、景観計画区域は、都市計画区域の外にも定めることができる。",
 "建築基準法では、高さが4mを超える広告塔や広告板を、建築物とは切り離された工作物として設ける場合には、建築確認は不要である。",
 "店舗などの特定防火対象物では、収容人員が30人以上になると、防火管理者を選任しなければならない。",
 "屋外広告物の表示を禁止する地域は、国が法律で全国一律に定める。"
 ],
 "ce": [
-"× 都市計画区域の外にも定められる",
+"× 景観計画を定めるのは、景観行政団体（都道府県、政令指定都市、中核市など）。景観計画区域を都市計画区域の外にも定められる点は正しい",
 "× 高さが4mを超える広告塔や広告板を設ける場合は、建築確認が必要",
 "○ 事務所や工場など、それ以外の防火対象物は50人以上",
 "× 都道府県などが条例で、表示を禁止する地域や許可が要る地域を定める"
@@ -2406,30 +2406,30 @@
 "id": "unei-194",
 "type": "combo",
 "t": "unei.2.2.1",
-"q": "食品表示基準にもとづく、一般用の生鮮食品の原産地と、加工食品の期限の表示に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "食品表示基準にもとづく、一般用の生鮮食品の原産地と、加工食品の期限の表示に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 1,
-"e": "生鮮食品の原産地は、農産物の国産品は都道府県名（市町村名など一般に知られている地名でもよい。c）、畜産物の国産品は国産である旨（主たる飼養地の都道府県名などでもよい。dは誤り）、水産物の国産品は水域名などで表示し、輸入品は原産国名を表示する。同じ種類で原産地の異なるものを混ぜたときは、重量の割合の高いものから順に、すべての原産地を表示する（bは誤り）。加工食品の賞味期限は、製造または加工の日から賞味期限までが3か月を超えるものは、年月で表示できる（a）。",
+"e": "生鮮食品の原産地は、農産物の国産品は都道府県名（市町村名など一般に知られている地名でもよい。c）、畜産物の国産品は国産である旨（主たる飼養地の都道府県名などでもよい）、水産物の国産品は水域名などで表示し、輸入品は原産国名を表示する（bは誤り）。外国で飼養した家畜を国内でと畜したときは、国内での飼養期間が外国での飼養期間より短ければ輸入品として飼養期間が最も長い国の名称を表示し、国内での飼養期間のほうが長ければ国産品になる（dは誤り）。同じ種類で原産地の異なるものを混ぜたときは、重量の割合の高いものから順に、すべての原産地を表示する。加工食品の賞味期限は、製造または加工の日から賞味期限までが3か月を超えるものは、年月で表示できる（a）。",
 "st": "ok",
 "n": 1657,
 "stm": [
 "製造の日から賞味期限までの期間が3か月を超える加工食品は、賞味期限を、年月日ではなく年月で表示することができる。",
-"同じ種類の農産物で原産地の異なるものを混ぜて販売する場合は、製品に占める重量の割合が最も高い原産地だけを表示すればよい。",
+"輸入された農産物の原産地は、その農産物を陸揚げした港のある都道府県名で表示する。",
 "国内で収穫された農産物の原産地は、都道府県名で表示するのが原則であるが、市町村名その他一般に知られている地名で表示することもできる。",
-"国内で飼養された畜産物の原産地は、主たる飼養地の都道府県名を表示しなければならず、「国産」と表示するだけでは足りない。"
+"外国で生まれた子牛を輸入し、外国での飼養期間より長く国内で飼養してと畜した場合、その牛肉の原産地は、子牛が生まれた国となる。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× bは誤り",
+"× cは正しい、bは誤り",
 "○",
-"× bは誤り",
-"× bとdは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× aは正しい、bは誤り",
+"× aは正しい、dは誤り"
 ],
 "ref": "食品表示基準（平成27年内閣府令第10号）第3条第1項・第18条第1項",
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 226\" role=\"img\" aria-label=\"一般用の生鮮食品の原産地の表示（食品表示基準18条）\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"43.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">区分</text><text x=\"169.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">国産品</text><text x=\"306.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">輸入品</text><text x=\"6\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">農産物</text><text x=\"92\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">都道府県名</text><text x=\"92\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">（市町村名など一般に</text><text x=\"92\" y=\"66.5\" font-size=\"10.5\" style=\"fill:currentColor\">知られている地名でもよい）</text><text x=\"258\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">原産国名</text><path d=\"M1 73.5L359 73.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"95.3\" font-size=\"10.5\" style=\"fill:currentColor\">畜産物</text><text x=\"92\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">国産である旨（主たる飼養地の</text><text x=\"92\" y=\"102.5\" font-size=\"10.5\" style=\"fill:currentColor\">都道府県名などでもよい）</text><text x=\"258\" y=\"95.3\" font-size=\"10.5\" style=\"fill:currentColor\">原産国名</text><path d=\"M1 109.5L359 109.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"138.5\" font-size=\"10.5\" style=\"fill:currentColor\">水産物</text><text x=\"92\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">水域名、または主たる</text><text x=\"92\" y=\"138.5\" font-size=\"10.5\" style=\"fill:currentColor\">養殖場の都道府県名（水域名が</text><text x=\"92\" y=\"153.0\" font-size=\"10.5\" style=\"fill:currentColor\">難しいときは水揚げ港名など）</text><text x=\"258\" y=\"131.3\" font-size=\"10.5\" style=\"fill:currentColor\">原産国名（水域名を</text><text x=\"258\" y=\"145.8\" font-size=\"10.5\" style=\"fill:currentColor\">併記できる）</text><path d=\"M1 160.0L359 160.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"174.5\" font-size=\"10.5\" style=\"fill:currentColor\">同じ種類で</text><text x=\"6\" y=\"189.0\" font-size=\"10.5\" style=\"fill:currentColor\">原産地の</text><text x=\"6\" y=\"203.5\" font-size=\"10.5\" style=\"fill:currentColor\">違うものを</text><text x=\"6\" y=\"218.0\" font-size=\"10.5\" style=\"fill:currentColor\">混ぜたとき</text><text x=\"92\" y=\"181.8\" font-size=\"10.5\" style=\"fill:currentColor\">製品に占める重量の割合の</text><text x=\"92\" y=\"196.3\" font-size=\"10.5\" style=\"fill:currentColor\">高い原産地から順に、</text><text x=\"92\" y=\"210.8\" font-size=\"10.5\" style=\"fill:currentColor\">すべて表示する</text><text x=\"258\" y=\"181.8\" font-size=\"10.5\" style=\"fill:currentColor\">同じ</text><text x=\"258\" y=\"196.3\" font-size=\"10.5\" style=\"fill:currentColor\">（国産品と輸入品を</text><text x=\"258\" y=\"210.8\" font-size=\"10.5\" style=\"fill:currentColor\">混ぜたときも）</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M86 0L86 224.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><path d=\"M252 0L252 224.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"224.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 147\" role=\"img\" aria-label=\"加工食品の期限の表示\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"46.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">期限の表示</text><text x=\"226.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">表示の方法（食品表示基準3条）</text><text x=\"6\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">消費期限</text><text x=\"98\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">品質が急速に劣化しやすい食品。年月日で表示する</text><path d=\"M1 44.5L359 44.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">賞味期限</text><text x=\"98\" y=\"59.0\" font-size=\"10.5\" style=\"fill:currentColor\">それ以外の食品。年月日で表示する。</text><text x=\"98\" y=\"73.5\" font-size=\"10.5\" style=\"fill:currentColor\">製造または加工の日から賞味期限までが</text><text x=\"98\" y=\"88.0\" font-size=\"10.5\" style=\"fill:currentColor\">3か月を超えるものは、年月で表示できる</text><path d=\"M1 95.0L359 95.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">表示の省略</text><text x=\"98\" y=\"109.5\" font-size=\"10.5\" style=\"fill:currentColor\">アイスクリーム類、砂糖、食塩・</text><text x=\"98\" y=\"124.0\" font-size=\"10.5\" style=\"fill:currentColor\">うま味調味料、チューインガム、酒類など、</text><text x=\"98\" y=\"138.5\" font-size=\"10.5\" style=\"fill:currentColor\">品質の劣化がきわめて少ないもの</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M92 0L92 144.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"144.5\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -2438,30 +2438,30 @@
 "id": "unei-195",
 "type": "combo",
 "t": "unei.2.4.1",
-"q": "「個人情報の保護に関する法律」（個人情報保護法）の「個人情報」に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "「個人情報の保護に関する法律」（個人情報保護法）の「個人情報」に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 2,
 "e": "個人情報は、生存する個人に関する情報で、氏名などで特定の個人を識別できるもの（他の情報と容易に照合して識別できるものを含む。b）と、個人識別符号が含まれるもの（c）である。個人識別符号は、顔や指紋などの身体の特徴をデータにしたものや、旅券の番号・運転免許証の番号・個人番号など、政令と規則で定めたものに限られ、携帯電話番号やクレジットカード番号は含まれない（aは誤り）。法人そのものの情報は個人情報ではないが、法人の代表者や従業員の氏名は、その人の情報として個人情報に当たる（dは誤り）。死者の情報や、集計した統計情報は、個人情報に当たらない。",
 "st": "ok",
 "n": 1658,
 "stm": [
-"携帯電話番号やクレジットカード番号は、利用者ごとに異なる番号が割り当てられ、特定の利用者を識別できるので、それだけで個人識別符号に当たる。",
+"携帯電話番号やクレジットカード番号は、利用者ごとに異なる番号が割り当てられ、特定の利用者を識別できるので、個人識別符号に当たる。",
 "会員IDと購買の履歴だけのデータでも、同じ店舗が保有する会員名簿と容易に照合して特定の個人を識別できる場合は、個人情報に当たる。",
 "運転免許証の番号や旅券の番号は個人識別符号に当たるので、氏名などが記録されていなくても、これらの番号が含まれる情報は個人情報に当たる。",
 "取引先の法人の代表者の氏名や役職は、法人に関する情報として記録されたものであり、個人に関する情報ではないので、個人情報に当たらない。"
 ],
 "ch": [
-"aとc",
-"aとd",
-"bとc",
-"bとd",
-"cとd"
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正",
+"a：誤　b：誤　c：正　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとdは誤り",
+"× bは正しい、aは誤り",
+"× bとcは正しい、aとdは誤り",
 "○",
-"× dは誤り",
-"× dは誤り"
+"× cは正しい、dは誤り",
+"× bは正しい、dは誤り"
 ],
 "ref": "個人情報保護法第2条第1項・第2項、同法施行令第1条、同法施行規則第4条、個人情報保護委員会「『個人情報の保護に関する法律についてのガイドライン』に関するQ&A」（Q1-4・Q1-6・Q1-7・Q1-19・Q1-20・Q1-21・Q1-25・Q7-13）、同委員会「個人情報の保護に関する法律についてのガイドライン（通則編）」2-1",
 "x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 320\" role=\"img\" aria-label=\"個人情報に当たるかの判断（個人情報保護法2条）\" font-size=\"12\"><rect x=\"2\" y=\"2\" width=\"226\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"115.0\" y=\"20.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">死者に関する情報や、</text><text x=\"115.0\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">法人そのものの情報か</text><text x=\"115.0\" y=\"50.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（生存する個人に関する情報ではない）</text><rect x=\"254\" y=\"2\" width=\"104\" height=\"59\" rx=\"6\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"28.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">個人情報に</text><text x=\"306.0\" y=\"43.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当たらない</text><path d=\"M229 31.5 L252 31.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252 31.5L246.5 33.9L246.5 29.1Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"241.0\" y=\"25.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">はい</text><path d=\"M115.0 62 L115.0 85\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M115.0 85L112.6 79.5L117.4 79.5Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"123.0\" y=\"78.0\" font-size=\"10.5\" style=\"fill:currentColor\">いいえ</text><rect x=\"2\" y=\"87\" width=\"226\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"115.0\" y=\"105.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">氏名などで特定の個人を識別できるか</text><text x=\"115.0\" y=\"120.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">（他の情報と容易に照合して</text><text x=\"115.0\" y=\"135.5\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">識別できる場合を含む）</text><rect x=\"254\" y=\"87\" width=\"104\" height=\"59\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"113.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">個人情報に</text><text x=\"306.0\" y=\"128.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当たる</text><path d=\"M229 116.5 L252 116.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252 116.5L246.5 118.9L246.5 114.1Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"241.0\" y=\"110.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">はい</text><path d=\"M115.0 147 L115.0 170\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M115.0 170L112.6 164.5L117.4 164.5Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"123.0\" y=\"163.0\" font-size=\"10.5\" style=\"fill:currentColor\">いいえ</text><rect x=\"2\" y=\"172\" width=\"226\" height=\"59\" rx=\"6\" style=\"fill:var(--sheet);stroke:currentColor\" stroke-width=\"1.2\"/><text x=\"115.0\" y=\"198.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">個人識別符号（身体の特徴のデータや、</text><text x=\"115.0\" y=\"213.0\" text-anchor=\"middle\" font-size=\"11.5\" style=\"fill:currentColor\">旅券・運転免許証などの番号）を含むか</text><rect x=\"254\" y=\"172\" width=\"104\" height=\"59\" rx=\"6\" style=\"fill:var(--good);fill-opacity:0.16;stroke:var(--good)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"198.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">個人情報に</text><text x=\"306.0\" y=\"213.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">当たる</text><path d=\"M229 201.5 L252 201.5\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M252 201.5L246.5 203.9L246.5 199.1Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"241.0\" y=\"195.5\" text-anchor=\"middle\" font-size=\"10.5\" style=\"fill:currentColor\">はい</text><path d=\"M115.0 232 L115.0 255\" fill=\"none\" style=\"stroke:currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M115.0 255L112.6 249.5L117.4 249.5Z\" style=\"fill:currentColor;stroke:none\"/><text x=\"123.0\" y=\"248.0\" font-size=\"10.5\" style=\"fill:currentColor\">いいえ</text><rect x=\"2\" y=\"257\" width=\"226\" height=\"59\" rx=\"6\" style=\"fill:var(--ink-3);fill-opacity:0.16;stroke:var(--ink-3)\" stroke-width=\"1.2\"/><text x=\"115.0\" y=\"290.5\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"11.5\" style=\"fill:currentColor\">個人情報に当たらない（統計情報など）</text></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 313\" role=\"img\" aria-label=\"個人識別符号と個人情報の例\" font-size=\"12\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"22\" style=\"fill:var(--paper);stroke:none\" stroke-width=\"1\"/><text x=\"64.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">区分</text><text x=\"244.0\" y=\"14.8\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"10.5\" style=\"fill:currentColor\">例</text><rect x=\"1\" y=\"23\" width=\"358\" height=\"94.0\" style=\"fill:var(--warn);fill-opacity:0.14;stroke:none\" stroke-width=\"1\"/><text x=\"6\" y=\"66.5\" font-size=\"10.5\" style=\"fill:currentColor\">個人識別符号に当たる</text><text x=\"6\" y=\"81.0\" font-size=\"10.5\" style=\"fill:currentColor\">（政令・規則で列挙）</text><text x=\"134\" y=\"37.5\" font-size=\"10.5\" style=\"fill:currentColor\">顔・指紋・虹彩などの身体の特徴を</text><text x=\"134\" y=\"52.0\" font-size=\"10.5\" style=\"fill:currentColor\">データにしたもの、旅券の番号、</text><text x=\"134\" y=\"66.5\" font-size=\"10.5\" style=\"fill:currentColor\">基礎年金番号、運転免許証の番号、</text><text x=\"134\" y=\"81.0\" font-size=\"10.5\" style=\"fill:currentColor\">住民票コード、個人番号（マイナンバー）、</text><text x=\"134\" y=\"95.5\" font-size=\"10.5\" style=\"fill:currentColor\">健康保険の被保険者記号・</text><text x=\"134\" y=\"110.0\" font-size=\"10.5\" style=\"fill:currentColor\">番号、在留カードの番号など</text><path d=\"M1 117.0L359 117.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"153.3\" font-size=\"10.5\" style=\"fill:currentColor\">個人識別符号に</text><text x=\"6\" y=\"167.8\" font-size=\"10.5\" style=\"fill:currentColor\">当たらない</text><text x=\"6\" y=\"182.3\" font-size=\"10.5\" style=\"fill:currentColor\">（列挙されていない）</text><text x=\"134\" y=\"131.5\" font-size=\"10.5\" style=\"fill:currentColor\">携帯電話番号、クレジットカード番号、</text><text x=\"134\" y=\"146.0\" font-size=\"10.5\" style=\"fill:currentColor\">メールアドレスなど。ただし、</text><text x=\"134\" y=\"160.5\" font-size=\"10.5\" style=\"fill:currentColor\">それだけで（氏名と勤務先が</text><text x=\"134\" y=\"175.0\" font-size=\"10.5\" style=\"fill:currentColor\">分かるメールアドレスなど）、</text><text x=\"134\" y=\"189.5\" font-size=\"10.5\" style=\"fill:currentColor\">または氏名などと容易に照合して特定の</text><text x=\"134\" y=\"204.0\" font-size=\"10.5\" style=\"fill:currentColor\">個人を識別できれば個人情報に当たる</text><path d=\"M1 211.0L359 211.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"232.8\" font-size=\"10.5\" style=\"fill:currentColor\">個人情報に</text><text x=\"6\" y=\"247.3\" font-size=\"10.5\" style=\"fill:currentColor\">当たらない情報</text><text x=\"134\" y=\"225.5\" font-size=\"10.5\" style=\"fill:currentColor\">死者に関する情報、</text><text x=\"134\" y=\"240.0\" font-size=\"10.5\" style=\"fill:currentColor\">法人そのものの情報（財務情報など）、</text><text x=\"134\" y=\"254.5\" font-size=\"10.5\" style=\"fill:currentColor\">多数の人の情報を集計した統計情報</text><path d=\"M1 261.5L359 261.5\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"/><text x=\"6\" y=\"290.5\" font-size=\"10.5\" style=\"fill:currentColor\">個人情報に当たる情報</text><text x=\"134\" y=\"276.0\" font-size=\"10.5\" style=\"fill:currentColor\">生存する個人の氏名、法人の役員・</text><text x=\"134\" y=\"290.5\" font-size=\"10.5\" style=\"fill:currentColor\">従業員の氏名、防犯カメラの映像（本人が</text><text x=\"134\" y=\"305.0\" font-size=\"10.5\" style=\"fill:currentColor\">判別できるもの）、外国人の情報など</text><path d=\"M1 23L359 23\" style=\"stroke:var(--ink-3)\" stroke-width=\"1\" fill=\"none\"/><path d=\"M128 0L128 311.0\" style=\"stroke:var(--ink-3)\" stroke-width=\"0.6\" fill=\"none\"/><rect x=\"1\" y=\"1\" width=\"358\" height=\"311.0\" style=\"fill:none;stroke:var(--ink-3)\" stroke-width=\"1\"/></svg>"
@@ -2470,7 +2470,7 @@
 "id": "unei-196",
 "type": "combo",
 "t": "unei.2.4.2",
-"q": "JANシンボル（GTIN-13などを表すバーコードシンボル）の表示に関する次の記述a～dのうち、正しいものの組み合わせとして、最も適切なものはどれか。",
+"q": "JANシンボル（GTIN-13などを表すバーコードシンボル）の表示に関する次の記述a～dの正誤の組み合わせとして、最も適切なものはどれか。",
 "a": 4,
 "e": "JANシンボルは、国際的にはEANシンボルと呼ばれる、EAN/UPCのシンボル体系（JIS X 0507）のバーコードで、輸出する商品にもそのまま使える（b）。基本寸法（横37.29mm×縦25.93mm）には左右に必要な余白が含まれ、余白に絵柄や文字が入ると読み取れなくなるおそれがある（cは誤り）。スキャナーは赤い光の反射でバーとスペースを見分けるので、赤系統のバーはスペースと区別できず読み取れない。白地に黒いバーが最もよい（aは誤り）。バーの高さを削るトランケーションは、国内向けの商品に限られる（d）。",
 "st": "ok",
@@ -2482,17 +2482,17 @@
 "バーの高さを低くするトランケーションは、JISには定めがなく、一定の高さを確保すれば国内では読み取れるとされるが、海外に輸出する商品には行わない。"
 ],
 "ch": [
-"aとb",
-"aとc",
-"aとd",
-"bとc",
-"bとd"
+"a：正　b：正　c：誤　d：誤",
+"a：正　b：誤　c：正　d：誤",
+"a：正　b：誤　c：誤　d：正",
+"a：誤　b：正　c：正　d：誤",
+"a：誤　b：正　c：誤　d：正"
 ],
 "ce": [
-"× aは誤り",
-"× aとcは誤り",
-"× aは誤り",
-"× cは誤り",
+"× dは正しい、aは誤り",
+"× bとdは正しい、aとcは誤り",
+"× bは正しい、aは誤り",
+"× dは正しい、cは誤り",
 "○"
 ],
 "ref": "GS1 Japan「GTIN（JANコード）の作成手順」「JANシンボル」「GTIN（JANコード）とは」、JIS X 0507（EAN/UPCバーコードシンボル体系仕様）",

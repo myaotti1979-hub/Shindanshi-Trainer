@@ -178,6 +178,7 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .res-x ul{margin:0;padding-left:1.2em;font-size:14px;line-height:1.7}
 .p-foot{flex:none;padding-block:10px;border-top:1px solid var(--guide);background:var(--paper)}
 .p-foot.two{display:grid;grid-template-columns:1fr 1.6fr;gap:8px}
+.m-atts{display:flex;flex-wrap:wrap;gap:6px;margin-block:4px}
 .score{display:flex;align-items:baseline;gap:8px}
 .score b{font-size:56px;font-weight:900;line-height:1;font-variant-numeric:tabular-nums}
 .score span{font-size:16px;font-weight:700;color:var(--ink-2)}
@@ -638,7 +639,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v73';   // sw.js の VER と同じ値にする
+var APP_VER='v74';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -1237,7 +1238,7 @@ function weakSec(){
   var fx=R.filter(function(r){return r.A!=null&&r.A>=GT_PASS;}).length,MAX=12;
   h+='<div class="kpis"><div class="stat"><span class="k">補強できた</span><span class="v">'+fx+'<small>論点</small></span><span class="fine">その後の演習で60%以上</span></div><div class="stat"><span class="k">まだ</span><span class="v">'+(R.length-fx)+'<small>論点</small></span><span class="fine">60%未満、または未回答</span></div></div>'
    +'<p class="fine">前回の模擬試験（模試がまだの科目は、4週より前の演習）で60%未満だった論点と、その後の演習の正答率です（3問以上解いた論点）。科目の論点表を開くと、論点ごとの推移を見られます。</p>'
-   +R.slice(0,MAX).map(function(r){return '<div class="wk-row"><div class="wk-n"><small>'+esc(SN[r.s].sh)+(r.src==='m'?'・第'+r.rd+'回の模試':'・以前の演習')+'</small><span>'+esc(r.g.n)+'</span></div>'+wkBar(r)+'<button class="btn small" type="button" data-act="drill-group" data-g="'+r.g.id+'">演習</button></div>';}).join('')
+   +R.slice(0,MAX).map(function(r){return '<div class="wk-row"><div class="wk-n"><small>'+esc(SN[r.s].sh)+(r.src==='m'?'・'+rLabel(r.rd)+'の模試':'・以前の演習')+'</small><span>'+esc(r.g.n)+'</span></div>'+wkBar(r)+'<button class="btn small" type="button" data-act="drill-group" data-g="'+r.g.id+'">演習</button></div>';}).join('')
    +(R.length>MAX?'<p class="fine">ほか'+(R.length-MAX)+'論点（弱い順に'+MAX+'まで表示）</p>':'')
    +'<div class="legend"><span>◆ 模試</span><span>○ 以前の演習</span><span>● その後の演習</span><span>点線＝60%</span></div></section>';
   return h;
@@ -1519,6 +1520,7 @@ var WD=['日','月','火','水','木','金','土'];
 function dlabel(s){var d=parseYmd(s);return (d.getMonth()+1)+'月'+d.getDate()+'日（'+WD[d.getDay()]+'）';}
 function mRounds(){return (DATA.mock&&DATA.mock.rounds)||[];}
 function mRound(r){return mRounds().filter(function(x){return x.r===r;})[0];}
+function rLabel(r){var rd=mRound(r);return '第'+Math.floor(r)+'回'+(rd&&rd.half===1?' 前半':rd&&rd.half===2?' 後半':'');}
 function mSet(s,r){return DATA.mock&&DATA.mock.sets?DATA.mock.sets[s+'-'+r]:null;}
 function mFirst(r,s){return ST.mock.filter(function(a){return a.r===r&&a.s===s;}).sort(function(a,b){return a.at-b.at;})[0]||null;}
 function mDayOf(s){return MOCK_DAY[1].indexOf(s)>=0?1:2;}
@@ -1541,11 +1543,11 @@ function mChip(rd,k){
 function mockAlert(){
   if(!DATA.mock)return '';
   var run=ST.mockRun;
-  if(run){var left=runLeft();return '<section class="malert today"><div class="malert-h">'+FLAG_SVG+'<b>模擬試験を受験中です</b></div><p class="fine">'+esc(SN[run.s].n)+'（第'+run.r+'回）。'+(left>0?'残り '+fmtClock(left)+'。':'時間が過ぎました。開くと提出します。')+'閉じている間も時間は進みます。</p><button class="btn primary" type="button" data-act="mk-open" data-s="'+run.s+'" data-r="'+run.r+'">'+(left>0?'続きを解く':'開いて提出する')+'</button></section>';}
+  if(run){var left=runLeft();return '<section class="malert today"><div class="malert-h">'+FLAG_SVG+'<b>模擬試験を受験中です</b></div><p class="fine">'+esc(SN[run.s].n)+'（'+rLabel(run.r)+'）。'+(left>0?'残り '+fmtClock(left)+'。':'時間が過ぎました。開くと提出します。')+'閉じている間も時間は進みます。</p><button class="btn primary" type="button" data-act="mk-open" data-s="'+run.s+'" data-r="'+run.r+'">'+(left>0?'続きを解く':'開いて提出する')+'</button></section>';}
   var rd=focusRound();if(!rd)return '';
   var st=roundState(rd),dd=daysUntil(rd.sat),rem=SUBJ.filter(function(x){return !mFirst(rd.r,x.k);});
   var cls=st==='over'?'over':(st==='day1'||st==='day2')?'today':dd<=7?'soon':'';
-  var head=st==='over'?'第'+rd.r+'回 模擬試験が未完了です（残り'+rem.length+'科目）':st==='day1'?'今日は第'+rd.r+'回 模擬試験の1日目です':st==='day2'?'今日は第'+rd.r+'回 模擬試験の2日目です':'第'+rd.r+'回 模擬試験まで あと'+dd+'日';
+  var head=st==='over'?''+rLabel(rd.r)+' 模擬試験が未完了です（残り'+rem.length+'科目）':st==='day1'?'今日は'+rLabel(rd.r)+' 模擬試験の1日目です':st==='day2'?'今日は'+rLabel(rd.r)+' 模擬試験の2日目です':''+rLabel(rd.r)+' 模擬試験まで あと'+dd+'日';
   var sub=st==='over'?'予定日の'+dlabel(rd.sat)+'・'+dlabel(rd.sun)+'を過ぎています。進み具合にかかわらず、残りの科目を受けて今の実力を測ってください。'
     :st==='future'?dlabel(rd.sat)+'・'+dlabel(rd.sun)+'に、本試験と同じ時間割で7科目を解きます。'
     :'本試験と同じ時間割です。時間を計って、続けて解いてください。';
@@ -1555,16 +1557,16 @@ function mockAlert(){
 }
 function viewMock(){
   if(!DATA.mock)return '';
-  var h='<section class="sec" id="mocks"><div class="sec-h"><span>模擬試験（オリジナル）</span></div><p class="fine">本試験と同じ問題数・配点・時間で解き、終わるまで正誤は出ません。毎月最終の土日に、1日目（土）に4科目、2日目（日）に3科目を受けます。得点は各回の1回目の結果です。</p>'
+  var h='<section class="sec" id="mocks"><div class="sec-h"><span>模擬試験（オリジナル）</span></div><p class="fine">本試験と同じ問題数・配点・時間で解き、終わるまで正誤は出ません。毎月最終の土日に、1日目（土）に4科目、2日目（日）に3科目を受けます。得点は各回の1回目の結果です。'+(mRounds().some(function(x){return x.half;})?'第1〜4回は、問題も時間も本試験の半分にして（前半）、残りの半分を約2週間後に後半として受けます。':'')+'</p>'
    +'<div class="pgrid"><table><thead><tr><th scope="col"></th>'+SUBJ.map(function(x){return '<th scope="col">'+x.sh+'</th>';}).join('')+'<th scope="col">合計</th></tr></thead><tbody>';
   mRounds().forEach(function(rd){var tot=0,n=0,low=0;
-    h+='<tr><th scope="row">第'+rd.r+'回<small>'+md(parseYmd(rd.sat))+'〜</small></th>';
+    h+='<tr><th scope="row">'+rLabel(rd.r)+'<small>'+md(parseYmd(rd.sat))+'〜</small></th>';
     SUBJ.forEach(function(x){var a=mFirst(rd.r,x.k),set=mSet(x.k,rd.r),run=ST.mockRun&&ST.mockRun.r===rd.r&&ST.mockRun.s===x.k,txt,cls='pc',ok=!!a||(set&&set.ready);
       if(a){txt='<span>'+a.score+'</span><small>'+a.mins+'分</small>';tot+=a.score;n++;if(a.score<CUT)low++;cls+=' has'+(a.score<CUT?' low':a.score>=PASS?' good':'');}
       else if(run){txt='中';cls+=' none';}
       else if(set&&set.ready){txt=todayKey()>=rd.sat?'受験':'—';cls+=' none';}
       else{txt='準備';cls+=' na';}
-      h+='<td><button class="'+cls+'" type="button" data-act="mk-open" data-s="'+x.k+'" data-r="'+rd.r+'"'+(ok?'':' disabled')+' aria-label="'+esc('第'+rd.r+'回 '+x.n+(a?' '+a.score+'点・'+a.mins+'分':''))+'">'+txt+'</button></td>';});
+      h+='<td><button class="'+cls+'" type="button" data-act="mk-open" data-s="'+x.k+'" data-r="'+rd.r+'"'+(ok?'':' disabled')+' aria-label="'+esc(''+rLabel(rd.r)+' '+x.n+(a?' '+a.score+'点・'+a.mins+'分':''))+'">'+txt+'</button></td>';});
     h+='<td class="mt">'+(n===7?'<b class="'+(tot>=420&&!low?'good':'bad')+'">'+tot+'</b>':n?'<small>'+n+'/7</small>':'')+'</td></tr>';});
   h+='</tbody></table></div><div class="legend"><span>数字＝得点（下は所要時間）</span><span>受験・— ＝受けられる（—は予定日の前）</span><span>準備＝問題を作成中</span><span>合計の緑＝420点以上かつ40点未満なし</span></div></section>';
   // 受験の記録：毎回の所要時間と得点（2回目からも残す。この回の得点として数えるのは1回目）
@@ -1572,7 +1574,7 @@ function viewMock(){
   if(recs.length){
     var nth={};ST.mock.slice().sort(function(x,y){return x.at-y.at;}).forEach(function(a){var k=a.s+'-'+a.r;nth[k]=(nth[k]||0)+1;a._n=nth[k];});
     h+='<section class="sec"><div class="sec-h"><span>受験の記録（所要時間と得点）</span></div><div class="d4-tw"><table class="d4-tbl mrec"><thead><tr><th scope="col">日付</th><th scope="col">回</th><th scope="col">科目</th><th scope="col">得点</th><th scope="col">所要時間</th></tr></thead><tbody>'
-      +recs.map(function(a){var lim=mLim(a.s,a.r);return '<tr><th scope="row">'+md(new Date(a.at))+'</th><td>第'+a.r+'回'+(a._n>1?'<small>'+a._n+'回目</small>':'')+'</td><td>'+esc(SN[a.s]?SN[a.s].sh:a.s)+'</td><td class="'+(a.score<CUT?'lo':a.score>=PASS?'hi':'')+'">'+a.score+'点</td><td>'+a.mins+'分<small>制限'+lim+'分'+(a.auto?'・時間切れ':'')+'</small></td></tr>';}).join('')
+      +recs.map(function(a){var lim=a.lim||(mStale(a)?0:mLim(a.s,a.r));return '<tr><th scope="row">'+md(new Date(a.at))+'</th><td>'+rLabel(a.r)+''+(a._n>1?'<small>'+a._n+'回目</small>':'')+'</td><td>'+esc(SN[a.s]?SN[a.s].sh:a.s)+'</td><td class="'+(a.score<CUT?'lo':a.score>=PASS?'hi':'')+'">'+a.score+'点</td><td>'+a.mins+'分<small>'+(lim?'制限'+lim+'分':'')+(a.auto?'・時間切れ':'')+'</small></td></tr>';}).join('')
       +'</tbody></table></div></section>';
   }
   return h;
@@ -1585,7 +1587,7 @@ function loadMockSet(s,r){
 function openMock(s,r){
   var run=ST.mockRun;
   if(run&&!(run.s===s&&run.r===r)){toast('受験中の模擬試験を先に終えてください');s=run.s;r=run.r;}
-  UI.mock={s:s,r:r,phase:'load',i:0,confirm:false,early:false};
+  UI.mock={s:s,r:r,phase:'load',i:0,confirm:false,early:false,again:false};
   $('#mock').hidden=false;renderMock();
   loadMockSet(s,r).then(function(){
     var m=UI.mock;if(!m)return;
@@ -1612,7 +1614,7 @@ function renderMock(){
   if(!m){el.hidden=true;el.innerHTML='';return;}
   el.hidden=false;
   var rd=mRound(m.r),set=DATA.mset[m.s+'-'+m.r],sub=SN[m.s],lim=mLim(m.s,m.r),run=ST.mockRun;
-  var title='<span class="p-title">'+esc(sub.n)+'<small>模擬試験 第'+m.r+'回・'+lim+'分</small></span>';
+  var title='<span class="p-title">'+esc(sub.n)+'<small>模擬試験 '+rLabel(m.r)+'・'+lim+'分</small></span>';
   var h;
   if(m.phase==='load'||!set){el.innerHTML='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut"><p class="fine">問題を読み込んでいます…</p></div></div>';return;}
   var its=set.items,n=its.length;
@@ -1622,14 +1624,14 @@ function renderMock(){
      +'<div class="m-info"><div><b>'+lim+'</b><span>分</span></div><div><b>'+n+'</b><span>問</span></div><div><b>100</b><span>点</span></div></div>'
      +'<p class="fine">配点：'+Object.keys(pp).sort().reverse().map(function(p){return p+'点×'+pp[p]+'問';}).join('・')+'。予定日：'+dlabel(mDayOf(m.s)===1?rd.sat:rd.sun)+'（'+mDayOf(m.s)+'日目）。</p>'
      +'<ul class="m-rules"><li>本試験と同じく、提出するまで正誤は出ません。</li><li>時間になると自動で提出します。途中で閉じても時間は進みます。</li><li>「見直す」の印を付けた問題は、解答の一覧で分かります。</li><li>この回の得点として記録するのは1回目の結果です。</li></ul>'
-     +(early?'<p class="note">予定日の前です。前倒しで受けると、この回の結果として記録します。</p>':'')
+     +(m.again?'<p class="note">2回目以降の結果は「受験の記録」に残ります。この回の得点として記録するのは、1回目の結果のままです。</p>':early?'<p class="note">予定日の前です。前倒しで受けると、この回の結果として記録します。</p>':'')
      +'</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-close">閉じる</button>'
-     +(early&&!m.early?'<button class="btn" type="button" data-act="mk-early">前倒しで受ける</button>':'<button class="btn primary" type="button" data-act="mk-start">開始する</button>')+'</div>';
+     +(early&&!m.early&&!m.again?'<button class="btn" type="button" data-act="mk-early">前倒しで受ける</button>':'<button class="btn primary" type="button" data-act="mk-start">開始する</button>')+'</div>';
     el.innerHTML=h;return;
   }
   if(m.phase==='exam'||m.phase==='list'){
     var done=Object.keys(run.ans).length,left=runLeft();
-    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる（時間は進みます）">×</button><span class="p-title">'+esc(sub.sh)+' 第'+m.r+'回<small>解答 '+done+'/'+n+'</small></span><span class="ptimer'+(left<5*60000?' warn':'')+'" id="mtimer">'+fmtClock(Math.max(0,left))+'</span><button class="btn small ghost" type="button" data-act="mk-list" aria-pressed="'+(m.phase==='list')+'">一覧</button></div>';
+    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる（時間は進みます）">×</button><span class="p-title">'+esc(sub.sh)+' '+rLabel(m.r)+'<small>解答 '+done+'/'+n+'</small></span><span class="ptimer'+(left<5*60000?' warn':'')+'" id="mtimer">'+fmtClock(Math.max(0,left))+'</span><button class="btn small ghost" type="button" data-act="mk-list" aria-pressed="'+(m.phase==='list')+'">一覧</button></div>';
     if(m.phase==='list'){
       var un=its.filter(function(it){return run.ans[it.no]==null;}).length,fl=its.filter(function(it){return run.flag&&run.flag[it.no];}).length;
       h+='<div class="p-scroll"><div class="p-body gut"><p class="fine">番号を押すと、その問題に戻ります。●＝解答済み、☆＝見直す印。</p><div class="mgrid">'+its.map(function(it,i){var a=run.ans[it.no];
@@ -1647,7 +1649,7 @@ function renderMock(){
   var a=m.att;
   if(m.phase==='review'){
     var it2=its[m.i],mk=a.ans[it2.no],good=mk===it2.a,tn=it2.t&&DATA.items[it2.t]?topicName({t:it2.t}):'';
-    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-back" aria-label="結果に戻る">←</button><span class="p-title">'+esc(sub.sh)+' 第'+m.r+'回<small>'+mNo(it2.no)+'</small></span></div><div class="p-scroll"><div class="p-body gut">'
+    h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-back" aria-label="結果に戻る">←</button><span class="p-title">'+esc(sub.sh)+' '+rLabel(m.r)+'<small>'+mNo(it2.no)+'</small></span></div><div class="p-scroll"><div class="p-body gut">'
      +mItemHTML(it2,mk,true)
      +'<div class="res '+(good?'ok':'ng')+'"><div class="res-h">'+(good?'正解':mk==null?'未解答':'不正解')+'<span class="res-a">正しくは '+LT[it2.a]+'</span></div><p>'+esc(it2.e)+'</p>'+(it2.x?'<div class="res-x">'+renderContent(it2.x)+'</div>':'')
      +'<div class="row-act">'+(it2.t&&hasText(m.s,it2.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+m.s+'" data-sec="'+esc(it2.t)+'">テキストで確認</button>':'')+(tn?'<span class="fine">'+esc(tn)+'</span>':'')+'</div></div>'
@@ -1655,14 +1657,18 @@ function renderMock(){
     el.innerHTML=h;return;
   }
   // 結果
-  var GA=mGroupStats(its,a.ans,m.s);
+  var atts=ST.mock.filter(function(x){return x.r===m.r&&x.s===m.s;}).sort(function(x,y){return x.at-y.at;}),ai=atts.indexOf(a),stale=mStale(a),alim=a.lim||(stale?0:lim);
+  var GA=stale?[]:mGroupStats(its,a.ans,m.s);
   h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-close" aria-label="閉じる">×</button>'+title+'</div><div class="p-scroll"><div class="p-body gut">'
    +'<div class="score"><b>'+a.score+'</b><span>/ 100点（'+a.ok+'/'+a.total+'問正解）</span></div>'
    +'<p class="note">'+(a.score>=PASS?'60点以上です。':a.score>=CUT?'40点以上ですが、60点に'+(PASS-a.score)+'点届いていません。':'40点未満です。本試験では足切りになります。')+'</p>'
-   +'<p class="m-time">所要時間 <b>'+a.mins+'</b>分<span class="fine">（制限'+lim+'分'+(a.auto?'・時間切れで提出':'・残り'+Math.max(0,lim-a.mins)+'分')+'）</span></p>'
-   +'<p class="fine">'+md(new Date(a.at))+'に受験。問題を押すと、解説を見られます。</p>';
+   +'<p class="m-time">所要時間 <b>'+a.mins+'</b>分'+(alim?'<span class="fine">（制限'+alim+'分'+(a.auto?'・時間切れで提出':'・残り'+Math.max(0,alim-a.mins)+'分')+'）</span>':'')+'</p>'
+   +(atts.length>1?'<div class="m-atts" role="group" aria-label="受けた回">'+atts.map(function(x,i){return '<button class="btn small'+(x===a?'':' ghost')+'" type="button" data-act="mk-att" data-i="'+i+'" aria-pressed="'+(x===a)+'">'+(i+1)+'回目 '+x.score+'点</button>';}).join('')+'</div>':'')
+   +(ai>0?'<p class="fine">'+(ai+1)+'回目の結果です。この回の得点として記録しているのは、1回目の'+atts[0].score+'点です。</p>':'')
+   +(stale?'<p class="note">この回の問題は、受けたあとに作り直しました。得点と時間は残っていますが、問題ごとの見直しはできません。</p>':'<p class="fine">'+md(new Date(a.at))+'に受験。問題を押すと、解説を見られます。</p>')
+   +'<div class="row-act"><button class="btn small" type="button" data-act="mk-again">もう一度受ける</button><span class="fine">2回目以降も記録に残ります（この回の得点は1回目のまま）</span></div>';
   if(GA.length)h+=mRadarSec(GA);
-  h+='<section class="sec"><div class="sec-h"><span>問題ごとの結果</span></div><div>'+its.map(function(it,i){var mk=a.ans[it.no],good=mk===it.a;
+  if(!stale)h+='<section class="sec"><div class="sec-h"><span>問題ごとの結果</span></div><div>'+its.map(function(it,i){var mk=a.ans[it.no],good=mk===it.a;
     return '<button class="mres" type="button" data-act="mk-rv" data-i="'+i+'"><span class="ms-n">'+mNo(it.no).replace('（',' <small>').replace('）','</small>')+'</span><span class="mres-a">あなた '+(mk==null?'－':LT[mk])+'・正解 '+LT[it.a]+'</span><span class="mres-p">'+it.p+'点</span><b class="'+(good?'ok':'ng')+'">'+(good?'○':'×')+'</b></button>';}).join('')+'</div></section>';
   h+='</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-close">閉じる</button><button class="btn primary" type="button" data-act="mk-tab">模擬試験の一覧</button></div>';
   el.innerHTML=h;
@@ -1751,7 +1757,7 @@ function submitMock(auto){
   var ok=0,score=0;set.items.forEach(function(it){if(run.ans[it.no]===it.a){ok++;score+=it.p;}});
   var maxP=mMaxPts(set);if(maxP>0&&maxP!==100)score=Math.round(score*100/maxP);
   var end=Math.min(Date.now(),run.t0+mLim(run.s,run.r)*60000),mins=Math.max(1,Math.round((end-run.t0)/60000));
-  var at={id:uid('m'),r:run.r,s:run.s,at:Date.now(),score:score,ok:ok,total:set.items.length,ans:Object.assign({},run.ans),flag:Object.assign({},run.flag||{}),mins:mins,auto:!!auto,early:!!run.early};
+  var at={id:uid('m'),r:run.r,s:run.s,lim:mLim(run.s,run.r),at:Date.now(),score:score,ok:ok,total:set.items.length,ans:Object.assign({},run.ans),flag:Object.assign({},run.flag||{}),mins:mins,auto:!!auto,early:!!run.early};
   var G0={};mGroupStats(set.items,at.ans,run.s).forEach(function(x){G0[x.g]=[x.got,x.poss];});at.g=G0;   // 論点ごとの [得点, 配点]（推移のグラフに使う）
   ST.mock.push(at);ST.mockRun=null;if(!ST.timer)bumpDay({min:mins});save();
   m.phase='result';m.att=at;m.confirm=false;renderMock();schedRender();
@@ -1764,7 +1770,7 @@ function judgeMock(){
   var h='<section class="sec"><div class="sec-h"><span>模擬試験の結果</span></div>';
   if(!rows.length)return h+'<p class="fine">模擬試験を受けると、回ごとの合計点と、40点未満の科目の数をここに出します。</p></section>';
   return h+'<ul class="list">'+rows.map(function(x){var pass=x.n===7&&x.tot>=420&&!x.low;
-    return '<li class="todo"><div class="todo-t"><b>第'+x.rd.r+'回（'+md(parseYmd(x.rd.sat))+'）</b><span>'+(x.n<7?x.n+'/7科目・':'')+'合計'+x.tot+'点'+(x.low?'・40点未満'+x.low+'科目':'')+'</span></div>'+(x.n===7?'<span class="pill '+(pass?'good':'bad')+'">'+(pass?'合格基準を満たす':'合格基準に未達')+'</span>':'')+'</li>';}).join('')+'</ul></section>';
+    return '<li class="todo"><div class="todo-t"><b>'+rLabel(x.rd.r)+'（'+md(parseYmd(x.rd.sat))+'）</b><span>'+(x.n<7?x.n+'/7科目・':'')+'合計'+x.tot+'点'+(x.low?'・40点未満'+x.low+'科目':'')+'</span></div>'+(x.n===7?'<span class="pill '+(pass?'good':'bad')+'">'+(pass?'合格基準を満たす':'合格基準に未達')+'</span>':'')+'</li>';}).join('')+'</ul></section>';
 }
 function mockKey(act,b){
   var m=UI.mock,run=ST.mockRun;
@@ -1772,6 +1778,8 @@ function mockKey(act,b){
     case 'mk-open':openMock(b.dataset.s,+b.dataset.r);return true;
     case 'mk-close':if(run&&m&&(m.phase==='exam'||m.phase==='list'))toast('閉じても時間は進みます');closeMock();return true;
     case 'mk-early':if(m){m.early=true;renderMock();}return true;
+    case 'mk-again':if(m){m.phase='intro';m.again=true;m.early=false;renderMock();var sc=$('#mock .p-scroll');if(sc)sc.scrollTop=0;}return true;
+    case 'mk-att':if(m){var L=ST.mock.filter(function(x){return x.r===m.r&&x.s===m.s;}).sort(function(x,y){return x.at-y.at;}),ix=+b.dataset.i;if(L[ix]){m.att=L[ix];renderMock();}}return true;
     case 'mk-start':startMock();return true;
     case 'mk-pick':{if(!m||!run)return true;var set=DATA.mset[m.s+'-'+m.r],it=set.items[m.i],v=+b.dataset.v;if(run.ans[it.no]===v)delete run.ans[it.no];else run.ans[it.no]=v;save();renderMock();return true;}
     case 'mk-prev':if(m&&m.i>0){m.i--;if(run)run.i=m.i;save();renderMock();var sp=$('#mock .p-scroll');if(sp)sp.scrollTop=0;}return true;
