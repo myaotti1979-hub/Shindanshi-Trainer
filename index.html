@@ -267,6 +267,37 @@ h2.ttl{margin:0;font-size:20px;font-weight:900;line-height:1.35;text-wrap:balanc
 .tx-trap b{color:var(--warn)}
 .tx-hl h3{color:var(--drop)}
 .tx-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+/* しおり・論点の印・読んだ時間（v76） */
+.tx-bar{flex:none;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 10px;padding-block:8px;border-bottom:1px solid var(--guide);background:var(--paper)}
+.tx-bar>div,.mk-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.rbc,.mkc{appearance:none;font:inherit;font-size:12.5px;font-weight:700;line-height:1.3;border-radius:999px;border:1.5px solid var(--guide);background:transparent;color:var(--ink-2);padding:6px 12px;min-height:36px;cursor:pointer}
+.rbc{color:var(--drop)}
+.mkc.i[aria-pressed=true]{background:var(--warn-soft);border-color:var(--warn);color:var(--warn)}
+.mkc.u[aria-pressed=true]{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.mk-l{font-size:12.5px;color:var(--ink-2);margin-right:2px}
+.mkb{display:inline-flex;align-items:center;border-radius:999px;padding:0 8px;font-size:11px;font-weight:700;line-height:1.75;white-space:nowrap}
+.mkb.i{background:var(--warn-soft);color:var(--warn)}
+.mkb.u{background:var(--bad-soft);color:var(--bad)}
+.mkb.bm{background:var(--guide-soft);color:var(--drop)}
+.mkbs{display:inline-flex;flex-wrap:wrap;gap:4px;margin-left:6px;vertical-align:1px}
+.mkbs:empty{display:none}
+.s-meta .mkbs{margin-left:0}
+.rt-row{display:flex;justify-content:flex-end;margin-top:-8px}
+.tx-tag{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:700;color:var(--drop);margin-bottom:-4px}
+.bm-tag>span{display:inline-flex;align-items:baseline;gap:6px;background:var(--drop);color:var(--paper);padding:2px 12px 2px 8px;border-radius:4px 999px 999px 4px}
+.bm-tag small{font-size:11px;font-weight:500}
+.anc-tag::before{content:"";width:10px;height:10px;border-radius:50%;border:2.5px solid var(--drop)}
+.tx-anc{box-shadow:-5px 0 0 var(--paper),-8px 0 0 var(--drop)}
+.tx-tm{flex:none;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tx-tm:empty{display:none}
+.tx-tm::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ink-3)}
+.tx-tm.on{color:var(--good)}
+.tx-tm.on::before{background:var(--good)}
+.mark-list .todo-t b{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.mark-list .row-b{display:flex;gap:6px;flex:none}
+.mark-list .mkbs{margin-left:0}
+.todo>.btn{flex:none;white-space:nowrap}
+.grp details .mk-row{margin:2px 0 8px}
 .grp details{grid-column:1 / -1;font-size:13px;color:var(--ink-2)}
 .grp summary{cursor:pointer;color:var(--drop);font-weight:700;font-size:12.5px;padding-block:6px}
 .grp ul{margin:6px 0 0;padding-left:1.2em}
@@ -639,7 +670,7 @@ nav.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1
 <script>
 (function(){
 'use strict';
-var APP_VER='v75';   // sw.js の VER と同じ値にする
+var APP_VER='v76';   // sw.js の VER と同じ値にする
 var STORE='shindan1';
 
 /* ---------- 定数 ---------- */
@@ -697,7 +728,7 @@ function fsrs(prev,g,now){
 }
 
 /* ---------- 保存（この端末のブラウザ） ---------- */
-function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null,mock:[],mockRun:null,flagDel:{},daysX:{},settingsAt:0};}
+function blankState(){return {v:1,settings:JSON.parse(JSON.stringify(DEF)),srs:{},days:{},past:[],flags:{},timer:null,mock:[],mockRun:null,flagDel:{},daysX:{},settingsAt:0,bm:{},mk:{}};}
 var ST=blankState(), storageOK=true, saveT=0;
 function loadState(){
   try{var j=localStorage.getItem(STORE);if(j){var o=JSON.parse(j);if(o&&o.v===1){ST=Object.assign(blankState(),o);ST.settings=Object.assign({},DEF,o.settings||{});}}}
@@ -742,23 +773,79 @@ function renderContent(src){
   });
   closeList();closeCode();return out.join('');
 }
-function openText(s,ch,sec,fromSess){
-  var T=DATA.text[s];if(!T)return;if(!ch&&sec)ch=T.secCh[sec];if(!ch)return;
-  UI.reader={s:s,ch:ch,sec:sec||null,fromSess:!!fromSess,from2:fromSess===2};$('#reader').hidden=false;renderReader();
-  var sc=$('#reader .p-scroll'),tg=sec?document.getElementById('sec-'+sec.replace(/\./g,'-')):null;
-  if(sc){sc.scrollTop=0;if(tg)sc.scrollTop=Math.max(0,tg.getBoundingClientRect().top-sc.getBoundingClientRect().top-8);}
+// 開く場所：qid（演習・模試の問題）があれば、その問題に関係する箇所（data/tx_anchor.json）。sec があればその節。章だけなら、しおりの位置（なければ先頭）
+// from：どこから開いたか。1（true）＝演習、2＝2次のテキスト、3＝模試の見直し。閉じるとそこに戻る
+function openText(s,ch,sec,from,qid){
+  var T=DATA.text[s];if(!T)return;from=from===true?1:(+from||0);
+  var an=qid?ancOf(s,qid):null;if(an){sec=an.sec;ch=T.secCh[an.sec];}
+  if(!ch&&sec)ch=T.secCh[sec];if(!ch)return;
+  UI.reader={s:s,ch:ch,sec:sec||null,from:from,fromSess:from>0,from2:from===2,q:qid||null,an:an};$('#reader').hidden=false;renderReader();rdLand();
+  if(qid&&!DATA.anchor)loadAnchor().then(function(){   // 場所の表をまだ読み込んでいなかったとき：読み込めたら、その箇所へ移る
+    var r=UI.reader,a=ancOf(s,qid);if(!r||r.q!==qid||r.an||!a)return;
+    r.an=a;r.sec=a.sec;r.ch=T.secCh[a.sec];renderReader();rdLand();
+  });
+}
+/* ---------- テキストの場所（v76） ----------
+   ・問題に関係する箇所：data/tx_anchor.json（build_anchor.py が作る）＝{問題のid: [節のid, 節の中の何番目の要素か（0＝節の見出し）, 節の要素の数]}。
+     要素の数がアプリの表示と合わないとき（テキストを直したあと）は、節の見出しを開く
+   ・しおり（ST.bm）：章（論点）ごとに1つ。{s:科目, sec:節のid, b:要素の番号, n:節の要素の数, at:挟んだ時刻}。外したら {off:1, at}
+   ・論点の印（ST.mk）：論点ごとに {i:重要, u:わからない, at:変えた時刻}
+   ・同期では、章・論点ごとに、変えた時刻（at）が新しいほうを残す */
+function loadAnchor(){
+  if(DATA.anchor)return Promise.resolve(DATA.anchor);
+  if(!DATA.anchorP)DATA.anchorP=fetch('data/tx_anchor.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}).then(function(j){DATA.anchorP=null;if(j)DATA.anchor=j;return DATA.anchor||null;});
+  return DATA.anchorP;
+}
+function ancOf(s,qid){var a=DATA.anchor&&DATA.anchor[qid],T=DATA.text[s];return a&&T&&T.secCh[a[0]]?{sec:a[0],b:a[1],n:a[2]}:null;}
+function bmOf(ch){var b=ST.bm&&ST.bm[ch];return b&&!b.off&&b.sec?b:null;}
+function mkOf(g){var m=ST.mk&&ST.mk[g];return {i:!!(m&&m.i),u:!!(m&&m.u)};}
+function setMk(g,k){var m=mkOf(g),o={i:m.i?1:0,u:m.u?1:0,at:Date.now()};o[k]=o[k]?0:1;if(!ST.mk)ST.mk={};ST.mk[g]=o;save();return !!o[k];}
+function mkBadges(g,ch){var m=mkOf(g),b=ch?bmOf(ch):null;return (m.i?'<span class="mkb i">★ 重要</span>':'')+(m.u?'<span class="mkb u">？ わからない</span>':'')+(b?'<span class="mkb bm">しおり</span>':'');}
+function mkToggles(g){var m=mkOf(g);return '<button class="mkc i" type="button" data-act="gmark" data-g="'+esc(g)+'" data-k="i" aria-pressed="'+m.i+'">★ 重要</button><button class="mkc u" type="button" data-act="gmark" data-g="'+esc(g)+'" data-k="u" aria-pressed="'+m.u+'">？ わからない</button>';}
+function mkRow(g){return '<div class="mk-row" role="group" aria-label="この論点の印"><span class="mk-l">この論点に印</span>'+mkToggles(g)+'</div>';}
+function chTitle(s,ch){var T=DATA.text[s],t='';if(T)T.chapters.forEach(function(c){if(c.id===ch)t=c.title;});return t||(DATA.groups[ch]?DATA.groups[ch].g.n:ch);}
+function secTitle(s,id){var T=DATA.text[s],t='';if(T)T.chapters.forEach(function(c){c.sections.forEach(function(x){if(x.id===id)t=x.title;});});return t;}
+function secEl(id){return document.getElementById('sec-'+String(id).replace(/\./g,'-'));}
+function secBlocks(el){return Array.prototype.filter.call(el.children,function(c){return !c.classList.contains('tx-tag');});}   // 節の要素（しおりなどの札は数えない）
+function rdScroll(){return $('#reader .p-scroll');}
+function rdScrollTo(el,pad){var sc=rdScroll();if(!sc||!el)return;sc.scrollTop=Math.max(0,sc.scrollTop+el.getBoundingClientRect().top-sc.getBoundingClientRect().top-(pad==null?8:pad));}
+function rdPos(){   // いま読んでいる位置＝画面のいちばん上に見えている要素
+  var sc=rdScroll();if(!sc)return null;var top=sc.getBoundingClientRect().top+24,ss=sc.querySelectorAll('.tx-sec'),last=null;
+  for(var i=0;i<ss.length;i++){var bl=secBlocks(ss[i]);for(var j=0;j<bl.length;j++){last={sec:ss[i].dataset.id,b:j,n:bl.length};if(bl[j].getBoundingClientRect().bottom>top)return last;}}
+  return last;
+}
+function bmEl(b){var se=secEl(b.sec);if(!se)return null;var bl=secBlocks(se);return bl.length===b.n&&bl[b.b]?bl[b.b]:se;}
+function rdDecorate(){   // しおりの札と、問題に関係する箇所の印を付け直す
+  var r=UI.reader,root=$('#reader .p-body');if(!r||!root)return;
+  root.querySelectorAll('.tx-tag').forEach(function(x){x.remove();});
+  root.querySelectorAll('.tx-anc').forEach(function(x){x.classList.remove('tx-anc');});
+  var a=r.an,se=a&&a.b>0?secEl(a.sec):null;
+  if(se){var bl=secBlocks(se),t=bl[a.b];if(bl.length===a.n&&t){
+    t.classList.add('tx-anc');var nx=bl[a.b+1];if(t.tagName==='H4'&&nx&&nx.tagName!=='H4')nx.classList.add('tx-anc');
+    var at=document.createElement('div');at.className='tx-tag anc-tag';at.textContent='この問題に関係する箇所';se.insertBefore(at,t);}}
+  var b=bmOf(r.ch),el=b?bmEl(b):null;
+  if(el){var tg=document.createElement('div');tg.className='tx-tag bm-tag';tg.innerHTML='<span>しおり<small>'+md(new Date(b.at))+'に挟んだ位置</small></span><button class="linkbtn sm" type="button" data-act="bm-del">外す</button>';
+    if(el.classList.contains('tx-sec'))el.insertBefore(tg,el.firstChild);else el.parentNode.insertBefore(tg,el);}
+}
+function rdBarHTML(){var r=UI.reader;if(!r)return '';var b=bmOf(r.ch);
+  return '<div>'+(b?'<button class="rbc" type="button" data-act="bm-go">しおりへ</button><button class="rbc" type="button" data-act="bm-set">挟み直す</button>':'<button class="rbc" type="button" data-act="bm-set">しおりを挟む</button>')+'</div><div role="group" aria-label="この論点の印">'+mkToggles(r.ch)+'</div>';}
+function rdBar(){var e=document.getElementById('txbar');if(e)e.innerHTML=rdBarHTML();}
+function rdLand(){   // 開いたときの位置
+  var r=UI.reader,sc=rdScroll();if(!r||!sc)return;sc.scrollTop=0;
+  var el=r.an?($('#reader .anc-tag')||secEl(r.an.sec)):r.sec?secEl(r.sec):bmOf(r.ch)?$('#reader .bm-tag'):null;
+  if(el)rdScrollTo(el,r.an?56:8);   // 問題の箇所は、少し前の文も見えるように上を空ける
 }
 function renderReader(){
   var r=UI.reader,el=$('#reader');
   if(!r){el.hidden=true;el.innerHTML='';return;}
   var chs=DATA.text[r.s].chapters,i=-1;chs.forEach(function(c,j){if(c.id===r.ch)i=j;});var c=chs[i];
   var nq=(DATA.q[r.s]||[]).filter(function(q){return groupOf(q.t)===c.id&&!ST.flags[q.id];}).length;
-  var h='<div class="p-top gut"><button class="icon" type="button" data-act="rd-close" aria-label="閉じる">×</button><span class="p-title">'+esc(c.title)+'<small>'+esc(SN[r.s].n+(c.part?'・'+c.part:''))+'</small></span></div><div class="p-scroll"><div class="p-body gut">';
-  h+=c.sections.map(function(x){return '<section class="tx-sec'+(r.sec===x.id?' tx-hl':'')+'" id="sec-'+x.id.replace(/\./g,'-')+'"><h3>'+esc(x.title)+'</h3>'+renderContent(x.content)+'</section>';}).join('');
+  var h='<div class="p-top gut"><button class="icon" type="button" data-act="rd-close" aria-label="閉じる">×</button><span class="p-title">'+esc(c.title)+'<small>'+esc(SN[r.s].n+(c.part?'・'+c.part:''))+'</small></span><span class="tx-tm" id="txtm"></span></div><div class="tx-bar gut" id="txbar">'+rdBarHTML()+'</div><div class="p-scroll"><div class="p-body gut">';
+  h+=c.sections.map(function(x){return '<section class="tx-sec'+(r.sec===x.id?' tx-hl':'')+'" id="sec-'+x.id.replace(/\./g,'-')+'" data-id="'+esc(x.id)+'"><h3>'+esc(x.title)+'</h3>'+renderContent(x.content)+'</section>';}).join('');
   h+='<div class="tx-nav">'+(i>0?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i-1].id+'">← '+esc(chs[i-1].title)+'</button>':'<span></span>')+(i<chs.length-1?'<button class="linkbtn" type="button" data-act="rd-go" data-ch="'+chs[i+1].id+'">'+esc(chs[i+1].title)+' →</button>':'')+'</div>';
   h+='<p class="fine">公式の出題範囲にそって書き下ろしたテキストです。誤りに気づいたら、Claudeに節の名前を伝えてください。</p></div></div>';
-  h+='<div class="p-foot gut">'+(r.fromSess?'<button class="btn primary wide" type="button" data-act="rd-close">'+(r.from2?'2次のテキストに戻る':'演習に戻る')+'</button>':(nq?'<button class="btn primary wide" type="button" data-act="rd-drill" data-g="'+c.id+'">この章の演習（'+nq+'問）</button>':'<button class="btn ghost wide" type="button" data-act="rd-close">閉じる</button>'))+'</div>';
-  el.innerHTML=h;
+  h+='<div class="p-foot gut">'+(r.fromSess?'<button class="btn primary wide" type="button" data-act="rd-close">'+(r.from2?'2次のテキストに戻る':r.from===3?'模試の見直しに戻る':'演習に戻る')+'</button>':(nq?'<button class="btn primary wide" type="button" data-act="rd-drill" data-g="'+c.id+'">この章の演習（'+nq+'問）</button>':'<button class="btn ghost wide" type="button" data-act="rd-close">閉じる</button>'))+'</div>';
+  el.innerHTML=h;rdDecorate();rtShow();
 }
 function loadData(){
   var files=['syllabus','past'].concat(SUBJ.map(function(s){return 'q_'+s.k;}));
@@ -930,12 +1017,12 @@ function pbar(p,cls){
 function plegend(p){return '<span class="plg" aria-hidden="true"><span><i class="qd ok"></i>正解 '+p.ok+'</span><span><i class="qd ng"></i>不正解 '+p.ng+'</span><span><i class="qd"></i>未回答 '+p.nw+'</span></span>';}
 function pnum(p,lab){return '<div class="pnum"><span>'+(lab||'解いた問題')+'</span><b>'+pdone(p)+'</b><span>/ '+p.tot+'問</span><em>'+pct(pdone(p),p.tot)+'%</em></div>';}
 function pblock(p,lab){return pnum(p,lab)+pbar(p,'big')+plegend(p);}
-// 演習の範囲：s＝科目、g＝論点（中項目）。mode：new＝未回答だけ、ng＝不正解だけ
+// 演習の範囲：s＝科目、g＝論点（中項目）、mk＝印を付けた論点（i＝重要、u＝わからない）。mode：new＝未回答だけ、ng＝不正解だけ
 function scopeFilter(sc){return function(q){
-  if(sc.s&&q.s!==sc.s)return false;if(sc.g&&groupOf(q.t)!==sc.g)return false;
+  if(sc.s&&q.s!==sc.s)return false;if(sc.g&&groupOf(q.t)!==sc.g)return false;if(sc.mk&&!mkOf(groupOf(q.t))[sc.mk])return false;
   if(sc.mode==='new'&&ST.srs[q.id])return false;if(sc.mode==='ng'&&qst(q.id)!=='ng')return false;return true;};}
-function scopeName(sc){if(sc.g){var g=DATA.groups[sc.g];return g?g.g.n:'この論点';}return sc.s&&SN[sc.s]?SN[sc.s].n:'';}
-function scopeProg(sc){return progOf(allQ().filter(scopeFilter({s:sc.s,g:sc.g})));}
+function scopeName(sc){if(sc.g){var g=DATA.groups[sc.g];return g?g.g.n:'この論点';}if(sc.mk)return sc.mk==='u'?'「わからない」の論点':'「重要」の論点';return sc.s&&SN[sc.s]?SN[sc.s].n:'';}
+function scopeProg(sc){return progOf(allQ().filter(scopeFilter({s:sc.s,g:sc.g,mk:sc.mk})));}
 function startScope(sc,first){if(UI.mock&&!ST.mockRun){UI.mock=null;renderMock();}if(UI.sheet){UI.sheet=null;renderSheet();}startSession(10,scopeFilter(sc),false,{scope:sc,first:first});}
 function qtype(q){return q.type==='tf'?'○×':q.type==='combo'?'組み合わせ':'単答';}
 function qrow(q){
@@ -1037,6 +1124,29 @@ function renderNote(){
   else n.hidden=true;
 }
 
+// 今日：しおりを挟んだ章（新しい順に3つまで）
+function bmList(){return Object.keys(ST.bm||{}).map(function(ch){var b=bmOf(ch);return b&&SN[b.s]&&chapterHas(b.s,ch)?{ch:ch,b:b}:null;}).filter(Boolean).sort(function(x,y){return y.b.at-x.b.at;});}
+function bmSec(){
+  var L=bmList();if(!L.length)return '';
+  return '<section class="sec"><div class="sec-h"><span>読みかけのテキスト</span></div><ul class="list">'+L.slice(0,3).map(function(o){var st=secTitle(o.b.s,o.b.sec);
+    return '<li class="todo"><div class="todo-t"><b>'+esc(chTitle(o.b.s,o.ch))+'</b><span>'+esc(SN[o.b.s].n+(st?'・「'+st+'」から':'')+'・'+md(new Date(o.b.at))+'にしおり')+'</span></div><button class="btn small" type="button" data-act="open-text" data-s="'+o.b.s+'" data-ch="'+esc(o.ch)+'">続きを読む</button></li>';}).join('')+'</ul>'
+   +(L.length>3?'<p class="fine">ほかに'+(L.length-3)+'章。演習タブの「印を付けた論点としおり」に、すべて出ます。</p>':'')+'</section>';
+}
+// 演習タブ：印を付けた論点と、しおりを挟んだ章（論点表の順）
+function gOrder(){if(DATA.gOrd)return DATA.gOrd;var o={},n=0;DATA.syl.subjects.forEach(function(sub){sub.parts.forEach(function(p){p.groups.forEach(function(g){o[g.id]=n++;});});});return (DATA.gOrd=o);}
+function markSec(){
+  var seen={},G=[];Object.keys(ST.mk||{}).concat(Object.keys(ST.bm||{})).forEach(function(g){if(seen[g]||!DATA.groups[g])return;seen[g]=1;var m=mkOf(g);if(m.i||m.u||bmOf(g))G.push(g);});
+  if(!G.length)return '';
+  var ord=gOrder();G.sort(function(a,b){return (ord[a]||0)-(ord[b]||0);});
+  function nOf(k){return allQ().filter(function(q){return !ST.flags[q.id]&&mkOf(groupOf(q.t))[k];}).length;}
+  var nu=nOf('u'),ni=nOf('i');
+  function sub(n){return n>10?'全'+n+'問から10問':n+'問';}
+  var h='<section class="sec" id="marks"><div class="sec-h"><span>印を付けた論点としおり</span></div>';
+  if(ni||nu)h+='<div class="go2">'+(nu?'<button class="btn primary" type="button" data-act="drill-mk" data-k="u">わからない論点から<small>'+sub(nu)+'</small></button>':'')+(ni?'<button class="btn'+(nu?'':' primary')+'" type="button" data-act="drill-mk" data-k="i">重要な論点から<small>'+sub(ni)+'</small></button>':'')+'</div>';
+  h+='<ul class="list mark-list">'+G.map(function(g){var D=DATA.groups[g],s=D.s,ht=chapterHas(s,g),gq=(DATA.q[s]||[]).some(function(q){return groupOf(q.t)===g&&!ST.flags[q.id];});
+    return '<li class="todo"><div class="todo-t"><b>'+esc(D.g.n)+'<span class="mkbs">'+mkBadges(g,ht?g:null)+'</span></b><span>'+esc(SN[s]?SN[s].n:s)+'</span></div><div class="row-b">'+(ht?'<button class="btn small ghost" type="button" data-act="open-text" data-s="'+s+'" data-ch="'+esc(g)+'">テキスト</button>':'')+(gq?'<button class="btn small" type="button" data-act="drill-group" data-g="'+esc(g)+'">演習</button>':'')+'</div></li>';}).join('')+'</ul>';
+  return h+'<p class="fine">印は、テキストの上の「★ 重要」「？ わからない」か、演習の答え合わせの下で付け外しできます。しおりは、テキストの上の「しおりを挟む」で挟みます。</p></section>';
+}
 function viewToday(){
   var c=counts(),td=dayRec(todayKey()),total=c.due+c.newToday,weak=weakTopics(3);
   var act=ST.settings.active.map(function(k){return SN[k]?SN[k].sh:k;}).join('・')||'なし';
@@ -1049,10 +1159,12 @@ function viewToday(){
   h+='<p class="fine">今日 '+(td.ans||0)+'問・正答率 '+(td.ans?Math.round((td.cor||0)/td.ans*100):0)+'%・学習中：'+esc(act)+'</p></section>';
   var todo=nextTodos();
   if(todo.length)h+='<section class="sec"><div class="sec-h"><span>次にやること</span></div><ul class="list">'+todo.map(function(t){return '<li class="todo"><div class="todo-t"><b>'+esc(t.t)+'</b><span>'+esc(t.d)+'</span></div>'+(t.act?'<button class="btn small" type="button" '+t.act+'>'+esc(t.b)+'</button>':'')+'</li>';}).join('')+'</ul></section>';
+  h+=bmSec();
   if(weak.length)h+='<section class="sec"><div class="sec-h"><span>苦手な論点</span></div><ul class="list">'+weak.map(function(w){var g=DATA.groups[w.g];return '<li class="todo"><div class="todo-t"><b>'+esc(g?g.g.n:w.g)+'</b><span>'+esc(SN[w.s].n)+'・正答率'+w.acc+'%'+(w.cw?'・自信を持って誤答'+w.cw+'回':'')+'</span></div><button class="btn small" type="button" data-act="drill-group" data-g="'+esc(w.g)+'">10問</button></li>';}).join('')+'</ul></section>';
   h+='<section class="sec"><div class="sec-h"><span>学習タイマー</span></div><div class="timer"><span class="tface" id="tface">'+(ST.timer?fmtClock(Date.now()-ST.timer):'00:00')+'</span>'
    +(ST.timer?'<button class="btn primary" type="button" data-act="t-stop">止めて記録</button>':'<button class="btn" type="button" data-act="t-start">計測を始める</button>')+'</div>'
-   +'<div class="addrow"><span class="fine">テキストや過去問で学んだ時間を足す</span><button class="btn small ghost" type="button" data-act="add-min" data-m="15">+15分</button><button class="btn small ghost" type="button" data-act="add-min" data-m="30">+30分</button><button class="btn small ghost" type="button" data-act="add-min" data-m="60">+60分</button></div></section>';
+   +'<div class="addrow"><span class="fine">アプリの外（紙の本・講義など）で学んだ時間を足す</span><button class="btn small ghost" type="button" data-act="add-min" data-m="15">+15分</button><button class="btn small ghost" type="button" data-act="add-min" data-m="30">+30分</button><button class="btn small ghost" type="button" data-act="add-min" data-m="60">+60分</button></div>'
+   +'<p class="fine">演習・テキストを読んだ時間・模擬試験・時間を計った過去問は、自動で記録します（テキストは、5分間操作がないと止まります）。学習タイマーで計測している間は、二重に数えないよう自動の記録を止めます。</p></section>';
   h+='<section class="sec"><div class="sec-h"><span>今週の7日間</span></div>'+weekBubbles()+'</section>';
   return h;
 }
@@ -1082,6 +1194,7 @@ function viewDrill(){
   SUBJ.forEach(function(x){var p=progIndex(x.k).sub;per[x.k]=p;Object.keys(all).forEach(function(f){all[f]+=p[f];});});
   var h='<section class="sheet"><div class="sec-h"><span>演習の進み具合</span></div>'+pblock(all)
    +'<p class="fine">「不正解」は、最後に解いたときに間違えた問題です。科目名を押すと、論点ごとの進み具合と問題の一覧を開き、未回答の問題だけを解けます。</p></section>';
+  h+=markSec();
   h+=weakSec();
   h+='<section class="sec"><div class="sec-h"><span>科目と論点表</span></div><p class="fine">「学習中」の科目から、新しい問題が1日'+ST.settings.newPerDay+'問まで「今日」の演習に出ます。復習はすべての科目から出ます。</p><div class="subjs">';
   SUBJ.forEach(function(x){var st=subjStats(x.k),p=per[x.k],on=ST.settings.active.indexOf(x.k)>=0;
@@ -1105,9 +1218,9 @@ function viewSyllabus(k){
   sub.parts.forEach(function(pt){
     h+='<section class="sec">'+(pt.n?'<div class="sec-h"><span>'+esc(pt.n)+'</span></div>':'');
     pt.groups.forEach(function(g){var gp=ix.g[g.id]||blankP(),a=acc[g.id],ht=chapterHas(k,g.id);
-      h+='<div class="grp"><span class="grp-n">'+esc(g.n)+'</span><span class="grp-m">'+(gp.tot?nwj([gp.nw?'解いた '+pdone(gp)+' / '+gp.tot+'問':'<b class="alldone">'+gp.tot+'問すべて解いた</b>',gp.nw?'未回答 '+gp.nw:'',gp.ng?'不正解 '+gp.ng:'',a!=null?'正答率'+a+'%':'']):'問題なし')+'</span><span class="grp-b">'+(ht?'<button class="btn small ghost" type="button" data-act="open-text" data-s="'+k+'" data-ch="'+g.id+'">テキスト</button>':'')+(gp.tot?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g.id+'">演習</button>':'')+'</span>'
+      h+='<div class="grp"><span class="grp-n">'+esc(g.n)+'<span class="mkbs">'+mkBadges(g.id,ht?g.id:null)+'</span></span><span class="grp-m">'+(gp.tot?nwj([gp.nw?'解いた '+pdone(gp)+' / '+gp.tot+'問':'<b class="alldone">'+gp.tot+'問すべて解いた</b>',gp.nw?'未回答 '+gp.nw:'',gp.ng?'不正解 '+gp.ng:'',a!=null?'正答率'+a+'%':'']):'問題なし')+'</span><span class="grp-b">'+(ht?'<button class="btn small ghost" type="button" data-act="open-text" data-s="'+k+'" data-ch="'+g.id+'">テキスト</button>':'')+(gp.tot?'<button class="btn small" type="button" data-act="drill-group" data-g="'+g.id+'">演習</button>':'')+'</span>'
        +(gp.tot?pbar(gp):'')
-       +'<details data-g="'+g.id+'"'+(open[g.id]?' open':'')+'><summary>問題の一覧（細目'+g.items.length+'・'+gp.tot+'問）</summary>'+qlist(k,g,ix)+'</details></div>';});
+       +'<details data-g="'+g.id+'"'+(open[g.id]?' open':'')+'><summary>問題の一覧（細目'+g.items.length+'・'+gp.tot+'問）</summary>'+mkRow(g.id)+qlist(k,g,ix)+'</details></div>';});
     h+='</section>';
   });
   h+='<p class="fine">出典：'+esc(DATA.syl.source)+'</p>';
@@ -1404,7 +1517,8 @@ function renderSession(){
   if(s.confirmEnd)h+='<div class="endbar gut"><span>ここまでの結果を記録して終わりますか？</span><button class="btn small primary" type="button" data-act="s-end">終わる</button><button class="btn small ghost" type="button" data-act="s-continue">続ける</button></div>';
   var st0=s.i>=s.n0?'again':(s.st0&&s.st0[id])||'new';
   var stc=st0==='again'?'<span class="chip st ng">もう一度</span>':st0==='new'?'<span class="chip st new">初めて解く</span>':'<span class="chip st'+(st0==='ng'?' ng':'')+'">復習・前回は'+(st0==='ng'?'不正解':'正解')+'</span>';
-  h+='<div class="p-scroll"><div class="p-body gut"><div class="s-meta"><span class="chip">'+esc(SN[q.s].n)+'</span>'+stc+'<span class="s-topic">'+esc(topicName(q))+'</span>'+(q.st==='draft'?'<span class="chip draft">検証前</span>':'')+'</div>';
+  var qg=groupOf(q.t);
+  h+='<div class="p-scroll"><div class="p-body gut"><div class="s-meta"><span class="chip">'+esc(SN[q.s].n)+'</span>'+stc+'<span class="s-topic">'+esc(topicName(q))+'</span><span class="mkbs" id="smk" data-g="'+esc(qg)+'">'+mkBadges(qg)+'</span>'+(q.st==='draft'?'<span class="chip draft">検証前</span>':'')+'</div>';
   h+='<p class="s-q">'+esc(q.q)+'</p>';
   if(q.fig)h+='<div class="fig">'+q.fig+'</div>';
   if(q.type==='combo'&&q.stm)h+='<div class="stmts">'+q.stm.map(function(t,i){return '<p><b>'+'abcde'[i]+'</b><span>'+esc(t)+'</span></p>';}).join('')+'</div>';
@@ -1421,7 +1535,9 @@ function renderSession(){
   if(rev){
     var ansTxt=isTF(q)?(q.a?'○':'×'):LT[q.a];
     h+='<div class="res '+(ok?'ok':'ng')+'" aria-live="polite"><div class="res-h">'+(ok?'正解':'不正解')+'<span class="res-a">正しくは '+ansTxt+'</span></div><p>'+esc(q.e)+'</p>'+(q.x?'<div class="res-x">'+renderContent(q.x)+'</div>':'')+(q.ref?'<p class="ref">根拠：'+esc(q.ref)+'</p>':'')
-     +'<div class="row-act">'+(hasText(q.s,q.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+q.s+'" data-sec="'+esc(q.t)+'">テキストで確認</button>':'')+(ST.flags[id]?'<span class="fine">報告済み（演習から外しました）</span>':'<button class="linkbtn" type="button" data-act="flag">誤りを報告</button>')+'<span class="fine">問題番号 '+esc(id)+'</span></div></div>';
+     +'<div class="row-act">'+(hasText(q.s,q.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+q.s+'" data-sec="'+esc(q.t)+'" data-q="'+esc(id)+'">テキストで確認</button>':'')+(ST.flags[id]?'<span class="fine">報告済み（演習から外しました）</span>':'<button class="linkbtn" type="button" data-act="flag">誤りを報告</button>')+'<span class="fine">問題番号 '+esc(id)+'</span></div></div>';
+    if(qg&&DATA.groups[qg])h+=mkRow(qg);
+    loadAnchor();
   }
   h+='</div></div><div class="p-foot gut">'+(rev?'<button class="btn primary wide" type="button" data-act="next">次へ</button>':'<p class="fine center">'+(s.phase==='answer'?(isTF(q)?'正しければ○、誤りなら×':'答えを1つ選ぶ'):'自信を選ぶと答え合わせ')+'</p>')+'</div>';
   el.innerHTML=h;
@@ -1652,9 +1768,10 @@ function renderMock(){
     h='<div class="p-top gut"><button class="icon" type="button" data-act="mk-back" aria-label="結果に戻る">←</button><span class="p-title">'+esc(sub.sh)+' '+rLabel(m.r)+'<small>'+mNo(it2.no)+'</small></span></div><div class="p-scroll"><div class="p-body gut">'
      +mItemHTML(it2,mk,true)
      +'<div class="res '+(good?'ok':'ng')+'"><div class="res-h">'+(good?'正解':mk==null?'未解答':'不正解')+'<span class="res-a">正しくは '+LT[it2.a]+'</span></div><p>'+esc(it2.e)+'</p>'+(it2.x?'<div class="res-x">'+renderContent(it2.x)+'</div>':'')
-     +'<div class="row-act">'+(it2.t&&hasText(m.s,it2.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+m.s+'" data-sec="'+esc(it2.t)+'">テキストで確認</button>':'')+(tn?'<span class="fine">'+esc(tn)+'</span>':'')+'</div></div>'
+     +'<div class="row-act">'+(it2.t&&hasText(m.s,it2.t)?'<button class="linkbtn" type="button" data-act="open-text" data-s="'+m.s+'" data-sec="'+esc(it2.t)+'" data-q="'+esc(it2.id||'')+'">テキストで確認</button>':'')+(tn?'<span class="fine">'+esc(tn)+'</span>':'')+'</div></div>'
+     +(it2.t&&DATA.groups[groupOf(it2.t)]?mkRow(groupOf(it2.t)):'')
      +'</div></div><div class="p-foot two gut"><button class="btn ghost" type="button" data-act="mk-back">結果に戻る</button>'+(m.i<n-1?'<button class="btn primary" type="button" data-act="mk-rv" data-i="'+(m.i+1)+'">次の問題</button>':'<button class="btn primary" type="button" data-act="mk-back">結果に戻る</button>')+'</div>';
-    el.innerHTML=h;return;
+    el.innerHTML=h;loadAnchor();return;
   }
   // 結果
   var atts=ST.mock.filter(function(x){return x.r===m.r&&x.s===m.s;}).sort(function(x,y){return x.at-y.at;}),ai=atts.indexOf(a),stale=mStale(a),alim=a.lim||(stale?0:lim);
@@ -1798,7 +1915,7 @@ function mockKey(act,b){
 }
 
 /* ---------- 小さな操作 ---------- */
-function toast(msg,undo){var t=$('#toast');t.innerHTML='<span>'+esc(msg)+'</span>'+(undo?'<button class="linkbtn inv" type="button" data-act="undo-add">取り消す</button>':'');t.hidden=false;clearTimeout(UI.toastT);UI.toastT=setTimeout(function(){t.hidden=true;},undo?6000:2800);}
+function toast(msg,undo,ms){var t=$('#toast');t.innerHTML='<span>'+esc(msg)+'</span>'+(undo?'<button class="linkbtn inv" type="button" data-act="undo-add">取り消す</button>':'');t.hidden=false;clearTimeout(UI.toastT);UI.toastT=setTimeout(function(){t.hidden=true;},ms||(undo?6000:2800));}
 function setTab(t){UI.tab=t;UI.setDraft=null;UI.confirmImport=null;try{localStorage.setItem(STORE+'-tab',t);}catch(e){}$('#main').scrollTop=0;render();}
 function setStage(s){UI.stage=s;try{localStorage.setItem(STORE+'-stage',s);}catch(e){}$('#main').scrollTop=0;render();}
 
@@ -1918,6 +2035,7 @@ function viewJText(){
     if(found){
       h+='<section class="sec"><div class="sec-h"><span>'+esc(found.ch.title)+'</span></div>';
       if(UI.jtFrom)h+='<button class="linkbtn back" type="button" data-act="jt-ret">← 過去問に戻る</button>';
+      h+='<div class="rt-row"><span class="tx-tm" id="jttm"></span></div>';   // 読んだ時間（自動で記録）
       h+='<div class="sheet"><div class="tx-sec"><h3>'+esc(found.sec.title)+'</h3>'+renderJ2(found.sec.content)+'</div>';
       // Prev/Next nav
       var allSecs=[];
@@ -2439,10 +2557,19 @@ document.addEventListener('click',function(ev){
     case 'drill-new':startScope(b.dataset.g?{g:b.dataset.g,mode:'new'}:{s:b.dataset.s,mode:'new'});break;
     case 'drill-ng':startScope(b.dataset.g?{g:b.dataset.g,mode:'ng'}:{s:b.dataset.s,mode:'ng'});break;
     case 'drill-q':{var dq=DATA.qById[b.dataset.id];if(dq)startScope({g:groupOf(dq.t)},dq.id);break;}
-    case 'open-text':openText(b.dataset.s,b.dataset.ch||null,b.dataset.sec||null,!!(UI.sess&&!$('#sess').hidden));break;
-    case 'rd-close':UI.reader=null;renderReader();break;
-    case 'rd-go':if(UI.reader){UI.reader.ch=b.dataset.ch;UI.reader.sec=null;renderReader();var rs=$('#reader .p-scroll');if(rs)rs.scrollTop=0;}break;
-    case 'rd-drill':{var rg=b.dataset.g;UI.reader=null;renderReader();startScope({g:rg});break;}
+    case 'open-text':openText(b.dataset.s,b.dataset.ch||null,b.dataset.sec||null,UI.sess&&!$('#sess').hidden?1:(UI.mock&&!$('#mock').hidden?3:0),b.dataset.q||null);break;
+    case 'rd-close':UI.reader=null;renderReader();rtTick(Date.now());break;
+    case 'rd-go':if(UI.reader){UI.reader.ch=b.dataset.ch;UI.reader.sec=null;UI.reader.an=null;UI.reader.q=null;renderReader();var rs=$('#reader .p-scroll');if(rs)rs.scrollTop=0;}break;
+    case 'rd-drill':{var rg=b.dataset.g;UI.reader=null;renderReader();rtTick(Date.now());startScope({g:rg});break;}
+    case 'bm-set':{var br=UI.reader,bp=rdPos();if(!br||!bp)break;var had=!!bmOf(br.ch);if(!ST.bm)ST.bm={};ST.bm[br.ch]={s:br.s,sec:bp.sec,b:bp.b,n:bp.n,at:Date.now()};save();
+      rdDecorate();rdBar();var btg=$('#reader .bm-tag');if(btg)rdScrollTo(btg,4);toast(had?'しおりを挟み直しました':'しおりを挟みました');schedRender();break;}
+    case 'bm-go':{var bgt=$('#reader .bm-tag');if(bgt)rdScrollTo(bgt,4);break;}
+    case 'bm-del':{var dch=b.dataset.ch||(UI.reader&&UI.reader.ch);if(!dch||!bmOf(dch))break;ST.bm[dch]={off:1,at:Date.now()};save();if(UI.reader&&UI.reader.ch===dch){rdDecorate();rdBar();}toast('しおりを外しました');schedRender();break;}
+    case 'gmark':{var gg=b.dataset.g,gk=b.dataset.k==='u'?'u':'i',gon=setMk(gg,gk);
+      document.querySelectorAll('.mkc').forEach(function(x){if(x.dataset.g===gg&&x.dataset.k===gk)x.setAttribute('aria-pressed',String(gon));});
+      var smk=document.getElementById('smk');if(smk&&smk.dataset.g===gg)smk.innerHTML=mkBadges(gg);
+      toast((gk==='i'?'「重要」':'「わからない」')+(gon?'の印を付けました':'の印を外しました'));schedRender();break;}
+    case 'drill-mk':startScope({mk:b.dataset.k==='u'?'u':'i'});break;
     case 'drill-subj':startScope({s:b.dataset.s});break;
     case 'open-syl':UI.drillSub=b.dataset.s;$('#main').scrollTop=0;render();break;
     case 'close-syl':UI.drillSub=null;render();break;
@@ -2457,8 +2584,8 @@ document.addEventListener('click',function(ev){
     case 's-end':finishSession();break;
     case 's-continue':if(s){s.confirmEnd=false;renderSession();}break;
     case 's-done':UI.sess=null;renderSession();render();break;
-    case 's-more':{var sc0=s&&s.scope;UI.sess=null;renderSession();if(sc0)startScope({s:sc0.s,g:sc0.g});else{var c=counts();startSession(10,null,c.due+c.newToday===0);}render();break;}
-    case 's-new':case 's-ng':{var sc1=s&&s.scope;UI.sess=null;renderSession();if(sc1)startScope({s:sc1.s,g:sc1.g,mode:a==='s-new'?'new':'ng'});render();break;}
+    case 's-more':{var sc0=s&&s.scope;UI.sess=null;renderSession();if(sc0)startScope({s:sc0.s,g:sc0.g,mk:sc0.mk});else{var c=counts();startSession(10,null,c.due+c.newToday===0);}render();break;}
+    case 's-new':case 's-ng':{var sc1=s&&s.scope;UI.sess=null;renderSession();if(sc1)startScope({s:sc1.s,g:sc1.g,mk:sc1.mk,mode:a==='s-new'?'new':'ng'});render();break;}
     case 'flag':{if(!s)break;var fid=s.q[s.i];ST.flags[fid]={at:Date.now()};save();toast('報告しました。「学習」タブに残ります');renderSession();break;}
     case 'unflag':delete ST.flags[b.dataset.id];ST.flagDel=ST.flagDel||{};ST.flagDel[b.dataset.id]=Date.now();save();toast('演習に戻しました');render();break;
     case 'toggle-active':{var k=b.dataset.s,act=ST.settings.active;ST.settings.active=SUBJ.map(function(x){return x.k;}).filter(function(x){return x===k?act.indexOf(k)<0:act.indexOf(x)>=0;});ST.settingsAt=Date.now();save();render();break;}
@@ -2653,7 +2780,53 @@ document.addEventListener('keydown',function(ev){
   else if(s.phase==='conf'){if(k==='1')answerConf('sure');else if(k==='2')answerConf('unsure');else if(k==='3')answerConf('guess');}
   else if(s.phase==='reveal'&&k==='enter'){ev.preventDefault();nextCard();}
 });
+/* ---------- テキストを読んだ時間（v76） ----------
+   1次のテキスト（章）か2次のテキスト（節）が画面に出ている間、最後の操作（スクロール・タップ・クリック・キー・マウスの移動）から5分以内だけ数え、学習時間（days）に足す。
+   数えない：学習タイマーで計測中（タイマーの分と二重に数えない）・演習から開いたとき（演習の時間に入る）・模擬試験の実行中・時間を計っている過去問の途中。
+   5分たまるごとと、テキストを閉じたとき・画面を離れたときに、分単位で記録する。1分に満たない分は次に持ち越す（この端末に保存） */
+var RT_IDLE=5*60000,RT={acc:0,last:0,act:Date.now(),sess:0,w:'',st:'',info:lsGet('-rtinfo')};
+RT.acc=Math.min(59999,Math.max(0,Number(lsGet('-rt'))||0));
+function rtWhere(){   // 数える画面：'r'＝1次のテキスト、'j'＝2次のテキストの節、''＝どちらでもない
+  if(UI.reader&&!$('#reader').hidden)return 'r';
+  if(UI.stage==='s2'&&UI.tab2==='jtext'&&UI.jtSec&&DATA2._textLoaded)return 'j';
+  return '';
+}
+function rtBlock(w){   // 数えない理由（ほかで計っている時間）
+  if(ST.timer)return 'timer';
+  if(w==='r'&&UI.reader.from===1)return 'sess';
+  if(ST.mockRun)return 'mock';
+  var m=UI.sheet;if(m&&m.t0&&m.phase==='mark')return 'sheet';
+  return '';
+}
+function rtMin(){return RT.sess+Math.floor(RT.acc/60000);}
+function rtLabel(){var st=RT.st;return st==='on'?'記録中 '+rtMin()+'分':st==='idle'?'休止中 '+rtMin()+'分':st==='timer'?'タイマーで計測中':st==='sess'?'演習の時間に含む':st==='mock'?'模試の時間に含む':st==='sheet'?'過去問の時間に含む':'';}
+function rtShow(){
+  var t=rtLabel(),tip=RT.st==='idle'?'5分間操作がないため止めています。スクロールなどで再開します':RT.st==='on'?'テキストを読んだ時間を、自動で学習時間に記録しています':'';
+  ['txtm','jttm'].forEach(function(id){var e=document.getElementById(id);if(!e)return;if(e.textContent!==t)e.textContent=t;e.classList.toggle('on',RT.st==='on');if(e.title!==tip)e.title=tip;});
+}
+function rtFlush(fin){
+  var m=Math.floor(RT.acc/60000);
+  if(m>=1){RT.acc-=m*60000;RT.sess+=m;bumpDay({min:m});renderHeader();}
+  lsSet('-rt',String(Math.round(RT.acc)));
+  if(fin){if(RT.sess>=1)toast('テキストを読んだ'+RT.sess+'分を、学習時間に記録しました');RT.sess=0;}
+}
+function rtTick(now){
+  var w=rtWhere(),bl=w?rtBlock(w):'',idle=now-RT.act>RT_IDLE,on=!!w&&!bl&&!idle&&document.visibilityState==='visible';
+  if(on&&RT.last)RT.acc+=Math.min(Math.max(0,now-RT.last),5000);
+  RT.last=on?now:0;
+  if(RT.w&&!w)rtFlush(true);              // テキストを閉じた
+  else if(RT.acc>=5*60000)rtFlush(false);
+  RT.w=w;RT.st=!w?'':bl||(idle?'idle':'on');
+  if(on&&!RT.info){RT.info='1';lsSet('-rtinfo','1');toast('テキストを読んだ時間は、自動で学習時間に記録します（5分間操作がないと止まります）',false,6000);}
+  rtShow();
+}
+function rtAct(){RT.act=Date.now();}
+['pointerdown','keydown','wheel','touchstart','scroll'].forEach(function(t){document.addEventListener(t,rtAct,{capture:true,passive:true});});
+document.addEventListener('pointermove',function(){var n=Date.now();if(n-RT.act>2000)RT.act=n;},{passive:true});
+document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden'){rtFlush(false);saveNow();}});
+window.addEventListener('pagehide',function(){rtFlush(false);saveNow();});
 setInterval(function(){
+  rtTick(Date.now());
   if(ST.timer){var f=document.getElementById('tface');if(f)f.textContent=fmtClock(Date.now()-ST.timer);}
   if(UI.d4t0&&!UI.d4chk){var dck=document.getElementById('d4clock');if(dck)dck.textContent=fmtClock(Date.now()-UI.d4t0);}
   if(UI.k2Id&&UI.stage==='s2'&&UI.tab2==='jkako'){var kck=document.getElementById('k2clock'),kcr=ST2.k2[UI.k2Id];if(kck&&kcr){var kms=k2Ms(kcr);kck.textContent=k2Clock(kcr);kck.classList.toggle('over',kms>K2MIN*60000);kck.classList.toggle('warn',kms<=K2MIN*60000&&kms>(K2MIN-10)*60000);
@@ -2672,6 +2845,7 @@ setInterval(renderHeader,60000);
 // ・過去問・模擬試験の結果：id で合わせる（どちらの端末の結果も残す）
 // ・報告（flags）：報告した時刻と、演習に戻した時刻（flagDel）の新しいほう
 // ・設定：変えた時刻（settingsAt）が新しいほう。同じならクラウドのほう
+// ・テキストのしおり（bm）・論点の印（mk）：章・論点ごとに、変えた時刻（at）が新しいほう
 // ・学習時間（days）：端末ごとに保存して合計する（二重に数えない・消えない）。ほかの端末の分は daysX
 // ・実行中の模擬試験（mockRun）とタイマーは、その端末だけ
 // 保存先：users/{uid}/sync/state（j に上の記録の JSON）、users/{uid}/days/{端末のid}（j に学習時間の JSON）、users/{uid}/sync/s2（j に2次の記録の JSON。合わせ方は sync2 の上）
@@ -2685,7 +2859,7 @@ function devId(){var d=lsGet('-dev');if(!d){d=uid('d');lsSet('-dev',d);}return d
 function devName(){var u=navigator.userAgent||'';return /Android/i.test(u)?'Android':/iPhone|iPad/i.test(u)?'iPhone・iPad':/Windows/i.test(u)?'Windows':/Macintosh/i.test(u)?'Mac':'この端末';}
 function dayRec(k){var o={min:0,ans:0,cor:0,nw:0},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){var v=D&&D[k];if(v){o.min+=v.min||0;o.ans+=v.ans||0;o.cor+=v.cor||0;o.nw+=v.nw||0;}});return o;}
 function allDayKeys(){var m={},L=[ST.days];Object.keys(ST.daysX||{}).forEach(function(d){L.push(ST.daysX[d]);});L.forEach(function(D){Object.keys(D||{}).forEach(function(k){m[k]=1;});});return Object.keys(m);}
-function syncPart(S){return JSON.parse(JSON.stringify({srs:S.srs||{},past:S.past||[],mock:S.mock||[],flags:S.flags||{},flagDel:S.flagDel||{},settings:S.settings||{},settingsAt:S.settingsAt||0}));}
+function syncPart(S){return JSON.parse(JSON.stringify({srs:S.srs||{},past:S.past||[],mock:S.mock||[],flags:S.flags||{},flagDel:S.flagDel||{},settings:S.settings||{},settingsAt:S.settingsAt||0,bm:S.bm||{},mk:S.mk||{}}));}
 // base：問題の id ごとの [att,cor,reps,lapses]（前の同期でクラウドにあった値）。{} は「前の同期なし」＝両方の回数を足す。null は「わからない」＝多いほう
 var CNT=['att','cor','reps','lapses'];
 function cntOf(srs){var c={};Object.keys(srs||{}).forEach(function(k){var r=srs[k]||{};c[k]=CNT.map(function(f){return r[f]||0;});});return c;}
@@ -2706,11 +2880,13 @@ function mergeSync(L,R,base){
   Object.keys(fk).forEach(function(k){var fa=Math.max(fat(lf[k]),fat(rf[k])),da=Math.max(ld[k]||0,rd[k]||0);if(fa>da)o.flags[k]={at:fa};if(da)o.flagDel[k]=da;});
   var la=L.settingsAt||0,ra=R.settingsAt||0;
   if(la>ra){o.settings=L.settings||{};o.settingsAt=la;}else{o.settings=R.settings||L.settings||{};o.settingsAt=ra;}
+  // しおり（bm）と論点の印（mk）：章・論点ごとに、変えた時刻（at）が新しいほう（外した・消した記録も at で残すので、ほかの端末で戻らない）
+  ['bm','mk'].forEach(function(f){var x=L[f]||{},y=R[f]||{},z=o[f]={};Object.keys(x).concat(Object.keys(y)).forEach(function(k){var a=x[k],b=y[k];z[k]=!a?b:!b?a:((b.at||0)>(a.at||0)?b:a);});});
   return JSON.parse(JSON.stringify(o));
 }
 function baseGet(u){try{var o=JSON.parse(lsGet('-base')||'null');return o&&o.uid===u?o.c:null;}catch(e){return null;}}
 function baseSet(u,srs){lsSet('-base',JSON.stringify({uid:u,c:cntOf(srs)}));}
-function putSync(mg){ST.srs=mg.srs||{};ST.past=mg.past||[];ST.mock=mg.mock||[];ST.flags=mg.flags||{};ST.flagDel=mg.flagDel||{};ST.settings=Object.assign({},DEF,mg.settings||{});ST.settingsAt=mg.settingsAt||0;}
+function putSync(mg){ST.srs=mg.srs||{};ST.past=mg.past||[];ST.mock=mg.mock||[];ST.flags=mg.flags||{};ST.flagDel=mg.flagDel||{};ST.settings=Object.assign({},DEF,mg.settings||{});ST.settingsAt=mg.settingsAt||0;ST.bm=mg.bm||{};ST.mk=mg.mk||{};}
 /* 2次の記録（ST2）：users/{uid}/sync/s2 に、1次とは別に保存する
    ・記述の答え（ex）：事例・設問ごとに、書いた時刻（at）が新しいほう。同じなら、採点の時刻（grade.at）が新しいほう
    ・事例Ⅳドリルの入力（dr）：問題ごとに、書いた時刻が新しいほう
